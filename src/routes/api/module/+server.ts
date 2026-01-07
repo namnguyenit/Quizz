@@ -2,7 +2,7 @@ import { json } from '@sveltejs/kit';
 import { createClient } from '@libsql/client';
 import { env } from '$env/dynamic/private';
 
-export async function GET({ url }) {
+export async function GET({ url }: { url: URL }) {
 	const id = url.searchParams.get('id')?.trim().toLowerCase();
 	const idsParam = url.searchParams.get('ids');
 	const db = createClient({
@@ -16,7 +16,7 @@ export async function GET({ url }) {
 		if (idsParam) {
 			const ids = idsParam
 				.split(',')
-				.map((x) => x.trim())
+				.map((x: string) => x.trim())
 				.filter(Boolean);
 			if (ids.length > 0) {
 				const placeholders = ids.map(() => '?').join(',');

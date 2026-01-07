@@ -4,6 +4,24 @@
 		<meta charset="utf-8" />
 		<link rel="icon" href="%sveltekit.assets%/favicon.svg" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<script>
+			// FOUC prevention - apply style and font before render
+			(function () {
+				const style = localStorage.getItem('app_style') || 'ember';
+				const font = localStorage.getItem('app_font') || 'plus-jakarta-sans';
+				document.documentElement.setAttribute('data-style', style);
+				const fonts = {
+					'plus-jakarta-sans': "'Plus Jakarta Sans Variable', sans-serif",
+					outfit: "'Outfit Variable', sans-serif",
+					manrope: "'Manrope Variable', sans-serif",
+					'noto-sans': "'Noto Sans Variable', sans-serif"
+				};
+				document.documentElement.style.setProperty(
+					'--font-family',
+					fonts[font] || fonts['plus-jakarta-sans']
+				);
+			})();
+		</script>
 		%sveltekit.head%
 	</head>
 	<body data-sveltekit-preload-data="hover">

@@ -1,7 +1,8 @@
 // Centralized main page state for Sidebar, TopBar, QuizCard, FavoritesModal
 
-import { DEFAULT_FAVORITES_LOCAL } from '../lib/localKeys';
+import { DEFAULT_FAVORITES_LOCAL, STYLE_KEY, FONT_KEY } from '../lib/localKeys';
 import { SvelteSet, SvelteMap } from 'svelte/reactivity';
+import { DEFAULT_STYLE, DEFAULT_FONT, FONTS, type StyleKey, type FontId } from '../lib/theme';
 
 export type Question = { question_id: string; [key: string]: unknown };
 
@@ -56,9 +57,30 @@ export function setCurrentView(newView: 'all' | 'favorites') {
 	}
 }
 
-export const uiState = $state<{ sidebarOpen: boolean; showFavModal: boolean }>({
+export type QuizNav = {
+	id: string;
+	name: string;
+	display_order: number;
+};
+
+export type SubjectNav = {
+	id: string;
+	name: string;
+	display_order: number;
+	description: string;
+	quizzes: QuizNav[];
+};
+
+export const uiState = $state<{
+	sidebarOpen: boolean;
+	showFavModal: boolean;
+	sidebarMode: 'library' | 'questions';
+	navigation: SubjectNav[];
+}>({
 	sidebarOpen: false,
-	showFavModal: false
+	showFavModal: false,
+	sidebarMode: 'library',
+	navigation: []
 });
 
 export function getFavIdList() {
@@ -68,12 +90,91 @@ export function getFavIdList() {
 export const isInitialLoad = $state<boolean>(true);
 
 export const moduleQuizCache = new SvelteMap<string, Quiz[]>();
+
 export function getCurrentQuestion(): Quiz | undefined {
 	return pageState.quizData[pageState.current];
 }
+
 export function getAnswers(): { answer_text: string }[] {
 	const q = getCurrentQuestion();
 	return q && Array.isArray(q.answers)
 		? q.answers.map((a) => (typeof a === 'object' && a !== null ? a : { answer_text: String(a) }))
 		: [];
+}
+
+export async function fetchNavigation() {
+	try {
+		const res = await fetch('/api/nav');
+		const data = await res.json();
+		if (data.subjects) {
+			uiState.navigation = data.subjects;
+		}
+	} catch (err) {
+		console.error('Failed to fetch navigation:', err);
+	}
+}
+
+export async function loadQuiz(quizId: string) {
+	pageState.isLoading = true;
+	try {
+		const res = await fetch(`/api/quiz?id=${quizId}`);
+		const data = await res.json();
+		if (data.quizzes) {
+			pageState.quizData = data.quizzes;
+			pageState.moduleId = quizId;
+			pageState.current = 0;
+			pageState.questionAnswers.clear();
+			pageState.questionLockedStatus.clear();
+			uiState.sidebarMode = 'questions';
+		}
+	} catch (err) {
+		console.error('Failed to load quiz:', err);
+	} finally {
+		pageState.isLoading = false;
+	}
+}
+
+// Style and Font State
+function getInitialStyle(): StyleKey {
+	if (typeof window !== 'undefined') {
+		const stored = localStorage.getItem(STYLE_KEY);
+		if (stored && ['ember', 'violet', 'amber'].includes(stored)) {
+			return stored as StyleKey;
+		}
+	}
+	return DEFAULT_STYLE;
+}
+
+function getInitialFont(): FontId {
+	if (typeof window !== 'undefined') {
+		const stored = localStorage.getItem(FONT_KEY);
+		if (stored && FONTS.some((f) => f.id === stored)) {
+			return stored as FontId;
+		}
+	}
+	return DEFAULT_FONT;
+}
+
+export const styleState = $state<{ style: StyleKey; font: FontId }>({
+	style: getInitialStyle(),
+	font: getInitialFont()
+});
+
+export function setStyle(style: StyleKey) {
+	styleState.style = style;
+	if (typeof window !== 'undefined') {
+		localStorage.setItem(STYLE_KEY, style);
+		document.documentElement.setAttribute('data-style', style);
+	}
+}
+
+export function setFont(font: FontId) {
+	styleState.font = font;
+	if (typeof window !== 'undefined') {
+		localStorage.setItem(FONT_KEY, font);
+		const fontDef = FONTS.find((f) => f.id === font);
+		if (fontDef) {
+			document.documentElement.style.setProperty('--font-family', fontDef.family);
+		}
+	}
 }

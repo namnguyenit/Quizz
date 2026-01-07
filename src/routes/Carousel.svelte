@@ -173,6 +173,8 @@
 	</div>
 {:else}
 	<div class="w-full h-full flex flex-col items-center justify-center">
-		<div class="text-lg text-[#CECDE0] font-medium tracking-wide">No favorite questions</div>
+		<div class="text-lg text-[var(--text-primary)] font-medium tracking-wide">
+			No favorite questions
+		</div>
 	</div>
 {/if}

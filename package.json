@@ -12,7 +12,8 @@
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
 		"lint": "eslint . && prettier --check .",
 		"format": "prettier --write .",
-		"upload-quizzes": "node json_to_sqlite.js"
+		"upload-quizzes": "node json_to_sqlite.js",
+		"sync": "node sync_universal.js"
 	},
 	"devDependencies": {
 		"@eslint/compat": "^1.2.5",
@@ -38,7 +39,10 @@
 	},
 	"packageManager": "bun@1.3.5",
 	"dependencies": {
+		"@fontsource-variable/manrope": "^5.2.8",
 		"@fontsource-variable/noto-sans": "^5.2.7",
+		"@fontsource-variable/outfit": "^5.2.8",
+		"@fontsource-variable/plus-jakarta-sans": "^5.2.8",
 		"@libsql/client": "^0.15.10",
 		"@lucide/svelte": "^0.525.0",
 		"@vercel/analytics": "^1.5.0",
