@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { DEBUG } from '$lib/config';
-	let { isHeld } = $state({ isHeld: false });
+	let isHeld = $state(false);
 	import {
 		Star,
 		ArrowUp,

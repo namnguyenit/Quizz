@@ -86,12 +86,9 @@
 				</button>
 				<ChevronRight size={14} class="hidden md:block text-[var(--border)] flex-shrink-0" />
 				<!-- Quiz name (always shown) -->
-				<button
-					class="text-[var(--color-primary)] font-semibold text-sm truncate hover:underline cursor-pointer"
-					onclick={() => (uiState.sidebarOpen = !uiState.sidebarOpen)}
-				>
+				<span class="text-[var(--color-primary)] font-semibold text-sm truncate">
 					{currentQuiz?.name || 'Quiz'}
-				</button>
+				</span>
 			{:else if appState.currentView === 'favorites'}
 				<Star size={18} class="text-[var(--color-primary)] flex-shrink-0" />
 				<span class="text-[var(--color-primary)] font-semibold text-sm">Favorites</span>

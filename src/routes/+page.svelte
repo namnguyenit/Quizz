@@ -6,7 +6,6 @@
 	import FavoritesModal from './FavoritesModal.svelte';
 	import {
 		DEFAULT_FAVORITES_LOCAL,
-		FAVORITES_LOCAL_KEY,
 		CURRENT_VIEW_KEY,
 		FAVORITE_QUESTIONS_KEY,
 		APPSTATE_ALL_KEY

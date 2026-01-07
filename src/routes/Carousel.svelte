@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { DEBUG } from '$lib/config';
 	import QuizCard from './QuizCard.svelte';
 	import { pageState, favorites, appState } from './global.svelte';
 
@@ -68,28 +69,30 @@
 	}
 
 	function handleAnswerClick(idx: number, questionType: string) {
-		console.log('[handleAnswerClick] called', {
-			idx,
-			questionType,
-			questionLocked: pageState.questionLocked,
-			currentQuestionId: pageState.quizData[pageState.current]?.question_id,
-			lockedStatus: pageState.questionLockedStatus.get(
-				pageState.quizData[pageState.current]?.question_id
-			)
-		});
+		if (DEBUG) {
+			console.log('[handleAnswerClick] called', {
+				idx,
+				questionType,
+				questionLocked: pageState.questionLocked,
+				currentQuestionId: pageState.quizData[pageState.current]?.question_id,
+				lockedStatus: pageState.questionLockedStatus.get(
+					pageState.quizData[pageState.current]?.question_id
+				)
+			});
+		}
 		if (pageState.questionLocked) {
-			console.log('[handleAnswerClick] blocked: pageState.questionLocked');
+			if (DEBUG) console.log('[handleAnswerClick] blocked: pageState.questionLocked');
 			return;
 		}
 		const currentQuestionId = pageState.quizData[pageState.current]?.question_id;
 		if (!currentQuestionId) {
-			console.log('[handleAnswerClick] blocked: no currentQuestionId');
+			if (DEBUG) console.log('[handleAnswerClick] blocked: no currentQuestionId');
 			return;
 		}
 
 		// For single-answer questions, return early if the question is already locked
 		if (questionType === 'single' && pageState.questionLockedStatus.get(currentQuestionId)) {
-			console.log('[handleAnswerClick] blocked: already locked for single');
+			if (DEBUG) console.log('[handleAnswerClick] blocked: already locked for single');
 			return;
 		}
 
@@ -103,11 +106,11 @@
 			}
 		} else {
 			newAnswers = [idx];
-			console.log('[handleAnswerClick] single-answer: locking after selection');
+			if (DEBUG) console.log('[handleAnswerClick] single-answer: locking after selection');
 			checkAnswers();
 		}
 		pageState.questionAnswers.set(currentQuestionId, newAnswers);
-		console.log('[handleAnswerClick] updated answers', newAnswers);
+		if (DEBUG) console.log('[handleAnswerClick] updated answers', newAnswers);
 	}
 
 	function checkAnswers() {

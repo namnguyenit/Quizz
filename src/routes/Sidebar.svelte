@@ -1,6 +1,13 @@
 <script lang="ts">
 	import { Star, X, ArrowLeft } from '@lucide/svelte';
-	import { pageState, favorites, uiState, clearQuiz } from './global.svelte';
+	import {
+		pageState,
+		favorites,
+		uiState,
+		appState,
+		clearQuiz,
+		setCurrentView
+	} from './global.svelte';
 
 	$effect(() => {
 		const btns = document.querySelectorAll('.sidebar-btn');
@@ -18,6 +25,10 @@
 	}
 
 	function handleBackToLibrary() {
+		// If in favorites view, switch back to 'all' view first
+		if (appState.currentView === 'favorites') {
+			setCurrentView('all');
+		}
 		clearQuiz();
 	}
 </script>

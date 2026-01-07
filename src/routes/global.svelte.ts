@@ -4,10 +4,6 @@ import { DEFAULT_FAVORITES_LOCAL, STYLE_KEY, FONT_KEY } from '../lib/localKeys';
 import { SvelteSet, SvelteMap } from 'svelte/reactivity';
 import { DEFAULT_STYLE, DEFAULT_FONT, FONTS, type StyleKey, type FontId } from '../lib/theme';
 
-export type Question = { question_id: string; [key: string]: unknown };
-
-export const favoritesStore = $state<Record<string, Question>>({});
-
 export type Quiz = {
 	question_id: string;
 	question_text: string;
@@ -126,6 +122,10 @@ export async function loadQuiz(quizId: string) {
 			pageState.questionAnswers.clear();
 			pageState.questionLockedStatus.clear();
 			uiState.sidebarMode = 'questions';
+			// Open sidebar on desktop when loading a quiz
+			if (typeof window !== 'undefined' && window.innerWidth >= 768) {
+				uiState.sidebarOpen = true;
+			}
 		}
 	} catch (err) {
 		console.error('Failed to load quiz:', err);

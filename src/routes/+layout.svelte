@@ -38,7 +38,6 @@
 		}
 	});
 
-	// This function should be called when the user confirms the modal (to be implemented in a later subtask)
 	function confirmVersionUpdate() {
 		localStorage.clear();
 		localStorage.setItem(APP_VERSION_KEY, APP_VERSION);
