@@ -6,9 +6,13 @@ import { defineConfig } from 'vite';
 export default defineConfig({
 	plugins: [tailwindcss(), sveltekit(), devtoolsJson()],
 	server: {
-		allowedHosts: [
-			'localhost',
-			'sveltekit.share.zrok.io' // Add your zrok share host here
-		]
+		host: true,
+		port: 30000
+		// allowedHosts: [
+		// 	'localhost',
+		// ]
+	},
+	preview: {
+		port: 30000
 	}
 });
