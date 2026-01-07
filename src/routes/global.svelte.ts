@@ -134,6 +134,17 @@ export async function loadQuiz(quizId: string) {
 	}
 }
 
+export function clearQuiz() {
+	pageState.quizData = [];
+	pageState.moduleId = '';
+	pageState.current = 0;
+	pageState.questionAnswers.clear();
+	pageState.questionLockedStatus.clear();
+	pageState.questionLocked = false;
+	uiState.sidebarMode = 'library';
+	uiState.sidebarOpen = false;
+}
+
 // Style and Font State
 function getInitialStyle(): StyleKey {
 	if (typeof window !== 'undefined') {

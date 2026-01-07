@@ -1,6 +1,6 @@
 <script lang="ts">
 	import QuizCard from './QuizCard.svelte';
-	import { pageState, favorites } from './global.svelte';
+	import { pageState, favorites, appState } from './global.svelte';
 
 	interface CurrentQuestion {
 		question_id?: string;
@@ -57,7 +57,7 @@
 		if (favorites.has(qid)) {
 			favorites.delete(qid);
 			// If in favorites view, remove the question from quizData and update current index
-			if (typeof window !== 'undefined' && localStorage.getItem('currentView') === 'favorites') {
+			if (appState.currentView === 'favorites') {
 				pageState.quizData = pageState.quizData.filter((q) => favorites.has(q.question_id));
 				// Clamp current index to valid range
 				pageState.current = Math.max(0, Math.min(pageState.current, pageState.quizData.length - 1));

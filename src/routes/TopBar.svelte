@@ -1,6 +1,14 @@
 <script lang="ts">
-	import { uiState, appState, pageState, styleState, setStyle, setFont } from './global.svelte';
-	import { ChevronRight } from '@lucide/svelte';
+	import {
+		uiState,
+		appState,
+		pageState,
+		styleState,
+		setStyle,
+		setFont,
+		clearQuiz
+	} from './global.svelte';
+	import { ChevronRight, Menu, Star, ArrowLeft, Trash2, BookOpen } from '@lucide/svelte';
 	import { STYLES, FONTS, type StyleKey, type FontId } from '$lib/theme';
 
 	interface Props {
@@ -10,6 +18,9 @@
 	}
 
 	let { showFavorites, onBackToAll, onClearFavorites }: Props = $props();
+
+	// Check if we're on library view (no quiz loaded and not in favorites)
+	let isLibraryView = $derived(pageState.quizData.length === 0 && appState.currentView === 'all');
 
 	function handleFavoritesClick() {
 		showFavorites();
@@ -42,40 +53,57 @@
 </script>
 
 <div
-	class="top-bar flex flex-row items-center justify-between px-6 py-4 flex-shrink-0 bg-[var(--bg-surface)] border-b border-[var(--border)]"
+	class="top-bar flex flex-row items-center justify-between gap-2 px-3 py-2.5 md:px-4 md:py-3 flex-shrink-0 bg-[var(--bg-surface)] border-b border-[var(--border)]"
 >
-	<div class="flex items-center">
-		<!-- Hamburger -->
-		{#if typeof window !== 'undefined' && window.innerWidth < 768 && !uiState.sidebarOpen}
+	<!-- Left: Hamburger + Breadcrumbs -->
+	<div class="flex items-center gap-2 min-w-0 flex-1">
+		<!-- Hamburger (only show when quiz is loaded) -->
+		{#if !uiState.sidebarOpen && pageState.quizData.length > 0}
 			<button
-				class="hamburger-btn mr-4 bg-[var(--color-primary)] rounded-lg p-2"
+				class="flex-shrink-0 bg-[var(--color-primary)] rounded-lg p-2"
 				aria-label="Open sidebar"
 				onclick={() => (uiState.sidebarOpen = true)}
 			>
-				<span class="block w-6 h-[3px] bg-[var(--bg-primary)] my-1"></span>
-				<span class="block w-6 h-[3px] bg-[var(--bg-primary)] my-1"></span>
-				<span class="block w-6 h-[3px] bg-[var(--bg-primary)] my-1"></span>
+				<Menu size={20} class="text-[var(--bg-primary)]" />
 			</button>
 		{/if}
 
-		<!-- Breadcrumbs -->
-		<div class="flex items-center gap-2 text-sm md:text-base font-medium overflow-hidden">
-			{#if currentSubject}
-				<span class="text-[var(--text-secondary)] whitespace-nowrap">{currentSubject.name}</span>
-				<ChevronRight size={16} class="text-[var(--border)] flex-shrink-0" />
-				<span class="text-[var(--color-primary)] font-bold truncate"
-					>{currentQuiz?.name || 'Quiz'}</span
+		<!-- Title / Breadcrumbs -->
+		<div class="flex items-center gap-1.5 min-w-0">
+			{#if isLibraryView}
+				<!-- Library View Title -->
+				<BookOpen size={20} class="text-[var(--color-primary)] flex-shrink-0" />
+				<span class="text-[var(--color-primary)] font-semibold text-sm md:text-base"
+					>Quiz Library</span
 				>
+			{:else if currentSubject}
+				<!-- Desktop: Full breadcrumb -->
+				<button
+					class="hidden md:inline text-[var(--text-secondary)] text-sm whitespace-nowrap hover:text-[var(--color-primary)] hover:underline cursor-pointer"
+					onclick={() => clearQuiz()}
+				>
+					{currentSubject.name}
+				</button>
+				<ChevronRight size={14} class="hidden md:block text-[var(--border)] flex-shrink-0" />
+				<!-- Quiz name (always shown) -->
+				<button
+					class="text-[var(--color-primary)] font-semibold text-sm truncate hover:underline cursor-pointer"
+					onclick={() => (uiState.sidebarOpen = !uiState.sidebarOpen)}
+				>
+					{currentQuiz?.name || 'Quiz'}
+				</button>
 			{:else if appState.currentView === 'favorites'}
-				<span class="text-[var(--color-primary)] font-bold">Favorites</span>
+				<Star size={18} class="text-[var(--color-primary)] flex-shrink-0" />
+				<span class="text-[var(--color-primary)] font-semibold text-sm">Favorites</span>
 			{:else}
-				<span class="text-[var(--color-primary)] font-bold">Select a Quiz</span>
+				<span class="text-[var(--text-secondary)] text-sm">Loading...</span>
 			{/if}
 		</div>
 	</div>
 
-	<div class="flex gap-2 items-center">
-		<!-- Style/Font Selectors (hidden on mobile) -->
+	<!-- Right: Actions -->
+	<div class="flex gap-1.5 md:gap-2 items-center flex-shrink-0">
+		<!-- Style/Font Selectors (desktop only) -->
 		<div class="hidden md:flex gap-2 items-center">
 			<select
 				class="style-select"
@@ -101,21 +129,46 @@
 		</div>
 
 		{#if appState.currentView === 'all'}
+			<!-- Mobile: Icon only -->
 			<button
-				class="cursor-pointer rounded-md px-3 py-1.5 bg-[var(--color-primary)] text-[var(--bg-primary)] text-sm font-bold transition-transform active:scale-95"
+				class="md:hidden p-2 rounded-lg bg-[var(--color-primary)] text-[var(--bg-primary)]"
+				onclick={handleFavoritesClick}
+				aria-label="View favorites"
+			>
+				<Star size={18} />
+			</button>
+			<!-- Desktop: Text button -->
+			<button
+				class="hidden md:block cursor-pointer rounded-md px-3 py-1.5 bg-[var(--color-primary)] text-[var(--bg-primary)] text-sm font-bold transition-transform active:scale-95"
 				onclick={handleFavoritesClick}
 			>
 				Favorites
 			</button>
 		{:else}
+			<!-- Mobile: Icon buttons -->
 			<button
-				class="cursor-pointer rounded-md px-3 py-1.5 bg-[var(--color-primary)] text-[var(--bg-primary)] text-sm font-bold transition-transform active:scale-95"
+				class="md:hidden p-2 rounded-lg bg-[var(--color-primary)] text-[var(--bg-primary)]"
+				onclick={handleBackClick}
+				aria-label="Go back"
+			>
+				<ArrowLeft size={18} />
+			</button>
+			<button
+				class="md:hidden p-2 rounded-lg bg-[var(--bg-hover)] text-[var(--color-error)] border border-[var(--color-error)]"
+				onclick={handleClearFavorites}
+				aria-label="Clear favorites"
+			>
+				<Trash2 size={18} />
+			</button>
+			<!-- Desktop: Text buttons -->
+			<button
+				class="hidden md:block cursor-pointer rounded-md px-3 py-1.5 bg-[var(--color-primary)] text-[var(--bg-primary)] text-sm font-bold transition-transform active:scale-95"
 				onclick={handleBackClick}
 			>
 				Back
 			</button>
 			<button
-				class="cursor-pointer rounded-md px-3 py-1.5 bg-[var(--bg-hover)] text-[var(--color-error)] text-sm font-bold border border-[var(--color-error)] transition-transform active:scale-95"
+				class="hidden md:block cursor-pointer rounded-md px-3 py-1.5 bg-[var(--bg-hover)] text-[var(--color-error)] text-sm font-bold border border-[var(--color-error)] transition-transform active:scale-95"
 				onclick={handleClearFavorites}
 			>
 				Clear
