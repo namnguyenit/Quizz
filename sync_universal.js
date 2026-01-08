@@ -12,20 +12,6 @@ const db = createClient({
 
 function parseQuizContent(filePath) {
 	const content = readFileSync(filePath, 'utf8');
-	if (filePath.endsWith('.md')) {
-		const match =
-			content.match(/```json\n([\s\S]*?)\n```/) || content.match(/```\n([\s\S]*?)\n```/);
-		if (match) {
-			return JSON.parse(match[1]);
-		}
-		// If no code block, try parsing the whole file as JSON (in case it's just a renamed file)
-		try {
-			return JSON.parse(content);
-		} catch (e) {
-			console.error(`Failed to parse JSON from ${filePath}`);
-			return [];
-		}
-	}
 	return JSON.parse(content);
 }
 
@@ -63,6 +49,7 @@ async function run() {
         question_text TEXT NOT NULL,
         question_type TEXT NOT NULL,
         answers TEXT NOT NULL,
+        image_url TEXT,
         status TEXT DEFAULT 'active',
         FOREIGN KEY (collection_id) REFERENCES quiz_collections(id)
       )
@@ -90,7 +77,7 @@ async function run() {
 			});
 
 			const quizFiles = readdirSync(subjectPath).filter(
-				(f) => (f.endsWith('.json') || f.endsWith('.md')) && f !== 'subjectInfo.json'
+				(f) => f.endsWith('.json') && f !== 'subjectInfo.json'
 			);
 
 			for (const file of quizFiles) {
@@ -113,13 +100,14 @@ async function run() {
 				const questions = parseQuizContent(quizPath);
 				for (const q of questions) {
 					await db.execute({
-						sql: 'INSERT INTO questions (question_id, collection_id, question_text, question_type, answers, status) VALUES (?, ?, ?, ?, ?, ?)',
+						sql: 'INSERT INTO questions (question_id, collection_id, question_text, question_type, answers, image_url, status) VALUES (?, ?, ?, ?, ?, ?, ?)',
 						args: [
 							q.question_id,
 							collectionId,
 							q.question_text,
 							q.question_type,
 							JSON.stringify(q.answers),
+							q.image_url || null,
 							'active'
 						]
 					});

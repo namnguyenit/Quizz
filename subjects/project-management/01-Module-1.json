@@ -1,0 +1,458 @@
+[
+	{
+		"question_id": "pm-m1-q1",
+		"question_text": "As someone seeking an entry-level project management position, you regularly check a popular job listings website for current openings. Which of the following roles are likely seeking a person with your project management skills? Select all that apply.",
+		"question_type": "multiple_answer_question",
+		"answers": [
+			{
+				"answer_text": "Project/Program Coordinator",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Procurement Specialist",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Project Support Specialist",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Project Administrator",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "pm-m1-q2",
+		"question_text": "As you search through job boards looking for project management jobs, which of the following job titles could make the most sense for you?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "IT specialist",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Administrative assistant",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Operations assistant",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Software engineer",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "pm-m1-q3",
+		"question_text": "Fill in the blank: A/An _____ allows you to work for a company on a project-by-project basis but not as a full-time employee.",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "mentor",
+				"is_correct": false
+			},
+			{
+				"answer_text": "internship",
+				"is_correct": false
+			},
+			{
+				"answer_text": "contract",
+				"is_correct": true
+			},
+			{
+				"answer_text": "salary",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "pm-m1-q4",
+		"question_text": "As a project manager for a large school district, you are implementing a new telehealth technology that allows students to have virtual health checkups without having to miss school. To start, you organize training sessions for faculty to get them better acquainted with the technology, policies, and procedures for using the new telehealth option. What common project management responsibility is this an example of?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Managing tasks",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Managing company operations",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Controlling costs",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Planning and organizing",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "pm-m1-q5",
+		"question_text": "Fill in the blank: Project management is _____.",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "the practice of decision-making that is carefully planned and designed to meet the project requirements",
+				"is_correct": false
+			},
+			{
+				"answer_text": "the series of tasks that need to be completed to reach a desired outcome",
+				"is_correct": false
+			},
+			{
+				"answer_text": "the application of knowledge, skills, tools, and techniques to meet the project requirements and achieve the desired outcome",
+				"is_correct": true
+			},
+			{
+				"answer_text": "the use of applications that can help you deliver your project on time, and with a successful outcome",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "pm-m1-q6",
+		"question_text": "As the vice-president of your class Philanthropy Club at school, you assembled and led a team of 20 students to plan and execute events like fundraisers, community gatherings, and academic assemblies. What project management skills does your Philanthropy Club experience demonstrate?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Interviewing and hiring",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Budgeting and controlling costs",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Planning and organizing",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Advanced technology skills",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "pm-m1-q7",
+		"question_text": "As a project manager at a small construction firm, your responsibilities include managing tasks on new builds. Which of the following activities does managing tasks involve? Select all that apply.",
+		"question_type": "multiple_answer_question",
+		"answers": [
+			{
+				"answer_text": "Gathering project requirements and creating a project plan",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Overseeing activities that team members do on a daily or weekly basis",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Communicating project milestones",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Controlling costs",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "pm-m1-q8",
+		"question_text": "You’ve been asked to lead a team implementing a new production technique in one of your company’s factories. The implementation process starts next Monday and the company would like you to complete it within two weeks. Implementing a new production technique in a factory is an example of what characteristic of projects?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "A clearly defined beginning and an end",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Communicating project milestones",
+				"is_correct": false
+			},
+			{
+				"answer_text": "A project plan",
+				"is_correct": false
+			},
+			{
+				"answer_text": "A unique endeavor",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "pm-m1-q9",
+		"question_text": "A construction firm needs to hire a project manager to implement a new customer engagement system. Their most experienced candidate has managed only logistics projects in the shipping industry. Why might the firm favor this candidate?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "The candidate can learn skills in one industry and apply them in another.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "The candidate is likely to know a lot about a construction firm’s customers.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Logistics and customer engagement are the same thing.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "The candidate is likely to apply consistent processes to prevent change.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "pm-m1-q10",
+		"question_text": "As you search for project management roles, you find a job listing for an “Executive Development Operations Associate'' with a list of job responsibilities. Which of the following responsibilities tell you that this job is a project management opportunity? Select all that apply.",
+		"question_type": "multiple_answer_question",
+		"answers": [
+			{
+				"answer_text": "Regular office hours at corporate training center",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Travel up to twelve weeks a year",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Plan and organize team objectives and priorities",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Coordinate executive training plans",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "pm-m1-q11",
+		"question_text": "As someone seeking an entry-level project management position, you regularly check a popular job listings website for current openings. Which of the following roles are likely seeking a person with your project management skills? Select all that apply.",
+		"question_type": "multiple_answer_question",
+		"answers": [
+			{
+				"answer_text": "Project/Program Coordinator",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Procurement Specialist",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Project Administrator",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Project Support Specialist",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "pm-m1-q12",
+		"question_text": "Fill in the blank: According to a 2017 Project Management Institute study, industries like manufacturing, construction, information technology, publishing, finance, and oil and gas are experiencing _____ with project management jobs.",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "the same amount of growth compared to other industries",
+				"is_correct": false
+			},
+			{
+				"answer_text": "the least amount of growth compared to other industries",
+				"is_correct": false
+			},
+			{
+				"answer_text": "no growth compared to other industries",
+				"is_correct": false
+			},
+			{
+				"answer_text": "the most amount of growth compared to other industries",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "pm-m1-q13",
+		"question_text": "Fill in the blank: A/An _____ allows you to work for a company on a project-by-project basis but not as a full-time employee.",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "contract",
+				"is_correct": true
+			},
+			{
+				"answer_text": "internship",
+				"is_correct": false
+			},
+			{
+				"answer_text": "mentor",
+				"is_correct": false
+			},
+			{
+				"answer_text": "salary",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "pm-m1-q14",
+		"question_text": "Throughout a project, project managers have to keep project expenses within an expected range. What is this project management responsibility called?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Managing tasks",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Planning and organizing",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Budgeting and controlling costs",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Networking",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "pm-m1-q15",
+		"question_text": "Fill in the blank: _____ is the application of knowledge, skills, tools, and techniques to meet the project requirements and achieve the desired outcome.",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Communication",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Organization",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Project management",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Budget management",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "pm-m1-q16",
+		"question_text": "Project managers need to meet each project's requirements and achieve the desired outcome. To do this, should project managers use the same tools, techniques, and methodologies every day on their projects?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Yes. Project managers should use the same tools, techniques, and methodologies every day—this consistency is key to achieving an optimal outcome.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "No. Project managers should vary tools, techniques, and methodologies throughout a project—this is key to supporting and adapting to a changing project plan.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Maybe. Project managers should adopt whatever tools, techniques, and methodologies that a specific company prefers—this keeps senior management happy.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "pm-m1-q17",
+		"question_text": "As a project manager at a small construction firm, your responsibilities include planning and organizing the start of new builds. Which of the following activities does planning and organizing involve?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Communicating project milestones",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Controlling costs",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Overseeing activities that team members do on a daily or weekly basis",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Gathering project requirements and creating a project plan",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "pm-m1-q18",
+		"question_text": "Fill in the blank: Typically, projects have a(n) _____ beginning and end.",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "broad",
+				"is_correct": false
+			},
+			{
+				"answer_text": "defined",
+				"is_correct": true
+			},
+			{
+				"answer_text": "vague",
+				"is_correct": false
+			},
+			{
+				"answer_text": "immovable",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "pm-m1-q19",
+		"question_text": "A construction firm needs to hire a project manager to implement a new customer engagement system. Their most experienced candidate has managed only logistics projects in the shipping industry. Why might the firm favor this candidate?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Logistics and customer engagement are the same thing.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "The candidate is likely to know a lot about a construction firm’s customers.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "The candidate can learn skills in one industry and apply them in another.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "The candidate is likely to apply consistent processes to prevent change.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "pm-m1-q20",
+		"question_text": "As someone moving to a new location, you have several tasks. You have to plan for the various expenses like boxes and movers. You also have to clearly label the boxes, and manage all of the tasks leading up to and during the move. Which project management skills does the move require? Select all that apply.",
+		"question_type": "multiple_answer_question",
+		"answers": [
+			{
+				"answer_text": "Strong coordination and communication skills",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Deep technical experience",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Organizational ability",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Budget preparation and monitoring",
+				"is_correct": true
+			}
+		]
+	}
+]

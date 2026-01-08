@@ -1,0 +1,232 @@
+[
+	{
+		"question_id": "pm-m3-q1",
+		"question_text": "A project manager creates a timeline and defines all tasks that the team needs to complete. What phase of the project life cycle are they implementing?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Initiate the project",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Making a plan",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Close the project",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Execute and complete tasks",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "pm-m3-q2",
+		"question_text": "Why should project managers always make a plan (phase two) before executing and completing tasks (phase three)?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Because creating a budget, setting a schedule, and determining roles and responsibilities is crucial to executing and completing tasks",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Because creating a budget, setting a schedule, and determining roles and responsibilities is crucial to developing the project charter",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Because executing and completing tasks is crucial to understanding scope, cost, and timeline",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Because executing and completing tasks is crucial to creating a budget, setting a schedule, and determining roles and responsibilities",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "pm-m3-q3",
+		"question_text": "What project management methodology would work best for building a house?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Flexible methodology",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Linear methodology",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Iterative methodology",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Agile methodology",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "pm-m3-q4",
+		"question_text": "As a project manager, you need to plan the catering for the week-long company retreat. The budget is very tight and catering is precise. What is the best project management methodology to use?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Agile methodology",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Lean Six Sigma Methodology",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Define methodology",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Waterfall methodology",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "pm-m3-q5",
+		"question_text": "What is the main advantage of the Waterfall methodology over the Agile approach?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Waterfall focuses on reducing waste within an operation.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Waterfall allows for easy reorganization of tasks as the project progresses.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Waterfall takes a flexible approach, letting teams make adjustments as they go.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Waterfall has clearly defined expectations and helps teams avoid expensive changes to a project once it has started.",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "pm-m3-q6",
+		"question_text": "The Lean Six Sigma approach includes which of the following phases?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Define, measure, analyze, improve, control",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Impact, measure, define, control, analyze",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Measure, define, apply, improve, control",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Connect, control, impact, apply, analyze",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "pm-m3-q7",
+		"question_text": "While planning the project, a project manager considers possible delays, budget changes, and legal issues. What are they trying to reduce by considering these things?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Risks",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Deliverables",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Plans",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Resources",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "pm-m3-q8",
+		"question_text": "A project manager completes a report to communicate final results with the project’s stakeholders. At what stage of the project would this event take place?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Planning",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Closing",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Execution",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Initiation",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "pm-m3-q9",
+		"question_text": "In which project phase does it help to ask questions such as: “Who are the stakeholders?”, “What skills and resources will the project require?”, and “What are the client’s or customer’s goals?”",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Initiate the project",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Make a plan",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Close the project",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Execute the project",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "pm-m3-q10",
+		"question_text": "Which project management approach uses the 5S quality tool, the DMAIC process, and Kanban boards?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Agile",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Scrum",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Lean Six Sigma",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Waterfall",
+				"is_correct": false
+			}
+		]
+	}
+]

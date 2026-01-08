@@ -8,7 +8,15 @@
 		setFont,
 		clearQuiz
 	} from './global.svelte';
-	import { ChevronRight, Menu, Star, ArrowLeft, Trash2, BookOpen } from '@lucide/svelte';
+	import {
+		ChevronRight,
+		Menu,
+		Star,
+		ArrowLeft,
+		Trash2,
+		BookOpen,
+		CircleHelp
+	} from '@lucide/svelte';
 	import { STYLES, FONTS, type StyleKey, type FontId } from '$lib/theme';
 
 	interface Props {
@@ -123,6 +131,15 @@
 					<option value={font.id}>{font.name}</option>
 				{/each}
 			</select>
+
+			<button
+				class="p-1.5 rounded-lg bg-[var(--bg-hover)] text-[var(--color-primary)] hover:bg-[var(--border)] cursor-pointer border border-[var(--border)]"
+				onclick={() => (uiState.showShortcutsModal = true)}
+				aria-label="Keyboard shortcuts"
+				title="Keyboard shortcuts"
+			>
+				<CircleHelp size={18} />
+			</button>
 		</div>
 
 		{#if appState.currentView === 'all'}

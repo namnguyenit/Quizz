@@ -4,6 +4,7 @@
 	import Carousel from './Carousel.svelte';
 	import LibraryGrid from './LibraryGrid.svelte';
 	import FavoritesModal from './FavoritesModal.svelte';
+	import ShortcutsModal from './ShortcutsModal.svelte';
 	import {
 		DEFAULT_FAVORITES_LOCAL,
 		CURRENT_VIEW_KEY,
@@ -133,19 +134,62 @@
 			if (pageState.current < pageState.quizData.length - 1) {
 				pageState.current += 1;
 				pageState.questionAnswers.clear();
+				pageState.questionLockedStatus.clear();
 				pageState.questionLocked = false;
 			}
 		} else if (e.key === 'ArrowLeft' || e.key === 'a' || e.key === 'A') {
 			if (pageState.current > 0) {
 				pageState.current -= 1;
 				pageState.questionAnswers.clear();
+				pageState.questionLockedStatus.clear();
 				pageState.questionLocked = false;
+			}
+		}
+	}
+
+	// Throttled wheel navigation for desktop users
+	let lastWheelTime = 0;
+	const WHEEL_THROTTLE_MS = 250;
+
+	function handleWheelNavigation(e: WheelEvent) {
+		// Skip if user is in an input field
+		if (
+			document.activeElement &&
+			['INPUT', 'SELECT', 'TEXTAREA'].includes((document.activeElement as HTMLElement).tagName)
+		)
+			return;
+
+		// Throttle to prevent rapid navigation
+		const now = Date.now();
+		if (now - lastWheelTime < WHEEL_THROTTLE_MS) return;
+
+		// Only navigate on significant scroll
+		if (Math.abs(e.deltaY) < 10) return;
+
+		if (e.deltaY > 0) {
+			// Scroll down = next question
+			if (pageState.current < pageState.quizData.length - 1) {
+				pageState.current += 1;
+				pageState.questionAnswers.clear();
+				pageState.questionLockedStatus.clear();
+				pageState.questionLocked = false;
+				lastWheelTime = now;
+			}
+		} else if (e.deltaY < 0) {
+			// Scroll up = previous question
+			if (pageState.current > 0) {
+				pageState.current -= 1;
+				pageState.questionAnswers.clear();
+				pageState.questionLockedStatus.clear();
+				pageState.questionLocked = false;
+				lastWheelTime = now;
 			}
 		}
 	}
 
 	$effect(() => {
 		window.addEventListener('keydown', handleKeyNavigation);
+		window.addEventListener('wheel', handleWheelNavigation, { passive: true });
 		if (isInitialLoad) {
 			fetchNavigation();
 			if (appState.currentView === 'favorites') {
@@ -153,7 +197,10 @@
 			}
 			isInitialLoad = false;
 		}
-		return () => window.removeEventListener('keydown', handleKeyNavigation);
+		return () => {
+			window.removeEventListener('keydown', handleKeyNavigation);
+			window.removeEventListener('wheel', handleWheelNavigation);
+		};
 	});
 
 	// Auto-save favorites to localStorage when they change
@@ -176,13 +223,62 @@
 		}
 	});
 
+	// Sync state to URL (replaceState so back button doesn't cycle through questions)
+	$effect(() => {
+		if (typeof window === 'undefined') return;
+
+		const params = new URLSearchParams();
+
+		if (appState.currentView === 'favorites') {
+			params.set('view', 'favorites');
+			if (pageState.quizData.length > 0 && pageState.current >= 0) {
+				params.set('q', String(pageState.current + 1)); // 1-based for user-friendliness
+			}
+		} else if (pageState.moduleId) {
+			params.set('quiz', pageState.moduleId);
+			params.set('q', String(pageState.current + 1)); // 1-based
+		}
+
+		const newSearch = params.toString() ? `?${params.toString()}` : '';
+		const currentSearch = window.location.search;
+
+		// Only update if URL actually changed
+		if (currentSearch !== newSearch) {
+			history.replaceState(null, '', newSearch || '/');
+		}
+	});
+
 	// Initial load state restoration
 	if (typeof window !== 'undefined') {
 		const favArr = JSON.parse(localStorage.getItem(FAVORITE_QUESTIONS_KEY) || '[]');
 		favorites.clear();
 		for (const id of favArr) favorites.add(id);
-		const currentView = (localStorage.getItem(CURRENT_VIEW_KEY) as 'all' | 'favorites') || 'all';
-		setCurrentView(currentView);
+
+		// Parse URL params on initial load
+		const urlParams = new URLSearchParams(window.location.search);
+		const urlQuiz = urlParams.get('quiz');
+		const urlQ = urlParams.get('q');
+		const urlView = urlParams.get('view');
+
+		// URL takes priority over localStorage for view/quiz state
+		if (urlView === 'favorites') {
+			setCurrentView('favorites');
+		} else if (urlQuiz) {
+			setCurrentView('all');
+			// Load quiz from URL, then navigate to question
+			loadQuiz(urlQuiz).then(() => {
+				if (urlQ) {
+					const qIndex = parseInt(urlQ, 10) - 1; // Convert 1-based to 0-based
+					if (qIndex >= 0 && qIndex < pageState.quizData.length) {
+						pageState.current = qIndex;
+					}
+				}
+			});
+		} else {
+			// No URL params, use localStorage
+			const currentView = (localStorage.getItem(CURRENT_VIEW_KEY) as 'all' | 'favorites') || 'all';
+			setCurrentView(currentView);
+		}
 	}
 </script>
 
@@ -280,6 +376,7 @@
 		★
 	</button>
 	<FavoritesModal />
+	<ShortcutsModal />
 
 	<!-- Clear Favorites Confirmation Modal -->
 	{#if showClearConfirm}

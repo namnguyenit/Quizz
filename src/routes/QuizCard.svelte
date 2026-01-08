@@ -25,6 +25,7 @@
 		question?: string;
 		answers?: Array<{ is_correct: boolean }>;
 		question_type: string;
+		image_url?: string | null;
 	}
 
 	interface QuizQuestion {
@@ -327,8 +328,19 @@
 			{/if}
 		</button>
 	</div>
+	<!-- Question Image -->
+	{#if currentQuestion?.image_url}
+		<div class="question-image mb-4">
+			<img
+				src={currentQuestion.image_url}
+				alt="Question illustration"
+				class="w-full max-h-64 object-contain rounded-lg"
+				loading="lazy"
+			/>
+		</div>
+	{/if}
 	<!-- Question Text -->
-	<div class="question-row font-semibold text-lg mb-4">
+	<div class="question-row font-semibold text-lg mb-4 whitespace-pre-line">
 		{#if currentQuestion}
 			{currentQuestion.question_text || currentQuestion.question || ''}
 		{:else}

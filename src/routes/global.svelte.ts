@@ -9,6 +9,7 @@ export type Quiz = {
 	question_text: string;
 	question_type: string;
 	answers: string[];
+	image_url?: string | null;
 	[key: string]: unknown;
 };
 
@@ -70,11 +71,13 @@ export type SubjectNav = {
 export const uiState = $state<{
 	sidebarOpen: boolean;
 	showFavModal: boolean;
+	showShortcutsModal: boolean;
 	sidebarMode: 'library' | 'questions';
 	navigation: SubjectNav[];
 }>({
 	sidebarOpen: false,
 	showFavModal: false,
+	showShortcutsModal: false,
 	sidebarMode: 'library',
 	navigation: []
 });
@@ -143,6 +146,10 @@ export function clearQuiz() {
 	pageState.questionLocked = false;
 	uiState.sidebarMode = 'library';
 	uiState.sidebarOpen = false;
+	// Clear URL when returning to library
+	if (typeof window !== 'undefined') {
+		history.replaceState(null, '', '/');
+	}
 }
 
 // Style and Font State
