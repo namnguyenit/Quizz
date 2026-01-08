@@ -108,49 +108,38 @@
 
 	<!-- Right: Actions -->
 	<div class="flex gap-1.5 md:gap-2 items-center flex-shrink-0">
-		<!-- Mobile: Help button -->
+		<!-- Style/Font Selectors (all screen sizes) -->
+		<select
+			class="style-select"
+			value={styleState.style}
+			onchange={handleStyleChange}
+			aria-label="Select style"
+		>
+			{#each Object.entries(STYLES) as [key, style] (key)}
+				<option value={key}>{style.name}</option>
+			{/each}
+		</select>
+
+		<select
+			class="font-select"
+			value={styleState.font}
+			onchange={handleFontChange}
+			aria-label="Select font"
+		>
+			{#each FONTS as font (font.id)}
+				<option value={font.id}>{font.name}</option>
+			{/each}
+		</select>
+
+		<!-- Help button -->
 		<button
-			class="md:hidden p-2 rounded-lg bg-[var(--bg-hover)] text-[var(--color-primary)] border border-[var(--border)]"
+			class="p-1.5 rounded-lg bg-[var(--bg-hover)] text-[var(--color-primary)] hover:bg-[var(--border)] cursor-pointer border border-[var(--border)]"
 			onclick={() => (uiState.showShortcutsModal = true)}
 			aria-label="Tips and gestures"
 			title="Tips and gestures"
 		>
 			<CircleHelp size={18} />
 		</button>
-
-		<!-- Style/Font Selectors (desktop only) -->
-		<div class="hidden md:flex gap-2 items-center">
-			<select
-				class="style-select"
-				value={styleState.style}
-				onchange={handleStyleChange}
-				aria-label="Select style"
-			>
-				{#each Object.entries(STYLES) as [key, style] (key)}
-					<option value={key}>{style.name}</option>
-				{/each}
-			</select>
-
-			<select
-				class="font-select"
-				value={styleState.font}
-				onchange={handleFontChange}
-				aria-label="Select font"
-			>
-				{#each FONTS as font (font.id)}
-					<option value={font.id}>{font.name}</option>
-				{/each}
-			</select>
-
-			<button
-				class="p-1.5 rounded-lg bg-[var(--bg-hover)] text-[var(--color-primary)] hover:bg-[var(--border)] cursor-pointer border border-[var(--border)]"
-				onclick={() => (uiState.showShortcutsModal = true)}
-				aria-label="Keyboard shortcuts"
-				title="Keyboard shortcuts"
-			>
-				<CircleHelp size={18} />
-			</button>
-		</div>
 
 		{#if appState.currentView === 'all'}
 			<!-- Mobile: Icon only -->
