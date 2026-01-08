@@ -10,7 +10,9 @@
 		Square,
 		SquareCheck,
 		Check,
-		X
+		X,
+		ChevronLeft,
+		ChevronRight
 	} from '@lucide/svelte';
 
 	interface Answer {
@@ -243,6 +245,13 @@
 	bind:this={scrollContainer}
 	class="quiz-card main-scrollbar bg-[var(--bg-surface)] text-[var(--text-primary)] rounded-2xl shadow-lg w-[95vw] h-[95%] md:w-[90%] md:h-auto md:max-h-[80vh] px-4 pt-6 pb-4 relative flex flex-col gap-2 touch-pan-y overflow-y-auto scrollbar-thin scrollbar-thumb-[var(--text-secondary)] scrollbar-track-[var(--bg-surface)]"
 	style="transform: translateY(0px); transition: none;"
+	onwheel={(e) => {
+		// Block scroll wheel navigation when card is scrollable
+		// Navigation will be handled by explicit buttons at edges
+		if (isScrollable.value) {
+			e.stopPropagation();
+		}
+	}}
 	onmousedown={() => {
 		isHeld = true;
 		if (DEBUG) {
@@ -340,7 +349,7 @@
 		</div>
 	{/if}
 	<!-- Question Text -->
-	<div class="question-row font-semibold text-lg mb-4 whitespace-pre-line">
+	<div class="question-row text-lg mb-4 whitespace-pre-line">
 		{#if currentQuestion}
 			{currentQuestion.question_text || currentQuestion.question || ''}
 		{:else}
@@ -449,6 +458,7 @@
 </div>
 
 {#if isScrollable.value}
+	<!-- Mobile: Floating circular buttons -->
 	<button
 		type="button"
 		class="md:hidden fixed bottom-28 left-1/2 -translate-x-1/2 z-10 w-16 h-16 flex items-center justify-center rounded-full bg-[var(--bg-surface)] border-2 border-[var(--color-primary)] shadow-lg transition-opacity duration-200
@@ -463,7 +473,7 @@
 	<button
 		type="button"
 		class="md:hidden fixed bottom-28 left-1/2 -translate-x-1/2 z-10 w-16 h-16 flex items-center justify-center rounded-full bg-[var(--bg-surface)] border-2 border-[var(--color-primary)] shadow-lg transition-opacity duration-200
-							{scrollState.value === 'bottom' && isScrollable.value && current < quizData.length - 1 && !isHeld
+						{scrollState.value === 'bottom' && isScrollable.value && current < quizData.length - 1 && !isHeld
 			? 'opacity-100'
 			: 'opacity-0 pointer-events-none'}"
 		aria-label="Go to next card"
@@ -471,4 +481,28 @@
 	>
 		<ArrowDown class="w-8 h-8 text-[var(--color-primary)]" />
 	</button>
+
+	<!-- Desktop: Text-based navigation buttons above FAB area -->
+	{#if scrollState.value === 'top' && current > 0}
+		<button
+			type="button"
+			class="hidden md:flex fixed bottom-24 right-6 z-10 items-center gap-2 px-5 py-3 rounded-xl bg-[var(--color-primary)] border border-[var(--color-primary)] shadow-xl text-[var(--bg-primary)] font-medium text-base hover:opacity-90 transition-all duration-200 cursor-pointer"
+			aria-label="Go to previous question"
+			onclick={goToPreviousCard}
+		>
+			<ChevronLeft size={20} />
+			<span>Previous Question</span>
+		</button>
+	{/if}
+	{#if scrollState.value === 'bottom' && current < quizData.length - 1}
+		<button
+			type="button"
+			class="hidden md:flex fixed bottom-24 right-6 z-10 items-center gap-2 px-5 py-3 rounded-xl bg-[var(--color-primary)] border border-[var(--color-primary)] shadow-xl text-[var(--bg-primary)] font-medium text-base hover:opacity-90 transition-all duration-200 cursor-pointer"
+			aria-label="Go to next question"
+			onclick={goToNextCard}
+		>
+			<span>Next Question</span>
+			<ChevronRight size={20} />
+		</button>
+	{/if}
 {/if}

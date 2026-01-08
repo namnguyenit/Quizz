@@ -2,7 +2,14 @@
 
 import { DEFAULT_FAVORITES_LOCAL, STYLE_KEY, FONT_KEY } from '../lib/localKeys';
 import { SvelteSet, SvelteMap } from 'svelte/reactivity';
-import { DEFAULT_STYLE, DEFAULT_FONT, FONTS, type StyleKey, type FontId } from '../lib/theme';
+import {
+	DEFAULT_STYLE,
+	DEFAULT_FONT,
+	FONTS,
+	STYLES,
+	type StyleKey,
+	type FontId
+} from '../lib/theme';
 
 export type Quiz = {
 	question_id: string;
@@ -156,7 +163,7 @@ export function clearQuiz() {
 function getInitialStyle(): StyleKey {
 	if (typeof window !== 'undefined') {
 		const stored = localStorage.getItem(STYLE_KEY);
-		if (stored && ['ember', 'violet', 'amber'].includes(stored)) {
+		if (stored && stored in STYLES) {
 			return stored as StyleKey;
 		}
 	}

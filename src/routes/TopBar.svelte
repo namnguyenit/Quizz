@@ -108,6 +108,16 @@
 
 	<!-- Right: Actions -->
 	<div class="flex gap-1.5 md:gap-2 items-center flex-shrink-0">
+		<!-- Mobile: Help button -->
+		<button
+			class="md:hidden p-2 rounded-lg bg-[var(--bg-hover)] text-[var(--color-primary)] border border-[var(--border)]"
+			onclick={() => (uiState.showShortcutsModal = true)}
+			aria-label="Tips and gestures"
+			title="Tips and gestures"
+		>
+			<CircleHelp size={18} />
+		</button>
+
 		<!-- Style/Font Selectors (desktop only) -->
 		<div class="hidden md:flex gap-2 items-center">
 			<select

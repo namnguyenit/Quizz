@@ -1,7 +1,7 @@
 [
 	{
 		"question_id": "pm-m1-q1",
-		"question_text": "As someone seeking an entry-level project management position, you regularly check a popular job listings website for current openings. Which of the following roles are likely seeking a person with your project management skills? Select all that apply.",
+		"question_text": "As someone seeking an entry-level project management position, you regularly check a popular job listings website for current openings. Which of the following roles are likely seeking a person with your project management skills? Select all that apply.\nVN: Là một người đang tìm kiếm vị trí quản lý dự án cấp đầu vào, bạn thường xuyên kiểm tra một trang web tuyển dụng phổ biến để tìm các vị trí đang tuyển. Những vai trò nào sau đây có thể đang tìm kiếm một người có kỹ năng quản lý dự án như bạn? Chọn tất cả các đáp án đúng.",
 		"question_type": "multiple_answer_question",
 		"answers": [
 			{
@@ -24,7 +24,7 @@
 	},
 	{
 		"question_id": "pm-m1-q2",
-		"question_text": "As you search through job boards looking for project management jobs, which of the following job titles could make the most sense for you?",
+		"question_text": "As you search through job boards looking for project management jobs, which of the following job titles could make the most sense for you?\nVN: Khi bạn tìm kiếm công việc quản lý dự án trên các trang tuyển dụng, chức danh công việc nào sau đây có thể phù hợp nhất với bạn?",
 		"question_type": "single_answer_question",
 		"answers": [
 			{
@@ -47,7 +47,7 @@
 	},
 	{
 		"question_id": "pm-m1-q3",
-		"question_text": "Fill in the blank: A/An _____ allows you to work for a company on a project-by-project basis but not as a full-time employee.",
+		"question_text": "Fill in the blank: A/An _____ allows you to work for a company on a project-by-project basis but not as a full-time employee.\nVN: Điền vào chỗ trống: _____ cho phép bạn làm việc cho một công ty theo từng dự án nhưng không phải là nhân viên toàn thời gian.",
 		"question_type": "single_answer_question",
 		"answers": [
 			{
@@ -70,7 +70,7 @@
 	},
 	{
 		"question_id": "pm-m1-q4",
-		"question_text": "As a project manager for a large school district, you are implementing a new telehealth technology that allows students to have virtual health checkups without having to miss school. To start, you organize training sessions for faculty to get them better acquainted with the technology, policies, and procedures for using the new telehealth option. What common project management responsibility is this an example of?",
+		"question_text": "As a project manager for a large school district, you are implementing a new telehealth technology that allows students to have virtual health checkups without having to miss school. To start, you organize training sessions for faculty to get them better acquainted with the technology, policies, and procedures for using the new telehealth option. What common project management responsibility is this an example of?\nVN: Là quản lý dự án cho một học khu lớn, bạn đang triển khai một công nghệ y tế từ xa mới cho phép học sinh kiểm tra sức khỏe ảo mà không phải nghỉ học. Để bắt đầu, bạn tổ chức các buổi đào tạo cho giáo viên để họ làm quen hơn với công nghệ, chính sách và quy trình sử dụng tùy chọn y tế từ xa mới. Đây là ví dụ về trách nhiệm quản lý dự án phổ biến nào?",
 		"question_type": "single_answer_question",
 		"answers": [
 			{
@@ -93,7 +93,7 @@
 	},
 	{
 		"question_id": "pm-m1-q5",
-		"question_text": "Fill in the blank: Project management is _____.",
+		"question_text": "Fill in the blank: Project management is _____.\nVN: Điền vào chỗ trống: Quản lý dự án là _____.",
 		"question_type": "single_answer_question",
 		"answers": [
 			{
@@ -116,7 +116,7 @@
 	},
 	{
 		"question_id": "pm-m1-q6",
-		"question_text": "As the vice-president of your class Philanthropy Club at school, you assembled and led a team of 20 students to plan and execute events like fundraisers, community gatherings, and academic assemblies. What project management skills does your Philanthropy Club experience demonstrate?",
+		"question_text": "As the vice-president of your class Philanthropy Club at school, you assembled and led a team of 20 students to plan and execute events like fundraisers, community gatherings, and academic assemblies. What project management skills does your Philanthropy Club experience demonstrate?\nVN: Với tư cách là phó chủ tịch Câu lạc bộ Từ thiện của lớp bạn ở trường, bạn đã tập hợp và lãnh đạo một nhóm 20 học sinh để lập kế hoạch và thực hiện các sự kiện như gây quỹ, tụ họp cộng đồng và hội nghị học thuật. Kinh nghiệm Câu lạc bộ Từ thiện của bạn thể hiện những kỹ năng quản lý dự án nào?",
 		"question_type": "single_answer_question",
 		"answers": [
 			{
@@ -139,7 +139,7 @@
 	},
 	{
 		"question_id": "pm-m1-q7",
-		"question_text": "As a project manager at a small construction firm, your responsibilities include managing tasks on new builds. Which of the following activities does managing tasks involve? Select all that apply.",
+		"question_text": "As a project manager at a small construction firm, your responsibilities include managing tasks on new builds. Which of the following activities does managing tasks involve? Select all that apply.\nVN: Là quản lý dự án tại một công ty xây dựng nhỏ, trách nhiệm của bạn bao gồm quản lý các nhiệm vụ trong các công trình mới. Quản lý nhiệm vụ bao gồm những hoạt động nào sau đây? Chọn tất cả các đáp án đúng.",
 		"question_type": "multiple_answer_question",
 		"answers": [
 			{
@@ -162,7 +162,7 @@
 	},
 	{
 		"question_id": "pm-m1-q8",
-		"question_text": "You’ve been asked to lead a team implementing a new production technique in one of your company’s factories. The implementation process starts next Monday and the company would like you to complete it within two weeks. Implementing a new production technique in a factory is an example of what characteristic of projects?",
+		"question_text": "You’ve been asked to lead a team implementing a new production technique in one of your company’s factories. The implementation process starts next Monday and the company would like you to complete it within two weeks. Implementing a new production technique in a factory is an example of what characteristic of projects?\nVN: Bạn được yêu cầu lãnh đạo một nhóm triển khai kỹ thuật sản xuất mới tại một trong các nhà máy của công ty bạn. Quá trình triển khai bắt đầu vào thứ Hai tới và công ty muốn bạn hoàn thành trong vòng hai tuần. Việc triển khai kỹ thuật sản xuất mới trong nhà máy là ví dụ về đặc điểm nào của dự án?",
 		"question_type": "single_answer_question",
 		"answers": [
 			{
@@ -185,7 +185,7 @@
 	},
 	{
 		"question_id": "pm-m1-q9",
-		"question_text": "A construction firm needs to hire a project manager to implement a new customer engagement system. Their most experienced candidate has managed only logistics projects in the shipping industry. Why might the firm favor this candidate?",
+		"question_text": "A construction firm needs to hire a project manager to implement a new customer engagement system. Their most experienced candidate has managed only logistics projects in the shipping industry. Why might the firm favor this candidate?\nVN: Một công ty xây dựng cần thuê một quản lý dự án để triển khai hệ thống tương tác khách hàng mới. Ứng viên có kinh nghiệm nhất của họ chỉ quản lý các dự án logistics trong ngành vận chuyển. Tại sao công ty có thể ưu tiên ứng viên này?",
 		"question_type": "single_answer_question",
 		"answers": [
 			{
@@ -208,7 +208,7 @@
 	},
 	{
 		"question_id": "pm-m1-q10",
-		"question_text": "As you search for project management roles, you find a job listing for an “Executive Development Operations Associate'' with a list of job responsibilities. Which of the following responsibilities tell you that this job is a project management opportunity? Select all that apply.",
+		"question_text": "As you search for project management roles, you find a job listing for an “Executive Development Operations Associate'' with a list of job responsibilities. Which of the following responsibilities tell you that this job is a project management opportunity? Select all that apply.\nVN: Khi tìm kiếm các vai trò quản lý dự án, bạn tìm thấy một danh sách công việc cho \"Trợ lý Phát triển Điều hành Cấp cao\" với danh sách các trách nhiệm công việc. Những trách nhiệm nào sau đây cho bạn biết đây là cơ hội quản lý dự án? Chọn tất cả các đáp án đúng.",
 		"question_type": "multiple_answer_question",
 		"answers": [
 			{
@@ -231,7 +231,7 @@
 	},
 	{
 		"question_id": "pm-m1-q11",
-		"question_text": "As someone seeking an entry-level project management position, you regularly check a popular job listings website for current openings. Which of the following roles are likely seeking a person with your project management skills? Select all that apply.",
+		"question_text": "As someone seeking an entry-level project management position, you regularly check a popular job listings website for current openings. Which of the following roles are likely seeking a person with your project management skills? Select all that apply.\nVN: Là một người đang tìm kiếm vị trí quản lý dự án cấp đầu vào, bạn thường xuyên kiểm tra một trang web tuyển dụng phổ biến để tìm các vị trí đang tuyển. Những vai trò nào sau đây có thể đang tìm kiếm một người có kỹ năng quản lý dự án như bạn? Chọn tất cả các đáp án đúng.",
 		"question_type": "multiple_answer_question",
 		"answers": [
 			{
@@ -254,7 +254,7 @@
 	},
 	{
 		"question_id": "pm-m1-q12",
-		"question_text": "Fill in the blank: According to a 2017 Project Management Institute study, industries like manufacturing, construction, information technology, publishing, finance, and oil and gas are experiencing _____ with project management jobs.",
+		"question_text": "Fill in the blank: According to a 2017 Project Management Institute study, industries like manufacturing, construction, information technology, publishing, finance, and oil and gas are experiencing _____ with project management jobs.\nVN: Điền vào chỗ trống: Theo một nghiên cứu năm 2017 của Viện Quản lý Dự án, các ngành như sản xuất, xây dựng, công nghệ thông tin, xuất bản, tài chính và dầu khí đang trải qua _____ với các công việc quản lý dự án.",
 		"question_type": "single_answer_question",
 		"answers": [
 			{
@@ -277,7 +277,7 @@
 	},
 	{
 		"question_id": "pm-m1-q13",
-		"question_text": "Fill in the blank: A/An _____ allows you to work for a company on a project-by-project basis but not as a full-time employee.",
+		"question_text": "Fill in the blank: A/An _____ allows you to work for a company on a project-by-project basis but not as a full-time employee.\nVN: Điền vào chỗ trống: _____ cho phép bạn làm việc cho một công ty theo từng dự án nhưng không phải là nhân viên toàn thời gian.",
 		"question_type": "single_answer_question",
 		"answers": [
 			{
@@ -300,7 +300,7 @@
 	},
 	{
 		"question_id": "pm-m1-q14",
-		"question_text": "Throughout a project, project managers have to keep project expenses within an expected range. What is this project management responsibility called?",
+		"question_text": "Throughout a project, project managers have to keep project expenses within an expected range. What is this project management responsibility called?\nVN: Trong suốt một dự án, các quản lý dự án phải giữ chi phí dự án trong phạm vi dự kiến. Trách nhiệm quản lý dự án này được gọi là gì?",
 		"question_type": "single_answer_question",
 		"answers": [
 			{
@@ -323,7 +323,7 @@
 	},
 	{
 		"question_id": "pm-m1-q15",
-		"question_text": "Fill in the blank: _____ is the application of knowledge, skills, tools, and techniques to meet the project requirements and achieve the desired outcome.",
+		"question_text": "Fill in the blank: _____ is the application of knowledge, skills, tools, and techniques to meet the project requirements and achieve the desired outcome.\nVN: Điền vào chỗ trống: _____ là việc áp dụng kiến thức, kỹ năng, công cụ và kỹ thuật để đáp ứng các yêu cầu dự án và đạt được kết quả mong muốn.",
 		"question_type": "single_answer_question",
 		"answers": [
 			{
@@ -346,7 +346,7 @@
 	},
 	{
 		"question_id": "pm-m1-q16",
-		"question_text": "Project managers need to meet each project's requirements and achieve the desired outcome. To do this, should project managers use the same tools, techniques, and methodologies every day on their projects?",
+		"question_text": "Project managers need to meet each project's requirements and achieve the desired outcome. To do this, should project managers use the same tools, techniques, and methodologies every day on their projects?\nVN: Các quản lý dự án cần đáp ứng các yêu cầu của từng dự án và đạt được kết quả mong muốn. Để làm điều này, các quản lý dự án có nên sử dụng cùng một công cụ, kỹ thuật và phương pháp mỗi ngày trong các dự án của họ không?",
 		"question_type": "single_answer_question",
 		"answers": [
 			{
@@ -365,7 +365,7 @@
 	},
 	{
 		"question_id": "pm-m1-q17",
-		"question_text": "As a project manager at a small construction firm, your responsibilities include planning and organizing the start of new builds. Which of the following activities does planning and organizing involve?",
+		"question_text": "As a project manager at a small construction firm, your responsibilities include planning and organizing the start of new builds. Which of the following activities does planning and organizing involve?\nVN: Là quản lý dự án tại một công ty xây dựng nhỏ, trách nhiệm của bạn bao gồm lập kế hoạch và tổ chức khởi đầu các công trình mới. Lập kế hoạch và tổ chức bao gồm những hoạt động nào sau đây?",
 		"question_type": "single_answer_question",
 		"answers": [
 			{
@@ -388,7 +388,7 @@
 	},
 	{
 		"question_id": "pm-m1-q18",
-		"question_text": "Fill in the blank: Typically, projects have a(n) _____ beginning and end.",
+		"question_text": "Fill in the blank: Typically, projects have a(n) _____ beginning and end.\nVN: Điền vào chỗ trống: Thông thường, các dự án có điểm bắt đầu và kết thúc _____.",
 		"question_type": "single_answer_question",
 		"answers": [
 			{
@@ -411,7 +411,7 @@
 	},
 	{
 		"question_id": "pm-m1-q19",
-		"question_text": "A construction firm needs to hire a project manager to implement a new customer engagement system. Their most experienced candidate has managed only logistics projects in the shipping industry. Why might the firm favor this candidate?",
+		"question_text": "A construction firm needs to hire a project manager to implement a new customer engagement system. Their most experienced candidate has managed only logistics projects in the shipping industry. Why might the firm favor this candidate?\nVN: Một công ty xây dựng cần thuê một quản lý dự án để triển khai hệ thống tương tác khách hàng mới. Ứng viên có kinh nghiệm nhất của họ chỉ quản lý các dự án logistics trong ngành vận chuyển. Tại sao công ty có thể ưu tiên ứng viên này?",
 		"question_type": "single_answer_question",
 		"answers": [
 			{
@@ -434,7 +434,7 @@
 	},
 	{
 		"question_id": "pm-m1-q20",
-		"question_text": "As someone moving to a new location, you have several tasks. You have to plan for the various expenses like boxes and movers. You also have to clearly label the boxes, and manage all of the tasks leading up to and during the move. Which project management skills does the move require? Select all that apply.",
+		"question_text": "As someone moving to a new location, you have several tasks. You have to plan for the various expenses like boxes and movers. You also have to clearly label the boxes, and manage all of the tasks leading up to and during the move. Which project management skills does the move require? Select all that apply.\nVN: Là một người chuyển đến địa điểm mới, bạn có nhiều nhiệm vụ. Bạn phải lập kế hoạch cho các chi phí khác nhau như thùng và người chuyển nhà. Bạn cũng phải dán nhãn rõ ràng các thùng và quản lý tất cả các nhiệm vụ dẫn đến và trong quá trình chuyển nhà. Việc chuyển nhà đòi hỏi những kỹ năng quản lý dự án nào? Chọn tất cả các đáp án đúng.",
 		"question_type": "multiple_answer_question",
 		"answers": [
 			{
