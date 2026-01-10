@@ -5,19 +5,19 @@
 		"question_type": "multiple_answer_question",
 		"answers": [
 			{
-				"answer_text": "Organizational structure determines where you fit in",
+				"answer_text": "Organizational structure determines where you fit in (Cấu trúc tổ chức xác định bạn phù hợp ở đâu)",
 				"is_correct": true
 			},
 			{
-				"answer_text": "Organizational structure determines your career growth",
+				"answer_text": "Organizational structure determines your career growth (Cấu trúc tổ chức xác định sự phát triển nghề nghiệp của bạn)",
 				"is_correct": false
 			},
 			{
-				"answer_text": "Organizational structure determines who you should communicate with",
+				"answer_text": "Organizational structure determines who you should communicate with (Cấu trúc tổ chức xác định bạn nên giao tiếp với ai)",
 				"is_correct": true
 			},
 			{
-				"answer_text": "Organizational structure determines how frequently to communicate",
+				"answer_text": "Organizational structure determines how frequently to communicate (Cấu trúc tổ chức xác định tần suất giao tiếp)",
 				"is_correct": true
 			}
 		]
@@ -28,42 +28,42 @@
 		"question_type": "single_answer_question",
 		"answers": [
 			{
-				"answer_text": "Functional structure",
+				"answer_text": "Functional structure (Cấu trúc chức năng)",
 				"is_correct": false
 			},
 			{
-				"answer_text": "Matrix structure",
+				"answer_text": "Matrix structure (Cấu trúc ma trận)",
 				"is_correct": true
 			},
 			{
-				"answer_text": "PMO structure",
+				"answer_text": "PMO structure (Cấu trúc PMO)",
 				"is_correct": false
 			},
 			{
-				"answer_text": "Classic structure",
+				"answer_text": "Classic structure (Cấu trúc cổ điển)",
 				"is_correct": false
 			}
 		]
 	},
 	{
 		"question_id": "pm-m4-q3",
-		"question_text": "How does a company’s organizational structure impact project management?\nVN: Cấu trúc tổ chức của một công ty ảnh hưởng đến quản lý dự án như thế nào?",
+		"question_text": "How does a company's organizational structure impact project management?\nVN: Cấu trúc tổ chức của một công ty ảnh hưởng đến quản lý dự án như thế nào?",
 		"question_type": "single_answer_question",
 		"answers": [
 			{
-				"answer_text": "It affects the project manager’s authority and the success of change management.",
+				"answer_text": "It affects the project manager's authority and the success of change management. (Nó ảnh hưởng đến quyền hạn của quản lý dự án và sự thành công của quản lý thay đổi.)",
 				"is_correct": false
 			},
 			{
-				"answer_text": "It affects the project manager’s authority and the availability of resources.",
+				"answer_text": "It affects the project manager's authority and the availability of resources. (Nó ảnh hưởng đến quyền hạn của quản lý dự án và sự sẵn có của nguồn lực.)",
 				"is_correct": true
 			},
 			{
-				"answer_text": "It affects the project’s success rate and a team’s ability to improve.",
+				"answer_text": "It affects the project's success rate and a team's ability to improve. (Nó ảnh hưởng đến tỷ lệ thành công của dự án và khả năng cải thiện của nhóm.)",
 				"is_correct": false
 			},
 			{
-				"answer_text": "It affects the success of change management and the availability of resources.",
+				"answer_text": "It affects the success of change management and the availability of resources. (Nó ảnh hưởng đến sự thành công của quản lý thay đổi và sự sẵn có của nguồn lực.)",
 				"is_correct": false
 			}
 		]
@@ -74,42 +74,42 @@
 		"question_type": "single_answer_question",
 		"answers": [
 			{
-				"answer_text": "structure",
+				"answer_text": "structure (cấu trúc)",
 				"is_correct": false
 			},
 			{
-				"answer_text": "personality",
+				"answer_text": "personality (tính cách)",
 				"is_correct": true
 			},
 			{
-				"answer_text": "strengths",
+				"answer_text": "strengths (điểm mạnh)",
 				"is_correct": false
 			},
 			{
-				"answer_text": "goals",
+				"answer_text": "goals (mục tiêu)",
 				"is_correct": false
 			}
 		]
 	},
 	{
 		"question_id": "pm-m4-q5",
-		"question_text": "Which of the following questions can help project managers learn about a company’s organizational culture? Select all that apply.\nVN: Những câu hỏi nào sau đây có thể giúp các quản lý dự án tìm hiểu về văn hóa tổ chức của một công ty? Chọn tất cả các đáp án đúng.",
+		"question_text": "Which of the following questions can help project managers learn about a company's organizational culture? Select all that apply.\nVN: Những câu hỏi nào sau đây có thể giúp các quản lý dự án tìm hiểu về văn hóa tổ chức của một công ty? Chọn tất cả các đáp án đúng.",
 		"question_type": "multiple_answer_question",
 		"answers": [
 			{
-				"answer_text": "When was the organization founded?",
+				"answer_text": "When was the organization founded? (Tổ chức được thành lập khi nào?)",
 				"is_correct": false
 			},
 			{
-				"answer_text": "What is the company’s best-selling product/service?",
+				"answer_text": "What is the company's best-selling product/service? (Sản phẩm/dịch vụ bán chạy nhất của công ty là gì?)",
 				"is_correct": false
 			},
 			{
-				"answer_text": "Are there company sanctioned social events?",
+				"answer_text": "Are there company sanctioned social events? (Có các sự kiện xã hội được công ty tổ chức không?)",
 				"is_correct": true
 			},
 			{
-				"answer_text": "How are projects typically run?",
+				"answer_text": "How are projects typically run? (Các dự án thường được chạy như thế nào?)",
 				"is_correct": true
 			}
 		]
@@ -120,19 +120,19 @@
 		"question_type": "single_answer_question",
 		"answers": [
 			{
-				"answer_text": "Change governance",
+				"answer_text": "Change governance (Quản trị thay đổi)",
 				"is_correct": false
 			},
 			{
-				"answer_text": "Project management",
+				"answer_text": "Project management (Quản lý dự án)",
 				"is_correct": false
 			},
 			{
-				"answer_text": "Project governance",
+				"answer_text": "Project governance (Quản trị dự án)",
 				"is_correct": false
 			},
 			{
-				"answer_text": "Change management",
+				"answer_text": "Change management (Quản lý thay đổi)",
 				"is_correct": true
 			}
 		]
@@ -143,19 +143,19 @@
 		"question_type": "single_answer_question",
 		"answers": [
 			{
-				"answer_text": "Scatter Plots",
+				"answer_text": "Scatter Plots (Biểu đồ phân tán)",
 				"is_correct": false
 			},
 			{
-				"answer_text": "Feedback mechanisms",
+				"answer_text": "Feedback mechanisms (Cơ chế phản hồi)",
 				"is_correct": false
 			},
 			{
-				"answer_text": "Flowcharts",
+				"answer_text": "Flowcharts (Lưu đồ)",
 				"is_correct": true
 			},
 			{
-				"answer_text": "Culture mapping",
+				"answer_text": "Culture mapping (Lập bản đồ văn hóa)",
 				"is_correct": false
 			}
 		]
@@ -166,19 +166,19 @@
 		"question_type": "single_answer_question",
 		"answers": [
 			{
-				"answer_text": "contrarian",
+				"answer_text": "contrarian (người chống đối)",
 				"is_correct": false
 			},
 			{
-				"answer_text": "competitor",
+				"answer_text": "competitor (đối thủ cạnh tranh)",
 				"is_correct": false
 			},
 			{
-				"answer_text": "change agent",
+				"answer_text": "change agent (tác nhân thay đổi)",
 				"is_correct": true
 			},
 			{
-				"answer_text": "traditionalist",
+				"answer_text": "traditionalist (người theo truyền thống)",
 				"is_correct": false
 			}
 		]
@@ -189,19 +189,19 @@
 		"question_type": "single_answer_question",
 		"answers": [
 			{
-				"answer_text": "You formally acknowledge product milestones with your team and stakeholders.",
+				"answer_text": "You formally acknowledge product milestones with your team and stakeholders. (Bạn chính thức ghi nhận các mốc sản phẩm với nhóm và các bên liên quan.)",
 				"is_correct": false
 			},
 			{
-				"answer_text": "You present to stakeholders a detailed explanation of how you produced your deliverable.",
+				"answer_text": "You present to stakeholders a detailed explanation of how you produced your deliverable. (Bạn trình bày cho các bên liên quan một giải thích chi tiết về cách bạn tạo ra sản phẩm bàn giao.)",
 				"is_correct": false
 			},
 			{
-				"answer_text": "You present a detailed project plan to your project team members.",
+				"answer_text": "You present a detailed project plan to your project team members. (Bạn trình bày kế hoạch dự án chi tiết cho các thành viên nhóm dự án.)",
 				"is_correct": false
 			},
 			{
-				"answer_text": "Towards the end of your project, you plan demonstrations and question and answer forums that introduce the deliverable to stakeholders.",
+				"answer_text": "Towards the end of your project, you plan demonstrations and question and answer forums that introduce the deliverable to stakeholders. (Vào cuối dự án, bạn lên kế hoạch các buổi trình diễn và diễn đàn hỏi đáp giới thiệu sản phẩm bàn giao cho các bên liên quan.)",
 				"is_correct": true
 			}
 		]
@@ -212,19 +212,19 @@
 		"question_type": "single_answer_question",
 		"answers": [
 			{
-				"answer_text": "Chief Executive Officer",
+				"answer_text": "Chief Executive Officer (Giám đốc Điều hành)",
 				"is_correct": false
 			},
 			{
-				"answer_text": "Office of legal affairs",
+				"answer_text": "Office of legal affairs (Văn phòng pháp lý)",
 				"is_correct": false
 			},
 			{
-				"answer_text": "Steering committee",
+				"answer_text": "Steering committee (Ủy ban chỉ đạo)",
 				"is_correct": true
 			},
 			{
-				"answer_text": "Stakeholder",
+				"answer_text": "Stakeholder (Bên liên quan)",
 				"is_correct": false
 			}
 		]
