@@ -1,7 +1,14 @@
 // Centralized main page state for Sidebar, TopBar, QuizCard, FavoritesModal
 
-import { DEFAULT_FAVORITES_LOCAL, STYLE_KEY, FONT_KEY } from '../lib/localKeys';
+import {
+	DEFAULT_FAVORITES_LOCAL,
+	STYLE_KEY,
+	FONT_KEY,
+	EN_SIZE_KEY,
+	EN_OPACITY_KEY
+} from '../lib/localKeys';
 import { SvelteSet, SvelteMap } from 'svelte/reactivity';
+import { replaceState } from '$app/navigation';
 import {
 	DEFAULT_STYLE,
 	DEFAULT_FONT,
@@ -79,12 +86,14 @@ export const uiState = $state<{
 	sidebarOpen: boolean;
 	showFavModal: boolean;
 	showShortcutsModal: boolean;
+	showSettingsModal: boolean;
 	sidebarMode: 'library' | 'questions';
 	navigation: SubjectNav[];
 }>({
 	sidebarOpen: false,
 	showFavModal: false,
 	showShortcutsModal: false,
+	showSettingsModal: false,
 	sidebarMode: 'library',
 	navigation: []
 });
@@ -155,7 +164,7 @@ export function clearQuiz() {
 	uiState.sidebarOpen = false;
 	// Clear URL when returning to library
 	if (typeof window !== 'undefined') {
-		history.replaceState(null, '', '/');
+		setTimeout(() => replaceState('/', {}), 0);
 	}
 }
 
@@ -201,5 +210,41 @@ export function setFont(font: FontId) {
 		if (fontDef) {
 			document.documentElement.style.setProperty('--font-family', fontDef.family);
 		}
+	}
+}
+
+// English Text Display Settings
+function getInitialEnSize(): number {
+	if (typeof window !== 'undefined') {
+		const stored = localStorage.getItem(EN_SIZE_KEY);
+		if (stored) return parseInt(stored, 10);
+	}
+	return 12; // default text-xs
+}
+
+function getInitialEnOpacity(): number {
+	if (typeof window !== 'undefined') {
+		const stored = localStorage.getItem(EN_OPACITY_KEY);
+		if (stored) return parseFloat(stored);
+	}
+	return 0.4; // default opacity-40
+}
+
+export const enStyleState = $state<{ size: number; opacity: number }>({
+	size: getInitialEnSize(),
+	opacity: getInitialEnOpacity()
+});
+
+export function setEnSize(size: number) {
+	enStyleState.size = size;
+	if (typeof window !== 'undefined') {
+		localStorage.setItem(EN_SIZE_KEY, size.toString());
+	}
+}
+
+export function setEnOpacity(opacity: number) {
+	enStyleState.opacity = opacity;
+	if (typeof window !== 'undefined') {
+		localStorage.setItem(EN_OPACITY_KEY, opacity.toString());
 	}
 }

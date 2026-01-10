@@ -6,6 +6,8 @@ export const FAVORITE_QUESTIONS_KEY = 'favoriteQuestions';
 export const APPSTATE_ALL_KEY = 'appState_all';
 export const STYLE_KEY = 'app_style';
 export const FONT_KEY = 'app_font';
+export const EN_SIZE_KEY = 'app_en_size';
+export const EN_OPACITY_KEY = 'app_en_opacity';
 
 export interface FavoritesLocalState {
 	module: string;

@@ -1,10 +1,13 @@
 <script lang="ts">
+	import { onMount } from 'svelte';
+	import { replaceState } from '$app/navigation';
 	import Sidebar from './Sidebar.svelte';
 	import TopBar from './TopBar.svelte';
 	import Carousel from './Carousel.svelte';
 	import LibraryGrid from './LibraryGrid.svelte';
 	import FavoritesModal from './FavoritesModal.svelte';
 	import ShortcutsModal from './ShortcutsModal.svelte';
+	import SettingsModal from './SettingsModal.svelte';
 	import {
 		DEFAULT_FAVORITES_LOCAL,
 		CURRENT_VIEW_KEY,
@@ -23,6 +26,11 @@
 	} from './global.svelte';
 
 	let isInitialLoad = $state(true);
+	let routerReady = $state(false);
+
+	onMount(() => {
+		routerReady = true;
+	});
 
 	// Store previous quiz state before entering favorites
 	let previousQuizState = $state<{
@@ -225,7 +233,7 @@
 
 	// Sync state to URL (replaceState so back button doesn't cycle through questions)
 	$effect(() => {
-		if (typeof window === 'undefined') return;
+		if (!routerReady || isInitialLoad) return;
 
 		const params = new URLSearchParams();
 
@@ -244,7 +252,7 @@
 
 		// Only update if URL actually changed
 		if (currentSearch !== newSearch) {
-			history.replaceState(null, '', newSearch || '/');
+			setTimeout(() => replaceState(newSearch || '/', {}), 0);
 		}
 	});
 
@@ -377,6 +385,7 @@
 	</button>
 	<FavoritesModal />
 	<ShortcutsModal />
+	<SettingsModal />
 
 	<!-- Clear Favorites Confirmation Modal -->
 	{#if showClearConfirm}

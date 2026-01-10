@@ -15,7 +15,8 @@
 		ArrowLeft,
 		Trash2,
 		BookOpen,
-		CircleHelp
+		CircleHelp,
+		Settings
 	} from '@lucide/svelte';
 	import { STYLES, FONTS, type StyleKey, type FontId } from '$lib/theme';
 
@@ -139,6 +140,16 @@
 			title="Tips and gestures"
 		>
 			<CircleHelp size={18} />
+		</button>
+
+		<!-- Settings button -->
+		<button
+			class="p-1.5 rounded-lg bg-[var(--bg-hover)] text-[var(--color-primary)] hover:bg-[var(--border)] cursor-pointer border border-[var(--border)]"
+			onclick={() => (uiState.showSettingsModal = true)}
+			aria-label="Bilingual settings"
+			title="Bilingual settings"
+		>
+			<Settings size={18} />
 		</button>
 
 		{#if appState.currentView === 'all'}

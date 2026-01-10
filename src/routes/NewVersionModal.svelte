@@ -55,11 +55,10 @@
 				<div class="text-gray-700 text-left bg-gray-50 rounded p-3 border border-gray-200">
 					<div class="font-semibold mb-1">Latest Changes</div>
 					<ul class="list-disc list-inside space-y-1 text-sm">
-						<li>Added project management quizzes and subject information</li>
-						<li>Added image URL support in quiz questions</li>
-						<li>Improved TopBar accessibility and global state management</li>
-						<li>Enhanced Carousel and QuizCard navigation</li>
-						<li>Fixed answer button styling for better text handling</li>
+						<li>Bilingual text styling (English subdued, Vietnamese prominent)</li>
+						<li>Customizable English text size and opacity in Settings</li>
+						<li>Support for multiple bilingual formats (slash, parentheses, VN:)</li>
+						<li>Fixed nested parentheses parsing for acronyms</li>
 					</ul>
 				</div>
 				<div class="flex flex-col gap-3">

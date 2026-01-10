@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { DEBUG } from '$lib/config';
+	import BilingualText from '$lib/components/BilingualText.svelte';
 	let isHeld = $state(false);
 	import {
 		Star,
@@ -349,9 +350,12 @@
 		</div>
 	{/if}
 	<!-- Question Text -->
-	<div class="question-row text-lg mb-4 whitespace-pre-line">
+	<div class="question-row text-lg mb-4">
 		{#if currentQuestion}
-			{currentQuestion.question_text || currentQuestion.question || ''}
+			<BilingualText
+				text={currentQuestion.question_text || currentQuestion.question || ''}
+				variant="question"
+			/>
 		{:else}
 			{quizData.length === 0 ? 'Please select a module to begin.' : ''}
 		{/if}
@@ -411,7 +415,9 @@
 					</span>
 
 					<!-- Answer Text -->
-					<span class="flex-1">{ans.answer_text || ans}</span>
+					<span class="flex-1">
+						<BilingualText text={ans.answer_text || String(ans)} variant="answer" />
+					</span>
 
 					<!-- Result Icon (after checking) -->
 					{#if resultIcon}

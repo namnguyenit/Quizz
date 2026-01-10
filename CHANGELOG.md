@@ -1,5 +1,26 @@
 # Changelog
 
+## [2.1.1] - 2026-01-10
+
+### Fixed
+
+- Bilingual parser now handles multiple text formats (slash delimiter, parentheses, VN: prefix)
+- Fixed nested parentheses parsing for acronyms like (WBS) in bilingual text
+- Fixed trailing whitespace issue in parentheses format detection
+- Fixed SvelteKit router initialization error on page refresh
+
+## [2.1.0] - 2026-01-10
+
+### Added
+
+- Bilingual Text system (English styling for questions and answers)
+- Customizable English text settings (Size and Opacity)
+- New Settings Modal for display preferences
+
+### Fixed
+
+- SvelteKit router conflict by replacing history.replaceState with navigate imports
+
 ## [2.0.0] - 2026-01-08
 
 ### Added
