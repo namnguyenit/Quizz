@@ -1071,19 +1071,19 @@
 		"question_type": "multiple_choice_question",
 		"answers": [
 			{
-				"answer_text": "Sprint retrospective",
+				"answer_text": "Sprint retrospective (Họp nhìn lại Sprint)",
 				"is_correct": true
 			},
 			{
-				"answer_text": "Sprint review",
+				"answer_text": "Sprint review (Họp đánh giá Sprint)",
 				"is_correct": false
 			},
 			{
-				"answer_text": "Project status meeting",
+				"answer_text": "Project status meeting (Họp trạng thái dự án)",
 				"is_correct": false
 			},
 			{
-				"answer_text": "Stand-up",
+				"answer_text": "Stand-up (Họp đứng)",
 				"is_correct": false
 			}
 		]
@@ -1389,19 +1389,19 @@
 		"question_type": "multiple_answer_question",
 		"answers": [
 			{
-				"answer_text": "Daily standup meeting",
+				"answer_text": "Daily standup meeting (Họp đứng hàng ngày)",
 				"is_correct": true
 			},
 			{
-				"answer_text": "Kick-off meetings to gain stakeholder acceptance",
+				"answer_text": "Kick-off meetings to gain stakeholder acceptance (Họp khởi động để đạt được sự chấp nhận của các bên liên quan)",
 				"is_correct": false
 			},
 			{
-				"answer_text": "Pre-baseline and baseline presentations",
+				"answer_text": "Pre-baseline and baseline presentations (Trình bày trước baseline và baseline)",
 				"is_correct": false
 			},
 			{
-				"answer_text": "Product backlog refinement",
+				"answer_text": "Product backlog refinement (Tinh chỉnh product backlog)",
 				"is_correct": true
 			}
 		]

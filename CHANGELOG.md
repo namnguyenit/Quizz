@@ -1,5 +1,23 @@
 # Changelog
 
+## [2.2.0] - 2026-01-11
+
+### Added
+
+- Seamless full-screen question view (removed card-based layout)
+- Centered content with max-width for better readability on desktop
+- Responsive padding (compact on mobile, generous on desktop)
+- Theme and Font selectors moved to Settings modal for cleaner top bar
+
+### Changed
+
+- Answer bilingual text now displays stacked (English above Vietnamese) instead of inline
+- Vertical slide transitions now seamless (questions stack without gaps)
+
+### Fixed
+
+- Mouse wheel scroll now works correctly on long questions without triggering navigation
+
 ## [2.1.1] - 2026-01-10
 
 ### Fixed

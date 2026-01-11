@@ -143,16 +143,13 @@
 
 <!-- Carousel Component -->
 {#if pageState.quizData.length > 0}
-	<div
-		class="carousel-vertical flex flex-col items-center justify-center w-full h-full relative md:items-start md:justify-center"
-	>
+	<div class="carousel-vertical flex flex-col w-full h-full relative overflow-hidden">
 		{#each [pageState.current - 1, pageState.current, pageState.current + 1] as idx (idx)}
 			{#if idx >= 0 && idx < pageState.quizData.length}
 				<div
-					class="carousel-card flex justify-center md:items-start md:justify-center"
-					style="width:95vw; height:90%; position: absolute; left:50%; top:50%; transform: translate(-50%, calc(-50% + {(idx -
-						pageState.current) *
-						110}%)); transition: transform 0.3s cubic-bezier(0.4,0,0.2,1);"
+					class="carousel-card absolute inset-0"
+					style="transform: translateY({(idx - pageState.current) *
+						100}%); transition: transform 0.3s cubic-bezier(0.4,0,0.2,1);"
 				>
 					<QuizCard
 						currentQuestion={getCurrentQuestionWithType(pageState.quizData[idx])}

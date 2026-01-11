@@ -53,12 +53,11 @@
 				</div>
 			{:else}
 				<div class="text-gray-700 text-left bg-gray-50 rounded p-3 border border-gray-200">
-					<div class="font-semibold mb-1">Latest Changes</div>
+					<div class="font-semibold mb-1">Thay đổi mới nhất</div>
 					<ul class="list-disc list-inside space-y-1 text-sm">
-						<li>Bilingual text styling (English subdued, Vietnamese prominent)</li>
-						<li>Customizable English text size and opacity in Settings</li>
-						<li>Support for multiple bilingual formats (slash, parentheses, VN:)</li>
-						<li>Fixed nested parentheses parsing for acronyms</li>
+						<li>Giao diện câu hỏi toàn màn hình (bỏ kiểu thẻ)</li>
+						<li>Chuyển cài đặt Giao diện và Font vào modal Cài đặt</li>
+						<li>Hiển thị song ngữ xếp chồng (Tiếng Anh trên, Tiếng Việt dưới)</li>
 					</ul>
 				</div>
 				<div class="flex flex-col gap-3">

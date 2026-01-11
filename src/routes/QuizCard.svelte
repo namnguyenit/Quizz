@@ -243,16 +243,8 @@
 
 <!-- Quiz Card -->
 <div
-	bind:this={scrollContainer}
-	class="quiz-card main-scrollbar bg-[var(--bg-surface)] text-[var(--text-primary)] rounded-2xl shadow-lg w-[95vw] h-[95%] md:w-[90%] md:h-auto md:max-h-[80vh] px-4 pt-6 pb-4 relative flex flex-col gap-2 touch-pan-y overflow-y-auto scrollbar-thin scrollbar-thumb-[var(--text-secondary)] scrollbar-track-[var(--bg-surface)]"
+	class="w-full h-full flex flex-col overflow-hidden"
 	style="transform: translateY(0px); transition: none;"
-	onwheel={(e) => {
-		// Block scroll wheel navigation when card is scrollable
-		// Navigation will be handled by explicit buttons at edges
-		if (isScrollable.value) {
-			e.stopPropagation();
-		}
-	}}
 	onmousedown={() => {
 		isHeld = true;
 		if (DEBUG) {
@@ -288,107 +280,105 @@
 	role="button"
 	tabindex="0"
 >
-	<!-- Question number and Favorite Button row -->
-	<div class="flex items-center justify-between mb-2">
-		<span class="text-[var(--text-secondary)] text-base flex items-center gap-2 flex-wrap">
-			{#if quizData.length}
-				Question {current + 1} / {quizData.length}
-				<!-- Question Type Badge -->
-				{#if isMultipleChoice()}
-					<span
-						class="inline-flex items-center gap-1 px-2 py-0.5 rounded bg-[var(--color-secondary)]/15 text-[var(--color-secondary)] text-xs font-medium border border-[var(--color-secondary)]/40"
-					>
-						<SquareCheck size={12} />
-						Multiple
-					</span>
+	<!-- Content wrapper with max-width for readability -->
+	<div
+		bind:this={scrollContainer}
+		class="max-w-4xl mx-auto w-full px-4 py-6 md:px-12 md:py-12 flex-1 flex flex-col overflow-y-auto main-scrollbar text-[var(--text-primary)]"
+		onwheel={(e) => {
+			// Block scroll wheel navigation when card is scrollable
+			// Navigation will be handled by explicit buttons at edges
+			if (isScrollable.value) {
+				e.stopPropagation();
+			}
+		}}
+	>
+		<!-- Question number and Favorite Button row -->
+		<div class="flex items-center justify-between mb-2">
+			<span class="text-[var(--text-secondary)] text-base flex items-center gap-2 flex-wrap">
+				{#if quizData.length}
+					Question {current + 1} / {quizData.length}
+					<!-- Question Type Badge -->
+					{#if isMultipleChoice()}
+						<span
+							class="inline-flex items-center gap-1 px-2 py-0.5 rounded bg-[var(--color-secondary)]/15 text-[var(--color-secondary)] text-xs font-medium border border-[var(--color-secondary)]/40"
+						>
+							<SquareCheck size={12} />
+							Multiple
+						</span>
+					{:else}
+						<span
+							class="inline-flex items-center gap-1 px-2 py-0.5 rounded bg-[var(--text-secondary)]/15 text-[var(--text-secondary)] text-xs font-medium border border-[var(--text-secondary)]/40"
+						>
+							<CircleDot size={12} />
+							Single
+						</span>
+					{/if}
+					{#if currentQuestion?.module}
+						<span
+							class="inline-block px-2 py-0.5 rounded bg-[var(--bg-hover)] text-[var(--color-primary)] text-xs font-medium border border-[var(--color-primary)]"
+						>
+							Module: {currentQuestion.module}
+						</span>
+					{/if}
+					{#if currentQuestion?.question_id}
+						<span
+							class="inline-block px-2 py-0.5 rounded bg-[var(--bg-hover)] text-[var(--color-accent)] text-xs font-medium border border-[var(--color-accent)]"
+						>
+							ID: {currentQuestion.question_id}
+						</span>
+					{/if}
+				{/if}
+			</span>
+			<!-- This is the favorite button -->
+			<button
+				aria-label="Toggle favorite"
+				class="cursor-pointer w-10 h-10 bg-transparent border-none p-0 flex items-center justify-center"
+				onclick={() => toggleFavorite(current)}
+			>
+				{#if isFavorited(currentQuestion?.question_id ?? '')}
+					<Star fill="var(--color-accent)" color="var(--color-accent)" size={32} />
 				{:else}
-					<span
-						class="inline-flex items-center gap-1 px-2 py-0.5 rounded bg-[var(--text-secondary)]/15 text-[var(--text-secondary)] text-xs font-medium border border-[var(--text-secondary)]/40"
-					>
-						<CircleDot size={12} />
-						Single
-					</span>
+					<Star color="var(--text-primary)" size={32} />
 				{/if}
-				{#if currentQuestion?.module}
-					<span
-						class="inline-block px-2 py-0.5 rounded bg-[var(--bg-hover)] text-[var(--color-primary)] text-xs font-medium border border-[var(--color-primary)]"
-					>
-						Module: {currentQuestion.module}
-					</span>
-				{/if}
-				{#if currentQuestion?.question_id}
-					<span
-						class="inline-block px-2 py-0.5 rounded bg-[var(--bg-hover)] text-[var(--color-accent)] text-xs font-medium border border-[var(--color-accent)]"
-					>
-						ID: {currentQuestion.question_id}
-					</span>
-				{/if}
-			{/if}
-		</span>
-		<!-- This is the favorite button -->
-		<button
-			aria-label="Toggle favorite"
-			class="cursor-pointer w-10 h-10 bg-transparent border-none p-0 flex items-center justify-center"
-			onclick={() => toggleFavorite(current)}
-		>
-			{#if isFavorited(currentQuestion?.question_id ?? '')}
-				<Star fill="var(--color-accent)" color="var(--color-accent)" size={32} />
-			{:else}
-				<Star color="var(--text-primary)" size={32} />
-			{/if}
-		</button>
-	</div>
-	<!-- Question Image -->
-	{#if currentQuestion?.image_url}
-		<div class="question-image mb-4">
-			<img
-				src={currentQuestion.image_url}
-				alt="Question illustration"
-				class="w-full max-h-64 object-contain rounded-lg"
-				loading="lazy"
-			/>
+			</button>
 		</div>
-	{/if}
-	<!-- Question Text -->
-	<div class="question-row text-lg mb-4">
-		{#if currentQuestion}
-			<BilingualText
-				text={currentQuestion.question_text || currentQuestion.question || ''}
-				variant="question"
-			/>
-		{:else}
-			{quizData.length === 0 ? 'Please select a module to begin.' : ''}
+		<!-- Question Image -->
+		{#if currentQuestion?.image_url}
+			<div class="question-image mb-4">
+				<img
+					src={currentQuestion.image_url}
+					alt="Question illustration"
+					class="w-full max-h-64 object-contain rounded-lg"
+					loading="lazy"
+				/>
+			</div>
 		{/if}
-	</div>
-	<!-- Answers List -->
-	<div class="answers-row flex flex-col gap-3 mb-4">
-		{#if currentQuestion}
-			{#each answers as ans, idx (idx)}
-				{@const resultIcon = getAnswerResultIcon(idx)}
-				{@const isSelected = selectedAnswers.includes(idx)}
-				<button
-					type="button"
-					class="answer relative flex items-start gap-3 px-4 py-3 rounded-lg border-2 border-[var(--border)] bg-[var(--bg-hover)] text-base text-[var(--text-primary)] cursor-pointer transition-all duration-200 text-left break-words {getAnswerClass(
-						idx
-					)}"
-					disabled={questionLocked}
-					onclick={() => {
-						if (DEBUG) {
-							console.log('[QuizCard] Answer button clicked', {
-								idx,
-								questionLocked,
-								selectedAnswers,
-								questionType: currentQuestion.question_type
-							});
-						}
-						handleAnswerClick(idx, currentQuestion.question_type ?? 'single');
-					}}
-					aria-pressed={selectedAnswers.includes(idx)}
-					aria-label={'Answer ' + (idx + 1)}
-					onkeydown={(e) => {
-						if (e.key === 'Enter' || e.key === ' ') {
+		<!-- Question Text -->
+		<div class="question-row text-lg mb-4">
+			{#if currentQuestion}
+				<BilingualText
+					text={currentQuestion.question_text || currentQuestion.question || ''}
+					variant="question"
+				/>
+			{:else}
+				{quizData.length === 0 ? 'Please select a module to begin.' : ''}
+			{/if}
+		</div>
+		<!-- Answers List -->
+		<div class="answers-row flex flex-col gap-3 mb-4">
+			{#if currentQuestion}
+				{#each answers as ans, idx (idx)}
+					{@const resultIcon = getAnswerResultIcon(idx)}
+					{@const isSelected = selectedAnswers.includes(idx)}
+					<button
+						type="button"
+						class="answer relative flex items-start gap-3 px-4 py-3 rounded-lg border-2 border-[var(--border)] bg-[var(--bg-hover)] text-base text-[var(--text-primary)] cursor-pointer transition-all duration-200 text-left break-words {getAnswerClass(
+							idx
+						)}"
+						disabled={questionLocked}
+						onclick={() => {
 							if (DEBUG) {
-								console.log('[QuizCard] Answer button keydown', {
+								console.log('[QuizCard] Answer button clicked', {
 									idx,
 									questionLocked,
 									selectedAnswers,
@@ -396,71 +386,86 @@
 								});
 							}
 							handleAnswerClick(idx, currentQuestion.question_type ?? 'single');
-						}
-					}}
-				>
-					<!-- Selection Indicator (Radio/Checkbox) -->
-					<span class="flex-shrink-0 mt-0.5">
-						{#if isMultipleChoice()}
-							{#if isSelected}
-								<SquareCheck size={20} class="text-[var(--color-primary)]" />
-							{:else}
-								<Square size={20} class="text-[var(--text-secondary)]" />
-							{/if}
-						{:else if isSelected}
-							<CircleDot size={20} class="text-[var(--color-primary)]" />
-						{:else}
-							<Circle size={20} class="text-[var(--text-secondary)]" />
-						{/if}
-					</span>
-
-					<!-- Answer Text -->
-					<span class="flex-1">
-						<BilingualText text={ans.answer_text || String(ans)} variant="answer" />
-					</span>
-
-					<!-- Result Icon (after checking) -->
-					{#if resultIcon}
+						}}
+						aria-pressed={selectedAnswers.includes(idx)}
+						aria-label={'Answer ' + (idx + 1)}
+						onkeydown={(e) => {
+							if (e.key === 'Enter' || e.key === ' ') {
+								if (DEBUG) {
+									console.log('[QuizCard] Answer button keydown', {
+										idx,
+										questionLocked,
+										selectedAnswers,
+										questionType: currentQuestion.question_type
+									});
+								}
+								handleAnswerClick(idx, currentQuestion.question_type ?? 'single');
+							}
+						}}
+					>
+						<!-- Selection Indicator (Radio/Checkbox) -->
 						<span class="flex-shrink-0 mt-0.5">
-							{#if resultIcon === 'correct'}
-								<Check size={20} class="text-[var(--color-success)]" />
-							{:else if resultIcon === 'incorrect'}
-								<X size={20} class="text-[var(--color-error)]" />
-							{:else if resultIcon === 'missed'}
-								<span class="text-[var(--color-accent)] text-xs font-medium">Missed</span>
+							{#if isMultipleChoice()}
+								{#if isSelected}
+									<SquareCheck size={20} class="text-[var(--color-primary)]" />
+								{:else}
+									<Square size={20} class="text-[var(--text-secondary)]" />
+								{/if}
+							{:else if isSelected}
+								<CircleDot size={20} class="text-[var(--color-primary)]" />
+							{:else}
+								<Circle size={20} class="text-[var(--text-secondary)]" />
 							{/if}
 						</span>
-					{/if}
+
+						<!-- Answer Text -->
+						<span class="flex-1">
+							<BilingualText text={ans.answer_text || String(ans)} variant="answer" />
+						</span>
+
+						<!-- Result Icon (after checking) -->
+						{#if resultIcon}
+							<span class="flex-shrink-0 mt-0.5">
+								{#if resultIcon === 'correct'}
+									<Check size={20} class="text-[var(--color-success)]" />
+								{:else if resultIcon === 'incorrect'}
+									<X size={20} class="text-[var(--color-error)]" />
+								{:else if resultIcon === 'missed'}
+									<span class="text-[var(--color-accent)] text-xs font-medium">Missed</span>
+								{/if}
+							</span>
+						{/if}
+					</button>
+				{/each}
+			{/if}
+		</div>
+		<!-- Check Button (MCQ only) -->
+		{#if isMultipleChoice() && !questionLocked}
+			<div class="flex flex-col items-center w-full gap-2">
+				<!-- Selection counter -->
+				{#if selectedAnswers.length > 0}
+					<span class="text-sm text-[var(--text-secondary)]">
+						{selectedAnswers.length} answer{selectedAnswers.length !== 1 ? 's' : ''} selected
+					</span>
+				{:else}
+					<span class="text-sm text-[var(--text-secondary)] opacity-70">
+						Select one or more answers
+					</span>
+				{/if}
+				<button
+					id="check-btn"
+					class="mt-1 mb-4 px-8 py-3 rounded-lg font-semibold text-base transition-all duration-200
+					{selectedAnswers.length > 0
+						? 'bg-[var(--color-primary)] text-[var(--bg-primary)] shadow-lg shadow-[var(--color-primary)]/25 hover:shadow-[var(--color-primary)]/40 hover:scale-[1.02] active:scale-[0.98]'
+						: 'bg-[var(--bg-hover)] text-[var(--text-secondary)] cursor-not-allowed opacity-50'}"
+					onclick={checkAnswers}
+					disabled={selectedAnswers.length === 0}
+				>
+					Check Answers
 				</button>
-			{/each}
+			</div>
 		{/if}
 	</div>
-	<!-- Check Button (MCQ only) -->
-	{#if isMultipleChoice() && !questionLocked}
-		<div class="flex flex-col items-center w-full gap-2">
-			<!-- Selection counter -->
-			{#if selectedAnswers.length > 0}
-				<span class="text-sm text-[var(--text-secondary)]">
-					{selectedAnswers.length} answer{selectedAnswers.length !== 1 ? 's' : ''} selected
-				</span>
-			{:else}
-				<span class="text-sm text-[var(--text-secondary)] opacity-70">
-					Select one or more answers
-				</span>
-			{/if}
-			<button
-				id="check-btn"
-				class="mt-1 mb-4 px-8 py-3 rounded-lg font-semibold text-base transition-all duration-200
-					{selectedAnswers.length > 0
-					? 'bg-[var(--color-primary)] text-[var(--bg-primary)] shadow-lg shadow-[var(--color-primary)]/25 hover:shadow-[var(--color-primary)]/40 hover:scale-[1.02] active:scale-[0.98]'
-					: 'bg-[var(--bg-hover)] text-[var(--text-secondary)] cursor-not-allowed opacity-50'}"
-				onclick={checkAnswers}
-				disabled={selectedAnswers.length === 0}
-			>
-				Check Answers
-			</button>
-		</div>
-	{/if}
 </div>
 
 {#if isScrollable.value}

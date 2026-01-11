@@ -1,6 +1,15 @@
 <script lang="ts">
-	import { uiState, enStyleState, setEnSize, setEnOpacity } from './global.svelte';
-	import { Settings, Languages } from '@lucide/svelte';
+	import {
+		uiState,
+		enStyleState,
+		setEnSize,
+		setEnOpacity,
+		styleState,
+		setStyle,
+		setFont
+	} from './global.svelte';
+	import { Settings, Languages, Palette, Type } from '@lucide/svelte';
+	import { STYLES, FONTS, type StyleKey, type FontId } from '$lib/theme';
 
 	function handleBackdropClick(e: MouseEvent) {
 		if (e.target === e.currentTarget) {
@@ -23,6 +32,16 @@
 		const val = parseFloat((e.target as HTMLInputElement).value);
 		setEnOpacity(val);
 	}
+
+	function handleStyleChange(e: Event) {
+		const target = e.target as HTMLSelectElement;
+		setStyle(target.value as StyleKey);
+	}
+
+	function handleFontChange(e: Event) {
+		const target = e.target as HTMLSelectElement;
+		setFont(target.value as FontId);
+	}
 </script>
 
 <svelte:window onkeydown={handleKeydown} />
@@ -43,11 +62,49 @@
 			<div class="flex items-center gap-2 mb-6">
 				<Settings size={22} class="text-[var(--color-primary)]" />
 				<h3 id="settings-title" class="text-[var(--color-primary)] text-lg font-semibold">
-					Bilingual Settings
+					Settings
 				</h3>
 			</div>
 
 			<div class="space-y-6">
+				<!-- App Appearance -->
+				<div class="space-y-4">
+					<div class="flex items-center gap-2 mb-1">
+						<Palette size={18} class="text-[var(--color-accent)]" />
+						<h4 class="text-[var(--color-accent)] font-medium text-sm">Appearance</h4>
+					</div>
+
+					<!-- Theme Select -->
+					<div class="space-y-2">
+						<span class="flex justify-between text-xs text-[var(--text-secondary)]"> Theme </span>
+						<select
+							class="w-full px-3 py-2 rounded-lg bg-[var(--bg-hover)] border border-[var(--border)] text-[var(--text-primary)] text-sm cursor-pointer"
+							value={styleState.style}
+							onchange={handleStyleChange}
+							aria-label="Select theme"
+						>
+							{#each Object.entries(STYLES) as [key, style] (key)}
+								<option value={key}>{style.name}</option>
+							{/each}
+						</select>
+					</div>
+
+					<!-- Font Select -->
+					<div class="space-y-2">
+						<span class="flex justify-between text-xs text-[var(--text-secondary)]"> Font </span>
+						<select
+							class="w-full px-3 py-2 rounded-lg bg-[var(--bg-hover)] border border-[var(--border)] text-[var(--text-primary)] text-sm cursor-pointer"
+							value={styleState.font}
+							onchange={handleFontChange}
+							aria-label="Select font"
+						>
+							{#each FONTS as font (font.id)}
+								<option value={font.id}>{font.name}</option>
+							{/each}
+						</select>
+					</div>
+				</div>
+
 				<!-- English Text Settings -->
 				<div class="space-y-4">
 					<div class="flex items-center gap-2 mb-1">

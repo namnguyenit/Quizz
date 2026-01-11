@@ -23,14 +23,13 @@
 		<span>{parsed.vietnamese}</span>
 	</div>
 {:else}
-	<!-- Answer: Same line, English styled down -->
-	{#if parsed.english}
-		<span style="font-size: {enStyleState.size}px; opacity: {enStyleState.opacity}">
-			{parsed.english}
-		</span>
-		<span class="mx-1" style="opacity: {enStyleState.opacity}">/</span>
+	<!-- Answer: English above, Vietnamese below -->
+	<div class="flex flex-col gap-0.5">
+		{#if parsed.english}
+			<span style="font-size: {enStyleState.size}px; opacity: {enStyleState.opacity}">
+				{parsed.english}
+			</span>
+		{/if}
 		<span>{parsed.vietnamese}</span>
-	{:else}
-		<span>{parsed.vietnamese}</span>
-	{/if}
+	</div>
 {/if}

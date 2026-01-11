@@ -1,13 +1,5 @@
 <script lang="ts">
-	import {
-		uiState,
-		appState,
-		pageState,
-		styleState,
-		setStyle,
-		setFont,
-		clearQuiz
-	} from './global.svelte';
+	import { uiState, appState, pageState, clearQuiz } from './global.svelte';
 	import {
 		ChevronRight,
 		Menu,
@@ -18,7 +10,6 @@
 		CircleHelp,
 		Settings
 	} from '@lucide/svelte';
-	import { STYLES, FONTS, type StyleKey, type FontId } from '$lib/theme';
 
 	interface Props {
 		showFavorites: () => void;
@@ -43,16 +34,6 @@
 		if (onClearFavorites) {
 			onClearFavorites();
 		}
-	}
-
-	function handleStyleChange(e: Event) {
-		const target = e.target as HTMLSelectElement;
-		setStyle(target.value as StyleKey);
-	}
-
-	function handleFontChange(e: Event) {
-		const target = e.target as HTMLSelectElement;
-		setFont(target.value as FontId);
 	}
 
 	let currentSubject = $derived(
@@ -109,29 +90,6 @@
 
 	<!-- Right: Actions -->
 	<div class="flex gap-1.5 md:gap-2 items-center flex-shrink-0">
-		<!-- Style/Font Selectors (all screen sizes) -->
-		<select
-			class="style-select"
-			value={styleState.style}
-			onchange={handleStyleChange}
-			aria-label="Select style"
-		>
-			{#each Object.entries(STYLES) as [key, style] (key)}
-				<option value={key}>{style.name}</option>
-			{/each}
-		</select>
-
-		<select
-			class="font-select"
-			value={styleState.font}
-			onchange={handleFontChange}
-			aria-label="Select font"
-		>
-			{#each FONTS as font (font.id)}
-				<option value={font.id}>{font.name}</option>
-			{/each}
-		</select>
-
 		<!-- Help button -->
 		<button
 			class="p-1.5 rounded-lg bg-[var(--bg-hover)] text-[var(--color-primary)] hover:bg-[var(--border)] cursor-pointer border border-[var(--border)]"
@@ -146,8 +104,8 @@
 		<button
 			class="p-1.5 rounded-lg bg-[var(--bg-hover)] text-[var(--color-primary)] hover:bg-[var(--border)] cursor-pointer border border-[var(--border)]"
 			onclick={() => (uiState.showSettingsModal = true)}
-			aria-label="Bilingual settings"
-			title="Bilingual settings"
+			aria-label="Settings"
+			title="Settings"
 		>
 			<Settings size={18} />
 		</button>
