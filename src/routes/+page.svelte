@@ -414,4 +414,9 @@
 			</div>
 		</div>
 	{/if}
+
+	<!-- Footer Credit -->
+	<div class="fixed bottom-2 left-2 z-[100] pointer-events-none">
+		<span class="text-[var(--text-secondary)] text-xs opacity-50">Design By TrungCao</span>
+	</div>
 </div>

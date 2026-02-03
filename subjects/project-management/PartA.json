@@ -1,0 +1,1164 @@
+[
+  {
+    "question_id": "uml-pa-q1",
+    "question_text": "Which statement is true? (Phát biểu nào sau đây là đúng?)",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "The UML is a development process for software intensive systems. (UML là một quy trình phát triển cho các hệ thống phần mềm phức tạp.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "The UML is a process-dependent language used for visualizing software artifacts. (UML là một ngôn ngữ phụ thuộc quy trình dùng để trực quan hóa các tạo tác phần mềm.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "The UML is a modeling language for software blueprints. (UML là một ngôn ngữ mô hình hóa dùng để tạo bản thiết kế phần mềm.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "The UML is a visual programming language. (UML là một ngôn ngữ lập trình trực quan.)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "uml-pa-q2",
+    "question_text": "In which three ways does a structured class differ from a traditional class? (Choose three.) (Structured class khác với lớp truyền thống ở ba điểm nào? Chọn ba.)",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "It clearly defines the class boundary via an encapsulation shell. (Nó xác định rõ ranh giới lớp thông qua lớp bao đóng gói.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "It brings public interfaces into the class via ports. (Nó đưa các interface công khai vào trong lớp thông qua các cổng (ports).)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "It shows the role that the class plays. (Nó thể hiện vai trò mà lớp đảm nhận.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "It defines messages between itself and other classes. (Nó định nghĩa các thông điệp giữa nó và các lớp khác.)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "uml-pa-q3",
+    "question_text": "Which is a characteristic of a structured class? (Đặc điểm nào sau đây là của structured class?)",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "must have one interface for each role it plays (phải có một interface cho mỗi vai trò)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "can play only one role, no matter how many objects transact with it (chỉ có thể đóng một vai trò)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "can play multiple roles that vary on the objects that interact with it (có thể đảm nhận nhiều vai trò khác nhau tùy theo đối tượng tương tác)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "is limited to one role, but can have multiple interfaces (chỉ giới hạn một vai trò nhưng có nhiều interface)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "uml-pa-q4",
+    "question_text": "Which statement is true about an iterative development process? (Phát biểu nào sau đây đúng về quy trình phát triển lặp?)",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Testing and integration take place in every iteration. (Kiểm thử và tích hợp diễn ra trong mỗi vòng lặp.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "An iteration focuses on partial completion of selected use-case realizations. (Mỗi vòng lặp tập trung hoàn thiện một phần các use case được chọn.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "It encourages user feedback in later iterations. (Khuyến khích phản hồi người dùng ở các vòng lặp sau.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "It is based on functional decomposition of a system. (Dựa trên phân rã chức năng của hệ thống.)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "uml-pa-q5",
+    "question_text": "Which two statements are true about interfaces? (Choose two.) (Hai phát biểu nào sau đây đúng về interface? Chọn hai.)",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "The interface should have a clear purpose. (Interface cần có mục đích rõ ràng.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "A single interface should include as many possible methods as possible. (Một interface nên chứa càng nhiều phương thức càng tốt.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "An interface should be used to restrict which methods are exposed to a client. (Interface dùng để giới hạn các phương thức được công khai cho client.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Classes may have multiple interfaces depending on the purpose of each interface it implements. (Một lớp có thể triển khai nhiều interface tùy theo mục đích.)",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "uml-pa-q6",
+    "question_text": "What is the focus of analysis? (Trọng tâm của giai đoạn phân tích là gì?)",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "translating functional requirements into code (chuyển yêu cầu chức năng thành mã nguồn)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "translating requirements into a system design (chuyển yêu cầu thành thiết kế hệ thống)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "translating real-world concepts into solution-oriented objects (chuyển khái niệm thực tế thành đối tượng hướng giải pháp)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "translating functional requirements into software concepts (chuyển yêu cầu chức năng thành các khái niệm phần mềm)",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "uml-pa-q7",
+    "question_text": "Why is encapsulation important? (Choose two.) (Vì sao đóng gói (encapsulation) quan trọng? Chọn hai.)",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "It describes the relationship between two subclasses. (Mô tả quan hệ giữa hai lớp con.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "It places operations and attributes in the same object. (Đặt thuộc tính và phương thức trong cùng một đối tượng.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "It allows other objects to change private operations and attributes. (Cho phép đối tượng khác thay đổi dữ liệu riêng tư.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "It prevents other objects from directly changing the attributes. (Ngăn đối tượng khác thay đổi trực tiếp các thuộc tính.)",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "uml-pa-q8",
+    "question_text": "What are analysis classes? (Analysis classes là gì?)",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "early conjectures on the composition of the system that usually change over time, rarely surviving intact into implementation (những phỏng đoán ban đầu về cấu trúc hệ thống và thường thay đổi theo thời gian)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "incomplete classes that require a programmer to formalize details (các lớp chưa hoàn chỉnh cần lập trình viên hoàn thiện)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "the classes inside a system’s Business Object or Domain Model (các lớp trong mô hình nghiệp vụ hoặc miền)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "a prototype of a system’s user interface (bản mẫu giao diện người dùng)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "uml-pa-q9",
+    "question_text": "Which operations are most likely contained in the superclass? (Những phương thức nào nhiều khả năng nằm trong lớp cha?)",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "getName(), getSize(), and findAverage()",
+        "is_correct": true
+      },
+      {
+        "answer_text": "findMaximum(), findMinimum(), getSize(), and getTotal()",
+        "is_correct": false
+      },
+      {
+        "answer_text": "getName(), findAverage(), and findMaximum()",
+        "is_correct": false
+      },
+      {
+        "answer_text": "getName(), getSize(), getTotal(), and findAverage()",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "uml-pa-q10",
+    "question_text": "Which area of focus is essential for creating an Analysis Model? (Trọng tâm nào là thiết yếu khi xây dựng mô hình phân tích?)",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "hardware on which the system will be deployed (phần cứng triển khai hệ thống)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "behavior of the objects that comprise the system (hành vi của các đối tượng trong hệ thống)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "evolution of analysis classes into design classes (sự chuyển hóa sang lớp thiết kế)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "performance requirements of the system (yêu cầu hiệu năng)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "uml-pa-q11",
+    "question_text": "What does a required interface do? (Required interface dùng để làm gì?)",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "exposes services to anonymous requestors (cung cấp dịch vụ cho các đối tượng yêu cầu không xác định)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "uses the services that a classifier requires to request from anonymous providers (sử dụng các dịch vụ mà classifier cần từ các nhà cung cấp không xác định)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "declares the services that a classifier offers to provide anonymous requestors (khai báo các dịch vụ mà classifier cung cấp cho các đối tượng yêu cầu)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "exposes methods that the requestor must use (công khai các phương thức mà đối tượng yêu cầu phải sử dụng)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "uml-pa-q12",
+    "question_text": "In a sequence diagram, each interaction on the diagram maps to ____. (Trong biểu đồ tuần tự, mỗi tương tác tương ứng với điều gì?)",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "a choice point on a state diagram (một điểm rẽ nhánh trong biểu đồ trạng thái)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "the transition on a state diagram (một sự chuyển trạng thái trong biểu đồ trạng thái)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "a state on the diagram (một trạng thái)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "the initial state (trạng thái khởi đầu)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "uml-pa-q13",
+    "question_text": "Which two questions does the use of multiplicity on relationships allow you to answer? (Choose two.) (Hai câu hỏi nào có thể trả lời nhờ bội số (multiplicity) trong các mối quan hệ?)",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "Is the relationship mandatory or optional? (Mối quan hệ là bắt buộc hay tùy chọn?)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "How many links can an object of one type maintain with objects of another type? (Một đối tượng có thể liên kết với bao nhiêu đối tượng khác?)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Is an object permitted to interact with objects of another type? (Đối tượng có được phép tương tác không?)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Is the relationship permanent or temporary? (Mối quan hệ là lâu dài hay tạm thời?)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "uml-pa-q14",
+    "question_text": "What are two important considerations when diagramming state? (Choose two.) (Hai điều quan trọng khi vẽ biểu đồ trạng thái là gì?)",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "Any time a message is received; there may be a change of state. (Bất cứ khi nào nhận thông điệp, có thể xảy ra thay đổi trạng thái.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Any time a message is received; there must be a change of state. (Bất cứ khi nào nhận thông điệp, bắt buộc phải đổi trạng thái.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Whenever there is a change of state, there is a transition. (Khi có thay đổi trạng thái thì có một chuyển trạng thái.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Changing state may not change transition. (Thay đổi trạng thái có thể không làm thay đổi transition.)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "uml-pa-q15",
+    "question_text": "Which statement is true about circular dependencies? (Phát biểu nào đúng về phụ thuộc vòng (circular dependency)?)",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "They do not matter. (Không quan trọng.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "They are prohibited. (Bị cấm.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "They must be avoided. (Cần phải tránh.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "When there are more than two packages, they are irrelevant. (Không liên quan khi có nhiều package.)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "uml-pa-q16",
+    "question_text": "What is the purpose of Architectural Analysis? (Mục đích của phân tích kiến trúc là gì?)",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "to detail the design of the system (chi tiết hóa thiết kế hệ thống)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "to review the architecture of the system (đánh giá kiến trúc hệ thống)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "to define a candidate architecture for the system (xác định kiến trúc đề xuất cho hệ thống)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "to define the layers of the architecture (xác định các tầng kiến trúc)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "uml-pa-q17",
+    "question_text": "When the interfaces between two classes have been defined from a sequence diagram, the ports are defined by the ____. (Khi interface giữa hai lớp được xác định từ sequence diagram, các port được xác định bởi?)",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Interface (Bởi interface)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "operations the class performs (Các phương thức của lớp)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "user of the system (Người dùng hệ thống)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "attributes passed in the sequence diagram (Các thuộc tính được truyền)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "uml-pa-q18",
+    "question_text": "Which statement is true about attributes? (Phát biểu nào đúng về thuộc tính?)",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "They cannot change once the object is instantiated. (Không thể thay đổi sau khi khởi tạo.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "They change value from object to object of the same class. (Giá trị khác nhau giữa các đối tượng cùng lớp.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "They can only be primitives. (Chỉ có kiểu nguyên thủy.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "They are required for every class. (Bắt buộc có trong mọi lớp.)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "uml-pa-q19",
+    "question_text": "What are the three purposes of Analysis and Design? (Choose three.) (Ba mục đích của Phân tích và Thiết kế là gì?)",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "to provide an organizational context for the system (cung cấp bối cảnh tổ chức)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "to transform the requirements into a design of the to-be system (chuyển yêu cầu thành thiết kế hệ thống tương lai)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "to evolve a robust architecture for the system (phát triển kiến trúc vững chắc)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "to scope the system and describe what it must do (xác định phạm vi và mô tả chức năng)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "to adapt the design to match the implementation environment (điều chỉnh thiết kế phù hợp môi trường triển khai)",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "uml-pa-q20",
+    "question_text": "Objects that are polymorphic ____. (Các đối tượng có tính đa hình thì…)",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "must have the same attributes (phải có cùng thuộc tính)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "share all the same operations and perform the same (có cùng phương thức và thực hiện giống nhau)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "can only be implemented through interfaces (chỉ có thể cài đặt qua interface)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "may have the same operation names but the operations perform differently (có thể có cùng tên phương thức nhưng thực hiện khác nhau)",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "uml-pa-q21",
+    "question_text": "Which is a best practice for nesting structured classes? (Thực hành tốt nhất khi lồng (nesting) các structured class là gì?)",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "should limit the nesting of structured classes to two levels per diagram (Nên giới hạn lồng structured class tối đa hai mức trên mỗi sơ đồ.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "should display all substructured classes of a structured class in a single diagram (Nên hiển thị tất cả các structured class con trong cùng một sơ đồ.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "should be limited to one level of depth, thereby allowing the user to navigate from diagram to diagram to show the next level (Nên giới hạn một mức độ sâu, cho phép người dùng chuyển sang sơ đồ khác để xem mức tiếp theo.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "should be determined by the architect during the design phase (Nên do kiến trúc sư quyết định trong giai đoạn thiết kế.)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "uml-pa-q22",
+    "question_text": "During Architectural Analysis, a Software Architect wants to reduce the complexity of the system and improve its consistency. What should the Software Architect define to accomplish this? (Trong phân tích kiến trúc, kiến trúc sư muốn giảm độ phức tạp của hệ thống và cải thiện tính nhất quán. Cần xác định điều gì?)",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "coding rules (Quy tắc lập trình)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "use-case realizations (Hiện thực hóa use case)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "analysis mechanisms (Cơ chế phân tích)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "design mechanisms (Cơ chế thiết kế)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "uml-pa-q23",
+    "question_text": "Which two characteristics do all objects have? (Choose two.) (Hai đặc điểm nào mà mọi đối tượng đều có? Chọn hai.)",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "primitives (Kiểu nguyên thủy)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "state and behavior (Trạng thái và hành vi)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "interfaces (Giao diện)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "a unique identity (Định danh duy nhất)",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "uml-pa-q24",
+    "question_text": "Analysis classes evolve into ____. (Choose two.) (Các lớp phân tích sẽ tiến hóa thành những gì? Chọn hai.)",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "design classes (Lớp thiết kế.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "subsystems (Hệ thống con.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "use-case realizations (Hiện thực hóa use case.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "design packages (Gói thiết kế.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "architecture (Kiến trúc.)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "uml-pa-q25",
+    "question_text": "What happens when a superclass is changed? (Điều gì xảy ra khi lớp cha bị thay đổi?)",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "All subclasses inherit the change. (Tất cả lớp con đều kế thừa thay đổi.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "The operations of the subclass must be changed. (Các phương thức của lớp con phải thay đổi.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Additional operations in the subclass must change. (Các phương thức bổ sung trong lớp con phải thay đổi.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Only the operations of the superclass are inherited. (Chỉ các phương thức của lớp cha được kế thừa.)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "uml-pa-q26",
+    "question_text": "Which two statements are true about use-case realization? (Hai phát biểu nào sau đây là đúng về use-case realization?)",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "It lists the different steps performed by a use-case. (Nó liệt kê các bước khác nhau được thực hiện trong một use case.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "It provides traceability from Analysis and Design back to requirements. (Nó cung cấp khả năng truy vết từ Phân tích và Thiết kế ngược lại các yêu cầu.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "It is created by the System Analyst. (Nó được tạo bởi nhà phân tích hệ thống.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "It describes the use-case in terms of collaborating objects. (Nó mô tả use case dưới góc độ các đối tượng cộng tác với nhau.)",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "uml-pa-q27",
+    "question_text": "Which state does NOT contain another state? (Trạng thái nào KHÔNG chứa trạng thái khác?)",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Top State (Trạng thái đỉnh, trạng thái cao nhất.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Composite State (Trạng thái tổng hợp, có thể chứa các trạng thái con.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Simple State (Trạng thái đơn, không chứa trạng thái nào khác.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Bottom State (Trạng thái đáy/kết thúc.)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "uml-pa-q28",
+    "question_text": "Which statement is true about grouping elements into a package? (Phát biểu nào sau đây là đúng về việc nhóm các phần tử vào package?)",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Elements in a package should share a logical, common grouping. (Các phần tử trong một package nên có sự liên kết logic, cùng một nhóm chức năng.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Packages should contain a small number of elements to avoid confusion. (Package nên chứa số lượng nhỏ phần tử để tránh nhầm lẫn.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Packages should only be used on large projects requiring a large number of elements. (Package chỉ nên dùng cho các dự án lớn.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Packages should not contain other packages. (Package không nên chứa package khác.)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "uml-pa-q29",
+    "question_text": "What are three architectural mechanism categories? (Ba nhóm cơ chế kiến trúc là gì?)",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "analysis mechanisms (Cơ chế phân tích.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "requirement mechanisms (Cơ chế yêu cầu.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "implementation mechanisms (Cơ chế cài đặt/triển khai.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "design mechanisms (Cơ chế thiết kế.)",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "uml-pa-q30",
+    "question_text": "In a sequence diagram, what can be defined by the interactions between participants in the interactions? (Trong sơ đồ trình tự, các tương tác giữa các đối tượng tham gia có thể xác định được điều gì?)",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "only services provided by an interface (Chỉ các dịch vụ được cung cấp bởi interface.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "only services required by an interface (Chỉ các dịch vụ mà interface yêu cầu.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "both provided and required services for interfaces (Cả các dịch vụ được cung cấp và các dịch vụ được yêu cầu của interface.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "the name of the interface (Tên của interface.)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "uml-pa-q31",
+    "question_text": "Which view focuses on the physical realization of the system? (Khung nhìn nào tập trung vào việc hiện thực hóa vật lý của hệ thống?)",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Logical View (Khung nhìn logic.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Implementation View (Khung nhìn triển khai/hiện thực, tập trung vào thành phần vật lý như module, package, file, thư viện.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Process View (Khung nhìn tiến trình/xử lý song song.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Use-Case View (Khung nhìn ca sử dụng.)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "uml-pa-q32",
+    "question_text": "Which statement is true about an active object? (Phát biểu nào sau đây là đúng về active object?)",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "It is an independent object that can communicate with other active objects asynchronously (Là một đối tượng độc lập, có thể giao tiếp bất đồng bộ với các active object khác.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "It does not contain state (Không chứa trạng thái.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "It is dependent on the overall system execution (Phụ thuộc vào luồng thực thi chung của hệ thống.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "It is unstructured to allow the class to be manipulated easily (Không có cấu trúc để dễ thao tác.)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "uml-pa-q33",
+    "question_text": "During Use Case Analysis, what is generally allocated to control classes? (Trong phân tích Use Case, hành vi nào thường được phân bổ cho lớp điều khiển?)",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "behavior specific to a use-case or part of a very important flow of events (Hành vi đặc thù cho một use case hoặc cho một luồng sự kiện quan trọng.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "behavior that involves the data encapsulated within the abstraction (Hành vi liên quan đến dữ liệu được đóng gói trong lớp.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "behavior that involves communication with an actor (Hành vi liên quan đến giao tiếp với actor.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "behavior specific to business rule enforcement or workflow (Hành vi liên quan đến luật nghiệp vụ hoặc quy trình.)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "uml-pa-q34",
+    "question_text": "What are three sources for Key Abstractions identification? (Ba nguồn nào dùng để xác định các trừu tượng chính – Key Abstractions?)",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "domain knowledge (Kiến thức miền nghiệp vụ.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "requirements (Yêu cầu hệ thống.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "design classes (Các lớp thiết kế.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "glossary (Bảng thuật ngữ.)",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "uml-pa-q35",
+    "question_text": "What is a named object in UML? (Đối tượng có tên trong UML là gì?)",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Matt:Employee (Đối tượng tên Matt, thuộc lớp Employee.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": ":Employee (Đối tượng không tên của lớp Employee.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Matt::Employee (Cú pháp namespace, không phải đối tượng UML.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "::employee (Không đúng cú pháp đối tượng.)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "uml-pa-q36",
+    "question_text": "During Use Case Analysis, an attribute should be used instead of a class when the information ____. (Trong phân tích Use Case, nên dùng thuộc tính thay vì lớp khi thông tin đó…)",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "is accessed by operations that only get, set, or perform simple transformations (Chỉ được truy cập bởi các thao tác lấy/ghi hoặc biến đổi đơn giản.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "is related to entities in the Business or Domain Model (Liên quan đến các thực thể trong mô hình nghiệp vụ/miền.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "needs to be hidden from other parts of the Analysis Model and not shared (Cần được ẩn và không chia sẻ.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "is referred to and used multiple times throughout the use-case realization (Được tham chiếu và dùng nhiều lần trong hiện thực use case.)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "uml-pa-q37",
+    "question_text": "Which view is NOT part of the RUP 4+1 View Model? (Khung nhìn nào KHÔNG thuộc mô hình 4+1 của RUP?)",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Logical View (Khung nhìn logic.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Distribution View (Khung nhìn phân phối/triển khai.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Use-Case View (Khung nhìn ca sử dụng.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Process View (Khung nhìn tiến trình.)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "uml-pa-q38",
+    "question_text": "What are two functions of visual modeling? (Hai chức năng của mô hình hóa trực quan là gì?)",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "produces a single model that represents all views of the system (Tạo ra một mô hình duy nhất đại diện cho tất cả các khung nhìn của hệ thống.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "improves communication and comprehension among team members (Cải thiện khả năng giao tiếp và hiểu biết chung giữa các thành viên trong nhóm.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "documents important design decisions in the code (Ghi lại các quyết định thiết kế quan trọng trực tiếp trong mã nguồn.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "documents system behavior and structure before coding the system (Tài liệu hóa hành vi và cấu trúc hệ thống trước khi tiến hành lập trình.)",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "uml-pa-q39",
+    "question_text": "During Use Case Analysis, why are analysis mechanisms used? (Trong phân tích Use Case, vì sao cần sử dụng các cơ chế phân tích?)",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "to reduce complexity and improve consistency by providing a shorthand representation for complex behavior (Để giảm độ phức tạp và tăng tính nhất quán bằng cách cung cấp cách biểu diễn rút gọn cho các hành vi phức tạp.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "to simplify the task of creating use-case realizations by providing convenient shorthand for repetitive tasks (Để đơn giản hóa việc tạo hiện thực use case cho các tác vụ lặp.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "to gather common tasks into one place, in order to more easily assign them to developers for implementation (Để gom các tác vụ chung nhằm dễ phân công cho lập trình viên.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "to verify that designers have performed the analysis task correctly, according to the architects recommendation (Để kiểm tra nhà thiết kế có làm đúng phân tích theo khuyến nghị của kiến trúc sư.)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "uml-pa-q40",
+    "question_text": "Which statement is true about patterns? (Phát biểu nào sau đây là đúng về pattern?)",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Patterns only exist at the Design level (Pattern chỉ tồn tại ở mức thiết kế.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Patterns provide a common solution to a common problem (Pattern cung cấp một giải pháp chung cho một vấn đề phổ biến.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Patterns only exist at the Architectural level (Pattern chỉ tồn tại ở mức kiến trúc.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Patterns are only used during the Elaboration Phase (Pattern chỉ được dùng trong pha Elaboration.)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "uml-pa-q41",
+    "question_text": "During Use Case Analysis, why is it sometimes necessary to supplement the use-case description? (Trong phân tích Use Case, vì sao đôi khi cần bổ sung mô tả use case?)",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "The description of each use-case is not always sufficient for finding analysis classes and their objects (Mô tả use case không phải lúc nào cũng đủ để xác định các lớp phân tích và các đối tượng của chúng.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "The flow of events in the use-case is sometimes too complex to be implemented (Luồng sự kiện đôi khi quá phức tạp để cài đặt.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Designers need to know which use-case flows are being developed in the current iteration (Nhà thiết kế cần biết luồng nào đang được phát triển trong vòng lặp hiện tại.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "The architect may need to adjust incorrect requirements before giving them to the designers (Kiến trúc sư cần chỉnh sửa yêu cầu sai trước khi giao cho nhà thiết kế.)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "uml-pa-q42",
+    "question_text": "In Use Case Analysis, what is the purpose of the Unify Analysis Classes step? (Trong phân tích Use Case, mục đích của bước Unify Analysis Classes là gì?)",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "to ensure that each analysis class represents a single well-defined concept, with no overlapping responsibilities (Đảm bảo mỗi lớp phân tích biểu diễn một khái niệm rõ ràng, duy nhất và không chồng chéo trách nhiệm.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "to gather the analysis classes from each use-case realization and bring them into the Design Model (Thu thập các lớp phân tích từ từng hiện thực use case và đưa vào mô hình thiết kế.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "to make sure the responsibilities of each class are consistent and that the class has a well-defined single purpose (Đảm bảo trách nhiệm của mỗi lớp nhất quán và có một mục đích duy nhất.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "to create initial class families by using inheritance to group related classes into tree structures (Tạo các họ lớp ban đầu bằng kế thừa.)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "uml-pa-q43",
+    "question_text": "Which three processes are best suited for UML? (Ba quy trình nào phù hợp nhất với UML?)",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "use-case driven (Hướng use case.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "waterfall development-based (Dựa trên mô hình thác nước.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "iterative and incremental (Lặp và tăng dần.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "architecture-centric (Lấy kiến trúc làm trung tâm.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "requirements-centric (Lấy yêu cầu làm trung tâm.)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "uml-pa-q44",
+    "question_text": "Architectural layers are commonly modeled in UML using a ____. (Các tầng kiến trúc thường được mô hình hóa trong UML bằng cách nào?)",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "package stereotyped <<Layer>> (Gói (package) được gán stereotype <<Layer>>.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "subsystem stereotyped <<Layer>> (Subsystem gán stereotype <<Layer>>.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "composite class stereotyped <<Layer>> (Lớp cấu trúc gán stereotype <<Layer>>.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "class diagram entitled Layer (Sơ đồ lớp có tên là Layer.)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "uml-pa-q45",
+    "question_text": "In a state diagram, a state has two transitions. One of the transitions is an internal transition and the other is an external transition. Which state(s) can perform an exit action? (Trong sơ đồ trạng thái, một trạng thái có hai chuyển tiếp: một chuyển tiếp nội bộ và một chuyển tiếp bên ngoài. Trường hợp nào có thể thực hiện exit action?)",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "the internal transition only (Chỉ chuyển tiếp nội bộ.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "the external transition only (Chỉ chuyển tiếp bên ngoài.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "neither the internal nor the external transition (Không chuyển tiếp nào.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "both the internal and external transitions (Cả hai chuyển tiếp.)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "uml-pa-q46",
+    "question_text": "Which two statements are true about use-case driven processes? (Hai phát biểu nào sau đây đúng về quy trình hướng use case?)",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "Use-cases are concise, simple, and able to be understood by a wide range of stakeholders (Use case ngắn gọn, dễ hiểu và có thể được nhiều bên liên quan hiểu.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Use-cases help synchronize the content of different models (Use case giúp đồng bộ nội dung giữa các mô hình.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Use-cases are a complete list of functional requirements (Use case là danh sách đầy đủ các yêu cầu chức năng.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Use-cases specify how the system behavior is to be implemented (Use case chỉ rõ cách cài đặt hành vi hệ thống.)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "uml-pa-q47",
+    "question_text": "Which is the primary function of entity classes? (Chức năng chính của các lớp thực thể (entity classes) là gì?)",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "store and manage information in the system (Lưu trữ và quản lý thông tin trong hệ thống.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "act as a surrogate or proxy for the actors in a system (Đóng vai trò đại diện cho actor.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "wrap data access calls to a systems relational database (Bao bọc các lời gọi truy cập CSDL.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "marshal information between the tiers in a system (Truyền dữ liệu giữa các tầng của hệ thống.)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "uml-pa-q48",
+    "question_text": "Which is a UML general-purpose mechanism for organizing elements into groups? (Cơ chế mục đích chung trong UML dùng để tổ chức các phần tử thành nhóm là gì?)",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "a class diagram (Sơ đồ lớp.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "an activity (Hoạt động.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "a package (Gói – dùng để nhóm các phần tử liên quan.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "a composite diagram (Sơ đồ tổng hợp.)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "uml-pa-q49",
+    "question_text": "During Use Case Analysis, how many interaction diagrams (sequence or communication) should be drawn for each use-case? (Trong phân tích Use Case, nên vẽ bao nhiêu sơ đồ tương tác cho mỗi use case?)",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "enough of each type to ensure that all responsibilities of participating classes are identified and that most of the flows of events are examined (Vẽ đủ số lượng cần thiết để xác định đầy đủ trách nhiệm của các lớp tham gia và xem xét hầu hết các luồng sự kiện.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "one for the main flow and one for each alternate flow of events in the usecase (Một cho luồng chính và một cho mỗi luồng thay thế.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "one of each type for the main flow and one of each type for each alternate flow of events in the use-case (Mỗi loại một sơ đồ cho luồng chính và mỗi luồng thay thế.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "one of each type per use-case, with each alternate flow of events shown as an interaction occurrence (Mỗi use case một sơ đồ mỗi loại.)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "uml-pa-q50",
+    "question_text": "In Use Case Analysis, what is the function of boundary classes? (Trong phân tích Use Case, chức năng của các lớp biên (boundary classes) là gì?)",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "to insulate external forces from internal mechanisms and vice versa (Cách ly các tác nhân bên ngoài khỏi các cơ chế bên trong hệ thống và ngược lại.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "to represent the screens in the user interface (Biểu diễn các màn hình giao diện người dùng.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "to define the service interfaces exposed by the Business layer (Định nghĩa các interface dịch vụ của tầng nghiệp vụ.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "to define entry points or roots into the core Object Data Model (Định nghĩa điểm vào của mô hình dữ liệu lõi.)",
+        "is_correct": false
+      }
+    ]
+  }
+]

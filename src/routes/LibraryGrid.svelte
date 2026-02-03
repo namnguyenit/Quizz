@@ -64,5 +64,12 @@
 				{/each}
 			</div>
 		{/if}
+
+		<!-- Copyright Footer -->
+		<div class="mt-12 pt-8 border-t border-[var(--border)] text-center">
+			<p class="text-[var(--text-secondary)] text-sm">
+				Design By <span class="font-semibold text-[var(--color-primary)]">TrungCao</span>
+			</p>
+		</div>
 	</div>
 </div>

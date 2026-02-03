@@ -86,6 +86,11 @@
 				<span class="text-[var(--text-secondary)] text-sm">Loading...</span>
 			{/if}
 		</div>
+
+		<!-- Design By Credit (Desktop only) -->
+		<div class="hidden md:block ml-auto mr-2">
+			<span class="text-[var(--text-secondary)] text-xs opacity-60">Design By TrungCao</span>
+		</div>
 	</div>
 
 	<!-- Right: Actions -->

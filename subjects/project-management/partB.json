@@ -1,0 +1,2450 @@
+[
+  {
+    "question_id": "ooad-q1",
+    "question_text": "Which statement is true about elements within the subsystem and public visibility?\nVN: Phát biểu nào đúng về các phần tử bên trong một phân hệ và phạm vi hiển thị public?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Only the subset of elements that define the subsystem's API should have public visibility.\nVN: Chỉ tập hợp con các phần tử định nghĩa API của phân hệ mới nên có phạm vi hiển thị public.",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Only the subsystem proxy class should have public visibility.\nVN: Chỉ lớp proxy của phân hệ mới nên có phạm vi hiển thị public.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "No elements inside the subsystem should have public visibility.\nVN: Không có phần tử nào bên trong phân hệ nên có phạm vi hiển thị public.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Only the elements that reference external classes should have public visibility.\nVN: Chỉ các phần tử tham chiếu đến các lớp bên ngoài mới nên có phạm vi hiển thị public.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "ooad-q2",
+    "question_text": "What are the two types of dependency that can be used from a subsystem? (Choose two.)\nVN: Hai loại quan hệ phụ thuộc nào có thể được sử dụng từ một phân hệ? (Chọn hai.)",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "<<uses>> dependency to a subsystem interface\nVN: Quan hệ phụ thuộc <<uses>> tới giao diện của phân hệ.",
+        "is_correct": true
+      },
+      {
+        "answer_text": "an <<import>> dependency to a package containing used classes\nVN: Quan hệ phụ thuộc <<import>> tới một package chứa các lớp được sử dụng.",
+        "is_correct": true
+      },
+      {
+        "answer_text": "a <<manifest>> relationship to a node in the Deployment model\nVN: Quan hệ <<manifest>> tới một node trong mô hình Triển khai.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "a <<realize>> relationship to one or more collaboration occurrences\nVN: Quan hệ <<realize>> tới một hoặc nhiều lần xuất hiện cộng tác.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "ooad-q3",
+    "question_text": "Which task is performed during use-case realization refinement?\nVN: Nhiệm vụ nào được thực hiện trong quá trình tinh chỉnh thực hiện hóa ca sử dụng?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "identify participating classes\nVN: xác định các lớp tham gia",
+        "is_correct": false
+      },
+      {
+        "answer_text": "allocate responsibilities among classes\nVN: phân bổ trách nhiệm giữa các lớp",
+        "is_correct": false
+      },
+      {
+        "answer_text": "model messages between classes\nVN: mô hình hóa các thông điệp giữa các lớp",
+        "is_correct": false
+      },
+      {
+        "answer_text": "model associated class relationships\nVN: mô hình hóa các mối quan hệ giữa các lớp liên quan",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "ooad-q4",
+    "question_text": "Which statement is true about design subsystems?\nVN: Phát biểu nào đúng về các phân hệ thiết kế?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "They partially encapsulate behavior.\nVN: Chúng chỉ đóng gói hành vi một phần.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "They represent an independent capability with clear interfaces.\nVN: Chúng đại diện cho một năng lực độc lập với các giao diện rõ ràng.",
+        "is_correct": true
+      },
+      {
+        "answer_text": "They model a single implementation variant.\nVN: Chúng mô hình hóa một biến thể triển khai duy nhất.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "They can only contain design classes.\nVN: Chúng chỉ có thể chứa các lớp thiết kế.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "ooad-q5",
+    "question_text": "Given the following configuration: Package A (presentation) contains aClass. Package B (business) contains bClass and bInterface. Package C (data) contains cClass. Which is a poor practice?\nVN: Cho cấu hình sau: Package A (trình bày) chứa aClass. Package B (nghiệp vụ) chứa bClass và bInterface. Package C (dữ liệu) chứa cClass. Thực hành nào sau đây là không tốt?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "aClass calls a method in bClass.\nVN: aClass gọi một phương thức trong bClass.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "aClass has an attribute of type cClass.\nVN: aClass có một thuộc tính kiểu cClass.",
+        "is_correct": true
+      },
+      {
+        "answer_text": "aClass realizes bInterface.\nVN: aClass hiện thực giao diện bInterface.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "bClass realizes bInterface.\nVN: bClass hiện thực giao diện bInterface.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "ooad-q6",
+    "question_text": "Which process document describes design mechanisms, any mappings between design mechanisms, and the details regarding their use?\nVN: Tài liệu quy trình nào mô tả các cơ chế thiết kế, các ánh xạ giữa các cơ chế thiết kế và chi tiết về cách sử dụng chúng?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Software Architecture Document\nVN: Tài liệu Kiến trúc Phần mềm",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Design Guidelines\nVN: Hướng dẫn Thiết kế",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Vision Document\nVN: Tài liệu Tầm nhìn",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Software Development Plan\nVN: Kế hoạch Phát triển Phần mềm",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "ooad-q7",
+    "question_text": "In the state of a state machine, a behavior can be defined _____.\nVN: Trong một trạng thái của máy trạng thái, hành vi có thể được định nghĩa _____.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "before reaching a state\nVN: trước khi đạt tới trạng thái",
+        "is_correct": false
+      },
+      {
+        "answer_text": "upon reaching a state\nVN: khi đạt tới trạng thái",
+        "is_correct": false
+      },
+      {
+        "answer_text": "upon leaving a state\nVN: khi rời khỏi trạng thái",
+        "is_correct": false
+      },
+      {
+        "answer_text": "inside a state\nVN: bên trong một trạng thái",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "ooad-q8",
+    "question_text": "What is a gate?\nVN: Gate là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "a parameter that represents a message that crosses the boundary of an interaction or interaction fragment\nVN: một tham số đại diện cho một thông điệp đi qua ranh giới của một tương tác hoặc một mảnh tương tác",
+        "is_correct": true
+      },
+      {
+        "answer_text": "a defined protocol for accessing the internals of a subsystem\nVN: một giao thức được định nghĩa để truy cập vào bên trong một phân hệ",
+        "is_correct": false
+      },
+      {
+        "answer_text": "a decision point in a state machine that has more than two alternatives\nVN: một điểm quyết định trong máy trạng thái có nhiều hơn hai lựa chọn",
+        "is_correct": false
+      },
+      {
+        "answer_text": "a set of checkpoints each subsystem design must satisfy before it can be assigned for implementation\nVN: một tập các mốc kiểm tra mà mỗi thiết kế phân hệ phải thỏa mãn trước khi được giao triển khai",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "ooad-q9",
+    "question_text": "When identifying design elements, a simple analysis class will map to a(n) _____.\nVN: Khi xác định các phần tử thiết kế, một lớp phân tích đơn giản sẽ được ánh xạ thành _____.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "active class\nVN: lớp hoạt động",
+        "is_correct": false
+      },
+      {
+        "answer_text": "interface\nVN: giao diện",
+        "is_correct": false
+      },
+      {
+        "answer_text": "design class\nVN: lớp thiết kế",
+        "is_correct": true
+      },
+      {
+        "answer_text": "subsystem\nVN: phân hệ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "ooad-q10",
+    "question_text": "In which OOAD activity is the distribution mechanism identified?\nVN: Cơ chế phân tán được xác định trong hoạt động OOAD nào?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Identify Design Elements\nVN: Xác định các phần tử thiết kế",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Identify Design Mechanisms\nVN: Xác định các cơ chế thiết kế",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Class Design\nVN: Thiết kế lớp",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Architectural Analysis\nVN: Phân tích kiến trúc",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "ooad-q11",
+    "question_text": "Click on the exhibit button. In the diagram, what is E?\nVN: Nhấn vào nút exhibit. Trong sơ đồ, ký hiệu E là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "fork\nVN: nút phân nhánh song song",
+        "is_correct": false
+      },
+      {
+        "answer_text": "initial state\nVN: trạng thái bắt đầu",
+        "is_correct": false
+      },
+      {
+        "answer_text": "decision\nVN: điểm quyết định",
+        "is_correct": false
+      },
+      {
+        "answer_text": "transition\nVN: chuyển tiếp",
+        "is_correct": true
+      },
+      {
+        "answer_text": "final state\nVN: trạng thái kết thúc",
+        "is_correct": false
+      },
+      {
+        "answer_text": "event\nVN: sự kiện",
+        "is_correct": false
+      },
+      {
+        "answer_text": "state\nVN: trạng thái",
+        "is_correct": false
+      },
+      {
+        "answer_text": "guard condition\nVN: điều kiện bảo vệ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "ooad-q12",
+    "question_text": "Identify Design Elements is part of which workflow detail?\nVN: Xác định các phần tử thiết kế (Identify Design Elements) thuộc chi tiết luồng công việc nào?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Define a Candidate Architecture\nVN: Xác định kiến trúc ứng viên",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Design Components\nVN: Thiết kế các thành phần",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Perform Architectural\nVN: Thực hiện kiến trúc",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Refine the Architecture\nVN: Tinh chỉnh kiến trúc",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "ooad-q13",
+    "question_text": "Click on the exhibit button. In the diagram, what is H?\nVN: Nhấn vào nút exhibit. Trong sơ đồ, ký hiệu H là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "fork\nVN: nút phân nhánh song song",
+        "is_correct": false
+      },
+      {
+        "answer_text": "initial state\nVN: trạng thái bắt đầu",
+        "is_correct": false
+      },
+      {
+        "answer_text": "decision\nVN: điểm quyết định",
+        "is_correct": false
+      },
+      {
+        "answer_text": "transition\nVN: chuyển tiếp",
+        "is_correct": false
+      },
+      {
+        "answer_text": "final state\nVN: trạng thái kết thúc",
+        "is_correct": false
+      },
+      {
+        "answer_text": "event\nVN: sự kiện",
+        "is_correct": false
+      },
+      {
+        "answer_text": "state\nVN: trạng thái",
+        "is_correct": false
+      },
+      {
+        "answer_text": "guard condition\nVN: điều kiện bảo vệ",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "ooad-q14",
+    "question_text": "What is the relationship between operation and method?\nVN: Mối quan hệ giữa operation và method là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "The terms are synonymous.\nVN: Hai thuật ngữ này đồng nghĩa.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "An operation describes how a method is implemented.\nVN: Operation mô tả cách một method được cài đặt.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "A method describes how an operation is implemented.\nVN: Method mô tả cách một operation được cài đặt.",
+        "is_correct": true
+      },
+      {
+        "answer_text": "There is no relationship.\nVN: Không có mối quan hệ nào.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "ooad-q15",
+    "question_text": "Why would you use subsystem interfaces rather than subsystem instances on sequence diagrams?\nVN: Vì sao nên sử dụng giao diện phân hệ thay vì các thể hiện phân hệ trong sơ đồ trình tự?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "to make it easier to model subsystems during Subsystem Design\nVN: để dễ mô hình hóa các phân hệ trong quá trình Thiết kế Phân hệ",
+        "is_correct": false
+      },
+      {
+        "answer_text": "to make use-case realizations easier to change\nVN: để việc thay đổi thực hiện hóa ca sử dụng trở nên dễ dàng hơn",
+        "is_correct": true
+      },
+      {
+        "answer_text": "to ease sequence diagram maintenance when message signatures change\nVN: để dễ bảo trì sơ đồ trình tự khi chữ ký thông điệp thay đổi",
+        "is_correct": false
+      },
+      {
+        "answer_text": "to reduce the number of classes needed to implement the subsystem\nVN: để giảm số lượng lớp cần thiết khi triển khai phân hệ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "ooad-q16",
+    "question_text": "Which is an input artifact to the Identify Design Elements activity?\nVN: Tài liệu đầu vào nào được sử dụng cho hoạt động Identify Design Elements?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Deployment Model\nVN: Mô hình triển khai",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Implementation Model\nVN: Mô hình cài đặt",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Reference Architecture\nVN: Kiến trúc tham chiếu",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Software Architecture Document\nVN: Tài liệu kiến trúc phần mềm",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "ooad-q17",
+    "question_text": "What is an important consideration when allocating processes to nodes?\nVN: Yếu tố quan trọng cần xem xét khi phân bổ các tiến trình cho các node là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "minimizing network traffic\nVN: giảm thiểu lưu lượng mạng",
+        "is_correct": true
+      },
+      {
+        "answer_text": "minimizing power consumption\nVN: giảm thiểu tiêu thụ năng lượng",
+        "is_correct": false
+      },
+      {
+        "answer_text": "utilizing all available nodes\nVN: sử dụng tất cả các node sẵn có",
+        "is_correct": false
+      },
+      {
+        "answer_text": "physical distance between nodes\nVN: khoảng cách vật lý giữa các node",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "ooad-q18",
+    "question_text": "Which type of mechanism is a connector on a deployment diagram?\nVN: Connector trong sơ đồ triển khai thuộc loại cơ chế nào?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "backup\nVN: sao lưu",
+        "is_correct": false
+      },
+      {
+        "answer_text": "communication\nVN: truyền thông",
+        "is_correct": true
+      },
+      {
+        "answer_text": "transaction\nVN: giao dịch",
+        "is_correct": false
+      },
+      {
+        "answer_text": "computation\nVN: tính toán",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "ooad-q19",
+    "question_text": "A design mechanism _____.\nVN: Một cơ chế thiết kế _____.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "captures the key aspects of a solution in a way that is implementation-independent\nVN: nắm bắt các khía cạnh cốt lõi của giải pháp theo cách độc lập với cài đặt",
+        "is_correct": false
+      },
+      {
+        "answer_text": "specifies the exact implementation of the mechanism and is bound to a certain technology, implementation language, or vendor\nVN: chỉ rõ cách cài đặt chính xác của cơ chế và bị ràng buộc với một công nghệ, ngôn ngữ cài đặt hoặc nhà cung cấp cụ thể",
+        "is_correct": true
+      },
+      {
+        "answer_text": "is the same as a design pattern\nVN: giống với một mẫu thiết kế",
+        "is_correct": false
+      },
+      {
+        "answer_text": "assumes some details of the implementation environment, but is not tied to a specific implementation\nVN: giả định một số chi tiết của môi trường cài đặt nhưng không gắn chặt với một cài đặt cụ thể",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "ooad-q20",
+    "question_text": "When identifying interfaces during the Identify Design Elements activity, which statement is true?\nVN: Khi xác định các giao diện trong hoạt động Identify Design Elements, phát biểu nào là đúng?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Classes should not realize an interface.\nVN: Các lớp không nên hiện thực một giao diện.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Each subsystem realizes only one interface.\nVN: Mỗi phân hệ chỉ hiện thực một giao diện.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Interfaces should be identified before subsystems are created.\nVN: Các giao diện nên được xác định trước khi các phân hệ được tạo ra.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Interfaces should be packaged separately from the elements that realize them.\nVN: Các giao diện nên được đóng gói tách biệt khỏi các phần tử hiện thực chúng.",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "ooad-q21",
+    "question_text": "Additional subsystems can be discovered during Use Case Design by noting _____.\nVN: Các phân hệ bổ sung có thể được phát hiện trong quá trình Use Case Design bằng cách nhận ra _____.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "common subflows between objects on several sequence diagrams\nVN: các luồng con chung giữa các đối tượng trên nhiều sơ đồ trình tự",
+        "is_correct": true
+      },
+      {
+        "answer_text": "similar objects on several sequence diagrams\nVN: các đối tượng tương tự xuất hiện trên nhiều sơ đồ trình tự",
+        "is_correct": false
+      },
+      {
+        "answer_text": "a consistent series of state transitions for multiple classes involved in a use-case realization\nVN: một chuỗi chuyển trạng thái nhất quán cho nhiều lớp tham gia vào việc thực hiện hóa ca sử dụng",
+        "is_correct": false
+      },
+      {
+        "answer_text": "the same design classes involved in more than one use-case realization\nVN: các lớp thiết kế giống nhau tham gia vào nhiều thực hiện hóa ca sử dụng",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "ooad-q22",
+    "question_text": "Which activities are performed during Use Case Design?\nVN: Những hoạt động nào được thực hiện trong giai đoạn Use Case Design?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "converting analysis classes into design classes and design subsystems\nVN: chuyển các lớp phân tích thành các lớp thiết kế và các phân hệ thiết kế",
+        "is_correct": false
+      },
+      {
+        "answer_text": "describing persistence-related behavior\nVN: mô tả các hành vi liên quan đến lưu trữ lâu dài",
+        "is_correct": false
+      },
+      {
+        "answer_text": "describing object interactions that implement interface operations\nVN: mô tả các tương tác giữa các đối tượng để cài đặt các thao tác của giao diện",
+        "is_correct": false
+      },
+      {
+        "answer_text": "simplifying sequence diagrams using design classes\nVN: đơn giản hóa các sơ đồ trình tự bằng cách sử dụng các lớp thiết kế",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "ooad-q23",
+    "question_text": "On a sequence diagram, what is used to represent a specific subsystem?\nVN: Trên sơ đồ trình tự, yếu tố nào được dùng để biểu diễn một phân hệ cụ thể?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "an interface that the subsystem realizes\nVN: một giao diện mà phân hệ hiện thực",
+        "is_correct": false
+      },
+      {
+        "answer_text": "a subsystem proxy\nVN: một proxy của phân hệ",
+        "is_correct": true
+      },
+      {
+        "answer_text": "a subsystem component\nVN: một thành phần phân hệ",
+        "is_correct": false
+      },
+      {
+        "answer_text": "a subsystem class\nVN: một lớp phân hệ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "ooad-q24",
+    "question_text": "Which UML elements are used to describe the physical architecture of a system?\nVN: Những phần tử UML nào được sử dụng để mô tả kiến trúc vật lý của hệ thống?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "classes and relationships\nVN: các lớp và các mối quan hệ",
+        "is_correct": false
+      },
+      {
+        "answer_text": "objects and messages\nVN: các đối tượng và thông điệp",
+        "is_correct": false
+      },
+      {
+        "answer_text": "subsystems and dependencies\nVN: các phân hệ và các quan hệ phụ thuộc",
+        "is_correct": false
+      },
+      {
+        "answer_text": "nodes and connectors\nVN: các node và các connector",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "ooad-q25",
+    "question_text": "Which artifact is used to describe use-case realizations?\nVN: Tạo tác nào được sử dụng để mô tả các thực hiện hóa ca sử dụng?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "textual use-case descriptions\nVN: mô tả ca sử dụng dạng văn bản",
+        "is_correct": false
+      },
+      {
+        "answer_text": "communication diagrams\nVN: sơ đồ giao tiếp",
+        "is_correct": true
+      },
+      {
+        "answer_text": "state charts\nVN: sơ đồ trạng thái",
+        "is_correct": false
+      },
+      {
+        "answer_text": "activity diagrams\nVN: sơ đồ hoạt động",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "ooad-q26",
+    "question_text": "What defines a subsystem’s responsibilities?\nVN: Điều gì xác định trách nhiệm của một phân hệ?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "its internal class behavior\nVN: hành vi của các lớp bên trong nó",
+        "is_correct": false
+      },
+      {
+        "answer_text": "the operations of the interfaces it implements\nVN: các thao tác của các giao diện mà nó hiện thực",
+        "is_correct": true
+      },
+      {
+        "answer_text": "the use-case realizations in which the subsystem appears\nVN: các thực hiện hóa ca sử dụng mà phân hệ tham gia",
+        "is_correct": false
+      },
+      {
+        "answer_text": "the operations on a class contained within the subsystem\nVN: các thao tác của một lớp nằm trong phân hệ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "ooad-q27",
+    "question_text": "Which is a design mechanism?\nVN: Yếu tố nào sau đây là một cơ chế thiết kế?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Persistency\nVN: Cơ chế lưu trữ lâu dài",
+        "is_correct": false
+      },
+      {
+        "answer_text": "ObjectStore Object-oriented Database\nVN: Cơ sở dữ liệu hướng đối tượng ObjectStore",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Distribution\nVN: Cơ chế phân tán",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Remote Method Invocation\nVN: Cơ chế gọi phương thức từ xa",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "ooad-q28",
+    "question_text": "To begin identifying design mechanisms, you start by categorizing analysis mechanisms. What are three steps in the process of Categorizing Analysis Mechanisms? (Choose three.)\nVN: Để bắt đầu xác định các cơ chế thiết kế, bạn bắt đầu bằng việc phân loại các cơ chế phân tích. Ba bước trong quá trình Phân loại Cơ chế Phân tích là gì? (Chọn ba.)",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "identify characteristic profiles for each analysis mechanism\nVN: xác định các hồ sơ đặc trưng cho mỗi cơ chế phân tích",
+        "is_correct": true
+      },
+      {
+        "answer_text": "identify the clients of each analysis mechanism\nVN: xác định các đối tượng sử dụng (client) của mỗi cơ chế phân tích",
+        "is_correct": true
+      },
+      {
+        "answer_text": "assign a vendor implementation to each analysis mechanism\nVN: gán một cài đặt của nhà cung cấp cho mỗi cơ chế phân tích",
+        "is_correct": false
+      },
+      {
+        "answer_text": "group clients according to their use of characteristic profiles\nVN: nhóm các client dựa trên việc sử dụng các hồ sơ đặc trưng",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "ooad-q29",
+    "question_text": "In Subsystem Design, what happens in the step, Distribute Subsystem Responsibilities?\nVN: Trong Thiết kế Phân hệ, điều gì xảy ra ở bước Phân phối Trách nhiệm Phân hệ?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "The subsystem’s responsibilities are allocated to its internal design elements.\nVN: Trách nhiệm của phân hệ được phân bổ cho các phần tử thiết kế bên trong nó.",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Each subsystem is checked to ensure it has a consistent set of responsibilities and inconsistent responsibilities are reassigned to other subsystems.\nVN: Mỗi phân hệ được kiểm tra để đảm bảo có tập trách nhiệm nhất quán và các trách nhiệm không phù hợp sẽ được chuyển sang các phân hệ khác.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Libraries and external APIs are identified to realize the subsystem behavior.\nVN: Các thư viện và API bên ngoài được xác định để hiện thực hành vi của phân hệ.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Distribution mechanisms are detailed for exposing subsystem interfaces.\nVN: Các cơ chế phân tán được chi tiết hóa để công bố các giao diện của phân hệ.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "ooad-q30",
+    "question_text": "Which entity has a well-defined boundary and identity that encapsulates state and behavior?\nVN: Thực thể nào có ranh giới và định danh rõ ràng, đồng thời đóng gói trạng thái và hành vi?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "class\nVN: lớp",
+        "is_correct": false
+      },
+      {
+        "answer_text": "object\nVN: đối tượng",
+        "is_correct": false
+      },
+      {
+        "answer_text": "component\nVN: thành phần",
+        "is_correct": true
+      },
+      {
+        "answer_text": "package\nVN: gói",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "ooad-q31",
+    "question_text": "What is the purpose of the Identify Design Mechanisms activity?\nVN: Mục đích của hoạt động Identify Design Mechanisms là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "to refine the analysis mechanisms and specify the exact implementation of the mechanism\nVN: tinh chỉnh các cơ chế phân tích và chỉ rõ cách cài đặt chính xác của cơ chế",
+        "is_correct": true
+      },
+      {
+        "answer_text": "to provide a conceptual set of services that is used by analysis objects\nVN: cung cấp một tập dịch vụ mang tính khái niệm được các đối tượng phân tích sử dụng",
+        "is_correct": false
+      },
+      {
+        "answer_text": "to refine analysis mechanisms into design mechanisms, based on the constraints imposed by the implementation environment\nVN: chuyển các cơ chế phân tích thành các cơ chế thiết kế, dựa trên các ràng buộc của môi trường cài đặt",
+        "is_correct": false
+      },
+      {
+        "answer_text": "to define design placeholders in the architecture so the architecting effort remains focused and is less likely to become sidetracked\nVN: xác định các vị trí giữ chỗ thiết kế trong kiến trúc để quá trình thiết kế kiến trúc luôn tập trung và ít bị lệch hướng",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "ooad-q32",
+    "question_text": "In a dependency, through what reference does the client class gain visibility to the supplier?\nVN: Trong một quan hệ phụ thuộc, lớp client có được khả năng nhìn thấy lớp supplier thông qua loại tham chiếu nào?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "local reference\nVN: tham chiếu cục bộ",
+        "is_correct": false
+      },
+      {
+        "answer_text": "parameter reference\nVN: tham chiếu tham số",
+        "is_correct": true
+      },
+      {
+        "answer_text": "global reference\nVN: tham chiếu toàn cục",
+        "is_correct": false
+      },
+      {
+        "answer_text": "field reference\nVN: tham chiếu trường dữ liệu",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "ooad-q33",
+    "question_text": "In which Analysis and Design activity are subsystems mapped to analysis classes?\nVN: Trong hoạt động Phân tích và Thiết kế nào, các phân hệ được ánh xạ với các lớp phân tích?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Architectural Analysis\nVN: Phân tích kiến trúc",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Identify Design Elements\nVN: Xác định các phần tử thiết kế",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Identify Subsystems\nVN: Xác định các phân hệ",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Incorporate Existing Design Elements\nVN: Tích hợp các phần tử thiết kế sẵn có",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "ooad-q34",
+    "question_text": "Which design element is used to represent a concurrent object?\nVN: Phần tử thiết kế nào được dùng để biểu diễn một đối tượng đồng thời?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "active class\nVN: lớp hoạt động",
+        "is_correct": false
+      },
+      {
+        "answer_text": "capsule\nVN: capsule",
+        "is_correct": true
+      },
+      {
+        "answer_text": "design class\nVN: lớp thiết kế",
+        "is_correct": false
+      },
+      {
+        "answer_text": "event\nVN: sự kiện",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "ooad-q35",
+    "question_text": "The Describe Distribution activity is where the processes defined in the Describe the Run-time Architecture activity are allocated to _____.\nVN: Hoạt động Describe Distribution là nơi các tiến trình được xác định trong hoạt động Describe the Run-time Architecture được phân bổ cho _____.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "physical nodes\nVN: các node vật lý",
+        "is_correct": true
+      },
+      {
+        "answer_text": "components\nVN: các thành phần",
+        "is_correct": false
+      },
+      {
+        "answer_text": "classes\nVN: các lớp",
+        "is_correct": false
+      },
+      {
+        "answer_text": "activities\nVN: các hoạt động",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "ooad-q36",
+    "question_text": "During Subsystem Design, how many interaction diagrams (sequence or communication) should be created?\nVN: Trong quá trình Thiết kế Phân hệ, cần tạo bao nhiêu sơ đồ tương tác (trình tự hoặc giao tiếp)?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "at least one interaction diagram per interface operation\nVN: ít nhất một sơ đồ tương tác cho mỗi thao tác của giao diện",
+        "is_correct": true
+      },
+      {
+        "answer_text": "one interaction diagram per interface realization\nVN: một sơ đồ tương tác cho mỗi lần hiện thực giao diện",
+        "is_correct": false
+      },
+      {
+        "answer_text": "at least one interaction diagram for each use of an external interface\nVN: ít nhất một sơ đồ tương tác cho mỗi lần sử dụng một giao diện bên ngoài",
+        "is_correct": false
+      },
+      {
+        "answer_text": "one interaction diagram for each realizing class\nVN: một sơ đồ tương tác cho mỗi lớp hiện thực",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "ooad-q37",
+    "question_text": "A directed graph of nodes connected by transitions is a _____ diagram.\nVN: Một đồ thị có hướng gồm các node được nối với nhau bằng các chuyển tiếp là sơ đồ _____.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "communication\nVN: giao tiếp",
+        "is_correct": false
+      },
+      {
+        "answer_text": "sequence\nVN: trình tự",
+        "is_correct": false
+      },
+      {
+        "answer_text": "component\nVN: thành phần",
+        "is_correct": false
+      },
+      {
+        "answer_text": "state machine\nVN: máy trạng thái",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "ooad-q38",
+    "question_text": "Click on the exhibit button. In the diagram, what is F?\nVN: Nhấn vào nút exhibit. Trong sơ đồ, ký hiệu F là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "fork\nVN: nút phân nhánh song song",
+        "is_correct": false
+      },
+      {
+        "answer_text": "initial state\nVN: trạng thái bắt đầu",
+        "is_correct": false
+      },
+      {
+        "answer_text": "decision\nVN: điểm quyết định",
+        "is_correct": false
+      },
+      {
+        "answer_text": "transition\nVN: chuyển tiếp",
+        "is_correct": false
+      },
+      {
+        "answer_text": "final state\nVN: trạng thái kết thúc",
+        "is_correct": true
+      },
+      {
+        "answer_text": "event\nVN: sự kiện",
+        "is_correct": false
+      },
+      {
+        "answer_text": "state\nVN: trạng thái",
+        "is_correct": false
+      },
+      {
+        "answer_text": "guard condition\nVN: điều kiện bảo vệ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "ooad-q39",
+    "question_text": "Use Case Design is part of which workflow detail?\nVN: Thiết kế Ca sử dụng (Use Case Design) thuộc chi tiết luồng công việc nào?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Design Use Cases\nVN: Thiết kế ca sử dụng",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Analyze Behavior\nVN: Phân tích hành vi",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Design Components\nVN: Thiết kế các thành phần",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Design Classes and Subsystems\nVN: Thiết kế các lớp và phân hệ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "ooad-q40",
+    "question_text": "When does an analysis class map directly to a design class?\nVN: Khi nào một lớp phân tích được ánh xạ trực tiếp thành một lớp thiết kế?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "when the analysis class uses the <<entity>> stereotype\nVN: khi lớp phân tích sử dụng stereotype <<entity>>",
+        "is_correct": false
+      },
+      {
+        "answer_text": "when the analysis class represents a single logical abstraction\nVN: khi lớp phân tích biểu diễn một trừu tượng logic duy nhất",
+        "is_correct": true
+      },
+      {
+        "answer_text": "when the modeling tool supports transformation of Analysis Models to Design\nVN: khi công cụ mô hình hóa hỗ trợ chuyển đổi từ Mô hình Phân tích sang Thiết kế",
+        "is_correct": false
+      },
+      {
+        "answer_text": "when an analyst has strong design skills\nVN: khi nhà phân tích có kỹ năng thiết kế tốt",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "ooad-q41",
+    "question_text": "What is a design subsystem’s primary purpose?\nVN: Mục đích chính của một phân hệ thiết kế là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "provides configuration management and model organization\nVN: cung cấp quản lý cấu hình và tổ chức mô hình",
+        "is_correct": false
+      },
+      {
+        "answer_text": "encapsulates behavior\nVN: đóng gói hành vi",
+        "is_correct": true
+      },
+      {
+        "answer_text": "packages similar design classes together\nVN: đóng gói các lớp thiết kế tương tự lại với nhau",
+        "is_correct": false
+      },
+      {
+        "answer_text": "represents external systems\nVN: biểu diễn các hệ thống bên ngoài",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "ooad-q42",
+    "question_text": "What is the purpose of subsystem design?\nVN: Mục đích của thiết kế phân hệ là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "finalizes the details of each interface implemented by the subsystems in an application\nVN: hoàn thiện chi tiết của từng giao diện được các phân hệ trong ứng dụng hiện thực",
+        "is_correct": false
+      },
+      {
+        "answer_text": "breaks the system up into subsystems in order to allocate subsystems to development teams\nVN: chia hệ thống thành các phân hệ để phân công cho các nhóm phát triển",
+        "is_correct": false
+      },
+      {
+        "answer_text": "defines the behaviors specified in the subsystem's interfaces in terms of collaborations of contained design elements\nVN: xác định các hành vi được mô tả trong các giao diện của phân hệ dưới dạng sự cộng tác giữa các phần tử thiết kế bên trong",
+        "is_correct": true
+      },
+      {
+        "answer_text": "defines on which tier each subsystem will be implemented and the communication mechanisms used between them\nVN: xác định mỗi phân hệ sẽ được triển khai trên tầng nào và các cơ chế giao tiếp giữa chúng",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "ooad-q43",
+    "question_text": "Click on the exhibit button. In the diagram, what are C1 and C2?\nVN: Nhấn vào nút exhibit. Trong sơ đồ, C1 và C2 là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "forks\nVN: các nút phân nhánh song song",
+        "is_correct": false
+      },
+      {
+        "answer_text": "initial states\nVN: các trạng thái bắt đầu",
+        "is_correct": false
+      },
+      {
+        "answer_text": "decisions\nVN: các điểm quyết định",
+        "is_correct": true
+      },
+      {
+        "answer_text": "transitions\nVN: các chuyển tiếp",
+        "is_correct": false
+      },
+      {
+        "answer_text": "final states\nVN: các trạng thái kết thúc",
+        "is_correct": false
+      },
+      {
+        "answer_text": "events\nVN: các sự kiện",
+        "is_correct": false
+      },
+      {
+        "answer_text": "states\nVN: các trạng thái",
+        "is_correct": false
+      },
+      {
+        "answer_text": "guard conditions\nVN: các điều kiện bảo vệ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "ooad-q44",
+    "question_text": "Defining the network configuration is the _____ step of the Describe the Distribution activity.\nVN: Việc xác định cấu hình mạng là bước _____ trong hoạt động Describe the Distribution.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "final\nVN: cuối cùng",
+        "is_correct": false
+      },
+      {
+        "answer_text": "first\nVN: đầu tiên",
+        "is_correct": true
+      },
+      {
+        "answer_text": "second\nVN: thứ hai",
+        "is_correct": false
+      },
+      {
+        "answer_text": "fifth\nVN: thứ năm",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "ooad-q45",
+    "question_text": "Click on the exhibit button. In the diagram, what is B?\nVN: Nhấn vào nút exhibit. Trong sơ đồ, ký hiệu B là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "fork\nVN: nút phân nhánh song song",
+        "is_correct": false
+      },
+      {
+        "answer_text": "initial state\nVN: trạng thái bắt đầu",
+        "is_correct": false
+      },
+      {
+        "answer_text": "decision\nVN: điểm quyết định",
+        "is_correct": false
+      },
+      {
+        "answer_text": "transition\nVN: chuyển tiếp",
+        "is_correct": false
+      },
+      {
+        "answer_text": "final state\nVN: trạng thái kết thúc",
+        "is_correct": false
+      },
+      {
+        "answer_text": "event\nVN: sự kiện",
+        "is_correct": false
+      },
+      {
+        "answer_text": "state\nVN: trạng thái",
+        "is_correct": true
+      },
+      {
+        "answer_text": "guard condition\nVN: điều kiện bảo vệ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "ooad-q46",
+    "question_text": "Which statement is true about packages and subsystems?\nVN: Phát biểu nào đúng về package và subsystem?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "A package cannot contain a subsystem.\nVN: Một package không thể chứa một subsystem.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "A package provides behavior.\nVN: Package cung cấp hành vi.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "A subsystem provides behavior.\nVN: Subsystem cung cấp hành vi.",
+        "is_correct": true
+      },
+      {
+        "answer_text": "You use a package when you need to encapsulate behavior.\nVN: Bạn dùng package khi cần đóng gói hành vi.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "ooad-q47",
+    "question_text": "How many physical nodes should be identified in order to perform the Describe Distribution activity?\nVN: Cần xác định bao nhiêu node vật lý để thực hiện hoạt động Describe Distribution?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "zero nodes only\nVN: chỉ 0 node",
+        "is_correct": false
+      },
+      {
+        "answer_text": "one node only\nVN: chỉ 1 node",
+        "is_correct": false
+      },
+      {
+        "answer_text": "zero nodes or one node\nVN: 0 node hoặc 1 node",
+        "is_correct": false
+      },
+      {
+        "answer_text": "more than one node\nVN: nhiều hơn 1 node",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "ooad-q48",
+    "question_text": "Supplemental sequence diagram documentation, in the form of notes and scripts, is commonly used for _____. (Choose three.)\nVN: Tài liệu bổ sung cho sơ đồ trình tự, dưới dạng ghi chú và kịch bản, thường được dùng để _____. (Chọn ba.)",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "describing required timing between messages\nVN: mô tả yêu cầu về thời gian giữa các thông điệp",
+        "is_correct": true
+      },
+      {
+        "answer_text": "providing details about conditional behavior\nVN: cung cấp chi tiết về hành vi có điều kiện",
+        "is_correct": true
+      },
+      {
+        "answer_text": "specifying the attributes for objects that appear in the diagram\nVN: xác định các thuộc tính cho các đối tượng xuất hiện trong sơ đồ",
+        "is_correct": false
+      },
+      {
+        "answer_text": "correlating extension points in the use case with specific locations in the sequence diagrams\nVN: liên hệ các điểm mở rộng trong ca sử dụng với các vị trí cụ thể trong sơ đồ trình tự",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "ooad-q49",
+    "question_text": "What is used to describe the process of applying a distribution mechanism during implementation?\nVN: Yếu tố nào được dùng để mô tả quá trình áp dụng một cơ chế phân tán trong quá trình cài đặt?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "activity diagram\nVN: sơ đồ hoạt động",
+        "is_correct": false
+      },
+      {
+        "answer_text": "flowchart\nVN: lưu đồ",
+        "is_correct": false
+      },
+      {
+        "answer_text": "UML pattern and written steps\nVN: mẫu UML và các bước mô tả bằng văn bản",
+        "is_correct": true
+      },
+      {
+        "answer_text": "use-case diagram\nVN: sơ đồ ca sử dụng",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "ooad-q50",
+    "question_text": "Click on the exhibit button. Given information provided in the diagram, which statement is true?\nVN: Nhấn vào nút exhibit. Dựa trên thông tin được cung cấp trong sơ đồ, phát biểu nào là đúng?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Lion and Tiger communicate with each other.\nVN: Lion và Tiger giao tiếp với nhau.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Lion and Tiger communicate with Animal.\nVN: Lion và Tiger giao tiếp với Animal.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Animal may not have direct instances.\nVN: Animal có thể không có các thể hiện trực tiếp.",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Instances of Animal communicate differently than instances of Lion or Tiger.\nVN: Các thể hiện của Animal giao tiếp khác với các thể hiện của Lion hoặc Tiger.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "ooad-q51",
+    "question_text": "What does an underlined attribute indicate?\nVN: Một thuộc tính được gạch chân biểu thị điều gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "The attribute is read-only.\nVN: Thuộc tính chỉ đọc.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "The attribute is derived from other attributes.\nVN: Thuộc tính được suy ra từ các thuộc tính khác.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "The attribute uniquely identifies instances.\nVN: Thuộc tính định danh duy nhất các thể hiện.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "The attribute is defined at the classifier level instead of the instance level.\nVN: Thuộc tính được định nghĩa ở mức bộ phân loại (classifier) thay vì mức thể hiện (instance).",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "ooad-q52",
+    "question_text": "Click on the exhibit button. In the diagram, the attribute CourseOffering.numberOfStudents is an example of _____.\nVN: Nhấn vào nút exhibit. Trong sơ đồ, thuộc tính CourseOffering.numberOfStudents là ví dụ của _____.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "a bad design\nVN: một thiết kế kém",
+        "is_correct": false
+      },
+      {
+        "answer_text": "a static attribute\nVN: một thuộc tính tĩnh",
+        "is_correct": false
+      },
+      {
+        "answer_text": "a derived attribute\nVN: một thuộc tính dẫn xuất",
+        "is_correct": true
+      },
+      {
+        "answer_text": "non-standard naming\nVN: cách đặt tên không chuẩn",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "ooad-q53",
+    "question_text": "Click on the exhibit button. In the diagram, what is A?\nVN: Nhấn vào nút exhibit. Trong sơ đồ, ký hiệu A là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "fork\nVN: nút phân nhánh song song",
+        "is_correct": false
+      },
+      {
+        "answer_text": "initial state\nVN: trạng thái bắt đầu",
+        "is_correct": true
+      },
+      {
+        "answer_text": "decision\nVN: điểm quyết định",
+        "is_correct": false
+      },
+      {
+        "answer_text": "transition\nVN: chuyển tiếp",
+        "is_correct": false
+      },
+      {
+        "answer_text": "final state\nVN: trạng thái kết thúc",
+        "is_correct": false
+      },
+      {
+        "answer_text": "event\nVN: sự kiện",
+        "is_correct": false
+      },
+      {
+        "answer_text": "state\nVN: trạng thái",
+        "is_correct": false
+      },
+      {
+        "answer_text": "guard condition\nVN: điều kiện bảo vệ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "ooad-q54",
+    "question_text": "With respect to persistence, what are two functions of transactions? (Choose two.)\nVN: Liên quan đến lưu trữ lâu dài (persistence), hai chức năng của transaction là gì? (Chọn hai.)",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "ensure that a set of operations is performed either in total, or not at all\nVN: đảm bảo một tập các thao tác được thực hiện toàn bộ hoặc không thực hiện gì cả",
+        "is_correct": true
+      },
+      {
+        "answer_text": "enable a designer to selectively define operations that will be executed with priority when there is a shortage of system resources\nVN: cho phép nhà thiết kế xác định có chọn lọc các thao tác được thực thi ưu tiên khi thiếu tài nguyên hệ thống",
+        "is_correct": false
+      },
+      {
+        "answer_text": "ensure that sets of objects move from one consistent state to another\nVN: đảm bảo các tập đối tượng chuyển từ một trạng thái nhất quán sang trạng thái nhất quán khác",
+        "is_correct": true
+      },
+      {
+        "answer_text": "simplify design work, so that persistence does not need to be explicitly considered during Use Case Design\nVN: đơn giản hóa công việc thiết kế để không cần xem xét rõ ràng persistence trong Thiết kế Ca sử dụng",
+        "is_correct": false
+      },
+      {
+        "answer_text": "simplify design work, by providing standardized approaches for representing persistent objects in UML\nVN: đơn giản hóa công việc thiết kế bằng cách cung cấp các cách tiếp cận chuẩn để biểu diễn các đối tượng persistent trong UML",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "ooad-q55",
+    "question_text": "What are three purposes of Use Case Design? (Choose three.)\nVN: Ba mục đích của Thiết kế Ca sử dụng là gì? (Chọn ba.)",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "to refine use-case realizations in terms of interactions\nVN: tinh chỉnh các thực hiện hóa ca sử dụng dưới góc độ tương tác",
+        "is_correct": true
+      },
+      {
+        "answer_text": "to ensure the completeness of the View of Participating Classes diagrams for each use-case realization\nVN: đảm bảo tính đầy đủ của sơ đồ View of Participating Classes cho mỗi thực hiện hóa ca sử dụng",
+        "is_correct": false
+      },
+      {
+        "answer_text": "to refine requirements on the operations of design classes\nVN: tinh chỉnh các yêu cầu đối với các thao tác của lớp thiết kế",
+        "is_correct": true
+      },
+      {
+        "answer_text": "to refine requirements on the operations of design subsystems and/or their interfaces\nVN: tinh chỉnh các yêu cầu đối với các thao tác của các phân hệ thiết kế và/hoặc các giao diện của chúng",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "ooad-q56",
+    "question_text": "Which is a Use Case Design output artifact?\nVN: Đâu là tạo tác đầu ra của Thiết kế Ca sử dụng?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "analysis classes\nVN: các lớp phân tích",
+        "is_correct": false
+      },
+      {
+        "answer_text": "design classes\nVN: các lớp thiết kế",
+        "is_correct": false
+      },
+      {
+        "answer_text": "interfaces\nVN: các giao diện",
+        "is_correct": false
+      },
+      {
+        "answer_text": "the Design Model\nVN: Mô hình Thiết kế",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "ooad-q57",
+    "question_text": "Which is an example of an Execution Environment?\nVN: Đâu là một ví dụ của Môi trường Thực thi (Execution Environment)?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Gigabit network switch\nVN: bộ chuyển mạch mạng Gigabit",
+        "is_correct": false
+      },
+      {
+        "answer_text": "virtual private network\nVN: mạng riêng ảo",
+        "is_correct": false
+      },
+      {
+        "answer_text": "J2EE application server\nVN: máy chủ ứng dụng J2EE",
+        "is_correct": true
+      },
+      {
+        "answer_text": "handheld computer\nVN: thiết bị cầm tay",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "ooad-q58",
+    "question_text": "The purpose of Unify Classes and Subsystems is to ensure _____.\nVN: Mục đích của Unify Classes and Subsystems là đảm bảo _____.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "each subsystem has a corresponding subsystem component\nVN: mỗi phân hệ có một thành phần phân hệ tương ứng",
+        "is_correct": false
+      },
+      {
+        "answer_text": "all classes are assigned to at most one subsystem\nVN: mỗi lớp chỉ được gán cho nhiều nhất một phân hệ",
+        "is_correct": false
+      },
+      {
+        "answer_text": "the responsibilities of design elements do not overlap\nVN: trách nhiệm của các phần tử thiết kế không bị chồng chéo",
+        "is_correct": false
+      },
+      {
+        "answer_text": "each defined interface has a cohesive and coherent API\nVN: mỗi giao diện được định nghĩa có một API gắn kết và nhất quán",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "ooad-q59",
+    "question_text": "Which is a guideline for encapsulating subsystem interactions on sequence diagrams?\nVN: Hướng dẫn nào sau đây dùng để đóng gói các tương tác của phân hệ trên sơ đồ trình tự?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Messages to subsystems should correspond to subsystem interface operations.\nVN: Các thông điệp gửi tới phân hệ phải tương ứng với các thao tác của giao diện phân hệ.",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Messages from subsystems should correspond to operations of the subsystem component.\nVN: Các thông điệp từ phân hệ phải tương ứng với các thao tác của thành phần phân hệ.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "During Use Case Design, secondary sequence diagrams should be created to model the interactions within subsystems.\nVN: Trong Thiết kế Ca sử dụng, nên tạo các sơ đồ trình tự phụ để mô hình hóa các tương tác bên trong phân hệ.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "A subsystem should be represented on sequence diagrams using its subsystem component.\nVN: Một phân hệ nên được biểu diễn trên sơ đồ trình tự bằng thành phần phân hệ của nó.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "ooad-q60",
+    "question_text": "Which is an example of a connector?\nVN: Đâu là một ví dụ của connector?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "SCSI Hard Disk\nVN: ổ cứng SCSI",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Uninterruptible Power Supply\nVN: bộ lưu điện UPS",
+        "is_correct": false
+      },
+      {
+        "answer_text": "HTTP protocol\nVN: giao thức HTTP",
+        "is_correct": true
+      },
+      {
+        "answer_text": "JDBC class\nVN: lớp JDBC",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "ooad-q61",
+    "question_text": "Which is an input artifact to the Identify Design Elements activity?\nVN: Tạo tác đầu vào nào được sử dụng cho hoạt động Identify Design Elements?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Deployment Model\nVN: Mô hình triển khai",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Implementation Model\nVN: Mô hình cài đặt",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Reference Architecture\nVN: Kiến trúc tham chiếu",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Software Architecture Document\nVN: Tài liệu kiến trúc phần mềm",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "ooad-q62",
+    "question_text": "Additional subsystems can be discovered during Use Case Design by noting _____.\nVN: Các phân hệ bổ sung có thể được phát hiện trong quá trình Thiết kế Use Case bằng cách nhận ra _____.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "common subflows between objects on several sequence diagrams\nVN: các luồng con chung giữa các đối tượng trên nhiều sơ đồ trình tự",
+        "is_correct": true
+      },
+      {
+        "answer_text": "similar objects on several sequence diagrams\nVN: các đối tượng tương tự xuất hiện trên nhiều sơ đồ trình tự",
+        "is_correct": false
+      },
+      {
+        "answer_text": "a consistent series of state transitions for multiple classes involved in a use-case realization\nVN: một chuỗi chuyển trạng thái nhất quán cho nhiều lớp tham gia vào việc thực hiện hóa ca sử dụng",
+        "is_correct": false
+      },
+      {
+        "answer_text": "the same design classes involved in more than one use-case realization\nVN: các lớp thiết kế giống nhau tham gia vào nhiều thực hiện hóa ca sử dụng",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "ooad-q63",
+    "question_text": "What is the purpose of the Identify Design Mechanisms activity?\nVN: Mục đích của hoạt động Identify Design Mechanisms là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "to refine the analysis mechanisms and specify the exact implementation of the mechanism\nVN: tinh chỉnh các cơ chế phân tích và chỉ rõ cách cài đặt chính xác của cơ chế",
+        "is_correct": true
+      },
+      {
+        "answer_text": "to provide a conceptual set of services that is used by analysis objects\nVN: cung cấp một tập dịch vụ mang tính khái niệm được các đối tượng phân tích sử dụng",
+        "is_correct": false
+      },
+      {
+        "answer_text": "to refine analysis mechanisms into design mechanisms, based on the constraints imposed by the implementation environment\nVN: chuyển các cơ chế phân tích thành các cơ chế thiết kế, dựa trên các ràng buộc của môi trường cài đặt",
+        "is_correct": false
+      },
+      {
+        "answer_text": "to define design placeholders in the architecture so the architecting effort remains focused and is less likely to become sidetracked\nVN: xác định các vị trí giữ chỗ thiết kế trong kiến trúc để quá trình thiết kế kiến trúc luôn tập trung và ít bị lệch hướng",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "ooad-q64",
+    "question_text": "Which is a design mechanism?\nVN: Yếu tố nào sau đây là một cơ chế thiết kế?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Persistency\nVN: Cơ chế lưu trữ lâu dài",
+        "is_correct": false
+      },
+      {
+        "answer_text": "ObjectStore Object-oriented Database\nVN: Cơ sở dữ liệu hướng đối tượng ObjectStore",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Distribution\nVN: Cơ chế phân tán",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Remote Method Invocation\nVN: Cơ chế gọi phương thức từ xa",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "ooad-q65",
+    "question_text": "During Subsystem Design, how many interaction diagrams (sequence or communication) should be created?\nVN: Trong quá trình Thiết kế Phân hệ, cần tạo bao nhiêu sơ đồ tương tác (trình tự hoặc giao tiếp)?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "at least one interaction diagram per interface operation\nVN: ít nhất một sơ đồ tương tác cho mỗi thao tác của giao diện",
+        "is_correct": true
+      },
+      {
+        "answer_text": "one interaction diagram per interface realization\nVN: một sơ đồ tương tác cho mỗi lần hiện thực giao diện",
+        "is_correct": false
+      },
+      {
+        "answer_text": "at least one interaction diagram for each use of an external interface\nVN: ít nhất một sơ đồ tương tác cho mỗi lần sử dụng một giao diện bên ngoài",
+        "is_correct": false
+      },
+      {
+        "answer_text": "one interaction diagram for each realizing class\nVN: một sơ đồ tương tác cho mỗi lớp hiện thực",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "ooad-q66",
+    "question_text": "Which UML elements are used to describe the physical architecture of a system?\nVN: Những phần tử UML nào được sử dụng để mô tả kiến trúc vật lý của hệ thống?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "classes and relationships\nVN: các lớp và các mối quan hệ",
+        "is_correct": false
+      },
+      {
+        "answer_text": "objects and messages\nVN: các đối tượng và thông điệp",
+        "is_correct": false
+      },
+      {
+        "answer_text": "subsystems and dependencies\nVN: các phân hệ và các quan hệ phụ thuộc",
+        "is_correct": false
+      },
+      {
+        "answer_text": "nodes and connectors\nVN: các node và các connector",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "ooad-q67",
+    "question_text": "When identifying interfaces during the Identify Design Elements activity, which statement is true?\nVN: Khi xác định các giao diện trong hoạt động Identify Design Elements, phát biểu nào là đúng?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Classes should not realize an interface.\nVN: Các lớp không nên hiện thực một giao diện.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Each subsystem realizes only one interface.\nVN: Mỗi phân hệ chỉ hiện thực một giao diện.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Interfaces should be identified before subsystems are created.\nVN: Các giao diện nên được xác định trước khi các phân hệ được tạo ra.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Interfaces should be packaged separately from the elements that realize them.\nVN: Các giao diện nên được đóng gói tách biệt khỏi các phần tử hiện thực chúng.",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "ooad-q68",
+    "question_text": "A design mechanism _____.\nVN: Một cơ chế thiết kế _____.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "captures the key aspects of a solution in a way that is implementation-independent\nVN: nắm bắt các khía cạnh cốt lõi của giải pháp theo cách độc lập với cài đặt",
+        "is_correct": false
+      },
+      {
+        "answer_text": "specifies the exact implementation of the mechanism and is bound to a certain technology, implementation language, or vendor\nVN: chỉ rõ cách cài đặt chính xác của cơ chế và bị ràng buộc với một công nghệ, ngôn ngữ cài đặt hoặc nhà cung cấp cụ thể",
+        "is_correct": true
+      },
+      {
+        "answer_text": "is the same as a design pattern\nVN: giống với một mẫu thiết kế",
+        "is_correct": false
+      },
+      {
+        "answer_text": "assumes some details of the implementation environment, but is not tied to a specific implementation\nVN: giả định một số chi tiết của môi trường cài đặt nhưng không gắn chặt với một cài đặt cụ thể",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "ooad-q69",
+    "question_text": "Which statement is true about design subsystems?\nVN: Phát biểu nào đúng về các phân hệ thiết kế?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "They partially encapsulate behavior.\nVN: Chúng chỉ đóng gói hành vi một phần.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "They represent an independent capability with clear interfaces.\nVN: Chúng đại diện cho một năng lực độc lập với các giao diện rõ ràng.",
+        "is_correct": true
+      },
+      {
+        "answer_text": "They model a single implementation variant.\nVN: Chúng mô hình hóa một biến thể triển khai duy nhất.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "They can only contain design classes.\nVN: Chúng chỉ có thể chứa các lớp thiết kế.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "ooad-q70",
+    "question_text": "Which statement is true about packages and subsystems?\nVN: Phát biểu nào đúng về package và subsystem?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "A package cannot contain a subsystem.\nVN: Một package không thể chứa một subsystem.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "A package provides behavior.\nVN: Package cung cấp hành vi.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "A subsystem provides behavior.\nVN: Subsystem cung cấp hành vi.",
+        "is_correct": true
+      },
+      {
+        "answer_text": "You use a package when you need to encapsulate behavior.\nVN: Bạn dùng package khi cần đóng gói hành vi.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "ooad-q71",
+    "question_text": "Why would you use subsystem interfaces rather than subsystem instances on sequence diagrams?\nVN: Vì sao nên sử dụng giao diện phân hệ thay vì các thể hiện phân hệ trên sơ đồ trình tự?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "to make it easier to model subsystems during Subsystem Design\nVN: để dễ mô hình hóa các phân hệ trong quá trình Thiết kế Phân hệ",
+        "is_correct": false
+      },
+      {
+        "answer_text": "to make use-case realizations easier to change\nVN: để việc thay đổi thực hiện hóa ca sử dụng trở nên dễ dàng hơn",
+        "is_correct": true
+      },
+      {
+        "answer_text": "to ease sequence diagram maintenance when message signatures change\nVN: để dễ bảo trì sơ đồ trình tự khi chữ ký thông điệp thay đổi",
+        "is_correct": false
+      },
+      {
+        "answer_text": "to reduce the number of classes needed to implement the subsystem\nVN: để giảm số lượng lớp cần thiết khi triển khai phân hệ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "ooad-q72",
+    "question_text": "Which is a Use Case Design output artifact?\nVN: Đâu là tạo tác đầu ra của Thiết kế Use Case?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "analysis classes\nVN: các lớp phân tích",
+        "is_correct": false
+      },
+      {
+        "answer_text": "design classes\nVN: các lớp thiết kế",
+        "is_correct": false
+      },
+      {
+        "answer_text": "interfaces\nVN: các giao diện",
+        "is_correct": false
+      },
+      {
+        "answer_text": "the Design Model\nVN: Mô hình Thiết kế",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "ooad-q73",
+    "question_text": "On a sequence diagram, what is used to represent a specific subsystem?\nVN: Trên sơ đồ trình tự, yếu tố nào được dùng để biểu diễn một phân hệ cụ thể?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "an interface that the subsystem realizes\nVN: một giao diện mà phân hệ hiện thực",
+        "is_correct": false
+      },
+      {
+        "answer_text": "a subsystem proxy\nVN: một proxy của phân hệ",
+        "is_correct": true
+      },
+      {
+        "answer_text": "a subsystem component\nVN: một thành phần phân hệ",
+        "is_correct": false
+      },
+      {
+        "answer_text": "a subsystem class\nVN: một lớp phân hệ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "ooad-q74",
+    "question_text": "Click on the exhibit button. In the diagram, what is G?\nVN: Nhấn vào nút exhibit. Trong sơ đồ, ký hiệu G là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "fork\nVN: nút phân nhánh song song",
+        "is_correct": false
+      },
+      {
+        "answer_text": "initial state\nVN: trạng thái bắt đầu",
+        "is_correct": false
+      },
+      {
+        "answer_text": "decision\nVN: điểm quyết định",
+        "is_correct": false
+      },
+      {
+        "answer_text": "transition\nVN: chuyển tiếp",
+        "is_correct": false
+      },
+      {
+        "answer_text": "final state\nVN: trạng thái kết thúc",
+        "is_correct": false
+      },
+      {
+        "answer_text": "event\nVN: sự kiện",
+        "is_correct": false
+      },
+      {
+        "answer_text": "state\nVN: trạng thái",
+        "is_correct": true
+      },
+      {
+        "answer_text": "guard condition\nVN: điều kiện bảo vệ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "ooad-q75",
+    "question_text": "Which design element is used to represent a concurrent object?\nVN: Phần tử thiết kế nào được dùng để biểu diễn một đối tượng đồng thời?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "active class\nVN: lớp hoạt động",
+        "is_correct": false
+      },
+      {
+        "answer_text": "capsule\nVN: capsule",
+        "is_correct": true
+      },
+      {
+        "answer_text": "design class\nVN: lớp thiết kế",
+        "is_correct": false
+      },
+      {
+        "answer_text": "event\nVN: sự kiện",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "ooad-q76",
+    "question_text": "Click on the exhibit button. In the diagram, the attribute CourseOffering.numberOfStudents is an example of _____.\nVN: Nhấn vào nút exhibit. Trong sơ đồ, thuộc tính CourseOffering.numberOfStudents là ví dụ của _____.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "a bad design\nVN: một thiết kế kém",
+        "is_correct": false
+      },
+      {
+        "answer_text": "a static attribute\nVN: một thuộc tính tĩnh",
+        "is_correct": false
+      },
+      {
+        "answer_text": "a derived attribute\nVN: một thuộc tính dẫn xuất",
+        "is_correct": true
+      },
+      {
+        "answer_text": "non-standard naming\nVN: cách đặt tên không chuẩn",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "ooad-q77",
+    "question_text": "Which activities are performed during Use Case Design?\nVN: Những hoạt động nào được thực hiện trong giai đoạn Thiết kế Use Case?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "converting analysis classes into design classes and design subsystems\nVN: chuyển các lớp phân tích thành các lớp thiết kế và các phân hệ thiết kế",
+        "is_correct": false
+      },
+      {
+        "answer_text": "describing persistence-related behavior\nVN: mô tả các hành vi liên quan đến lưu trữ lâu dài",
+        "is_correct": false
+      },
+      {
+        "answer_text": "describing object interactions that implement interface operations\nVN: mô tả các tương tác giữa các đối tượng để cài đặt các thao tác của giao diện",
+        "is_correct": false
+      },
+      {
+        "answer_text": "simplifying sequence diagrams using design classes\nVN: đơn giản hóa các sơ đồ trình tự bằng cách sử dụng các lớp thiết kế",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "ooad-q78",
+    "question_text": "A directed graph of nodes connected by transitions is a _____ diagram.\nVN: Một đồ thị có hướng gồm các node được nối với nhau bằng các chuyển tiếp là sơ đồ _____.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "communication\nVN: giao tiếp",
+        "is_correct": false
+      },
+      {
+        "answer_text": "sequence\nVN: trình tự",
+        "is_correct": false
+      },
+      {
+        "answer_text": "component\nVN: thành phần",
+        "is_correct": false
+      },
+      {
+        "answer_text": "state machine\nVN: máy trạng thái",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "ooad-q79",
+    "question_text": "In the state of a state machine, a behavior can be defined _____.\nVN: Trong một trạng thái của máy trạng thái, hành vi có thể được định nghĩa _____.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "before reaching a state\nVN: trước khi đạt tới trạng thái",
+        "is_correct": false
+      },
+      {
+        "answer_text": "upon reaching a state\nVN: khi đạt tới trạng thái",
+        "is_correct": false
+      },
+      {
+        "answer_text": "upon leaving a state\nVN: khi rời khỏi trạng thái",
+        "is_correct": false
+      },
+      {
+        "answer_text": "inside a state\nVN: bên trong một trạng thái",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "ooad-q80",
+    "question_text": "Which entity has a well-defined boundary and identity that encapsulates state and behavior?\nVN: Thực thể nào có ranh giới và định danh rõ ràng, đồng thời đóng gói trạng thái và hành vi?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "class\nVN: lớp",
+        "is_correct": false
+      },
+      {
+        "answer_text": "object\nVN: đối tượng",
+        "is_correct": false
+      },
+      {
+        "answer_text": "component\nVN: thành phần",
+        "is_correct": true
+      },
+      {
+        "answer_text": "package\nVN: gói",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "ooad-q81",
+    "question_text": "Supplemental sequence diagram documentation, in the form of notes and scripts, is commonly used for _____. (Choose three.)\nVN: Tài liệu bổ sung cho sơ đồ trình tự, dưới dạng ghi chú và kịch bản, thường được dùng để _____. (Chọn ba.)",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "describing required timing between messages\nVN: mô tả yêu cầu về thời gian giữa các thông điệp",
+        "is_correct": true
+      },
+      {
+        "answer_text": "providing details about conditional behavior\nVN: cung cấp chi tiết về hành vi có điều kiện",
+        "is_correct": true
+      },
+      {
+        "answer_text": "specifying the attributes for objects that appear in the diagram\nVN: xác định các thuộc tính cho các đối tượng xuất hiện trong sơ đồ",
+        "is_correct": false
+      },
+      {
+        "answer_text": "correlating extension points in the use case with specific locations in the sequence diagrams\nVN: liên hệ các điểm mở rộng trong ca sử dụng với các vị trí cụ thể trong sơ đồ trình tự",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "ooad-q82",
+    "question_text": "What is a design subsystem’s primary purpose?\nVN: Mục đích chính của một phân hệ thiết kế là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "provides configuration management and model organization\nVN: cung cấp quản lý cấu hình và tổ chức mô hình",
+        "is_correct": false
+      },
+      {
+        "answer_text": "encapsulates behavior\nVN: đóng gói hành vi",
+        "is_correct": true
+      },
+      {
+        "answer_text": "packages similar design classes together\nVN: đóng gói các lớp thiết kế tương tự lại với nhau",
+        "is_correct": false
+      },
+      {
+        "answer_text": "represents external systems\nVN: biểu diễn các hệ thống bên ngoài",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "ooad-q83",
+    "question_text": "What are the two types of dependency that can be used from a subsystem? (Choose two.)\nVN: Hai loại quan hệ phụ thuộc nào có thể được sử dụng từ một phân hệ? (Chọn hai.)",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "<<uses>> dependency to a subsystem interface\nVN: quan hệ phụ thuộc <<uses>> tới giao diện của phân hệ",
+        "is_correct": true
+      },
+      {
+        "answer_text": "an <<import>> dependency to a package containing used classes\nVN: quan hệ phụ thuộc <<import>> tới một package chứa các lớp được sử dụng",
+        "is_correct": true
+      },
+      {
+        "answer_text": "a <<manifest>> relationship to a node in the Deployment model\nVN: quan hệ <<manifest>> tới một node trong mô hình triển khai",
+        "is_correct": false
+      },
+      {
+        "answer_text": "a <<realize>> relationship to one or more collaboration occurrences\nVN: quan hệ <<realize>> tới một hoặc nhiều lần xuất hiện cộng tác",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "ooad-q84",
+    "question_text": "When does an analysis class map directly to a design class?\nVN: Khi nào một lớp phân tích được ánh xạ trực tiếp thành một lớp thiết kế?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "when the analysis class uses the <<entity>> stereotype\nVN: khi lớp phân tích sử dụng stereotype <<entity>>",
+        "is_correct": false
+      },
+      {
+        "answer_text": "when the analysis class represents a single logical abstraction\nVN: khi lớp phân tích biểu diễn một trừu tượng logic duy nhất",
+        "is_correct": true
+      },
+      {
+        "answer_text": "when the modeling tool supports transformation of Analysis Models to Design\nVN: khi công cụ mô hình hóa hỗ trợ chuyển đổi từ Mô hình Phân tích sang Thiết kế",
+        "is_correct": false
+      },
+      {
+        "answer_text": "when an analyst has strong design skills\nVN: khi nhà phân tích có kỹ năng thiết kế tốt",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "ooad-q85",
+    "question_text": "Identify Design Elements is part of which workflow detail?\nVN: Xác định các phần tử thiết kế (Identify Design Elements) thuộc chi tiết luồng công việc nào?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Define a Candidate Architecture\nVN: Xác định kiến trúc ứng viên",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Design Components\nVN: Thiết kế các thành phần",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Perform Architectural\nVN: Thực hiện kiến trúc",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Refine the Architecture\nVN: Tinh chỉnh kiến trúc",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "ooad-q86",
+    "question_text": "Which is a guideline for encapsulating subsystem interactions on sequence diagrams?\nVN: Hướng dẫn nào sau đây dùng để đóng gói các tương tác của phân hệ trên sơ đồ trình tự?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Messages to subsystems should correspond to subsystem interface operations.\nVN: Các thông điệp gửi tới phân hệ phải tương ứng với các thao tác của giao diện phân hệ.",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Messages from subsystems should correspond to operations of the subsystem component.\nVN: Các thông điệp từ phân hệ phải tương ứng với các thao tác của thành phần phân hệ.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "During Use Case Design, secondary sequence diagrams should be created to model the interactions within subsystems.\nVN: Trong Thiết kế Ca sử dụng, nên tạo các sơ đồ trình tự phụ để mô hình hóa các tương tác bên trong phân hệ.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "A subsystem should be represented on sequence diagrams using its subsystem component.\nVN: Một phân hệ nên được biểu diễn trên sơ đồ trình tự bằng thành phần phân hệ của nó.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "ooad-q87",
+    "question_text": "Use Case Design is part of which workflow detail?\nVN: Thiết kế Ca sử dụng (Use Case Design) thuộc chi tiết luồng công việc nào?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Design Use Cases\nVN: Thiết kế ca sử dụng",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Analyze Behavior\nVN: Phân tích hành vi",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Design Components\nVN: Thiết kế các thành phần",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Design Classes and Subsystems\nVN: Thiết kế các lớp và phân hệ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "ooad-q88",
+    "question_text": "Click on the exhibit button. In the diagram, what are C1 and C2?\nVN: Nhấn vào nút exhibit. Trong sơ đồ, C1 và C2 là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "forks\nVN: các nút phân nhánh song song",
+        "is_correct": false
+      },
+      {
+        "answer_text": "initial states\nVN: các trạng thái bắt đầu",
+        "is_correct": false
+      },
+      {
+        "answer_text": "decisions\nVN: các điểm quyết định",
+        "is_correct": true
+      },
+      {
+        "answer_text": "transitions\nVN: các chuyển tiếp",
+        "is_correct": false
+      },
+      {
+        "answer_text": "final states\nVN: các trạng thái kết thúc",
+        "is_correct": false
+      },
+      {
+        "answer_text": "events\nVN: các sự kiện",
+        "is_correct": false
+      },
+      {
+        "answer_text": "states\nVN: các trạng thái",
+        "is_correct": false
+      },
+      {
+        "answer_text": "guard conditions\nVN: các điều kiện bảo vệ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "ooad-q89",
+    "question_text": "Which statement is true about elements within the subsystem and public visibility?\nVN: Phát biểu nào đúng về các phần tử bên trong một phân hệ và phạm vi hiển thị public?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Only the subset of elements that define the subsystem’s API should have public visibility.\nVN: Chỉ tập hợp con các phần tử định nghĩa API của phân hệ mới nên có phạm vi hiển thị public.",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Only the subsystem proxy class should have public visibility.\nVN: Chỉ lớp proxy của phân hệ mới nên có phạm vi hiển thị public.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "No elements inside the subsystem should have public visibility.\nVN: Không có phần tử nào bên trong phân hệ nên có phạm vi hiển thị public.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Only the elements that reference external classes should have public visibility.\nVN: Chỉ các phần tử tham chiếu đến các lớp bên ngoài mới nên có phạm vi hiển thị public.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "ooad-q90",
+    "question_text": "Which task is performed during use-case realization refinement?\nVN: Nhiệm vụ nào được thực hiện trong quá trình tinh chỉnh thực hiện hóa ca sử dụng?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "identify participating classes\nVN: xác định các lớp tham gia",
+        "is_correct": false
+      },
+      {
+        "answer_text": "allocate responsibilities among classes\nVN: phân bổ trách nhiệm giữa các lớp",
+        "is_correct": false
+      },
+      {
+        "answer_text": "model messages between classes\nVN: mô hình hóa các thông điệp giữa các lớp",
+        "is_correct": false
+      },
+      {
+        "answer_text": "model associated class relationships\nVN: mô hình hóa các mối quan hệ giữa các lớp liên quan",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "ooad-q91",
+    "question_text": "The Describe Distribution activity is where the processes defined in the Describe the Run-time Architecture activity are allocated to _____.\nVN: Hoạt động Describe Distribution là nơi các tiến trình được xác định trong hoạt động Describe the Run-time Architecture được phân bổ cho _____.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "physical nodes\nVN: các node vật lý",
+        "is_correct": true
+      },
+      {
+        "answer_text": "components\nVN: các thành phần",
+        "is_correct": false
+      },
+      {
+        "answer_text": "classes\nVN: các lớp",
+        "is_correct": false
+      },
+      {
+        "answer_text": "activities\nVN: các hoạt động",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "ooad-q92",
+    "question_text": "What is used to describe the process of applying a distribution mechanism during implementation?\nVN: Yếu tố nào được sử dụng để mô tả quá trình áp dụng một cơ chế phân tán trong quá trình cài đặt?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "activity diagram\nVN: sơ đồ hoạt động",
+        "is_correct": false
+      },
+      {
+        "answer_text": "flowchart\nVN: lưu đồ",
+        "is_correct": false
+      },
+      {
+        "answer_text": "UML pattern and written steps\nVN: mẫu UML và các bước mô tả bằng văn bản",
+        "is_correct": true
+      },
+      {
+        "answer_text": "use-case diagram\nVN: sơ đồ ca sử dụng",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "ooad-q93",
+    "question_text": "Defining the network configuration is the _____ step of the Describe the Distribution activity.\nVN: Việc xác định cấu hình mạng là bước _____ trong hoạt động Describe the Distribution.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "final\nVN: cuối cùng",
+        "is_correct": false
+      },
+      {
+        "answer_text": "first\nVN: đầu tiên",
+        "is_correct": true
+      },
+      {
+        "answer_text": "second\nVN: thứ hai",
+        "is_correct": false
+      },
+      {
+        "answer_text": "fifth\nVN: thứ năm",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "ooad-q94",
+    "question_text": "What defines a subsystem’s responsibilities?\nVN: Điều gì xác định trách nhiệm của một phân hệ?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "its internal class behavior\nVN: hành vi của các lớp bên trong nó",
+        "is_correct": false
+      },
+      {
+        "answer_text": "the operations of the interfaces it implements\nVN: các thao tác của các giao diện mà nó hiện thực",
+        "is_correct": true
+      },
+      {
+        "answer_text": "the use-case realizations in which the subsystem appears\nVN: các thực hiện hóa ca sử dụng mà phân hệ tham gia",
+        "is_correct": false
+      },
+      {
+        "answer_text": "the operations on a class contained within the subsystem\nVN: các thao tác của một lớp nằm trong phân hệ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "ooad-q95",
+    "question_text": "Click on the exhibit button. In the diagram, what is F?\nVN: Nhấn vào nút exhibit. Trong sơ đồ, ký hiệu F là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "fork\nVN: nút phân nhánh song song",
+        "is_correct": false
+      },
+      {
+        "answer_text": "initial state\nVN: trạng thái bắt đầu",
+        "is_correct": false
+      },
+      {
+        "answer_text": "decision\nVN: điểm quyết định",
+        "is_correct": false
+      },
+      {
+        "answer_text": "transition\nVN: chuyển tiếp",
+        "is_correct": false
+      },
+      {
+        "answer_text": "final state\nVN: trạng thái kết thúc",
+        "is_correct": true
+      },
+      {
+        "answer_text": "event\nVN: sự kiện",
+        "is_correct": false
+      },
+      {
+        "answer_text": "state\nVN: trạng thái",
+        "is_correct": false
+      },
+      {
+        "answer_text": "guard condition\nVN: điều kiện bảo vệ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "ooad-q96",
+    "question_text": "In which Analysis and Design activity are subsystems mapped to analysis classes?\nVN: Trong hoạt động Phân tích và Thiết kế nào, các phân hệ được ánh xạ với các lớp phân tích?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Architectural Analysis\nVN: Phân tích kiến trúc",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Identify Design Elements\nVN: Xác định các phần tử thiết kế",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Identify Subsystems\nVN: Xác định các phân hệ",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Incorporate Existing Design Elements\nVN: Tích hợp các phần tử thiết kế sẵn có",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "ooad-q97",
+    "question_text": "What are three purposes of Use Case Design? (Choose three.)\nVN: Ba mục đích của Thiết kế Use Case là gì? (Chọn ba.)",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "to refine use-case realizations in terms of interactions\nVN: tinh chỉnh các thực hiện hóa ca sử dụng dưới góc độ tương tác",
+        "is_correct": true
+      },
+      {
+        "answer_text": "to ensure the completeness of the View of Participating Classes diagrams for each use-case realization\nVN: đảm bảo tính đầy đủ của sơ đồ View of Participating Classes cho mỗi thực hiện hóa ca sử dụng",
+        "is_correct": false
+      },
+      {
+        "answer_text": "to refine requirements on the operations of design classes\nVN: tinh chỉnh các yêu cầu đối với các thao tác của lớp thiết kế",
+        "is_correct": true
+      },
+      {
+        "answer_text": "to refine requirements on the operations of design subsystems and/or their interfaces\nVN: tinh chỉnh các yêu cầu đối với các thao tác của các phân hệ thiết kế và/hoặc các giao diện của chúng",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "ooad-q98",
+    "question_text": "Which is a device?\nVN: Đâu là một thiết bị (device)?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "database server\nVN: máy chủ cơ sở dữ liệu",
+        "is_correct": false
+      },
+      {
+        "answer_text": "web server\nVN: máy chủ web",
+        "is_correct": false
+      },
+      {
+        "answer_text": "virtual private network\nVN: mạng riêng ảo",
+        "is_correct": false
+      },
+      {
+        "answer_text": "handheld computer\nVN: thiết bị cầm tay",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "ooad-q99",
+    "question_text": "In which OOAD activity is the distribution mechanism identified?\nVN: Cơ chế phân tán được xác định trong hoạt động OOAD nào?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Identify Design Elements\nVN: Xác định các phần tử thiết kế",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Identify Design Mechanisms\nVN: Xác định các cơ chế thiết kế",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Class Design\nVN: Thiết kế lớp",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Architectural Analysis\nVN: Phân tích kiến trúc",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "ooad-q100",
+    "question_text": "The purpose of Unify Classes and Subsystems is to ensure _____.\nVN: Mục đích của Unify Classes and Subsystems là đảm bảo _____.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "each subsystem has a corresponding subsystem component\nVN: mỗi phân hệ có một thành phần phân hệ tương ứng",
+        "is_correct": false
+      },
+      {
+        "answer_text": "all classes are assigned to at most one subsystem\nVN: mỗi lớp chỉ được gán cho nhiều nhất một phân hệ",
+        "is_correct": false
+      },
+      {
+        "answer_text": "the responsibilities of design elements do not overlap\nVN: trách nhiệm của các phần tử thiết kế không bị chồng chéo",
+        "is_correct": false
+      },
+      {
+        "answer_text": "each defined interface has a cohesive and coherent API\nVN: mỗi giao diện được định nghĩa có một API gắn kết và nhất quán",
+        "is_correct": true
+      }
+    ]
+  }
+]
