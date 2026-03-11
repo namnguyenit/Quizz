@@ -160,6 +160,64 @@ subjects/*.json  ──(sync)──►  Turso DB  ──(API)──►  SvelteKi
                                                   (favorites, progress)
 ```
 
+## Quiz JSON Format
+
+The system now supports **2 formats** (backward-compatible):
+
+1. Legacy format (still supported): file content is a plain array of questions.
+2. New exam format: one file = one exam set, with 2 parts: `mcq` and `reading`.
+
+### New Exam Format (Recommended)
+
+```json
+{
+  "exam_id": "eng-mock-01",
+  "title": "English Mock Test 01",
+  "parts": {
+    "mcq": [
+      {
+        "question_id": "eng-mc-1",
+        "question_text": "Choose the correct option...",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "A", "is_correct": false },
+          { "answer_text": "B", "is_correct": true },
+          { "answer_text": "C", "is_correct": false },
+          { "answer_text": "D", "is_correct": false }
+        ]
+      }
+    ],
+    "reading": [
+      {
+        "id": "reading-1",
+        "type": "cloze",
+        "title": "Reading Passage 1",
+        "passage": "Your full passage text here...",
+        "questions": [
+          {
+            "question_id": "eng-r1-q1",
+            "question_text": "Question for passage 1...",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "A", "is_correct": true },
+              { "answer_text": "B", "is_correct": false },
+              { "answer_text": "C", "is_correct": false },
+              { "answer_text": "D", "is_correct": false }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
+```
+
+Reading UI behavior:
+
+- Top panel: passage (kept fixed while moving across questions in the same reading set).
+- Bottom panel: current reading question and answers.
+- Switching question updates the bottom panel, without carousel transitions for the passage area.
+
 ## Database Schema
 
 Three tables in Turso (libSQL):

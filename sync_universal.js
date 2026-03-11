@@ -28,7 +28,54 @@ function log(message, level = 'info') {
 
 function parseQuizContent(filePath) {
 	const content = readFileSync(filePath, 'utf8');
-	return JSON.parse(content);
+	const raw = JSON.parse(content);
+
+	// Legacy format: a file is just an array of questions.
+	if (Array.isArray(raw)) {
+		return raw.map((q, idx) => ({
+			...q,
+			section: q.section || 'mcq',
+			question_order: idx
+		}));
+	}
+
+	// New format: one file is one exam, with 2 parts: mcq + reading.
+	const parts = raw?.parts || raw;
+	const mcq = Array.isArray(parts?.mcq) ? parts.mcq : [];
+	const readingSets = Array.isArray(parts?.reading) ? parts.reading : [];
+
+	const normalized = [];
+
+	for (const [idx, q] of mcq.entries()) {
+		normalized.push({
+			...q,
+			section: q.section || 'mcq',
+			question_order: idx
+		});
+	}
+
+	for (const [readingOrder, set] of readingSets.entries()) {
+		const setId = set.reading_set_id || set.id || `reading-${readingOrder + 1}`;
+		const setType = set.type || 'reading_comprehension';
+		const setTitle = set.title || null;
+		const setPassage = set.passage || set.reading_passage || '';
+		const questions = Array.isArray(set.questions) ? set.questions : [];
+
+		for (const [questionOrder, q] of questions.entries()) {
+			normalized.push({
+				...q,
+				section: 'reading',
+				reading_set_id: q.reading_set_id || setId,
+				reading_type: q.reading_type || setType,
+				reading_title: q.reading_title || setTitle,
+				reading_passage: q.reading_passage || setPassage,
+				reading_order: readingOrder,
+				question_order: questionOrder
+			});
+		}
+	}
+
+	return normalized;
 }
 
 // --- Stats Tracking ---
@@ -67,10 +114,37 @@ async function ensureTables() {
 			question_type TEXT NOT NULL,
 			answers TEXT NOT NULL,
 			image_url TEXT,
+			section TEXT DEFAULT 'mcq',
+			reading_set_id TEXT,
+			reading_type TEXT,
+			reading_title TEXT,
+			reading_passage TEXT,
+			reading_order INTEGER,
+			question_order INTEGER,
 			status TEXT DEFAULT 'active',
 			FOREIGN KEY (collection_id) REFERENCES quiz_collections(id)
 		)
 	`);
+
+	// Lightweight migration for existing DBs that were created before reading fields existed.
+	const columnsResult = await db.execute('PRAGMA table_info(questions)');
+	const existingColumns = new Set(columnsResult.rows.map((row) => row.name));
+
+	const requiredColumns = [
+		['section', "TEXT DEFAULT 'mcq'"],
+		['reading_set_id', 'TEXT'],
+		['reading_type', 'TEXT'],
+		['reading_title', 'TEXT'],
+		['reading_passage', 'TEXT'],
+		['reading_order', 'INTEGER'],
+		['question_order', 'INTEGER']
+	];
+
+	for (const [name, type] of requiredColumns) {
+		if (!existingColumns.has(name)) {
+			await db.execute(`ALTER TABLE questions ADD COLUMN ${name} ${type}`);
+		}
+	}
 }
 
 async function dropAllTables() {
@@ -93,7 +167,7 @@ async function getExistingCollections() {
 
 async function getExistingQuestions() {
 	const result = await db.execute(
-		'SELECT question_id, collection_id, question_text, question_type, answers, image_url FROM questions'
+		'SELECT question_id, collection_id, question_text, question_type, answers, image_url, section, reading_set_id, reading_type, reading_title, reading_passage, reading_order, question_order FROM questions'
 	);
 	return new Map(result.rows.map((row) => [row.question_id, row]));
 }
@@ -117,7 +191,7 @@ async function upsertCollection(id, subjectId, name, displayOrder) {
 async function upsertQuestion(q, collectionId) {
 	if (FLAGS.dryRun) return;
 	await db.execute({
-		sql: `INSERT OR REPLACE INTO questions (question_id, collection_id, question_text, question_type, answers, image_url, status) VALUES (?, ?, ?, ?, ?, ?, ?)`,
+		sql: `INSERT OR REPLACE INTO questions (question_id, collection_id, question_text, question_type, answers, image_url, section, reading_set_id, reading_type, reading_title, reading_passage, reading_order, question_order, status) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`,
 		args: [
 			q.question_id,
 			collectionId,
@@ -125,6 +199,13 @@ async function upsertQuestion(q, collectionId) {
 			q.question_type,
 			JSON.stringify(q.answers),
 			q.image_url || null,
+			q.section || 'mcq',
+			q.reading_set_id || null,
+			q.reading_type || null,
+			q.reading_title || null,
+			q.reading_passage || null,
+			q.reading_order ?? null,
+			q.question_order ?? null,
 			'active'
 		]
 	});
@@ -198,9 +279,33 @@ function scanSubjectsDirectory() {
 			});
 
 			const questions = parseQuizContent(quizPath);
-			for (const q of questions) {
-				result.questions.set(q.question_id, {
+			for (const [qIndex, q] of questions.entries()) {
+				const baseQuestionId =
+					typeof q.question_id === 'string' && q.question_id.trim().length > 0
+						? q.question_id.trim()
+						: `${fileName}-q${qIndex + 1}`;
+
+				let normalizedQuestionId = baseQuestionId;
+				const existing = result.questions.get(normalizedQuestionId);
+
+				// Keep backward compatibility for already-unique IDs,
+				// but auto-namespace duplicates to avoid silent overwrites.
+				if (existing && existing.collection_id !== collectionId) {
+					normalizedQuestionId = `${collectionId}__${baseQuestionId}`;
+					let suffix = 2;
+					while (result.questions.has(normalizedQuestionId)) {
+						normalizedQuestionId = `${collectionId}__${baseQuestionId}__${suffix}`;
+						suffix += 1;
+					}
+					log(
+						`  [WARN] Duplicate question_id \"${baseQuestionId}\" across collections. Auto-remapped to \"${normalizedQuestionId}\".`,
+						'verbose'
+					);
+				}
+
+				result.questions.set(normalizedQuestionId, {
 					...q,
+					question_id: normalizedQuestionId,
 					collection_id: collectionId
 				});
 			}
@@ -239,7 +344,14 @@ function questionChanged(existing, local) {
 		existing.question_text !== local.question_text ||
 		existing.question_type !== local.question_type ||
 		existingAnswers !== localAnswers ||
-		(existing.image_url || null) !== (local.image_url || null)
+		(existing.image_url || null) !== (local.image_url || null) ||
+		(existing.section || 'mcq') !== (local.section || 'mcq') ||
+		(existing.reading_set_id || null) !== (local.reading_set_id || null) ||
+		(existing.reading_type || null) !== (local.reading_type || null) ||
+		(existing.reading_title || null) !== (local.reading_title || null) ||
+		(existing.reading_passage || null) !== (local.reading_passage || null) ||
+		(existing.reading_order ?? null) !== (local.reading_order ?? null) ||
+		(existing.question_order ?? null) !== (local.question_order ?? null)
 	);
 }
 

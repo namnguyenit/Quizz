@@ -1,0 +1,982 @@
+{
+  "exam_id": "eng-mock-general",
+  "title": "ĐỀ THI TỔNG HỢP (TỪ ĐỀ MẪU)",
+  "parts": {
+    "mcq": [
+      {
+        "question_id": "eng-mc-001",
+        "question_text": "The ____ sand felt hot on his bare feet.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "desert.", "is_correct": true },
+          { "answer_text": "ocean.", "is_correct": false },
+          { "answer_text": "field.", "is_correct": false },
+          { "answer_text": "forest.", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-002",
+        "question_text": "Illegal hunting of endangered animals by ____ is a major threat to wildlife conservation efforts.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "zoologists.", "is_correct": false },
+          { "answer_text": "conservationists.", "is_correct": false },
+          { "answer_text": "poachers.", "is_correct": true },
+          { "answer_text": "ecologists.", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-003",
+        "question_text": "There isn’t ____ in the cupboard.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "anything.", "is_correct": true },
+          { "answer_text": "nothing.", "is_correct": false },
+          { "answer_text": "something.", "is_correct": false },
+          { "answer_text": "none.", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-004",
+        "question_text": "So, if you ____ a million pounds on the lottery, what ____ you do with it?",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "won/did.", "is_correct": false },
+          { "answer_text": "win/would.", "is_correct": false },
+          { "answer_text": "win/will.", "is_correct": false },
+          { "answer_text": "won/would.", "is_correct": true }
+        ]
+      },
+      {
+        "question_id": "eng-mc-005",
+        "question_text": "At the art ____, visitors were able to admire a vast collection of paintings and sculptures from renowned artists.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "auction.", "is_correct": false },
+          { "answer_text": "concert.", "is_correct": false },
+          { "answer_text": "exhibition.", "is_correct": true },
+          { "answer_text": "symposium.", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-006",
+        "question_text": "If I ____ you, I’d concentrate on my work instead of daydreaming.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "am.", "is_correct": false },
+          { "answer_text": "be.", "is_correct": false },
+          { "answer_text": "were.", "is_correct": true },
+          { "answer_text": "will be.", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-007",
+        "question_text": "Nobody knows how many ____ of insects there are on the earth.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "habitats.", "is_correct": false },
+          { "answer_text": "climates.", "is_correct": false },
+          { "answer_text": "ecosystems.", "is_correct": false },
+          { "answer_text": "species.", "is_correct": true }
+        ]
+      },
+      {
+        "question_id": "eng-mc-008",
+        "question_text": "____ is rain that falls as drops of ice.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "Flood.", "is_correct": false },
+          { "answer_text": "Hail.", "is_correct": true },
+          { "answer_text": "Lightning.", "is_correct": false },
+          { "answer_text": "Thunder.", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-009",
+        "question_text": "Jane didn’t talk about her plans, that’s why ____ knows about her current location.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "no.", "is_correct": false },
+          { "answer_text": "none.", "is_correct": true },
+          { "answer_text": "any.", "is_correct": false },
+          { "answer_text": "something.", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-010",
+        "question_text": "Sarah will have ____ trouble finding a job.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "no.", "is_correct": true },
+          { "answer_text": "none.", "is_correct": false },
+          { "answer_text": "any.", "is_correct": false },
+          { "answer_text": "nothing.", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-011",
+        "question_text": "She had a good ____ at a top school in Scotland.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "past experience.", "is_correct": false },
+          { "answer_text": "education.", "is_correct": true },
+          { "answer_text": "date of birth.", "is_correct": false },
+          { "answer_text": "interest.", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-012",
+        "question_text": "____ my report? It ____ here just minutes ago.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "Did you see/was.", "is_correct": false },
+          { "answer_text": "Have you seen/ has been.", "is_correct": false },
+          { "answer_text": "Did you see/has been.", "is_correct": false },
+          { "answer_text": "Have you seen/was.", "is_correct": true }
+        ]
+      },
+      {
+        "question_id": "eng-mc-013",
+        "question_text": "He went to live in the ____ of nowhere and none of his friends ever went to visit him.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "corner.", "is_correct": false },
+          { "answer_text": "place.", "is_correct": false },
+          { "answer_text": "inside.", "is_correct": false },
+          { "answer_text": "middle.", "is_correct": true }
+        ]
+      },
+      {
+        "question_id": "eng-mc-014",
+        "question_text": "The boat ____ is the river.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "climbing up.", "is_correct": false },
+          { "answer_text": "driving down.", "is_correct": false },
+          { "answer_text": "swimming across.", "is_correct": false },
+          { "answer_text": "floating along.", "is_correct": true }
+        ]
+      },
+      {
+        "question_id": "eng-mc-015",
+        "question_text": "We like to eat outside ____ the evenings.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "in.", "is_correct": true },
+          { "answer_text": "on.", "is_correct": false },
+          { "answer_text": "at.", "is_correct": false },
+          { "answer_text": "during.", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-016",
+        "question_text": "If you have a ____ job, you work for some of the time, but not all the time.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "full-time.", "is_correct": false },
+          { "answer_text": "polite.", "is_correct": false },
+          { "answer_text": "essential.", "is_correct": false },
+          { "answer_text": "part-time.", "is_correct": true }
+        ]
+      },
+      {
+        "question_id": "eng-mc-017",
+        "question_text": "The ____ wasn’t working so we went up the stairs.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "basement.", "is_correct": false },
+          { "answer_text": "lift.", "is_correct": true },
+          { "answer_text": "corridor.", "is_correct": false },
+          { "answer_text": "entrance.", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-018",
+        "question_text": "Where did you live before you moved ____ New York?",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "over.", "is_correct": false },
+          { "answer_text": "to.", "is_correct": true },
+          { "answer_text": "in.", "is_correct": false },
+          { "answer_text": "at.", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-019",
+        "question_text": "An ____ fits and repairs electrical equipment.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "electrician.", "is_correct": true },
+          { "answer_text": "accountant.", "is_correct": false },
+          { "answer_text": "chef.", "is_correct": false },
+          { "answer_text": "designer.", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-020",
+        "question_text": "I can’t go out because I ____ my work yet.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "didn’t finish.", "is_correct": false },
+          { "answer_text": "haven’t finished.", "is_correct": true },
+          { "answer_text": "wasn’t finished.", "is_correct": false },
+          { "answer_text": "am not finished.", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-021",
+        "question_text": "A: What do you usually do at the weekend? B: If I ____ any work to do, we ____ away somewhere.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "don’t have/go.", "is_correct": false },
+          { "answer_text": "didn’t have/would go.", "is_correct": false },
+          { "answer_text": "don’t have/will go.", "is_correct": true },
+          { "answer_text": "not having/are going.", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-022",
+        "question_text": "We helped some people ____ car had broken down.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "whose.", "is_correct": true },
+          { "answer_text": "who.", "is_correct": false },
+          { "answer_text": "whom.", "is_correct": false },
+          { "answer_text": "which.", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-023",
+        "question_text": "Martin tried on three jackets, none ____ fitted him.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "of which.", "is_correct": true },
+          { "answer_text": "in which.", "is_correct": false },
+          { "answer_text": "of that.", "is_correct": false },
+          { "answer_text": "with which.", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-024",
+        "question_text": "He’s always ____ photos of his breakfast to social networking sites.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "setting up.", "is_correct": false },
+          { "answer_text": "connecting.", "is_correct": false },
+          { "answer_text": "matching.", "is_correct": false },
+          { "answer_text": "uploading.", "is_correct": true }
+        ]
+      },
+      {
+        "question_id": "eng-mc-025",
+        "question_text": "When you ____ this into your laptop, the downloading begins automatically.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "plug.", "is_correct": true },
+          { "answer_text": "plugged.", "is_correct": false },
+          { "answer_text": "are plugging.", "is_correct": false },
+          { "answer_text": "would plug.", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-026",
+        "question_text": "The ____ is the top surface in a room or passage, over your head.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "ceiling.", "is_correct": true },
+          { "answer_text": "catacomb.", "is_correct": false },
+          { "answer_text": "tunnel.", "is_correct": false },
+          { "answer_text": "property.", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-027",
+        "question_text": "He’s an actor ____ makes science-fiction films.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "which.", "is_correct": false },
+          { "answer_text": "what.", "is_correct": false },
+          { "answer_text": "who.", "is_correct": true },
+          { "answer_text": "why.", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-028",
+        "question_text": "As a highly qualified ____, Mark was able to accurately diagnose and treat his patient’s vision problems.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "cardiologist.", "is_correct": false },
+          { "answer_text": "optician.", "is_correct": true },
+          { "answer_text": "psychiatrist.", "is_correct": false },
+          { "answer_text": "neurosurgeon.", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-029",
+        "question_text": "If you are ____, you are not enjoying something because you are not interested.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "hungry.", "is_correct": false },
+          { "answer_text": "joyful.", "is_correct": false },
+          { "answer_text": "angry.", "is_correct": false },
+          { "answer_text": "bored.", "is_correct": true }
+        ]
+      },
+      {
+        "question_id": "eng-mc-030",
+        "question_text": "She decided to ____ a subscription to a housing magazine.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "take up.", "is_correct": false },
+          { "answer_text": "take out.", "is_correct": true },
+          { "answer_text": "turn up.", "is_correct": false },
+          { "answer_text": "turn out.", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-031",
+        "question_text": "The annual conference, which was originally planned to ____ in person, has been moved to a virtual format due to the ongoing pandemic.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "occur.", "is_correct": false },
+          { "answer_text": "commence.", "is_correct": false },
+          { "answer_text": "take place.", "is_correct": true },
+          { "answer_text": "be canceled.", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-032",
+        "question_text": "I ____ the hotel in advance, but when we arrived, they ____ a room for us.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "booked/did not have.", "is_correct": false },
+          { "answer_text": "had booked/did not have.", "is_correct": true },
+          { "answer_text": "had booked/had not have.", "is_correct": false },
+          { "answer_text": "booked/had not have.", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-033",
+        "question_text": "A: ____ invented television? B: John Logie Baird is considered “the Father of Television”.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "Which.", "is_correct": false },
+          { "answer_text": "Who.", "is_correct": true },
+          { "answer_text": "How.", "is_correct": false },
+          { "answer_text": "When.", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-034",
+        "question_text": "We arrived at work in the morning and found that somebody ____ into the office during the night, so we called the police.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "breaks.", "is_correct": false },
+          { "answer_text": "broke.", "is_correct": false },
+          { "answer_text": "has broken.", "is_correct": false },
+          { "answer_text": "had broken.", "is_correct": true }
+        ]
+      },
+      {
+        "question_id": "eng-mc-035",
+        "question_text": "As a child, Marie was ____ by the natural world, spending countless hours exploring the outdoors and observing the plants and animals around her.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "frightening.", "is_correct": false },
+          { "answer_text": "annouyed.", "is_correct": false },
+          { "answer_text": "worried.", "is_correct": false },
+          { "answer_text": "fascinated.", "is_correct": true }
+        ]
+      },
+      {
+        "question_id": "eng-mc-036",
+        "question_text": "By the time I could talk to her, she ____ to quit her job.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "decided.", "is_correct": false },
+          { "answer_text": "had decided.", "is_correct": true },
+          { "answer_text": "had been deciding.", "is_correct": false },
+          { "answer_text": "has decided.", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-037",
+        "question_text": "In formal English, people sometimes talk about a particular house or flat as a ____.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "property.", "is_correct": true },
+          { "answer_text": "sightseeing.", "is_correct": false },
+          { "answer_text": "tunnel.", "is_correct": false },
+          { "answer_text": "stone.", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-038",
+        "question_text": "The history professor gave a lecture on the ancient ____ of Rome, explaining how they were used to bury early Christians in underground tombs.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "library.", "is_correct": false },
+          { "answer_text": "laboratory.", "is_correct": false },
+          { "answer_text": "catacomb.", "is_correct": true },
+          { "answer_text": "accommodation.", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-039",
+        "question_text": "We spent the afternoon ____ on the beach.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "renting.", "is_correct": false },
+          { "answer_text": "unpacking.", "is_correct": false },
+          { "answer_text": "sunbathing.", "is_correct": true },
+          { "answer_text": "booking.", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-040",
+        "question_text": "A: What ____ during the storm last night? B: There was an accident near the primary school.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "happened.", "is_correct": true },
+          { "answer_text": "had happened.", "is_correct": false },
+          { "answer_text": "was happening.", "is_correct": false },
+          { "answer_text": "did happen.", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-041",
+        "question_text": "I ____ to this music in the eighties but now it sounds awful!",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "had listened.", "is_correct": false },
+          { "answer_text": "used to listen.", "is_correct": true },
+          { "answer_text": "used to listening.", "is_correct": false },
+          { "answer_text": "use to listened.", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-042",
+        "question_text": "A plane carrying 15 members of the government to a conference in Brussels ____ a small-scale fire earlier this morning.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "is known to have experienced.", "is_correct": true },
+          { "answer_text": "had been known to experience.", "is_correct": false },
+          { "answer_text": "is known to had experienced.", "is_correct": false },
+          { "answer_text": "was known to have experienced.", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-043",
+        "question_text": "We ____ believed that we could succeed where others failed.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "confidently.", "is_correct": true },
+          { "answer_text": "nxiously.", "is_correct": false },
+          { "answer_text": "hesitantly.", "is_correct": false },
+          { "answer_text": "timidly.", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-044",
+        "question_text": "Something that ____ is the most recent one of its kind, so it is also very modern.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "old fashion.", "is_correct": false },
+          { "answer_text": "classic.", "is_correct": false },
+          { "answer_text": "catchy.", "is_correct": false },
+          { "answer_text": "up to date.", "is_correct": true }
+        ]
+      },
+      {
+        "question_id": "eng-mc-045",
+        "question_text": "More than six million tons of food ____ last year.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "is wasted.", "is_correct": false },
+          { "answer_text": "are wasted.", "is_correct": false },
+          { "answer_text": "wasted.", "is_correct": false },
+          { "answer_text": "were wasted.", "is_correct": true }
+        ]
+      },
+      {
+        "question_id": "eng-mc-046",
+        "question_text": "I ____ visit museums when I was younger but now I’m interested in learning about artifacts and history so I go to the museums more often.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "didn’t use to.", "is_correct": true },
+          { "answer_text": "not used to.", "is_correct": false },
+          { "answer_text": "used to.", "is_correct": false },
+          { "answer_text": "wasn’t used to.", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-047",
+        "question_text": "I haven’t seen these flowers before. What ____?",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "is it called.", "is_correct": false },
+          { "answer_text": "are they called.", "is_correct": true },
+          { "answer_text": "to call them.", "is_correct": false },
+          { "answer_text": "are their call.", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-048",
+        "question_text": "If you ____ on something, you say or write your opinion about it.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "fit.", "is_correct": false },
+          { "answer_text": "contact.", "is_correct": false },
+          { "answer_text": "comment.", "is_correct": true },
+          { "answer_text": "link.", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-049",
+        "question_text": "Please turn all your ____ off during the plane`s take-off",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "voice.", "is_correct": false },
+          { "answer_text": "volume.", "is_correct": false },
+          { "answer_text": "entertaining stuff.", "is_correct": false },
+          { "answer_text": "digital devices.", "is_correct": true }
+        ]
+      },
+      {
+        "question_id": "eng-mc-050",
+        "question_text": "Police responded to the ____ and closed the road.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "conversation.", "is_correct": false },
+          { "answer_text": "collision.", "is_correct": true },
+          { "answer_text": "cooperation.", "is_correct": false },
+          { "answer_text": "contemplation.", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-051",
+        "question_text": "This morning, Rachel ____ me that you were in hospital.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "told.", "is_correct": true },
+          { "answer_text": "said.", "is_correct": false },
+          { "answer_text": "say.", "is_correct": false },
+          { "answer_text": "tell.", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-052",
+        "question_text": "Will was taking a long time to get ready, so I told him ____.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "hurry up.", "is_correct": false },
+          { "answer_text": "to hurry up.", "is_correct": true },
+          { "answer_text": "should hurry up.", "is_correct": false },
+          { "answer_text": "must hurry up.", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-053",
+        "question_text": "Paul didn’t go to work today. He said ____ a fever at the moment.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "he was having.", "is_correct": true },
+          { "answer_text": "he has been having.", "is_correct": false },
+          { "answer_text": "he has a fever.", "is_correct": false },
+          { "answer_text": "he had been having a fever.", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-054",
+        "question_text": "Anna said that she ____ her phone at the cinema last night.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "lost.", "is_correct": false },
+          { "answer_text": "had lost.", "is_correct": true },
+          { "answer_text": "has lost.", "is_correct": false },
+          { "answer_text": "lose.", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-055",
+        "question_text": "We lost contact with the ____ when it went behind the moon.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "submarine.", "is_correct": false },
+          { "answer_text": "life form.", "is_correct": false },
+          { "answer_text": "condensation.", "is_correct": false },
+          { "answer_text": "spacecraft.", "is_correct": true }
+        ]
+      },
+      {
+        "question_id": "eng-mc-056",
+        "question_text": "Yesterday, my teacher asked me ____ my holiday had been great.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "if.", "is_correct": true },
+          { "answer_text": "how.", "is_correct": false },
+          { "answer_text": "which.", "is_correct": false },
+          { "answer_text": "that.", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-057",
+        "question_text": "The team was losing by three points with only one minute left in the game, and they were ____ playing to try to make a comeback.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "happily.", "is_correct": false },
+          { "answer_text": "cautiously.", "is_correct": false },
+          { "answer_text": "desperately.", "is_correct": true },
+          { "answer_text": "casually.", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-058",
+        "question_text": "If you are ____ about something, you want to know more about it.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "happy.", "is_correct": false },
+          { "answer_text": "fearful.", "is_correct": false },
+          { "answer_text": "curious.", "is_correct": true },
+          { "answer_text": "confident.", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-059",
+        "question_text": "The team of adventurers set out on a(n) ____ to reach the peak of the tallest mountain in the world, braving extreme weather conditions and high altitude.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "experiment.", "is_correct": false },
+          { "answer_text": "escape.", "is_correct": false },
+          { "answer_text": "expedition.", "is_correct": true },
+          { "answer_text": "migration.", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-060",
+        "question_text": "A/ an ____ is a message that you send to someone using the Internet.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "email.", "is_correct": true },
+          { "answer_text": "facebook page.", "is_correct": false },
+          { "answer_text": "newspaper.", "is_correct": false },
+          { "answer_text": "radio programme.", "is_correct": false }
+        ]
+      }
+    ],
+    "reading": [
+      {
+        "id": "reading-comp-01",
+        "type": "reading_comprehension",
+        "title": "Kids for Climate by Liz Meyers",
+        "passage": "I read at school that scientists studying the effects of climate change have warned that we need to make huge changes to the way that we live our lives in order to deal with global warming. The goal was to stop the world's temperature from rising more than 1.5 degrees Celsius. However, we are nowhere near to doing this, and on top of that, scientists suggest that we are moving towards a 3-degree increase.\n\nSince governments have done very little to deal with the problem, the younger generation, who are the ones who will have to deal with the results in the future, have decided to take the lead. Inspired by a 16-year-old Swedish girl, Greta Thunberg, who refused to go to school to draw attention to climate change, students from all around the world walk out of school to make world leaders pay attention and get public support. Now school walkouts for the climate are happening everywhere.\n\nIt had to happen. Extreme weather is increasing. Floods and forest fires are normal headline news nowadays. Extreme heat is becoming more common in countries that once had completely different climates. The argument of these young people missing their lessons is that global warming cannot be ignored any longer. This is the biggest crisis we have ever faced. It is time to take responsibility. Scientists have given the figures, now the young generation are taking those figures and telling their governments to take action. They argue that there is no point in going to school because there is no future.\n\nIf the world continues as if nothing is happening and governments do not set targets that will make the difference, it will be the young generation who will live through their failure. Those who are under 20 now could be around to see 2080, and be living in a world that has warmed by up to 4 degrees Celsius. Rivers would flood, storms would destroy towns and cities by the sea, melting ice would cause sea levels to rise. Thousands of scientists from around the world support the children saying that if we take action now, and that means all of us, we might be able to stop the rise in temperature.",
+        "questions": [
+          {
+            "question_id": "eng-r-comp-061",
+            "question_text": "What does Liz think about the reaction to climate change?",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "Everybody is finally taking responsibility.", "is_correct": false },
+              { "answer_text": "The children should not be missing school.", "is_correct": false },
+              { "answer_text": "The younger generation cannot achieve much.", "is_correct": false },
+              { "answer_text": "There is no longer any other solution.", "is_correct": true }
+            ]
+          },
+          {
+            "question_id": "eng-r-comp-062",
+            "question_text": "The first thing Greta Thunberg did was to ____.",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "miss lessons to get a reaction.", "is_correct": true },
+              { "answer_text": "become the leader of the young generation.", "is_correct": false },
+              { "answer_text": "ask other children to help her.", "is_correct": false },
+              { "answer_text": "ask the local government for support.", "is_correct": false }
+            ]
+          },
+          {
+            "question_id": "eng-r-comp-063",
+            "question_text": "What will happen in the future if we continue to ignore the problem?",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "The planet will have become 4°C warmer in less than 20 years.", "is_correct": false },
+              { "answer_text": "The effects of global warming will be even worse.", "is_correct": true },
+              { "answer_text": "All cities will be destroyed by bad weather.", "is_correct": false },
+              { "answer_text": "Governments will lose interest in global warming.", "is_correct": false }
+            ]
+          },
+          {
+            "question_id": "eng-r-comp-064",
+            "question_text": "What are scientists saying about climate change?",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "It’s not really happening as fast as we feared.", "is_correct": false },
+              { "answer_text": "Temperatures will only rise by 1.5 degrees.", "is_correct": false },
+              { "answer_text": "Original predictions were wrong.", "is_correct": true },
+              { "answer_text": "We have reached a rise of 3 degrees already.", "is_correct": false }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "reading-comp-02",
+        "type": "reading_comprehension",
+        "title": "SUMMER JOBS FOR STUDENTS",
+        "passage": "Employers are more and more interested in taking on students during their holiday periods. Students can do the easier tasks and free up time for their permanent employees to concentrate on the more demanding ones. Although there is little financial reward for students, it is a great chance to explore their interests and add to their CVs. However, few students know what jobs may be available.\n\nColleges sometimes advertise summer jobs on their notice-boards and in newspapers, and there are also well-known international organizations which can help. Students can also search the web, find an interesting company and email the manager to ask what temporary jobs exist. This may sound time-consuming, but students then get to work in the company of their choice, so it is what I recommend.\n\nAs a science student, two years ago I spent ten weeks in a laboratory in California, helping a group of researchers with their work. To begin with, the job seemed uninteresting because my responsibilities were not clear, but when I started working on a range of projects, such as writing research papers and creating web pages, my attitude changed.\n\nI was paid enough to cover all my daily needs, so I had no financial worries. One of my jobs was to prepare educational material for schools. This was an entirely new challenge which I enjoyed so much that I decided to train as a teacher rather than a researcher when I got back. My only regret was that I'd been too busy to learn more about the USA, but then a good summer job seldom leaves you much free time and you should be prepared for that.",
+        "questions": [
+          {
+            "question_id": "eng-r-comp-065",
+            "question_text": "What is the writer’s main purpose in writing the text?",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "To warn students about low-paid summer jobs.", "is_correct": false },
+              { "answer_text": "To describe the best summer jobs for students.", "is_correct": false },
+              { "answer_text": "To encourage students to look for summer jobs.", "is_correct": true },
+              { "answer_text": "To offer students interesting summer jobs.", "is_correct": false }
+            ]
+          },
+          {
+            "question_id": "eng-r-comp-066",
+            "question_text": "In what way did the California job benefit the writer?",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "It allowed him to save some money.", "is_correct": false },
+              { "answer_text": "It made him change his career plans.", "is_correct": true },
+              { "answer_text": "It gave him contacts he could use later.", "is_correct": false },
+              { "answer_text": "It taught him what life was like in the USA.", "is_correct": false }
+            ]
+          },
+          {
+            "question_id": "eng-r-comp-067",
+            "question_text": "The writer found the California job disappointing at first because ____.",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "he was not sure what he had to do.", "is_correct": true },
+              { "answer_text": "he had to work on too many projects.", "is_correct": false },
+              { "answer_text": "he did not like research work.", "is_correct": false },
+              { "answer_text": "he lacked good computer skills.", "is_correct": false }
+            ]
+          },
+          {
+            "question_id": "eng-r-comp-068",
+            "question_text": "The writer says the best way to find a good summer job is ____.",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "to ask their own colleges for help.", "is_correct": false },
+              { "answer_text": "to read the job advertisements in the press.", "is_correct": false },
+              { "answer_text": "to join an organized student programme.", "is_correct": false },
+              { "answer_text": "to contact possible employers directly.", "is_correct": true }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "reading-comp-03",
+        "type": "reading_comprehension",
+        "title": "Internet cheating",
+        "passage": "Millions of pounds are spent each year on Internet cheating. There are tens of thousands of websites where you can buy essays. With most essay-writing companies, students pay per word. Sometimes they pay per page. Some companies offer to write a special, personalised essay, but at an extra cost. You can also pay extra for faster essays.\n\nBarclay Littlewood is the owner of one online essay-writing organisation. 3,500 specialists are employed by his company. They have written more than 15,000 essays for students. The company made £90,000 in just one week in May. Thanks to his company, Littlewood has a Ferrari and a Lamborghini in his garage.\n\nHowever, Internet cheating is now an enormous problem for schools and universities. One education expert predicted that schools would have to stop continuous assessment and start doing more exams again. Universities and schools say that the UK's academic reputation is going down because of online essay companies.\n\nBarclay Littlewood, on the other hand, says he doesn't help students to cheat. He says he simply offers them a guide. 'The essays are a starting point. Students use them to create their own work. Students analyse our answers and then they write their own. We're just showing them how to write a great essay.'\n\nBut as one teacher replied: 'The suggestion that these essays are used by students as \"guides\" is crazy and dishonest. We need to do something to stop it.' Many colleges and universities now have software which allows teachers to check if students are copying from five billion web pages. Many universities have somebody doing this full-time. 'It's not a question of catching people and punishing them. It's a question of helping students to understand what education really is. Education is research and investigation. In the end, the students who are using these services are just not learning the skills they need for their studies or for the rest of their lives.",
+        "questions": [
+          {
+            "question_id": "eng-r-comp-069",
+            "question_text": "The price of a basic online essay usually depends on ____.",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "who writes it.", "is_correct": false },
+              { "answer_text": "what the subject is.", "is_correct": false },
+              { "answer_text": "why it is written.", "is_correct": false },
+              { "answer_text": "how long it is.", "is_correct": true }
+            ]
+          },
+          {
+            "question_id": "eng-r-comp-070",
+            "question_text": "An educational specialist thinks that online cheating will ____.",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "change the way teachers teach.", "is_correct": false },
+              { "answer_text": "make it easier for students to pass exams.", "is_correct": false },
+              { "answer_text": "change the way teachers assess students.", "is_correct": true },
+              { "answer_text": "give teachers more tasks.", "is_correct": false }
+            ]
+          },
+          {
+            "question_id": "eng-r-comp-071",
+            "question_text": "The text says that teachers ____.",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "have no way of knowing if students are copying essays.", "is_correct": false },
+              { "answer_text": "are using technology to find people who are cheating.", "is_correct": true },
+              { "answer_text": "want to make cheats suffer.", "is_correct": false },
+              { "answer_text": "teach students how to ignore online essays.", "is_correct": false }
+            ]
+          },
+          {
+            "question_id": "eng-r-comp-072",
+            "question_text": "Barclay Littlewood is ____.",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "a businessman.", "is_correct": true },
+              { "answer_text": "a writer of online essays.", "is_correct": false },
+              { "answer_text": "an ex-teacher.", "is_correct": false },
+              { "answer_text": "a journalist.", "is_correct": false }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "reading-comp-04",
+        "type": "reading_comprehension",
+        "title": "Our Great Ocean Road adventure by Donna Waverley",
+        "passage": "My family and I recently went to Australia, to see my grandparents. But before we visited them, we went sightseeing along the Great Ocean Road, on the Australian coast.\n\nDad had intended to drive, but even though he was used to driving miles without getting exhausted, he then read on the website that the road wouldn't be an easy drive, with a number of sharp bends. Anyway, we thought he deserved to enjoy the fantastic views too, which he couldn't do as our driver. So instead, we persuaded him to book discount bus tickets and off we went.\n\nOur first stop was where wild kangaroos lived - and Dad and I were taking a walk when a big one appeared! For a moment, it seemed to consider coming towards us, which made me slightly nervous - but then it went off along the road, stopping to check if we were following. Although it was with us for a while, I was so excited I didn't even manage to pull out my camera. Then it looked back once more, and went off into the bushes.\n\nThat wasn't the only wildlife we saw. I thought it unlikely we'd see Australia's famous koala bears during our short visit, as I'd heard they were rare - but we weren't disappointed at our next stop. In fact, we discovered there were roughly six million in that area! Sadly, some gum trees they were in had very few leaves left, which people told us was because of the koalas, although I'd read that lack of water is actually the problem. Still, I guess they looked cute, and were easy to find - we just followed the tourists looking up into the trees!\n\nDad had booked a campsite for the night, with ready-made tents - for an adventure! I wasn't sure about that, but they were actually luxury tents, within walking distance of some famous rocks and other places we hoped to visit. However, Dad also said the sounds of wild creatures would help us sleep. That sounded worrying - until the 'wild creatures' turned out to be frogs! So I was embarrassed by my fears - and kept awake by the frogs! But we had fun making meals together - we'd brought food, as we knew there'd be nowhere to eat.",
+        "questions": [
+          {
+            "question_id": "eng-r-comp-073",
+            "question_text": "When Donna saw a kangaroo along the route, she was ____.",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "worried that it might approach her.", "is_correct": true },
+              { "answer_text": "amazed at the size of it.", "is_correct": false },
+              { "answer_text": "sad that it didn’t stay with them long.", "is_correct": false },
+              { "answer_text": "disappointed that she had forgotten her camera.", "is_correct": false }
+            ]
+          },
+          {
+            "question_id": "eng-r-comp-074",
+            "question_text": "Donna’s Dad decided not to drive the Great Ocean Road himself because ____.",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "he realised he wouldn’t enjoy the views as much.", "is_correct": true },
+              { "answer_text": "he thought it would be too tiring for him.", "is_correct": false },
+              { "answer_text": "he discovered the bus would be a cheaper option.", "is_correct": false },
+              { "answer_text": "he found out the route was very challenging.", "is_correct": false }
+            ]
+          },
+          {
+            "question_id": "eng-r-comp-075",
+            "question_text": "What was Donna’s opinion of the place where they stayed?",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "She found it was less comfortable than she’d hoped.", "is_correct": false },
+              { "answer_text": "She liked the fact that it was convenient for sightseeing.", "is_correct": true },
+              { "answer_text": "She enjoyed hearing the sounds of nature as she slept.", "is_correct": false },
+              { "answer_text": "She was disappointed there was no restaurant nearby.", "is_correct": false }
+            ]
+          },
+          {
+            "question_id": "eng-r-comp-076",
+            "question_text": "Donna says that the koala bears they saw were ____.",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "responsible for damage to the trees.", "is_correct": false },
+              { "answer_text": "even more attractive than people had told her.", "is_correct": false },
+              { "answer_text": "more common than she’d expected.", "is_correct": true },
+              { "answer_text": "very skilled at hiding away from tourists.", "is_correct": false }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "reading-comp-05",
+        "type": "reading_comprehension",
+        "title": "The Furby Fad",
+        "passage": "The Furby, a five inch tall doll with bulging eyes and a round mouth, which had a great resemblance to the character from the movie 'Gremlins', was a cute enough toy. But how did it become so very popular for a short time, causing a Furby fad?\n\nPart of the interest in the toy was because it displayed lifelike qualities. It was interactive. In particular, it needed nurturing. The toy responded to light, sound and touch and had the ability to learn to speak English. Conversely, it could teach its owner how to speak Furbish, which was a mixture of several language sounds.\n\nHowever, most of its popularity was due to media exposure. The Furby was first demonstrated at the 1998 Toy Fair in New York City. The toy was subsequently mentioned in Time magazine and USA Today and on a number of early morning television shows. The Toy Fair took place in February, but the manufacturer, Tiger Electronics, had planned to release it in October. But because of the media exposure, toy stores began placing large orders for the toy as more and more parents began inquiring about its availability. By the time the toy was released in October, Tiger had already sold out the initial lot of 1.3 million units.\n\nThe Furby fad seemed to have been fuelled by the inability of parents to find the toy. When it was not available, everyone needed one. Yet, as soon as they became plentiful, interest in them evaporated.",
+        "questions": [
+          {
+            "question_id": "eng-r-comp-077",
+            "question_text": "The first place anyone saw the Furby was ____.",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "at a toy fair.", "is_correct": true },
+              { "answer_text": "in a well-known magazine.", "is_correct": false },
+              { "answer_text": "on morning television.", "is_correct": false },
+              { "answer_text": "in toy stores.", "is_correct": false }
+            ]
+          },
+          {
+            "question_id": "eng-r-comp-078",
+            "question_text": "What is the writer doing in this text?",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "trying to show how toys are made.", "is_correct": false },
+              { "answer_text": "presenting the history of a movie character.", "is_correct": false },
+              { "answer_text": "trying to explain the success of a product.", "is_correct": true },
+              { "answer_text": "trying to protect shoppers.", "is_correct": false }
+            ]
+          },
+          {
+            "question_id": "eng-r-comp-079",
+            "question_text": "Why does the writer think the Furby became a fad?",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "It was a new idea.", "is_correct": false },
+              { "answer_text": "It was not widely available on release.", "is_correct": true },
+              { "answer_text": "It was well advertised.", "is_correct": false },
+              { "answer_text": "It was affordable.", "is_correct": false }
+            ]
+          },
+          {
+            "question_id": "eng-r-comp-080",
+            "question_text": "What did people particularly like about the Furby?",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "It resembled a movie character.", "is_correct": false },
+              { "answer_text": "It could speak English.", "is_correct": false },
+              { "answer_text": "It was extremely cute.", "is_correct": false },
+              { "answer_text": "It seemed alive.", "is_correct": true }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "reading-comp-06",
+        "type": "reading_comprehension",
+        "title": "Museum Brochures",
+        "passage": "You are going to read four brochures about museums. Read and choose the correct answer.\n\nDINO SCENE INVESTIGATION:\nLook at rocks and bones, dig up your own fossils, and find out how to identify prehistoric animals and plants at the Natural History Museum. Dinosaurs became extinct around 65 million years ago, so how do we know what they looked like and how they behaved? Bring your pupils to our Dino Scene Investigation workshops to find out!\n\nIf you want more from your dinosaur experience, you can actually spend the night in the museum. Our Dino Snores programme takes you into the museum and on your way to your ‘bedroom’ you solve a puzzle. You can then watch a film before going to sleep under the Diplodocus dinosaur. Although museum admission is free, there is a charge for the Dino Snores events, so see the website for details.\n\nTEAM-BUILDING THE MEDIAEVAL WAY:\nBring your staff to our special Mediaeval Knight School for a company event they won’t forget! Our experienced knights will tell you about the history of Warwick Castle and will take you back to mediaeval times when the Castle’s soldiers were getting ready to fight. Your employees will improve their business skills, such as leadership and trust, while they learn about fighting with swords and bows and arrows. For more information, contact our Sales Team.",
+        "questions": [
+          {
+            "question_id": "eng-r-comp-081",
+            "question_text": "Which activity is not available at the Natural History Museum?",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "Digging up fossils.", "is_correct": false },
+              { "answer_text": "Recognizing different dinosaurs.", "is_correct": false },
+              { "answer_text": "Sleeping inside a dinosaur.", "is_correct": true },
+              { "answer_text": "Solve a puzzle.", "is_correct": false }
+            ]
+          },
+          {
+            "question_id": "eng-r-comp-082",
+            "question_text": "Companies use the Mediaeval Knight School at Warwick Castle ____.",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "to help team building.", "is_correct": true },
+              { "answer_text": "to learn about sales techniques.", "is_correct": false },
+              { "answer_text": "to teach staff to fight.", "is_correct": false },
+              { "answer_text": "to test staff’s history knowledge.", "is_correct": false }
+            ]
+          },
+          {
+            "question_id": "eng-r-comp-083",
+            "question_text": "At the Natural History Museum, pupils can ____.",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "attend the Dino Snores events for free.", "is_correct": false },
+              { "answer_text": "discover extinct animal life.", "is_correct": true },
+              { "answer_text": "visit with their parents.", "is_correct": false },
+              { "answer_text": "listen to a guide on headphones.", "is_correct": false }
+            ]
+          },
+          {
+            "question_id": "eng-r-comp-084",
+            "question_text": "Which activity is not available at Warwick Castle?",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "Handling ancient weapons.", "is_correct": false },
+              { "answer_text": "Learning how to be a better leader.", "is_correct": false },
+              { "answer_text": "Learning ancient fighting techniques.", "is_correct": false },
+              { "answer_text": "Reading the history of Warwick Castle.", "is_correct": true }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

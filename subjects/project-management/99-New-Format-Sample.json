@@ -1,0 +1,114 @@
+{
+  "exam_id": "eng-mock-01",
+  "title": "English Mock Test 01",
+  "parts": {
+    "mcq": [
+      {
+        "question_id": "eng-mc-001",
+        "question_text": "Choose the correct sentence.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "She don't like coffee.", "is_correct": false },
+          { "answer_text": "She doesn't likes coffee.", "is_correct": false },
+          { "answer_text": "She doesn't like coffee.", "is_correct": true },
+          { "answer_text": "She not like coffee.", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-002",
+        "question_text": "Which options are countable nouns?",
+        "question_type": "multiple_answer_question",
+        "answers": [
+          { "answer_text": "book", "is_correct": true },
+          { "answer_text": "information", "is_correct": false },
+          { "answer_text": "idea", "is_correct": true },
+          { "answer_text": "advice", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-003",
+        "question_text": "Choose the best word to complete the sentence: If I _____ more time, I would learn Spanish.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "have", "is_correct": false },
+          { "answer_text": "had", "is_correct": true },
+          { "answer_text": "will have", "is_correct": false },
+          { "answer_text": "am having", "is_correct": false }
+        ]
+      }
+    ],
+    "reading": [
+      {
+        "id": "reading-cloze-01",
+        "type": "cloze",
+        "title": "Cloze Test: Morning Routine",
+        "passage": "Tom wakes up at 6:00 every morning. He usually ___(1)___ a quick shower and then ___(2)___ breakfast. Before leaving for work, he checks his email and writes a short to-do list.",
+        "questions": [
+          {
+            "question_id": "eng-r-cloze-001",
+            "question_text": "Blank (1): Tom usually ___ a quick shower.",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "takes", "is_correct": true },
+              { "answer_text": "take", "is_correct": false },
+              { "answer_text": "taking", "is_correct": false },
+              { "answer_text": "took", "is_correct": false }
+            ]
+          },
+          {
+            "question_id": "eng-r-cloze-002",
+            "question_text": "Blank (2): He then ___ breakfast.",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "has", "is_correct": true },
+              { "answer_text": "have", "is_correct": false },
+              { "answer_text": "having", "is_correct": false },
+              { "answer_text": "had", "is_correct": false }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "reading-comprehension-01",
+        "type": "reading_comprehension",
+        "title": "Reading Comprehension: City Library",
+        "passage": "The city library opened a new digital learning room last month. The room has twenty computers, free internet access, and online courses for language learning, coding, and business skills. According to the library manager, most visitors come in the evening after work. Because demand is high, users must book a seat at least one day in advance.",
+        "questions": [
+          {
+            "question_id": "eng-r-comp-001",
+            "question_text": "When did the library open the digital learning room?",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "Last week", "is_correct": false },
+              { "answer_text": "Last month", "is_correct": true },
+              { "answer_text": "Last year", "is_correct": false },
+              { "answer_text": "Two days ago", "is_correct": false }
+            ]
+          },
+          {
+            "question_id": "eng-r-comp-002",
+            "question_text": "Why must users book a seat early?",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "The internet is slow", "is_correct": false },
+              { "answer_text": "Computers are often broken", "is_correct": false },
+              { "answer_text": "Demand is high", "is_correct": true },
+              { "answer_text": "The room is only open in the morning", "is_correct": false }
+            ]
+          },
+          {
+            "question_id": "eng-r-comp-003",
+            "question_text": "Which services are available in the digital learning room? Select all that apply.",
+            "question_type": "multiple_answer_question",
+            "answers": [
+              { "answer_text": "Free internet access", "is_correct": true },
+              { "answer_text": "Online coding courses", "is_correct": true },
+              { "answer_text": "Printed newspaper archive", "is_correct": false },
+              { "answer_text": "Language learning courses", "is_correct": true }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

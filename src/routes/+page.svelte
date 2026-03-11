@@ -160,6 +160,9 @@
 	const WHEEL_THROTTLE_MS = 250;
 
 	function handleWheelNavigation(e: WheelEvent) {
+		// Reading layout uses wheel for passage/question scroll, so don't hijack wheel to navigate.
+		if ((pageState.quizData[pageState.current]?.section as string | undefined) === 'reading') return;
+
 		// Skip if user is in an input field
 		if (
 			document.activeElement &&

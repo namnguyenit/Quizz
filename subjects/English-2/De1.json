@@ -1,0 +1,812 @@
+{
+  "exam_id": "eng-mock-02-01",
+  "title": "ĐỀ THI THỬ TIẾNG ANH 2 - ĐỀ SỐ 1",
+  "parts": {
+    "mcq": [
+      {
+        "question_id": "eng-mc-001",
+        "question_text": "The ____ climate is extremely dry, with very little rainfall throughout the year.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "ocean", "is_correct": false },
+          { "answer_text": "desert", "is_correct": true },
+          { "answer_text": "forest", "is_correct": false },
+          { "answer_text": "wetland", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-002",
+        "question_text": "Elephants are heavily protected because ____ still hunt them for their ivory tusks.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "conservationists", "is_correct": false },
+          { "answer_text": "poachers", "is_correct": true },
+          { "answer_text": "ecologists", "is_correct": false },
+          { "answer_text": "zoologists", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-003",
+        "question_text": "I opened the fridge to look for a snack, but there was ____ left.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "anything", "is_correct": false },
+          { "answer_text": "something", "is_correct": false },
+          { "answer_text": "nothing", "is_correct": true },
+          { "answer_text": "everything", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-004",
+        "question_text": "If I ____ a chance to travel to space, I ____ accept it immediately.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "get / would", "is_correct": false },
+          { "answer_text": "got / will", "is_correct": false },
+          { "answer_text": "got / would", "is_correct": true },
+          { "answer_text": "get / did", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-005",
+        "question_text": "We went to the history ____ at the national museum to learn about ancient Egypt.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "auction", "is_correct": false },
+          { "answer_text": "symposium", "is_correct": false },
+          { "answer_text": "concert", "is_correct": false },
+          { "answer_text": "exhibition", "is_correct": true }
+        ]
+      },
+      {
+        "question_id": "eng-mc-006",
+        "question_text": "If you ____ earlier, you wouldn't have missed the beginning of the movie.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "arrive", "is_correct": false },
+          { "answer_text": "arrived", "is_correct": false },
+          { "answer_text": "had arrived", "is_correct": true },
+          { "answer_text": "have arrived", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-007",
+        "question_text": "The tropical rainforest is home to thousands of different ____ of plants and animals.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "climates", "is_correct": false },
+          { "answer_text": "species", "is_correct": true },
+          { "answer_text": "ecosystems", "is_correct": false },
+          { "answer_text": "habitats", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-008",
+        "question_text": "____ is a bright flash of electricity produced by a thunderstorm.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "Thunder", "is_correct": false },
+          { "answer_text": "Hail", "is_correct": false },
+          { "answer_text": "Lightning", "is_correct": true },
+          { "answer_text": "Flood", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-009",
+        "question_text": "I have looked everywhere for my keys, but I can't find them ____.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "nowhere", "is_correct": false },
+          { "answer_text": "anywhere", "is_correct": true },
+          { "answer_text": "somewhere", "is_correct": false },
+          { "answer_text": "everywhere", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-010",
+        "question_text": "She has ____ interest in playing sports; she prefers reading books.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "no", "is_correct": true },
+          { "answer_text": "any", "is_correct": false },
+          { "answer_text": "none", "is_correct": false },
+          { "answer_text": "nothing", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-011",
+        "question_text": "The company requires all applicants to have a good ____ in computer science.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "past experience", "is_correct": false },
+          { "answer_text": "date of birth", "is_correct": false },
+          { "answer_text": "education", "is_correct": true },
+          { "answer_text": "hobby", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-012",
+        "question_text": "____ my keys? I ____ them on the table just a minute ago.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "Did you see / have left", "is_correct": false },
+          { "answer_text": "Have you seen / left", "is_correct": true },
+          { "answer_text": "Do you see / leave", "is_correct": false },
+          { "answer_text": "Have you seen / have left", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-013",
+        "question_text": "They bought a beautiful cabin in the ____ of the woods, far away from the city.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "middle", "is_correct": true },
+          { "answer_text": "center", "is_correct": false },
+          { "answer_text": "corner", "is_correct": false },
+          { "answer_text": "inside", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-014",
+        "question_text": "The empty plastic bottle was ____ along the river towards the sea.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "driving down", "is_correct": false },
+          { "answer_text": "climbing up", "is_correct": false },
+          { "answer_text": "swimming across", "is_correct": false },
+          { "answer_text": "floating", "is_correct": true }
+        ]
+      },
+      {
+        "question_id": "eng-mc-015",
+        "question_text": "My father usually reads the newspaper ____ the morning.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "on", "is_correct": false },
+          { "answer_text": "at", "is_correct": false },
+          { "answer_text": "in", "is_correct": true },
+          { "answer_text": "during", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-016",
+        "question_text": "As a university student, she works a ____ job at the cafe for 15 hours a week.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "full-time", "is_correct": false },
+          { "answer_text": "part-time", "is_correct": true },
+          { "answer_text": "overtime", "is_correct": false },
+          { "answer_text": "demanding", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-017",
+        "question_text": "We had to use the stairs because the ____ was broken.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "basement", "is_correct": false },
+          { "answer_text": "corridor", "is_correct": false },
+          { "answer_text": "entrance", "is_correct": false },
+          { "answer_text": "lift", "is_correct": true }
+        ]
+      },
+      {
+        "question_id": "eng-mc-018",
+        "question_text": "How long have you been married ____ your husband?",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "with", "is_correct": false },
+          { "answer_text": "to", "is_correct": true },
+          { "answer_text": "for", "is_correct": false },
+          { "answer_text": "at", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-019",
+        "question_text": "We need to call an ____ to fix the wiring in the kitchen.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "accountant", "is_correct": false },
+          { "answer_text": "electrician", "is_correct": true },
+          { "answer_text": "architect", "is_correct": false },
+          { "answer_text": "optician", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-020",
+        "question_text": "I can't go to the cinema tonight because I ____ my homework yet.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "didn't finish", "is_correct": false },
+          { "answer_text": "wasn't finishing", "is_correct": false },
+          { "answer_text": "haven't finished", "is_correct": true },
+          { "answer_text": "don't finish", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-021",
+        "question_text": "If she ____ the train, she ____ here by now.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "had caught / would be", "is_correct": true },
+          { "answer_text": "caught / will be", "is_correct": false },
+          { "answer_text": "catches / is", "is_correct": false },
+          { "answer_text": "caught / would be", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-022",
+        "question_text": "The woman ____ car was stolen yesterday has reported it to the police.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "who", "is_correct": false },
+          { "answer_text": "whom", "is_correct": false },
+          { "answer_text": "which", "is_correct": false },
+          { "answer_text": "whose", "is_correct": true }
+        ]
+      },
+      {
+        "question_id": "eng-mc-023",
+        "question_text": "I bought two new shirts, neither ____ fits me perfectly.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "of which", "is_correct": true },
+          { "answer_text": "of that", "is_correct": false },
+          { "answer_text": "which", "is_correct": false },
+          { "answer_text": "of whom", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-024",
+        "question_text": "It took him hours to ____ all his holiday videos to YouTube.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "connect", "is_correct": false },
+          { "answer_text": "download", "is_correct": false },
+          { "answer_text": "match", "is_correct": false },
+          { "answer_text": "upload", "is_correct": true }
+        ]
+      },
+      {
+        "question_id": "eng-mc-025",
+        "question_text": "Make sure you ____ your phone to the charger before you go to sleep.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "switch", "is_correct": false },
+          { "answer_text": "plug", "is_correct": true },
+          { "answer_text": "press", "is_correct": false },
+          { "answer_text": "turn", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-026",
+        "question_text": "The cat jumped up and managed to touch the ____ of the room.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "basement", "is_correct": false },
+          { "answer_text": "floor", "is_correct": false },
+          { "answer_text": "ceiling", "is_correct": true },
+          { "answer_text": "tunnel", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-027",
+        "question_text": "The book ____ I borrowed from the library was incredibly fascinating.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "who", "is_correct": false },
+          { "answer_text": "whom", "is_correct": false },
+          { "answer_text": "what", "is_correct": false },
+          { "answer_text": "which", "is_correct": true }
+        ]
+      },
+      {
+        "question_id": "eng-mc-028",
+        "question_text": "A(n) ____ is a doctor who specializes in treating heart diseases.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "neurosurgeon", "is_correct": false },
+          { "answer_text": "optician", "is_correct": false },
+          { "answer_text": "cardiologist", "is_correct": true },
+          { "answer_text": "psychiatrist", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-029",
+        "question_text": "The students were so ____ during the long lecture that some of them fell asleep.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "excited", "is_correct": false },
+          { "answer_text": "bored", "is_correct": true },
+          { "answer_text": "joyful", "is_correct": false },
+          { "answer_text": "angry", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-030",
+        "question_text": "I am going to ____ a loan from the bank to buy a new car.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "take out", "is_correct": true },
+          { "answer_text": "take up", "is_correct": false },
+          { "answer_text": "turn out", "is_correct": false },
+          { "answer_text": "turn up", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-031",
+        "question_text": "The music festival will ____ in the central park next weekend.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "occur", "is_correct": false },
+          { "answer_text": "commence", "is_correct": false },
+          { "answer_text": "take place", "is_correct": true },
+          { "answer_text": "participate", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-032",
+        "question_text": "When I got to the station, I realized that I ____ my ticket at home.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "left", "is_correct": false },
+          { "answer_text": "had left", "is_correct": true },
+          { "answer_text": "have left", "is_correct": false },
+          { "answer_text": "was leaving", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-033",
+        "question_text": "____ did you travel to London? - I went by train.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "Who", "is_correct": false },
+          { "answer_text": "Where", "is_correct": false },
+          { "answer_text": "How", "is_correct": true },
+          { "answer_text": "When", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-034",
+        "question_text": "The window was broken and it seemed that someone ____ into the house.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "had broken", "is_correct": true },
+          { "answer_text": "has broken", "is_correct": false },
+          { "answer_text": "breaks", "is_correct": false },
+          { "answer_text": "broke", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-035",
+        "question_text": "The children were ____ by the magic tricks performed by the clown.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "fascinated", "is_correct": true },
+          { "answer_text": "frightened", "is_correct": false },
+          { "answer_text": "boring", "is_correct": false },
+          { "answer_text": "annoying", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-036",
+        "question_text": "He ____ to become an engineer when he was just ten years old.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "has decided", "is_correct": false },
+          { "answer_text": "had decided", "is_correct": false },
+          { "answer_text": "decided", "is_correct": true },
+          { "answer_text": "decides", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-037",
+        "question_text": "They are looking to buy a new ____ in the suburbs.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "property", "is_correct": true },
+          { "answer_text": "sightseeing", "is_correct": false },
+          { "answer_text": "tunnel", "is_correct": false },
+          { "answer_text": "catacomb", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-038",
+        "question_text": "Tourists love exploring the underground ____ in Paris.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "laboratories", "is_correct": false },
+          { "answer_text": "libraries", "is_correct": false },
+          { "answer_text": "accommodations", "is_correct": false },
+          { "answer_text": "catacombs", "is_correct": true }
+        ]
+      },
+      {
+        "question_id": "eng-mc-039",
+        "question_text": "We spent our holiday ____ on the beautiful beaches of Bali.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "sunbathing", "is_correct": true },
+          { "answer_text": "renting", "is_correct": false },
+          { "answer_text": "packing", "is_correct": false },
+          { "answer_text": "booking", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-040",
+        "question_text": "What ____ while I was out shopping?",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "did happen", "is_correct": false },
+          { "answer_text": "happened", "is_correct": true },
+          { "answer_text": "was happening", "is_correct": false },
+          { "answer_text": "had happened", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-041",
+        "question_text": "I ____ drink coffee, but now I love it.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "didn't use to", "is_correct": true },
+          { "answer_text": "wasn't used to", "is_correct": false },
+          { "answer_text": "used to", "is_correct": false },
+          { "answer_text": "am used to", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-042",
+        "question_text": "The criminal ____ to have escaped the country under a false name.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "is known", "is_correct": true },
+          { "answer_text": "knew", "is_correct": false },
+          { "answer_text": "has known", "is_correct": false },
+          { "answer_text": "was knowing", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-043",
+        "question_text": "She ____ walked onto the stage and delivered a brilliant speech without any notes.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "confidently", "is_correct": true },
+          { "answer_text": "nervously", "is_correct": false },
+          { "answer_text": "hesitantly", "is_correct": false },
+          { "answer_text": "timidly", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-044",
+        "question_text": "His smartphone is very ____; it has all the newest features.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "old-fashioned", "is_correct": false },
+          { "answer_text": "classic", "is_correct": false },
+          { "answer_text": "up-to-date", "is_correct": true },
+          { "answer_text": "vintage", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-045",
+        "question_text": "Millions of dollars ____ on advertising that product last year.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "are spent", "is_correct": false },
+          { "answer_text": "were spent", "is_correct": true },
+          { "answer_text": "is spent", "is_correct": false },
+          { "answer_text": "spent", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-046",
+        "question_text": "We ____ live in a small flat, but we moved to a big house last year.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "didn't use to", "is_correct": false },
+          { "answer_text": "used to", "is_correct": true },
+          { "answer_text": "use to", "is_correct": false },
+          { "answer_text": "are used to", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-047",
+        "question_text": "I love these cookies. What ____?",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "are they called", "is_correct": true },
+          { "answer_text": "is it called", "is_correct": false },
+          { "answer_text": "do they call", "is_correct": false },
+          { "answer_text": "are their call", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-048",
+        "question_text": "If you want to leave a ____ on the blog post, you must log in first.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "link", "is_correct": false },
+          { "answer_text": "contact", "is_correct": false },
+          { "answer_text": "comment", "is_correct": true },
+          { "answer_text": "fit", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-049",
+        "question_text": "Students are not allowed to use ____ during the examination.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "digital devices", "is_correct": true },
+          { "answer_text": "entertaining stuff", "is_correct": false },
+          { "answer_text": "volume", "is_correct": false },
+          { "answer_text": "voice", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-050",
+        "question_text": "Fortunately, no one was injured in the ____ between the two cars.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "cooperation", "is_correct": false },
+          { "answer_text": "collision", "is_correct": true },
+          { "answer_text": "conversation", "is_correct": false },
+          { "answer_text": "contemplation", "is_correct": false }
+        ]
+      }
+    ],
+    "reading": [
+      {
+        "id": "reading-cloze-01",
+        "type": "cloze",
+        "title": "THE PLASTIC PROBLEM",
+        "passage": "Plastic is everywhere. It is in our homes, our cars, and even our clothes. While plastic is incredibly useful, it has become a massive environmental problem. Every year, millions of tons of plastic waste end up in the (51) ____. This pollution is highly dangerous to marine life. Sea turtles, fish, and birds often mistake plastic (52) ____ food and eat it, which can be fatal. Furthermore, plastic takes hundreds of years to break down. Instead of completely disappearing, it breaks into tiny pieces known as microplastics. These microplastics are now found in the water we drink and the food we eat. To deal (53) ____ this crisis, many governments have banned single-use plastics like straws and plastic bags. However, it is also up to individuals to make a difference. We can help by recycling more, using reusable shopping bags, and (54) ____ our daily consumption of single-use plastics. If we all take responsibility, we might be able to save our planet for future (55) ____.",
+        "questions": [
+          {
+            "question_id": "eng-r-cloze-051",
+            "question_text": "Blank (51)",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "oceans", "is_correct": true },
+              { "answer_text": "deserts", "is_correct": false },
+              { "answer_text": "forests", "is_correct": false },
+              { "answer_text": "mountains", "is_correct": false }
+            ]
+          },
+          {
+            "question_id": "eng-r-cloze-052",
+            "question_text": "Blank (52)",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "like", "is_correct": false },
+              { "answer_text": "as", "is_correct": false },
+              { "answer_text": "for", "is_correct": true },
+              { "answer_text": "with", "is_correct": false }
+            ]
+          },
+          {
+            "question_id": "eng-r-cloze-053",
+            "question_text": "Blank (53)",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "about", "is_correct": false },
+              { "answer_text": "on", "is_correct": false },
+              { "answer_text": "with", "is_correct": true },
+              { "answer_text": "to", "is_correct": false }
+            ]
+          },
+          {
+            "question_id": "eng-r-cloze-054",
+            "question_text": "Blank (54)",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "reducing", "is_correct": true },
+              { "answer_text": "increasing", "is_correct": false },
+              { "answer_text": "developing", "is_correct": false },
+              { "answer_text": "wasting", "is_correct": false }
+            ]
+          },
+          {
+            "question_id": "eng-r-cloze-055",
+            "question_text": "Blank (55)",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "species", "is_correct": false },
+              { "answer_text": "generations", "is_correct": true },
+              { "answer_text": "individuals", "is_correct": false },
+              { "answer_text": "populations", "is_correct": false }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "reading-comprehension-01",
+        "type": "reading_comprehension",
+        "title": "ECOTOURISM IN COSTA RICA",
+        "passage": "Costa Rica is a small country in Central America, but it is one of the most famous destinations in the world for ecotourism. Ecotourism is a type of travel that focuses on nature and wildlife while trying to protect the environment and support local communities. In the 1980s, Costa Rica was losing its rainforests at an alarming rate because people were cutting down trees for farming. Realizing that the country’s beautiful nature was its greatest treasure, the government decided to change its approach. They created a vast system of national parks and protected areas, which now cover about 25% of the country's land. Today, millions of tourists visit Costa Rica every year to hike in the rainforests, see exotic animals like sloths and monkeys, and relax on clean beaches. Most of the hotels and tour companies in Costa Rica try to be eco-friendly. For example, many use solar power, recycle their water, and serve food grown by local farmers. The money spent by tourists provides jobs for thousands of Costa Ricans, proving that protecting nature can be very good for the economy.",
+        "questions": [
+          {
+            "question_id": "eng-r-comp-056",
+            "question_text": "What is the main purpose of the text?",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "To explain how to start an eco-friendly hotel.", "is_correct": false },
+              { "answer_text": "To describe why Costa Rica is a great example of ecotourism.", "is_correct": true },
+              { "answer_text": "To warn tourists about the dangers of traveling in Central America.", "is_correct": false },
+              { "answer_text": "To complain about deforestation in the 1980s.", "is_correct": false }
+            ]
+          },
+          {
+            "question_id": "eng-r-comp-057",
+            "question_text": "What problem did Costa Rica face in the 1980s?",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "Too many tourists were visiting the country.", "is_correct": false },
+              { "answer_text": "The country was losing its rainforests quickly.", "is_correct": true },
+              { "answer_text": "The government closed down all national parks.", "is_correct": false },
+              { "answer_text": "Animals were attacking local farmers.", "is_correct": false }
+            ]
+          },
+          {
+            "question_id": "eng-r-comp-058",
+            "question_text": "How much of Costa Rica's land is currently protected?",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "Exactly half of the country.", "is_correct": false },
+              { "answer_text": "About 10%.", "is_correct": false },
+              { "answer_text": "Around 25%.", "is_correct": true },
+              { "answer_text": "Nearly 80%.", "is_correct": false }
+            ]
+          },
+          {
+            "question_id": "eng-r-comp-059",
+            "question_text": "According to the text, how do eco-friendly hotels operate?",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "They use solar power and local food.", "is_correct": true },
+              { "answer_text": "They only allow tourists to stay for one night.", "is_correct": false },
+              { "answer_text": "They cut down trees to build bigger rooms.", "is_correct": false },
+              { "answer_text": "They bring all their food from other countries.", "is_correct": false }
+            ]
+          },
+          {
+            "question_id": "eng-r-comp-060",
+            "question_text": "What is the economic benefit of ecotourism mentioned in the text?",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "It makes the government richer than other countries.", "is_correct": false },
+              { "answer_text": "It provides jobs for thousands of local people.", "is_correct": true },
+              { "answer_text": "It allows tourists to travel for free.", "is_correct": false },
+              { "answer_text": "It helps farmers cut down more trees.", "is_correct": false }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "reading-cloze-02",
+        "type": "cloze",
+        "title": "THE HISTORY OF THE MICROWAVE OVEN",
+        "passage": "The microwave oven is a common appliance in modern kitchens, but it was actually invented by accident. In 1945, an engineer named Percy Spencer was working on radar technology using a device called a magnetron. One day, while standing near the active magnetron, he noticed that a chocolate bar in his pocket had (61) ____. Curious about this, Spencer decided to test other foods. He placed popcorn kernels near the magnetron, and they quickly popped. Next, he tried an egg, which exploded! Spencer realized that the low-density microwave energy could cook food rapidly from the inside out. His company, Raytheon, built the first commercial microwave oven in 1947. It was called the \"Radarange\". However, it was almost two meters tall, weighed over 300 kilograms, and was extremely (62) ____. It wasn't until the late 1960s that companies began to produce smaller and more affordable microwaves for home use. Today, microwaves are (63) ____ for heating up leftovers and cooking ready-meals. They have completely (64) ____ the way people prepare food, saving a massive amount of time for busy families (65) ____ the world.",
+        "questions": [
+          {
+            "question_id": "eng-r-cloze-061",
+            "question_text": "Blank (61)",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "frozen", "is_correct": false },
+              { "answer_text": "melted", "is_correct": true },
+              { "answer_text": "broken", "is_correct": false },
+              { "answer_text": "disappeared", "is_correct": false }
+            ]
+          },
+          {
+            "question_id": "eng-r-cloze-062",
+            "question_text": "Blank (62)",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "cheap", "is_correct": false },
+              { "answer_text": "portable", "is_correct": false },
+              { "answer_text": "expensive", "is_correct": true },
+              { "answer_text": "beautiful", "is_correct": false }
+            ]
+          },
+          {
+            "question_id": "eng-r-cloze-063",
+            "question_text": "Blank (63)",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "essential", "is_correct": true },
+              { "answer_text": "terrible", "is_correct": false },
+              { "answer_text": "illegal", "is_correct": false },
+              { "answer_text": "dangerous", "is_correct": false }
+            ]
+          },
+          {
+            "question_id": "eng-r-cloze-064",
+            "question_text": "Blank (64)",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "damaged", "is_correct": false },
+              { "answer_text": "destroyed", "is_correct": false },
+              { "answer_text": "changed", "is_correct": true },
+              { "answer_text": "ignored", "is_correct": false }
+            ]
+          },
+          {
+            "question_id": "eng-r-cloze-065",
+            "question_text": "Blank (65)",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "across", "is_correct": false },
+              { "answer_text": "around", "is_correct": true },
+              { "answer_text": "above", "is_correct": false },
+              { "answer_text": "through", "is_correct": false }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "reading-comprehension-02",
+        "type": "reading_comprehension",
+        "title": "STUDYING ABROAD: A YEAR IN JAPAN",
+        "passage": "Last year, I made the biggest decision of my life: I left my hometown in England to spend a year studying at a university in Tokyo, Japan. I had always been fascinated by Japanese culture, from anime to traditional tea ceremonies, but living there was completely different from what I had imagined. At first, the language barrier was a huge challenge. Even though I had taken Japanese lessons for two years, I found it incredibly difficult to understand people when they spoke at a natural speed. Ordering food or buying train tickets felt like solving a complex puzzle. However, Japanese people are extremely polite and helpful. Whenever I looked lost at a train station, someone would usually approach me and try to help, even if their English was limited. The academic system was also quite different. In England, we are encouraged to debate with our professors, but in Japan, classes are much more formal. Students listen quietly and take detailed notes out of respect for the teacher. Despite the initial culture shock, I quickly made friends by joining a university kendo (Japanese swordsmanship) club. This helped me improve my language skills rapidly. By the end of the year, I felt like a different person. I am now much more independent and confident. Studying abroad wasn't just about learning a new language; it was about learning how to adapt to an entirely new world.",
+        "questions": [
+          {
+            "question_id": "eng-r-comp-066",
+            "question_text": "How did Mark feel about his Japanese language skills when he first arrived?",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "He thought he was fluent enough to speak naturally.", "is_correct": false },
+              { "answer_text": "He found it very hard to understand fast, natural speech.", "is_correct": true },
+              { "answer_text": "He didn't want to speak Japanese at all.", "is_correct": false },
+              { "answer_text": "He thought Japanese was easier than English.", "is_correct": false }
+            ]
+          },
+          {
+            "question_id": "eng-r-comp-067",
+            "question_text": "What surprised Mark about the people in Japan?",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "They were rude to foreigners.", "is_correct": false },
+              { "answer_text": "They spoke perfect English everywhere.", "is_correct": false },
+              { "answer_text": "They were very polite and tried to help him.", "is_correct": true },
+              { "answer_text": "They always asked him for directions.", "is_correct": false }
+            ]
+          },
+          {
+            "question_id": "eng-r-comp-068",
+            "question_text": "How do university classes in Japan compare to those in England, according to Mark?",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "Japanese classes encourage more arguing and debating.", "is_correct": false },
+              { "answer_text": "English classes are quieter and more formal.", "is_correct": false },
+              { "answer_text": "Japanese classes are more formal and students listen quietly.", "is_correct": true },
+              { "answer_text": "There are no professors in Japanese universities.", "is_correct": false }
+            ]
+          },
+          {
+            "question_id": "eng-r-comp-069",
+            "question_text": "How did Mark manage to make friends and improve his Japanese?",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "By going to anime conventions.", "is_correct": false },
+              { "answer_text": "By avoiding local people and staying with English friends.", "is_correct": false },
+              { "answer_text": "By debating with his teachers.", "is_correct": false },
+              { "answer_text": "By joining a university kendo club.", "is_correct": true }
+            ]
+          },
+          {
+            "question_id": "eng-r-comp-070",
+            "question_text": "What is the main conclusion Mark makes about his year abroad?",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "It was a mistake because of the culture shock.", "is_correct": false },
+              { "answer_text": "It helped him become more independent and adaptable.", "is_correct": true },
+              { "answer_text": "He learned that he prefers living in England.", "is_correct": false },
+              { "answer_text": "He only learned how to do Japanese swordsmanship.", "is_correct": false }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

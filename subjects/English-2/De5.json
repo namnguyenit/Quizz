@@ -1,0 +1,812 @@
+{
+  "exam_id": "eng-mock-02-05",
+  "title": "ĐỀ THI THỬ TIẾNG ANH 2 - ĐỀ SỐ 5 (CẤP ĐỘ CỰC ĐẠI)",
+  "parts": {
+    "mcq": [
+      {
+        "question_id": "eng-mc-001",
+        "question_text": "Not until the researchers had spent years analyzing the data ____ a breakthrough in the treatment of the disease.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "they made", "is_correct": false },
+          { "answer_text": "did they make", "is_correct": true },
+          { "answer_text": "they did make", "is_correct": false },
+          { "answer_text": "had they made", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-002",
+        "question_text": "It is of paramount importance that the safety protocol ____ strictly to prevent further accidents.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "is observed", "is_correct": false },
+          { "answer_text": "will be observed", "is_correct": false },
+          { "answer_text": "be observed", "is_correct": true },
+          { "answer_text": "was observed", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-003",
+        "question_text": "____ the ongoing recession, the luxury goods market has seen a surprising surge in sales.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "Notwithstanding", "is_correct": true },
+          { "answer_text": "Furthermore", "is_correct": false },
+          { "answer_text": "Consequently", "is_correct": false },
+          { "answer_text": "Provided that", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-004",
+        "question_text": "The new manager is very strict and tends to go by the ____ when it comes to company policies.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "rule", "is_correct": false },
+          { "answer_text": "book", "is_correct": true },
+          { "answer_text": "law", "is_correct": false },
+          { "answer_text": "manual", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-005",
+        "question_text": "Had the government acted more swiftly, the economic crisis ____ to such devastating proportions.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "wouldn't escalate", "is_correct": false },
+          { "answer_text": "won't escalate", "is_correct": false },
+          { "answer_text": "wouldn't have escalated", "is_correct": true },
+          { "answer_text": "hadn't escalated", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-006",
+        "question_text": "He gave a completely ____ answer, leaving the reporters just as confused as before they asked the question.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "comprehensive", "is_correct": false },
+          { "answer_text": "unambiguous", "is_correct": false },
+          { "answer_text": "equivocal", "is_correct": true },
+          { "answer_text": "explicit", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-007",
+        "question_text": "____ the right tools and sufficient time, the engineering team could have completed the bridge a month earlier.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "Giving", "is_correct": false },
+          { "answer_text": "Given", "is_correct": true },
+          { "answer_text": "To give", "is_correct": false },
+          { "answer_text": "Having given", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-008",
+        "question_text": "The professor’s theory, ____ highly controversial, has sparked a renewed interest in ancient linguistics.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "despite", "is_correct": false },
+          { "answer_text": "because", "is_correct": false },
+          { "answer_text": "albeit", "is_correct": true },
+          { "answer_text": "unless", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-009",
+        "question_text": "I am afraid you have completely ____ the situation; he was actually trying to help you, not sabotage your work.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "misinterpreted", "is_correct": true },
+          { "answer_text": "mislaid", "is_correct": false },
+          { "answer_text": "misfired", "is_correct": false },
+          { "answer_text": "miscarried", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-010",
+        "question_text": "She decided to ____ the bullet and apologize to her colleague for her rude behavior during the meeting.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "chew", "is_correct": false },
+          { "answer_text": "bite", "is_correct": true },
+          { "answer_text": "swallow", "is_correct": false },
+          { "answer_text": "taste", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-011",
+        "question_text": "Seldom ____ such a profound impact on global communication as the invention of the internet.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "has a single technology had", "is_correct": true },
+          { "answer_text": "a single technology has had", "is_correct": false },
+          { "answer_text": "had a single technology", "is_correct": false },
+          { "answer_text": "a single technology had", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-012",
+        "question_text": "The rapid spread of the virus was largely ____ to the lack of early detection mechanisms.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "distributed", "is_correct": false },
+          { "answer_text": "attributed", "is_correct": true },
+          { "answer_text": "contributed", "is_correct": false },
+          { "answer_text": "substituted", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-013",
+        "question_text": "The company has announced that it will gradually phase ____ the older models to make way for the new product line.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "in", "is_correct": false },
+          { "answer_text": "off", "is_correct": false },
+          { "answer_text": "out", "is_correct": true },
+          { "answer_text": "down", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-014",
+        "question_text": "We strongly recommend that she ____ legal advice before signing the partnership agreement.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "seek", "is_correct": true },
+          { "answer_text": "seeks", "is_correct": false },
+          { "answer_text": "sought", "is_correct": false },
+          { "answer_text": "has sought", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-015",
+        "question_text": "They ____ have known about the surprise party; someone must have let the cat out of the bag!",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "shouldn't", "is_correct": false },
+          { "answer_text": "wouldn't", "is_correct": false },
+          { "answer_text": "mustn't", "is_correct": false },
+          { "answer_text": "couldn't", "is_correct": true }
+        ]
+      },
+      {
+        "question_id": "eng-mc-016",
+        "question_text": "As the workload increased, he found himself constantly working at the ____ of his physical endurance.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "boundary", "is_correct": false },
+          { "answer_text": "limit", "is_correct": true },
+          { "answer_text": "margin", "is_correct": false },
+          { "answer_text": "edge", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-017",
+        "question_text": "The suspect was found guilty ____ embezzling millions of dollars from the corporate fund.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "about", "is_correct": false },
+          { "answer_text": "with", "is_correct": false },
+          { "answer_text": "for", "is_correct": false },
+          { "answer_text": "of", "is_correct": true }
+        ]
+      },
+      {
+        "question_id": "eng-mc-018",
+        "question_text": "Only by implementing sustainable agricultural practices ____ to preserve the fertility of the soil for future generations.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "we can hope", "is_correct": false },
+          { "answer_text": "can we hope", "is_correct": true },
+          { "answer_text": "hope we can", "is_correct": false },
+          { "answer_text": "we hope can", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-019",
+        "question_text": "After the scandal broke out, the politician's reputation was left in ____.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "ruins", "is_correct": false },
+          { "answer_text": "pieces", "is_correct": false },
+          { "answer_text": "ashes", "is_correct": false },
+          { "answer_text": "shreds", "is_correct": true }
+        ]
+      },
+      {
+        "question_id": "eng-mc-020",
+        "question_text": "The board of directors turned a deaf ____ to the employees' complaints regarding the poor working conditions.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "eye", "is_correct": false },
+          { "answer_text": "ear", "is_correct": true },
+          { "answer_text": "mind", "is_correct": false },
+          { "answer_text": "head", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-021",
+        "question_text": "____, the rescue team refused to abandon the search for the missing climbers.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "Exhausted as they were", "is_correct": true },
+          { "answer_text": "As they were exhausted", "is_correct": false },
+          { "answer_text": "Although exhausted they were", "is_correct": false },
+          { "answer_text": "Exhausted though were they", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-022",
+        "question_text": "The architect presented a highly ____ design that seamlessly blended modern aesthetics with traditional elements.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "conventional", "is_correct": false },
+          { "answer_text": "orthodox", "is_correct": false },
+          { "answer_text": "innovative", "is_correct": true },
+          { "answer_text": "obsolete", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-023",
+        "question_text": "If you are finding it difficult to cope ____ the stress, you should consider speaking to a professional counselor.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "on", "is_correct": false },
+          { "answer_text": "for", "is_correct": false },
+          { "answer_text": "to", "is_correct": false },
+          { "answer_text": "with", "is_correct": true }
+        ]
+      },
+      {
+        "question_id": "eng-mc-024",
+        "question_text": "The factory closure resulted in hundreds of workers being laid ____ without any severance pay.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "down", "is_correct": false },
+          { "answer_text": "off", "is_correct": true },
+          { "answer_text": "out", "is_correct": false },
+          { "answer_text": "aside", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-025",
+        "question_text": "I would rather you ____ the controversial topic during the family dinner tonight.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "didn't mention", "is_correct": true },
+          { "answer_text": "don't mention", "is_correct": false },
+          { "answer_text": "haven't mentioned", "is_correct": false },
+          { "answer_text": "wouldn't mention", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-026",
+        "question_text": "The committee's decision was virtually ____; everyone agreed that the budget needed to be cut.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "anonymous", "is_correct": false },
+          { "answer_text": "unanimous", "is_correct": true },
+          { "answer_text": "ambiguous", "is_correct": false },
+          { "answer_text": "analogous", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-027",
+        "question_text": "No matter ____ hard I try, I cannot seem to master the pronunciation of French vowels.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "how", "is_correct": true },
+          { "answer_text": "what", "is_correct": false },
+          { "answer_text": "whatever", "is_correct": false },
+          { "answer_text": "whichever", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-028",
+        "question_text": "The documentary sheds ____ on the severe environmental consequences of plastic pollution in the oceans.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "truth", "is_correct": false },
+          { "answer_text": "light", "is_correct": true },
+          { "answer_text": "weight", "is_correct": false },
+          { "answer_text": "focus", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-029",
+        "question_text": "She has a remarkable ____ for learning new languages, picking up conversational skills in just a few weeks.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "aptitude", "is_correct": true },
+          { "answer_text": "altitude", "is_correct": false },
+          { "answer_text": "attitude", "is_correct": false },
+          { "answer_text": "latitude", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-030",
+        "question_text": "By the time the next century begins, sea levels ____ significantly due to the melting polar ice caps.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "will rise", "is_correct": false },
+          { "answer_text": "will have risen", "is_correct": true },
+          { "answer_text": "are rising", "is_correct": false },
+          { "answer_text": "will be rising", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-031",
+        "question_text": "The contract stipulates that the tenant must pay for any damages ____ to the property during their stay.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "doing", "is_correct": false },
+          { "answer_text": "done", "is_correct": true },
+          { "answer_text": "made", "is_correct": false },
+          { "answer_text": "making", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-032",
+        "question_text": "Many consumers are completely in the ____ about how their personal data is being harvested by social media companies.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "dark", "is_correct": true },
+          { "answer_text": "blind", "is_correct": false },
+          { "answer_text": "shade", "is_correct": false },
+          { "answer_text": "shadow", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-033",
+        "question_text": "The newly elected president promised to wipe ____ corruption within the government agencies.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "away", "is_correct": false },
+          { "answer_text": "out", "is_correct": true },
+          { "answer_text": "off", "is_correct": false },
+          { "answer_text": "down", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-034",
+        "question_text": "It was essential that the historical artifact ____ transported with the utmost care to avoid any damage.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "is", "is_correct": false },
+          { "answer_text": "was", "is_correct": false },
+          { "answer_text": "be", "is_correct": true },
+          { "answer_text": "being", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-035",
+        "question_text": "The CEO’s unexpected resignation was a massive blow ____ the company's stock price.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "for", "is_correct": false },
+          { "answer_text": "to", "is_correct": true },
+          { "answer_text": "with", "is_correct": false },
+          { "answer_text": "at", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-036",
+        "question_text": "____ having read the manual twice, he still couldn't figure out how to operate the machinery.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "Despite", "is_correct": true },
+          { "answer_text": "Although", "is_correct": false },
+          { "answer_text": "Regardless", "is_correct": false },
+          { "answer_text": "Even though", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-037",
+        "question_text": "The local council is planning to pull ____ the old library to build a modern shopping complex.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "down", "is_correct": true },
+          { "answer_text": "off", "is_correct": false },
+          { "answer_text": "over", "is_correct": false },
+          { "answer_text": "through", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-038",
+        "question_text": "We were completely ____ by the sheer volume of emails we received after the advertising campaign.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "overturned", "is_correct": false },
+          { "answer_text": "overthrown", "is_correct": false },
+          { "answer_text": "overwhelmed", "is_correct": true },
+          { "answer_text": "overdone", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-039",
+        "question_text": "The twins are so identical that even their parents sometimes have trouble telling them ____.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "away", "is_correct": false },
+          { "answer_text": "apart", "is_correct": true },
+          { "answer_text": "out", "is_correct": false },
+          { "answer_text": "off", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-040",
+        "question_text": "I'd like to take this opportunity to thank my colleagues, without ____ support I could never have completed this project.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "who", "is_correct": false },
+          { "answer_text": "that", "is_correct": false },
+          { "answer_text": "whom", "is_correct": false },
+          { "answer_text": "whose", "is_correct": true }
+        ]
+      },
+      {
+        "question_id": "eng-mc-041",
+        "question_text": "The athlete was disqualified from the tournament for using performance-enhancing ____.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "substances", "is_correct": true },
+          { "answer_text": "elements", "is_correct": false },
+          { "answer_text": "materials", "is_correct": false },
+          { "answer_text": "objects", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-042",
+        "question_text": "He was so engrossed in his book that he was completely ____ to the chaos happening around him.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "ignorant", "is_correct": false },
+          { "answer_text": "oblivious", "is_correct": true },
+          { "answer_text": "unaware", "is_correct": false },
+          { "answer_text": "indifferent", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-043",
+        "question_text": "I'll be there to help you, come rain or ____.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "snow", "is_correct": false },
+          { "answer_text": "storm", "is_correct": false },
+          { "answer_text": "shine", "is_correct": true },
+          { "answer_text": "wind", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-044",
+        "question_text": "The new tax legislation will undoubtedly have far-reaching ____ for small business owners.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "implications", "is_correct": true },
+          { "answer_text": "applications", "is_correct": false },
+          { "answer_text": "complications", "is_correct": false },
+          { "answer_text": "multiplications", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-045",
+        "question_text": "Scarcely ____ the conference when a group of protesters burst into the hall.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "the minister had started", "is_correct": false },
+          { "answer_text": "had the minister started", "is_correct": true },
+          { "answer_text": "did the minister start", "is_correct": false },
+          { "answer_text": "the minister started", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-046",
+        "question_text": "The negotiations have hit a snag, and the two parties are currently at a ____.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "standby", "is_correct": false },
+          { "answer_text": "standstill", "is_correct": true },
+          { "answer_text": "stand-off", "is_correct": false },
+          { "answer_text": "standpoint", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-047",
+        "question_text": "She was highly commended ____ her outstanding contribution to the community outreach program.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "for", "is_correct": true },
+          { "answer_text": "in", "is_correct": false },
+          { "answer_text": "on", "is_correct": false },
+          { "answer_text": "with", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-048",
+        "question_text": "It's a highly ____ market, so we need to ensure our product stands out from the crowd.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "competitive", "is_correct": true },
+          { "answer_text": "competent", "is_correct": false },
+          { "answer_text": "competing", "is_correct": false },
+          { "answer_text": "competed", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-049",
+        "question_text": "The patient's condition has deteriorated overnight, and he is now critically ____.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "ill", "is_correct": true },
+          { "answer_text": "sick", "is_correct": false },
+          { "answer_text": "diseased", "is_correct": false },
+          { "answer_text": "infected", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-050",
+        "question_text": "Please keep me in the ____ regarding any further developments in this ongoing investigation.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "circle", "is_correct": false },
+          { "answer_text": "loop", "is_correct": true },
+          { "answer_text": "ring", "is_correct": false },
+          { "answer_text": "round", "is_correct": false }
+        ]
+      }
+    ],
+    "reading": [
+      {
+        "id": "reading-cloze-09",
+        "type": "cloze",
+        "title": "THE PSYCHOLOGY OF PROCRASTINATION",
+        "passage": "Procrastination is a universal phenomenon. Almost everyone has, at some point, delayed a crucial task in favor of something more trivial, like scrolling through social media or organizing a desk. While it is often dismissed as mere laziness or poor time management, psychological research reveals that procrastination is actually a complex failure of emotional regulation. When we face a task that we perceive as difficult, boring, or anxiety-inducing, our brain interprets it as a (51) ____.\n\nTo protect us from these negative emotions, the brain seeks immediate relief by engaging in a more enjoyable activity. This avoidance provides a temporary mood boost, but it is ultimately self-defeating. The longer we delay, the more the guilt and anxiety accumulate, creating a vicious (52) ____ that makes the original task seem even more daunting. Dr. Fuschia Sirois, a psychology professor, explains that procrastination is fundamentally an issue of prioritizing short-term mood repair over long-term goals.\n\nFurthermore, perfectionists are particularly (53) ____ to procrastination. Their intense fear of producing subpar work paralyzes them, causing them to delay starting until the last possible minute. When they finally rush to complete the task and the result is imperfect, they can blame the lack of time rather than their own abilities.\n\nOvercoming procrastination requires a shift in perspective. Instead of relying on sheer willpower, experts recommend practicing self-compassion. Forgiving oneself for past procrastination has been shown to reduce the likelihood of delaying future tasks. Additionally, breaking a large, intimidating project into smaller, manageable steps can drastically reduce the emotional (54) ____ associated with starting. By addressing the underlying emotional triggers, individuals can learn to break the habit of procrastination and reclaim their (55) ____.",
+        "questions": [
+          {
+            "question_id": "eng-r-cloze-051",
+            "question_text": "Blank (51)",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "reward", "is_correct": false },
+              { "answer_text": "threat", "is_correct": true },
+              { "answer_text": "target", "is_correct": false },
+              { "answer_text": "mystery", "is_correct": false }
+            ]
+          },
+          {
+            "question_id": "eng-r-cloze-052",
+            "question_text": "Blank (52)",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "cycle", "is_correct": true },
+              { "answer_text": "circle", "is_correct": false },
+              { "answer_text": "system", "is_correct": false },
+              { "answer_text": "structure", "is_correct": false }
+            ]
+          },
+          {
+            "question_id": "eng-r-cloze-053",
+            "question_text": "Blank (53)",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "resistant", "is_correct": false },
+              { "answer_text": "immune", "is_correct": false },
+              { "answer_text": "susceptible", "is_correct": true },
+              { "answer_text": "indifferent", "is_correct": false }
+            ]
+          },
+          {
+            "question_id": "eng-r-cloze-054",
+            "question_text": "Blank (54)",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "intelligence", "is_correct": false },
+              { "answer_text": "stability", "is_correct": false },
+              { "answer_text": "burden", "is_correct": true },
+              { "answer_text": "investment", "is_correct": false }
+            ]
+          },
+          {
+            "question_id": "eng-r-cloze-055",
+            "question_text": "Blank (55)",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "productivity", "is_correct": true },
+              { "answer_text": "procrastination", "is_correct": false },
+              { "answer_text": "anxiety", "is_correct": false },
+              { "answer_text": "perfectionism", "is_correct": false }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "reading-comprehension-09",
+        "type": "reading_comprehension",
+        "title": "THE VOYAGER GOLDEN RECORD",
+        "passage": "In 1977, NASA launched the twin Voyager 1 and Voyager 2 spacecraft on a grand tour of the outer solar system. While their primary mission was to study Jupiter, Saturn, Uranus, and Neptune, scientists knew that these probes would eventually drift into interstellar space, becoming the first human-made objects to leave our solar system. Recognizing this profound milestone, a committee chaired by the late astronomer Carl Sagan was tasked with creating a message for any extraterrestrial intelligence that might one day intercept the spacecraft.\n\nThe result was the Voyager Golden Record, a 12-inch gold-plated copper phonograph record encapsulated in an aluminum jacket. The record is essentially a time capsule intended to communicate the story of our world. It contains 115 images encoded in analog form, depicting human anatomy, diverse cultures, landscapes, and scientific concepts. It also features a curated audio section titled \"Sounds of Earth,\" which includes natural sounds like wind, thunder, and whale songs, alongside greetings spoken in 55 different languages.\n\nPerhaps the most universally recognizable portion of the record is its musical selection. Sagan’s committee selected a diverse 90-minute playlist designed to showcase the breadth of human emotional and cultural expression. The tracklist ranges from the classical mastery of Bach and Beethoven to the traditional music of Senegal, Peru, and Japan, ending with the rock and roll energy of Chuck Berry’s \"Johnny B. Goode.\"\n\nTo ensure that an alien civilization could decipher the record, the cover includes symbolic instructions. These diagrams explain the origin of the spacecraft using a map of 14 pulsars (rapidly rotating neutron stars) relative to the sun. It also provides instructions on how to build a record player and the correct rotational speed, expressed in fundamental units of time derived from the transition of a hydrogen atom.\n\nToday, both Voyager probes are billions of miles away, silently drifting through the cosmic ocean. It is highly unlikely that the Golden Record will ever be found by aliens. Space is unimaginably vast, and the probes are essentially microscopic specks in the void. However, as Carl Sagan noted, the true value of the Golden Record may not lie in its potential discovery by others, but in what its creation says about us. It stands as a testament to humanity's curiosity, our desire to reach out into the unknown, and our hope that, despite our flaws, there is something beautiful about our existence worth sharing with the universe.",
+        "questions": [
+          {
+            "question_id": "eng-r-comp-056",
+            "question_text": "What was the primary scientific purpose of the Voyager 1 and 2 missions?",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "To carry the Golden Record into deep space to contact aliens.", "is_correct": false },
+              { "answer_text": "To study the planets in the outer solar system.", "is_correct": true },
+              { "answer_text": "To search for habitable planets outside our solar system.", "is_correct": false },
+              { "answer_text": "To test the durability of gold-plated copper in a vacuum.", "is_correct": false }
+            ]
+          },
+          {
+            "question_id": "eng-r-comp-057",
+            "question_text": "Why did the committee include sounds like thunder, wind, and whale songs on the record?",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "To provide a comprehensive audio representation of the Earth's natural environment.", "is_correct": true },
+              { "answer_text": "To scare away any hostile extraterrestrial species that might approach the probe.", "is_correct": false },
+              { "answer_text": "To hide the secret scientific data encoded underneath the audio tracks.", "is_correct": false },
+              { "answer_text": "Because they could not secure the copyright permissions for more musical tracks.", "is_correct": false }
+            ]
+          },
+          {
+            "question_id": "eng-r-comp-058",
+            "question_text": "How are the instructions for playing the record communicated on its cover?",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "Through a detailed instruction manual written in 55 different languages.", "is_correct": false },
+              { "answer_text": "By using advanced digital USB drives attached to the record.", "is_correct": false },
+              { "answer_text": "Through symbolic diagrams based on universal scientific constants like the hydrogen atom.", "is_correct": true },
+              { "answer_text": "By broadcasting a continuous radio signal explaining the process.", "is_correct": false }
+            ]
+          },
+          {
+            "question_id": "eng-r-comp-059",
+            "question_text": "What is the author’s primary attitude towards the likelihood of the record being found?",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "Highly optimistic that alien contact is imminent.", "is_correct": false },
+              { "answer_text": "Deeply cynical, believing the entire project was a waste of NASA's funding.", "is_correct": false },
+              { "answer_text": "Realistic about the low mathematical probability, yet appreciative of the record's symbolic meaning.", "is_correct": true },
+              { "answer_text": "Confused as to why Carl Sagan didn't design a better tracking system.", "is_correct": false }
+            ]
+          },
+          {
+            "question_id": "eng-r-comp-060",
+            "question_text": "According to the final paragraph, what does the creation of the Golden Record primarily demonstrate?",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "Humanity's mastery of analog audio technology in the 1970s.", "is_correct": false },
+              { "answer_text": "The inherent human desire to connect, explore, and share our cultural beauty.", "is_correct": true },
+              { "answer_text": "The fact that human civilization is nearing its inevitable destruction.", "is_correct": false },
+              { "answer_text": "Our absolute certainty that intelligent life exists in other star systems.", "is_correct": false }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "reading-cloze-10",
+        "type": "cloze",
+        "title": "THE HAWTHORNE EFFECT",
+        "passage": "In the late 1920s and early 1930s, a series of groundbreaking experiments were conducted at the Western Electric Hawthorne Works in Chicago. The initial goal of the researchers was entirely practical: to determine the optimal level of factory lighting needed to maximize worker productivity. They selected a group of female workers and began increasing the lighting in their workspace. Predictably, productivity went up. However, to the researchers' astonishment, when they subsequently decreased the lighting to near-darkness, productivity continued to (61) ____.\n\nBaffled by these results, the researchers introduced other changes, such as altering break times and shortening the workday. Regardless of whether the changes were objectively positive or negative, the workers' output consistently improved. It eventually became clear that the physical conditions of the factory were not the primary factor driving the increased efficiency. Instead, the workers were reacting to the fact that they were being (62) ____.\n\nThis psychological phenomenon became known as the \"Hawthorne Effect.\" It postulates that individuals will modify their behavior—often improving their performance—simply because they are aware that they are part of an experiment or are being closely monitored. The workers at the Hawthorne plant felt valued and important because researchers were taking an interest in their work, which fostered a sense of teamwork and boosted their (63) ____.\n\nThe discovery of the Hawthorne Effect caused a paradigm shift in the field of industrial psychology and management. Prior to these studies, workers were largely viewed as mere cogs in a machine, motivated solely by financial incentives. The Hawthorne studies demonstrated that social and psychological factors, such as receiving attention, feeling a sense of belonging, and engaging in open communication with management, are equally, if not more, (64) ____ in driving workplace productivity. Today, modern management theories heavily rely on this insight, emphasizing the importance of employee engagement and corporate culture over strict, authoritarian (65) ____.",
+        "questions": [
+          {
+            "question_id": "eng-r-cloze-061",
+            "question_text": "Blank (61)",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "plummet", "is_correct": false },
+              { "answer_text": "stabilize", "is_correct": false },
+              { "answer_text": "rise", "is_correct": true },
+              { "answer_text": "fluctuate", "is_correct": false }
+            ]
+          },
+          {
+            "question_id": "eng-r-cloze-062",
+            "question_text": "Blank (62)",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "ignored", "is_correct": false },
+              { "answer_text": "observed", "is_correct": true },
+              { "answer_text": "punished", "is_correct": false },
+              { "answer_text": "rewarded", "is_correct": false }
+            ]
+          },
+          {
+            "question_id": "eng-r-cloze-063",
+            "question_text": "Blank (63)",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "morale", "is_correct": true },
+              { "answer_text": "fatigue", "is_correct": false },
+              { "answer_text": "frustration", "is_correct": false },
+              { "answer_text": "hostility", "is_correct": false }
+            ]
+          },
+          {
+            "question_id": "eng-r-cloze-064",
+            "question_text": "Blank (64)",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "destructive", "is_correct": false },
+              { "answer_text": "irrelevant", "is_correct": false },
+              { "answer_text": "crucial", "is_correct": true },
+              { "answer_text": "detrimental", "is_correct": false }
+            ]
+          },
+          {
+            "question_id": "eng-r-cloze-065",
+            "question_text": "Blank (65)",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "freedom", "is_correct": false },
+              { "answer_text": "supervision", "is_correct": true },
+              { "answer_text": "creativity", "is_correct": false },
+              { "answer_text": "collaboration", "is_correct": false }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "reading-comprehension-10",
+        "type": "reading_comprehension",
+        "title": "MICROPLASTICS: THE INVISIBLE INVASION",
+        "passage": "When we think of plastic pollution, images of sea turtles entangled in six-pack rings or beaches littered with water bottles immediately spring to mind. However, the most pervasive threat posed by plastic is largely invisible to the naked eye: microplastics. These are tiny fragments of plastic, measuring less than five millimeters in length. Some are manufactured specifically to be small, such as the microbeads formerly used in exfoliating facial scrubs. Others, known as secondary microplastics, are created when larger plastic items—like bags, synthetic clothing, and car tires—break down under the relentless forces of UV radiation, wind, and ocean currents.\n\nThe ubiquity of microplastics is staggering. They have been detected in the most remote corners of the globe, from the pristine snows of Mount Everest to the crushing depths of the Mariana Trench. Because they are so small and incredibly durable, they easily infiltrate the natural environment and, subsequently, the food chain.\n\nIn marine ecosystems, filter-feeding organisms like mussels, oysters, and zooplankton mistakenly ingest microplastics, unable to distinguish them from their natural food sources. As these smaller organisms are consumed by larger predators, the concentration of microplastics increases exponentially up the food chain—a process known as biomagnification. Consequently, microplastics have been widely found in the seafood consumed by humans. Furthermore, recent studies have detected these synthetic particles in drinking water, sea salt, honey, and even suspended in the air we breathe.\n\nThe potential health implications for human beings are a subject of intense, ongoing scientific investigation. While plastics themselves are generally biochemically inert, they act as chemical sponges in the environment. Microplastics can absorb and concentrate toxic pollutants from the surrounding water, such as heavy metals and persistent organic pollutants (POPs). When ingested, there is a risk that these toxins could leach into human tissues. Moreover, scientists are concerned about the physical damage the particles themselves might cause at a cellular level, potentially triggering inflammatory responses or interfering with immune system functions.\n\nEradicating microplastics from the environment is an insurmountable task; filtering the entire ocean is practically impossible. Therefore, the scientific consensus is that mitigation must focus strictly on the source. This requires a global paradigm shift: drastically reducing the production of single-use plastics, engineering biodegradable alternatives, and implementing advanced wastewater treatment technologies to capture microfibers before they are flushed into global waterways.",
+        "questions": [
+          {
+            "question_id": "eng-r-comp-066",
+            "question_text": "What is the distinction between primary and secondary microplastics mentioned in the text?",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "Primary microplastics are found in water, while secondary ones are found in the air.", "is_correct": false },
+              { "answer_text": "Primary microplastics are manufactured to be small, while secondary ones break off from larger items.", "is_correct": true },
+              { "answer_text": "Primary microplastics are highly toxic, while secondary ones are completely safe.", "is_correct": false },
+              { "answer_text": "Primary microplastics are eaten by fish, while secondary ones are eaten by humans.", "is_correct": false }
+            ]
+          },
+          {
+            "question_id": "eng-r-comp-067",
+            "question_text": "What does the term \"biomagnification\" refer to in the context of the passage?",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "The process by which plastic breaks down under UV light.", "is_correct": false },
+              { "answer_text": "The use of microscopes to see tiny plastic particles in the ocean.", "is_correct": false },
+              { "answer_text": "The increasing concentration of microplastics as they move up the food chain.", "is_correct": true },
+              { "answer_text": "The manufacturing of larger plastic bottles from recycled microplastics.", "is_correct": false }
+            ]
+          },
+          {
+            "question_id": "eng-r-comp-068",
+            "question_text": "Why are scientists concerned about the chemical nature of microplastics?",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "Because they instantly dissolve and poison the water supply.", "is_correct": false },
+              { "answer_text": "Because they act as sponges, absorbing and concentrating external toxic pollutants.", "is_correct": true },
+              { "answer_text": "Because they react with oxygen to create greenhouse gases.", "is_correct": false },
+              { "answer_text": "Because they are highly radioactive.", "is_correct": false }
+            ]
+          },
+          {
+            "question_id": "eng-r-comp-069",
+            "question_text": "According to the passage, what is the most viable strategy for dealing with the microplastic crisis?",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "Inventing giant filters to clean the ocean waters.", "is_correct": false },
+              { "answer_text": "Genetically modifying marine life to digest plastic safely.", "is_correct": false },
+              { "answer_text": "Stopping the pollution at its source by reducing production and capturing waste.", "is_correct": true },
+              { "answer_text": "Ignoring the problem since plastics are completely biochemically inert.", "is_correct": false }
+            ]
+          },
+          {
+            "question_id": "eng-r-comp-070",
+            "question_text": "Which statement best summarizes the main idea of the passage?",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "Plastic bottles are the only real danger to marine turtles and seabirds.", "is_correct": false },
+              { "answer_text": "Microplastics are a ubiquitous and potentially toxic pollutant that requires immediate preventative action at the source.", "is_correct": true },
+              { "answer_text": "Humans should stop eating seafood entirely because of heavy metal poisoning.", "is_correct": false },
+              { "answer_text": "Exfoliating facial scrubs are the primary cause of environmental degradation on Mount Everest.", "is_correct": false }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -21,7 +21,16 @@ export async function GET({ url }: { url: URL }) {
 			if (ids.length > 0) {
 				const placeholders = ids.map(() => '?').join(',');
 				const rows = await db.execute({
-					sql: `SELECT * FROM questions WHERE question_id IN (${placeholders})`,
+					sql: `
+						SELECT *
+						FROM questions
+						WHERE question_id IN (${placeholders})
+						ORDER BY
+							CASE WHEN section IS NULL OR section = 'mcq' THEN 0 ELSE 1 END ASC,
+							COALESCE(reading_order, 0) ASC,
+							COALESCE(question_order, 0) ASC,
+							question_id ASC
+					`,
 					args: ids
 				});
 				quizzes = rows.rows.map((row: { [key: string]: unknown }) => ({
@@ -34,7 +43,16 @@ export async function GET({ url }: { url: URL }) {
 		} else if (id && /^(\d+)$/.test(id)) {
 			const moduleKey = `module_${id}`;
 			const rows = await db.execute({
-				sql: 'SELECT * FROM questions WHERE quiz_number = ?',
+				sql: `
+					SELECT *
+					FROM questions
+					WHERE quiz_number = ?
+					ORDER BY
+						CASE WHEN section IS NULL OR section = 'mcq' THEN 0 ELSE 1 END ASC,
+						COALESCE(reading_order, 0) ASC,
+						COALESCE(question_order, 0) ASC,
+						question_id ASC
+				`,
 				args: [moduleKey]
 			});
 			quizzes = rows.rows.map((row: { [key: string]: unknown }) => ({
@@ -42,7 +60,15 @@ export async function GET({ url }: { url: URL }) {
 				answers: typeof row.answers === 'string' ? JSON.parse(row.answers as string) : row.answers
 			}));
 		} else if (id === 'all') {
-			const rows = await db.execute('SELECT * FROM questions');
+			const rows = await db.execute(`
+				SELECT *
+				FROM questions
+				ORDER BY
+					CASE WHEN section IS NULL OR section = 'mcq' THEN 0 ELSE 1 END ASC,
+					COALESCE(reading_order, 0) ASC,
+					COALESCE(question_order, 0) ASC,
+					question_id ASC
+			`);
 			quizzes = rows.rows.map((row: { [key: string]: unknown }) => ({
 				...row,
 				answers: typeof row.answers === 'string' ? JSON.parse(row.answers as string) : row.answers
@@ -72,7 +98,16 @@ export async function POST({ request }: { request: Request }) {
 		if (Array.isArray(ids) && ids.length > 0) {
 			const placeholders = ids.map(() => '?').join(',');
 			const rows = await db.execute({
-				sql: `SELECT * FROM questions WHERE question_id IN (${placeholders})`,
+				sql: `
+					SELECT *
+					FROM questions
+					WHERE question_id IN (${placeholders})
+					ORDER BY
+						CASE WHEN section IS NULL OR section = 'mcq' THEN 0 ELSE 1 END ASC,
+						COALESCE(reading_order, 0) ASC,
+						COALESCE(question_order, 0) ASC,
+						question_id ASC
+				`,
 				args: ids
 			});
 			quizzes = rows.rows.map((row: { [key: string]: unknown }) => ({

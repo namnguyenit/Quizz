@@ -1,0 +1,812 @@
+{
+  "exam_id": "eng-mock-02-02",
+  "title": "ĐỀ THI THỬ TIẾNG ANH 2 - ĐỀ SỐ 2 (NÂNG CAO)",
+  "parts": {
+    "mcq": [
+      {
+        "question_id": "eng-mc-001",
+        "question_text": "The news about the massive earthquakes ____ broadcasted on every channel last night.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "were", "is_correct": false },
+          { "answer_text": "was", "is_correct": true },
+          { "answer_text": "are", "is_correct": false },
+          { "answer_text": "have been", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-002",
+        "question_text": "By the time the rescue team arrived, the hikers ____ in the freezing forest for over 12 hours.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "have been waiting", "is_correct": false },
+          { "answer_text": "waited", "is_correct": false },
+          { "answer_text": "had been waiting", "is_correct": true },
+          { "answer_text": "were waiting", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-003",
+        "question_text": "I would rather you ____ your phone during the crucial meeting.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "don't use", "is_correct": false },
+          { "answer_text": "not use", "is_correct": false },
+          { "answer_text": "didn't use", "is_correct": true },
+          { "answer_text": "wouldn't use", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-004",
+        "question_text": "Neither the manager nor the employees ____ aware of the new policy changes until yesterday.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "was", "is_correct": false },
+          { "answer_text": "were", "is_correct": true },
+          { "answer_text": "have been", "is_correct": false },
+          { "answer_text": "are", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-005",
+        "question_text": "It is highly recommended that she ____ the scholarship application before the deadline.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "submits", "is_correct": false },
+          { "answer_text": "submit", "is_correct": true },
+          { "answer_text": "submitted", "is_correct": false },
+          { "answer_text": "will submit", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-006",
+        "question_text": "He asked me ____ the day before.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "what had I done", "is_correct": false },
+          { "answer_text": "what I had done", "is_correct": true },
+          { "answer_text": "what did I do", "is_correct": false },
+          { "answer_text": "what I did", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-007",
+        "question_text": "Had they known about the heavy traffic, they ____ an earlier train.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "would catch", "is_correct": false },
+          { "answer_text": "will catch", "is_correct": false },
+          { "answer_text": "caught", "is_correct": false },
+          { "answer_text": "would have caught", "is_correct": true }
+        ]
+      },
+      {
+        "question_id": "eng-mc-008",
+        "question_text": "The new software is designed to ____ the risk of data theft and cyber attacks.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "minimize", "is_correct": true },
+          { "answer_text": "expand", "is_correct": false },
+          { "answer_text": "maximize", "is_correct": false },
+          { "answer_text": "stimulate", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-009",
+        "question_text": "I remember ____ the door before leaving, but now it's wide open.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "lock", "is_correct": false },
+          { "answer_text": "to lock", "is_correct": false },
+          { "answer_text": "locking", "is_correct": true },
+          { "answer_text": "locked", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-010",
+        "question_text": "The committee, ____ members are all respected scientists, will publish the report next week.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "who", "is_correct": false },
+          { "answer_text": "whom", "is_correct": false },
+          { "answer_text": "of which", "is_correct": false },
+          { "answer_text": "whose", "is_correct": true }
+        ]
+      },
+      {
+        "question_id": "eng-mc-011",
+        "question_text": "Despite having ____ money, they managed to travel across Europe for a month.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "few", "is_correct": false },
+          { "answer_text": "a few", "is_correct": false },
+          { "answer_text": "little", "is_correct": true },
+          { "answer_text": "a little", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-012",
+        "question_text": "She is the only person in the office ____ to operate this complex machinery.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "knows how", "is_correct": false },
+          { "answer_text": "who know how", "is_correct": false },
+          { "answer_text": "who knows how", "is_correct": true },
+          { "answer_text": "which knows how", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-013",
+        "question_text": "If it ____ for his invaluable help, I wouldn't have finished the project on time.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "weren't", "is_correct": false },
+          { "answer_text": "hasn't been", "is_correct": false },
+          { "answer_text": "hadn't been", "is_correct": true },
+          { "answer_text": "isn't", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-014",
+        "question_text": "The company has seen a significant drop in profits, ____ is a major concern for the investors.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "that", "is_correct": false },
+          { "answer_text": "which", "is_correct": true },
+          { "answer_text": "what", "is_correct": false },
+          { "answer_text": "it", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-015",
+        "question_text": "You ____ have seen John at the party last night because he is currently on a business trip in Japan.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "shouldn't", "is_correct": false },
+          { "answer_text": "couldn't", "is_correct": true },
+          { "answer_text": "mustn't", "is_correct": false },
+          { "answer_text": "mightn't", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-016",
+        "question_text": "There is a widespread belief that artificial intelligence will eventually make many manual jobs ____.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "obsolete", "is_correct": true },
+          { "answer_text": "essential", "is_correct": false },
+          { "answer_text": "temporary", "is_correct": false },
+          { "answer_text": "permanent", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-017",
+        "question_text": "My brother is totally ____ to playing video games; he barely leaves his room on weekends.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "interested", "is_correct": false },
+          { "answer_text": "fond", "is_correct": false },
+          { "answer_text": "addicted", "is_correct": true },
+          { "answer_text": "enthusiastic", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-018",
+        "question_text": "Not only ____ late, but he also forgot to bring the necessary documents.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "did he arrive", "is_correct": true },
+          { "answer_text": "he arrived", "is_correct": false },
+          { "answer_text": "he did arrive", "is_correct": false },
+          { "answer_text": "arrived he", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-019",
+        "question_text": "After a long negotiation, they finally ____ a compromise that satisfied both parties.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "arrived", "is_correct": false },
+          { "answer_text": "came", "is_correct": false },
+          { "answer_text": "achieved", "is_correct": false },
+          { "answer_text": "reached", "is_correct": true }
+        ]
+      },
+      {
+        "question_id": "eng-mc-020",
+        "question_text": "The tourists were advised to beware ____ pickpockets in crowded areas.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "off", "is_correct": false },
+          { "answer_text": "with", "is_correct": false },
+          { "answer_text": "for", "is_correct": false },
+          { "answer_text": "of", "is_correct": true }
+        ]
+      },
+      {
+        "question_id": "eng-mc-021",
+        "question_text": "The factory was heavily fined for discharging toxic ____ directly into the river.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "wastes", "is_correct": true },
+          { "answer_text": "exhaust", "is_correct": false },
+          { "answer_text": "emissions", "is_correct": false },
+          { "answer_text": "chemicals", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-022",
+        "question_text": "Rarely ____ such a breathtaking view from the top of the mountain.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "I have seen", "is_correct": false },
+          { "answer_text": "have I seen", "is_correct": true },
+          { "answer_text": "I saw", "is_correct": false },
+          { "answer_text": "saw I", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-023",
+        "question_text": "They accused the local government ____ ignoring the escalating housing crisis.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "on", "is_correct": false },
+          { "answer_text": "for", "is_correct": false },
+          { "answer_text": "of", "is_correct": true },
+          { "answer_text": "with", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-024",
+        "question_text": "She has been working as a freelance photographer ____ she graduated from university.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "when", "is_correct": false },
+          { "answer_text": "since", "is_correct": true },
+          { "answer_text": "for", "is_correct": false },
+          { "answer_text": "until", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-025",
+        "question_text": "Only after the film started ____ that I had seen it before.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "I realized", "is_correct": false },
+          { "answer_text": "I did realize", "is_correct": false },
+          { "answer_text": "did I realize", "is_correct": true },
+          { "answer_text": "realized I", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-026",
+        "question_text": "The rapid growth of the city has taken a heavy ____ on the surrounding environment.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "toll", "is_correct": true },
+          { "answer_text": "price", "is_correct": false },
+          { "answer_text": "cost", "is_correct": false },
+          { "answer_text": "impact", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-027",
+        "question_text": "Let’s drop ____ the supermarket on our way home to pick up some milk.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "in", "is_correct": false },
+          { "answer_text": "by", "is_correct": true },
+          { "answer_text": "out", "is_correct": false },
+          { "answer_text": "off", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-028",
+        "question_text": "I am absolutely ____; I haven't eaten anything since 6 AM.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "hungry", "is_correct": false },
+          { "answer_text": "famished", "is_correct": true },
+          { "answer_text": "thirsty", "is_correct": false },
+          { "answer_text": "exhausted", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-029",
+        "question_text": "It was not until midnight ____ the severe storm finally stopped.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "when", "is_correct": false },
+          { "answer_text": "which", "is_correct": false },
+          { "answer_text": "that", "is_correct": true },
+          { "answer_text": "than", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-030",
+        "question_text": "The professor explained the theory clearly, but it was still too complex for the students to take ____.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "on", "is_correct": false },
+          { "answer_text": "up", "is_correct": false },
+          { "answer_text": "off", "is_correct": false },
+          { "answer_text": "in", "is_correct": true }
+        ]
+      },
+      {
+        "question_id": "eng-mc-031",
+        "question_text": "We are going to have our house ____ before the upcoming holiday season.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "paint", "is_correct": false },
+          { "answer_text": "painted", "is_correct": true },
+          { "answer_text": "painting", "is_correct": false },
+          { "answer_text": "to paint", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-032",
+        "question_text": "The ____ you study for this exam, the ____ your chances of getting a high score.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "harder / better", "is_correct": true },
+          { "answer_text": "hardest / best", "is_correct": false },
+          { "answer_text": "more hard / more good", "is_correct": false },
+          { "answer_text": "harder / best", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-033",
+        "question_text": "Unless you ____ apologizing for your rude behavior, she will never forgive you.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "start", "is_correct": true },
+          { "answer_text": "don't start", "is_correct": false },
+          { "answer_text": "won't start", "is_correct": false },
+          { "answer_text": "started", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-034",
+        "question_text": "She always comes up ____ innovative solutions to difficult problems.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "to", "is_correct": false },
+          { "answer_text": "with", "is_correct": true },
+          { "answer_text": "for", "is_correct": false },
+          { "answer_text": "about", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-035",
+        "question_text": "By 2030, scientists predict that the global temperature ____ significantly.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "will rise", "is_correct": false },
+          { "answer_text": "will be rising", "is_correct": false },
+          { "answer_text": "will have risen", "is_correct": true },
+          { "answer_text": "is rising", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-036",
+        "question_text": "He is quite ____; you have to be very careful with what you say around him.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "sensible", "is_correct": false },
+          { "answer_text": "sensitive", "is_correct": true },
+          { "answer_text": "senseless", "is_correct": false },
+          { "answer_text": "sensory", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-037",
+        "question_text": "____ the heavy rain, the outdoor music festival was not canceled.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "Although", "is_correct": false },
+          { "answer_text": "In spite", "is_correct": false },
+          { "answer_text": "Despite", "is_correct": true },
+          { "answer_text": "Because of", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-038",
+        "question_text": "Do you mind ____ me a hand with these heavy boxes?",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "to give", "is_correct": false },
+          { "answer_text": "give", "is_correct": false },
+          { "answer_text": "giving", "is_correct": true },
+          { "answer_text": "given", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-039",
+        "question_text": "The ancient artifact, ____ dates back to the 15th century, is now kept in a secure vault.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "that", "is_correct": false },
+          { "answer_text": "which", "is_correct": true },
+          { "answer_text": "what", "is_correct": false },
+          { "answer_text": "it", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-040",
+        "question_text": "My supervisor complimented me ____ completing the financial report ahead of schedule.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "for", "is_correct": false },
+          { "answer_text": "on", "is_correct": true },
+          { "answer_text": "about", "is_correct": false },
+          { "answer_text": "in", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-041",
+        "question_text": "She ____ have left her keys at the office, but she’s not completely sure.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "must", "is_correct": false },
+          { "answer_text": "can", "is_correct": false },
+          { "answer_text": "might", "is_correct": true },
+          { "answer_text": "should", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-042",
+        "question_text": "____ from a distance, the painting looks like a photograph.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "Seen", "is_correct": true },
+          { "answer_text": "Seeing", "is_correct": false },
+          { "answer_text": "Having seen", "is_correct": false },
+          { "answer_text": "To see", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-043",
+        "question_text": "The government is implementing strict measures to ____ the spread of the virus.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "spread", "is_correct": false },
+          { "answer_text": "curb", "is_correct": true },
+          { "answer_text": "trigger", "is_correct": false },
+          { "answer_text": "promote", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-044",
+        "question_text": "We are supposed to meet at 8 PM, so please don't let me ____.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "up", "is_correct": false },
+          { "answer_text": "in", "is_correct": false },
+          { "answer_text": "out", "is_correct": false },
+          { "answer_text": "down", "is_correct": true }
+        ]
+      },
+      {
+        "question_id": "eng-mc-045",
+        "question_text": "\"I'll call you as soon as I arrive,\" she said. -> She promised ____ as soon as she arrived.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "to call me", "is_correct": true },
+          { "answer_text": "calling me", "is_correct": false },
+          { "answer_text": "she calls me", "is_correct": false },
+          { "answer_text": "she will call me", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-046",
+        "question_text": "The job requires someone with a great deal of ____ and the ability to work under pressure.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "flexible", "is_correct": false },
+          { "answer_text": "flexibly", "is_correct": false },
+          { "answer_text": "flexibility", "is_correct": true },
+          { "answer_text": "inflexibility", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-047",
+        "question_text": "Stop making so much noise! The baby ____ to sleep.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "tries", "is_correct": false },
+          { "answer_text": "is trying", "is_correct": true },
+          { "answer_text": "tried", "is_correct": false },
+          { "answer_text": "has tried", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-048",
+        "question_text": "If you are not satisfied with the product, you are entitled to a full ____.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "refund", "is_correct": true },
+          { "answer_text": "receipt", "is_correct": false },
+          { "answer_text": "discount", "is_correct": false },
+          { "answer_text": "bargain", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-049",
+        "question_text": "I can't stand ____ stuck in traffic for hours every morning.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "to be", "is_correct": false },
+          { "answer_text": "be", "is_correct": false },
+          { "answer_text": "being", "is_correct": true },
+          { "answer_text": "to being", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-050",
+        "question_text": "Mary is very ____; she loves meeting new people and going to parties.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "introverted", "is_correct": false },
+          { "answer_text": "pessimistic", "is_correct": false },
+          { "answer_text": "outgoing", "is_correct": true },
+          { "answer_text": "arrogant", "is_correct": false }
+        ]
+      }
+    ],
+    "reading": [
+      {
+        "id": "reading-cloze-03",
+        "type": "cloze",
+        "title": "THE DARK SIDE OF FAST FASHION",
+        "passage": "Fast fashion has revolutionized the clothing industry by providing consumers with trendy, affordable garments at lightning speed. However, this convenience comes at a staggering environmental and social (51) ____. To keep prices artificially low, many brands outsource production to developing countries where labor laws are weak. Garment workers in these regions often endure unsafe working conditions and receive wages that barely cover basic living expenses. Furthermore, the environmental impact of fast fashion is devastating. The industry is the second-largest consumer of the world’s water supply and is responsible (52) ____ approximately 10% of global carbon emissions. The reliance on cheap, synthetic materials like polyester means that every time these clothes are washed, they release microplastics into the ocean. Worse still, the \"throwaway\" culture promoted by fast fashion leads to millions of tons of textile waste ending up in (53) ____ each year. To combat this, a growing movement of consumers is advocating for sustainable fashion. They encourage buying second-hand clothes, supporting ethical brands, and investing in high-quality garments that last longer. Ultimately, transitioning away from fast fashion requires a fundamental shift in our (54) ____ towards consumption. If we continue to view clothing as easily disposable, the damage to our planet will become (55) ____.",
+        "questions": [
+          {
+            "question_id": "eng-r-cloze-051",
+            "question_text": "Blank (51)",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "price", "is_correct": false },
+              { "answer_text": "cost", "is_correct": true },
+              { "answer_text": "charge", "is_correct": false },
+              { "answer_text": "fee", "is_correct": false }
+            ]
+          },
+          {
+            "question_id": "eng-r-cloze-052",
+            "question_text": "Blank (52)",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "of", "is_correct": false },
+              { "answer_text": "for", "is_correct": true },
+              { "answer_text": "in", "is_correct": false },
+              { "answer_text": "with", "is_correct": false }
+            ]
+          },
+          {
+            "question_id": "eng-r-cloze-053",
+            "question_text": "Blank (53)",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "landfills", "is_correct": true },
+              { "answer_text": "atmospheres", "is_correct": false },
+              { "answer_text": "habitats", "is_correct": false },
+              { "answer_text": "environments", "is_correct": false }
+            ]
+          },
+          {
+            "question_id": "eng-r-cloze-054",
+            "question_text": "Blank (54)",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "behavior", "is_correct": false },
+              { "answer_text": "attitude", "is_correct": true },
+              { "answer_text": "expectation", "is_correct": false },
+              { "answer_text": "knowledge", "is_correct": false }
+            ]
+          },
+          {
+            "question_id": "eng-r-cloze-055",
+            "question_text": "Blank (55)",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "irreversible", "is_correct": true },
+              { "answer_text": "temporary", "is_correct": false },
+              { "answer_text": "invisible", "is_correct": false },
+              { "answer_text": "unpredictable", "is_correct": false }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "reading-comprehension-03",
+        "type": "reading_comprehension",
+        "title": "THE MYSTERY OF SLEEP",
+        "passage": "For decades, scientists have grappled with a fundamental question: Why do we sleep? While it may seem like a period of complete rest, the human brain is remarkably active during sleep. Historically, it was believed that sleep was simply a way for the body to conserve energy. However, modern research reveals that its functions are far more complex and essential for survival. One of the primary functions of sleep is memory consolidation. During the deepest stages of sleep, the brain processes the massive amount of information gathered throughout the day, discarding irrelevant details and solidifying important memories into long-term storage. This is why students who pull \"all-nighters\" before an exam often perform worse than those who get a full night’s rest; their brains haven't had the chance to organize and retain the study material. Another critical role of sleep is physical restoration. While we sleep, the body releases growth hormones that repair muscle tissue and synthesize proteins. Moreover, recent studies have discovered that the brain has a unique waste-clearance system, known as the glymphatic system, which is highly active during sleep. This system acts like a biological dishwasher, flushing out toxic byproducts that accumulate in the brain during waking hours. Some researchers suspect that the failure to clear these toxins due to chronic sleep deprivation may be linked to neurodegenerative diseases like Alzheimer's. Despite the overwhelming evidence of its importance, modern society largely undervalues sleep. The glorification of \"hustle culture\" encourages individuals to sacrifice sleep in favor of productivity. Consequently, chronic sleep deprivation has become a global epidemic, leading to increased risks of heart disease, obesity, and severe mental health issues.",
+        "questions": [
+          {
+            "question_id": "eng-r-comp-056",
+            "question_text": "What was the historical belief about the main purpose of sleep?",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "To clear toxins from the brain.", "is_correct": false },
+              { "answer_text": "To consolidate long-term memories.", "is_correct": false },
+              { "answer_text": "To simply save physical energy.", "is_correct": true },
+              { "answer_text": "To prevent neurodegenerative diseases.", "is_correct": false }
+            ]
+          },
+          {
+            "question_id": "eng-r-comp-057",
+            "question_text": "How does the text describe the brain's activity during sleep?",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "The brain is completely shut down to rest.", "is_correct": false },
+              { "answer_text": "The brain is highly active, performing vital functions.", "is_correct": true },
+              { "answer_text": "The brain only dreams and does nothing else.", "is_correct": false },
+              { "answer_text": "The brain consumes more energy than during the day.", "is_correct": false }
+            ]
+          },
+          {
+            "question_id": "eng-r-comp-058",
+            "question_text": "According to the text, why might pulling an \"all-nighter\" before an exam be a bad idea?",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "Because the student will fall asleep during the exam.", "is_correct": false },
+              { "answer_text": "Because the brain cannot absorb new information at night.", "is_correct": false },
+              { "answer_text": "Because the brain hasn't processed and stored the studied information.", "is_correct": true },
+              { "answer_text": "Because the student will produce too much growth hormone.", "is_correct": false }
+            ]
+          },
+          {
+            "question_id": "eng-r-comp-059",
+            "question_text": "What is the function of the \"glymphatic system\" mentioned in paragraph 3?",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "It helps the body build larger muscles.", "is_correct": false },
+              { "answer_text": "It acts as an alarm clock to wake us up.", "is_correct": false },
+              { "answer_text": "It organizes daily memories into long-term storage.", "is_correct": false },
+              { "answer_text": "It flushes toxic byproducts out of the brain.", "is_correct": true }
+            ]
+          },
+          {
+            "question_id": "eng-r-comp-060",
+            "question_text": "What does the author imply about \"hustle culture\" in the final paragraph?",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "It is the best way to achieve economic success.", "is_correct": false },
+              { "answer_text": "It wrongly promotes the sacrifice of sleep for work.", "is_correct": true },
+              { "answer_text": "It helps people cure obesity and heart disease.", "is_correct": false },
+              { "answer_text": "It encourages people to sleep more than 8 hours a day.", "is_correct": false }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "reading-cloze-04",
+        "type": "cloze",
+        "title": "THE RISE OF SMART CITIES",
+        "passage": "As the global population continues to urbanize, cities are facing unprecedented challenges regarding infrastructure, traffic, and pollution. To address these issues, many urban planners are turning to technology, giving rise to the concept of \"Smart Cities.\" A smart city uses the Internet of Things (IoT), data analytics, and artificial intelligence to (61) ____ the efficiency of city operations and improve the quality of life for its citizens. One noticeable application of this technology is in traffic management. Smart traffic lights can adjust their timing based on real-time traffic flow, significantly reducing congestion and air pollution from idling cars. Additionally, smart waste management systems use sensors in trash bins to notify collection trucks only (62) ____ they are full, saving time and fuel. However, the transition to smart cities is not without controversy. A major concern is privacy and data security. Because smart cities rely on a vast network of cameras and sensors tracking citizens' movements and habits, there is a risk that this data could be misused or hacked. Therefore, city governments must implement robust cybersecurity measures and ensure transparency about how citizen data is collected and (63) ____. If these ethical and security challenges are properly (64) ____, smart cities have the potential to become highly sustainable and livable environments for future (65) ____.",
+        "questions": [
+          {
+            "question_id": "eng-r-cloze-061",
+            "question_text": "Blank (61)",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "decline", "is_correct": false },
+              { "answer_text": "enhance", "is_correct": true },
+              { "answer_text": "disrupt", "is_correct": false },
+              { "answer_text": "complicate", "is_correct": false }
+            ]
+          },
+          {
+            "question_id": "eng-r-cloze-062",
+            "question_text": "Blank (62)",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "when", "is_correct": true },
+              { "answer_text": "unless", "is_correct": false },
+              { "answer_text": "although", "is_correct": false },
+              { "answer_text": "despite", "is_correct": false }
+            ]
+          },
+          {
+            "question_id": "eng-r-cloze-063",
+            "question_text": "Blank (63)",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "ignored", "is_correct": false },
+              { "answer_text": "utilized", "is_correct": true },
+              { "answer_text": "wasted", "is_correct": false },
+              { "answer_text": "destroyed", "is_correct": false }
+            ]
+          },
+          {
+            "question_id": "eng-r-cloze-064",
+            "question_text": "Blank (64)",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "created", "is_correct": false },
+              { "answer_text": "neglected", "is_correct": false },
+              { "answer_text": "addressed", "is_correct": true },
+              { "answer_text": "denied", "is_correct": false }
+            ]
+          },
+          {
+            "question_id": "eng-r-cloze-065",
+            "question_text": "Blank (65)",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "ancestors", "is_correct": false },
+              { "answer_text": "populations", "is_correct": false },
+              { "answer_text": "algorithms", "is_correct": false },
+              { "answer_text": "generations", "is_correct": true }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "reading-comprehension-04",
+        "type": "reading_comprehension",
+        "title": "A YEAR IN ANTARCTICA",
+        "passage": "Excerpts from Dr. Aris Thorne's journal: When I accepted the position as a lead meteorologist at the McMurdo Station in Antarctica, my colleagues thought I was insane. \"You're trading a comfortable life in California for a frozen wasteland,\" they said. They weren't entirely wrong about the cold. During the winter months, temperatures regularly plummeted to -60 degrees Celsius, and the sun vanished completely for four grueling months. Living in such an extreme environment alters your perception of reality. The physical isolation is immense; during the winter, planes cannot land, meaning that if a medical emergency occurs, you are entirely reliant on the small team of staff doctors. Yet, the psychological isolation was what truly tested my limits. In the prolonged darkness, a phenomenon known as \"Winter-Over Syndrome\" is common. People experience depression, irritability, and severe sleep disturbances. I found myself snapping at colleagues over trivial matters, like someone chewing too loudly in the mess hall. Despite these hardships, I do not regret my time there. Stripped of the distractions of modern urban life—no traffic, no shopping malls, no constant barrage of social media—I found a profound sense of clarity. The camaraderie among the winter crew was unlike anything I had ever experienced; we were 150 strangers who became a fiercely loyal family simply because our survival depended on one another. Moreover, witnessing the Southern Lights (Aurora Australis) dancing across the pitch-black sky is a spectacle of such haunting beauty that it makes the months of freezing darkness feel like a small price to pay.",
+        "questions": [
+          {
+            "question_id": "eng-r-comp-066",
+            "question_text": "What did Dr. Thorne's colleagues think about his decision to go to Antarctica?",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "They thought it was a brilliant career move.", "is_correct": false },
+              { "answer_text": "They thought he was crazy to leave a comfortable life.", "is_correct": true },
+              { "answer_text": "They wanted to join him on the expedition.", "is_correct": false },
+              { "answer_text": "They believed Antarctica was a tropical paradise.", "is_correct": false }
+            ]
+          },
+          {
+            "question_id": "eng-r-comp-067",
+            "question_text": "What makes a medical emergency in Antarctica during winter extremely dangerous?",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "There are absolutely no doctors on the base.", "is_correct": false },
+              { "answer_text": "The cold temperatures freeze all the medical equipment.", "is_correct": false },
+              { "answer_text": "Planes cannot land, so evacuation is impossible.", "is_correct": true },
+              { "answer_text": "The staff refuses to treat anyone during the dark months.", "is_correct": false }
+            ]
+          },
+          {
+            "question_id": "eng-r-comp-068",
+            "question_text": "Which of the following is a symptom of \"Winter-Over Syndrome\" mentioned in the text?",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "A sudden increase in physical strength.", "is_correct": false },
+              { "answer_text": "Getting annoyed easily over small things.", "is_correct": true },
+              { "answer_text": "Sleeping for more than 15 hours a day.", "is_correct": false },
+              { "answer_text": "Forgetting how to do scientific research.", "is_correct": false }
+            ]
+          },
+          {
+            "question_id": "eng-r-comp-069",
+            "question_text": "Why did Dr. Thorne feel a \"profound sense of clarity\" in Antarctica?",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "Because the air in Antarctica is completely free of pollution.", "is_correct": false },
+              { "answer_text": "Because he was isolated from the usual distractions of modern city life.", "is_correct": true },
+              { "answer_text": "Because he spent all his time reading books in his room.", "is_correct": false },
+              { "answer_text": "Because the lack of sunlight improved his brain function.", "is_correct": false }
+            ]
+          },
+          {
+            "question_id": "eng-r-comp-070",
+            "question_text": "What is Dr. Thorne's overall feeling about his year in Antarctica?",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "He deeply regrets it because of the psychological trauma.", "is_correct": false },
+              { "answer_text": "He found it physically easy but hated the people there.", "is_correct": false },
+              { "answer_text": "He considers the beautiful moments and the strong friendships worth the extreme hardships.", "is_correct": true },
+              { "answer_text": "He wants to forget the experience entirely and return to California.", "is_correct": false }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,812 @@
+{
+  "exam_id": "eng-mock-02-04",
+  "title": "ĐỀ THI THỬ TIẾNG ANH 2 - ĐỀ SỐ 4 (NÂNG CAO - CHUYÊN SÂU)",
+  "parts": {
+    "mcq": [
+      {
+        "question_id": "eng-mc-001",
+        "question_text": "No sooner ____ the door than he realized he had left his keys inside.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "he had closed", "is_correct": false },
+          { "answer_text": "had he closed", "is_correct": true },
+          { "answer_text": "closed he", "is_correct": false },
+          { "answer_text": "did he close", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-002",
+        "question_text": "The committee recommended that the new safety regulations ____ into effect immediately.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "are put", "is_correct": false },
+          { "answer_text": "be put", "is_correct": true },
+          { "answer_text": "will be put", "is_correct": false },
+          { "answer_text": "would be put", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-003",
+        "question_text": "____ she known about the severe weather warnings, she would have canceled the flight.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "If", "is_correct": false },
+          { "answer_text": "Provided", "is_correct": false },
+          { "answer_text": "Had", "is_correct": true },
+          { "answer_text": "Unless", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-004",
+        "question_text": "By the time the researchers secure the funding, the optimal window for the experiment ____.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "will close", "is_correct": false },
+          { "answer_text": "is closing", "is_correct": false },
+          { "answer_text": "will be closing", "is_correct": false },
+          { "answer_text": "will have closed", "is_correct": true }
+        ]
+      },
+      {
+        "question_id": "eng-mc-005",
+        "question_text": "He is widely regarded as one of the most ____ figures in modern physics.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "prominent", "is_correct": true },
+          { "answer_text": "dominant", "is_correct": false },
+          { "answer_text": "imminent", "is_correct": false },
+          { "answer_text": "permanent", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-006",
+        "question_text": "It was essential that every applicant ____ a detailed portfolio along with their resume.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "submit", "is_correct": true },
+          { "answer_text": "submitted", "is_correct": false },
+          { "answer_text": "submits", "is_correct": false },
+          { "answer_text": "has submitted", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-007",
+        "question_text": "____ the global financial crisis, the company managed to maintain a steady growth rate.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "Because of", "is_correct": false },
+          { "answer_text": "In spite of", "is_correct": true },
+          { "answer_text": "Although", "is_correct": false },
+          { "answer_text": "Regardless", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-008",
+        "question_text": "The politician tried to ____ the public’s attention away from the ongoing scandal.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "distract", "is_correct": true },
+          { "answer_text": "extract", "is_correct": false },
+          { "answer_text": "detract", "is_correct": false },
+          { "answer_text": "contract", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-009",
+        "question_text": "Only after the devastating earthquake ____ the importance of strict building codes.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "the city understood", "is_correct": false },
+          { "answer_text": "did the city understand", "is_correct": true },
+          { "answer_text": "understood the city", "is_correct": false },
+          { "answer_text": "the city did understand", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-010",
+        "question_text": "The professor, ____ research has revolutionized the field of genetics, was awarded the Nobel Prize.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "who", "is_correct": false },
+          { "answer_text": "whom", "is_correct": false },
+          { "answer_text": "that", "is_correct": false },
+          { "answer_text": "whose", "is_correct": true }
+        ]
+      },
+      {
+        "question_id": "eng-mc-011",
+        "question_text": "If I ____ more attention during the lecture, I wouldn't be struggling with this assignment now.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "paid", "is_correct": false },
+          { "answer_text": "have paid", "is_correct": false },
+          { "answer_text": "had paid", "is_correct": true },
+          { "answer_text": "would pay", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-012",
+        "question_text": "The project was completely scrapped, ____ a massive waste of resources.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "which resulting in", "is_correct": false },
+          { "answer_text": "that resulted in", "is_correct": false },
+          { "answer_text": "resulting in", "is_correct": true },
+          { "answer_text": "resulted in", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-013",
+        "question_text": "The manager is determined to ____ out the inefficiencies in the current production line.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "stamp", "is_correct": true },
+          { "answer_text": "bring", "is_correct": false },
+          { "answer_text": "work", "is_correct": false },
+          { "answer_text": "figure", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-014",
+        "question_text": "Despite his lack of formal education, his practical knowledge is ____ to none.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "first", "is_correct": false },
+          { "answer_text": "second", "is_correct": true },
+          { "answer_text": "next", "is_correct": false },
+          { "answer_text": "best", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-015",
+        "question_text": "You ____ have told me you were coming; I would have prepared a proper dinner!",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "could", "is_correct": false },
+          { "answer_text": "might", "is_correct": false },
+          { "answer_text": "should", "is_correct": true },
+          { "answer_text": "must", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-016",
+        "question_text": "The new software update is largely ____ with older operating systems, causing widespread frustration.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "incompatible", "is_correct": true },
+          { "answer_text": "incompetent", "is_correct": false },
+          { "answer_text": "inconsistent", "is_correct": false },
+          { "answer_text": "incomplete", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-017",
+        "question_text": "We were under the ____ that the deadline had been extended to next Friday.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "assumption", "is_correct": false },
+          { "answer_text": "impression", "is_correct": true },
+          { "answer_text": "illusion", "is_correct": false },
+          { "answer_text": "concept", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-018",
+        "question_text": "Rarely ____ such a display of courage in the face of overwhelming odds.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "one witnesses", "is_correct": false },
+          { "answer_text": "does one witness", "is_correct": true },
+          { "answer_text": "witnesses one", "is_correct": false },
+          { "answer_text": "one does witness", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-019",
+        "question_text": "The company’s aggressive marketing strategy ____ off, resulting in a 50% increase in sales.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "brought", "is_correct": false },
+          { "answer_text": "paid", "is_correct": true },
+          { "answer_text": "took", "is_correct": false },
+          { "answer_text": "went", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-020",
+        "question_text": "The ancient ruins, ____ in the thick jungle for centuries, were finally discovered by satellite imaging.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "hiding", "is_correct": false },
+          { "answer_text": "hidden", "is_correct": true },
+          { "answer_text": "having hidden", "is_correct": false },
+          { "answer_text": "were hidden", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-021",
+        "question_text": "It’s vital that you ____ to the terms and conditions before signing the contract.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "to agree", "is_correct": false },
+          { "answer_text": "agreeing", "is_correct": false },
+          { "answer_text": "agree", "is_correct": true },
+          { "answer_text": "agreed", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-022",
+        "question_text": "The sheer ____ of the mountain landscape left the tourists speechless.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "magnitude", "is_correct": true },
+          { "answer_text": "altitude", "is_correct": false },
+          { "answer_text": "longitude", "is_correct": false },
+          { "answer_text": "attitude", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-023",
+        "question_text": "____ hard he tries, he simply cannot grasp the complex mathematical concepts.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "Whatever", "is_correct": false },
+          { "answer_text": "However", "is_correct": true },
+          { "answer_text": "No matter", "is_correct": false },
+          { "answer_text": "Although", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-024",
+        "question_text": "She was accused ____ confidential company documents to a rival firm.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "to leak", "is_correct": false },
+          { "answer_text": "of leaking", "is_correct": true },
+          { "answer_text": "for leaking", "is_correct": false },
+          { "answer_text": "about leaking", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-025",
+        "question_text": "Many environmentalists argue that nuclear energy is a necessary ____ in the fight against climate change.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "devil", "is_correct": false },
+          { "answer_text": "evil", "is_correct": true },
+          { "answer_text": "demon", "is_correct": false },
+          { "answer_text": "threat", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-026",
+        "question_text": "The suspect ____ to have been involved in several other high-profile robberies.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "is believing", "is_correct": false },
+          { "answer_text": "believes", "is_correct": false },
+          { "answer_text": "believed", "is_correct": false },
+          { "answer_text": "is believed", "is_correct": true }
+        ]
+      },
+      {
+        "question_id": "eng-mc-027",
+        "question_text": "Let’s try to narrow ____ the list of candidates to the top three by tomorrow.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "out", "is_correct": false },
+          { "answer_text": "down", "is_correct": true },
+          { "answer_text": "off", "is_correct": false },
+          { "answer_text": "up", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-028",
+        "question_text": "He has a remarkable ability to ____ complex theories into easily understandable concepts.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "break down", "is_correct": true },
+          { "answer_text": "tear down", "is_correct": false },
+          { "answer_text": "put down", "is_correct": false },
+          { "answer_text": "let down", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-029",
+        "question_text": "The negotiations reached a ____ when neither side was willing to compromise on the final price.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "dead-end", "is_correct": false },
+          { "answer_text": "deadlock", "is_correct": true },
+          { "answer_text": "deadline", "is_correct": false },
+          { "answer_text": "deadbeat", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-030",
+        "question_text": "Not only ____ a brilliant scientist, but she is also a talented musician.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "is she", "is_correct": true },
+          { "answer_text": "she is", "is_correct": false },
+          { "answer_text": "was she", "is_correct": false },
+          { "answer_text": "she was", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-031",
+        "question_text": "They decided to push ____ with the new project despite the objections from the finance department.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "forward", "is_correct": false },
+          { "answer_text": "ahead", "is_correct": true },
+          { "answer_text": "over", "is_correct": false },
+          { "answer_text": "through", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-032",
+        "question_text": "The book provides a comprehensive ____ of the events leading up to the First World War.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "overview", "is_correct": true },
+          { "answer_text": "oversight", "is_correct": false },
+          { "answer_text": "overpass", "is_correct": false },
+          { "answer_text": "overture", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-033",
+        "question_text": "Had it not been for his generous financial support, the orphanage ____ bankrupt years ago.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "would go", "is_correct": false },
+          { "answer_text": "will go", "is_correct": false },
+          { "answer_text": "would have gone", "is_correct": true },
+          { "answer_text": "went", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-034",
+        "question_text": "We need someone who can hit the ground ____ and start contributing immediately.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "walking", "is_correct": false },
+          { "answer_text": "sprinting", "is_correct": false },
+          { "answer_text": "jogging", "is_correct": false },
+          { "answer_text": "running", "is_correct": true }
+        ]
+      },
+      {
+        "question_id": "eng-mc-035",
+        "question_text": "The doctor strongly advised ____ smoking if the patient wanted to recover fully.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "to quit", "is_correct": false },
+          { "answer_text": "quit", "is_correct": false },
+          { "answer_text": "against quitting", "is_correct": false },
+          { "answer_text": "quitting", "is_correct": true }
+        ]
+      },
+      {
+        "question_id": "eng-mc-036",
+        "question_text": "The new policy will have a profound effect ____ the way international trade is conducted.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "in", "is_correct": false },
+          { "answer_text": "on", "is_correct": true },
+          { "answer_text": "with", "is_correct": false },
+          { "answer_text": "to", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-037",
+        "question_text": "____ having been warned about the dangerous currents, they decided to go swimming anyway.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "Despite", "is_correct": true },
+          { "answer_text": "Because", "is_correct": false },
+          { "answer_text": "While", "is_correct": false },
+          { "answer_text": "Since", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-038",
+        "question_text": "The journalist refused to reveal the source of her information, protecting her ____.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "anonymity", "is_correct": true },
+          { "answer_text": "animosity", "is_correct": false },
+          { "answer_text": "anomaly", "is_correct": false },
+          { "answer_text": "anatomy", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-039",
+        "question_text": "I'll have the mechanic ____ the brakes on my car tomorrow.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "to check", "is_correct": false },
+          { "answer_text": "checking", "is_correct": false },
+          { "answer_text": "check", "is_correct": true },
+          { "answer_text": "checked", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-040",
+        "question_text": "I find his constant complaining completely ____.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "tolerable", "is_correct": false },
+          { "answer_text": "tolerant", "is_correct": false },
+          { "answer_text": "intolerable", "is_correct": true },
+          { "answer_text": "intolerant", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-041",
+        "question_text": "The sudden drop in temperatures caught many farmers off ____, resulting in damaged crops.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "guard", "is_correct": true },
+          { "answer_text": "mind", "is_correct": false },
+          { "answer_text": "hand", "is_correct": false },
+          { "answer_text": "track", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-042",
+        "question_text": "____ from space, the Earth looks like a delicate blue marble.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "See", "is_correct": false },
+          { "answer_text": "Seeing", "is_correct": false },
+          { "answer_text": "Seen", "is_correct": true },
+          { "answer_text": "To see", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-043",
+        "question_text": "The government must take steps to ____ the gap between the rich and the poor.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "bridge", "is_correct": true },
+          { "answer_text": "connect", "is_correct": false },
+          { "answer_text": "link", "is_correct": false },
+          { "answer_text": "join", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-044",
+        "question_text": "It was a ____ decision, but we finally agreed to sell the family home.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "heavy", "is_correct": false },
+          { "answer_text": "tough", "is_correct": true },
+          { "answer_text": "stiff", "is_correct": false },
+          { "answer_text": "fierce", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-045",
+        "question_text": "I would rather you ____ me the truth from the very beginning.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "tell", "is_correct": false },
+          { "answer_text": "told", "is_correct": false },
+          { "answer_text": "had told", "is_correct": true },
+          { "answer_text": "have told", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-046",
+        "question_text": "The city council is planning to do ____ the old abandoned warehouse and build a park.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "away with", "is_correct": true },
+          { "answer_text": "out of", "is_correct": false },
+          { "answer_text": "down with", "is_correct": false },
+          { "answer_text": "up to", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-047",
+        "question_text": "His arguments were so persuasive that they left no room for ____.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "thought", "is_correct": false },
+          { "answer_text": "doubt", "is_correct": true },
+          { "answer_text": "question", "is_correct": false },
+          { "answer_text": "suspicion", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-048",
+        "question_text": "He was on the ____ of resigning when he was unexpectedly offered a promotion.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "verge", "is_correct": true },
+          { "answer_text": "point", "is_correct": false },
+          { "answer_text": "edge", "is_correct": false },
+          { "answer_text": "line", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-049",
+        "question_text": "The company offers a highly ____ salary package to attract top-tier talent.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "competitive", "is_correct": true },
+          { "answer_text": "competent", "is_correct": false },
+          { "answer_text": "competing", "is_correct": false },
+          { "answer_text": "competed", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-050",
+        "question_text": "They worked around the ____ to finish the construction project before the winter storms hit.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "time", "is_correct": false },
+          { "answer_text": "watch", "is_correct": false },
+          { "answer_text": "hour", "is_correct": false },
+          { "answer_text": "clock", "is_correct": true }
+        ]
+      }
+    ],
+    "reading": [
+      {
+        "id": "reading-cloze-07",
+        "type": "cloze",
+        "title": "THE AUTOMATION PARADOX",
+        "passage": "As Artificial Intelligence (AI) and robotics become increasingly sophisticated, fears about widespread job displacement have dominated the public discourse. The prevailing narrative suggests that automation will render millions of human workers obsolete, leading to unprecedented levels of unemployment. However, economists point to a phenomenon known as the \"Automation Paradox,\" which argues that while technology eliminates certain tasks, it often leads to a net (51) ____ in employment. Historically, the introduction of labor-saving technology has reduced the cost of producing goods and services. This reduction in price typically stimulates higher consumer demand. To meet this surging demand, companies must expand their operations, which ironically requires hiring (52) ____ workers. For instance, when ATMs were introduced, bank tellers feared for their jobs. Instead, the cost of operating a bank branch plummeted, allowing banks to open many more branches and ultimately employ more tellers, albeit with slightly different roles focusing on customer relationship management rather than cash handling. Furthermore, automation often acts as a complement to human labor rather than a complete (53) ____. AI excels at processing massive datasets and performing repetitive tasks with high precision, but it severely lacks human empathy, creativity, and complex problem-solving abilities. In fields like healthcare, AI diagnostic tools can analyze X-rays faster than a human, but a human doctor is still required to interpret the nuances, deliver the diagnosis to the patient, and design a personalized treatment plan. Therefore, the real challenge of the AI revolution is not the total loss of jobs, but rather the massive structural shift in the labor market. Workers will need to rapidly adapt and acquire new skills. Governments and corporations must heavily invest in retraining programs to ensure that the workforce is not left (54) ____. If managed correctly, automation will not lead to a jobless future, but rather to a transformation where humans are freed from mundane tasks to focus on work that requires genuine human (55) ____.",
+        "questions": [
+          {
+            "question_id": "eng-r-cloze-051",
+            "question_text": "Blank (51)",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "decline", "is_correct": false },
+              { "answer_text": "increase", "is_correct": true },
+              { "answer_text": "absence", "is_correct": false },
+              { "answer_text": "stabilization", "is_correct": false }
+            ]
+          },
+          {
+            "question_id": "eng-r-cloze-052",
+            "question_text": "Blank (52)",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "fewer", "is_correct": false },
+              { "answer_text": "skilled", "is_correct": false },
+              { "answer_text": "more", "is_correct": true },
+              { "answer_text": "cheaper", "is_correct": false }
+            ]
+          },
+          {
+            "question_id": "eng-r-cloze-053",
+            "question_text": "Blank (53)",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "substitute", "is_correct": true },
+              { "answer_text": "addition", "is_correct": false },
+              { "answer_text": "partner", "is_correct": false },
+              { "answer_text": "requirement", "is_correct": false }
+            ]
+          },
+          {
+            "question_id": "eng-r-cloze-054",
+            "question_text": "Blank (54)",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "over", "is_correct": false },
+              { "answer_text": "out", "is_correct": false },
+              { "answer_text": "alone", "is_correct": false },
+              { "answer_text": "behind", "is_correct": true }
+            ]
+          },
+          {
+            "question_id": "eng-r-cloze-055",
+            "question_text": "Blank (55)",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "weakness", "is_correct": false },
+              { "answer_text": "ingenuity", "is_correct": true },
+              { "answer_text": "biology", "is_correct": false },
+              { "answer_text": "machinery", "is_correct": false }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "reading-comprehension-07",
+        "type": "reading_comprehension",
+        "title": "THE BYSTANDER EFFECT: WHY NO ONE HELPS",
+        "passage": "In 1964, a young woman named Kitty Genovese was brutally murdered outside her apartment building in New York City. Initial newspaper reports claimed that 38 witnesses heard her screams or saw the attack, yet not a single person intervened or even called the police until it was too late. While historical research later proved that the number of witnesses was exaggerated, the case profoundly shocked the nation and birthed a crucial area of psychological study: the Bystander Effect. Psychologists John Darley and Bibb Latané conducted a series of classic experiments to understand why people fail to help in emergencies. They discovered that the presence of other people paradoxically inhibits helping behavior. This phenomenon is primarily driven by two psychological mechanisms. The first is \"diffusion of responsibility.\" When an individual is the sole witness to an emergency, they bear 100% of the responsibility to act. However, in a crowd, that responsibility is divided among all present. Individuals often assume that someone else—perhaps someone more qualified, like a doctor or police officer—has already taken action or will do so shortly. The second mechanism is \"pluralistic ignorance.\" In ambiguous situations, people look to the reactions of others to determine how to behave. If everyone is looking at each other, trying to appear calm and unbothered, individuals will collectively conclude that the situation must not be a true emergency. No one wants to embarrass themselves by overreacting in public. Understanding the Bystander Effect is essential for overcoming it. Experts suggest that if you are the victim in an emergency, you should not shout general pleas for help. Instead, you must break the diffusion of responsibility by singling out an individual. Pointing and saying, \"You, in the red shirt, call an ambulance!\" forces that specific person to take responsibility, drastically increasing the likelihood of receiving aid.",
+        "questions": [
+          {
+            "question_id": "eng-r-comp-056",
+            "question_text": "What is the main idea of the passage?",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "To explain why the Kitty Genovese murder was inaccurately reported by the media.", "is_correct": false },
+              { "answer_text": "To describe how individuals can become police officers to help in emergencies.", "is_correct": false },
+              { "answer_text": "To analyze the psychological reasons why groups of people often fail to intervene in emergencies.", "is_correct": true },
+              { "answer_text": "To argue that living in crowded cities makes people inherently evil.", "is_correct": false }
+            ]
+          },
+          {
+            "question_id": "eng-r-comp-057",
+            "question_text": "According to the \"diffusion of responsibility\" theory, why might someone in a large crowd not call the police during a crime?",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "They believe the police are already too busy.", "is_correct": false },
+              { "answer_text": "They assume another bystander will make the call.", "is_correct": true },
+              { "answer_text": "They are afraid the criminal will attack them instead.", "is_correct": false },
+              { "answer_text": "They do not have a mobile phone.", "is_correct": false }
+            ]
+          },
+          {
+            "question_id": "eng-r-comp-058",
+            "question_text": "How does \"pluralistic ignorance\" cause people to ignore an emergency?",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "People are generally ignorant of medical procedures.", "is_correct": false },
+              { "answer_text": "People rely on the calm appearance of others and falsely conclude there is no danger.", "is_correct": true },
+              { "answer_text": "People assume that the victim deserves what is happening to them.", "is_correct": false },
+              { "answer_text": "People simply do not care about strangers.", "is_correct": false }
+            ]
+          },
+          {
+            "question_id": "eng-r-comp-059",
+            "question_text": "Based on the text, what is the most effective way for a victim to get help in a crowded place?",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "Scream loudly and repeatedly for anyone to help.", "is_correct": false },
+              { "answer_text": "Lie perfectly still and wait for someone to notice.", "is_correct": false },
+              { "answer_text": "Target a specific person in the crowd and give them a direct instruction.", "is_correct": true },
+              { "answer_text": "Try to fight off the attacker without asking for assistance.", "is_correct": false }
+            ]
+          },
+          {
+            "question_id": "eng-r-comp-060",
+            "question_text": "Which of the following best describes the author's tone in the passage?",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "Emotional and angry", "is_correct": false },
+              { "answer_text": "Informative and analytical", "is_correct": true },
+              { "answer_text": "Humorous and lighthearted", "is_correct": false },
+              { "answer_text": "Skeptical and dismissive", "is_correct": false }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "reading-cloze-08",
+        "type": "cloze",
+        "title": "OCEAN ACIDIFICATION: THE OTHER CARBON PROBLEM",
+        "passage": "When we discuss the consequences of human-induced carbon dioxide (CO2) emissions, global warming is usually the primary focus. However, there is an equally devastating, albeit less visible, consequence occurring beneath the waves: ocean acidification. The world’s oceans act as a massive carbon sink, absorbing approximately 30% of the CO2 released into the atmosphere by human activities. While this helps to buffer the effects of climate change on land, it comes at a steep (61) ____ to marine ecosystems. When CO2 dissolves in seawater, it triggers a series of chemical reactions that increase the concentration of hydrogen ions. This process lowers the pH of the ocean, making it more acidic. Since the beginning of the Industrial Revolution, the acidity of surface ocean waters has increased by about 30%. This rapid shift in chemistry is particularly disastrous for marine organisms that rely on calcium carbonate to build their shells and skeletons, such as oysters, clams, sea urchins, and coral reefs. In highly acidic waters, these essential building blocks become less available. For corals, this means they cannot generate their hard, protective structures, severely stunting their growth and making them more vulnerable to erosion and disease. The decline of coral reefs is catastrophic because, although they cover less than 1% of the ocean floor, they support roughly 25% of all marine (62) ____. Furthermore, tiny calcifying organisms like pteropods, which form the base of the marine food web, are finding their delicate shells dissolving in the increasingly acidic water. If ocean acidification continues at its current rate, it threatens to collapse entire marine food chains, directly impacting the billions of humans who rely on the ocean for protein and their (63) ____. To mitigate this silent crisis, the only viable, long-term solution is to drastically and rapidly reduce global carbon emissions. Localized efforts, such as reducing coastal pollution and establishing marine protected areas, can help build ecosystem (64) ____, but they cannot stop the fundamental alteration of ocean chemistry. We must recognize that the health of our oceans is inextricably (65) ____ to the health of our atmosphere.",
+        "questions": [
+          {
+            "question_id": "eng-r-cloze-061",
+            "question_text": "Blank (61)",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "profit", "is_correct": false },
+              { "answer_text": "cost", "is_correct": true },
+              { "answer_text": "benefit", "is_correct": false },
+              { "answer_text": "advantage", "is_correct": false }
+            ]
+          },
+          {
+            "question_id": "eng-r-cloze-062",
+            "question_text": "Blank (62)",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "biodiversity", "is_correct": true },
+              { "answer_text": "transport", "is_correct": false },
+              { "answer_text": "minerals", "is_correct": false },
+              { "answer_text": "currents", "is_correct": false }
+            ]
+          },
+          {
+            "question_id": "eng-r-cloze-063",
+            "question_text": "Blank (63)",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "transportation", "is_correct": false },
+              { "answer_text": "entertainment", "is_correct": false },
+              { "answer_text": "livelihoods", "is_correct": true },
+              { "answer_text": "housing", "is_correct": false }
+            ]
+          },
+          {
+            "question_id": "eng-r-cloze-064",
+            "question_text": "Blank (64)",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "destruction", "is_correct": false },
+              { "answer_text": "resilience", "is_correct": true },
+              { "answer_text": "fragility", "is_correct": false },
+              { "answer_text": "vulnerability", "is_correct": false }
+            ]
+          },
+          {
+            "question_id": "eng-r-cloze-065",
+            "question_text": "Blank (65)",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "separated", "is_correct": false },
+              { "answer_text": "opposed", "is_correct": false },
+              { "answer_text": "linked", "is_correct": true },
+              { "answer_text": "compared", "is_correct": false }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "reading-comprehension-08",
+        "type": "reading_comprehension",
+        "title": "THE MYSTERY OF EASTER ISLAND",
+        "passage": "Easter Island, known to its native Polynesian inhabitants as Rapa Nui, is one of the most isolated inhabited places on Earth, situated thousands of miles off the coast of Chile. Despite its extreme remoteness, the island is world-renowned for its \"moai\"—nearly 1,000 massive stone statues, some weighing up to 80 tons, that dot the landscape. For decades, researchers have puzzled over two main questions: how did an isolated, pre-industrial society carve and transport these colossal monuments, and what caused the dramatic collapse of their civilization? The traditional narrative of Rapa Nui, popularized by author Jared Diamond, presents the island as a tragic cautionary tale of \"ecocide.\" According to this theory, the Rapa Nui people obsessively carved ever-larger statues to honor their ancestors and assert tribal dominance. To transport the heavy \"moai\" using wooden rollers, they aggressively cut down the island's lush palm forests. This rampant deforestation led to severe soil erosion, crop failures, and starvation. Ultimately, society descended into warfare and cannibalism, culminating in the toppling of their own sacred statues. However, recent archaeological and anthropological research challenges this dramatic narrative, suggesting a more nuanced reality. Evidence indicates that while deforestation did occur, it was largely driven by an invasive species brought by the original Polynesian settlers: the Polynesian rat. These rats multiplied exponentially, consuming palm nuts and preventing the forest from regenerating. Furthermore, isotopic analysis of ancient human remains reveals that the Rapa Nui did not starve; they ingeniously adapted to the changing environment by shifting their diet to rely heavily on seafood and implementing \"lithic mulching\" (placing rocks over soil to retain moisture) to sustain their crops. So, what truly led to the downfall of the Rapa Nui society? The revised historical consensus points not to internal ecological suicide, but to external contact. When European explorers arrived in the 18th century, they brought devastating diseases like smallpox, to which the islanders had no immunity. This was followed by brutal 19th-century Peruvian slave raids, which decimated the population and destroyed the island's cultural memory. The tragedy of Easter Island, modern scholars argue, is less about a civilization destroying itself through hubris, and more about the catastrophic impacts of colonialism.",
+        "questions": [
+          {
+            "question_id": "eng-r-comp-066",
+            "question_text": "What does the traditional \"ecocide\" theory (popularized by Jared Diamond) claim was the main reason for cutting down the trees on Easter Island?",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "To build large ships to escape the island.", "is_correct": false },
+              { "answer_text": "To create wooden rollers for transporting the giant stone statues.", "is_correct": true },
+              { "answer_text": "To burn the wood to stay warm during the cold winters.", "is_correct": false },
+              { "answer_text": "To clear land for building large palaces.", "is_correct": false }
+            ]
+          },
+          {
+            "question_id": "eng-r-comp-067",
+            "question_text": "According to recent research, what was a significant biological factor in the deforestation of Rapa Nui?",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "A disease that killed all the palm trees.", "is_correct": false },
+              { "answer_text": "Overgrazing by wild horses.", "is_correct": false },
+              { "answer_text": "The consumption of palm nuts by invasive Polynesian rats.", "is_correct": true },
+              { "answer_text": "A severe drought that lasted for centuries.", "is_correct": false }
+            ]
+          },
+          {
+            "question_id": "eng-r-comp-068",
+            "question_text": "How does modern research contradict the idea that the Rapa Nui people starved to death?",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "It proves they imported food from South America.", "is_correct": false },
+              { "answer_text": "It shows they successfully adapted their agriculture using rocks and ate more seafood.", "is_correct": true },
+              { "answer_text": "It suggests they developed genetically modified crops.", "is_correct": false },
+              { "answer_text": "It proves they stopped eating entirely and survived on water.", "is_correct": false }
+            ]
+          },
+          {
+            "question_id": "eng-r-comp-069",
+            "question_text": "According to the revised historical consensus, what was the actual primary cause of the Rapa Nui civilization's collapse?",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "A massive tsunami that destroyed the villages.", "is_correct": false },
+              { "answer_text": "Civil war caused by religious disagreements.", "is_correct": false },
+              { "answer_text": "Devastating diseases and slave raids brought by European contact.", "is_correct": true },
+              { "answer_text": "Their inability to carve any more stone statues.", "is_correct": false }
+            ]
+          },
+          {
+            "question_id": "eng-r-comp-070",
+            "question_text": "What is the overarching purpose of the passage?",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "To explain the techniques used to carve the \"moai\" statues.", "is_correct": false },
+              { "answer_text": "To argue that Jared Diamond is a terrible historian.", "is_correct": false },
+              { "answer_text": "To present the traditional theory of Easter Island's collapse and contrast it with new findings.", "is_correct": true },
+              { "answer_text": "To warn modern societies about the dangers of overpopulation.", "is_correct": false }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

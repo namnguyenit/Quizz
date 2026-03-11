@@ -13,7 +13,16 @@ export const GET: RequestHandler = async ({ url }) => {
 
 	try {
 		const rows = await db.execute({
-			sql: 'SELECT * FROM questions WHERE collection_id = ?',
+			sql: `
+				SELECT *
+				FROM questions
+				WHERE collection_id = ?
+				ORDER BY
+					CASE WHEN section IS NULL OR section = 'mcq' THEN 0 ELSE 1 END ASC,
+					COALESCE(reading_order, 0) ASC,
+					COALESCE(question_order, 0) ASC,
+					question_id ASC
+			`,
 			args: [id]
 		});
 

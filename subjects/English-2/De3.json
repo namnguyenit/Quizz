@@ -1,0 +1,812 @@
+{
+  "exam_id": "eng-mock-02-03",
+  "title": "ĐỀ THI THỬ TIẾNG ANH 2 - ĐỀ SỐ 3 (THỬ THÁCH VƯỢT TRỘI)",
+  "parts": {
+    "mcq": [
+      {
+        "question_id": "eng-mc-001",
+        "question_text": "A number of viable solutions to the urban planning crisis ____ proposed by the committee last week.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "was", "is_correct": false },
+          { "answer_text": "were", "is_correct": true },
+          { "answer_text": "has been", "is_correct": false },
+          { "answer_text": "have been", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-002",
+        "question_text": "By the end of this decade, researchers ____ a definitive cure for several types of hereditary diseases.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "will find", "is_correct": false },
+          { "answer_text": "are going to find", "is_correct": false },
+          { "answer_text": "will have found", "is_correct": true },
+          { "answer_text": "will be finding", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-003",
+        "question_text": "____ the weather condition get any worse, the aviation authority will have to ground all domestic flights.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "Should", "is_correct": true },
+          { "answer_text": "If", "is_correct": false },
+          { "answer_text": "Unless", "is_correct": false },
+          { "answer_text": "Were", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-004",
+        "question_text": "The manager insisted that every employee ____ strictly to the new safety protocols.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "adheres", "is_correct": false },
+          { "answer_text": "adhere", "is_correct": true },
+          { "answer_text": "adhered", "is_correct": false },
+          { "answer_text": "will adhere", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-005",
+        "question_text": "Not until the witness testified in court ____ the full extent of the fraudulent scheme.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "the jury realized", "is_correct": false },
+          { "answer_text": "the jury did realize", "is_correct": false },
+          { "answer_text": "did the jury realize", "is_correct": true },
+          { "answer_text": "realized the jury", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-006",
+        "question_text": "He is a highly ____ worker; he never leaves a task unfinished and always pays attention to details.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "industrial", "is_correct": false },
+          { "answer_text": "industrious", "is_correct": true },
+          { "answer_text": "industrialized", "is_correct": false },
+          { "answer_text": "industry", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-007",
+        "question_text": "____ for the timely intervention of the paramedics, the victim would not have survived the crash.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "If it wasn't", "is_correct": false },
+          { "answer_text": "Had it not been", "is_correct": true },
+          { "answer_text": "Were it not", "is_correct": false },
+          { "answer_text": "Unless it had been", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-008",
+        "question_text": "The politician’s speech was so ____ that it left the audience completely confused about his actual policies.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "coherent", "is_correct": false },
+          { "answer_text": "ambiguous", "is_correct": true },
+          { "answer_text": "transparent", "is_correct": false },
+          { "answer_text": "explicit", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-009",
+        "question_text": "The company’s headquarters, ____ are located in the heart of the financial district, underwent a massive renovation.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "which", "is_correct": false },
+          { "answer_text": "that", "is_correct": false },
+          { "answer_text": "where", "is_correct": false },
+          { "answer_text": "the offices of which", "is_correct": true }
+        ]
+      },
+      {
+        "question_id": "eng-mc-010",
+        "question_text": "She has a tendency to turn a blind ____ to her children's misbehavior.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "ear", "is_correct": false },
+          { "answer_text": "eye", "is_correct": true },
+          { "answer_text": "mind", "is_correct": false },
+          { "answer_text": "head", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-011",
+        "question_text": "Seldom ____ such a high level of dedication in someone so young.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "we witness", "is_correct": false },
+          { "answer_text": "do we witness", "is_correct": true },
+          { "answer_text": "we do witness", "is_correct": false },
+          { "answer_text": "witness we", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-012",
+        "question_text": "The new regulations will ____ effect starting from the first of January next year.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "take", "is_correct": true },
+          { "answer_text": "make", "is_correct": false },
+          { "answer_text": "get", "is_correct": false },
+          { "answer_text": "put", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-013",
+        "question_text": "The local authorities have promised to crack ____ on illegal street racing.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "out", "is_correct": false },
+          { "answer_text": "up", "is_correct": false },
+          { "answer_text": "down", "is_correct": true },
+          { "answer_text": "off", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-014",
+        "question_text": "It is imperative that the government ____ immediate action to tackle the inflation rate.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "takes", "is_correct": false },
+          { "answer_text": "took", "is_correct": false },
+          { "answer_text": "take", "is_correct": true },
+          { "answer_text": "has taken", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-015",
+        "question_text": "They are heavily understaffed; ____, they have been forced to decline several lucrative contracts.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "furthermore", "is_correct": false },
+          { "answer_text": "nevertheless", "is_correct": false },
+          { "answer_text": "consequently", "is_correct": true },
+          { "answer_text": "however", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-016",
+        "question_text": "She didn't want to go to the party, but her friends persuaded her against her better ____.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "judgment", "is_correct": true },
+          { "answer_text": "thought", "is_correct": false },
+          { "answer_text": "decision", "is_correct": false },
+          { "answer_text": "mind", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-017",
+        "question_text": "We need to conduct a(n) ____ analysis of the market before launching the new product line.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "exhausted", "is_correct": false },
+          { "answer_text": "exhaustive", "is_correct": true },
+          { "answer_text": "exhausting", "is_correct": false },
+          { "answer_text": "exhaustible", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-018",
+        "question_text": "The art exhibition was a huge success, ____ our wildest expectations.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "exceeding", "is_correct": true },
+          { "answer_text": "descending", "is_correct": false },
+          { "answer_text": "preceding", "is_correct": false },
+          { "answer_text": "conceding", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-019",
+        "question_text": "____ you to change your mind about the merger, please let the board of directors know immediately.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "Would", "is_correct": false },
+          { "answer_text": "Should", "is_correct": false },
+          { "answer_text": "Were", "is_correct": true },
+          { "answer_text": "Had", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-020",
+        "question_text": "He passed the incredibly difficult entrance examination by the skin of his ____.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "nose", "is_correct": false },
+          { "answer_text": "fingers", "is_correct": false },
+          { "answer_text": "teeth", "is_correct": true },
+          { "answer_text": "eyes", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-021",
+        "question_text": "The board of directors is considering ____ the retirement age from 60 to 65.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "raise", "is_correct": false },
+          { "answer_text": "to raise", "is_correct": false },
+          { "answer_text": "raising", "is_correct": true },
+          { "answer_text": "being raised", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-022",
+        "question_text": "The scientist claimed that the strange phenomenon was ____ to extreme fluctuations in the magnetic field.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "attributed", "is_correct": true },
+          { "answer_text": "contributed", "is_correct": false },
+          { "answer_text": "distributed", "is_correct": false },
+          { "answer_text": "substituted", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-023",
+        "question_text": "____ having spent a fortune on the marketing campaign, the sales figures remained disappointingly stagnant.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "In spite", "is_correct": false },
+          { "answer_text": "Although", "is_correct": false },
+          { "answer_text": "Regardless", "is_correct": false },
+          { "answer_text": "Despite", "is_correct": true }
+        ]
+      },
+      {
+        "question_id": "eng-mc-024",
+        "question_text": "It’s high time you ____ taking your responsibilities seriously.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "start", "is_correct": false },
+          { "answer_text": "started", "is_correct": true },
+          { "answer_text": "will start", "is_correct": false },
+          { "answer_text": "have started", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-025",
+        "question_text": "He was caught in a ____ dilemma: revealing the truth would ruin his career, but keeping quiet would harm innocent people.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "slight", "is_correct": false },
+          { "answer_text": "fierce", "is_correct": false },
+          { "answer_text": "profound", "is_correct": false },
+          { "answer_text": "moral", "is_correct": true }
+        ]
+      },
+      {
+        "question_id": "eng-mc-026",
+        "question_text": "Scarcely ____ the stadium when the crowd erupted into deafening cheers.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "the team had entered", "is_correct": false },
+          { "answer_text": "had the team entered", "is_correct": true },
+          { "answer_text": "entered the team", "is_correct": false },
+          { "answer_text": "did the team enter", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-027",
+        "question_text": "The ancient manuscript is so fragile that it is on the ____ of falling apart.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "edge", "is_correct": false },
+          { "answer_text": "verge", "is_correct": true },
+          { "answer_text": "brink", "is_correct": false },
+          { "answer_text": "border", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-028",
+        "question_text": "You ____ the report yesterday. Why is it still sitting on your desk?",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "must have finished", "is_correct": false },
+          { "answer_text": "could finish", "is_correct": false },
+          { "answer_text": "should have finished", "is_correct": true },
+          { "answer_text": "might have finished", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-029",
+        "question_text": "The newly discovered species of orchid is endemic ____ this particular region of the Amazon rainforest.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "with", "is_correct": false },
+          { "answer_text": "in", "is_correct": false },
+          { "answer_text": "for", "is_correct": false },
+          { "answer_text": "to", "is_correct": true }
+        ]
+      },
+      {
+        "question_id": "eng-mc-030",
+        "question_text": "They had a bitter argument, but eventually decided to bury the ____ and become friends again.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "sword", "is_correct": false },
+          { "answer_text": "hatchet", "is_correct": true },
+          { "answer_text": "knife", "is_correct": false },
+          { "answer_text": "shield", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-031",
+        "question_text": "My grandmother ____ tell us fascinating stories about her childhood during the war.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "was used to", "is_correct": false },
+          { "answer_text": "used to", "is_correct": true },
+          { "answer_text": "got used to", "is_correct": false },
+          { "answer_text": "would use to", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-032",
+        "question_text": "The success of the project is ____ dependent on the funding we receive from the investors.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "highly", "is_correct": false },
+          { "answer_text": "deeply", "is_correct": false },
+          { "answer_text": "strongly", "is_correct": false },
+          { "answer_text": "heavily", "is_correct": true }
+        ]
+      },
+      {
+        "question_id": "eng-mc-033",
+        "question_text": "The suspect denied ____ anywhere near the crime scene on the night of the murder.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "to be", "is_correct": false },
+          { "answer_text": "being", "is_correct": false },
+          { "answer_text": "having been", "is_correct": true },
+          { "answer_text": "to have been", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-034",
+        "question_text": "The ____ of the devastating earthquake was felt across three neighboring countries.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "impact", "is_correct": true },
+          { "answer_text": "affection", "is_correct": false },
+          { "answer_text": "affect", "is_correct": false },
+          { "answer_text": "effective", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-035",
+        "question_text": "By no means ____ responsible for the massive financial losses incurred last quarter.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "I am", "is_correct": false },
+          { "answer_text": "am I", "is_correct": true },
+          { "answer_text": "I was", "is_correct": false },
+          { "answer_text": "was I", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-036",
+        "question_text": "There is a distinct ____ that the interest rates will be lowered by the central bank next month.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "probability", "is_correct": true },
+          { "answer_text": "opportunity", "is_correct": false },
+          { "answer_text": "occasion", "is_correct": false },
+          { "answer_text": "fortune", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-037",
+        "question_text": "Only when you live abroad ____ the true value of your cultural heritage.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "you will understand", "is_correct": false },
+          { "answer_text": "will you understand", "is_correct": true },
+          { "answer_text": "you understand", "is_correct": false },
+          { "answer_text": "do you understand", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-038",
+        "question_text": "We were completely taken ____ by the sudden resignation of the CEO.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "off", "is_correct": false },
+          { "answer_text": "up", "is_correct": false },
+          { "answer_text": "aback", "is_correct": true },
+          { "answer_text": "over", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-039",
+        "question_text": "The teacher asked the student ____ he had been absent for the past three days.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "what", "is_correct": false },
+          { "answer_text": "why", "is_correct": true },
+          { "answer_text": "that", "is_correct": false },
+          { "answer_text": "which", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-040",
+        "question_text": "Despite their best efforts, the doctors could not ____ the spread of the infection.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "arrest", "is_correct": true },
+          { "answer_text": "capture", "is_correct": false },
+          { "answer_text": "seize", "is_correct": false },
+          { "answer_text": "catch", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-041",
+        "question_text": "The athlete's performance in the final race was nothing short of ____.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "spectacular", "is_correct": true },
+          { "answer_text": "spectacle", "is_correct": false },
+          { "answer_text": "spectator", "is_correct": false },
+          { "answer_text": "spectacularly", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-042",
+        "question_text": "____ that she burst into tears and ran out of the room.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "So angry was she", "is_correct": true },
+          { "answer_text": "Such angry was she", "is_correct": false },
+          { "answer_text": "So angry she was", "is_correct": false },
+          { "answer_text": "How angry she was", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-043",
+        "question_text": "It is crucial that the delicate ecosystem of the coral reef ____ preserved for future generations.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "is", "is_correct": false },
+          { "answer_text": "be", "is_correct": true },
+          { "answer_text": "will be", "is_correct": false },
+          { "answer_text": "being", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-044",
+        "question_text": "We are looking for candidates who can think outside the ____ and propose innovative solutions.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "square", "is_correct": false },
+          { "answer_text": "frame", "is_correct": false },
+          { "answer_text": "box", "is_correct": true },
+          { "answer_text": "circle", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-045",
+        "question_text": "He ____ to have been a spy during the Cold War, though no official documents confirm this.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "is rumored", "is_correct": true },
+          { "answer_text": "rumors", "is_correct": false },
+          { "answer_text": "rumored", "is_correct": false },
+          { "answer_text": "was rumored", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-046",
+        "question_text": "The negotiations broke ____ after neither side was willing to compromise on the tariff issues.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "out", "is_correct": false },
+          { "answer_text": "down", "is_correct": true },
+          { "answer_text": "in", "is_correct": false },
+          { "answer_text": "off", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-047",
+        "question_text": "As a seasoned traveler, she is accustomed to ____ with unexpected delays and cultural differences.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "cope", "is_correct": false },
+          { "answer_text": "coping", "is_correct": true },
+          { "answer_text": "coped", "is_correct": false },
+          { "answer_text": "be coping", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-048",
+        "question_text": "The old bridge is no longer safe; it is in desperate need of ____.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "maintenance", "is_correct": true },
+          { "answer_text": "maintaining", "is_correct": false },
+          { "answer_text": "maintain", "is_correct": false },
+          { "answer_text": "maintained", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-049",
+        "question_text": "I would appreciate ____ me know your decision as soon as possible.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "you to let", "is_correct": false },
+          { "answer_text": "your letting", "is_correct": true },
+          { "answer_text": "you let", "is_correct": false },
+          { "answer_text": "that you let", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "eng-mc-050",
+        "question_text": "The two brothers are like chalk and ____; one is extremely introverted while the other is the life of the party.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "board", "is_correct": false },
+          { "answer_text": "dust", "is_correct": false },
+          { "answer_text": "cheese", "is_correct": true },
+          { "answer_text": "water", "is_correct": false }
+        ]
+      }
+    ],
+    "reading": [
+      {
+        "id": "reading-cloze-05",
+        "type": "cloze",
+        "title": "THE INVISIBLE THREAT OF SPACE DEBRIS",
+        "passage": "Since the launch of Sputnik in 1957, humanity has been sending satellites and spacecraft into orbit at an exponential rate. While this has undoubtedly propelled global communication and scientific discovery, it has also created a hazardous byproduct: space debris. Currently, there are millions of pieces of \"space junk\" orbiting the Earth, ranging from defunct satellites and discarded rocket stages to tiny flecks of paint. Traveling at speeds exceeding 28,000 kilometers per hour, even a screw can hit an active satellite with the force of an exploding grenade. This growing accumulation poses a severe threat to operational spacecraft, including the International Space Station (ISS), which frequently has to perform evasive maneuvers to avoid (51) ____. The worst-case scenario is known as the Kessler Syndrome, a theoretical tipping point proposed by NASA scientist Donald Kessler. He warned that the density of objects in Low Earth Orbit could become so great that a single collision would generate a cascade of debris, triggering further collisions. (52) ____, this chain reaction could render the Earth's orbit entirely unusable for generations, effectively grounding human space exploration. Addressing this invisible crisis requires unprecedented international (53) ____. Several innovative solutions are currently under development. Some aerospace companies are testing giant nets and harpoons designed to capture and drag large pieces of debris back into the atmosphere, where they will safely burn up. Others are exploring the use of high-powered lasers to push junk out of dangerous trajectories. (54) ____ promising these technologies may be, they are prohibitively expensive and legally complex to deploy. Ultimately, the most effective strategy is prevention. Space agencies must enforce strict regulations ensuring that new satellites are equipped with mechanisms to safely de-orbit at the end of their operational (55) ____.",
+        "questions": [
+          {
+            "question_id": "eng-r-cloze-051",
+            "question_text": "Blank (51)",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "collisions", "is_correct": true },
+              { "answer_text": "encounters", "is_correct": false },
+              { "answer_text": "agreements", "is_correct": false },
+              { "answer_text": "combinations", "is_correct": false }
+            ]
+          },
+          {
+            "question_id": "eng-r-cloze-052",
+            "question_text": "Blank (52)",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "Conversely", "is_correct": false },
+              { "answer_text": "Consequently", "is_correct": true },
+              { "answer_text": "Moreover", "is_correct": false },
+              { "answer_text": "Nevertheless", "is_correct": false }
+            ]
+          },
+          {
+            "question_id": "eng-r-cloze-053",
+            "question_text": "Blank (53)",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "isolation", "is_correct": false },
+              { "answer_text": "rivalry", "is_correct": false },
+              { "answer_text": "collaboration", "is_correct": true },
+              { "answer_text": "domination", "is_correct": false }
+            ]
+          },
+          {
+            "question_id": "eng-r-cloze-054",
+            "question_text": "Blank (54)",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "However", "is_correct": true },
+              { "answer_text": "Whatever", "is_correct": false },
+              { "answer_text": "Although", "is_correct": false },
+              { "answer_text": "Despite", "is_correct": false }
+            ]
+          },
+          {
+            "question_id": "eng-r-cloze-055",
+            "question_text": "Blank (55)",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "lifespan", "is_correct": true },
+              { "answer_text": "capacity", "is_correct": false },
+              { "answer_text": "distance", "is_correct": false },
+              { "answer_text": "velocity", "is_correct": false }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "reading-comprehension-05",
+        "type": "reading_comprehension",
+        "title": "THE PARADOX OF CHOICE",
+        "passage": "In modern consumer societies, freedom is often equated with the maximum number of choices. Walk into any large supermarket, and you will be confronted with dozens of varieties of cereal, toothpaste, and coffee. Online platforms offer infinite options for movies, music, and romantic partners. The underlying assumption is that more choice leads to better outcomes and increased human happiness. However, American psychologist Barry Schwartz argues exactly the opposite in his groundbreaking book, The Paradox of Choice. Schwartz's research suggests that while a complete lack of choice is oppressive, an overabundance of choice can be equally debilitating. When presented with too many options, consumers frequently experience \"analysis paralysis.\" The cognitive effort required to evaluate the pros and cons of 50 different smartphones overwhelms the brain. As a result, people either delay making a decision indefinitely or make a hasty choice that they later regret. Furthermore, an excess of options significantly elevates our expectations. In a world with only two types of jeans, if a pair doesn't fit perfectly, you blame the manufacturer. But in a store offering hundreds of styles and cuts, if you buy a pair that is anything less than perfect, you blame yourself for making the wrong choice. This phenomenon, known as \"opportunity cost,\" means that every time we make a selection, we are acutely aware of the potentially desirable features of the options we rejected. Consequently, even when we make objectively good decisions, our subjective satisfaction is drastically reduced. To combat this modern malaise, Schwartz categorizes consumers into two types: \"Maximizers\" and \"Satisficers.\" Maximizers obsessively search for the absolute best option, agonizing over every detail, which makes them highly prone to depression and regret. Satisficers, on the other hand, have a set of criteria and settle for the first option that meets their standards. Studies consistently show that Satisficers are significantly happier and more content with their decisions. In an era of infinite variety, learning to say \"good enough\" might be the ultimate key to psychological well-being.",
+        "questions": [
+          {
+            "question_id": "eng-r-comp-056",
+            "question_text": "What is the fundamental assumption of modern consumer societies that Barry Schwartz challenges?",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "That supermarkets should stock fewer items to save space.", "is_correct": false },
+              { "answer_text": "That having more options directly results in greater happiness and freedom.", "is_correct": true },
+              { "answer_text": "That online platforms are ruining romantic relationships.", "is_correct": false },
+              { "answer_text": "That consumers are not intelligent enough to make complex decisions.", "is_correct": false }
+            ]
+          },
+          {
+            "question_id": "eng-r-comp-057",
+            "question_text": "What happens to consumers when they face \"analysis paralysis\"?",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "They effortlessly pick the best option available.", "is_correct": false },
+              { "answer_text": "They find the cognitive effort overwhelming and struggle to make a decision.", "is_correct": true },
+              { "answer_text": "They buy every single option to test them out at home.", "is_correct": false },
+              { "answer_text": "They blame the manufacturers for producing low-quality goods.", "is_correct": false }
+            ]
+          },
+          {
+            "question_id": "eng-r-comp-058",
+            "question_text": "According to the text, how does an overabundance of choice affect a consumer's expectations?",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "It lowers expectations because everything looks the same.", "is_correct": false },
+              { "answer_text": "It eliminates the concept of opportunity cost.", "is_correct": false },
+              { "answer_text": "It raises expectations, leading individuals to blame themselves if a choice isn't perfect.", "is_correct": true },
+              { "answer_text": "It makes consumers less likely to care about the quality of their purchase.", "is_correct": false }
+            ]
+          },
+          {
+            "question_id": "eng-r-comp-059",
+            "question_text": "Based on Schwartz's categorization, how does a \"Satisficer\" make a decision?",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "They research every single option on the market before deciding.", "is_correct": false },
+              { "answer_text": "They choose the most expensive item, assuming it is the best.", "is_correct": false },
+              { "answer_text": "They rely entirely on the recommendations of shop assistants.", "is_correct": false },
+              { "answer_text": "They choose the first option that meets their predetermined requirements.", "is_correct": true }
+            ]
+          },
+          {
+            "question_id": "eng-r-comp-060",
+            "question_text": "What is the author's primary purpose in writing this passage?",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "To advertise a new method for organizing supermarkets.", "is_correct": false },
+              { "answer_text": "To explain the psychological drawbacks of having too many options and suggest a coping strategy.", "is_correct": true },
+              { "answer_text": "To criticize psychologists who study consumer behavior.", "is_correct": false },
+              { "answer_text": "To argue that governments should legally limit the number of products companies can sell.", "is_correct": false }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "reading-cloze-06",
+        "type": "cloze",
+        "title": "BIOMIMICRY: ARCHITECTURE INSPIRED BY NATURE",
+        "passage": "For thousands of years, architects have looked to nature for aesthetic inspiration, incorporating floral motifs into columns and animal shapes into gargoyles. However, modern architecture is experiencing a paradigm shift towards biomimicry—the practice of analyzing nature's designs and processes to solve complex human engineering challenges. Rather than simply copying what nature looks like, biomimetic architects study how nature functions, adapting its highly efficient mechanisms to create sustainable and resilient buildings. A classic example of this is the Eastgate Centre in Harare, Zimbabwe. Designed by architect Mick Pearce, the building features no conventional air conditioning system, despite being located in a region with extreme temperature fluctuations. Instead, Pearce modeled the building's ventilation system (61) ____ the complex structure of termite mounds. Termites cultivate a fungus that must be kept at a precise temperature. To achieve this, they construct mounds with a network of flues and vents that constantly circulate air, expelling hot air out of the top and drawing cool air in at the base. By mimicking this passive cooling system, the Eastgate Centre uses 90% less energy than a conventional building of its size, saving millions of dollars in (62) ____ costs. Another fascinating application of biomimicry is found in the development of self-cleaning surfaces. The leaves of the lotus flower appear spotless despite growing in muddy waters. Under a microscope, scientists discovered that the leaf's surface is covered in microscopic, water-repellent bumps. When rain falls, it forms perfect spheres that roll off the leaf, carrying dirt and debris (63) ____ them. Paint manufacturers have successfully replicated this \"lotus effect,\" creating exterior paints for buildings that are washed clean by the rain, significantly reducing the need for chemical detergents and maintenance. As the impacts of climate change become more severe, the construction industry is under immense pressure to reduce its massive carbon (64) ____. Biomimicry offers a profound realization: after 3.8 billion years of evolution, nature has already solved many of the problems we currently face. By treating nature as a mentor rather than merely a resource, architects can design a built environment that operates in harmony (65) ____ the natural world.",
+        "questions": [
+          {
+            "question_id": "eng-r-cloze-061",
+            "question_text": "Blank (61)",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "across", "is_correct": false },
+              { "answer_text": "behind", "is_correct": false },
+              { "answer_text": "on", "is_correct": true },
+              { "answer_text": "inside", "is_correct": false }
+            ]
+          },
+          {
+            "question_id": "eng-r-cloze-062",
+            "question_text": "Blank (62)",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "operating", "is_correct": true },
+              { "answer_text": "manufacturing", "is_correct": false },
+              { "answer_text": "agricultural", "is_correct": false },
+              { "answer_text": "marketing", "is_correct": false }
+            ]
+          },
+          {
+            "question_id": "eng-r-cloze-063",
+            "question_text": "Blank (63)",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "without", "is_correct": false },
+              { "answer_text": "within", "is_correct": false },
+              { "answer_text": "against", "is_correct": false },
+              { "answer_text": "with", "is_correct": true }
+            ]
+          },
+          {
+            "question_id": "eng-r-cloze-064",
+            "question_text": "Blank (64)",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "emission", "is_correct": false },
+              { "answer_text": "footprint", "is_correct": true },
+              { "answer_text": "damage", "is_correct": false },
+              { "answer_text": "pollution", "is_correct": false }
+            ]
+          },
+          {
+            "question_id": "eng-r-cloze-065",
+            "question_text": "Blank (65)",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "with", "is_correct": true },
+              { "answer_text": "for", "is_correct": false },
+              { "answer_text": "to", "is_correct": false },
+              { "answer_text": "by", "is_correct": false }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "reading-comprehension-06",
+        "type": "reading_comprehension",
+        "title": "THE COLLAPSE OF THE CLASSIC MAYA CIVILIZATION",
+        "passage": "Deep within the jungles of Central America lie the towering pyramids and sprawling plazas of the ancient Maya civilization. During their Classic Period (250–900 CE), the Maya built a highly advanced society characterized by sophisticated mathematics, a complex writing system, and precise astronomical calendars. Their cities, such as Tikal and Copán, were home to tens of thousands of people. Yet, by the 10th century, these magnificent urban centers were mysteriously abandoned, reclaimed by the encroaching rainforest. For over a century, the \"Maya collapse\" has been one of archaeology's most enduring mysteries. Early theories often sought a single, catastrophic cause for the decline, such as a massive earthquake, a foreign invasion, or a sudden outbreak of disease. However, modern archaeologists and paleoclimatologists now agree that the collapse was not a sudden event, but rather a protracted process driven by a complex web of interconnected factors. At the heart of this systemic failure was severe environmental degradation. As the Maya population boomed, they aggressively deforested the landscape to clear land for agriculture and to burn limestone to make the stucco that coated their grand monuments. This massive deforestation had devastating consequences. Without the tree canopy to absorb sunlight and retain moisture, local temperatures rose and rainfall decreased. This localized climate change was exacerbated by a series of severe, prolonged droughts that struck the region in the 9th and 10th centuries. The Maya were heavily dependent on seasonal rainfall to fill their reservoirs and irrigate their crops. When the rains failed repeatedly, agricultural yields plummeted, leading to widespread famine. The resulting scarcity of resources ignited intense social and political instability. The Maya were not a unified empire, but a network of rival city-states ruled by \"holy lords\" who claimed divine connections to the gods. When these rulers could no longer provide food or successfully petition the gods for rain, the populace lost faith in their leadership. Inter-city warfare, which had previously been conducted mostly to capture elites for sacrifice, escalated into desperate, destructive wars over dwindling land and water resources. Ultimately, starving and disillusioned, the commoners abandoned the crumbling cities, migrating to areas with more reliable water sources, marking the quiet end of a brilliant civilization.",
+        "questions": [
+          {
+            "question_id": "eng-r-comp-066",
+            "question_text": "What does the passage suggest about the nature of the \"Maya collapse\"?",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "It was caused by a sudden, devastating earthquake in the 10th century.", "is_correct": false },
+              { "answer_text": "It was a rapid event caused by the invasion of foreign armies.", "is_correct": false },
+              { "answer_text": "It was a slow, complex process involving multiple contributing factors.", "is_correct": true },
+              { "answer_text": "It was entirely a myth; the cities were never actually abandoned.", "is_correct": false }
+            ]
+          },
+          {
+            "question_id": "eng-r-comp-067",
+            "question_text": "Why did the Maya engage in massive deforestation?",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "To clear pathways for their armies to invade other cities.", "is_correct": false },
+              { "answer_text": "To create space for farming and to produce stucco for their buildings.", "is_correct": true },
+              { "answer_text": "Because they believed trees were inhabited by evil spirits.", "is_correct": false },
+              { "answer_text": "To export timber to neighboring civilizations for profit.", "is_correct": false }
+            ]
+          },
+          {
+            "question_id": "eng-r-comp-068",
+            "question_text": "How did the loss of the tree canopy affect the local climate?",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "It caused severe flooding by allowing too much rain to fall.", "is_correct": false },
+              { "answer_text": "It made the climate significantly colder and increased snowfall.", "is_correct": false },
+              { "answer_text": "It had no measurable effect on the local weather patterns.", "is_correct": false },
+              { "answer_text": "It increased local temperatures and decreased the amount of rainfall.", "is_correct": true }
+            ]
+          },
+          {
+            "question_id": "eng-r-comp-069",
+            "question_text": "How did the prolonged droughts affect the political stability of the Maya city-states?",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "They united the rival city-states into a single, peaceful empire.", "is_correct": false },
+              { "answer_text": "They caused the rulers to lose their legitimacy and escalated warfare over resources.", "is_correct": true },
+              { "answer_text": "They led the rulers to conquer distant territories with more water.", "is_correct": false },
+              { "answer_text": "They prompted the citizens to invent new, drought-resistant crops.", "is_correct": false }
+            ]
+          },
+          {
+            "question_id": "eng-r-comp-070",
+            "question_text": "What can be inferred about the nature of Maya warfare before the environmental crisis?",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "It was primarily focused on totally destroying rival cities.", "is_correct": false },
+              { "answer_text": "It was largely ceremonial, aimed at capturing high-ranking enemies.", "is_correct": true },
+              { "answer_text": "It involved massive navies fighting on the oceans.", "is_correct": false },
+              { "answer_text": "It never occurred, as the Maya were historically a completely peaceful society.", "is_correct": false }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
