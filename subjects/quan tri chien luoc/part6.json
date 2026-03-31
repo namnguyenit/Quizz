@@ -1,0 +1,2258 @@
+[
+	{
+		"question_id": "sm-q501",
+		"question_text": "Chiến lược đa dạng hóa có liên quan là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Mở rộng hoạt động sang các lĩnh vực mới không liên quan đến hoạt động chính.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Mở rộng hoạt động sang các lĩnh vực mới nhưng có liên quan đến hoạt động chính.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Tập trung vào việc cải thiện sản phẩm hiện có.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tập trung vào việc giảm chi phí sản xuất.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q502",
+		"question_text": "Khi nào doanh nghiệp nên áp dụng chiến lược hội nhập dọc?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Khi doanh nghiệp muốn tăng cường quan hệ với khách hàng.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Khi doanh nghiệp muốn kiểm soát tốt hơn các yếu tố đầu vào hoặc đầu ra.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Khi doanh nghiệp muốn mở rộng thị trường.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Khi doanh nghiệp muốn giảm chi phí sản xuất.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q503",
+		"question_text": "Chiến lược phòng thủ bao gồm những loại nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Chiến lược cắt giảm, chiến lược bán bớt, chiến lược đóng cửa.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Chiến lược thâm nhập thị trường, phát triển thị trường, phát triển sản phẩm.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chiến lược đa dạng hóa liên quan, đa dạng hóa không liên quan.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chiến lược hội nhập dọc, hội nhập ngang.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q504",
+		"question_text": "Chiến lược đa dạng hóa có liên quan thường được áp dụng trong trường hợp nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Thị trường hiện tại đang tăng trưởng mạnh và không cần sản phẩm mới",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Doanh nghiệp muốn mở rộng sang lĩnh vực hoàn toàn mới, không liên quan đến ngành hiện tại",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Sản phẩm mới có thể tạo ra sự cộng hưởng với sản phẩm hiện tại của doanh nghiệp",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Thị trường hiện tại đã bão hòa và không còn khách hàng mới",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q505",
+		"question_text": "Nếu một doanh nghiệp muốn giảm phụ thuộc vào nhà cung cấp và tăng khả năng kiểm soát chất lượng nguyên liệu đầu vào, chiến lược nào phù hợp nhất?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Hội nhập ngang",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Hội nhập dọc ngược chiều",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Đa dạng hóa liên quan",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Phát triển sản phẩm",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q506",
+		"question_text": "Chiến lược liên minh chiến lược thường được áp dụng khi nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Khi doanh nghiệp muốn giảm cạnh tranh nội bộ",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Khi doanh nghiệp muốn thâm nhập thị trường mới mà thiếu nguồn lực",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Khi doanh nghiệp muốn giảm giá bán sản phẩm",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Khi doanh nghiệp không có đối thủ trong ngành",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q507",
+		"question_text": "Một công ty đang chiếm lĩnh thị phần lớn trong ngành hiện tại nhưng ngành này có tốc độ tăng trưởng chậm. Công ty nên áp dụng chiến lược nào để tối ưu hóa lợi nhuận?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Thâm nhập thị trường",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Phát triển thị trường",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chiến lược ổn định",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Đa dạng hóa không liên quan",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q508",
+		"question_text": "Điều kiện áp dụng chiến lược thâm nhập thị trường là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Khi thị trường hiện tại đã bão hòa",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Khi thị phần của đối thủ chính giảm, trong khi tiêu thụ toàn ngành tăng",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Khi doanh nghiệp không có khả năng đổi mới sản phẩm",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Khi doanh nghiệp không có đủ nguồn lực",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q509",
+		"question_text": "Đâu là vai trò của chiến lược cấp doanh nghiệp?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Xác định những lĩnh vực kinh doanh mà DN nên tham gia hoặc sẽ tham gia vào, tập trung vào sự thay đổi ở cấp độ toàn DN.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Xác định cách thức mà công ty sẽ tiến hành hoạt động và vai trò của mỗi đơn vị kinh doanh trong công ty trong việc theo đuổi cách thức hoạt động đó.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Nâng cao kết quả các hoạt động kinh doanh riêng biệt, Hướng đến việc đa dạng hóa hoạt động, Tạo ra sự cộng hưởng giữa các hoạt động kinh doanh",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Cả A, B, C đều đúng",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "sm-q510",
+		"question_text": "Một trong những chiến lược cấp công ty phổ biến là:",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Chiến lược khác biệt hóa.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chiến lược chi phí thấp.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chiến lược tập trung.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chiến lược đa dạng hóa.",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "sm-q511",
+		"question_text": "Chiến lược tập trung (Focus Strategy) trong quản trị chiến lược là một phần của:",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Chiến lược cấp công ty.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chiến lược cấp đơn vị kinh doanh.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Chiến lược cấp chức năng.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chiến lược cấp quốc gia.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q512",
+		"question_text": "Chiến lược cắt giảm quy mô được áp dụng khi:",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Doanh nghiệp muốn tập trung vào thị trường mới.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Doanh nghiệp gặp khó khăn về tài chính hoặc hoạt động không hiệu quả.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Doanh nghiệp muốn đầu tư vào ngành công nghiệp mới.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Doanh nghiệp đạt được lợi thế cạnh tranh trên thị trường.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q513",
+		"question_text": "Chiến lược đa dạng hóa là:",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Chiến lược tập trung phát triển sản phẩm hoặc dịch vụ trong lĩnh vực hiện tại.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chiến lược mở rộng hoạt động kinh doanh sang các ngành hoặc lĩnh vực khác nhau.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Chiến lược giảm chi phí sản xuất để tăng lợi nhuận.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chiến lược cải thiện hiệu suất thông qua tối ưu hóa quy trình hiện tại",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q514",
+		"question_text": "Chiến lược cấp doanh nghiệp là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Chiến lược quản lý các hoạt động hàng ngày của doanh nghiệp",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chiến lược hướng tới sự tăng trưởng và phát triển dài hạn của doanh nghiệp",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Chiến lược phân bổ nguồn lực trong một phòng ban cụ thể",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chiến lược tập trung vào marketing và bán hàng",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q515",
+		"question_text": "Trong ma trận BCG, một \"ngôi sao\" (star) thường đại diện cho:",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Sản phẩm có thị phần lớn và tốc độ tăng trưởng cao",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Sản phẩm đang suy giảm",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Sản phẩm không sinh lời nhưng tăng trưởng cao",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Sản phẩm cần đầu tư nhiều",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q516",
+		"question_text": "Ma trận McKinsey được sử dụng chủ yếu để:",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Phân tích hiệu quả của từng nhân viên trong doanh nghiệp",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Đánh giá danh mục đầu tư và ra quyết định phân bổ nguồn lực",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Xác định các chiến lược marketing cho từng sản phẩm",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Dự đoán xu hướng tăng trưởng của ngành",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q517",
+		"question_text": "Doanh nghiệp sử dụng chiến lược tập trung hóa (focus strategy) khi:",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Muốn phục vụ toàn bộ thị trường",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tập trung vào một phân khúc cụ thể thông qua khác biệt hóa sản phẩm hoặc chi phí thấp",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Mở rộng danh mục sản phẩm",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Đẩy mạnh giảm giá thành sản phẩm",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q518",
+		"question_text": "Một doanh nghiệp áp dụng chiến lược đa dạng hóa đồng tâm (concentric diversification) khi:",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Mở rộng sang lĩnh vực hoàn toàn mới không liên quan",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Phát triển sản phẩm hoặc dịch vụ mới liên quan đến năng lực cốt lõi",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Giảm giá thành sản phẩm để cạnh tranh",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Đầu tư vào công nghệ sản xuất",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q519",
+		"question_text": "Chiến lược phòng thủ gồm những chiến lược nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Chiến lược cắt giảm",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chiến lược bán bớt",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chiến lược đóng cửa",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Cả ba đáp án trên.",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "sm-q520",
+		"question_text": "Lợi thế chính của chiến lược tăng trưởng tập trung là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Tận dụng nguồn lực bên ngoài doanh nghiệp.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Đầu tư vào nghiên cứu và phát triển sản phẩm mới.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tập trung nguồn lực vào các hoạt động chủ lực và sở trường.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Mở rộng quy mô kinh doanh toàn cầu.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q521",
+		"question_text": "Mục đích chính của chiến lược thâm nhập thị trường là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Phát triển sản phẩm mới để phục vụ khách hàng.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Gia tăng thị phần cho các sản phẩm hoặc dịch vụ hiện tại thông qua nỗ lực Marketing.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Mở rộng thị trường ra các khu vực quốc tế.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Đa dạng hóa sản phẩm để giảm rủi ro.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q522",
+		"question_text": "Đâu không là nhược điểm của Chiến lược hội nhập dọc?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Tạo rào cản đối với gia nhập thị trường của các đối thủ cạnh tranh tiền ẩn",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Đòi hỏi đầu tư lớn, gây sức ép đến nguồn lực của DN",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Khi công nghệ thay đổi nhanh chóng, chiến lược hội nhập dọc tạo nguy cơ gắn liền sự ràng buộc của DN với công nghệ lạc hậu",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Bất ổn trong trường hợp DN bị suy thoái.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q523",
+		"question_text": "Chiến lược ở vùng ổn định thường áp dụng cho doanh nghiệp nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Doanh nghiệp trong các ngành tăng trưởng nhanh.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Doanh nghiệp có chi phí mở rộng thị trường thấp.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Doanh nghiệp trong các ngành tăng trưởng chậm hoặc không tăng trưởng.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Doanh nghiệp lớn muốn chiếm lĩnh thị trường quốc tế.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q524",
+		"question_text": "…….. là nền tảng của chiến lược đại dương xanh.",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Sự đổi mới",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tạo giá trị",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Đổi mới giá trị",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Đánh đổi giá trị chi phí",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q525",
+		"question_text": "Chiến lược đại dương xanh có thể áp dụng cho các loại hình doanh nghiệp nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Doanh nghiệp lớn",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Doanh nghiệp khởi nghiệp",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Doanh nghiệp khối nhà nước",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tất cả đều đúng",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "sm-q526",
+		"question_text": "Khi triển khai chiến lược đại dương xanh, chúng ta đang theo đuổi những gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Khác biệt hóa",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chi phí thấp",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Đổi mới sáng tạo về giá trị (value innovation)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Tất cả đều đúng",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q527",
+		"question_text": "Khái niệm nào được nhắc đến nhiều nhất trong chiến lược đại dương xanh?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Trải nghiệm khách hàng",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Nỗi đau của khách hàng",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Lòng trung thành của khách hàng",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Thói quen mua sắm của khách hàng",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q528",
+		"question_text": "Khi thực hiện chiến lược đại dương xanh, chỉ có những người từ cấp quản lý trở lên mới tham gia, còn nhân viên cấp dưới thì không cần phải biết đến chiến lược, chỉ cần thực thi là đủ.",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Đúng",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Sai",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "sm-q529",
+		"question_text": "Công ty có thể giảm chi phí thông qua",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Kinh nghiệm",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Vốn vay",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Gia đình hỗ trợ",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q530",
+		"question_text": "Công ty có thể tăng chi phí thông qua?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Hàng hóa bổ sung",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Thu hẹp quy mô doanh nghiệp",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Bán hàng giá cao",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q531",
+		"question_text": "Công ty có thể sử dụng chiến lược tập trung nếu có?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Nhu cầu phân khúc riêng biệt",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Độc quyền",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Bán hàng giá cao",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q532",
+		"question_text": "Đâu là điểm mạnh của chiến lược Đại Dương Đỏ?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Cơ chế ra quyết định nhanh",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Có sự độc quyền",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Là chiến lược tốt nhất hiện nay",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q533",
+		"question_text": "Đâu không phải là đặc điểm của chiến lược kinh doanh: Chiến lược đại dương đỏ.",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Cạnh tranh khốc liệt trong khoảng thị trường hiện tại.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Khai thác nhu cầu hiện có.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tạo và nắm bắt nhu cầu mới.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Luôn tìm cách đánh bại đối thủ cạnh tranh.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q534",
+		"question_text": "Khi nào nên sử dụng chiến lược đại dương đỏ.",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Khi một công ty muốn mở rộng doanh số bằng cách tập trung vào thị trường hiện có mà không cần phải đấu tranh để tạo ra nhu cầu mới cho sản phẩm.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Khi doanh nghiệp cần tiến hành cải tiến, điều chỉnh tái đổi mới cho giá trị chiến lược.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Doanh nghiệp cần tập trung khai thác, đào sâu, mở rộng các hướng kinh doanh bằng việc cải tiến hoạt động, mở rộng địa bàn nhằm chiếm được nhiều thị phần hơn.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Khi thị trường ngách nhỏ, nơi tập trung nhóm khách hàng mục tiêu và không có hoặc có ít đối thủ cạnh tranh.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q535",
+		"question_text": "Chiến lược đại dương đỏ tập trung chủ yếu vào:",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Tạo ra thị trường mới và chưa khai khác.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Cạnh tranh trong thị trường hiện taị.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Tăng lợi nhuận bằng cách giảm chi phí.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Đổi mới sản phẩm và dịch vụ.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q536",
+		"question_text": "Một chiến lược đại dương đỏ có thể dẫn đến:",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Cạnh tranh gay gắt và giảm lợi nhuận.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Tăng trưởng bền vững và mức độ cạnh tranh thấp.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tạo ra thị trường hoàn toàn mới.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Ngăn chặn việc các đối thủ gia nhập thị trường.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q537",
+		"question_text": "Một đặc điểm chính của chiến lược đại dương đỏ là:",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Cạnh tranh về giá và thị trường kém.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tạo ra giá trị độc nhất cho khách hàng.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "nhắm đến khách hàng mới mà không chấp nhận rủi ro.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Cạnh tranh trực tiếp với các đối thủ hiện tại",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "sm-q538",
+		"question_text": "Khi lợi thế cạnh với chi phí thấp và phạm vi cạnh tranh hẹp thì doanh nghiệp sử dụng chiến lược cạnh tranh nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Chiến lược dẫn đầu về chi phí.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chiến lược khác biệt hoá.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chiến lược tập trung vào dẫn đầu về chi phí.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Chiến lược tập trung vào khác biệt hoá.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q539",
+		"question_text": "Công ty có thể sử dụng chiến lược tập trung nếu thực sự có yếu tố nào sau đây?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Nhu cầu phân khúc riêng biệt.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chuỗi giá trị phân khúc riêng biệt.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Phân khúc khả thi về mặt kinh tế.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tất cả các đáp án trên.",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "sm-q540",
+		"question_text": "Chỉ số Herfindahl-Hirschman (HHI) ở mức tập trung vừa phải khi nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "HHI dưới 1500",
+				"is_correct": false
+			},
+			{
+				"answer_text": "HHI từ 1500 tới 2500",
+				"is_correct": true
+			},
+			{
+				"answer_text": "HHI từ 1500 tới 3500",
+				"is_correct": false
+			},
+			{
+				"answer_text": "HHI từ 2500 tới 3500",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q541",
+		"question_text": "Thỏa thuận tương hỗ trong liên minh chiến lược là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Một thỏa thuận quan hệ đối tác giữa các công ty tương đồng về tổ chức và ngành hoạt động trong đóng góp nguồn lực nhằm mang lại một lợi ích nhất định mà nếu thực hiện một mình sẽ là quá tốn kém.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Một thỏa thuận hoạt động hợp tác kinh doanh giữa hai hoặc nhiều tổ chức vì mục đích chiến lược, tạo ra một đơn vị kinh doanh độc lập và phân bổ sở hữu, trách nhiệm, rủi ro và lợi ích cho từng thành viên trong khi vẫn duy trì quyền tự chủ.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Một thỏa thuận trong đó bên cấp phép cấp quyền cho bên nhận cấp phép ở một nước khác hoặc thị trường khác có thể sản xuất và/hoặc bán sản phẩm được cấp phép.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Một thỏa thuận quan hệ đối tác giữa các công ty tương đồng về tổ chức và ngành hoạt động tạo ra một đơn vị kinh doanh độc lập và phân bổ sở hữu, trách nhiệm, rủi ro và lợi ích cho từng thành viên trong khi vẫn duy trì quyền tự chủ.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q542",
+		"question_text": "Trong 6 bước của Ma trận QSPM bước Tính Tổng điểm số hấp dẫn (theo chiều ngang) = Trọng số * Điểm số hấp dẫn thuộc bước thứ mấy?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Bước 3",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Bước 4",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Bước 5",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Không thuộc bước nào kể trên.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q543",
+		"question_text": "Một trong những đặc điểm của chiến lược cạnh tranh (Đại dương đỏ) là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Tìm kiếm thị trường mới với ít hoặc không có đối thủ cạnh tranh.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Hợp tác với các đối thủ trong ngành để giảm sự cạnh tranh.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tạo ra giá trị tương đương cho thị trường mục tiêu rộng với chi phí thấp hơn.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Phân tích yếu tố xã hội và văn hóa để hỗ trợ lựa chọn chiến lược.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q544",
+		"question_text": "Chiến lược hợp tác trong đại dương đỏ có thể bao gồm hình thức nào sau đây?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Đổi mới sáng tạo giá trị.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Liên minh chiến lược.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Giảm giá sản phẩm để cạnh tranh.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tăng số lượng đầu ra để giảm chi phí.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q545",
+		"question_text": "Yếu tố nào giúp công ty đạt lợi thế cạnh tranh bằng chiến lược dẫn đầu về chi phí?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Quan hệ khách hàng tốt.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tập trung vào một phân khúc thị trường nhỏ.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Kinh tế quy mô .",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Đổi mới sản phẩm liên tục.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q546",
+		"question_text": "Chỉ số HHI được sử dụng để đánh giá điều gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Sự phù hợp của chiến lược với văn hóa doanh nghiệp.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Mức độ tập trung và cạnh tranh trong một ngành.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Chi phí đầu tư ban đầu của một chiến lược.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Khả năng thành công của chiến lược đổi mới.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q547",
+		"question_text": "Theo chiến lược khác biệt hóa, công ty có thể tăng giá trị bằng cách nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Giảm chi phí đầu vào.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Cải thiện đặc điểm sản phẩm.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Tăng giá sản phẩm để tạo sự khan hiếm.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Giảm giá trị cảm nhận của đối thủ cạnh tranh.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q548",
+		"question_text": "Trong chiến lược hợp tác, \"liên minh chiến lược\" là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Một thỏa thuận ngắn hạn giữa hai công ty.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Một quan hệ hợp tác lâu dài vì lợi ích kinh tế chung.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Một hình thức mua lại công ty khác để hợp tác.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Một phương pháp tạo sự khác biệt trong sản phẩm.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q549",
+		"question_text": "Chiến lược dẫn đầu về chi phí có mục tiêu gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Tăng giá sản phẩm để đạt lợi nhuận cao.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tạo ra giá trị lớn hơn nhưng với chi phí cao hơn.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tạo ra giá trị tương đương với chi phí thấp hơn.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Tập trung vào các phân khúc thị trường hẹp.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q550",
+		"question_text": "Lợi thế cạnh tranh có nghĩa là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Giảm chi phí đầu vào để cạnh tranh với đối thủ.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Làm tốt hơn các đối thủ trong việc tạo giá trị cho khách hàng.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Tăng cường số lượng sản phẩm để cạnh tranh giá.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Mở rộng phạm vi thị trường mục tiêu.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q551",
+		"question_text": "Ma trận SWOT giúp xác định điều gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Các phương án tài chính khả thi nhất.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Điểm mạnh, điểm yếu, cơ hội và thách thức của doanh nghiệp.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Khả năng mở rộng thị trường quốc tế.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Phân khúc thị trường mới chưa khai thác.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q552",
+		"question_text": "Chiến lược \"cấu kết\" trong hợp tác có thể bao gồm điều gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Giảm sản lượng và tăng giá bán.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Mở rộng thị trường mới để giảm cạnh tranh.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tập trung vào phân khúc khách hàng cao cấp.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Đầu tư vào các công nghệ mới.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q553",
+		"question_text": "Trong chiến lược hợp tác, \"liên doanh\" là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Một thỏa thuận ngắn hạn giữa hai công ty về một dự án cụ thể.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Một chiến lược cạnh tranh bằng cách giảm giá sản phẩm .",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Hoạt động hợp tác giữa hai hoặc nhiều tổ chức để tạo ra một đơn vị kinh doanh độc lập.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Một hình thức tập trung vào phân khúc thị trường nhỏ lẻ.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q554",
+		"question_text": "Ma trận QSPM giúp thực hiện điều gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Xác định phạm vi cạnh tranh của công ty.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Đánh giá và lựa chọn chiến lược phù hợp dựa trên điểm hấp dẫn.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Đưa ra các yếu tố chính ảnh hưởng đến chiến lược.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "So sánh các đối thủ cạnh tranh trong ngành.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q555",
+		"question_text": "Mô hình TOWS có thể giúp doanh nghiệp xây dựng chiến lược dài hạn trong bối cảnh thay đổi nhanh chóng của thị trường bằng cách:",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Chỉ tập trung vào các yếu tố bên ngoài.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Đưa ra chiến lược dựa trên sự kết hợp giữa điểm mạnh và cơ hội.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Cân nhắc các yếu tố yếu kém và đe dọa mà không tính đến điểm mạnh.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Sử dụng các phân tích tài chính để xác định chiến lược.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q556",
+		"question_text": "Một doanh nghiệp đang hoạt động trong thị trường đại dương đỏ và nhận thấy rằng đối thủ cạnh tranh đang giảm giá sản phẩm. Theo mô hình SWOT/TOWS, đây được xem là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Điểm mạnh của đối thủ.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Điểm yếu của doanh nghiệp.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Cơ hội của đối thủ.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Đe dọa đối với doanh nghiệp",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "sm-q557",
+		"question_text": "Chiến lược tập trung có thể được áp dụng khi nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Không có nhu cầu phân khúc cụ thể",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Có chuỗi giá trị phân khúc riêng biệt",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Thị trường mục tiêu quá rộng",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Không có lợi thế cạnh tranh",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q558",
+		"question_text": "Ba loại chiến lược trong nhóm Chiến lược cạnh tranh là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Cấu kết, liên minh chiến lược, tập trung",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Dẫn đầu về chi phí, khác biệt hóa, tập trung",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Tạo mới, cải tiến, giảm chi phí",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Phân khúc thị trường, cải thiện dịch vụ, tăng giá trị",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q559",
+		"question_text": "Yếu tố nào không giúp giảm chi phí trong chiến lược Dẫn đầu về chi phí?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Kinh tế quy mô",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Học hỏi từ kinh nghiệm",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Đặc điểm sản phẩm độc đáo",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Chi phí các yếu tố đầu vào",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q560",
+		"question_text": "Yếu tố nào giúp giảm chi phí trong chiến lược Dẫn đầu về chi phí?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Mở rộng thị trường quốc tế",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Đầu tư vào dịch vụ khách hàng",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Kinh tế quy mô và đường cong kinh nghiệm",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Tăng giá bán sản phẩm",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q561",
+		"question_text": "Trong chiến lược hợp tác, Cấu kết công khai khác Cấu kết ngầm ở điểm nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Cấu kết công khai được thực hiện qua hệ thống tín hiệu",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Cấu kết công khai là hợp pháp ở mọi quốc gia",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Cấu kết công khai dựa trên giao tiếp và đàm phán trực tiếp",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Cấu kết ngầm yêu cầu phải có liên doanh chính thức",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q562",
+		"question_text": "Chiến lược đại dương đỏ mô tả môi trường kinh doanh như thế nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Một thị trường mới chưa có cạnh tranh",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Một thị trường hiện có với sự cạnh tranh gay gắt",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Một thị trường đầy tiềm năng nhưng chưa được khai thác",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Một thị trường phụ thuộc vào công nghệ hiện đại",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q563",
+		"question_text": "Ví dụ nào dưới đây phù hợp với chiến lược đại dương đỏ?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Một công ty viễn thông giảm giá để cạnh tranh với đối thủ.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Một hãng hàng không giá rẻ tạo ra dịch vụ chưa từng có.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Một công ty khởi nghiệp phát minh ra sản phẩm hoàn toàn mới.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Một thương hiệu thời trang tạo ra xu hướng độc quyền.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q564",
+		"question_text": "Khi áp dụng chiến lược đại dương đỏ, các doanh nghiệp thường phải:",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Giảm giá để cạnh tranh",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Tăng giá trị sản phẩm mà không tăng chi phí",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Khai thác thị trường chưa được biết đến",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Đầu tư vào các ngành không liên quan",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q565",
+		"question_text": "Yếu tố nào thường dẫn đến sự xuất hiện của một \"đại dương đỏ\"?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Sự đổi mới công nghệ",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Thị trường bão hòa với nhiều đối thủ cạnh tranh",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Khách hàng có nhu cầu cao đối với sản phẩm mới",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Thiếu đối thủ cạnh tranh trong ngành",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q566",
+		"question_text": "Trong chiến lược đại dương đỏ, các doanh nghiệp thường tập trung vào:",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Tạo ra sự khác biệt rõ rệt",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tăng trưởng thông qua việc phát triển thị trường mới",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Cạnh tranh trong một thị trường hiện tại bằng cách tối ưu hóa chi phí hoặc cải tiến sản phẩm",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Thoái vốn khỏi ngành hiện tại",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q567",
+		"question_text": "Chiến lược kinh doanh được chia thành những loại nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Chiến lược cạnh tranh, Chiến lược hợp tác, Chiến lược đại dương xanh",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Chiến lược cạnh tranh, Chiến lược hợp tác, Chiến lược đổi mới",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chiến lược hợp tác, Chiến lược đổi mới, Chiến lược tập trung",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chiến lược tập trung, Chiến lược cạnh tranh, Chiến lược đổi mới",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q568",
+		"question_text": "Chiến lược cạnh tranh tập trung vào yếu tố nào để giảm chi phí?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Kinh nghiệm và học hỏi",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Cải thiện dịch vụ khách hàng",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Đổi mới sáng tạo giá trị",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Thay đổi cấu trúc tổ chức",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q569",
+		"question_text": "Liên minh chiến lược được định nghĩa là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Một thoả thuận ngắn hạn giữa các công ty nhằm nâng cao vị thế cạnh tranh",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Một hợp tác lâu dài giữa hai hoặc nhiều công ty vì lợi ích kinh tế chung",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Một kế hoạch tăng trưởng bằng cách giảm chi phí sản xuất",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Một thoả thuận hợp pháp để giảm cạnh tranh giữa các đối thủ",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q570",
+		"question_text": "Chỉ số Herfindahl-Hirschman (HHI) dùng để làm gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Đánh giá sự cạnh tranh trong thị trường",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Đưa ra chiến lược giảm chi phí",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tính lợi nhuận ròng của doanh nghiệp",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Phân loại thị trường mục tiêu",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q571",
+		"question_text": "Chiến lược \"Khác biệt hóa\" hướng tới mục tiêu nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Giảm chi phí để cạnh tranh giá rẻ",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tạo ra giá trị cao hơn cho khách hàng trong khi kiểm soát chi phí",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Hợp tác với đối thủ để giảm rủi ro kinh doanh",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tìm kiếm thị trường mới với ít cạnh tranh",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q572",
+		"question_text": "Khái niệm \"Đại dương đỏ\" trong kinh doanh ám chỉ điều gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Một thị trường mới chưa có đối thủ cạnh tranh",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Một thị trường đầy cạnh tranh, nơi các công ty phải đấu tranh giành giật thị phần",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Một chiến lược kinh doanh đột phá, tạo ra giá trị mới",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Một phương pháp quảng cáo sáng tạo",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q573",
+		"question_text": "Đặc điểm nổi bật của thị trường \"Đại dương đỏ\" là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Nhiều công ty cung cấp sản phẩm/dịch vụ tương tự nhau",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Ít đối thủ cạnh tranh và nhiều cơ hội phát triển",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tạo ra nhu cầu mới trên thị trường",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Không cần phải cạnh tranh về giá cả",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q574",
+		"question_text": "Trong môi trường \"Đại dương đỏ\", điều gì thường xảy ra?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Các công ty hợp tác để phát triển thị trường",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Cạnh tranh về giá cả và chất lượng sản phẩm/dịch vụ",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Tạo ra sản phẩm/dịch vụ mới chưa từng có trên thị trường",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Khách hàng trung thành với một thương hiệu duy nhất",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q575",
+		"question_text": "Một trong những thách thức lớn nhất khi hoạt động trong \"Đại dương đỏ\" là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Thiếu nguồn lực tài chính",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Cạnh tranh khốc liệt từ các đối thủ",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Khó khăn trong việc tìm kiếm khách hàng",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Không có nhu cầu về sản phẩm/dịch vụ",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q576",
+		"question_text": "Điểm khác biệt giữa \"Đại dương đỏ\" và \"Đại dương xanh\" là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "\"Đại dương đỏ\" tập trung vào đổi mới, còn \"Đại dương xanh\" tập trung vào cạnh tranh",
+				"is_correct": false
+			},
+			{
+				"answer_text": "\"Đại dương đỏ\" có ít đối thủ cạnh tranh, còn \"Đại dương xanh\" có nhiều đối thủ cạnh tranh",
+				"is_correct": false
+			},
+			{
+				"answer_text": "\"Đại dương đỏ\" là thị trường đầy cạnh tranh, còn \"Đại dương xanh\" là thị trường ít hoặc không có cạnh tranh",
+				"is_correct": true
+			},
+			{
+				"answer_text": "\"Đại dương đỏ\" là thị trường ổn định, còn \"Đại dương xanh\" là thị trường biến động",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q577",
+		"question_text": "Đại dương xanh là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Không gian thị trường đã biết của các ngành hiện có, nơi có sự cạnh tranh khốc liệt giữa các doanh nghiệp bởi không gian thị trường đã đông đúc và cạnh tranh là một trò chơi có tổng bằng không",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Không gian thị trường chưa được khai thác, đã chin muồi cho tạo ra nhu cầu mới và mang lại cơ hội tăng trưởng lợi nhuận cao.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Thì trường có nhiều biến động",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q578",
+		"question_text": "Điểm mạnh của đại dương xanh",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Làm cho cạnh tranh trở nên không quan trọng",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Dễ giúp công ty có lợi nhuận",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Ai cũng có thể thâm nhập thị trường",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q579",
+		"question_text": "Dự án có vốn đầu tư ban đầu 100,000 USD; dự kiến thu về 25,000 USD/năm. Sau bao lâu công ty sẽ hoàn vốn?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "3 năm",
+				"is_correct": false
+			},
+			{
+				"answer_text": "7 năm",
+				"is_correct": false
+			},
+			{
+				"answer_text": "4 năm",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "sm-q580",
+		"question_text": "Khi Grab hay KFC thâm nhập thị trường Việt Nam họ chọn chiến lược nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Chiến lược đại dương xanh",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chiến lược đại dương đỏ",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chiến lược thâm nhập",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "sm-q581",
+		"question_text": "Đâu là khó khăn khi áp dụng chiến lược đại dương xanh?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Là một thị trường mới ít nhu cầu",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Yêu cầu doanh nghiệp phải mới nổi",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Doanh nghiệp có nhiều đối thủ",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q582",
+		"question_text": "Đâu là đặc điểm của chiến lược đại dương xanh",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Theo đuổi khác biệt hoá và chi phí thấp để mở ra giới hạn giá trị - chi phí mới",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Theo đuổi khác biệt hoá và chi phí thấp để cạnh tranh trên giới hạn năng suất của một ngành",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Theo đuổi khác biệt hoá và chi phí thấp để cùng ít tạo ra giá trị - chi phí mới",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Theo đuổi khác biệt hoá và chi phí cao để mở ra giới hạn giá trị - chi phí mới",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q583",
+		"question_text": "Sơ đồ chiến lược KHÔNG biểu thị điều gì",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Nơi các đối thủ cạnh tranh đang đầu tư",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Những yếu tố/ tiêu chí mà ngành đang cạnh tranh",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Giá cả cạnh tranh",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Giá trị hàng đang nhận đc trên thị trường",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q584",
+		"question_text": "Đâu là công cụ để thực hiện chiến lược đại dương xanh?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "ERRC",
+				"is_correct": true
+			},
+			{
+				"answer_text": "SWOT",
+				"is_correct": false
+			},
+			{
+				"answer_text": "PESTEL",
+				"is_correct": false
+			},
+			{
+				"answer_text": "SMART",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q585",
+		"question_text": "Công thức tính thời gian hoàn vốn là",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Giá trị hiện tại / Giá trị dòng tiền",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Giá trị đầu tư cố định ban đầu / Giá trị dòng tiền dự kiến nhận đc hằng năm",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Giá trị đầu tư ban đầu / ròng của các dòng tiền dự kiến",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tổng giá trị hiện tại / ròng của tiền đầu tư",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q586",
+		"question_text": "Lựa chọn chiến lược đại dương xanh có mấy bước",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "5",
+				"is_correct": false
+			},
+			{
+				"answer_text": "7",
+				"is_correct": false
+			},
+			{
+				"answer_text": "6",
+				"is_correct": true
+			},
+			{
+				"answer_text": "8",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q587",
+		"question_text": "Chiến lược đại dương xanh tập trung vào mục tiêu nào sau đây?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Cạnh tranh khốc liệt trong thị trường hiện tại.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tạo ra một thị trường mới không có cạnh tranh.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Tăng cường thị phần bằng cách giảm giá.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Đánh bại đối thủ cạnh tranh.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q588",
+		"question_text": "Trong chiến lược đại dương xanh, doanh nghiệp thường sử dụng ma trận nào để tạo ra giá trị mới?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Ma trận SWOT",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Ma trận BCG",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Ma trận \"Eliminate-Reduce-Raise-Create\" (Loại bỏ - Giảm thiểu - Nâng cao - Tạo ra)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Ma trận PESTEL",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q589",
+		"question_text": "Chiến lược đại dương xanh giúp doanh nghiệp đạt được:",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Chi phí thấp và giá trị gia tăng cao.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Chi phí cao nhưng lợi nhuận cao.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Sự khác biệt hóa mà không quan tâm đến chi phí.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Lợi thế cạnh tranh bằng cách tập trung vào một phân khúc hẹp.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q590",
+		"question_text": "Điểm khác biệt chính giữa đại dương đỏ và đại dương xanh là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Đại dương đỏ tạo ra giá trị mới, trong khi đại dương xanh chỉ tối ưu hóa giá trị hiện có.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Đại dương xanh tập trung vào đổi mới giá trị, trong khi đại dương đỏ tập trung vào cạnh tranh khốc liệt.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Đại dương đỏ không có sự cạnh tranh, trong khi đại dương xanh thì có.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Đại dương xanh không quan tâm đến chi phí, trong khi đại dương đỏ tối ưu hóa chi phí.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q591",
+		"question_text": "Nguyên tắc cơ bản của chiến lược đại dương xanh là:",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Tối ưu hóa lợi nhuận bằng cách cạnh tranh với các đối thủ hiện tại.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Xây dựng lợi thế cạnh tranh bằng cách định giá thấp hơn thị trường.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tạo ra giá trị vượt trội bằng cách đổi mới sản phẩm và dịch vụ.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Giảm thiểu rủi ro bằng cách né tránh thị trường mới.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q592",
+		"question_text": "Một trong những bước quan trọng trong thực thi chiến lược đại dương đỏ là:",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Tạo ra các yếu tố giá trị mới chưa từng có.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Loại bỏ các yếu tố cạnh tranh không cần thiết.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Xây dựng chương trình, ngân sách và quy trình phù hợp.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Tập trung vào đổi mới sáng tạo giá trị (Value Innovation).",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q593",
+		"question_text": "Khi đánh giá chiến lược đại dương đỏ, yếu tố nào sau đây được coi là quan trọng nhất?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Tính nhất quán với văn hóa tổ chức.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Khả năng tận dụng hiệu quả nguồn lực nội bộ.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Sự khác biệt trong cách tiếp cận thị trường mới.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chi phí thực hiện chiến lược thấp hơn đối thủ.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q594",
+		"question_text": "Để dẫn đầu về chi phí, doanh nghiệp cần làm gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Cung cấp dịch vụ cao cấp.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tăng giá trị sản phẩm qua thiết kế đặc trưng.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Kiểm soát tốt chi phí đầu vào và áp dụng kinh tế quy mô.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Nhắm đến phân khúc cao cấp của thị trường.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q595",
+		"question_text": "Chiến lược tập trung thường áp dụng khi:",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Ngành có mức độ cạnh tranh thấp.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Có một phân khúc khách hàng cụ thể với nhu cầu chưa được đáp ứng tốt.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Doanh nghiệp muốn mở rộng quy mô nhanh chóng.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Giá nguyên liệu đầu vào giảm mạnh.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q596",
+		"question_text": "Yếu tố nào là đặc trưng của Chiến lược Đại dương xanh?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Tập trung vào cạnh tranh trong các thị trường hiện có để đạt được lợi thế cạnh tranh.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Kết hợp giữa khác biệt hóa và chi phí thấp để mở ra thị trường mới không có cạnh tranh.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Hợp tác với các đối thủ để chia sẻ lợi ích và giảm thiểu rủi ro cạnh tranh.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Giảm chi phí bằng cách cắt giảm các yếu tố giá trị không cần thiết trong ngành.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q597",
+		"question_text": "Trong ERRC, yếu tố “Create” (Tạo ra) được hiểu là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Loại bỏ các yếu tố không cần thiết trong ngành.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tăng các yếu tố mang lại giá trị vượt trội.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tạo ra những yếu tố mới chưa từng có trên thị trường.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Giảm bớt các yếu tố cạnh tranh trong ngành.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q598",
+		"question_text": "Đổi mới sáng tạo giá trị trong chiến lược Đại dương xanh bao gồm những hoạt động nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Loại bỏ, giảm, tăng, tạo mới",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Giảm chi phí, tăng giá trị, mở rộng thị trường, cải tiến sản phẩm",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Thay thế, cải tiến, giữ nguyên, loại bỏ",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Nâng cấp sản phẩm, tăng giá trị dịch vụ, giảm chi phí sản xuất, cải thiện chuỗi cung ứng",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q599",
+		"question_text": "Sơ đồ chiến lược (Strategy Canvas) giúp doanh nghiệp làm gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Dự đoán xu hướng ngành trong tương lai",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Xác định các yếu tố cạnh tranh và giá trị khách hàng hiện tại nhận được",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Loại bỏ các yếu tố không cần thiết trong chuỗi giá trị",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Đưa ra các giải pháp tài chính tối ưu cho chiến lược",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q600",
+		"question_text": "Cụm từ “value curve” (đường giá trị) trong chiến lược đại dương xanh dùng để chỉ điều gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Mức độ chi phí của doanh nghiệp trong ngành.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Hiệu suất của doanh nghiệp so với các yếu tố cạnh tranh chính trong ngành.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Lợi nhuận ròng đạt được trong quá trình đổi mới sáng tạo.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Đường phát triển của doanh nghiệp trên thị trường quốc tế.",
+				"is_correct": false
+			}
+		]
+	}
+]

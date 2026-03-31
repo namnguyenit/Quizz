@@ -1,0 +1,2306 @@
+[
+	{
+		"question_id": "sm-q101",
+		"question_text": "Trong các phát biểu sau, câu nào ĐÚNG:",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Phân tích môi trường bên ngoài là để biết được điểm mạnh, điểm yếu của doanh nghiệp",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Phân tích môi trường bên ngoài là để biết được những cơ hội và thách thức đối với doanh nghiệp",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Nhà quản trị chỉ cần phân tích môi trường nội bộ là đủ để đưa ra chiến lược cho công ty",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tất cả các phát biểu đều đúng",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q102",
+		"question_text": "Một doanh nghiệp sản xuất bánh kẹo đang giải quyết mối lo ngại liên quan đến sử dụng nhiên liệu hóa thạch bằng cách đầu tư tự sản xuất điện bằng tua- bin gió. Đây là yếu tố nào trong công thức phân tích PESTEL?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Kinh tế",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chính trị",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tự nhiên",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Công nghệ",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q103",
+		"question_text": "Mục tiêu chính của mô hình phân tích ….. là hiểu được tiềm năng lợi nhuận của các ngành khác nhau.",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "PESTEL",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Nhóm chiến lược",
+				"is_correct": false
+			},
+			{
+				"answer_text": "FIVE FORCES",
+				"is_correct": true
+			},
+			{
+				"answer_text": "VRIO",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q104",
+		"question_text": "Sức ép của các nhà cung cấp giảm nếu:",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Chỉ có một số ít các nhà cung cấp",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Doanh số mua của doanh nghiệp chiếm một tỷ trọng nhỏ trong sản lượng của nhà cung cấp",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Sản phẩm của người cung cấp được khác biệt hoá cao",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chi phí chuyển đổi nhà cung cấp thấp",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "sm-q105",
+		"question_text": "Ví dụ về Starbucks và Highland Coffee là ví dụ về:",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Nhà cung cấp",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Đối thủ cạnh tranh hiện tại",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Đối thủ cạnh tranh tiềm ẩn",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Đối tác liên minh chiến lược",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q106",
+		"question_text": "Quản trị chiến lược là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Quản trị chiến lược là quá trình hình thành và triển khai các chiến lược, mục tiêu và phân tích môi trường, xác định sứ mệnh, tầm nhìn, mục tiêu, chiến lược, triển khai chiến lược, đánh giá và điều chỉnh để tổ chức đạt được thành công trong dài hạn.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Quản trị chiến lược phân tích môi trường, xác định sứ mệnh, tầm nhìn, mục tiêu, chiến lược, triển khai chiến lược, đánh giá và điều chỉnh để tổ chức đạt được thành công trong dài hạn.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Quản trị chiến lược là phân tích đánh giá thi trường để tổ chức đạt được thành công dài hạn.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Quản trị chiến lược cần xác định sứ mệnh, tầm nhìn., mục tiêu, chiến lược cụ thể để điều chỉnh đề tổ chứ đạt được thành công trong dài hạn.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q107",
+		"question_text": "Lợi ích của quản trị chiến lược với doanh nghiêp là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Xác định rõ ràng và tầm nhìn chiến lược tối nhất, Nguồn lực tập trung vào chiến lược ưu tiên, Tăng cường nhận thức và thích nghi nhanh chóng với việc thay đổi trong môi trường.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Xác định rõ ràng và tầm nhìn chiến lược tối nhất, Tăng cường nhận thức và thích nghi nhanh chóng với việc thay đổi trong môi trường.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Xác định rõ ràng nguồn lực tập trung vào chiến lược ưu tiên, Tăng cường nhận thức và thích nghi nhanh chóng với việc thay đổi trong môi trường.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Xác định rõ ràng và tầm nhìn chiến lược tối nhất, tập trung vào chiến lược ưu tiên.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q108",
+		"question_text": "Các bước Quy trình/mô hình quản trị chiến lược?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Phân tích môi trường - xây dựng chiến lược - triển khai chiến lược - đánh giá và tái đánh giá.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Phân tích thị trường - triển khai chiến lược - xây dựng chiến lược - đánh giá và tái đánh giá.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Phân tích thị trường - đánh giá và tái đánh giá - xây dựng chiến lược - triển khai chiến lược.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Phân tích thị trường - xây dựng chiến lược - đánh giá và tái đánh giá - triển khai chiến lược.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q109",
+		"question_text": "Quy trình quản trị chiến lược - mối quan hệ gồm các bước nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Bắt đầu, phân thị trường bên ngoài và bên trong, xây dựng chiến lược: chiến lược kinh doanh, xây dựng chiến lược: chiến lược công ty, triển khai chiến lược.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Bắt đầu, phân thị trường bên ngoài và bên trong, xây dựng chiến lược: chiến lược kinh doanh, triển khai chiến lược.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Bắt đầu, phân thị trường bên ngoài và bên trong, xây dựng chiến lược: chiến lược kinh doanh, xây dựng chiến lược: chiến lược công ty.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Bắt đầu, phân thị trường bên ngoài và bên trong, xây dựng chiến lược: chiến lược công ty, triển khai chiến lược.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q110",
+		"question_text": "Quản trị chiến lược - các thách thức phải đối mặt là?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Toàn cầu hoá, đổi mới sáng tạo, phát triển bền vững.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Toàn cầu hoá, cạnh tranh toàn cầu, phát triển bền vững.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Toàn cầu hoá, lan truyền đổi mới, phát triển bền vững.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Toàn cầu hoá, sản phẩm cũ, phát triển bền vững,",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q111",
+		"question_text": "Theo định nghĩa của Wheelen et al. (2018), quản trị chiến lược bao gồm các bước nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Chỉ xây dựng chiến lược và đánh giá môi trường bên trong tổ chức.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Rà soát môi trường, xây dựng chiến lược, thực hiện chiến lược và đánh giá, kiểm soát chiến lược.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Tập trung vào việc quản trị nhân sự và đánh giá môi trường bên ngoài.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Đánh giá mục tiêu dài hạn và xây dựng các chức năng nội bộ tổ chức.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q112",
+		"question_text": "Quản trị chiến lược có mấy lợi ích?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "3",
+				"is_correct": true
+			},
+			{
+				"answer_text": "1",
+				"is_correct": false
+			},
+			{
+				"answer_text": "5",
+				"is_correct": false
+			},
+			{
+				"answer_text": "2",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q113",
+		"question_text": "Thách thức nào sau đây không thuộc quản trị chiến lược?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Toàn cầu hóa",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Đổi mới sáng tạo",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Phát triển bền vững",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tăng cường nhân sự",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "sm-q114",
+		"question_text": "“Xây dựng chiến lược” thuộc bước mấy trong Quy trình quản trị chiến lược?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "1",
+				"is_correct": false
+			},
+			{
+				"answer_text": "3",
+				"is_correct": false
+			},
+			{
+				"answer_text": "4",
+				"is_correct": false
+			},
+			{
+				"answer_text": "2",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "sm-q115",
+		"question_text": "Sự phát triển của Quản trị chiến lược qua mấy giai đoạn?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "4",
+				"is_correct": true
+			},
+			{
+				"answer_text": "5",
+				"is_correct": false
+			},
+			{
+				"answer_text": "6",
+				"is_correct": false
+			},
+			{
+				"answer_text": "7",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q116",
+		"question_text": "Sự phân loại các nhóm chiến lược ổn định, tăng trưởng và cắt giảm là loại chiến lược nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Công ty/doanh nghiệp",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Kinh doanh",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chức năng",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chiến thuật",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q117",
+		"question_text": "Một doanh nghiệp lớn thường có ba cấp độ nào trong hệ thống phân cấp chiến lược?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Công ty/doanh nghiệp – Kinh doanh – Chức năng",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Môi trường – Công ty/doanh nghiệp – Chức năng",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Môi trường – Doanh nghiệp – Công ty",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Ngành – Công ty – Bộ phận",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q118",
+		"question_text": "Thuật ngữ dùng để chỉ định hướng và các công cụ (nguồn lực, năng lực, hành động, tổ chức, quy trình, chương trình, v.v.) qua đó giúp các cá nhân, nhóm, tổ chức, quốc gia có thể đạt được các mục tiêu dài hạn được gọi là:",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Chiến thuật",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chương trình",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chính sách",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chiến lược",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "sm-q119",
+		"question_text": "Trong quy trình quản trị chiến lược, nội dung nào sau đây KHÔNG có?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Phân tích chiến lược",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Xây dựng chiến lược",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Ứng dụng công nghệ trong quản trị chiến lược",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Triển khai chiến lược",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q120",
+		"question_text": "Quản trị chiến lược có mấy giai đoạn phát triển:",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "3",
+				"is_correct": false
+			},
+			{
+				"answer_text": "4",
+				"is_correct": true
+			},
+			{
+				"answer_text": "5",
+				"is_correct": false
+			},
+			{
+				"answer_text": "6",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q121",
+		"question_text": "Quản trị chiến lược có mấy cấp",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "3",
+				"is_correct": true
+			},
+			{
+				"answer_text": "4",
+				"is_correct": false
+			},
+			{
+				"answer_text": "2",
+				"is_correct": false
+			},
+			{
+				"answer_text": "5",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q122",
+		"question_text": "Ba loại môi trường bên ngoài trong hoạch định chiến lược là",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Môi trường ngành, Môi trường quốc gia, Môi trường vĩ mô",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Môi trường ngành, Môi trường vi mô, Môi trường trong tổ chức",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Môi trường vĩ mô, môi trường vi mô, môi trường trong tổ chức",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Môi trường quốc tế, Môi trường ngành, Môi trường vi mô",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q123",
+		"question_text": "Quản trị chiến lược có mấy nhiệm vụ",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "5",
+				"is_correct": true
+			},
+			{
+				"answer_text": "6",
+				"is_correct": false
+			},
+			{
+				"answer_text": "4",
+				"is_correct": false
+			},
+			{
+				"answer_text": "8",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q124",
+		"question_text": "Sắp xếp các bước trong quá trình hoạch định chiến lược\n1. Phân tích môi trường bên ngoài\n2. Lựa chọn sứ mệnh và các mục tiêu chủ yếu của công ty\n3. Lựa chọn các chiến lược\n4. Phân tích môi trường bên trong\n5. Thực thi chiến lược",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "5-3-4-2-1",
+				"is_correct": false
+			},
+			{
+				"answer_text": "2-1-4-3-5",
+				"is_correct": true
+			},
+			{
+				"answer_text": "4-1-2-3-5",
+				"is_correct": false
+			},
+			{
+				"answer_text": "3-4-5-2-1",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q125",
+		"question_text": "Yếu tố nào sau đây KHÔNG làm tăng mức độ cạnh tranh của các doanh nghiệp trong ngành?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Số lượng các doanh nghiệp trong ngành lớn",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Sản phẩm, dịch vụ có tính tương đồng cao",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tốc độ tăng trưởng của ngành cao",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Rào cản rút lui khỏi ngành cao",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q126",
+		"question_text": "Khung phân tích VRIO được sử dụng để đánh giá điều gì trong một doanh nghiệp?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Tính khả thi của sản phẩm mới",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chiến lược marketing",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Nguồn lực và năng lực nội bộ của doanh nghiệp",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Tình hình tài chính của doanh nghiệp",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q127",
+		"question_text": "Theo khung phân tích VRIO, V là?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Nguồn lực/năng lực hiếm",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Nguồn lực/năng lực có giá trị",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Nguồn lực/năng khó bắt chước",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Khả năng tổ chức",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q128",
+		"question_text": "Khi một công ty lo ngại rằng mức giá bán mà nó áp dụng dựa trên những lợi thế cạnh tranh của mình là quá cao so với mức giá bán của các đối thủ cạnh tranh và điều này có thể ảnh hưởng tới doanh số bán hàng, thì công ty đó hướng tới giải quyết rủi ro của việc theo đuổi loại chiến lược cạnh tranh nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Khác biệt hóa",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Dẫn đầu về chi phí",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tập trung",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Phạm vi cạnh tranh",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q129",
+		"question_text": "Hoạt động nào sau đây KHÔNG thuộc nhóm các hoạt động bổ trợ trong chuỗi giá trị của doanh nghiệp?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Cơ sở hạ tầng của doanh nghiệp",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Nghiên cứu và phát triển",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Mua sắm",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Marketing và bán hàng",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "sm-q130",
+		"question_text": "Các thách thức khi quản trị chiến lược?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Phát triển bền vững",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Toàn cầu hóa",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Đổi mới sáng tạo",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tất cả đều đúng",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "sm-q131",
+		"question_text": "Có mấy bước công việc trong hoạch định chiến lược?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "3",
+				"is_correct": false
+			},
+			{
+				"answer_text": "4",
+				"is_correct": false
+			},
+			{
+				"answer_text": "5",
+				"is_correct": true
+			},
+			{
+				"answer_text": "6",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q132",
+		"question_text": "Đâu không phải bước công việc trong hoạch định chiến lược?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Đánh giá môi trường bên ngoài",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chức năng nhiệm vụ",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Phân tích và lựa chọn chiến lược",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Kiểm soát và đánh giá chiến lược",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "sm-q133",
+		"question_text": "Đâu không phải lợi ích của quản trị chiến lược?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Tối ưu hóa các rủi ro",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Thúc đẩy ý thức rõ ràng hơn về tầm nhìn chiến lược của tổ chức",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Giúp doanh nghiệp tập trung vào những gì quan trọng về mặt chiến lược",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tăng lợi nhuận",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q134",
+		"question_text": "Đâu là điểm mấu chốt cần phải đảm bảo trong vấn đề phát triển bền vững:",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Lợi ích kinh tế",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Trách nhiệm xã hội",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Trách nhiệm môi trường",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tất cả đáp án trên",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "sm-q135",
+		"question_text": "Khái niệm “Quản trị chiến lược là khoa học và nghệ thuật trong việc xây dựng, thực hiện và đánh giá các quyết định liên quan đến các chức năng giúp tổ chức đạt được mục tiêu (dài hạn) của mình” được nêu bởi ai?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Gary D. Smith",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Thomas L. Wheelen et al",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Fred R. David et al",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "sm-q136",
+		"question_text": "Phân tích SWOT bao gồm các yếu tố nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Điểm mạnh, điểm yếu, cơ hội và thách thức",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Điểm mạnh, cơ hội, thách thức và mối đe dọa",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Môi trường, tài chính, nhân sự và sản phẩm",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Đối thủ, khách hàng, nguồn lực và lợi nhuận",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q137",
+		"question_text": "Đối với một doanh nghiệp hoạt động trong ngành có tính cạnh tranh cao, hành vi nào sau đây sẽ dẫn đến hiệu quả hoạt động kém hơn?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Cố gắng làm mọi thứ cho mọi đối tượng khách hàng bằng việc kết hợp các chiến lược kinh doanh khác nhau",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Xây dựng vị trí chiến lược khác biệt trong ngành",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Nỗ lực để tạo ra sự khác biệt giữa giá trị tạo ra (V) và chi phí (C) đối với khách hàng",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tập trung vào việc tạo ra giá trị cho khách hàng hơn là tìm cách tiêu diệt đối thủ",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q138",
+		"question_text": "Trong quản trị chiến lược, nội dung xác định vai trò của các nhà lãnh đạo chiến lược thuộc nhóm nhiệm vụ nào sau đây của quản trị chiến lược?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Thiết kế chiến lược",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Đánh giá chiến lược",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Phân tích chiến lược",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Thực hiện chiến lược",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "sm-q139",
+		"question_text": "“Hàng rào thương mại và đầu tư quốc tế giảm” có thể xếp vào nội dung môi trường vĩ mô nào khi phân tích chiến lược?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Văn hoá - xã hội",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Kinh tế",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Công nghệ",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chính trị - pháp luật",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "sm-q140",
+		"question_text": "Đối với siêu thị Big C, sự gia nhập của chuỗi bán lẻ Winmart là một ví dụ về?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Nhà cung cấp",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Đối thủ cạnh tranh",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Sản phẩm thay thế",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Khách hàng",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q141",
+		"question_text": "Đâu là lợi ích của quản trị chiến lược?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Đối phó tốt với môi trường biến động",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Thúc đẩy ý thức rõ ràng hơn về tầm nhìn chiến lược của tổ chức",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Giúp doanh nghiệp tập trung vào những gì quan trọng về mặt chiến lược",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tất cả các phương án đều đúng",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "sm-q142",
+		"question_text": "Lợi ích của quá trình quản trị chiến lược không bao gồm:",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Đối phó tốt hơn với môi trường biến động",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Giúp hạn chế sai sót trong việc dự báo môi trường ngắn hạn",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Thúc đẩy ý thức rõ ràng hơn về tầm nhìn chiến lược của tổ chức",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Giúp doanh nghiệp tập trung vào những gì quan trọng về mặt chiến lược",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q143",
+		"question_text": "Giai đoạn nào của quá trình quản trị chiến lược được gọi là giai đoạn hành động:",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Xây dựng chiến lược",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Triển khai chiến lược",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Đánh giá chiến lược",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q144",
+		"question_text": "Một trong những lợi ích chính của quản trị chiến lược là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Đối phó với môi trường biến động",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Giảm chi phí sản xuất",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tăng số lượng nhân sự",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Phát triển sản phẩm mới",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q145",
+		"question_text": "Hoạt động phát triển công nghệ trong chuỗi giá trị của doanh nghiệp KHÔNG bao gồm nội dung nào sau đây?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Tính kịp thời của các hoạt động phát triển công nghệ trong việc đáp ứng thời hạn",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tác động của môi trường làm việc đối với việc khuyến khích sáng tạo và đổi mới",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Mức độ hỗ trợ của hệ thống thông tin trong việc ra các quyết định chiến lược và thường ngày",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Sự thành công của các hoạt động nghiên cứu và phát triển trong cải tiến quá trình và sản phẩm",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q146",
+		"question_text": "Một công ty thuê người cho cả công việc văn phòng và nhà hàng. Họ trả lương theo giờ hoặc theo lương cứng. Đồng thời cung cấp trợ giúp về chi phí giáo dục để thu hút nhân công giỏi là công việc thuộc hoạt động nào trong chuỗi giá trị?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Hậu cần đầu vào",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Quản trị nguồn nhân lực",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Cơ sở hạ tầng",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Vận hành",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q147",
+		"question_text": "Chiến lược đa dạng hóa theo chiều ngang là chiến lược:",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Tìm kiếm tăng trưởng bằng cách xâm nhập thị trường mới với sản phẩm mới nhưng sử dụng công nghệ hiện tại",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tìm kiếm tăng trưởng bằng cách hướng vào thị trường hiện tại với sản phẩm mới không có liên quan gì tới sản phẩm hiện nay về mặt kỹ thuật",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Tìm kiếm tăng trưởng bằng cách xâm nhập thị trường mới với sản phẩm mới không có liên quan gì tới sản phẩm hiện nay về mặt kỹ thuật",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tất cả các đáp án đều sai",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q148",
+		"question_text": "Chiến lược phát triển thị trường được áp dụng trong điều kiện nào sau đây?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Khi doanh nghiệp có thể thiết lập được một kênh phân phối mới hiệu quả, ổn định, bền vững với chi phí hợp lý",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Khi tỷ lệ sử dụng sản phẩm của khách hàng hiện tại có thể gia tăng một cách đáng kể",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Khi thị phần của đối thủ cạnh tranh chính giảm đi trong khi lượng tiêu thụ toàn ngành tăng lên",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Khi doanh nghiệp hoạt động và cạnh tranh trong ngành có tốc độ đổi mới và phát triển công nghệ cao",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q149",
+		"question_text": "Microsoft đa dạng hóa vượt ra khỏi lĩnh vực sản xuất, kinh doanh bản quyền phần mềm và hỗ trợ trên diện rộng các sản phẩm và dịch vụ liên quan đến máy tính bằng thương vụ mua lại bộ phận sản xuất thiết bị và dịch vụ của Nokia là chiến lược gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Đa dạng hóa không liên quan",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Đa dạng hóa theo chiều ngang",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Đa dạng hóa có liên quan",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Liên minh chiến lược",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q150",
+		"question_text": "Một doanh nghiệp sản xuất dụng cụ thể thao quyết định mua một công ty sản xuất cao su để tạo ra các sản phẩm chính của mình. Doanh nghiệp đang thực hiện chiến lược cấp công ty nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Chiến lược hội nhập dọc xuôi chiều",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chiến lược hội nhập dọc ngược chiều",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Hội nhập theo chiều ngang",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chiến lược đa dạng hóa đồng tâm",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q151",
+		"question_text": "Chiến lược đổi mới marketing là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Phương pháp tối ưu hóa sản xuất",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Đổi mới cách tiếp cận khách hàng và bán hàng",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Tăng cường khả năng tài chính",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Mở rộng quy mô công ty",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q152",
+		"question_text": "Quy trình quản trị chiến lược theo mô hình AFI bao gồm bước nào đầu tiên?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Xây dựng chiến lược",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Triển khai chiến lược",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Đánh giá chiến lược",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Phân tích chiến lược",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "sm-q153",
+		"question_text": "Lý thuyết khuếch tán đổi mới được phát triển bởi ai?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Henry",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Wheelen",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Rogers",
+				"is_correct": true
+			},
+			{
+				"answer_text": "David",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q154",
+		"question_text": "Phân tích môi trường là bước nào trong quy trình quản trị chiến lược?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Đầu tiên",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Thứ hai",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Cuối cùng",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Không liên quan",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q155",
+		"question_text": "Thách thức nào dưới đây được đề cập trong quá trình toàn cầu hóa?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Gia tăng số lượng hàng hóa và dịch vụ.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Giảm cạnh tranh trên thị trường.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Hạn chế di chuyển vốn và lao động.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Xóa bỏ lợi thế kinh tế theo quy mô.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q156",
+		"question_text": "Theo M. Porter, chiến lược cạnh tranh liên quan tới khả năng của một công ty hay một đơn vị kinh doanh thiết kế, sản xuất, và đưa ra thị trường một sản phẩm hiệu quả hơn về mặt chi phí so với các đối thủ cạnh tranh sẽ được gọi là:",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Phạm vị cạnh tranh",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Khác biệt hóa",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Trọng tâm",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Dẫn đầu về chi phí",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "sm-q157",
+		"question_text": "Trong các loại chiến lược cạnh tranh, chiến lược nào các công ty hay đơn vị kinh doanh có thể định giá giá cao hơn đối thủ cạnh tranh?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Dẫn đầu về chi phí",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Khác biệt hóa",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Tập trung vào dân đầu về chi phí",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tập trung vào phân khúc",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q158",
+		"question_text": "Một doanh nghiệp sản xuất sản phẩm chăm sóc da với giá cao hơn đối thủ cạnh tranh. Công ty có một lượng lớn khách hàng và họ khá trung thành nhờ công thức độc đáo và dịch vụ vượt trội. Chiến lược kinh doanh nào được công ty áp dụng trong tình huống này?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Đa dạng hóa sản phẩm",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Thâm nhập thị trường",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Khác biệt hóa",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Dẫn đầu về chi phí",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q159",
+		"question_text": "Liên minh chiến lược và thông đồng/cấu kết là hình thức chung của:",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Chiến lược chức năng",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chiến lược hợp tác",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Chiến lược cạnh tranh",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chiến lược thị trường",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q160",
+		"question_text": "Loại liên minh chiến lược nào trong đó các công ty trong các ngành có sự tương đồng hợp tác với nhau trong đóng góp nguồn lực nhằm mang lại một lợi ích nhất định mà nếu thực hiện một mình sẽ quá tốn kém, ví dụ như tiếp cận một công nghệ tiên tiến?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Liên doanh",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Cấp phép",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Đối tác chuỗi giá trị",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Thỏa thuận tương hỗ",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "sm-q161",
+		"question_text": "Không gian thị trường đã biết của các ngành hiện có, nơi có sự cạnh tranh khốc liệt giữa các doanh nghiệp bởi không gian thị trường đã đông đúc và cạnh tranh là một trò chơi có tổng bằng không là:",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Đại dương đỏ",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Đại dương xanh",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Đại dương đen",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Đại dương trắng",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q162",
+		"question_text": "Chiến lược BPO giúp doanh nghiệp:",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Tập trung vào các hoạt động không cốt lõi",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tự thực hiện tất cả các quy trình nội bộ",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Thuê ngoài các quy trình không cốt lõi",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Giảm nhu cầu sử dụng công nghệ",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q163",
+		"question_text": "Một trong những lợi ích của quản trị chiến lược là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Tăng cường chi phí vận hành doanh nghiệp.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Giúp tổ chức đạt được sự phù hợp giữa môi trường, chiến lược, cơ cấu và quy trình của mình.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Loại bỏ hoàn toàn sự cạnh tranh trong ngành.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tạo ra tầm nhìn ngắn hạn hiệu quả hơn cho doanh nghiệp.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q164",
+		"question_text": "Theo David et al. (2023), một bước quan trọng trong quy trình quản trị chiến lược là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Tập trung vào phân tích đối thủ cạnh tranh.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Đánh giá bên ngoài để xác định cơ hội và thách thức.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Chỉ định trách nhiệm cho từng phòng ban.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tối ưu hóa quy trình sản xuất hàng hóa.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q165",
+		"question_text": "Thách thức nào không phải là một phần của quá trình toàn cầu hóa?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Gia tăng sự di chuyển của vốn và lao động.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Gia tăng trao đổi thương mại và cạnh tranh toàn cầu.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Loại bỏ hoàn toàn thất nghiệp cơ cấu.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Lợi thế kinh tế theo quy mô.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q166",
+		"question_text": "Theo OECD, đổi mới sáng tạo có thể được phân loại thành loại nào sau đây?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Đổi mới sản phẩm, đổi mới quy trình, đổi mới tổ chức, đổi mới hoạt động marketing.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Đổi mới công nghệ, đổi mới quy trình, đổi mới chiến lược.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Đổi mới sản phẩm, đổi mới tài chính, đổi mới tổ chức.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Đổi mới sản phẩm, đổi mới kỹ thuật, đổi mới marketing",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q167",
+		"question_text": "Điền vào chỗ còn thiếu: “Quản trị chiến lược là khoa học và nghệ thuật trong việc xây dựng, thực hiện và đánh giá các quyết định liên quan đến các chức năng giúp tổ chức đạt được mục tiêu ….. của mình.”",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Ngắn hạn",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Dài hạn",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Trung hạn",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q168",
+		"question_text": "Khi nào doanh nghiệp nên áp dụng chiến lược hội nhập dọc?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Khi doanh nghiệp muốn tăng cường quan hệ với khách hàng.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Khi doanh nghiệp muốn kiểm soát tốt hơn các yếu tố đầu vào hoặc đầu ra.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Khi doanh nghiệp muốn mở rộng thị trường.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Khi doanh nghiệp muốn giảm chi phí sản xuất.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q169",
+		"question_text": "Chỉ số HHI được sử dụng để đánh giá điều gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Sự phù hợp của chiến lược với văn hóa doanh nghiệp.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chi phí đầu tư ban đầu của một chiến lược.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Mức độ tập trung và cạnh tranh trong một ngành.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Khả năng thành công của chiến lược đổi mới.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q170",
+		"question_text": "Giám đốc marketing không thể kiểm soát … nhưng có thể gây ảnh hưởng lên nó.",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Địa điểm chạy quảng cáo",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Các yếu tố môi trường bên ngoài",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Cách thức phân phối sản phẩm hoặc dịch vụ",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Cách định giá sản phẩm",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q171",
+		"question_text": "Chiến lược tập trung vào cách thức hiệu quả nhất trong việc xây dựng thương hiệu, định giá, quảng bá, bán hàng và phân phối sản phẩm là chiến lược gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Chiến lược nhân sự",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chiến lược sản xuất",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chiến lược Marketing",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Chiến lược R&D",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q172",
+		"question_text": "Lợi ích của quản trị chiến lược là:",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Giúp tổ chức đạt được sự phù hợp giữa môi trường của tổ chức với chiến lược, cơ cấu và quy trình của tổ chức có tác động tích cực đến hiệu quả hoạt động",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Đối phó tốt hơn với môi trường biến động",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Thúc đẩy ý thức rõ ràng hơn về tầm nhìn chiến lược của tổ chức",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Giúp doanh nghiệp tập trung vào những gì quan trọng về mặt chiến lược",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Cải thiện sự hiểu biết về sự thay đổi nhanh chóng của môi trường kinh doanh",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tất cả các đáp án trên",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "sm-q173",
+		"question_text": "Lợi ích của quản trị chiến lược là:",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Giúp tổ chức đạt được sự phù hợp giữa môi trường của tổ chức với chiến lược, cơ cấu và quy trình của tổ chức có tác động tích cực đến hiệu quả hoạt động",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Đối phó tốt hơn với môi trường biến động",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Thúc đẩy ý thức rõ ràng hơn về tầm nhìn chiến lược của tổ chức",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Giúp doanh nghiệp tập trung vào những gì quan trọng về mặt chiến lược",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Cải thiện sự hiểu biết về sự thay đổi nhanh chóng của môi trường kinh doanh",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tất cả các đáp án trên",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "sm-q174",
+		"question_text": "Phân tích các yếu tố bên trong sẽ bao gồm:",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Nguồn lực",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Năng lực cốt lõi",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chỉ ra các điểm yếu, điểm mạnh",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tất cả các yếu tố trên",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "sm-q175",
+		"question_text": "Yếu tố nào không phải dùng dể phân tích môi trường bên ngoài:",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Mô hình PESTEL",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Ma trận SWOT",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Môi trường 5 áp lực cạnh tranh",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Ma trận IFE",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "sm-q176",
+		"question_text": "Trong quản trị chiến lược, mô hình \"5 lực lượng cạnh tranh\" của Michael Porter nhằm phân tích các yếu tố nào sau đây ảnh hưởng trực tiếp đến khả năng sinh lời của một ngành?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Mức độ cạnh tranh giữa các doanh nghiệp trong ngành, sự đe dọa từ sản phẩm thay thế, sức mạnh của người mua, sức mạnh của nhà cung cấp, và rào cản gia nhập ngành.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Mức độ gia tăng vốn đầu tư, quy mô của doanh nghiệp, và thị trường mục tiêu.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Mức độ phát triển công nghệ, chi phí lao động, sự thay đổi nhu cầu khách hàng và độ mở của thị trường.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Mối quan hệ giữa các đối thủ cạnh tranh và các yếu tố môi trường kinh doanh bên ngoài.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q177",
+		"question_text": "Yếu tố nào không phải là một phần của phân tích môi trường bên ngoài trong quản trị chiến lược?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Chính sách của chính phủ.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Các yếu tố xã hội và văn hóa.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Năng lực và nguồn lực của công ty.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Cạnh tranh trong ngành.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q178",
+		"question_text": "Nếu doanh nghiệp lựa chọn khác biệt hóa cho chiến lược cấp đơn vị kinh doanh, thì chiến lược nghiên cứu và phát triển cần tập trung vào:",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Nghiên cứu thiết kế sản phẩm với chi phí thấp",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Nghiên cứu tiên phong đạt được hiệu ứng đường cong kinh nghiệm",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tạo ra phương pháp hoạt động với chi phí thấp nhất",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Sáng tạo, phát minh trong các hoạt động làm tăng giá trị sản phẩm",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "sm-q179",
+		"question_text": "E Corp là một công ty dược phẩm có nhiều đột phá trong lĩnh vực y học. Không giống như các doanh nghiệp dược khác, E Corp có môi trường làm việc thoải mái. Nhân viên được khuyến khích những dự án mà họ quan tâm, sự giao tiếp giữa các thành viên trong nhóm và lãnh đạo của họ rất cởi mở…. Theo kịch bản này, E Corp rất có thể là một tổ chức theo kiểu:",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Được chính thức hóa",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chuyên môn hóa cao",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Cơ cấu cơ học",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Cơ cấu hữu cơ",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "sm-q180",
+		"question_text": "Mối quan hệ giữa chiến lược và cơ cấu tổ chức được mô tả như thế nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Cơ cấu tổ chức luôn phải tuân theo chiến lược mà không có sự tác động ngược lại",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chiến lược không có ảnh hưởng đến cơ cấu tổ chức của công ty",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Cơ cấu tổ chức bắt nguồn từ chiến lược và có thể ảnh hưởng đến chiến lược trong tương lai",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Cơ cấu tổ chức và chiến lược là hai yếu tố độc lập không liên quan đến nhau",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q181",
+		"question_text": "Loại hình cơ cấu nào phù hợp nhất với chiến lược đa dạng hóa sản phẩm?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Cơ cấu theo chức năng",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Cơ cấu theo sản phẩm",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Cơ cấu theo địa lý",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Cơ cấu ma trận",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q182",
+		"question_text": "Trong quản trị thay đổi văn hoá thông qua truyền thông, tuyên bố nào sau đây chưa đúng?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "CEO truyền thông tầm nhìn chiến lược về cái mà công ty có thể trở thành.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "CEO truyền thông tới mọi nhân viên về vị trí hiện tại của tổ chức trong tương quan với đối thủ cạnh tranh và tầm nhìn của tổ chức về tương lai",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Nếu tầm nhìn quá khó, CEO cần chấm dứt ngay mục đích",
+				"is_correct": true
+			},
+			{
+				"answer_text": "CEO cập nhật thường xuyên cho người lao động về tiến độ đạt được những yếu tố đã được xác định là quan trọng tron việc đạt được tầm nhìn của công ty.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q183",
+		"question_text": "Chiến lược \"Tăng trưởng\" trong quản trị chiến lược thường liên quan đến việc:",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Cắt giảm chi phí để tối ưu hóa lợi nhuận.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Mở rộng sản phẩm, thị trường hoặc cả hai.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Tập trung vào việc cải thiện chất lượng dịch vụ khách hàng.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Đào tạo và phát triển nguồn nhân lực.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q184",
+		"question_text": "Mục tiêu của việc thực hiện phân tích chiến lược trong quản trị chiến lược là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Tăng cường sự tham gia của nhân viên.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Đưa ra các quyết định chiến lược phù hợp với mục tiêu dài hạn của công ty.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Cải thiện hệ thống quản lý nguồn nhân lực.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tìm kiếm các cơ hội đầu tư tiềm năng.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q185",
+		"question_text": "Làm thế nào để đánh giá và lựa chọn chiến lược phù hợp?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Dựa trên mục tiêu dài hạn và nguồn lực sẵn có của doanh nghiệp",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Phân tích SWOT và dự báo xu hướng thị trường",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Lựa chọn chiến lược mà đối thủ đang áp dụng",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Đánh giá dựa trên cảm giác của ban lãnh đạo",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q186",
+		"question_text": "Xu hướng mới trong quản trị chiến lược hiện nay là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Tập trung vào chuyển đổi số và đổi mới sáng tạo",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Áp dụng các mô hình quản lý truyền thống",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Xây dựng chiến lược chỉ dựa trên dữ liệu quá khứ",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Không quan tâm đến xu hướng toàn cầu hóa",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q187",
+		"question_text": "Điểm chung trong các định nghĩa về quản trị chiến lược của các Smith, Wheelen và David là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Nhấn mạnh vào việc lập kế hoạch ngắn hạn",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tập trung vào lợi nhuận trước mắt",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Đều nhấn mạnh đến việc phân tích môi trường, xác định mục tiêu và thực thi chiến lược",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Chỉ chú trọng đến việc cắt giảm chi phí",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q188",
+		"question_text": "Nội dung nào sau đây đề cập về chuẩn mực?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Những gì được coi là quan trọng – mục đích mà mỗi thành viên tổ chức cần phải nỗ lực để đạt được",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Những thái độ và hành vi được coi là phù hợp trong công việc và tương tác hàng ngày",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Những yếu tố giúp văn hóa doanh nghiệp được thể hiện ra bên ngoài như thiết kế không gian vật lý, biểu tượng, ngôn ngữ, câu chuyện, sự kiện, v.v",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Những hoạt động cụ thể hoặc sự kiện đặc biệt dùng để nhấn mạnh, làm nổi bật hoặc củng cố những gì được coi là quan trọng [trong văn hoá] của tổ chức",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q189",
+		"question_text": "Vai trò quan trọng nhất của văn hóa doanh nghiệp là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Tăng cường hiệu quả hoạt động tài chính.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tạo ra các thói quen công việc hàng ngày.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Ảnh hưởng mạnh đến hành vi và năng lực thay đổi chiến lược.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Đảm bảo tính chính thức trong quy trình.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q190",
+		"question_text": "Hiếu, giám đốc quản trị rủi ro, yêu cầu làm báo cáo về tỉ lệ sản phẩm sản xuất bị lỗi của lô hàng trước đó. Ông đang thực hiện chức năng kiểm tra:",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Kiểm soát lường trước",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Kiểm soát đồng thời",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Kiểm soát phản hồi",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Kiểm soát theo thời gian",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q191",
+		"question_text": "Một đốc công trong xưởng đã làm việc riêng trong quá trình giám sát sản xuất dẫn đến sai hỏng lô hàng. Quy trình… đã bị vi phạm trong trường hợp này.",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Kiểm soát lường trước",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Kiểm soát đồng thời",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Kiểm soát phản hồi",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Kiểm soát theo thời gian",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q192",
+		"question_text": "Khi kết quả bất thường ngoài vùng chấp nhận, nhà quản trị cần:",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Điều chỉnh lại tiêu chuẩn",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Không làm gì",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tổ chức lại bộ máy sản xuất",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Sa thải nhân viên đã làm sai",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q193",
+		"question_text": "Các yếu tố môi trường bên ngoài ảnh hưởng như thế nào đến quyết định chiến lược của doanh nghiệp?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Môi trường bên ngoài không có ảnh hưởng lớn đến chiến lược",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Ảnh hưởng thông qua cơ hội và thách thức trong thị trường",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Chỉ các yếu tố kinh tế mới ảnh hưởng đến chiến lược",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Doanh nghiệp có thể bỏ qua yếu tố môi trường bên ngoài nếu có nội lực mạnh",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q194",
+		"question_text": "Chiến lược phát triển thị trường quốc tế có thể được xây dựng như thế nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Thâm nhập thị trường mới qua liên doanh hoặc hợp tác với đối tác địa phương",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Áp dụng cùng một chiến lược cho tất cả các thị trường",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Không cần nghiên cứu thị trường địa phương trước khi mở rộng",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Đầu tư vào quốc gia có chi phí sản xuất cao nhất",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q195",
+		"question_text": "Môi trường vĩ mô có bao nhiêu yếu tố",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "4",
+				"is_correct": false
+			},
+			{
+				"answer_text": "5",
+				"is_correct": false
+			},
+			{
+				"answer_text": "6",
+				"is_correct": true
+			},
+			{
+				"answer_text": "7",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q196",
+		"question_text": "Môi trường vĩ mô được phân tích bằng công cụ nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "SWOT",
+				"is_correct": false
+			},
+			{
+				"answer_text": "PESTEL",
+				"is_correct": true
+			},
+			{
+				"answer_text": "BCG Matrix",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Value Chain",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q197",
+		"question_text": "Yếu tố nào sau đây thuộc nhóm \"Chính trị - Pháp luật\" trong phân tích PESTEL?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Tỷ lệ lạm phát",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chính sách thuế",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Lối sống người tiêu dùng",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Công nghệ mới",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q198",
+		"question_text": "Một trong các yếu tố kinh tế (Economic) ảnh hưởng đến doanh nghiệp là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Tỷ lệ kết hôn",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tỷ giá hối đoái",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Quy định pháp luật",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Xu hướng thị trường lao động",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q199",
+		"question_text": "Yếu tố văn hóa - xã hội bao gồm điều nào sau đây?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Giá dầu mỏ tăng giảm",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Sự phát triển công nghệ",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Phong tục, tập quán truyền thống",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Tỷ lệ lạm phát",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q200",
+		"question_text": "Trong các yếu tố môi trường vĩ mô, yếu tố nào sau đây thuộc yếu tố kinh tế?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Tăng trưởng GDP",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Xu hướng tiêu dùng xanh",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Luật pháp về bảo vệ môi trường",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Thay đổi dân số",
+				"is_correct": false
+			}
+		]
+	}
+]

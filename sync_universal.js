@@ -28,7 +28,15 @@ function log(message, level = 'info') {
 
 function parseQuizContent(filePath) {
 	const content = readFileSync(filePath, 'utf8');
-	const raw = JSON.parse(content);
+	let raw;
+	try {
+		raw = JSON.parse(content);
+	} catch (e) {
+		console.error(`\n❌ LỖI NGHIÊM TRỌNG: File JSON bị hỏng hoặc sai định dạng!`);
+		console.error(`   👉 Đường dẫn file: ${filePath}`);
+		console.error(`   👉 Ngoại lệ: ${e.message}\n`);
+		throw e;
+	}
 
 	// Legacy format: a file is just an array of questions.
 	if (Array.isArray(raw)) {

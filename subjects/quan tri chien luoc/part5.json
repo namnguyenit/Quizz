@@ -1,0 +1,2305 @@
+[
+	{
+		"question_id": "sm-q401",
+		"question_text": "Bước thứ 3 trong quy trình phân tích chuỗi giá trị là:",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Nhận diện các yếu tố liên quan bằng việc sử dụng một sơ đồ chuỗi giá trị nội bộ DN",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Mô tả cách thức mỗi doanh nghiệp tiến hành",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Nhận diện cách thức gia tăng giá trị của mỗi hoạt động và phân loại chúng",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Đánh giá các hoạt động bằng việc so sánh tiêu chuẩn với cách thức tốt nhất của đối thủ, ngành",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q402",
+		"question_text": "Điền vào ô trống: Mục đích của các hoạt động trong chuỗi giá trị là nhằm tạo ra giá trị tốt đa thông qua giảm thiểu chi phí để tạo ra … cho doanh nghiệp",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "lợi thế cạnh tranh",
+				"is_correct": true
+			},
+			{
+				"answer_text": "lợi nhuận",
+				"is_correct": false
+			},
+			{
+				"answer_text": "uy tín",
+				"is_correct": false
+			},
+			{
+				"answer_text": "sản phẩm/dịch vụ tốt nhất",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q403",
+		"question_text": "Đâu là cách mà doanh nghiệp sử dụng chuỗi giá trị để đạt lợi thế cạnh tranh?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Tăng giá bán sản phẩm",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tập trung cải tiến từng hoạt động trong chuỗi giá trị để tạo ra giá trị vượt trội hoặc giảm chi phí",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Tập trung vào marketing để tăng nhận thức thương hiệu",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Cắt giảm các hoạt động hỗ trợ để giảm chi phí",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q404",
+		"question_text": "Mục tiêu chính của chuỗi giá trị là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Tăng năng suất lao động",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tối ưu hóa quy trình hậu cần",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tạo ra giá trị tối đa với chi phí thấp nhất",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Nâng cao khả năng cạnh tranh ngành",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q405",
+		"question_text": "Hoạt động nào sau đây thuộc nhóm hoạt động chính trong chuỗi giá trị?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Marketing và bán hàng",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Nghiên cứu và phát triển",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Quản trị nhân lực",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Cơ sở hạ tầng doanh nghiệp",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q406",
+		"question_text": "Một trong các bước trong quy trình phân tích chuỗi giá trị là:",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Đánh giá các hoạt động bằng so sánh với tiêu chuẩn tốt nhất của đối thủ",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Tìm kiếm các đối tác trong chuỗi cung ứng",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Mua nguyên vật liệu với giá thấp nhất",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tạo mối quan hệ với khách hàng trung thành",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q407",
+		"question_text": "Sự khác biệt cơ bản giữa chuỗi cung ứng và chuỗi giá trị là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Chuỗi cung ứng tập trung vào sản phẩm, chuỗi giá trị tập trung vào giá trị gia tăng",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Chuỗi cung ứng liên quan đến vận chuyển, chuỗi giá trị liên quan đến nhân sự",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chuỗi cung ứng tập trung vào khách hàng, chuỗi giá trị tập trung vào nhà cung ứng",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chuỗi cung ứng có phạm vi rộng hơn chuỗi giá trị",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q408",
+		"question_text": "Khi xây dựng chiến lược, các yếu tố sau đây thuộc môi trường Văn hóa – xã hội mà các doanh nghiệp cần quan tâm đến, NGOẠI TRỪ:",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Mức gia tăng dân số",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Sự thay đổi cơ cấu độ tuổi",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Vị trí vai trò của người phụ nữ tại nơi làm việc và gia đình",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Trào lưu sử dụng mạng xã hội",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q409",
+		"question_text": "Những yếu tố kinh tế vĩ mô nào có thể ảnh hưởng tới chiến lược của doanh nghiệp?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Sức mạnh của người mua",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Sức mạnh của nhà cung cấp",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Mối đe dọa của sản phẩm thay thế",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tỷ lệ thất nghiệp trên thị trường lao động",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "sm-q410",
+		"question_text": "Một ngành kinh doanh có nguy cơ các đối thủ cạnh tranh gia nhập ngành rất cao khi…",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Yêu cầu về vốn đầu tư thấp",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Lợi nhuận kỳ vọng thấp",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Bí quyết công nghệ có tính đặc thù của ngành",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chi phí chuyển đổi cao",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q411",
+		"question_text": "Sức ép của các nhà cung cấp tăng nếu:",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Trong ngành tồn tại tính kinh tế nhờ quy mô",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Sản phẩm mà nhà cung cấp bán có rất ít sản phẩm thay thế",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Sản phẩm của người cung cấp được khác biệt hóa thấp",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chi phí chuyển đổi nhà cung cấp thấp",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q412",
+		"question_text": "Trong ngành công nghệ thông tin, có các sản phẩm của hệ điều hành Window như Word, Excel. Các nhà sản xuất máy tính không có sự lựa chọn vì chưa có hệ điều hành, các sản phẩm soạn thảo văn bản nào đáp ứng được nhu cầu tương đương với các sản phẩm của Mircosoft. Đây là ví dụ về sức ép của yếu tố nào thuộc môi trường ngành?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Đối thủ cạnh tranh hiện tại",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Sản phẩm thay thế",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Nhà cung ứng",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Đối thủ cạnh tranh tiềm ẩn",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q413",
+		"question_text": "Để giảm thiểu tỷ lệ cạnh tranh trong ngành và giữ vững vị thế trong ngành thì các doanh nghiệp cần chú trọng tạo ra hàng rào gia nhập ngành bằng cách:",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Mở rộng sản xuất nhằm giảm chi phí sản xuất dẫn đến giảm giá thành sản phẩm",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Sản xuất các sản phẩm phổ biến, dễ bắt chước",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tập trung vào số ít các kênh phân phối",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Cả ba đáp án đều sai",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q414",
+		"question_text": "Nguồn lực nào sau đây thường được coi là khó bắt chước và tạo lợi thế cạnh tranh lâu dài theo khung phân tích VRIO?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Máy móc và thiết bị sản xuất",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tài sản thương hiệu và bí quyết công nghệ",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Vốn đầu tư ngắn hạn",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Số lượng lao động trong doanh nghiệp",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q415",
+		"question_text": "Theo lý thuyết nguồn lực (RBV), doanh nghiệp thành công khi:",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Chỉ dựa vào nguồn lực hữu hình",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Phát triển dựa trên các chiến lược đại dương đỏ",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Kết hợp nguồn lực nội tại với cơ hội bên ngoài một cách hiệu quả",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Không quan tâm đến yếu tố bên ngoài",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q416",
+		"question_text": "Do tình hình bất ổn về chính trị, các nhà lãnh đạo chiến lược một doanh nghiệp quyết định đóng cửa tất cả các cơ sở sản xuất trong nước cho đến khi tình hình ổn định trở lại. Doanh nghiệp đã thực hiện một hành động chiến lược ….",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Cấp chức năng",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Cấp kinh doanh/cạnh tranh",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Cấp khu vực",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Cấp công ty/doanh nghiệp",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "sm-q417",
+		"question_text": "Giao nhận và quản lý kho nguyên vật liệu thuộc hoạt động nào trong chuỗi giá trị của doanh nghiệp?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Vận hành",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Mua sắm",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Marketing và bán hàng",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Hậu cần đầu vào",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "sm-q418",
+		"question_text": "Điểm khác biệt chính giữa chuỗi cung ứng và chuỗi giá trị là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Chuỗi cung ứng tập trung vào khách hàng, chuỗi giá trị tập trung vào sản phẩm",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chuỗi cung ứng là về vận hành, chuỗi giá trị là về giá trị gia tăng",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Chuỗi cung ứng giúp tiết kiệm chi phí, chuỗi giá trị tăng giá trị sản phẩm",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chuỗi cung ứng liên quan đến marketing, chuỗi giá trị liên quan đến sản xuất",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q419",
+		"question_text": "Một trong những yêu cầu khi phân tích chuỗi giá trị là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Tập trung vào chiến lược quảng cáo",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Phân tách rõ chi phí trong từng hoạt động",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Tăng số lượng khách hàng trung thành",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tập trung vào thị trường quốc tế",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q420",
+		"question_text": "Quản trị nguồn nhân lực có vai trò gì trong chuỗi giá trị?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Hỗ trợ khách hàng sau bán hàng",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tuyển dụng và phát triển nhân sự",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Phân phối sản phẩm",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tăng doanh thu",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q421",
+		"question_text": "Bước đầu tiên trong quy trình phân tích chuỗi giá trị của doanh nghiệp là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Đánh giá các hoạt động",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Nhận diện các yếu tố liên quan bằng sơ đồ chuỗi giá trị nội bộ",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Mô tả cách thức mỗi doanh nghiệp tiến hành",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Nhận diện cách thức gia tăng giá trị",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q422",
+		"question_text": "Điểm khác biệt chính giữa chuỗi cung ứng và chuỗi giá trị là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Chuỗi cung ứng tập trung vào sự hài lòng của khách hàng, còn chuỗi giá trị tập trung vào lợi thế cạnh tranh",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Chuỗi cung ứng tạo giá trị gia tăng, còn chuỗi giá trị không làm điều này",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chuỗi cung ứng chỉ dành cho các sản phẩm vật lý, còn chuỗi giá trị dành cho cả dịch vụ",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chuỗi cung ứng và chuỗi giá trị là hai khái niệm giống nhau",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q423",
+		"question_text": "Trong mô hình chuỗi giá trị của Michael Porter, các hoạt động chính bao gồm:",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Cung ứng, sản xuất, tiếp thị và bán hàng, dịch vụ.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Cung ứng, sản xuất, nghiên cứu và phát triển, dịch vụ.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Cung ứng, sản xuất, tài chính, dịch vụ.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Cung ứng, sản xuất, tiếp thị và bán hàng, tài chính.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q424",
+		"question_text": "Có bao nhiêu hoạt động bổ trợ trong phân tích nội bộ doanh nghiệp theo chuỗi giá trị?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "5",
+				"is_correct": false
+			},
+			{
+				"answer_text": "6",
+				"is_correct": false
+			},
+			{
+				"answer_text": "3",
+				"is_correct": false
+			},
+			{
+				"answer_text": "4",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "sm-q425",
+		"question_text": "Hoạt động \"tiếp thị và bán hàng\" trong chuỗi giá trị có vai trò gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Tìm kiếm và lựa chọn nhà cung cấp.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Biến đổi nguyên vật liệu thành sản phẩm.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Quảng bá sản phẩm và tạo ra nhu cầu cho khách hàng.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Cung cấp dịch vụ bảo hành, sửa chữa cho khách hàng.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q426",
+		"question_text": "McDonald’s chọn những nhà cung cấp nguyên liệu thực phẩm có chi phí thấp như rau, thịt và cà phê là ví dụ thuộc hoạt động nào trong chuỗi giá trị?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Mua sắm",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Hậu cần đầu ra",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Hậu cần đầu vào",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tiếp thị và bán hàng",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q427",
+		"question_text": "Hai doanh nghiệp trong ngành hàng không đều cạnh tranh trong cùng một nhóm chiến lược với tư cách là hãng hàng không giá rẻ, bay thẳng, nhưng họ dựa trên các lợi thế nguồn lực khác nhau. Năng suất của một doanh nghiệp có xu hướng cao hơn doanh nghiệp còn lại vì hai công ty khác biệt về nguồn lực và tổ chức. Ví dụ này minh họa rõ nhất giả định nào trong lý thuyết nguồn lực:",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Tính không đồng nhất về nguồn lực",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Xu hướng ít thay đổi theo thời gian",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Khả năng phân bổ nguồn lực",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tính đồng nhất (giống nhau) về nguồn lực",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q428",
+		"question_text": "Chiến lược thâm nhập thị trường là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Là chiến lược gia tăng thị phần cho các sản phẩm hoặc dịch vụ hiện tại của doanh nghiệp thông qua các nỗ lực Marketing.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Là chiến lược nhằm đưa sản phẩm hoặc dịch vụ hiện tại của doanh nghiệp ra tiêu thụ trên các khu vực địa lý mới hoặc thu hút khách hàng mới trên khu vực thị trường địa lý hiện tại",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Là chiến lược nhằm gia tăng lượng hàng hóa tiêu thụ bằng cách thay đổi hoặc cải tiến sản phẩm hoặc dịch vụ hiện tại.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Cả 3 đáp án đều sai",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q429",
+		"question_text": "Dựa vào công cụ ma trận BCG doanh nghiệp sẽ đầu tư mở rộng sản xuất khi:",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Tốc độ tăng trưởng ngành cao",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Thị phần cao và tốc độ tăng trưởng ngành cao",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Thị phần tương đối cao và tốc độ tăng trưởng ngành thấp",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Thị phần tương đối cao và tốc độ tăng trưởng ngành cao",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "sm-q430",
+		"question_text": "Công ty General Electric là một tập đoàn đa quốc gia của Mỹ. Công ty GE hoạt động trên nhiều lĩnh vực : Năng lượng, Công nghệ, Cơ sở hạ tầng, Tài chính và Tiêu dùng công nghiệp với các sản phẩm là : đầu máy xe lửa, máy bay, thiết bị công nghiệp, thiết bị y tế, dịch vụ tài chính, truyền thông, giải trí, xăng dầu, gas . . .Đây là ví dụ về việc áp dụng chiến lược gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Đa dạng hóa có liên quan",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Đa dạng hóa theo chiều ngang",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Đa dạng hóa không liên quan",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Liên minh chiến lược",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q431",
+		"question_text": "Tập đoàn Toyota, Honda, GM, Ford là những nhà sản xuất ô tô lớn tập trung chính vào lĩnh vực sản xuất ô tô và một số máy công cụ dành cho nhiều phân khúc khách hàng khác nhau. Chiến lược của các doanh nghiệp này thuộc nhóm chiến lược nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Chiến lược đa dạng hóa đồng tâm",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Chiến lược đa dạng hóa không đồng tâm",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chiến lược liên minh",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chiến lược đại dương xanh",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q432",
+		"question_text": "Đâu là lợi ích của chuỗi giá trị?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Hỗ trợ ra quyết định nhanh chóng, chính xác",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Đo lường, đánh giá những điểm hạn chế để tìm biện pháp khắc phục",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Hiểu được sự gắn kết của toàn bộ hệ thống",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Cả ABC đều đúng",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "sm-q433",
+		"question_text": "Đâu không phải hoạt động chính của chuỗi giá trị?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Hoạt động đầu vào, vận hành",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Hoạt động hậu cần, dịch vụ",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Hoạt động tiếp trị và bán hàng",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Hoạt động phát triển cộng nghệ",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "sm-q434",
+		"question_text": "Khi áp dụng chiến lược đại dương đỏ, các doanh nghiệp thường phải:",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Giảm giá để cạnh tranh",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Tăng giá trị sản phẩm mà không tăng chi phí",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Khai thác thị trường chưa được biết đến",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Đầu tư vào các ngành không liên quan",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q435",
+		"question_text": "Chuỗi giá trị của Porter được chia thành mấy nhóm hoạt động chính?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "2",
+				"is_correct": true
+			},
+			{
+				"answer_text": "3",
+				"is_correct": false
+			},
+			{
+				"answer_text": "4",
+				"is_correct": false
+			},
+			{
+				"answer_text": "5",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q436",
+		"question_text": "Hoạt động nào sau đây không thuộc các hoạt động chính trong chuỗi giá trị của Michael Porter?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Hậu cần đầu vào",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Hoạt động sản xuất",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Quản trị nhân sự",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Hậu cần đầu ra",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q437",
+		"question_text": "Trong chuỗi giá trị, hoạt động nào tập trung vào việc vận chuyển hàng hóa từ kho đến khách hàng?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Marketing và bán hàng",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Dịch vụ",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Hậu cần đầu ra",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Hậu cần đầu vào",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q438",
+		"question_text": "Hoạt động nào sau đây thuộc nhóm hoạt động hỗ trợ trong chuỗi giá trị?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Mua sắm (Procurement)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Dịch vụ khách hàng",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Hậu cần đầu ra",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Marketing và bán hàng",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q439",
+		"question_text": "Quản trị cơ sở hạ tầng là một phần của:",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Các hoạt động chính.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Các hoạt động hỗ trợ.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Hoạt động dịch vụ.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Hậu cần đầu vào.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q440",
+		"question_text": "Trong chuỗi giá trị của Porter, \"Hậu cần đầu vào\" liên quan đến:",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Vận chuyển hàng hóa từ kho đến khách hàng.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Quản lý nguyên liệu đầu vào và lưu trữ.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Dịch vụ hậu mãi cho khách hàng.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Quảng bá và phân phối sản phẩm.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q441",
+		"question_text": "Hoạt động nào trong chuỗi giá trị tập trung vào việc cải thiện quy trình và đổi mới sản phẩm?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Quản trị nhân sự",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Nghiên cứu và phát triển (R&D)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Marketing và bán hàng",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Hậu cần đầu ra",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q442",
+		"question_text": "Hoạt động nào hỗ trợ việc tuyển dụng, đào tạo, và phát triển nhân viên?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Marketing và bán hàng",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Quản trị nguồn nhân lực",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Hậu cần đầu vào",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Sản xuất",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q443",
+		"question_text": "Nhóm hoạt động chính trong chuỗi giá trị không bao gồm:",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Hậu cần đầu vào",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Hậu cần đầu ra",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Dịch vụ",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Mua sắm",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "sm-q444",
+		"question_text": "Hoạt động \"Marketing và bán hàng\" không bao gồm:",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Xây dựng chiến dịch quảng cáo.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Thiết lập kênh phân phối",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Nghiên cứu thị trường",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Kiểm tra chất lượng sản phẩm.",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "sm-q445",
+		"question_text": "Một ví dụ điển hình của chiến lược đại dương xanh là:",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Hãng hàng không giá rẻ cạnh tranh về giá",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Cirque du Soleil tạo ra trải nghiệm giải trí kết hợp xiếc và nghệ thuật sân khấu",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Chuỗi cửa hàng bán lẻ giảm giá để thu hút khách hàng",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Một công ty sao chép sản phẩm của đối thủ với giá thấp hơn",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q446",
+		"question_text": "Hoạt động mua sắm (Procurement) có vai trò:",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Thu hút khách hàng tiềm năng.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Mua nguyên vật liệu đầu vào cần thiết cho sản phẩm công ty",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Đào tạo nhân viên mới.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Quản lý và vận chuyển sản phẩm.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q447",
+		"question_text": "Hoạt động \"Dịch vụ hậu mãi\" trong chuỗi giá trị có thể bao gồm:",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Hỗ trợ kỹ thuật và bảo hành sản phẩm.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Quảng cáo sản phẩm mới.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Quản lý kho hàng hóa.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Nghiên cứu khách hàng tiềm năng.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q448",
+		"question_text": "Quy trình phân tích chuỗi giá trị gồm mấy bước:",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "3",
+				"is_correct": true
+			},
+			{
+				"answer_text": "4",
+				"is_correct": false
+			},
+			{
+				"answer_text": "5",
+				"is_correct": false
+			},
+			{
+				"answer_text": "6",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q449",
+		"question_text": "Đâu là cách mà doanh nghiệp sử dụng chuỗi giá trị để đạt lợi thế cạnh tranh?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Tăng giá bán sản phẩm",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tập trung cải tiến từng hoạt động trong chuỗi giá trị để tạo ra giá trị vượt trội hoặc giảm chi phí",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Tập trung vào marketing để tăng nhận thức thương hiệu",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Cắt giảm các hoạt động hỗ trợ để giảm chi phí",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q450",
+		"question_text": "Hoạt động nào dưới đây được coi là hoạt động hỗ trợ trong chuỗi giá trị?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Sản xuất",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Quản trị nguồn nhân lực",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Tiếp thị",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Dịch vụ sau bán hàng",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q451",
+		"question_text": "Các yếu tố nào sau đây nằm trong \"hoạt động chính\" của chuỗi giá trị?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Hệ thống công nghệ thông tin",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Phát triển sản phẩm",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Vận hành sản xuất",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Quản lý tài chính",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q452",
+		"question_text": "Mục tiêu của phân tích chuỗi giá trị là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Đưa ra chiến lược mở rộng thị trường cho công ty.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tăng cường hiệu quả hoạt động và tạo ra giá trị cho khách hàng thông qua tối ưu hóa các hoạt động.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Giảm chi phí sản xuất một cách triệt để.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Phát triển sản phẩm mới để gia tăng lợi nhuận.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q453",
+		"question_text": "Trong chuỗi giá trị, hoạt động nào sau đây giúp doanh nghiệp tạo ra lợi thế cạnh tranh bền vững?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Hoạt động nghiên cứu và phát triển",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Quản lý chuỗi cung ứng",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tiếp thị trực tuyến",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Quản trị tài chính",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q454",
+		"question_text": "Ba chiến lược cạnh tranh tổng quát mà M. Porter đề xuất như là những công cụ giúp công ty đạt kết quả cao hơn các đối thủ cạnh tranh trong một ngành cụ thể là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Phạm vị cạnh tranh, khác biệt hoá, và tập trung",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Đa dạng hoá, tập trung hoá, và phạm vi cạnh tranh",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chi phí, phạm vi cạnh tranh, và tập trung",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Dẫn đầu về chi phí, khác biệt hoá, và tập trung",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "sm-q455",
+		"question_text": "Khi một công ty lo ngại rằng mức giá bán mà nó áp dụng dựa trên những lợi thế cạnh tranh của mình là quá cao so với mức giá bán của các đối thủ cạnh tranh và điều này có thể ảnh hưởng tới doanh số bán hàng, thì công ty đó hướng tới giải quyết rủi ro của việc theo đuổi loại chiến lược cạnh tranh nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Dẫn đầu về chi phí",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tập trung",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Khác biệt hóa",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Mắc kẹt ở giữa",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q456",
+		"question_text": "Chiến lược nào mô tả sự thành công khi cân bằng giữa sự khác biệt hóa và chi phí thấp?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Chiến lược khác biệt hóa tập trung",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chiến lược đại dương đỏ",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chiến lược ổn định",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chiến lược đại dương xanh",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "sm-q457",
+		"question_text": "Chiến lược nào của Porter tập trung vào một phân khúc hẹp?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Khác biệt hóa tập trung",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Khác biệt hóa",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Dẫn đầu về chi phí",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tập trung hóa",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "sm-q458",
+		"question_text": "Yếu tố nào không thực sự là yếu tố mà doanh nghiệp có thể dựa vào đó để giảm chi phí khi áp dụng chiến lược cạnh tranh dẫn đầu về chi phí?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Chi phí các yếu tố đầu vào",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Kinh tế quy mô",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Kinh nghiệm",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Nâng cao chất lượng hàng hóa, dịch vụ",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "sm-q459",
+		"question_text": "Chỉ số Herfindahl-Hirschman (HHI) ở mức tập trung vừa phải khi nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "HHI dưới 1500",
+				"is_correct": false
+			},
+			{
+				"answer_text": "HHI từ 1500 tới 2500",
+				"is_correct": true
+			},
+			{
+				"answer_text": "HHI từ 1500 tới 3500",
+				"is_correct": false
+			},
+			{
+				"answer_text": "HHI từ 2500 tới 3500",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q460",
+		"question_text": "Chiến lược phát triển thị trường phù hợp khi nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Khi thị trường hiện tại đã bão hòa",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Khi không có đủ nguồn lực tài chính",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Khi sản phẩm không có tính cạnh tranh",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Khi khách hàng hiện tại không hài lòng",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q461",
+		"question_text": "Chiến lược phòng thủ bao gồm những loại nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Chiến lược thâm nhập thị trường, phát triển thị trường, phát triển sản phẩm.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chiến lược đa dạng hóa liên quan, đa dạng hóa không liên quan.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chiến lược hội nhập dọc, hội nhập ngang.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chiến lược cắt giảm, chiến lược bán bớt, chiến lược đóng cửa.",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "sm-q462",
+		"question_text": "Trong chiến lược đại dương xanh, doanh nghiệp thường sử dụng ma trận nào để tạo ra giá trị mới?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Ma trận SWOT",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Ma trận BCG",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Ma trận Eliminate-Reduce-Raise-Create",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Ma trận PESTEL",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q463",
+		"question_text": "Câu nào sau đây thể hiện hoạt động chủ yếu của chức năng marketing?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Đào tạo nâng cao chất lượng nguồn nhân lực",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Quá trình tự động hóa sản xuất",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Hiệu suất của hoạt động tồn trữ nguyên vật liệu",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Sự đổi mới các hoạt động quảng cáo và khuyến mãi",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "sm-q464",
+		"question_text": "Việc sử dụng công nghệ sản xuất hiện đại, linh hoạt để tập trung nâng cao chất lượng sản phẩm thuộc chiến lược chức năng nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Chiến lược nhân sự",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chiến lược sản xuất",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Chiến lược Marketing",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chiến lược R&D",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q465",
+		"question_text": "Dựa trên cách tiếp cận định tính, doanh nghiệp nên lựa chọn chiến lược cấp chức năng đáp ứng yêu cầu nào sau đây?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Chiến lược phù hợp với văn hóa hiện tại của công ty",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Chiến lược có sự thay đổi, cải cách lớn cấu trúc và hoạt động của công ty",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chiến lược không đáp ứng được nguyện vọng, mong muốn của các bên liên quan",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tất cả các đáp án đều sai",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q466",
+		"question_text": "Công ty X có quy mô vừa phải, mức độ tổ chức không phức tạp và được tổ chức thành các Phòng chuyên môn như Phòng sản xuất, phòng nhân sự, phòng tài chính, phòng kinh doanh…. Đây là đặc trưng của mô hình tổ chức có cấu trúc như thế nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Cơ cấu giản đơn",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Cơ cấu chức năng",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Kiểu M - Form",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Cơ cấu ma trận",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q467",
+		"question_text": "Khi xây dựng cơ cấu tổ chức, doanh nghiệp cần quan tâm tới 4 nội dung chính, đó là những nội dung nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Chuyên môn hóa, chính thức hoá, tập trung hoá, phân cấp",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Chuyên môn hóa, chính thức hóa, tập trung hoá, khác biệt hoá",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chuyên môn hóa, chính thức hoá, khác biệt hoá, phân cấp",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chuyên môn hoá, khác biệt hoá, tập trung hoá, phân cấp",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q468",
+		"question_text": "Yếu tố nào KHÔNG phải là dấu hiệu của cơ cấu tổ chức không hiệu quả?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Có quá nhiều cấp quản lý",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Quá nhiều mục tiêu không đạt được",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Hiệu suất kinh doanh tăng",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Phạm vi kiểm soát quá lớn",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q469",
+		"question_text": "Câu hỏi nào dưới đây không được sử dụng trong đánh giá tính tương thích giữa chiến lược và văn hóa?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Chiến lược được đề xuất có tương thích với văn hóa hiện tại của công ty/doanh nghiệp không?",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Liệu văn hóa có thể được dễ dạng điều chỉnh, thay đổi để trở nên tương thích hơn với chiến lược mới không?",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Liệu nhà quản trị có sẵn sàng và có khả năng tạo ra những đổi lớn về văn hóa tổ chức, và có chấp nhận những chậm trễ có thể có cũng như những chi phí phát sinh không?",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Liệu có một nhà quản trị khác phù hợp hơn cho việc chiến lược này?",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "sm-q470",
+		"question_text": "Nội dung nào sau đây đề cập về thói quen?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Những gì được coi là quan trọng – mục đích mà mỗi thành viên tổ chức cần phải nỗ lực để đạt được",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Những yếu tố giúp văn hóa doanh nghiệp được thể hiện ra bên ngoài như thiết kế không gian vật lý, biểu tượng, ngôn ngữ, câu chuyện, sự kiện, v.v",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Cách thức chúng ta làm việc hàng ngày",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Những hoạt động cụ thể hoặc sự kiện đặc biệt dùng để nhấn mạnh, làm nổi bật hoặc củng cố những gì được coi là quan trọng [trong văn hoá] của tổ chức",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q471",
+		"question_text": "Đâu không phải là yêu cầu đối với các tiêu chuẩn kiểm tra và đánh giá định tính?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Tính nhất quán",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tính phù hợp",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tính tổng hợp",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Tính khả thi",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q472",
+		"question_text": "Đâu KHÔNG phải là thước đo khách hàng thường được sử dụng trong kiểm soát chiến lược:",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Lòng trung thành của khách hàng",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Số lượng hội chợ thương mại tham gia",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Khả năng thanh toán lãi vay",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Tỷ lệ phần trăm doanh thu từ khách hàng mới",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q473",
+		"question_text": "Trong các thước đo sau đây, đâu là thước đo Quy trình nội bộ được sử dụng trong kiểm soát chiến lược?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Các khiếu nại được giải quyết vào lần liên lạc đầu tiên",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Thời gian phản hồi yêu cầu khách hàng",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Số lượng giao dịch khách hàng",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Doanh thu hàng năm/ mỗi khách hàng",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q474",
+		"question_text": "“Kiểm soát đầu vào để dự báo vấn đề” là nội dung của kiểm soát:",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Kiểm soát lường trước",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Kiểm soát đồng thời",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Kiểm soát phản hồi",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Kiểm soát theo thời gian",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q475",
+		"question_text": "Vai trò chính của chiến lược cấp công ty là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Tăng trưởng lợi nhuận ngắn hạn",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Định hướng hoạt động kinh doanh tổng thể",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Tối ưu hóa quy trình sản xuất",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Giảm thiểu chi phí cố định",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q476",
+		"question_text": "Chiến lược tăng trưởng tập trung KHÔNG bao gồm:",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Thâm nhập thị trường",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Phát triển sản phẩm",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Đóng cửa doanh nghiệp",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Phát triển thị trường",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q477",
+		"question_text": "Khi nào nên áp dụng chiến lược phát triển sản phẩm?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Khi thị trường hiện tại chưa bão hòa",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Khi doanh nghiệp có lợi thế R&D",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Khi muốn giảm quy mô sản xuất",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Khi không có đối thủ cạnh tranh",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q478",
+		"question_text": "\"Đa dạng hóa không liên quan\" là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Mở rộng sản phẩm mới không liên quan về công nghệ",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Tập trung vào thị trường cũ",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tăng cường quảng cáo",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Sát nhập đối thủ cạnh tranh",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q479",
+		"question_text": "Một doanh nghiệp áp dụng chiến lược hội nhập dọc ngược chiều khi:",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Đối thủ cạnh tranh gia tăng",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Nhà cung cấp không đáng tin cậy",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Thị phần giảm sút",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Phát triển công nghệ mới",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q480",
+		"question_text": "Đặc điểm chính của chiến lược đại dương xanh là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Cạnh tranh trong thị trường hiện có",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tạo ra một thị trường mới không có hoặc ít đối thủ",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Giảm chi phí sản xuất",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tăng doanh thu bằng cách giảm giá sản phẩm",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q481",
+		"question_text": "Chiến lược cắt giảm là một phần của:",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Chiến lược tăng trưởng",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chiến lược hội nhập",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chiến lược phòng thủ",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Chiến lược đa dạng hóa",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q482",
+		"question_text": "Khi nào doanh nghiệp nên áp dụng chiến lược bán bớt?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Khi muốn mở rộng thị trường quốc tế",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Khi cần huy động tài chính và thoát khỏi lĩnh vực không hiệu quả",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Khi đối thủ cạnh tranh tăng cường năng lực sản xuất",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Khi muốn phát triển sản phẩm mới",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q483",
+		"question_text": "Điểm khác biệt cơ bản giữa chiến lược thâm nhập thị trường và phát triển thị trường là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Đối tượng khách hàng",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Sự đa dạng sản phẩm",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Quy mô thị trường",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Sử dụng kênh phân phối",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q484",
+		"question_text": "Ví dụ nào sau đây là chiến lược hội nhập ngang?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Apple mở chuỗi cửa hàng bán lẻ của riêng mình",
+				"is_correct": false
+			},
+			{
+				"answer_text": "General Electric mua lại công ty sản xuất máy phát điện",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Một công ty thảm trải sàn kinh doanh thêm đồ nội thất",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Pepsi mua lại Coca-Cola",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "sm-q485",
+		"question_text": "Chiến lược BPO giúp doanh nghiệp:",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Tập trung vào các hoạt động không cốt lõi",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tự thực hiện tất cả các quy trình nội bộ",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Thuê ngoài các quy trình không cốt lõi",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Giảm nhu cầu sử dụng công nghệ",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q486",
+		"question_text": "Chiến lược phát triển thị trường phù hợp khi nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Khi thị trường hiện tại đã bão hòa",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Khi không có đủ nguồn lực tài chính",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Khi sản phẩm không có tính cạnh tranh",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Khi khách hàng hiện tại không hài lòng",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q487",
+		"question_text": "\"Nhượng quyền thương mại\" là một ví dụ của:",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Chiến lược hội nhập dọc về phía trước",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chiến lược thâm nhập thị trường",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Chiến lược đa dạng hóa không liên quan",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chiến lược phát triển sản phẩm",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q488",
+		"question_text": "Lợi ích lớn nhất của chiến lược đa dạng hóa là:",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Giảm giá thành sản phẩm",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Phân tán rủi ro và tạo cơ hội phát triển thị trường",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Tăng khả năng kiểm soát nhà cung cấp",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Hợp nhất thị phần với đối thủ cạnh tranh",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q489",
+		"question_text": "Đâu là yếu tố rủi ro chính khi áp dụng chiến lược đại dương xanh?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Cạnh tranh gay gắt",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Đầu tư quá nhiều vào công nghệ lỗi thời",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tạo ra thị trường mới không chắc chắn về nhu cầu",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Chi phí mở rộng quy mô sản xuất",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q490",
+		"question_text": "Chiến lược tăng trưởng tập trung là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "CL tăng trưởng tập chung là tập hợp các phương pháp để tăng trưởng doanh nghiệp bằng mọi giá",
+				"is_correct": false
+			},
+			{
+				"answer_text": "CL tăng trưởng tập chung là phương pháp giúp doanh nghiệp tập chung nguồn lực để phát triển dự án, sản phẩm.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "CL tăng trưởng tập trung là các CL đặt trọng tâm vào việc cải tiến sản phẩm hoặc thị trường hiện có thông qua việc sử dụng các công cụ Marketing để gia tăng doanh số và thị phần mà không sử dụng bất cứ nguồn lực nào từ ngoài DN",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "sm-q491",
+		"question_text": "Có bao nhiêu loại chiến lược tăng trưởng?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "4",
+				"is_correct": true
+			},
+			{
+				"answer_text": "5",
+				"is_correct": false
+			},
+			{
+				"answer_text": "6",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q492",
+		"question_text": "Có bao nhiêu loại chiến lược tăng trưởng tập trung?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "1",
+				"is_correct": false
+			},
+			{
+				"answer_text": "2",
+				"is_correct": false
+			},
+			{
+				"answer_text": "3",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "sm-q493",
+		"question_text": "Chiến lược phòng thủ là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Chiến lược phòng thủ là chiến lược nhằm bảo vệ doanh nghiệp khỏi các đối thủ cạnh tranh",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chiến lược phòng thủ là chiến lược nhằm bảo vệ doanh nghiệp khỏi các tác động của môi trường vĩ mô.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chiến lược phòng thủ là chiến lược nhằm mục đích giảm qui mô hoặc mức độ đa dạng các hoạt động của doanh nghiệp",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "sm-q494",
+		"question_text": "Có bao nhiêu chiến lược phòng thủ?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "4",
+				"is_correct": false
+			},
+			{
+				"answer_text": "3",
+				"is_correct": true
+			},
+			{
+				"answer_text": "6",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q495",
+		"question_text": "Đâu là lý do các công ty thuê ngoài quy trình kinh doanh:",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Có thể lựa chọn được nhà cung cấp dịch vụ phù hợp nhất với nhu cầu của mình",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Cho phép DN tập trung vào các hoạt động cốt lõi trong chuỗi giá trị để duy trì lợi thế cạnh tranh.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Có thể tập trung nguồn lực vào lĩnh vực kinh doanh cốt lõi",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tất cả đáp án trên",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "sm-q496",
+		"question_text": "Đâu không phải là ưu điểm của chiến lược đa dạng hóa:",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Phân tán rủi ro",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Khai thác được lợi thế kinh tế theo quy mô",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Cho phép sử dụng được các nguồn lực dư thừa và đạt được mục tiêu tăng trưởng cao",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Đảm bảo chất lượng sản phẩm",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "sm-q497",
+		"question_text": "Nhược điểm của chiến lược hội nhập dọc là gì",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Tạo điều kiện thuận lợi cho việc đầu tư vào những tài sản chuyên dụng đem lại hiệu quả cao",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Đòi hỏi đầu tư lớn, gây sức ép đến nguồn lực của DN,gây sự phức tạp trong công tác quản lý, bất ổn trong trường hợp DN bị suy thoái.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Khó khăn trong quản lý và điều hành các hoạt động không đồng nhất",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Doanh nghiệp phải phân tán nguồn lực.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q498",
+		"question_text": "Mục đích của chiến lược phát triển sản phẩm là",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Nhằm gia tăng lượng hàng hóa tiêu thụ bằng cách thay đổi hoặc cải tiến SP hoặc dịch vụ hiện tại => đòi hỏi ngân sách lớn cho hoạt động R&D",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Nhằm đưa SP hoặc dịch vụ hiện tại của DN ra tiêu thụ trên các khu vực địa lý mới hoặc thu hút KH mới trên khu vực thị trường địa lý hiện tại.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Gia tăng thị phần cho các SP hoặc dịch vụ hiện tại của DN thông qua các nỗ lực Marketing",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tập trung nguồn lực của DN vào các hoạt động chủ lực/ sở trường của mình.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q499",
+		"question_text": "Thế nào là chiến lược đa dạng hóa?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Là CL tăng trưởng bằng cách hướng vào thị trường đang tiêu thụ những sản phẩm mới không liên quan gì về mặt công nghệ với sản phẩm hiện có.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Là việc DN mở rộng hoạt động sang các lĩnh vực hoạt động mới, là tập trung đầu tư vào nhiều ngành, nhiều lĩnh vực khác nhau nhằm san sẻ rủi ro và phát triển thị trường.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Là đa dạng hóa mà DN kết nối một số khía cạnh, hoạt động về hậu cần đầu vào, sản xuất, hậu cần đầu ra, Marketing…",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Là những nỗ lực nhằm sở hữu (một phần hoặc hoàn toàn) hoặc gia tăng khả năng kiểm soát đối với nhà cung cấp, nhà phân phối hoặc đối thủ cạnh tranh của doanh nghiệp.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q500",
+		"question_text": "Chiến lược cấp công ty là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Chiến lược tập trung vào việc cải thiện sản phẩm hoặc thị trường hiện có.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chiến lược xác định những lĩnh vực kinh doanh mà doanh nghiệp nên tham gia hoặc sẽ tham gia vào.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Chiến lược tập trung vào việc giảm chi phí sản xuất.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chiến lược tập trung vào việc tăng cường quan hệ với khách hàng.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q501",
+		"question_text": "Chiến lược tăng trưởng tập trung bao gồm những loại nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Thâm nhập thị trường, phát triển thị trường, phát triển sản phẩm.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Đa dạng hóa liên quan, đa dạng hóa không liên quan.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Hội nhập dọc, hội nhập ngang.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Liên minh chiến lược, liên doanh.",
+				"is_correct": false
+			}
+		]
+	}
+]

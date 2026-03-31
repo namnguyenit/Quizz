@@ -1,0 +1,2201 @@
+[
+	{
+		"question_id": "sm-q601",
+		"question_text": "Một ví dụ điển hình của chiến lược đại dương xanh là:",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Hợp tác chiến lược giữa hai hãng hàng không lớn.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Phát triển xe đạp điện với thiết kế hoàn toàn mới chưa từng có.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Giảm giá vé máy bay để cạnh tranh với các đối thủ.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tăng số lượng chuyến bay để thu hút khách hàng.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q602",
+		"question_text": "Trong chiến lược đại dương xanh, doanh nghiệp cần tránh:",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Cạnh tranh giá cả với đối thủ",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Đổi mới và sáng tạo",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tập trung vào các thị trường chưa được khai phá",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Đáp ứng nhu cầu chưa được thỏa mãn của khách hàng",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q603",
+		"question_text": "Chiến lược đại dương xanh giúp doanh nghiệp:",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Đối đầu trực tiếp với đối thủ cạnh tranh",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tạo ra giá trị cao hơn cho khách hàng mà vẫn tối ưu hóa chi phí",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Loại bỏ hoàn toàn chi phí tiếp thị",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tăng giá sản phẩm mà không cải thiện chất lượng",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q604",
+		"question_text": "Một ví dụ điển hình của chiến lược đại dương xanh là:",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Hãng hàng không giá rẻ cạnh tranh về giá",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Cirque du Soleil tạo ra trải nghiệm giải trí kết hợp xiếc và nghệ thuật sân khấu",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Chuỗi cửa hàng bán lẻ giảm giá để thu hút khách hàng",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Một công ty sao chép sản phẩm của đối thủ với giá thấp hơn",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q605",
+		"question_text": "Ma trận \"Eliminate-Reduce-Raise-Create\" (Loại bỏ - Giảm thiểu - Nâng cao - Tạo ra) trong chiến lược đại dương xanh nhằm mục đích:",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Đánh giá và cải tiến các yếu tố của sản phẩm hoặc dịch vụ",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Phân tích đối thủ cạnh tranh trong ngành",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tăng doanh số bằng cách giảm giá",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tối ưu hóa chuỗi cung ứng",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q606",
+		"question_text": "Chiến lược nào dưới đây thuộc nhóm Chiến lược cạnh tranh (Đại dương đỏ)?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Chiến lược đổi mới sáng tạo giá trị",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chiến lược dẫn đầu về chi phí",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Chiến lược hợp tác chiến lược",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chiến lược liên doanh",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q607",
+		"question_text": "Điểm đặc trưng của chiến lược hợp tác cấu kết là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Nhắm tới giảm chi phí đầu vào",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Hợp tác giữa các doanh nghiệp để giảm đầu ra và tăng giá",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Phát triển sản phẩm khác biệt cho thị trường mục tiêu hẹp",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tăng cường mối quan hệ với khách hàng",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q608",
+		"question_text": "Ma trận SWOT/TOWS được sử dụng để làm gì trong chiến lược Đại dương đỏ?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Xác định thị trường mới để tránh cạnh tranh",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Kết nối các yếu tố bên trong và bên ngoài để xây dựng chiến lược",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Tìm kiếm các liên minh chiến lược phù hợp",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Đo lường mức độ tập trung của ngành",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q609",
+		"question_text": "Theo bạn, chiến lược dẫn đầu về chi phí tập trung vào yếu tố nào sau đây?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Đặc điểm sản phẩm",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Quan hệ khách hàng",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Quy mô kinh tế và học hỏi kinh nghiệm",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Hợp tác với đối thủ để chia sẻ rủi ro",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q610",
+		"question_text": "Herfindahl-Hirschman Index (HHI) được sử dụng để đo lường điều gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Mức độ sáng tạo trong ngành",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Sự khác biệt hoá sản phẩm",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Mức độ tập trung của thị trường hoặc ngành",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Khả năng hợp tác giữa các công ty",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q611",
+		"question_text": "Khái niệm “Chiến lược Đại dương xanh” nhấn mạnh điều gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Cạnh tranh khốc liệt để giành thị phần.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tìm kiếm thị trường mới chưa được khai thác.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Hợp tác với đối thủ để tăng lợi thế.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tăng cường quảng cáo và giảm giá thành sản phẩm.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q612",
+		"question_text": "Chiến lược Đại dương xanh khác biệt với chiến lược Đại dương đỏ ở điểm nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Tập trung vào giảm chi phí.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tăng cường hợp tác với đối thủ.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Kết hợp khác biệt hóa và chi phí thấp.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Nâng cao trải nghiệm khách hàng hiện tại.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q613",
+		"question_text": "Yếu tố nào không thuộc mô hình ERRC của chiến lược Đại dương xanh?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Eliminate (Loại bỏ).",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Raise (Tăng cường).",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Collaborate (Hợp tác).",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Create (Tạo mới).",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q614",
+		"question_text": "Mục tiêu chính của sơ đồ chiến lược (Strategy Canvas) là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Đánh giá hiệu suất tài chính của doanh nghiệp.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Xác định các yếu tố cạnh tranh trong ngành.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Dự đoán xu hướng thị trường tương lai.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Phân tích điểm mạnh và điểm yếu của doanh nghiệp.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q615",
+		"question_text": "Ví dụ nào dưới đây phù hợp với chiến lược Đại dương xanh?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Cạnh tranh về giá để thu hút khách hàng hiện tại.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tạo ra một loại hình dịch vụ hoàn toàn mới chưa từng có trên thị trường.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Tăng cường khuyến mãi để giành thị phần từ đối thủ.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Mua lại các công ty nhỏ trong cùng ngành để mở rộng thị phần.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q616",
+		"question_text": "Tác giả của cuốn sách “Blue Ocean Strategy” là ai?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Michael Porter",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chan Kim và Renée Mauborgne",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Henry Mintzberg",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Peter Drucker",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q617",
+		"question_text": "Đổi mới sáng tạo giá trị (Value Innovation) là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Cách tiếp cận để tăng doanh số bán hàng.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Kết hợp khác biệt hóa và giảm chi phí để tạo ra giá trị vượt trội.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Tăng giá trị sản phẩm hiện tại để duy trì lợi nhuận.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tăng cường quảng cáo và tiếp thị.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q618",
+		"question_text": "Chiến lược Đại dương xanh áp dụng hiệu quả nhất trong tình huống nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Ngành có nhiều đối thủ cạnh tranh khốc liệt.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Ngành đang mở rộng và thiếu các đối thủ lớn.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Thị trường bão hòa với ít cơ hội tăng trưởng.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Ngành đang phát triển nhanh chóng và có nhu cầu cao.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q619",
+		"question_text": "Trong sơ đồ chiến lược, “Đường giá trị” đại diện cho điều gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Các chi phí cần thiết để phát triển sản phẩm.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Hiệu suất tương đối của một công ty trên các yếu tố cạnh tranh trong ngành.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Doanh thu dự kiến từ các sản phẩm mới.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Mức độ tăng trưởng của ngành trong thời gian gần đây.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q620",
+		"question_text": "Có mấy loại hình chiến lược",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "3",
+				"is_correct": true
+			},
+			{
+				"answer_text": "4",
+				"is_correct": false
+			},
+			{
+				"answer_text": "5",
+				"is_correct": false
+			},
+			{
+				"answer_text": "6",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q621",
+		"question_text": "Chiến lược kinh doanh bao gồm",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Chiến lược hợp tác",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chiến lược đại dương xanh",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chiến lược tăng trưởng",
+				"is_correct": false
+			},
+			{
+				"answer_text": "A&B đúng",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "sm-q622",
+		"question_text": "Đâu là hạn chế của SWOT/TOWS MATRIX khi kết nối phân tích môi trường & xây dựng chiến lược chức năng",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Không có tính thời điểm",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Không thêm các lớp phân tích cải thiện giá trị danh sách",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Có tính thời điểm",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Hầu như mọi thứ là cơ hội",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q623",
+		"question_text": "Theo tiếp cận định tính trong lựa chọn chiến lược, yếu tố nào giúp chiến lược dễ được ủng hộ và chấp nhận hơn?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Chiến lược yêu cầu thay đổi lớn trong tổ chức",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chiến lược phù hợp với văn hóa hiện tại của tổ chức",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Chiến lược không đáp ứng được nguyện vọng của các bên liên quan",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chiến lược không liên quan đến yếu tố văn hóa xã hội",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q624",
+		"question_text": "Công thức tính Thời gian hoàn vốn (Payback Period) là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Thời gian hoàn vốn = Giá trị dòng tiền dự kiến hàng năm / Giá trị đầu tư cố định ban đầu",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Thời gian hoàn vốn = Giá trị đầu tư cố định ban đầu / Giá trị dòng tiền dự kiến hàng năm",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Thời gian hoàn vốn = Dòng tiền ròng / Giá trị đầu tư cố định ban đầu",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Thời gian hoàn vốn = Tổng dòng tiền / Số năm hoàn vốn",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q625",
+		"question_text": "Chiến lược chức năng là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Chiến lược tập trung vào định hướng tổng thể về tăng trưởng và cách thức công ty quản trị các hoạt động kinh doanh và dòng sản phẩm khác nhau của mình ( Đây là chiến lược công ty)",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chiến lược được thực hiện bởi một khu vực/đơn vị chức năng nhất định để đạt được các mục tiêu cấp công ty và cấp kinh doanh bằng cách tối đa hóa năng suất nguồn lực trong khu vực/đơn vị đó",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Chiến lược nhấn mạnh vào cải thiện lợi thế cạnh tranh của các sản phẩm của công ty trong một ngành hoặc phân khúc thị trường cụ thể.( Đây là chiến lược kinh doanh)",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q626",
+		"question_text": "Một loại chiến lược chức năng, tập trung vào cách thức hiệu quả nhất trong đổi mới sáng tạo, cải tiến sản phẩm và công nghệ/quy trình là chiến lược nào sau đây?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Chiến lược marketing",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chiến lược tài chính",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chiến lược nhân sự",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chiến lược R&D",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "sm-q627",
+		"question_text": "Thương hiệu là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Tên, thuật ngữ, thiết kế, biểu tượng hoặc bất cứ đặc điểm nào giúp xác định và phân biệt hàng hoá hoặc dịch vụ của doanh nghiệp này với doanh nghiệp khác. Thuật ngữ pháp lý của thương hiệu là nhãn hiệu. Thương hiệu có thể xác định cho một mặt hàng, một nhóm mặt hành hoặc tất cả các mặt hàng của một doanh nghiệp",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Tên công ty thích nhất",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Do nhà nước cấp riêng bắt doanh nghiệp phải sử dụng",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q628",
+		"question_text": "Chiến lược định giá phụ thuộc vào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Giá do khách hàng mong muốn",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Giá của đối thủ cạnh tranh",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Được lựa chọn phụ thuộc vào việc nhà quản trị quyết định định vị sản phẩm so với đối thủ như thế nào, và giá bán sẽ đóng vai trò chủ động hay bị động trong chương trình",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "sm-q629",
+		"question_text": "Có mấy phương pháp định giá chính trong chiến lược marketing?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "2 phương pháp",
+				"is_correct": false
+			},
+			{
+				"answer_text": "6 phương pháp",
+				"is_correct": false
+			},
+			{
+				"answer_text": "3 phương pháp",
+				"is_correct": true
+			},
+			{
+				"answer_text": "4 phương pháp",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q630",
+		"question_text": "Công thức định giá dựa vào giá thành (Cost-Based Pricing):",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Giá bán = Chi phí sản xuất, hay Giá thành (tính theo đơn vị sản phẩm) + Lợi nhuận kì vọng",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Giá bán = Chi phí sản xuất, hay Giá thành (tính theo đơn vị sản phẩm) * %Lợi nhuận kì vọng",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Giá bán = Chi phí sản xuất, hay Giá thành (tính theo đơn vị sản phẩm) + %Lợi nhuận kì vọng",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Giá bán = Chi phí sản xuất, hay Giá thành (tính theo đơn vị sản phẩm) * Lợi nhuận kì vọng",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q631",
+		"question_text": "Đâu là vai trò của chiến lược chức năng?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Hỗ trợ chiến lược kinh doanh tổng thể",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Giúp công ty tạo được lợi thế cạnh tranh",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chỉ rõ những công việc mà nhà quản trị chức năng phải làm",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tất cả đáp án trên",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "sm-q632",
+		"question_text": "Khái niệm của chiến lược chức năng là?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Là quyết định và hành động của bộ phận chức năng khác nhau trong tổ chức nhằm thực hiện mục tiêu, được xây dựng trong dài hạn",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Là quyết định và hành động của bộ phận chức năng khác nhau trong tổ chức nhằm thực hiện mục tiêu, được xây dựng trong ngắn hạn",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Là quá trình nghiên cứu các môi trường hiện tại cũng như trong tương lai, hoạch định các mục tiêu của tổ chức",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tất cả các đáp án trên đều sai",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q633",
+		"question_text": "Chiến lược marketing trong chiến lược chức năng chủ yếu tập trung vào điều gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Quản lý sản phẩm và công nghệ",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Phát triển các chiến lược quảng cáo và phân phối sản phẩm",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Quản lý nhân sự và đội ngũ lãnh đạo",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Đầu tư vào cơ sở hạ tầng và máy móc",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q634",
+		"question_text": "Chiến lược chức năng của phòng marketing trong một công ty có thể giúp công ty đạt được gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Đảm bảo sản phẩm và dịch vụ luôn phù hợp với nhu cầu của khách hàng",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Giảm chi phí sản xuất tối đa",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Mở rộng thị trường quốc tế mà không cần thay đổi sản phẩm",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Đầu tư vào công nghệ sản xuất mới",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q635",
+		"question_text": "Chiến lược chức năng là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Một kế hoạch toàn diện để quản lý doanh nghiệp.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chiến lược tập trung vào từng bộ phận hoặc chức năng cụ thể của doanh nghiệp.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Chiến lược cạnh tranh trong toàn ngành.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chiến lược phát triển sản phẩm mới.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q636",
+		"question_text": "Trong các chiến lược chức năng, chiến lược nào dưới đây KHÔNG thuộc chức năng sản xuất?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Cải tiến quy trình sản xuất.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tăng cường kiểm soát chất lượng.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Nghiên cứu thị trường.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Tối ưu hóa chi phí sản xuất.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q637",
+		"question_text": "Chức năng marketing đóng vai trò gì trong chiến lược chức năng?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Quản lý tài chính và dòng tiền.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Phát triển các kênh phân phối và xây dựng thương hiệu.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Quản lý chuỗi cung ứng và hàng tồn kho.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Nâng cao hiệu quả sản xuất.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q638",
+		"question_text": "Một ví dụ của chiến lược chức năng nhân sự là:",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Đầu tư vào tự động hóa sản xuất.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Xây dựng các chương trình đào tạo và phát triển nhân viên.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Phân tích đối thủ cạnh tranh.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tối ưu hóa chuỗi cung ứng.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q639",
+		"question_text": "Chiến lược tài chính tập trung vào:",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Xây dựng mối quan hệ khách hàng.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Quản lý ngân sách, dòng tiền và phân bổ nguồn lực.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Cải tiến sản phẩm và dịch vụ.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tăng cường chất lượng sản xuất.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q640",
+		"question_text": "Mô hình SWOT được sử dụng để làm gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Phân tích cơ hội và thách thức từ môi trường bên ngoài.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Tăng hiệu quả trong quảng cáo.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Đánh giá hệ thống phân phối sản phẩm.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Định giá sản phẩm dựa trên chi phí sản xuất.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q641",
+		"question_text": "Phương pháp định giá \"Value-Based Pricing\" phù hợp cho trường hợp nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Khi sản phẩm có sự khác biệt cao và hướng đến khách hàng cao cấp.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Khi cần đạt lợi nhuận tối thiểu trong phân khúc thấp.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Khi giá cả là yếu tố không quan trọng.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Khi thị trường mục tiêu không có cạnh tranh.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q642",
+		"question_text": "Chiến lược marketing là một loại chiến lược chức năng nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Tập trung vào việc đổi mới sản phẩm.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tập trung vào xây dựng thương hiệu, định giá, quảng bá và phân phối sản phẩm.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Tập trung vào quản lý tài chính hiệu quả.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tập trung vào tuyển dụng và phát triển nhân sự.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q643",
+		"question_text": "Loại hình kênh phân phối nào tập trung vào sự phối hợp và hợp tác chặt chẽ?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Kênh phân phối truyền thống",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Hệ thống phân phối liên kết dọc (VMS)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Hệ thống phân phối ngang",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Kênh phân phối tự do",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q644",
+		"question_text": "Yếu tố nào KHÔNG thuộc các yếu tố cần đánh giá khi lựa chọn chiến lược phân phối?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Tiếp cận thị trường (Market Access).",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Năng lực tạo giá trị gia tăng (Value-Added Competencies).",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chi phí sản xuất.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Mức độ kiểm soát và linh hoạt (Flexibility and Control Considerations).",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q645",
+		"question_text": "Vai trò chính của các chiến lược chức năng là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Đảm bảo nguồn lực cho tổ chức",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Cụ thể hóa chiến lược kinh doanh",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Tăng lợi nhuận ngay lập tức",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Thay đổi cấu trúc tổ chức",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q646",
+		"question_text": "“Marketing là một quá trình quản lý mang tính xã hội mà nhờ đó các cá nhân và các tổ chức có được những gì họ cần và muốn thông qua việc tạo ra, cung cấp và trao đổi sản phẩm có giá trị với những người khác” Khái niệm này của:",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Philip Kotler",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Michael Porter",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Smith",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q647",
+		"question_text": "Đâu không phải là loại hình của chiến lược chức năng?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Sản xuất",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Đào tạo",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Marketing",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Nghiên cứu và phát triển",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q648",
+		"question_text": "Các hoạt động trong quy trình Marketing",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Phân tích các cơ hội thị trường",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Lựa chọn thị trường mục tiêu",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Phát triển marketing hỗn hợp",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Quản lý hiệu quả hoạt động marketing",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Cả 4 phương án trên",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "sm-q649",
+		"question_text": "Trong môi trường marketing, yếu tố nào có tác động gián tiếp",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Đối thủ cạnh tranh",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Công chúng",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Xã hội và văn hóa",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Nhà cung cấp",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q650",
+		"question_text": "Chiến lược marketing có thể bao gồm yếu tố nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Quản lý ngân sách tài chính",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Phân tích thị trường",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Tăng cường quan hệ với nhà cung cấp",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Nghiên cứu cải tiến công nghệ",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q651",
+		"question_text": "Tăng trưởng thị phần thông qua chiến dịch quảng cáo mạnh mẽ thuộc chiến lược nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Chiến lược R&D",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chiến lược marketing",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Chiến lược tài chính",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chiến lược nhân sự",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q652",
+		"question_text": "Một công ty áp dụng chiến lược R&D để làm gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Cải thiện dịch vụ chăm sóc khách hàng",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tăng cường khả năng cạnh tranh thông qua đổi mới",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Giảm chi phí tài chính",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tăng cường quảng bá thương hiệu",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q653",
+		"question_text": "Chiến lược tài chính tập trung vào yếu tố nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Thu hút vốn để thực hiện các chiến lược",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Phát triển sản phẩm mới",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tăng cường mối quan hệ khách hàng",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Mở rộng thị trường",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q654",
+		"question_text": "Trong chiến lược nhân sự, yếu tố nào được ưu tiên hàng đầu?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Quản lý chi phí",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Đào tạo và phát triển nhân viên",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Xây dựng thương hiệu",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tối ưu hóa quy trình sản xuất",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q655",
+		"question_text": "Chiến lược chức năng tập trung vào việc tối đa hóa nguồn lực ở cấp độ nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Cấp độ công ty",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Cấp độ kinh doanh",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Cấp độ chức năng",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Cấp độ toàn cầu",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q656",
+		"question_text": "Chiến lược chi phí thấp của Michael Porter tập trung vào yếu tố nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Cung cấp sản phẩm với giá cao nhất trên thị trường",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Cung cấp sản phẩm với giá thấp hơn đối thủ",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Tập trung vào phân khúc khách hàng cao cấp",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Cung cấp sản phẩm độc đáo nhất",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q657",
+		"question_text": "Kênh phân phối truyền thống (Conventional Channel) được đặc trưng bởi điều nào sau đây?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Hợp tác và chia sẻ thông tin giữa các thành viên",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Một nhóm các tổ chức độc lập với mục tiêu riêng",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Liên kết chặt chẽ từ nguồn cung ứng đến người dùng cuối",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Quản lý bởi một thành viên mạnh trong kênh",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q658",
+		"question_text": "Trong chiến lược định giá, định giá dựa vào giá trị (Value-Based Pricing) phù hợp nhất với:",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Sản phẩm thông thường không có nhiều khác biệt",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Sản phẩm dành cho phân khúc cao cấp",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Sản phẩm giá rẻ với lợi thế chi phí thấp",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Sản phẩm không cạnh tranh trên thị trường",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q659",
+		"question_text": "Công cụ nào được sử dụng để đánh giá mức độ hấp dẫn của các phương án chiến lược?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Ma trận SWOT",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Ma trận EFAS",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Ma trận QSPM",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Ma trận SFAS",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q660",
+		"question_text": "Theo Henry (2021), thiết kế tổ chức hiệu quả là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Quá trình xây dựng chiến lược để đạt được lợi thế cạnh tranh",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Sự phù hợp giữa cơ cấu tổ chức, các hệ thống kiểm soát và khen thưởng với chiến lược",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Quá trình triển khai các thủ tục và quy trình của tổ chức",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Sự điều chỉnh chiến lược dựa trên yếu tố bên ngoài và nội bộ tổ chức",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q661",
+		"question_text": "Yếu tố nào dưới đây có thể làm tăng khả năng đối phó với biến động và sự không chắc chắn của môi trường kinh doanh trong tổ chức?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Các mối quan hệ báo cáo không rõ ràng",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Cơ cấu tổ chức không phù hợp với chiến lược",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Các yếu tố của cơ cấu tổ chức được liên kết phù hợp",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Quy trình ra quyết định không liên quan đến chiến lược",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q662",
+		"question_text": "Các dấu hiệu của cơ cấu tổ chức không hiệu quả",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Sự phân cấp quản lý rõ ràng và hợp lý",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Phạm vi kiểm soát quá lớn dẫn đến khó quản lý hiệu quả",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Doanh thu và tiền kiếm được chia đều cho nhân viên quản lý",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Sự phối hợp giữa các phòng ban diễn ra thông suốt và hiệu quả",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q663",
+		"question_text": "Mối quan hệ giữa chiến lược và cơ cấu tổ chức được mô tả như thế nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Cơ cấu tổ chức luôn phải tuân theo chiến lược mà không có sự tác động ngược lại",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chiến lược không có ảnh hưởng đến cơ cấu tổ chức của công ty",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Cơ cấu tổ chức bắt nguồn từ chiến lược và có thể ảnh hưởng đến chiến lược trong tương lai",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Cơ cấu tổ chức và chiến lược là hai yếu tố độc lập không liên quan đến nhau",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q664",
+		"question_text": "Mục đích của kiểm soát chiến lược trong tổ chức là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Đưa ra các chiến lược mới mỗi khi có sự thay đổi trong tổ chức",
+				"is_correct": false
+			},
+			{
+				"answer_text": "So sánh kết quả thực tế với kết quả mong đợi và đề xuất hành động khắc phục khi cần thiết",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Đảm bảo rằng mọi phòng ban đều hoạt động độc lập và không cần phối hợp với nhau",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tập trung vào việc phát triển nguồn nhân lực mà không quan tâm đến kết quả chiến lược",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q665",
+		"question_text": "Xây dựng chiến lược là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Là quá trình tạo ra, thực hiện, giám sát và điều chỉnh cấu trúc, quy trình và các thủ tục của 1 tổ chức",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Là tập hợp tất cả các chiến lược tốt nhất cho doanh nghiệp",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Là các chiến lược do nhà quản trị đặt ra để doanh nghiệp phát triển tốt nhất",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q666",
+		"question_text": "Yêu cầu của một cơ cấu tổ chức hiệu quả là:",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Tính ổn định",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tính linh hoạt",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Tính nhanh chóng",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q667",
+		"question_text": "Để xây dựng cơ cấu tổ chức thích hợp doanh nghiệp cần quan tâm mấy nội dung chính?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "2",
+				"is_correct": false
+			},
+			{
+				"answer_text": "3",
+				"is_correct": false
+			},
+			{
+				"answer_text": "4",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "sm-q668",
+		"question_text": "Cơ cấu tổ chức theo bộ phận là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Là kiểu cơ cấu bao gồm các đơn vị kinh doanh riêng lẻ có các chuyên môn, chức năng riêng và chịu trách nhiệm trực tiếp về hiệu quả hoạt động của mình",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Là kiểu cơ cấu phân nhiệm vụ theo từng bộ phận không có mối liên hệ trong công việc với nhau",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Là kiểu cơ cấu mà nhà quản trị điều hành phân việc cho từng bộ phận",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q669",
+		"question_text": "Cơ cấu tổ chức ma trận là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Là cơ cấu tổ chức kết hợp kiểu cơ cấu tổ chức chức năng và cơ cấu tổ chức theo bộ phận",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Là cơ cấu tổ chức khó hiểu rắc rối không hiệu quả",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Là cơ cấu tổ chức có sự liên kết giữa các bộ phận với nhau",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q670",
+		"question_text": "Thiết kế tổ chức gồm mấy yếu tố chính:",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "2",
+				"is_correct": false
+			},
+			{
+				"answer_text": "3",
+				"is_correct": true
+			},
+			{
+				"answer_text": "4",
+				"is_correct": false
+			},
+			{
+				"answer_text": "5",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q671",
+		"question_text": "Các yếu tố được sử dụng khi thiết kế tổ chức là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Cơ cấu tổ chức",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Văn hóa",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Hệ thống kiểm soát",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tất cả phương án trên",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "sm-q672",
+		"question_text": "Đâu là bất lợi của cơ cấu theo ma trận?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Tốn kém vì tạo ra nhiều vị trí quản lý hơn",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tạo quyền chia sẻ và báo cáo",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Đòi hỏi sự tin tưởng và hiểu biết lẫn nhau",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tất cả phương án trên",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "sm-q673",
+		"question_text": "Nhược điểm của chính thức hóa khi xây dựng cơ cấp tổ chức là:",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Ra quyết định chậm hơn",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Giảm khả năng đổi mới",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Cản trở các dịch vụ khách hàng",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tất cả phương án trên",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "sm-q674",
+		"question_text": "Trong các phương án dưới đây, đâu là lợi thế của cơ cấu theo ma trận?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Đòi hỏi sự tin tưởng và hiểu biết lẫn nhau",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Mục tiêu dự án rõ ràng",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Tốn kém vì tạo ra nhiều vị trí quản lý hơn",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tạo ra hai đường thẩm quyền về ngân sách",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q675",
+		"question_text": "Khi xây dựng cơ cấu tổ chức, doanh nghiệp cần quan tâm tới 4 nội dung chính, đó là những nội dung nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Chuyên môn hóa, chính thức hoá, tập trung hoá, phân cấp",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Chuyên môn hóa, chính thức hóa, tập trung hoá, khác biệt hoá",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chuyên môn hóa, chính thức hoá, khác biệt hoá, phân cấp",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chuyên môn hoá, khác biệt hoá, tập trung hoá, phân cấp",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q676",
+		"question_text": "Đặc điểm của cơ cấu tổ chức hữu cơ là:",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Tính chuyên môn hoá cao và chính thức cao",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tính chuyên môn hoá cao nhưng ít tính chính thức hoá",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Ít tính chuyên môn hoá nhưng tính chính thức hoá cao",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Ít tính chuyên môn hoá và chính thức hoá",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "sm-q677",
+		"question_text": "Thiết kế cơ cấu tổ chức tốt có tác dụng gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Tiết kiệm chi phí quản lý hành chính của cơ cấu tổ chức",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Nâng cao khả năng tạo giá trị của doanh nghiệp",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Lợi thế về chi phí thấp",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tất cả các phương án trên đều đúng",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "sm-q678",
+		"question_text": "Đâu không phải là 1 chiến lược trong hình thức cơ cấu, kiểm soát và chiến lược ở cấp kinh doanh?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Chiến lược chi phí thấp và cơ cấu tổ chức",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chiến lược khác biệt hoá và cơ cấu tổ chức",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chiến lược tập trung hóa và cơ cấu tổ chức",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chiến lược trọng tâm và cơ cấu tổ chức",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "sm-q679",
+		"question_text": "Cơ cấu, kiểm soát và chiến lược ở cấp doanh nghiệp tồn tại mấy chiến lược tổng quát:",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "2",
+				"is_correct": false
+			},
+			{
+				"answer_text": "3",
+				"is_correct": false
+			},
+			{
+				"answer_text": "4",
+				"is_correct": true
+			},
+			{
+				"answer_text": "5",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q680",
+		"question_text": "Thiết kế tổ chức hiệu quả nhằm mục đích gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Tạo ra cấu trúc linh hoạt phù hợp với chiến lược.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Đáp ứng các yêu cầu thị trường một cách chậm rãi.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tập trung vào quản lý tài chính thay vì chiến lược.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Duy trì và đạt được lợi thế cạnh tranh.",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "sm-q681",
+		"question_text": "Đặc điểm nào sau đây mô tả chính xác cơ cấu tổ chức hữu cơ?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Tính chuyên môn hóa cao và chính thức hóa cao.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Ra quyết định tập trung và giao tiếp theo chiều dọc.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Cấu trúc phẳng, ra quyết định phi tập trung và linh hoạt.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Nhiều cấp quản lý và phạm vi kiểm soát nhỏ.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q682",
+		"question_text": "Yếu tố chính nào KHÔNG được xem xét khi thiết kế tổ chức?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Văn hóa tổ chức.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Hệ thống kiểm soát.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Quy mô nhân sự.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Cơ cấu tổ chức.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q683",
+		"question_text": "Điểm khác biệt chính giữa tổ chức cơ học và tổ chức hữu cơ là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Tổ chức cơ học có cấu trúc phẳng hơn.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tổ chức hữu cơ có tính chuyên môn hóa cao hơn.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tổ chức cơ học có tính chuyên môn hóa và chính thức hóa cao hơn.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Tổ chức hữu cơ thường ra quyết định tập trung.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q684",
+		"question_text": "Loại kiểm soát nào nhấn mạnh vào kết quả đầu ra thay vì phương tiện thực hiện?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Kiểm soát đầu vào.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Kiểm soát tài chính.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Kiểm soát chiến lược.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Kiểm soát đầu ra.",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "sm-q685",
+		"question_text": "Yếu tố nào sau đây KHÔNG phải là yếu tố các nhà quản lý thường dùng khi thiết kế tổ chức để đạt được lợi thế cạnh tranh?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Cơ cấu tổ chức",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Văn hóa",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Hệ thống kiểm soát",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Công nghệ",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "sm-q686",
+		"question_text": "Khẩu hiệu nào thể hiện nguyên tắc cơ bản trong mối quan hệ giữa cơ cấu tổ chức và chiến lược?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "“Cơ cấu tổ chức quyết định chiến lược”",
+				"is_correct": false
+			},
+			{
+				"answer_text": "“Chiến lược phải tuân theo cơ cấu tổ chức”",
+				"is_correct": false
+			},
+			{
+				"answer_text": "“Cơ cấu tổ chức phải tuân theo chiến lược”",
+				"is_correct": true
+			},
+			{
+				"answer_text": "“Chiến lược và cơ cấu tổ chức độc lập với nhau”",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q687",
+		"question_text": "Tính chuyên môn hóa và chính thức hóa thấp là đặc điểm của cơ cấu tổ chức nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Cơ cấu tổ chức cơ học",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Cơ cấu tổ chức hữu cơ",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Cả cơ học và hữu cơ",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Không liên quan tới cơ cấu tổ chức",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q688",
+		"question_text": "Cơ cấu tổ chức nào phù hợp với chiến lược dẫn đầu về chi phí?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Tổ chức hữu cơ",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tổ chức cơ học",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Tổ chức cân bằng",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Không cơ cấu nào phù hợp",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q689",
+		"question_text": "Chiến lược kinh doanh nào đòi hỏi năng lực cốt lõi trong sản xuất và logistics?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Chiến lược dẫn đầu về chi phí",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Chiến lược đổi mới sản phẩm",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chiến lược cân bằng",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chiến lược phân khúc thị trường",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q690",
+		"question_text": "Hệ thống kiểm soát chiến lược là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Quy trình giám sát và đánh giá các hoạt động chiến lược của tổ chức",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Phương pháp để xây dựng kế hoạch tài chính",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Cách thức tuyển dụng và phát triển nhân sự",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Hệ thống quản lý quan hệ khách hàng",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q691",
+		"question_text": "Mục tiêu chính của hệ thống kiểm soát chiến lược là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Giảm chi phí vận hành",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Đảm bảo rằng các chiến lược được thực hiện đúng và đạt được mục tiêu",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Xây dựng thương hiệu mạnh mẽ",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tối ưu hóa sản xuất",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q692",
+		"question_text": "Đâu là bước đầu tiên trong quy trình kiểm soát chiến lược?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Đưa ra các biện pháp điều chỉnh",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Thiết lập các tiêu chuẩn và chỉ tiêu",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Giám sát hiệu suất",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Phân tích môi trường bên ngoài",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q693",
+		"question_text": "Điểm yếu của cơ cấu theo chức năng là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Khó điều phối giữa các phòng ban khi mở rộng quy mô",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Thiếu tính chuyên môn hóa",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Gây ra sự cạnh tranh giữa các bộ phận",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Không tập trung vào nhu cầu khách hàng",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q694",
+		"question_text": "Loại hình cơ cấu nào phù hợp nhất với chiến lược đa dạng hóa sản phẩm?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Cơ cấu theo sản phẩm",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Cơ cấu theo chức năng",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Cơ cấu theo địa lý",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Cơ cấu ma trận",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q695",
+		"question_text": "Khái niệm thiết kế tổ chức đề cập đến:",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Việc xây dựng chiến lược và mục tiêu.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Quá trình tạo ra, thực hiện, giám sát và điều chỉnh cấu trúc, quy trình, và thủ tục tổ chức.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Việc phân tích điểm mạnh và điểm yếu của tổ chức.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Đánh giá hiệu suất tài chính của tổ chức.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q696",
+		"question_text": "Yếu tố nào KHÔNG phải là dấu hiệu của cơ cấu tổ chức không hiệu quả?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Có quá nhiều cấp quản lý.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Hiệu suất kinh doanh tăng.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Quá nhiều mục tiêu không đạt được.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Phạm vi kiểm soát quá lớn.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q697",
+		"question_text": "Cơ cấu tổ chức chức năng phù hợp nhất với:",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Doanh nghiệp hoạt động đa dạng về sản phẩm và khu vực địa lý.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Doanh nghiệp tập trung vào sản xuất một hoặc vài sản phẩm/dịch vụ liên quan.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Doanh nghiệp có mô hình ma trận.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Doanh nghiệp với chiến lược đại dương xanh",
+				"is_correct": false
+			}
+		]
+	}
+]

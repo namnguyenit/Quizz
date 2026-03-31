@@ -1,0 +1,1813 @@
+[
+	{
+		"question_id": "sm-q701",
+		"question_text": "Trong cơ cấu tổ chức cơ học, đặc điểm chính là:",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Phân quyền rộng rãi và chuyên môn hóa thấp.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Quyết định tập trung và cấu trúc cao.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Linh hoạt trong phân công lao động.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Cấu trúc phẳng và giao tiếp ngang.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q702",
+		"question_text": "Kiểm soát chiến lược chủ yếu được đo lường bằng:",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Các tiêu chí chủ quan.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Các tiêu chí khách quan.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "ROI và ROE.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Giá trị kinh tế gia tăng.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q703",
+		"question_text": "Văn hóa doanh nghiệp được hiểu là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Tập hợp các quy định và luật pháp của doanh nghiệp.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tập hợp các niềm tin, kỳ vọng, giá trị, hành vi và giả định ngầm hiểu được học hỏi và chia sẻ bởi các thành viên trong doanh nghiệp.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Những sản phẩm và dịch vụ mà doanh nghiệp cung cấp ra thị trường.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Hệ thống công nghệ và cơ sở hạ tầng trong doanh nghiệp.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q704",
+		"question_text": "Những khía cạnh nào dưới đây thường được xem là một phần của văn hóa doanh nghiệp?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Thói quen, nghi lễ, câu chuyện, biểu tượng, các cấu trúc quyền lực, cơ cấu tổ chức.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Kế hoạch kinh doanh, chiến lược marketing, mục tiêu tài chính.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Hệ thống quản lý, công nghệ thông tin, phương pháp sản xuất.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Đội ngũ nhân sự, chính sách lương thưởng, sản phẩm kinh doanh.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q705",
+		"question_text": "Vai trò của văn hóa doanh nghiệp là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Duy trì ổn định mối quan hệ và mô hình hành vi, ảnh hưởng đến năng lực thay đổi chiến lược.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Đảm bảo công ty tuân thủ pháp luật và tăng doanh số bán hàng.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tối ưu hóa quy trình sản xuất và cải thiện cơ sở hạ tầng.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tuyển dụng nhân tài và mở rộng thị trường quốc tế.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q706",
+		"question_text": "Điểm chung của các công ty thực hiện thành công thay đổi lớn về văn hóa là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Để nhân viên tự thay đổi và thích nghi với chiến lược mới.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chỉ tập trung vào việc nâng cấp cơ sở hạ tầng và công nghệ.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tăng cường tuyển dụng nhân tài để thay đổi văn hóa.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "CEO và nhóm quản trị cấp cao truyền thông tầm nhìn chiến lược rõ ràng đến mọi cấp độ.",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "sm-q707",
+		"question_text": "Những kênh nào dưới đây thường được sử dụng để truyền thông thay đổi chiến lược đến nhân viên?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Mạng lưới khách hàng, các buổi hội thảo công khai, và chiến dịch tiếp thị.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Email cá nhân, tài liệu in, và quảng cáo trên mạng xã hội.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Bản tin, bài phát biểu, chương trình đào tạo và phát triển.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Đánh giá hiệu suất cá nhân, phỏng vấn, và hội nghị quốc tế.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q708",
+		"question_text": "Văn hóa doanh nghiệp là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Văn hóa doanh nghiệp là các điều đặc biệt của doanh nghiệp được nhà quản trị đặt ra.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Văn hóa doanh nghiệp là tập hợp các niềm tin, các kì vọng, các giá trị, các hành vi, các giả định ngầm hiểu được học hỏi và chia sẻ bởi các thành viên công ty/ doanh nghiệp và được lưu truyền qua các thế hệ thành viên, nhân viên của công ty.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Văn hóa doanh nghiệp là các đặc trưng của công ty với các đối thủ cạnh tranh khác",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q709",
+		"question_text": "Có bao nhiêu phương pháp thu thập số liệu cho phân tích và nhận diện văn hóa?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "2 (Bao gồm: sơ cấp và thứ cấp)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "3",
+				"is_correct": false
+			},
+			{
+				"answer_text": "4",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q710",
+		"question_text": "Các hệ thống kiểm tra dùng để làm gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Để giám sát và hỗ trợ mọi người trong tổ chức",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Hệ thông kiểm tra đột xuất nhân viên do quản trị sắp xếp",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Hệ thống kiểm tra lỗi hệ thống máy tính của nhà quản trị",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q711",
+		"question_text": "Đâu là một trong các yếu tố của văn hóa doanh nghiệp?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Câu chuyện",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Nhà quản trị",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Môi trường văn hóa của quốc gia đó",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q712",
+		"question_text": "“Câu chuyện” trong văn hóa doanh nghiệp là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Là những câu chuyện được kể bởi các thành viên trong tổ chức cho nhau, cho người ngoài, thành viên mới… có thể giúp kết nối hiện tại với lịch sử tổ chức và làm nổi bật những sự kiện và các cá tính quan trọng",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Là các câu chuyện của nhà quản trị phát biểu, ép nhân viên phải thuộc",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Câu chuyện về những gì doanh nghiệp đã làm tốt trong quá khứ",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q713",
+		"question_text": "Điền vào chỗ trống: Vai trò của văn hoá doanh nghiệp là duy trì ổn định các mối quan hệ và mô hình hành vi ………mạnh tới hành vi thành viên tổ chức -> ảnh hưởng mạnh tới năng lực của công ty trong việc thay đổi định hướng chiến lược.",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "liên quan",
+				"is_correct": false
+			},
+			{
+				"answer_text": "ảnh hưởng",
+				"is_correct": true
+			},
+			{
+				"answer_text": "thay đổi",
+				"is_correct": false
+			},
+			{
+				"answer_text": "duy trì",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q714",
+		"question_text": "Điền vào chỗ trống: VHDN là tập hợp các ……, các hành vi, và các giả định ngầm hiểu được học hỏi và chia sẻ bởi các thành viên của công ty/doanh nghiệp và được lưu truyền qua các thế hệ thành viên, nhân viên của công ty.",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "niềm tin",
+				"is_correct": false
+			},
+			{
+				"answer_text": "kì vọng",
+				"is_correct": false
+			},
+			{
+				"answer_text": "chia sẻ",
+				"is_correct": false
+			},
+			{
+				"answer_text": "niềm tin, kì vọng, giá trị",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "sm-q715",
+		"question_text": "Những lý do/cơ sở của các thay đổi chiến lược có thể được truyền thông tới nhân viên qua bao nhiêu kênh?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "2 kênh",
+				"is_correct": false
+			},
+			{
+				"answer_text": "1 kênh",
+				"is_correct": false
+			},
+			{
+				"answer_text": "nhiều kênh",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "sm-q716",
+		"question_text": "Điền vào chỗ trống: ……. là những vai trò, trách nhiệm và quan hệ báo cáo trong tổ chức [ai làm gì và ai-báo cáo cho ai]",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Các hệ thống kiểm tra",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Cơ cấu tổ chức",
+				"is_correct": true
+			},
+			{
+				"answer_text": "các cấu trục quyền lực",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q717",
+		"question_text": "Quá trình ra quyết định chiến lược gồm mấy bước:",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "5",
+				"is_correct": false
+			},
+			{
+				"answer_text": "6",
+				"is_correct": false
+			},
+			{
+				"answer_text": "7",
+				"is_correct": false
+			},
+			{
+				"answer_text": "8",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "sm-q718",
+		"question_text": "Quá trình đánh giá và sửa đổi là bước mấy trong quá trình ra quyết định chiến lược?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "2",
+				"is_correct": false
+			},
+			{
+				"answer_text": "3",
+				"is_correct": false
+			},
+			{
+				"answer_text": "4",
+				"is_correct": false
+			},
+			{
+				"answer_text": "5 (hoặc 8 tùy mô hình tham chiếu)",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "sm-q719",
+		"question_text": "Chính sách nào tạo điều kiện cho doanh nghiệp nâng cao khả năng cạnh tranh và giúp doanh nghiệp có thể tận dụng được cơ hội thị trường?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Chính sách về công nghệ",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chính sách về tài chính",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chính sách về nhân sự",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chính sách về marketing",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "sm-q720",
+		"question_text": "Đảm bảo các nguồn lực cho quá trình thực hiện chiến lược là bước mấy trong nội dung triển khai thực hiện chiến lược?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Bước 2",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Bước 3",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Bước 4",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Bước 5",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q721",
+		"question_text": "Kích thích các quản trị viên và nhân viên trong doanh nghiệp làm việc hết sức mình với sự nhiệt tình và trách nhiệm để đạt được những mục tiêu chiến lược đề ra là:",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Nhiệm vụ của tổ chức thực hiện chiến lược",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Nghĩa vụ của tổ chức thực hiện chiến lược",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Mục tiêu của tổ chức thực hiện chiến lược",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Trách nhiệm của tổ chức thực hiện chiến lược",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q722",
+		"question_text": "Yếu tố nào sau đây không phải là một phần của văn hóa doanh nghiệp?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Giá trị và niềm tin của tổ chức.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Các giả định ngầm hiểu và hành vi hàng ngày.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Cơ cấu tổ chức và hệ thống kiểm tra.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chiến lược tài chính và kế hoạch kinh doanh dài hạn.",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "sm-q723",
+		"question_text": "Vai trò quan trọng nhất của văn hóa doanh nghiệp là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Tăng cường hiệu quả hoạt động tài chính.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tạo ra các thói quen công việc hàng ngày.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Ảnh hưởng mạnh đến hành vi và năng lực thay đổi chiến lược.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Đảm bảo tính chính thức trong quy trình.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q724",
+		"question_text": "Điều kiện nào làm cho thay đổi chiến lược không thành công?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Chiến lược mới đối lập với văn hóa doanh nghiệp hiện tại.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Chiến lược không phù hợp với thị trường.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Văn hóa doanh nghiệp không có sự thay đổi trong 10 năm.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Không có sự hỗ trợ từ quản lý cấp cao.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q725",
+		"question_text": "Phương pháp nào sau đây là phương pháp thu thập dữ liệu sơ cấp để phân tích văn hóa doanh nghiệp?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Sử dụng báo cáo tài chính.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tìm kiếm thông tin trên mạng xã hội.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Quan sát và phỏng vấn.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Đọc các tuyên bố chính thức.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q726",
+		"question_text": "Trong \"Culture Web\", yếu tố nào phản ánh quyền lực được phân bổ trong tổ chức?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Biểu tượng.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Cấu trúc quyền lực.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Nghi lễ và thói quen.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Câu chuyện được kể.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q727",
+		"question_text": "Trong các phương pháp thu thập số liệu cho phân tích và nhận diện văn hóa sau đây, phương pháp nào dùng để thu thập số liệu sơ cấp:",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Phỏng vấn",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Mạng xã hội",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Các tuyên bố",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Các báo cáo",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q728",
+		"question_text": "Theo Whittington, có mấy khía cạnh trong Văn hóa Doanh nghiệp?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "5",
+				"is_correct": false
+			},
+			{
+				"answer_text": "7",
+				"is_correct": false
+			},
+			{
+				"answer_text": "6",
+				"is_correct": true
+			},
+			{
+				"answer_text": "4",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q729",
+		"question_text": "Trong các phương pháp thu thập số liệu cho phân tích và nhận diện văn hóa sau đây, phương pháp nào không dùng để thu thập số liệu thứ cấp:",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Website",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Các tuyên bố",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Các báo cáo",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Phỏng vấn",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "sm-q730",
+		"question_text": "Đâu là câu trả lời đúng về vai trò của văn hóa doanh nghiệp?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Duy trì ổn định các mối quan hệ và mô hình hành vi",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Ảnh hưởng mạnh tới hành vì thành viên tổ chức",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Ảnh hưởng mạnh tới năng lực của công ty trong việc thay đổi định hướng chiến lược.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Cả 3 đáp án trên",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "sm-q731",
+		"question_text": "Nhận định sau là đúng hay sai? Thay đổi về sứ mệnh, mục tiêu, chiến lược, chính sách, và chiến thuật sẽ khó thành công nếu sự thay đổi đó đối lập với văn hoá đã được chấp nhận của công ty.",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Đúng",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Sai",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q732",
+		"question_text": "Tại sao việc thực hiện chiến lược trong văn hóa doanh nghiệp lại quan trọng?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Để gia tăng lợi nhuận ngay lập tức.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Để tăng sự gắn kết và cam kết của nhân viên.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Để giảm chi phí vận hành.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Để tạo ra sản phẩm mới.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q733",
+		"question_text": "Điều chỉnh chiến lược trong văn hóa doanh nghiệp có thể được thực hiện khi nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Khi công ty đạt được mọi mục tiêu dài hạn.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Khi có sự thay đổi trong môi trường kinh doanh hoặc thị trường.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Khi có sự thay đổi trong bộ máy lãnh đạo.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chỉ khi công ty gặp khó khăn tài chính.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q734",
+		"question_text": "Một yếu tố quan trọng khi thực hiện chiến lược trong văn hóa doanh nghiệp là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Cập nhật công nghệ mới.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Xây dựng môi trường làm việc linh hoạt và sáng tạo.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Đảm bảo tất cả nhân viên đều nhận được tiền thưởng.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chỉ tập trung vào lợi nhuận tài chính.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q735",
+		"question_text": "Một chiến lược doanh nghiệp không hiệu quả thường do đâu?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Không có sự hỗ trợ của công nghệ.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Thiếu sự tham gia và cam kết của nhân viên.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Quá nhiều đối thủ cạnh tranh.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Không có thị trường mục tiêu rõ ràng.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q736",
+		"question_text": "Khi điều chỉnh chiến lược, các lãnh đạo doanh nghiệp cần làm gì để đảm bảo sự thay đổi hiệu quả?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Giữ nguyên các quy trình hiện tại và chỉ thay đổi chiến lược.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Truyền thông rõ ràng và tạo sự đồng thuận từ các cấp quản lý và nhân viên.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Tăng cường áp lực lên nhân viên để họ thực hiện chiến lược mới.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chỉ thay đổi chiến lược một cách từ từ mà không thông báo cho nhân viên.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q737",
+		"question_text": "Văn hoá được coi là “tối ưu” khi nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Khi nó hỗ trợ tốt nhất sứ mệnh và chiến lược của công ty",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Khi nó thay đổi về sứ mệnh, mục tiêu, chiến lược, chính sách",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Khi nó thay đổi đáng kể trong chiến lược",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Khi nó đòi hỏi nhiều thời gian và nỗ lực",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q738",
+		"question_text": "Văn hoá doanh nghiệp là tập hợp các ……… và các giả định ngầm hiểu được, học hỏi và chia sẻ bởi các thành viên của công ty/doanh nghiệp và được lưu truyền qua các thế hệ thành viên, nhân viên của công ty.",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "niềm tin, kì vọng",
+				"is_correct": false
+			},
+			{
+				"answer_text": "giá trị",
+				"is_correct": false
+			},
+			{
+				"answer_text": "hành vi",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Cả A,B,C",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "sm-q739",
+		"question_text": "Nhận diện đâu là một trong số các khía cạnh của văn hoá doanh nghiệp?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Câu chuyện, Biểu tượng",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Nghi lễ và thói quen",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tổ chức, thực hiện",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Cả A,B",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "sm-q740",
+		"question_text": "Nhược điểm chính của cấu trúc tổ chức ma trận là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Khó duy trì sự phối hợp giữa các phòng ban",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chi phí vận hành cao",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Xung đột quyền lực giữa các nhà quản lý chức năng và dự án",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Thiếu sự chuyên môn hóa",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q741",
+		"question_text": "Vai trò của văn hoá doanh nghiệp là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Duy trì ổn định các mối quan hệ và mô hình hành vi",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Giúp doanh nghiệp giảm chi phí tổ chức sản xuất",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Là yếu tố duy nhất quyết định sự thành công của chiến lược",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Là công cụ để cạnh tranh với các doanh nghiệp khác",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q742",
+		"question_text": "Trong giai đoạn đánh giá và điều chỉnh chiến lược, nội dung nào sau đây KHÔNG thuộc công việc cần thực hiện?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Đánh giá quá trình thực hiện chiến lược.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Đánh giá điểm mạnh, điểm yếu, cơ hội và nguy cơ của chiến lược.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Thực hiện điều chỉnh phù hợp với điểm mạnh và cơ hội mới.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Phát triển sản phẩm mới theo xu hướng thị trường.",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "sm-q743",
+		"question_text": "Ý nghĩa của việc tổ chức thực hiện chiến lược là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Tập trung vào hoạt động quản trị, hiệu quả công việc và thúc đẩy sự hợp tác giữa đội ngũ quản trị viên và nhân viên.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Chỉ cần lập kế hoạch chiến lược và giao nhiệm vụ cho từng bộ phận.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Phát triển các sản phẩm mới và mở rộng thị trường quốc tế.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tăng cường đầu tư vào cơ sở hạ tầng và công nghệ.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q744",
+		"question_text": "Vai trò của tổ chức thực hiện chiến lược bao gồm những nội dung nào sau đây?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Tăng cường doanh số bán hàng và mở rộng thị trường quốc tế.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tạo sự phù hợp giữa mục tiêu chiến lược và hoạt động hàng ngày, xây dựng môi trường tổ chức phù hợp và hệ thống quản trị hiệu quả.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Phát triển sản phẩm mới và mở rộng mạng lưới khách hàng.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tập trung vào đào tạo nhân sự và cải tiến công nghệ sản xuất.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q745",
+		"question_text": "Nội dung tổ chức thực hiện chiến lược bao gồm những yếu tố nào dưới đây?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Đánh giá thị trường, phát triển sản phẩm mới và mở rộng quy mô sản xuất.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Xây dựng chiến lược tài chính, tập trung vào đầu tư công nghệ và đào tạo nhân sự.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Xác lập mục tiêu chiến lược, phân bổ nguồn lực, tổ chức bộ máy thực thi chiến lược và triển khai thực hiện chiến lược.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Tăng trưởng doanh thu, tối ưu hóa quy trình và cải thiện chất lượng dịch vụ khách hàng.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q746",
+		"question_text": "Các giai đoạn của quá trình điều chỉnh chiến lược bao gồm những bước nào dưới đây?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Xác định sự cần thiết phải điều chỉnh chiến lược, xác định các cản trở đối với điều chỉnh, thực hiện điều chỉnh và đánh giá lại sự điều chỉnh.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Phát triển mục tiêu chiến lược mới, cải tiến quy trình sản xuất, và mở rộng thị trường.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tăng cường đào tạo nhân sự, đầu tư công nghệ mới và thiết lập cơ sở hạ tầng.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Đánh giá thị trường, tập trung vào chiến lược tài chính và phát triển sản phẩm.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q747",
+		"question_text": "Vai trò của tổ chức thực hiện chiến lược là?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Tạo ra sự phù hợp giữ các mục tiêu chiến lược của doanh nghiệp với những hoạt động hàng ngày.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Sắp xếp công việc cho cấp dưới làm",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Có vai trò quan trọng nhất, quyết định mọi việc",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q748",
+		"question_text": "Đâu là yêu cầu khi tổ chức thực hiện chiến lược?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Kế hoạch triển khai thực hiện phải được xác định rõ ràng;",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Phải thu hút được sự tham gia đầy đủ nhiệt tình của đông đảo đội ngũ cán bộ,nhân viên trong toàn doanh nghiệp",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Cả 2 phương án trên",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "sm-q749",
+		"question_text": "Có mấy nội dung cơ bản trong thiết kế cơ cấu tổ chức?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "2 (Gồm phân quyền và phân cấp)",
+				"is_correct": false
+			},
+			{
+				"answer_text": "3",
+				"is_correct": false
+			},
+			{
+				"answer_text": "4",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "sm-q750",
+		"question_text": "Các tiêu chuẩn định tính bao gồm?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Tính nhất quán",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tính phù hợp",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tính khả thi",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Cả 3 phương án trên",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "sm-q751",
+		"question_text": "Điều chỉnh chiến lược gồm mấy bước?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "3",
+				"is_correct": false
+			},
+			{
+				"answer_text": "4",
+				"is_correct": true
+			},
+			{
+				"answer_text": "5",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q752",
+		"question_text": "Cơ cấu tổ chức là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Là những vai trò, trách nhiệm và quan hệ báo cáo trong tổ chức.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Hệ thống các quy trình vận hành của một tổ chức.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Mức độ cạnh tranh mà tổ chức phải đối mặt.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Công cụ để quản lí tài chính trong tổ chức.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q753",
+		"question_text": "Các cấu trúc quyền lực là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Là quyền lực của những người đứng đầu tổ chức",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Là những phân bổ quyền lực giữa các nhóm người trong tổ chức.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Sự tương tác giữa các bộ phận trong công ty.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Mức độ cạnh tranh giữa các tổ chức.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q754",
+		"question_text": "Văn hóa doanh nghiệp là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Hệ thống các giá trị, niềm tin và hành vi chung của một tổ chức.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Cách thức mà một doanh nghiệp quản lý tài chính.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Quy trình sản xuất và cung ứng sản phẩm.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Sự cạnh tranh giữa các doanh nghiệp trong cùng một ngành.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q755",
+		"question_text": "Thành phần nào sau đây để phản ánh văn hóa doanh nghiệp.",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Các biểu tượng và lễ nghi trong tổ chức.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Các quy trình sản xuất.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Các chiến lược marketing.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Cấu trúc pháp lý của công ty.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q756",
+		"question_text": "Tại sao việc tích hợp văn hóa doanh nghiệp và chiến lược là quan trọng?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Để giảm chi phí hoạt động",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Để cải thiện sự hài lòng của nhân viên và tăng hiệu quả làm việc",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Để tăng số lượng sản phẩm trên thị trường.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Để thu hút nhà đầu tư.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q757",
+		"question_text": "Tại sao việc tổ chức thực hiện chiến lược lại đòi hỏi tính kỷ luật cao và sự tận tụy của mỗi cá nhân trong doanh nghiệp?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Vì nó cần sự hợp tác và cam kết từ tất cả các thành viên trong doanh nghiệp để đạt được các mục tiêu chiến lược đã đề ra.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Vì nó không quan trọng đối với hoạt động kinh doanh của doanh nghiệp.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Vì nó chỉ cần sự tham gia của ban lãnh đạo.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Vì nó không ảnh hưởng đến hiệu quả kinh doanh của doanh nghiệp.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q758",
+		"question_text": "Các yếu tố nào cần được xem xét khi đánh giá tính khả thi của một chiến lược?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Mức độ sát thực của các mục tiêu, chính sách và giải pháp chiến lược.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Sự phù hợp của các mục tiêu, chính sách và giải pháp điều chỉnh với các kết quả đo lường về xu hướng và mức độ thay đổi của các yếu tố môi trường kinh doanh.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Cả A và B.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Không yếu tố nào trong số trên.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q759",
+		"question_text": "Quy trình đánh giá chiến lược bao gồm những bước nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Xác định đối tượng, phạm vi và đánh giá chiến lược.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Xác định nội dung kiểm tra và đánh giá chiến lược.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Xây dựng các tiêu chuẩn kiểm tra.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tất cả các bước trên.",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "sm-q760",
+		"question_text": "Tại sao việc điều chỉnh chiến lược lại cần thiết trong quá trình quản trị chiến lược?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Vì môi trường kinh doanh luôn biến động và các yếu tố nội tại của doanh nghiệp có thể thay đổi.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Vì chiến lược không bao giờ cần thay đổi.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Vì doanh nghiệp không cần thích ứng với thay đổi.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Vì chiến lược luôn hoàn hảo từ đầu.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q761",
+		"question_text": "Các yếu tố nào ảnh hưởng đến áp lực của khách hàng trong môi trường ngành?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Số lượng khách hàng ít.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Khách hàng có thể vận dụng chiến lược liên kết dọc.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Khách hàng có đầy đủ các thông tin về thị trường như nhu cầu, giá cả của các nhà cung cấp.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tất cả các yếu tố trên.",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "sm-q762",
+		"question_text": "Có bao nhiêu nội dung tổ chức thực hiện chiến lược?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "1",
+				"is_correct": false
+			},
+			{
+				"answer_text": "2",
+				"is_correct": false
+			},
+			{
+				"answer_text": "3",
+				"is_correct": false
+			},
+			{
+				"answer_text": "4",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "sm-q763",
+		"question_text": "Nội dung thứ hai trong tổ chức thực hiện chiến lược là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Triển khai thực hiện chiến lược và các hoạt động điều chỉnh",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tổ chức bộ máy thực thi chiến lược",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Xác lập hệ thống mục tiêu chiến lược",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Phân bổ và tập trung nguồn lực cho thực hiện chiến lược",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q764",
+		"question_text": "Có bao nhiêu hình thức kiểm tra, đánh giá chiến lược?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "3",
+				"is_correct": true
+			},
+			{
+				"answer_text": "4",
+				"is_correct": false
+			},
+			{
+				"answer_text": "5",
+				"is_correct": false
+			},
+			{
+				"answer_text": "6",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q765",
+		"question_text": "“Xây dựng các tiêu chuẩn kiểm tra” là bước thứ mấy trong đánh giá chiến lược?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "1",
+				"is_correct": true
+			},
+			{
+				"answer_text": "2",
+				"is_correct": false
+			},
+			{
+				"answer_text": "3",
+				"is_correct": false
+			},
+			{
+				"answer_text": "4",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q766",
+		"question_text": "“ Thực hiện điều chỉnh chiến lược” là giai đoạn mấy của quá trình điều chỉnh chiến lược?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "1",
+				"is_correct": false
+			},
+			{
+				"answer_text": "2",
+				"is_correct": false
+			},
+			{
+				"answer_text": "3",
+				"is_correct": true
+			},
+			{
+				"answer_text": "4",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q767",
+		"question_text": "Nguyên nhân cần thiết phải cơ cấu lại Doanh nghiệp là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Thực hiện đa dạng hóa quá mức, dẫn đến phân tách nguồn lực gây khó khăn cho quá trình thực hiện chiến lược",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Bị các doanh nghiệp khác tấn công ngay trong lĩnh vực kinh doanh chủ chốt, sự điều chỉnh chiến lược sẽ dẫn đến tái cơ cấu lại doanh nghiệp vào các lĩnh vực kinh doanh chủ yếu mới",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Thành tựu của đổi mới quản lý đã làm mới dần ưu thế của liên hợp hóa sản xuất và đa dạng hóa lĩnh vực kinh doanh",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Cả 3 đáp án trên",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "sm-q768",
+		"question_text": "Xác định các cản trở đối với điều chỉnh chiến lược là giai đoạn mấy trong quá trình điều chỉnh chiến lược?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "1",
+				"is_correct": false
+			},
+			{
+				"answer_text": "2",
+				"is_correct": true
+			},
+			{
+				"answer_text": "3",
+				"is_correct": false
+			},
+			{
+				"answer_text": "4",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q769",
+		"question_text": "Xây dựng các tiêu chuẩn kiểm tra là bước thứ mấy trong quy trình đánh giá chiến lược?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Bước 1",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Bước 2",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Bước 3",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Bước 4",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q770",
+		"question_text": "Cơ cấu nào không nằm trong dạng cơ cấu tổ chức trong bộ máy thực thi chiến lược?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Cơ cấu đơn giản",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Cơ cấu chức năng",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Cơ cấu đa bộ phận",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Cơ cấu nhân sự",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "sm-q771",
+		"question_text": "Mục đích của cấu trúc cấp độ lớp trong tổ chức thực hiện chiến lược là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Hiểu toàn bộ chiều sâu của một tổ chức cũng như sự phổ biến của nhân viên và phạm vi kiểm soát theo từng lớp",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Hiểu được sự liên kết giữa các vai trò và trách nhiệm với thâm niên hoặc lương thưởng",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Hiểu số lượng người quản lý có phạm vi kiểm soát rất hẹp hoặc rộng",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Không đáp án nào đúng",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q772",
+		"question_text": "Đánh giá chiến lược là quá trình gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Phân tích tình hình tài chính của công ty.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Kiểm tra và đánh giá mức độ hiệu quả của chiến lược đã triển khai.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Thiết lập các mục tiêu chiến lược mới.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Lựa chọn phương thức marketing mới.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q773",
+		"question_text": "Văn hóa doanh nghiệp đóng vai trò quan trọng trong việc xây dựng, thực hiện, đánh giá và điều chỉnh chiến lược. Trong bối cảnh này, yếu tố nào dưới đây phản ánh đúng vai trò của văn hóa doanh nghiệp trong việc hỗ trợ thực hiện chiến lược?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Văn hóa doanh nghiệp giúp xác định các chỉ tiêu tài chính cho việc đánh giá hiệu quả chiến lược.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Văn hóa doanh nghiệp có thể tạo ra một môi trường hỗ trợ hoặc cản trở quá trình triển khai chiến lược, tùy thuộc vào sự phù hợp giữa chiến lược và giá trị cốt lõi của văn hóa doanh nghiệp.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Văn hóa doanh nghiệp chủ yếu liên quan đến việc xác định tầm nhìn và sứ mệnh của tổ chức, không ảnh hưởng trực tiếp đến việc thực hiện chiến lược.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Văn hóa doanh nghiệp không có ảnh hưởng đáng kể đến chiến lược của công ty vì các yếu tố chiến lược chủ yếu đến từ các quyết định quản lý cấp cao",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q774",
+		"question_text": "Một trong những chỉ tiêu quan trọng để đánh giá hiệu quả của chiến lược là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Sự hài lòng của khách hàng.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tỷ lệ nhân viên nghỉ việc.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chỉ số lợi nhuận trên vốn chủ sở hữu (ROE).",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tất cả các yếu tố trên.",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "sm-q775",
+		"question_text": "Khi đánh giá chiến lược, điều gì sau đây không phải là một yếu tố quan trọng?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Đo lường sự phù hợp của chiến lược với mục tiêu dài hạn của doanh nghiệp.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Đo lường kết quả tài chính đạt được sau một khoảng thời gian.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chỉ xem xét các yếu tố bên ngoài mà không quan tâm đến nội bộ công ty.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Xác định mức độ đáp ứng nhu cầu và mong muốn của khách hàng.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q776",
+		"question_text": "Khi điều chỉnh chiến lược, nhà lãnh đạo doanh nghiệp cần phải làm gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Tập trung vào giảm chi phí ngay lập tức.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Đánh giá lại môi trường bên ngoài và nội bộ, sau đó điều chỉnh chiến lược sao cho phù hợp.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Đảm bảo rằng tất cả nhân viên phải chấp nhận chiến lược mới ngay lập tức.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Giảm bớt các mục tiêu và chỉ tập trung vào những mục tiêu ngắn hạn.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q777",
+		"question_text": "Cơ cấu tổ chức của doanh nghiệp là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Là tập hợp các bộ phận được chuyên môn hóa, có trách nhiệm và quyền hạn nhất định, bố trí theo từng cấp để thực hiện các chức năng quản trị và mục tiêu chung.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Là hệ thống không phân chia trách nhiệm và quyền hạn trong doanh nghiệp.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Là sự phân chia các bộ phận không có sự liên hệ phụ thuộc lẫn nhau.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Là tổ chức chỉ tập trung vào một cá nhân quản lý mà không cần bộ phận hỗ trợ.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q778",
+		"question_text": "Quy trình đánh giá chiến lược bao gồm bao nhiêu bước chính?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "2 bước",
+				"is_correct": false
+			},
+			{
+				"answer_text": "3 bước",
+				"is_correct": true
+			},
+			{
+				"answer_text": "4 bước",
+				"is_correct": false
+			},
+			{
+				"answer_text": "5 bước",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q779",
+		"question_text": "Văn hóa doanh nghiệp là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Các quy tắc và quy định của tổ chức",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Những giá trị, niềm tin, và chuẩn mực hành vi ảnh hưởng đến cách nhân viên làm việc và tương tác",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Cơ cấu tổ chức của doanh nghiệp",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Các chính sách nhân sự của doanh nghiệp",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q780",
+		"question_text": "Nguyên nhân nào dẫn đến sự cần thiết phải cơ cấu lại doanh nghiệp?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Thiếu nguồn lực tài chính để thực hiện chiến lược.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Quá trình đa dạng hóa vượt mức, dẫn đến phân tách nguồn lực.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Mở rộng lĩnh vực kinh doanh mới mà không có chiến lược rõ ràng.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Sự gia tăng cạnh tranh giữa các ngành công nghiệp.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sm-q781",
+		"question_text": "Tổ chức thực hiện chiến lược được định nghĩa là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Chỉ tập trung vào việc lập kế hoạch.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Là một phần của hoạt động quản trị, nhấn mạnh đến hiệu quả và tác dụng.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Một quá trình chỉ huy và kiểm soát đội ngũ nhân viên.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Hoạt động độc lập không cần phối hợp với các nhóm khác.",
+				"is_correct": false
+			}
+		]
+	}
+]
