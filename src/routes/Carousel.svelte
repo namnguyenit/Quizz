@@ -164,22 +164,109 @@
 			? (pageState.quizData[pageState.current]?.reading_title as string | undefined) || ''
 			: ''
 	);
+
+	// Resizing logic for reading layout
+	let splitPercentage = $state(45);
+	let isResizing = $state(false);
+	let containerRef = $state<HTMLDivElement | null>(null);
+
+	function startResize(e: MouseEvent | TouchEvent) {
+		isResizing = true;
+	}
+
+	function handleResize(e: MouseEvent | TouchEvent) {
+		if (!isResizing || !containerRef) return;
+		
+		let clientY;
+		if (typeof TouchEvent !== 'undefined' && e instanceof TouchEvent) {
+			clientY = e.touches[0].clientY;
+		} else {
+			clientY = (e as MouseEvent).clientY;
+		}
+
+		const rect = containerRef.getBoundingClientRect();
+		// Compute new percentage based on the relative Y position within the parent container
+		let newP = ((clientY - rect.top) / rect.height) * 100;
+		// Constrain between 15% and 85%
+		splitPercentage = Math.max(15, Math.min(newP, 85));
+	}
+
+	function stopResize() {
+		isResizing = false;
+	}
+
+	// Text zooming logic
+	let readingTextSize = $state(16);
+
+	function increaseTextSize() {
+		readingTextSize = Math.min(readingTextSize + 2, 36);
+	}
+
+	function decreaseTextSize() {
+		readingTextSize = Math.max(readingTextSize - 2, 12);
+	}
 </script>
+
+<svelte:window 
+	onmousemove={handleResize}
+	onmouseup={stopResize}
+	ontouchmove={handleResize}
+	ontouchend={stopResize}
+/>
 
 <!-- Carousel Component -->
 {#if pageState.quizData.length > 0}
 	{#if isReadingQuestion(pageState.current)}
-		<div class="w-full h-full flex flex-col gap-0">
-			<div class="border-b border-[var(--border)] bg-[var(--bg-surface)] overflow-y-auto main-scrollbar max-h-[45vh] md:max-h-[55vh] flex-shrink-0">
-				<div class="p-4 md:p-6">
+		<div class="w-full h-full flex flex-col gap-0" bind:this={containerRef} style="user-select: {isResizing ? 'none' : 'auto'};">
+			<div class="bg-[var(--bg-surface)] flex-shrink-0 relative group" style="height: {splitPercentage}%;">
+				<div class="h-full w-full overflow-y-auto main-scrollbar p-4 md:p-6 pb-16">
 					{#if currentReadingTitle}
 						<h3 class="text-[var(--color-primary)] font-semibold mb-3">{currentReadingTitle}</h3>
 					{/if}
-					<div class="whitespace-pre-wrap text-sm md:text-base leading-relaxed text-[var(--text-primary)]">
+					<div 
+						class="whitespace-pre-wrap leading-relaxed text-[var(--text-primary)] transition-all duration-200"
+						style="font-size: {readingTextSize}px;"
+					>
 						{currentReadingPassage}
 					</div>
 				</div>
+
+				<!-- Zoom controls -->
+				<div class="absolute bottom-2 right-4 flex items-center gap-1.5 bg-[var(--bg-primary)]/90 backdrop-blur-md p-1.5 rounded-lg border border-[var(--border)] shadow-md opacity-60 hover:opacity-100 group-hover:opacity-100 transition-opacity z-10">
+					<button 
+						type="button"
+						class="w-8 h-8 flex items-center justify-center rounded-md hover:bg-[var(--bg-hover)] text-[var(--text-primary)] hover:text-[var(--color-primary)] transition-colors disabled:opacity-30 disabled:hover:bg-transparent cursor-pointer font-semibold"
+						onclick={decreaseTextSize}
+						disabled={readingTextSize <= 12}
+						aria-label="Decrease text size"
+						title="Decrease text size"
+					>
+						<span class="text-sm">A-</span>
+					</button>
+					<div class="w-px h-4 bg-[var(--border)]"></div>
+					<button 
+						type="button"
+						class="w-8 h-8 flex items-center justify-center rounded-md hover:bg-[var(--bg-hover)] text-[var(--text-primary)] hover:text-[var(--color-primary)] transition-colors disabled:opacity-30 disabled:hover:bg-transparent cursor-pointer font-bold"
+						onclick={increaseTextSize}
+						disabled={readingTextSize >= 36}
+						aria-label="Increase text size"
+						title="Increase text size"
+					>
+						<span class="text-base">A+</span>
+					</button>
+				</div>
 			</div>
+
+			<!-- Draggable splitter -->
+			<button 
+				type="button"
+				class="h-5 w-full cursor-row-resize flex items-center justify-center bg-[var(--bg-surface)] z-[100] hover:bg-[var(--bg-hover)] active:bg-[var(--bg-hover)] transition-colors border-y border-[var(--border)] outline-none focus:bg-[var(--bg-hover)]"
+				onmousedown={startResize}
+				ontouchstart={startResize}
+				aria-label="Resize reading panel"
+			>
+				<div class="w-12 h-1.5 rounded-full bg-[var(--text-secondary)] opacity-50"></div>
+			</button>
 
 			<div class="flex-1 min-h-0 bg-[var(--bg-primary)]">
 				<ReadingQuestionPanel
