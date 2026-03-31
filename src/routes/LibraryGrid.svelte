@@ -7,7 +7,7 @@
 	}
 </script>
 
-<div class="library-grid w-full h-full overflow-y-auto p-4 md:p-8">
+<div class="library-grid main-scrollbar w-full h-full overflow-y-auto overflow-x-hidden p-4 md:p-8">
 	<div class="max-w-6xl mx-auto">
 		<!-- Header -->
 		<div class="mb-8">

@@ -295,7 +295,7 @@
 
 <!-- Main Layout -->
 <div
-	class="flex min-h-screen min-w-screen w-screen bg-[var(--bg-primary)] text-[var(--text-primary)] font-sans"
+	class="flex h-[100dvh] w-screen overflow-hidden bg-[var(--bg-primary)] text-[var(--text-primary)] font-sans"
 >
 	<!-- Sidebar (only show when quiz is loaded) -->
 	{#if uiState.sidebarOpen && pageState.quizData.length > 0}

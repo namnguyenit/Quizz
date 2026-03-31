@@ -169,9 +169,9 @@
 <!-- Carousel Component -->
 {#if pageState.quizData.length > 0}
 	{#if isReadingQuestion(pageState.current)}
-		<div class="w-full h-full grid grid-rows-[minmax(0,1fr)_minmax(0,1fr)] md:grid-rows-[minmax(0,1.2fr)_minmax(0,1fr)] gap-0">
-			<div class="border-b border-[var(--border)] bg-[var(--bg-surface)] overflow-hidden">
-				<div class="h-full overflow-y-auto main-scrollbar p-4 md:p-6">
+		<div class="w-full h-full flex flex-col gap-0">
+			<div class="border-b border-[var(--border)] bg-[var(--bg-surface)] overflow-y-auto main-scrollbar max-h-[45vh] md:max-h-[55vh] flex-shrink-0">
+				<div class="p-4 md:p-6">
 					{#if currentReadingTitle}
 						<h3 class="text-[var(--color-primary)] font-semibold mb-3">{currentReadingTitle}</h3>
 					{/if}
@@ -181,7 +181,7 @@
 				</div>
 			</div>
 
-			<div class="min-h-0 bg-[var(--bg-primary)]">
+			<div class="flex-1 min-h-0 bg-[var(--bg-primary)]">
 				<ReadingQuestionPanel
 					currentQuestion={getCurrentQuestionWithType(pageState.quizData[pageState.current])}
 					current={pageState.current}
