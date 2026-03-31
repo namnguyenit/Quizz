@@ -1,0 +1,638 @@
+[
+  {
+    "question_id": "module-4-reflection-delivering-value-q1",
+    "module": "Applying Agile in the organization",
+    "question_text": "In the Penta case study reading, you learned how the company benefits from applying the Scrum framework. As a thought experiment, let’s work through how an Agile approach can help project teams increase value delivery. Remember that Agile teams deliver value by building the right thing, building the thing right, and running it right.Now that you know more about value-driven delivery, you can put that knowledge into practice.Are you ready?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "I’m ready",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "module-4-activity-make-changes-to-your-release-plan-q1",
+    "module": "Applying Agile in the organization",
+    "question_text": "To pass this practice quiz, you must receive at least 75%, or 3 out of 4 points, by completing the activity and answering corresponding quiz questions. You can learn more about the graded and practice items in the Course OverviewOpens in a new tab.Activity OverviewIn this activity, you will evaluate how changes and updates could affect your release plan. Changes can arise at any time, and you must know how to determine the scope of the impact and solve problems quickly.Note: Throughout this course, you will complete tasks normally done by others (like the Development Team or Product Owner). Even if you don’t perform them yourself, it is important that you understand these processes.Be sure to complete this activity before moving on. The next course item will provide you with a completed exemplar to compare to your own work. You will not be able to access the exemplar until you have completed this activity.ScenarioReview the scenario below. Then complete the step-by-step-instructions. You and your Scrum team at Office Green have conducted a test run, created a Sprint Plan, and mitigated project issues. Your team has completed the first of three releases for Virtual Verde, and now you’re coming up on the second!As the second and third project releases approach, you receive three emails that could lead to changes in the release plan. Your team needs to evaluate each email to understand how (or if) it requires changes to the release plan. If you think it does, you will write an email to the Scrum Team updating them on the situation and proposing possible solutions.Note: Any member of your team can write these emails. Even if you don’t write them, this activity will help you recognize effective examples.Step-By-Step InstructionsStep 1: Access the templateTo use the template for this course item, click the link below and select “Use Template.” Link to template: Emails for release planOpens in a new tabORIf you don’t have a Google account, you can download the template directly from the attachment below.Download DOCX FileActivity Template_ Emails for the release planDOCX FileStep 2: Review the release planTo go over the release planOpens in a new tab, follow the link to access the file in Resources. Make note of the timeline and the things you want to accomplish for each release.Step 3: Review the three emailsReview the three emails in the template (from the Content Manager and Vendor Manager). Think about whether each update will affect the timeline or content of your release plan.Step 4: Consider your options and make a planFor each email, answer the following questions:Does the update require your team to take action? If so, what are some possible options to address the update?Do you need to consult anyone to make a decision? If so, who? Do you need additional information to help reach a decision? If so, what do you need to know?Step 5: Write an email to the team (if needed)If you think changes to the release plan are necessary, write an email to the Scrum Team. If you don’t think changes are necessary, you can skip this step.Your message should let them know about the update and describe your proposed course of action. Your email should include: Email recipients A subject line that includes any necessary updatesA body that describes a new approach for the teamA closingStep 6: Repeat for each emailRepeat Steps 2-4 for the remaining emails.What to Include in Your ResponseBe sure to address the following criteria for each email in the template:Options for addressing each update (if needed)A list of team members or stakeholders to consult to reach a decision (if needed)Additional information you might need to help you reach a decision (if needed) An email to the Scrum Team informing them of the update describing your proposed course of action (if needed) Did you complete this activity?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Yes",
+        "is_correct": true
+      },
+      {
+        "answer_text": "No",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "module-4-activity-make-changes-to-your-release-plan-q2",
+    "module": "Applying Agile in the organization",
+    "question_text": "What questions should you ask when there is a last-minute change, like the Bonsai tree supplier no longer carrying Bonsai trees? Select all that apply.",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "Do you need to consult anyone to make a decision?",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Do you need additional information to help reach a decision?",
+        "is_correct": true
+      },
+      {
+        "answer_text": "How can we make the minimum amount of changes and keep our release plan on track?",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Does the update require your team to take action?",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "module-4-activity-make-changes-to-your-release-plan-q3",
+    "module": "Applying Agile in the organization",
+    "question_text": "What are the best options for addressing the vendor database issue? Select all that apply.",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "Shut down all ordering and shipping until the problem can be solved",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Go back to the old software temporarily while the new is being fixed",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Purchase new software/new database",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Manually track inventory until the software is fixed",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "module-4-activity-make-changes-to-your-release-plan-q4",
+    "module": "Applying Agile in the organization",
+    "question_text": "What are some possible options for addressing the Bonsai tree supply issue? Select all that apply.",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "Remove Bonsai trees from the website until you find a new vendor",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Replace the Bonsai trees with a different plant",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Pass the issue along to someone else",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Source Bonsai trees elsewhere",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "module-4-test-your-knowledge-agile-coaching-q1",
+    "module": "Applying Agile in the organization",
+    "question_text": "What is the difference between managing and coaching?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Managing is about giving direction; coaching is about teaching.",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Managing is about listening; coaching is about asserting.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Managing is used in Agile; coaching is used in Waterfall.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Managing is about encouraging the team; coaching is about delegating tasks.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "module-4-test-your-knowledge-agile-coaching-q2",
+    "module": "Applying Agile in the organization",
+    "question_text": "Which of the following responsibilities are part of your role as an Agile coach? Select all that apply.",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "Celebrate and learn with the team.",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Solve problems for the team.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Design the plays (detail how work gets done) with the team.",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Provide feedback to the team.",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "module-4-test-your-knowledge-agile-coaching-q3",
+    "module": "Applying Agile in the organization",
+    "question_text": "What part of your role as an Agile coach involves reviewing your team’s performance to find patterns that work or need improvement?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Design the plays (detail how work gets done) with the team.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Provide feedback to the team.",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Celebrate and learn with the team.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "module-4-test-your-knowledge-agile-coaching-q4",
+    "module": "Applying Agile in the organization",
+    "question_text": "How can you help your team build confidence and capabilities through coaching? Select all that apply.",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "Support them by acting as an accessible resource.",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Encourage and appreciate them by expressing confidence in their efforts.",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Assist them by stepping in to solve difficult problems.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Motivate them by pointing out the value in their work.",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "module-4-reflection-coaching-versus-managing-q1",
+    "module": "Applying Agile in the organization",
+    "question_text": "Now that you know more about coaching and managing teams, you can put that knowledge into practice.Consider the following scenario: Imagine that a project manager oversees the development of a new financial wellness app. The project team includes both seasoned and less experienced members. Senior team members are impatient with their junior colleagues, leading to resentment and low productivity. This creates tension, and the team struggles to work together effectively.The project manager responds to the situation by separating the two camps: senior members get more responsibilities, while junior members work together on separate features. The project manager also meets privately with the junior members to offer tips on working more efficiently. Productivity increases, but the breakdown in communication leads to the team repeating work and building the wrong features. As a thought experiment, let’s compare this scenario to the coaching and managing styles of leadership. Remember that management is about keeping teams on track by providing clear directions. Coaching is about creating motivation and showing support, encouragement, and appreciation. Are you ready?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "I’m ready!",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "module-4-test-your-knowledge-agile-challenges-q1",
+    "module": "Applying Agile in the organization",
+    "question_text": "Imagine you are the Scrum Master launching the first phase of services for a company project. Your team takes a long time to finish tasks and, as a result, they are a month behind schedule. How can you diagnose the problem and help your team hit their targets? Select all that apply.",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "Run more demos of solutions with the team to identify areas for improvement.",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Use Retrospectives to discover opportunities to improve how the team is working.",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Replace slower team members with more efficient ones.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Prioritize the right user stories and focus on only a few per Sprint.",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "module-4-test-your-knowledge-agile-challenges-q2",
+    "module": "Applying Agile in the organization",
+    "question_text": "Which of the following are signs that an Agile team may be experiencing issues with team dynamics and culture? Select all that apply.",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "Low team morale",
+        "is_correct": true
+      },
+      {
+        "answer_text": "High team productivity",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Low team conflict",
+        "is_correct": true
+      },
+      {
+        "answer_text": "High team conflict",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "module-4-test-your-knowledge-agile-challenges-q3",
+    "module": "Applying Agile in the organization",
+    "question_text": "As a project manager or Scrum Master, which of the following strategies can help you fix issues with team dynamics and culture? Select all that apply.",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "Take a training class together.",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Change up the team’s workflows.",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Ask project stakeholders to intervene.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Run a team brainstorm session about how to work better together.",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "module-4-test-your-knowledge-agile-challenges-q4",
+    "module": "Applying Agile in the organization",
+    "question_text": "During a Retrospective, you discover that your team cannot deliver the product on schedule because you set an unrealistic expectation with your stakeholders. What can you do to ensure a healthy roadmap management plan going forward? Select all that apply.",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "Hold regular roadmap reviews with the entire team.",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Simplify the roadmap by scaling back the project scope.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Agree up front about how to handle new ideas and opportunities.",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Promote knowledge sharing between the Product Owner and the Development Team.",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "module-4-test-your-knowledge-frameworks-for-scaling-agile-q1",
+    "module": "Applying Agile in the organization",
+    "question_text": "Which two of the following are frameworks for scaling Agile in a larger organization?",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "Scrum of Scrums",
+        "is_correct": true
+      },
+      {
+        "answer_text": "DevOps",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Business agility",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Disciplined Agile Delivery (DAD)",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "module-4-test-your-knowledge-frameworks-for-scaling-agile-q2",
+    "module": "Applying Agile in the organization",
+    "question_text": "Which scaled Agile framework coordinates multiple Scrum Teams and integrates their work to create one larger, cohesive deliverable?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Disciplined Agile Delivery (DAD)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Scaled Agile Framework (SAFe)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Large-Scale Scrum (LeSS)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Scrum of Scrums",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "module-4-test-your-knowledge-frameworks-for-scaling-agile-q3",
+    "module": "Applying Agile in the organization",
+    "question_text": "What is the benefit of business agility?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "It serves as a strict instruction manual for scaling Agile, rather than a general framework.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "It helps teams rapidly evolve large-scale software systems.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "It helps organizations thrive in high-VUCA environments.",
+        "is_correct": true
+      },
+      {
+        "answer_text": "It combines software development with IT operations.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "module-4-test-your-knowledge-frameworks-for-scaling-agile-q4",
+    "module": "Applying Agile in the organization",
+    "question_text": "Imagine you are a project manager at a video game company. Your last large-scale software release contained so many technical issues that they upset your customers and overwhelmed your Developers. To ensure that your next rollout is secure and reliable, you recruit new team members with information technology (IT) expertise. Which of the following approaches is best for your new project?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Business Agility",
+        "is_correct": false
+      },
+      {
+        "answer_text": "DevOps",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Scaled Agile Framework (SAFe)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Large-Scale Scrum (LeSS)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "module-4-module-4-challenge-q1",
+    "module": "Applying Agile in the organization",
+    "question_text": "In Agile, to “Build the right thing” ensures your team focuses on what?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Process-value delivery",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Value-driven delivery",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Solution-oriented delivery",
+        "is_correct": false
+      },
+      {
+        "answer_text": "High-value delivery",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "module-4-module-4-challenge-q2",
+    "module": "Applying Agile in the organization",
+    "question_text": "In which component of the roadmap will you store information about important dates that indicate delivery of certain features to the customer?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Release plan",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Process plan",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Interview plan",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Requirement plan",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "module-4-module-4-challenge-q3",
+    "module": "Applying Agile in the organization",
+    "question_text": "Fill in the blank: The product vision defines what the product is, who uses it, and how it supports the customer’s _____.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "business strategy",
+        "is_correct": true
+      },
+      {
+        "answer_text": "financial gains",
+        "is_correct": false
+      },
+      {
+        "answer_text": "release plan",
+        "is_correct": false
+      },
+      {
+        "answer_text": "professional reputation",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "module-4-module-4-challenge-q4",
+    "module": "Applying Agile in the organization",
+    "question_text": "What are some of the benefits of developing and maintaining a product roadmap? Select all that apply.",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "Stakeholders meet with the Product Owner less frequently throughout the project",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Stakeholders notice incremental value over the course of the project",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Teams understand how their efforts relate to the project vision",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Teams and stakeholders understand of the sequence of deliverables",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "module-4-module-4-challenge-q5",
+    "module": "Applying Agile in the organization",
+    "question_text": "Imagine you are a project manager for a software company. Your team plans to develop a new learning management system (LMS) for a local school district by the end of the quarter. Which of the following factors can potentially push back your release plan date? Select all that apply.",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "A member of your development team leaves to take a new job.",
+        "is_correct": true
+      },
+      {
+        "answer_text": "The school district increases the project budget and provides additional resources.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "The Product Owner expands the project to include two additional school districts.",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Your team realizes an epic will take more time to complete than anticipated.",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "module-4-module-4-challenge-q6",
+    "module": "Applying Agile in the organization",
+    "question_text": "As a project manager, your organization makes a shift to Agile. To create a sense of urgency, which questions should you ask your team about what’s working and what’s not working right now? Select all that apply.",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "How can we help you become more productive and supported in your work?",
+        "is_correct": true
+      },
+      {
+        "answer_text": "What can we do to cut costs in our product creation and sprint process?",
+        "is_correct": false
+      },
+      {
+        "answer_text": "What allows our competitors to outperform us and get their products and features to market more quickly?",
+        "is_correct": true
+      },
+      {
+        "answer_text": "How can we change the company's stated mission or values to better align with our work?",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "module-4-module-4-challenge-q7",
+    "module": "Applying Agile in the organization",
+    "question_text": "As a project manager, you want to increase the involvement of a key stakeholder in the development process. Your team has just finished designing a new feature. You reach out to the stakeholder for feedback before the feature is implemented. Which key to influence are you demonstrating?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Personal motivation",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Find vital behaviors",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Clarify measurable results",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Leverage the six sources of influence",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "module-4-module-4-challenge-q8",
+    "module": "Applying Agile in the organization",
+    "question_text": "Imagine you are a project manager for a mobile game that is experiencing significant technical issues. While working on the update, your team members appear unhappy and arrive at work late. What can you do to boost morale and improve the quality of deliverables? Select all that apply.",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "Take a training class on team dynamics and how to better work together",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Push back the next release date to give the team more time",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Change up the workflows by pairing people to work together on hard tasks",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Run a team brainstorm session to identify areas for improvement",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "module-4-module-4-challenge-q9",
+    "module": "Applying Agile in the organization",
+    "question_text": "What two problems commonly arise when you fail to implement Scrum completely? Select all that apply.",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "An increase in interpersonal conflict",
+        "is_correct": false
+      },
+      {
+        "answer_text": "A decrease in customer satisfaction",
+        "is_correct": false
+      },
+      {
+        "answer_text": "A loss of clear roles and responsibilities",
+        "is_correct": true
+      },
+      {
+        "answer_text": "A temptation to skip events or blend them to save time",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "module-4-module-4-challenge-q10",
+    "module": "Applying Agile in the organization",
+    "question_text": "Which of the following scaled Agile frameworks is organized into four layers: Foundation, Disciplined DevOps, Value Streams, and Disciplined Agile Enterprise?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Large-Scale Scrum (LeSS)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Scaled Agile Framework (SAFe)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "The Spotify Model (SoM)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Disciplined Agile Delivery (DAD)",
+        "is_correct": true
+      }
+    ]
+  }
+]

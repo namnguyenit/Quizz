@@ -1,0 +1,462 @@
+[
+  {
+    "question_id": "module-5-test-your-knowledge-effective-communication-q1",
+    "module": "Organizing communication and documentation",
+    "question_text": "Fill in the blank: Effective communication is clear, honest, relevant, and _____.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "rare",
+        "is_correct": false
+      },
+      {
+        "answer_text": "one-sided",
+        "is_correct": false
+      },
+      {
+        "answer_text": "frequent",
+        "is_correct": true
+      },
+      {
+        "answer_text": "urgent",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "module-5-test-your-knowledge-effective-communication-q2",
+    "module": "Organizing communication and documentation",
+    "question_text": "Imagine that a restaurant is hosting a recruitment day to hire delivery drivers. The project manager creates a plan to organize stakeholder communication. The plan indicates the following:The team lead updates the core hiring team every day for two weeks prior to the event to report next steps so they each know their daily responsibilities.The core hiring team contacts the job candidates the Friday before the event to remind them of the time and location.The project manager contacts the venue and caterers the Monday before the event to confirm reservations. In the above scenario, what three key elements are missing from the communication plan?",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "Type of communication",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Resource links",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Delivery methods",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Dependencies",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Communication risks",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "module-5-test-your-knowledge-effective-communication-q3",
+    "module": "Organizing communication and documentation",
+    "question_text": "Which of the following is a best practice you can use to help ensure that your communication plan is effective for your team? Select all that apply.",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "Share your plan with your manager but not your team.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Use formatting to highlight any key details.",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Add a column for notes.",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Test your plan",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "module-5-test-your-knowledge-effective-communication-q4",
+    "module": "Organizing communication and documentation",
+    "question_text": "How can you recognize individual differences in your communications? Select all that apply.",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "Be mindful of your own biases.",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Include and respect diverse points of view.",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Craft your communications based on what you assume about your audience’s backgrounds, identities, or experiences.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Use appropriate, professional, and neutral language.",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "module-5-activity-draft-a-communication-plan-q1",
+    "module": "Organizing communication and documentation",
+    "question_text": "To pass this practice quiz, you must receive at least 80%, or 4 out of 5 points, by completing the activity and answering corresponding quiz questions. You can learn more about the graded and practice items in the Course OverviewOpens in a new tab.Activity OverviewIn this activity, you will create a communication plan to help you manage all the different kinds of communication that happen during a project. Communication plans help you organize recipients, communication frequency, and the types of information you need to share.Note: When you create a communication plan at the start of a project, don’t feel obligated to follow it exactly. Communications should be flexible enough to adapt if and when circumstances change.Be sure to complete this activity before advancing to the next course item, which will provide you with a completed exemplar to compare to your own work. You will not be able to access the exemplar until you have completed this activity. ScenarioReview the scenario below. Then complete the step-by-step instructions.As part of the Plant Pals Operations and Training plan, your team will need to organize and host trainings for employees. You want to make sure that a majority of employees are properly trained to use the new software and equipment before sending the first round of Plant Pals test batches to customers. Because your employees will need to learn several different processes, training sessions will take place over a period of ten days. Your team has just over three weeks to prepare before the sessions begin.As the Plant Pals project manager, you will work with your team to plan and execute the preparations for the training sessions. One of your tasks is to build a communication plan, which should include:What you need to communicate (the goal of the communication)Who needs to communicateWhen information-sharing needs to happenWhy and how to communicate with everyone involvedAs you begin planning the training sessions, you identify the key teams and stakeholders who will need to communicate about the event:Core Team: Your core project team will lead the planning and task coordination. These tasks include communicating with stakeholders, preparing the schedule, reserving space and equipment, training the employees, and more.The team members who are directly involved in organizing the trainings include:An Administrative Coordinator who is responsible for scheduling and communicating with external vendors and Office Green teams (e.g., Facilities)A Human Resources Specialist who manages hiring and develops training protocols (with the help of the Training Manager)A Training Manager who reports to the HR Specialist, runs the training program on the established protocols, and refines training processesThe other members of your core project team (the Financial Analyst, Fulfillment Director, Quality Assurance Tester, and Inventory Manager) will attend team meetings and are available to pitch in if you need them.Additional stakeholders with whom your team needs to communicate include:Software and Equipment Vendor: Members of your team will need to meet with the vendor to learn about the software and equipment so they can create an effective training plan for employees. The team members responsible for creating and running the training program should organize and attend this meeting. Your team should allow adequate time to learn about new processes and ask follow-up questions. This meeting must take place before the end of the vendor’s SoW.Human Resources: The Human Resources department can help your team as they develop the training plan. They will also provide support during the training sessions. Your team will want to communicate with them regularly (but not daily) and on an as-needed basis. The HR Specialist on your team is the point of contact for the rest of HR.Facilities: Facilities will reserve and manage the spaces and equipment needed for the training sessions. They will need to review the schedule and understand your needs for each session ahead of time. A member of your team needs to keep them updated and informed of any changes to requirements.Print Shop: The vendor who will install the software and equipment is also creating training manuals for your team. One of your team members will need to coordinate with the print shop to make copies of the manuals for each training.Office Green employees: You will also need to coordinate with the employees who need to be trained! A member of your team should tell them where they should arrive, where they should go, what they need to bring, and communicate other necessary details. The same team member will also need to conduct the sessions and solicit feedback from employees through a post-training survey.Your Office Green Manager: Your manager wants to be kept informed of your team’s progress but doesn't need to know every detail. They can also be a helpful resource for the planning process, if necessary. You already communicate with them regularly, so you can update them at one of your weekly meetings. Senior Leadership: Your manager asks you to let senior leadership know about the outcome of the trainings (and to copy them when you do so). The Director of Operations and the Director of Product (the project sponsor) want to be kept informed but don’t have much time for meetings.Step-by-Step InstructionsStep 1: Access the templateTo use the template for this course item, click the link below and select “Use Template.” Link to template: Communication planOpens in a new tabOR If you don’t have a Google account, you can download the template directly from the attachment below.Download XLSX FileActivity Template_ Communication planXLSX FileStep 2: Review the communication goals and recipientsThe goal and recipient of each communication is already filled out in the template. Review this information and consider the people and teams you need to coordinate. Then try to think of some ways you can effectively communicate about each goal.Note: The first line of the communication plan has already been filled in. You can reference this information as you complete the rest of the plan.Step 3: Determine communication typesHow should you communicate about each goal? What type of communication is best for each recipient? Select one of the following communication types from the drop-down under Type of Communication:Planning Meetings: Standard meetings with team members or stakeholders to plan event detailsPlanning Check-In: Brief meetings with stakeholders and support staff to discuss action items or check on task progressTraining: Sessions for employees to learn about jobs or specialized tasksInformational update: Key details, instructions, and resources for traineesStatus Update: Timely project updates for senior stakeholders to get high-level information, give feedback, and answer questionsNote: You can use drop-down items more than once. For example, you might want to build multiple planning check-ins into your schedule.Step 4: Determine the frequencyHow often do you need to communicate with each recipient? Consider each stakeholder’s level of involvement in the project when deciding how often to communicate. Select one of the following frequencies from the drop-downs under Frequency:DailyWeeklyOne timeNote: You can treat these frequencies as approximate since you’ll be able make note of other communications (like day-of reminders) under the Key Dates column in Step 6.Step 5: Add the sender or ownerWho from the team should share or communicate about this information? Select one of the following options from the drop-downs under Sender/Owner:Project Manager (you)Core Team: Administrative CoordinatorCore Team: HR SpecialistCore Team: Training ManagerCore Team: HR Specialist & Training ManagerStep 6: Add the key datesWhen should this communication happen? Are there important reminders or deadlines you should note? Consider how much time you have to plan the event and when it makes sense to communicate about each goal (e.g., early or late in the day or the week). Enter your selected times under Key Dates.There are no right answers here, but try to be specific about times and dates—and make sure your stakeholders don’t need to be in two places at once! Note: Your stakeholders’ schedules will vary, and it’s unlikely that they will all be able to make every scheduled meeting. Sometimes, you will need to decide whether you need to reschedule if a key team member can’t make it.Step 7: Determine the delivery methodHow will you or your team members share this information? Should you meet in person or over the phone? Should you send a personal email or is a group message more effective? Select your delivery methods from the drop-downs under Delivery Method: In personPhone callEmail (from individual address)Email (from company address)Note: The best delivery method for each communication depends on the needs and preferences of particular stakeholders. For this exercise, you can use your best judgment. Step 8 (Optional): Add resources and notesIf you’d like, fill in the Resources and Notes columns. You can consult the scenario for any important details or come up with your own. For example, the template includes a link to the meeting agenda and notes for daily team meetings. These documents aren’t specifically mentioned in the scenario, but they’re useful for any project meeting.You don’t need to complete both of these fields for every communication item. Instead, try to think about what kinds of resources or information can help you reach your communication goals. What to Include in Your ResponseBe sure to address the following elements in your completed communication plan:The types of communication you need to have with your recipientThe recipients you need to communicate withHow often you will communicate with themWho will own the communication (you or someone from the team)Key dates for communicationThe delivery method for each type of communicationDid you complete this activity?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Yes",
+        "is_correct": true
+      },
+      {
+        "answer_text": "No",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "module-5-activity-draft-a-communication-plan-q2",
+    "module": "Organizing communication and documentation",
+    "question_text": "Fill in the blank: In the communication plan you created, you scheduled _____ to keep your manager informed and get feedback.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "weekly updates",
+        "is_correct": true
+      },
+      {
+        "answer_text": "daily updates",
+        "is_correct": false
+      },
+      {
+        "answer_text": "a one-time meeting",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "module-5-activity-draft-a-communication-plan-q3",
+    "module": "Organizing communication and documentation",
+    "question_text": "In your communication plan, how often does your team communicate with Human Resources while developing the training plan?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Daily",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Weekly",
+        "is_correct": true
+      },
+      {
+        "answer_text": "One time",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "module-5-activity-draft-a-communication-plan-q4",
+    "module": "Organizing communication and documentation",
+    "question_text": "In your communication plan, who is the Sender/Owner responsible for communicating the training schedules, locations, and other details to trainees?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "The HR Specialist",
+        "is_correct": false
+      },
+      {
+        "answer_text": "You, the Project Manager",
+        "is_correct": false
+      },
+      {
+        "answer_text": "The Administrative Coordinator",
+        "is_correct": false
+      },
+      {
+        "answer_text": "The Training Manager",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "module-5-activity-draft-a-communication-plan-q5",
+    "module": "Organizing communication and documentation",
+    "question_text": "In your communication plan, who coordinates with the Print Shop about printing the training manuals?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "The Administrative Coordinator",
+        "is_correct": true
+      },
+      {
+        "answer_text": "You, the Project Manager",
+        "is_correct": false
+      },
+      {
+        "answer_text": "The HR Specialist",
+        "is_correct": false
+      },
+      {
+        "answer_text": "The Training Manager",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "module-5-activity-organize-documents-in-a-project-plan-q1",
+    "module": "Organizing communication and documentation",
+    "question_text": "To pass this practice quiz, you must receive 100%, or 1 out of 1 point, by completing the activity below. You can learn more about the graded and practice items in the Course OverviewOpens in a new tab.Activity OverviewCongratulations! You’ve come a long way and worked hard to complete all of the individual project planning documents, also known as project artifacts, in this course. In this activity, you will gather those documents and compile and organize them in one central place—your project plan. Having your documents in one place makes communication quicker, easier, and more streamlined, so everyone can find the information they need. Be sure to complete this activity before moving on. The next course item will provide you with a completed exemplar to compare to your own work. You will not be able to access the exemplar until you have completed this activity. ScenarioReview the scenario below. Then complete the step-by-step instructions.As the project manager for Office Green’s Plant Pals Operations and Training plan launch, you want to keep all your planning documents organized in a central location. That way, you can easily share information and track the status of the project’s many moving pieces. Your project folders and labels should be clearly organized to provide visibility, continuity, and accountability.A project plan is not only useful for streamlining team communications, it can also help you with retrospectives and planning for future projects.Step-by-step InstructionsStep 1: Access the templateTo use the template for this course item, click the link below and select “Use Template.” Link to template: Project planOpens in a new tabOR If you don’t have a Google account, you can download the template directly from the attachment below.Download XLSX FileActivity Template_ Project planXLSX FileStep 2: Add project detailsThere are four tabs at the bottom of the template: Dashboard, Project Schedule, Budget, and Communication Plan. First, go to the Dashboard tab. You’ll use this tab to provide a brief overview of the project and link to key project documents. In the topmost section of the Dashboard, fill in the following information as indicated in the template:Project nameProject descriptionProject owner (You can use your name, make up a name, or simply write “Project Manager.”)Project status (mark the status as Draft for now)Note: Leave the descriptions of the Key Docs blank for now. You will fill them in once you complete the rest of the document. Step 3: Gather project documents Next, gather your main project documents from the activities in this course: Activity: Estimate a project plan in a Gantt chartOpens in a new tabActivity: Develop a project budgetOpens in a new tabActivity: Draft a communication planOpens in a new tabActivity: Complete a Statement of Work (SoW)Opens in a new tabActivity: Create a risk management planOpens in a new tabOptional: Gather your finished documents from the following activities in the previous course, Project Initiation: Starting a Successful Project:Opens in a new tabProject charter RACI chartsStep 4: Add the documents to their respective tabsCopy your completed Gantt chart, budget, and communication plan to the following tabs of your project plan:The Gantt chart spreadsheet should become the Project Schedule tab.The budget spreadsheet should become the Budget tab.The communication plan spreadsheet should become the Communication Plan tab.If you are using Google SheetsOpens in a new tab, we recommend using the Copy to > Existing spreadsheet function:Open both your project plan and your source sheet (the spreadsheet you want to copy—e.g., your Gantt chart).Copy your project plan URL.Go to your source sheet and find the tab at the bottom (e.g., for your Gantt chart, this is the tab labeled “Gantt chart”). Click the down arrow on the tab and select Copy to > Existing spreadsheet.Paste the project plan URL into the bottom of the box that appears.Choose Select to copy the source sheet into your project plan.The copied sheet will appear as a new tab at the bottom of your project plan. You can then delete the blank tab (“Project schedule,” “Budget,” or “Communication plan”) and rename the newly copied tab.For Microsoft Excel or other spreadsheet software, you can drag a spreadsheet tab from one spreadsheet to another:Arrange your spreadsheets so that both your project plan and your source spreadsheet (e.g., your Gantt chart) are side-by-side. (You may need to resize them first.)Click the tab at the bottom of your source spreadsheet and drag it to the tab bar of your project plan.The copied sheet will appear as a new tab at the bottom of your project plan. You can then delete the blank tab (Project schedule, Budget, or Communication plan) and rename the newly copied tab.You can also copyOpens in a new tab all the cells of the source spreadsheet and then paste the content into the relevant tab in your project plan. Step 5: Optional: Add hyperlinks to the Dashboard tabNext, you can add hyperlinks to your project plan tabs and other documents to the Key Docs section of the Dashboard tab. Creating links to the main documents in your project plan lets your team access them quickly and easily.Note: If your project documents are not in the cloud or online, you won’t be able to link to them, and are not expected to do this step.If you’re using Google Drive, follow these steps to hyperlink Opens in a new tabyour Project Schedule, Budget, and Communication Plan tabs to the Dashboard:Under Key Docs in the Dashboard tab, select the cell with the name of the document you want to link (e.g. “Schedule”).Go to Insert and select Link (or select the Insert link icon from the toolbar).Choose Sheets and named ranges and select the name of the tab you want to hyperlink.To add hyperlinks to your Statement of Work, risk management plan, project charter, and RACI charts:Copy the URL for the document you want to link.Select the cell that matches the document you want to link (e.g., “Project charter”).Select Insert link and paste the URL.Select Apply to link the document. If you want to create a shared folder so you can link to all your files, create a central folder on Google Drive,Opens in a new tab or any other file sharing program (e.g., MicrosoftOpens in a new tab, DropboxOpens in a new tab or MacOpens in a new tab). Then, add the documents to the shared folder and generate a hyperlink to the Key Docs section of the Dashboard. Step 6: Add descriptionsIn the Dashboard tab, write a short description of each document under Description. (Do this even if you haven’t created hyperlinks to your project documents. Your descriptions should be brief, but specific, so your stakeholders know exactly what each document contains.Note: Be sure to adjust the sharing settings for your project documents and folders. To learn how to change sharing settings in Google Drive, visit this resourceOpens in a new tab.Step 7: Save your project planSave your completed project plan to your computer or Google Drive. You'll need it again in the next course, Project Execution: Running the ProjectOpens in a new tab.Pro Tip: Save the templateFinally, be sure to save a blank copy of the project plan template you used to complete this activity. You can use it for further practice or in your own personal or professional projects. These templates will be useful as you put together a portfolio of project management artifacts. You can use them to talk through your thought processes as you demonstrate your experience to potential employers.What to Include in Your ResponseBe sure to address the following elements in your completed project plan:Project details at the top of your Dashboard tabLinks for all documents listed in the DashboardTabs for the completed Gantt chart (Project Schedule), Budget, Communication Plan, and if applicable, RACI chartA link to a shareable folder containing all of your project resourcesDid you complete this activity?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Yes",
+        "is_correct": true
+      },
+      {
+        "answer_text": "No",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "module-5-module-5-challenge-q1",
+    "module": "Organizing communication and documentation",
+    "question_text": "Which of the following should project managers identify before creating a communication plan? Select all that apply.",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "Project stakeholders",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Communication methods",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Project risks",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Communication goals",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "module-5-module-5-challenge-q2",
+    "module": "Organizing communication and documentation",
+    "question_text": "What should a project manager assume when writing a new email message for team members about project updates?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "The message will be delivered to everyone in the company",
+        "is_correct": false
+      },
+      {
+        "answer_text": "No one will respond to your message",
+        "is_correct": false
+      },
+      {
+        "answer_text": "It’s safe to include sensitive or personal information",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Not all of the recipients will read the message",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "module-5-module-5-challenge-q3",
+    "module": "Organizing communication and documentation",
+    "question_text": "What details does a communication plan include? Select all that apply.",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "Who should communicate",
+        "is_correct": true
+      },
+      {
+        "answer_text": "How communications should sound",
+        "is_correct": false
+      },
+      {
+        "answer_text": "What to communicate",
+        "is_correct": true
+      },
+      {
+        "answer_text": "When communication happens",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "module-5-module-5-challenge-q4",
+    "module": "Organizing communication and documentation",
+    "question_text": "As a project manager, you decide to hold video conferences with your core project team and stakeholders as part of your communication plan. What additional details should the communication plan include? Select all that apply.",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "Resource locations",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Duration",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Key dates",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Location",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "module-5-module-5-challenge-q5",
+    "module": "Organizing communication and documentation",
+    "question_text": "You prepare a template for a weekly email for stakeholders with some key launch dates and announcements for the project. How can you ensure stakeholders can easily notice the information?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Create a follow-up email to be sent a day later with just the important information.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Schedule a follow-up meeting with the stakeholders to review the email.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Keep the key launch dates and announcements together for better clarity.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Highlight and bold the information the stakeholder should focus on.",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "module-5-module-5-challenge-q6",
+    "module": "Organizing communication and documentation",
+    "question_text": "As a project manager, how can you optimize and streamline project communications?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Create a static communication plan for the team",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Be the only person who communicates with teams about the project",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Only use one communication method with all teams",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Send team members a survey asking about improvements to communication",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "module-5-module-5-challenge-q7",
+    "module": "Organizing communication and documentation",
+    "question_text": "Which of the following communication methods are most appropriate for core project team members? Select all that apply.",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "Formal presentations to explain project deliverables",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Daily meetings to report on project progress",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Quick virtual check-ins to answer questions",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Department newsletters on current projects",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "module-5-module-5-challenge-q8",
+    "module": "Organizing communication and documentation",
+    "question_text": "You create a project communication plan for a busy executive who needs high-level updates on the project. What type of communication would you create for this executive?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "A newsletter email outlining key milestones and project progress",
+        "is_correct": true
+      },
+      {
+        "answer_text": "A email that outlines the roles of each team member and stakeholder",
+        "is_correct": false
+      },
+      {
+        "answer_text": "An email that contains a list of all the completed tasks",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Daily meetings that the stakeholder is required to attend",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "module-5-module-5-challenge-q9",
+    "module": "Organizing communication and documentation",
+    "question_text": "What project management best practice includes documenting plans and making them available to stakeholders?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Dependency management",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Milestone management",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Knowledge management",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Risk management",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "module-5-module-5-challenge-q10",
+    "module": "Organizing communication and documentation",
+    "question_text": "A project manager creates a centralized planning document. They create an overview sheet with the project description and communication expectations. What is another piece of information they can include in the overview sheet?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Instructions for how to use the spreadsheet",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Goals for how many emails to send to stakeholders",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Goals on how many daily check-ins for project",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Instructions for how to use the RACI chart",
+        "is_correct": false
+      }
+    ]
+  }
+]

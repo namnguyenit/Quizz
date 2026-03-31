@@ -1,0 +1,478 @@
+[
+  {
+    "question_id": "module-1-reflection-project-planning-considerations-q1",
+    "module": "Beginning the planning phase",
+    "question_text": "In this exercise, you will read a scenario and answer questions about a project's schedule, budget, and potential risks. Start by reading the scenario:Imagine that you’re a project manager helping a restaurant owner launch an updated menu with a few new food items at 15 locations. The owner would like you to oversee the redesign of the menu and distribution to all locations. You're preparing for your project’s eventual kickoff meeting. Right now, you’re thinking through the three main planning activities: building the schedule, assessing the budget, and considering potential risks. Have you read the scenario?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "I have!",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "module-1-test-your-knowledge-the-planning-phase-components-q1",
+    "module": "Beginning the planning phase",
+    "question_text": "Which three of the following are benefits of project planning?",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "It gives you time to identify and prepare for risks that could impact your project.",
+        "is_correct": true
+      },
+      {
+        "answer_text": "It helps individuals assigned to your project become a strong team by working together.",
+        "is_correct": true
+      },
+      {
+        "answer_text": "It helps you map out the full project.",
+        "is_correct": true
+      },
+      {
+        "answer_text": "It helps you brainstorm preliminary goals for the project.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "module-1-test-your-knowledge-the-planning-phase-components-q2",
+    "module": "Beginning the planning phase",
+    "question_text": "What are three major project components that are worked out during the planning phase?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Success criteria, stakeholders, and resources",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Schedule, budget, and risk management plan",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Scope, goals, and deliverables",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Project tracking, quality management, and retrospectives",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "module-1-test-your-knowledge-the-planning-phase-components-q3",
+    "module": "Beginning the planning phase",
+    "question_text": "During the kickoff meeting, which agenda item involves discussing how the project came to be and why the project matters?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Goals and scope",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Background",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Collaboration",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Roles",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "module-1-test-your-knowledge-the-planning-phase-components-q4",
+    "module": "Beginning the planning phase",
+    "question_text": "Which of the following are best practices when you are leading a kickoff meeting? Select all that apply.",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "Take your own thorough notes.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Set the right time.",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Share the agenda.",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Follow up after the meeting.",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "module-1-activity-use-a-wbs-to-create-milestones-and-project-tasks-part-1-q1",
+    "module": "Beginning the planning phase",
+    "question_text": "To pass this practice quiz, you must receive 100%, or 1 out of 1 point, by completing the activity below. You can learn more about the graded and practice items in the Course OverviewOpens in a new tab.Activity Overview In this activity, you will identify a project’s major milestones, break them into smaller tasks, and complete a Work Breakdown Structure (WBS) brainstorm diagram. Then, in Part 2 of this activity, you will build on this scenario to complete a WBS spreadsheet.Setting tasks and milestones gives you a clear understanding of the amount of work your project will require, so you can keep your project on track. Milestones also serve as great check-in points to highlight the project’s progress for your team and stakeholders.Be sure to complete this activity before moving on. The next course item will provide you with a completed exemplar to compare to your own work. You will not be able to access the exemplar until you have completed this activity. ScenarioReview the scenario below. Then complete the step-by-step instructions.As a project manager for Office Green, your job includes working with the operations team to develop and implement an Operations and Training plan. Your team will use this plan for ongoing maintenance of the Plant Pals service. It will take six months to fully implement all protocols, including setting up operational tools, putting delivery processes in place, and training employees. The project will begin before the Plant Pals launch and extend beyond it.The Operations team is responsible for managing the organization’s day-to-day business so that it continues to run smoothly. Operations provides resources to other departments, ensures consistency, and maintains the company’s profitability. The Chief Operations Officer (COO) typically leads the Operations team and works closely with other divisions, such as Sales, Client Services, Human Resources, Information Technology (IT), as well as the project manager. Developing the Operations and Training plan marks a new stage of the project, with its own set of goals and deliverables. After assessing the requirements for the plan you determine three major milestones:Establish a plant delivery and logistics planSelect and install supply chain management software and equipmentDevelop and launch an employee training programFor each milestone, you divide the work into three separate tasks. Each task has its own owner, duration, and details. The tasks associated with your milestones include: Establish a plant delivery and logistics plan: Team members will need to source materials for packaging and hire delivery drivers. They are also responsible for calculating the delivery fees. Select and install supply chain software and equipment: Team members will supervise vendor setup of inventory management and fulfillment software. They must also supervise vendor installation of fulfillment equipment and determine internal safety protocols for the equipment.Develop and launch an employee training program: Team members will need to develop training sessions, train employees to use the software and equipment, and monitor progress and improve training processes.Step-by-step InstructionsStep 1: Access the templateTo use the template for this course item, click the link below and select “Use Template.” Link to template: WBS Brainstorm DiagramOpens in a new tabORIf you don’t have a Google account, you can download the template directly from the attachment below.Download PPTX FileActivity Template_ WBS Brainstorm DiagramPPTX FileStep 2: Title your chartTitle your chart “Operations and Training Plan.” Giving your chart a descriptive title helps you focus on the project’s milestones and tasks.Step 3: Add milestonesRecord the three milestones from the scenario in the boxes labeled Milestone 1, Milestone 2, and Milestone 3. Step 4: Add tasksIdentify the tasks required to reach each milestone. Record three tasks for each milestone in the Task 1, Task 2, and Task 3 boxes. When you finish, you should have nine tasks in your brainstorm diagram—three for each milestone.For example, one task that will help you reach the “establish a delivery plan” milestone is “hire delivery drivers.\"Note: In a more detailed WBS, you would break these tasks down into additional subtasks. For example, the “hire delivery drivers” task might include subtasks like: “writing a job ad,” “interviewing drivers,” and “onboarding new hires.” For now, you can record the tasks as they are described in the scenario.Pro Tip: Add the template to your resumeFinally, be sure to save a blank copy of the template you used to complete this activity. These templates are valuable records of your gained experience, ready for potential employers. Use these to build your portfolio and demonstrate hands-on skills. To highlight this on your resume, you could add: \"Experienced in developing key project management documentation to support all phases of the project lifecycle.\"What to Include in Your ResponseBe sure to address the following points in your completed WBS brainstorm diagram:A descriptive titleThree different milestonesNine tasks in total (three for each milestone)Did you complete this activity?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Yes",
+        "is_correct": true
+      },
+      {
+        "answer_text": "No",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "module-1-activity-use-a-wbs-to-create-milestones-and-project-tasks-part-2-q1",
+    "module": "Beginning the planning phase",
+    "question_text": "To pass this practice quiz, you must receive 80%, or 4 out of 5 points, by completing the activity below. You can learn more about the graded and practice items in the Course OverviewOpens in a new tab.Activity Overview In the last activity, Use a WBS to create project tasks and milestones - Part 1Opens in a new tab, you filled out a WBS brainstorm diagram with tasks and milestones. In this activity, you will use that diagram to complete a WBS spreadsheet. You will use this spreadsheet to assign tasks owners and sort milestones and tasks into sequential order.Be sure to complete this activity before moving on. The next course item will provide you with a completed exemplar to compare to your own work. You will not be able to access the exemplar until you have completed this activity.ScenarioReview the scenario below. Then complete the step-by-step instructions.As a project manager for Office Green, you are developing an Operations and Training plan for the new Plant Pals service. It will take six months to fully implement all protocols, including setting up operational tools, putting delivery processes in place, and training employees. You have already added milestones and tasks for this project to a WBS brainstorm diagram. Here are the milestones and their associated tasks:Establish a plant delivery and logistics plan: Team members will need to source materials for packaging and hire delivery drivers. They are also responsible for calculating the delivery fees. Select and install supply chain software and equipment: Team members will supervise vendor setup of inventory management and fulfillment software. They must also supervise vendor installation of fulfillment equipment and determine internal safety protocols for the equipment. Develop and launch an employee training program: Team members will need to develop training sessions, train employees to use the software and equipment, and monitor employee progress and improve training processes.Now you will add those tasks and milestones to a WBS spreadsheet. You will also use the sheet to record task owners and any notes about the tasks and their owners. The project sponsor for the Operations and Training plan, the Director of Operations, has put together a team for the operations launch. You can select task owners from among the following team:A Financial Analyst, who tracks and calculates costs and revenueA Fulfillment Director, who sources materials, ensures equipment is functional, and confirms fulfillment processes are correctly implementedAn Inventory Manager, who maintains inventory and oversees software installation A Human Resources Specialist, who manages hiring and develops training protocols (with the help of the Training Manager)A Training Manager, who reports to the HR Specialist, runs the training program on the established protocols, and refines training processesA Quality Assurance Tester, who ensures product quality and determines safety protocols and best practicesStep-by-step InstructionsStep 1: Access the templateTo use the template for this course item, click the link below and select “Use Template.” Link to template: WBS SpreadsheetOpens in a new tabORIf you don’t have a Google account, you can download the template directly from the attachment below.Download XLSX FileActivity Template_ WBS SpreadsheetXLSX FileStep 2: Add milestonesFirst, open your WBS brainstorm diagram. Then record the three milestones from your brainstorm diagram under the Milestone column of your WBS Spreadsheet.Step 3: Add tasksEnter the tasks from your brainstorm diagram under the Task column of your spreadsheet. Write each task next to the corresponding milestone and task ID number. Assigning each task to an ID number helps you organize, analyze, and search for particular tasks as the list grows. Task IDs are especially useful for large or complex projects.Task ID numbers tell you two things: 1) which milestone each task relates to and 2) the sequence of the tasks. So, task 1.1 is the ID for the first task of the first milestone. Task 1.2 is the second task of the first milestone, and so on. When you finish, you should have nine tasks in your spreadsheet—three for each milestone.Step 4: Add task owners and notesTo the right of the Task column are columns for Owner and Notes. Here, you can record important details that didn’t fit into your WBS diagram. First, review the scenario and determine which of your team members should own each task. Then enter that person’s role next to the task in the Owner column. Record any helpful details from the scenario in the Notes column. For example, including the description of the task owner’s role would remind you of each person’s responsibilities.If you’d like, you can also add your best estimate of how long each task might take in the Duration column (this is optional). Step 5 (Optional): Add tasks to AsanaMany organizations use work management tools like Asana in addition to standard spreadsheets. Hiring managers might even ask you about your experience with work management software in interviews. That’s why we recommend recreating your WBS in Asana.First, create an Asana account (if you don’t already have one). Then, create a project within Asana. Finally, add milestones for each assignment and add tasks to the milestones. For more detailed instructions on how to create an account, project, or milestone, click the links below:Create an accountOpens in a new tabCreate a projectOpens in a new tabCreate a milestoneOpens in a new tab (a premium Asana feature)You can also import task data into Asana using a .CSV file. Click the links below to learn more about the CSV importer.CSV importer - AsanaOpens in a new tabTips to organize your data in a spreadsheet for uploadingOpens in a new tab Steps to import a spreadsheet into AsanaOpens in a new tabPro Tip: Add the template to your resumeFinally, be sure to save a blank copy of the template you used to complete this activity. These templates are valuable records of your gained experience, ready for potential employers. Use these to build your portfolio and demonstrate hands-on skills. To highlight this on your resume, you could add: \"Experienced in developing key project management documentation to support all phases of the project lifecycle.\"What to Include in Your ResponseBe sure to address the following points in your completed WBS spreadsheet: The three milestones from your WBS diagramThe nine tasks from your WBS diagramAn owner for each taskNotes about the owner of each task, and any additional information you’d like to includeDid you complete this activity?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Yes",
+        "is_correct": true
+      },
+      {
+        "answer_text": "No",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "module-1-activity-use-a-wbs-to-create-milestones-and-project-tasks-part-2-q2",
+    "module": "Beginning the planning phase",
+    "question_text": "How do your WBS diagram and spreadsheet help you to develop and launch the Operations and Training program for Plant Pals?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Clarify the tasks the team needs to accomplish to achieve project milestones",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Help you recruit team members with the right skills for the project",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Lay out the project’s costs in detail, so you don’t exceed your budget",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Let customers know what to expect from the new service",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "module-1-activity-use-a-wbs-to-create-milestones-and-project-tasks-part-2-q3",
+    "module": "Beginning the planning phase",
+    "question_text": "Which team member did you assign to own the task, “supervise vendor installation of fulfillment equipment”?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "The Financial Analyst",
+        "is_correct": false
+      },
+      {
+        "answer_text": "The Training Manager",
+        "is_correct": false
+      },
+      {
+        "answer_text": "The Fulfillment Director",
+        "is_correct": true
+      },
+      {
+        "answer_text": "The HR Specialist",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "module-1-activity-use-a-wbs-to-create-milestones-and-project-tasks-part-2-q4",
+    "module": "Beginning the planning phase",
+    "question_text": "Which team member did you assign to own the task, “train employees to use the software and equipment”?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "The Training Manager",
+        "is_correct": true
+      },
+      {
+        "answer_text": "The HR Specialist",
+        "is_correct": false
+      },
+      {
+        "answer_text": "The Fulfillment Director",
+        "is_correct": false
+      },
+      {
+        "answer_text": "The Quality Assurance Tester",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "module-1-activity-use-a-wbs-to-create-milestones-and-project-tasks-part-2-q5",
+    "module": "Beginning the planning phase",
+    "question_text": "Which of the following additional tasks are appropriate for the “establish a plant delivery and logistics plan” milestone? Select all that apply.",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "Set customer service protocols",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Hire warehouse employees to pack shipments",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Source a vendor for additional types of plants",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Purchase delivery trucks",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "module-1-module-1-challenge-q1",
+    "module": "Beginning the planning phase",
+    "question_text": "In the project planning phase, what type of meeting is the first meeting among the project team, stakeholders, and the project sponsor?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "A team reflection meeting",
+        "is_correct": false
+      },
+      {
+        "answer_text": "A project kick-off meeting",
+        "is_correct": true
+      },
+      {
+        "answer_text": "A milestone planning meeting",
+        "is_correct": false
+      },
+      {
+        "answer_text": "A stakeholder approval meeting",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "module-1-module-1-challenge-q2",
+    "module": "Beginning the planning phase",
+    "question_text": "As a project manager in the planning phase, you have created a project schedule and accounted for the total costs. What is the third major planning component you will create?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "A feedback form",
+        "is_correct": false
+      },
+      {
+        "answer_text": "A team performance chart",
+        "is_correct": false
+      },
+      {
+        "answer_text": "A work breakdown structure",
+        "is_correct": false
+      },
+      {
+        "answer_text": "A risk management plan",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "module-1-module-1-challenge-q3",
+    "module": "Beginning the planning phase",
+    "question_text": "Fill in the blank: After the stakeholders assign the project manager, the goals of the project have to be approved, as well as the scope of the project and its _____.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "vendors",
+        "is_correct": false
+      },
+      {
+        "answer_text": "deliverables",
+        "is_correct": true
+      },
+      {
+        "answer_text": "manager",
+        "is_correct": false
+      },
+      {
+        "answer_text": "tools",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "module-1-module-1-challenge-q4",
+    "module": "Beginning the planning phase",
+    "question_text": "You review the tasks for the project and set dates to begin the project, site launch, and gather user feedback. Which of the following components of the planning phase does this update?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Schedule",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Risk management",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Task management",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Budget",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "module-1-module-1-challenge-q5",
+    "module": "Beginning the planning phase",
+    "question_text": "As a project manager, you facilitate a kick-off meeting. During the meeting, you introduce what work each person on the team is responsible for. Where on the agenda should this be?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Roles",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Introduction",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Questions",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Background",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "module-1-module-1-challenge-q6",
+    "module": "Beginning the planning phase",
+    "question_text": "Suppose as a project manager, you’re running a kick-off meeting. You accurately define what work is and is not included in the project. What agenda item does this represent?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Scope",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Roles",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Intended outcome",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Project purpose",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "module-1-module-1-challenge-q7",
+    "module": "Beginning the planning phase",
+    "question_text": "Which of the following would you consider a project milestone?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Client approves website design",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Web designer creates a proposal",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Web designer implements feedback",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Project manager reviews mock-ups",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "module-1-module-1-challenge-q8",
+    "module": "Beginning the planning phase",
+    "question_text": "What are the benefits of setting milestones? Select all that apply.",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "Breaking down information into milestones gives you a better idea of the amount of work that needs to be done.",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Setting milestones helps you keep your project on track with clear deadlines for when to complete deliverables.",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Setting milestones helps you to figure out if you need to adjust your scope, timelines, or resources to meet your goals.",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Setting milestones encourages you to take time away from the project for new ideas.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "module-1-module-1-challenge-q9",
+    "module": "Beginning the planning phase",
+    "question_text": "What steps should you take to set proper deadlines for your milestones?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Assign milestones to be completed in week-long increments.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Connect with teammates to discuss the tasks required for the milestone.",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Schedule deadlines for the milestones to account for the budget.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Assign as many tasks as you can for each milestone to impress stakeholders.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "module-1-module-1-challenge-q10",
+    "module": "Beginning the planning phase",
+    "question_text": "What is the outcome of creating a successful work breakdown structure (WBS)?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "A resource for team members to choose which tasks they will work on",
+        "is_correct": false
+      },
+      {
+        "answer_text": "A set of project tasks that ladder up to each of your milestones",
+        "is_correct": true
+      },
+      {
+        "answer_text": "A set of project milestones that ladder up to each of your tasks",
+        "is_correct": false
+      },
+      {
+        "answer_text": "A resource for stakeholders to choose their favorite milestone",
+        "is_correct": false
+      }
+    ]
+  }
+]

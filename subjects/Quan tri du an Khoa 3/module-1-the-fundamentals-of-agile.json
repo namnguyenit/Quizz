@@ -1,0 +1,458 @@
+[
+  {
+    "question_id": "module-1-test-your-knowledge-the-agile-manifesto-q1",
+    "module": "The fundamentals of Agile",
+    "question_text": "Which of the following statements best describe the Agile Manifesto? Select all that apply.",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "The Manifesto captures Agile’s values and reinforcing principles to support Agile project management planning and processes.",
+        "is_correct": true
+      },
+      {
+        "answer_text": "The Manifesto lays out a software development process that is flexible and focuses on people.",
+        "is_correct": true
+      },
+      {
+        "answer_text": "The Manifesto establishes a new approach that proves the Waterfall model wrong.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "The Manifesto helps project managers and stakeholders focus on end products and deliverables rather than on users.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "module-1-test-your-knowledge-the-agile-manifesto-q2",
+    "module": "The fundamentals of Agile",
+    "question_text": "Fill in the blank: The Agile Manifesto emphasizes _____ over processes and tools.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "flexibility and communication",
+        "is_correct": false
+      },
+      {
+        "answer_text": "communication and feedback",
+        "is_correct": false
+      },
+      {
+        "answer_text": "feedback and procedures",
+        "is_correct": false
+      },
+      {
+        "answer_text": "individuals and interactions",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "module-1-test-your-knowledge-the-agile-manifesto-q3",
+    "module": "The fundamentals of Agile",
+    "question_text": "How many values and principles make up the Agile Manifesto?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "14 values, 10 principles",
+        "is_correct": false
+      },
+      {
+        "answer_text": "5 values, 14 principles",
+        "is_correct": false
+      },
+      {
+        "answer_text": "4 values, 12 principles",
+        "is_correct": true
+      },
+      {
+        "answer_text": "4 values, 14 principles",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "module-1-test-your-knowledge-the-agile-manifesto-q4",
+    "module": "The fundamentals of Agile",
+    "question_text": "Which of the following projects are best suited to an Agile approach? Select all that apply.",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "Projects with clear client expectations that face minimal uncertainty",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Projects that are complex and fast-paced",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Projects that are susceptible to change or uncertainty",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Projects with a set design and goals that are unlikely to change",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "module-1-test-your-knowledge-the-agile-manifesto-q5",
+    "module": "The fundamentals of Agile",
+    "question_text": "Fill in the blank: VUCA is an acronym that stands for volatility, uncertainty, complexity, and _____.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "alternatives",
+        "is_correct": false
+      },
+      {
+        "answer_text": "adaptability",
+        "is_correct": false
+      },
+      {
+        "answer_text": "assumptions",
+        "is_correct": false
+      },
+      {
+        "answer_text": "ambiguity",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "module-1-test-your-knowledge-agile-frameworks-q1",
+    "module": "The fundamentals of Agile",
+    "question_text": "Which of the following statements about Scrum are true? Select all that apply.",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "Scrum refers to a specific Agile framework that features teams working closely together to get the project across the finish line, like players in a rugby match.",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Scrum refers to a football team’s protective equipment.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Scrum gets its name from a formation in rugby where all of the players lean forward, lock their heads together, and get possession of the ball so they can gain precious yards and score.",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Scrum is an acronym for the processes that make up the Agile methodology.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "module-1-test-your-knowledge-agile-frameworks-q2",
+    "module": "The fundamentals of Agile",
+    "question_text": "What are some takeaways from the Spotify example? Select all that apply.",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "Never stop improving.",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Don’t be afraid of trial and error.",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Adapt based on your team’s goals.",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Copy others’ models exactly.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "module-1-test-your-knowledge-agile-frameworks-q3",
+    "module": "The fundamentals of Agile",
+    "question_text": "What are the roles within a Scrum Team? Select all that apply.",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "Scrum Master",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Product Owner",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Development Team",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Project Manager",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "module-1-test-your-knowledge-agile-frameworks-q4",
+    "module": "The fundamentals of Agile",
+    "question_text": "Which Agile methodology provides transparent visual feedback to everyone who might be interested in the status of work in progress?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Extreme Programming (XP)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Scrum",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Lean",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Kanban",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "module-1-module-1-challenge-q1",
+    "module": "The fundamentals of Agile",
+    "question_text": "Fill in the blank: Agile project management is _____; the team operates within many short blocks of time where deliverables will evolve and improve depending on the feedback received.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "repetitive",
+        "is_correct": false
+      },
+      {
+        "answer_text": "linear",
+        "is_correct": false
+      },
+      {
+        "answer_text": "iterative",
+        "is_correct": true
+      },
+      {
+        "answer_text": "inflexible",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "module-1-module-1-challenge-q2",
+    "module": "The fundamentals of Agile",
+    "question_text": "In Agile, how are processes streamlined to reduce waste? Select all that apply.",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "Increasing the number of iterations",
+        "is_correct": false
+      },
+      {
+        "answer_text": "By reducing time spent on unwanted features",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Increasing team and stakeholder collaboration",
+        "is_correct": true
+      },
+      {
+        "answer_text": "By removing unnecessary documentation",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "module-1-module-1-challenge-q3",
+    "module": "The fundamentals of Agile",
+    "question_text": "As a project manager, you notice that your team members are spending a lot of time writing comprehensive documentation which contributes to a delay in delivering working software. What can you do to help your team recover from this and get back on track?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Remind your team that while documentation is important, it is more important to produce working software",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Remind your team that documentation is not important, and only working software brings business value",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Ask your team to work more hours to make up for the time spent writing documentation",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Let your team know that you will take over the documentation effort so that they can focus on producing working software",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "module-1-module-1-challenge-q4",
+    "module": "The fundamentals of Agile",
+    "question_text": "How do Agile teams collaborate with their business partners and stakeholders to create business value for the organization and their users? Select all that apply.",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "Gather feedback at the end of the project only",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Work together with business people and developers throughout the project",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Help each other achieve the best outcome",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Welcome changing requirements",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "module-1-module-1-challenge-q5",
+    "module": "The fundamentals of Agile",
+    "question_text": "As a project manager, you identify that your business plan may face major disruptive changes and a high degree of uncertainty. Which project management methodology should you follow?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Both Waterfall and Agile can work",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Agile",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Neither Waterfall nor Agile will work",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Waterfall",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "module-1-module-1-challenge-q6",
+    "module": "The fundamentals of Agile",
+    "question_text": "How can the VUCA concept help you decide to use Agile or Waterfall? Select all that apply.",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "It helps determine whether your project is too volatile for the Waterfall method.",
+        "is_correct": true
+      },
+      {
+        "answer_text": "It helps determine how complex your project is.",
+        "is_correct": true
+      },
+      {
+        "answer_text": "It helps determine if your project needs more predictive stability than the Waterfall method provides.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "It helps determine if your project is too ambiguous for the Waterfall method.",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "module-1-module-1-challenge-q7",
+    "module": "The fundamentals of Agile",
+    "question_text": "Where does Scrum get its name? Select all that apply.",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "Scrum is an acronym for the processes that make up the Agile methodology.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Scrum refers to a formation in rugby where players huddle closely together with their heads down while trying to gain possession of the ball.",
+        "is_correct": true
+      },
+      {
+        "answer_text": "The purpose of the rugby scrum is for each player on the team to play their role in order to work together and achieve their shared goal.",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Scrum refers to a football team’s huddle.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "module-1-module-1-challenge-q8",
+    "module": "The fundamentals of Agile",
+    "question_text": "Test first development is a best practice in what popular Agile framework?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Waterfall",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Scrum",
+        "is_correct": false
+      },
+      {
+        "answer_text": "XP",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Kanban",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "module-1-module-1-challenge-q9",
+    "module": "The fundamentals of Agile",
+    "question_text": "Waterfall and Agile include how many of the same phases and tasks?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "None",
+        "is_correct": false
+      },
+      {
+        "answer_text": "A couple",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Most",
+        "is_correct": true
+      },
+      {
+        "answer_text": "All",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "module-1-module-1-challenge-q10",
+    "module": "The fundamentals of Agile",
+    "question_text": "As a project manager, you're leading a project that has clear requirements and goals based on mandated regulation. Which methodology is the best choice for your project?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Scrum",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Agile",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Waterfall",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Iterative",
+        "is_correct": false
+      }
+    ]
+  }
+]

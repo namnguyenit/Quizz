@@ -1,0 +1,618 @@
+[
+  {
+    "question_id": "module-3-test-your-knowledge-the-product-backlog-q1",
+    "module": "Implementing Scrum",
+    "question_text": "Which Scrum Role is primarily responsible for owning and updating the Product Backlog?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Development Team",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Product Owner",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Scrum Master",
+        "is_correct": false
+      },
+      {
+        "answer_text": "High-Influence Stakeholder",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "module-3-test-your-knowledge-the-product-backlog-q2",
+    "module": "Implementing Scrum",
+    "question_text": "Which of the following are key characteristics of a Product Backlog? Select all that apply.",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "It is rarely updated.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "It is a living artifact.",
+        "is_correct": true
+      },
+      {
+        "answer_text": "It is a prioritized list of features.",
+        "is_correct": true
+      },
+      {
+        "answer_text": "It is owned and adjusted by the entire team.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "module-3-test-your-knowledge-the-product-backlog-q3",
+    "module": "Implementing Scrum",
+    "question_text": "What long-term objective for the Scrum Team is included in the Product Backlog?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Product requirements document",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Product Goal",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Product Owner",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Sprint Goal",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "module-3-test-your-knowledge-the-product-backlog-q4",
+    "module": "Implementing Scrum",
+    "question_text": "When building a Product Backlog, you include how much effort the Developers state it will take to finish an item. You should capture this information in which Backlog item attribute?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Item description",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Item value field",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Item order",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Item estimate",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "module-3-test-your-knowledge-the-product-backlog-q5",
+    "module": "Implementing Scrum",
+    "question_text": "When building a Product Backlog, you compare the importance of each Backlog item to the other Backlog items. This helps you rank and organize the Backlog items from highest to lowest priority. You should capture this information in which Backlog item attribute?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Item value",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Item order",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Item effort estimate",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Item description",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "module-3-activity-create-a-product-backlog-q1",
+    "module": "Implementing Scrum",
+    "question_text": "To pass this graded quiz, you must receive at least 80%, or 4 out of 5 points, by completing the activity and answering corresponding quiz questions. You can learn about the graded and practice items in the Course OverviewOpens in a new tab.Activity OverviewIn this activity, you will write user stories and create acceptance criteria for each story based on customer needs. These user stories, collected under one epic, will form the basis of a Product Backlog.Note: Throughout this course, you will complete tasks normally done by others (like the Development Team or Product Owner). Even if you don’t perform them yourself, it is important that you understand these processes. Be sure to complete this activity before moving on. The next course item will provide you with a completed exemplar to compare to your own work. You will not be able to access the exemplar until you have completed this activity.ScenarioReview the scenario below. Then complete the step-by-step-instructions.Imagine you are overseeing the development and launch of Virtual Verde, Office Green's new product line. Virtual Verde’s mission is to make working from home more enjoyable by offering desk plants for home office use. New customers recently received the first batch of plants.As a next step, your team had planned to introduce new product offerings to the Virtual Verde catalog—starting with Bonsai trees. However, a customer survey discovered that 70% of the new customers had difficulty caring for their plants. Many of the plants wilted and died within a month. This information inspired the team to develop new offerings and companion products to help new owners care for their plants.From the survey, Office Green learned that they can create value for their customers by making it easy to:Find out which plants are easiest to care forAccess care instructions easilyHave the right tools to care for their plantsRemember when to water their plantsGet expert help and advice quicklyHave a hassle-free way to return their ordersYou will work with your team to create user stories that will help them build solutions to address these customer needs, and add them to the Product Backlog. Your team has already added Bonsai tree user stories to the Backlog, but the new plant care stories have now become the top priority.Note: In general, the Product Owner leads in prioritizing the Backlog and addressing new concerns. Anyone can work on user stories, but the Development Team typically gives feedback on them.Step-by-Step InstructionsStep 1: Access the templateTo use the template for this course item, click the link below and select “Use Template.” Link to template: Product BacklogOpens in a new tabORIf you don’t have a Google account, you can download the template directly from the attachment below.Download XLSX FileActivity Template_ Product BacklogXLSX FileStep 2: Create six user storiesUsing the Bonsai tree stories in the Backlog template as a model, create six new user stories—one to address each of the six customer needs from the scenario. Your user stories should follow this construction: As a <user role>, I want <this action> so that I can <get this value>. For the <user role> part of each story, consider what sort of person might have that specific customer need. They might be a potential customer, a new plant owner, or something else. Keep in mind that these stories should help customers who may not have much experience caring for plants.For the <action> part of each user story, fill in the specific customer need. For the <value> part of each story, think about why your user might want to perform that particular action and how it will help them.When completed, each story should express a customer need the team can work to fulfill. For example, imagine that a customer wants to learn about different styles of Bonsai cutting and shaping. A related user story might read:“As a new Bonsai tree owner, I want to learn about different Bonsai styles so that I can pick the right one for my tree.” Step 3: Create acceptance criteriaCreate at least two acceptance criteria for each story, and add them to the template. Remember that acceptance criteria help your team establish a Definition of Done. They represent the things your team needs to accomplish before they can consider the user story complete.For example, the acceptance criteria for the Bonsai styles user story could include:\"Customers can access a guide to different styles (formal & informal upright, broom, cascade, etc.) on website\"\"Customers can take a quiz to match their trees to suitable styles\"Step 4: Check your stories against the I.N.V.E.S.T. criteriaNext, consult the I.N.V.E.S.T. framework to make sure your user stories are concise, specific, and actionable.Independent: The story’s completion is not dependent on another story. Negotiable: There is room for negotiation and discussion about how to complete the story.Valuable: Completing the user story will deliver value for the user role. Estimable: The Definition of Done must be clear so that the team can give the story an estimate.Small: Each user story and the work necessary to complete it should fit within a planned Sprint. Testable: A test can be conducted to make sure the story meets the acceptance criteria (even if the test is not yet planned). You may not be able to account for all the I.N.V.E.S.T. criteria in this exercise, but you should try to meet as many as you can. If a story meets three or fewer criteria, consider revising it.Step 5: Title each user storyCreate a title for each story and add it to the template. The titles should briefly describe the desired outcome for the user role, so the team can reference them quickly.Step 6: Add an epic titleCreate an epic title that can serve as a heading or a theme for all six stories—for example, “Plant Care Initiatives”—and add it to the Backlog template. Note: Keep in mind that a real Product Backlog would encompass all aspects of the project, including many different epics. For your reference, we have created a second epic as an example.What to Include in Your ResponseBe sure to address the following elements in your completed Product Backlog:The Backlog contains six user stories.The stories follow the correct construction: “As a <user role> I want <this action> so that I can <get this value>.”The stories follow the I.N.V.E.S.T. framework.Each story has two pieces of acceptance criteria.The acceptance criteria are actionable tasks for the Scrum Team.Did you complete this activity?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Yes",
+        "is_correct": true
+      },
+      {
+        "answer_text": "No",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "module-3-activity-create-a-product-backlog-q2",
+    "module": "Implementing Scrum",
+    "question_text": "Select the action that best completes the following user story:“As a pet owner, I want to _____ so that my cat doesn’t get sick.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "purchase outdoor plants",
+        "is_correct": false
+      },
+      {
+        "answer_text": "purchase non-toxic plants",
+        "is_correct": true
+      },
+      {
+        "answer_text": "contact a poison control center",
+        "is_correct": false
+      },
+      {
+        "answer_text": "keep my plants in my office",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "module-3-activity-create-a-product-backlog-q3",
+    "module": "Implementing Scrum",
+    "question_text": "Consider the following user story: “As a plant owner, I want to learn from other, more experienced plant owners so that I can better care for my plant.”Which of the following pieces of acceptance criteria are appropriate for this story? Select all that apply.",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "Ability to join a mailing list",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Ability to join an online discussion group for trading plant care tips",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Ability to access an “Expert Advice” section on the website",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Ability to sign up for Q&A sessions with plant experts",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "module-3-activity-create-a-product-backlog-q4",
+    "module": "Implementing Scrum",
+    "question_text": "Which of the following user stories is complete and follows the correct structure?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "“As a plant owner, I want to know how much sunlight my plant needs so that I can maximize its growth.”",
+        "is_correct": true
+      },
+      {
+        "answer_text": "“I want to order plant care tools so that I can keep my plants healthy.”",
+        "is_correct": false
+      },
+      {
+        "answer_text": "“As a customer, I want to be able to access my account dashboard quickly and easily.”",
+        "is_correct": false
+      },
+      {
+        "answer_text": "“I want to purchase plants, but I’m worried they won’t get to me safely.”",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "module-3-activity-create-a-product-backlog-q5",
+    "module": "Implementing Scrum",
+    "question_text": "Which of the following user stories could lead to an option to bundle a plant care kit with purchase? Select all that apply.",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "“As a plant owner, I want to purchase stylish accessories so that I can show off my plants.”",
+        "is_correct": false
+      },
+      {
+        "answer_text": "“As a plant owner, I want to trim and prune my plant so that it grows the right way.”",
+        "is_correct": true
+      },
+      {
+        "answer_text": "\"As a plant owner, I wish there were more options on the website.\"",
+        "is_correct": false
+      },
+      {
+        "answer_text": "“As a plant owner, I want to have the right tools to care for my plant so that I can keep it healthy and beautiful.”",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "module-3-activity-add-estimation-q1",
+    "module": "Implementing Scrum",
+    "question_text": "To pass this practice quiz, you must receive 100%, or 3 out of 3 points, by completing the activity below. You can learn more about the graded and practice items in the Course OverviewOpens in a new tab.Activity OverviewIn this activity, you will add estimates to user stories to the Virtual Verde Product Backlog to capture how much effort each user story will take to complete. These estimations help the Product Owner assess the workload captured in the Backlog, which helps them prioritize tasks.Note: Throughout this course, you will complete tasks normally done by others (like the Development Team or Product Owner). Even if you don’t perform them yourself, it is important that you understand these processes. Be sure to complete this activity before moving on. The next course item will provide you with a completed exemplar to compare to your own work. You will not be able to access the exemplar until you have completed this activity.ScenarioReview the scenario below. Then complete the step-by-step-instructions. Along with the Product Owner and the team, you’ve created user stories and acceptance criteria for the Virtual Verde Product Backlog. Now you need to add effort estimations to each user story, which will help the team understand the amount of effort each task will take to complete. Once you have your estimations, the Product Owner can make any necessary adjustments to item priority in the Product Backlog. This information will help your team plan the upcoming Sprint.The Product Owner has already added a value for each user story in the Product Backlog. In this exercise, value represents how valuable the final deliverable is to the user role or customer. These value points are designated by dollar signs (so, $ = 1 value point, $$ = 2 value points, etc.).You will work with the Development Team to determine relative effort estimations for each Backlog item. Relative effort estimation isn’t just how much effort an item should take to complete. Instead, the Development Team evaluates the amount of effort each item takes compared to other items in the Product Backlog.You can use a number of different methods to estimate effort. Your team has opted to use Story PointsOpens in a new tab, which are based on the Fibonacci sequence of numbers (1, 2, 3, 5, 8, 13, 21, etc.). For example, an item with an effort estimation of “1” should take little effort to complete, while an item estimated at “13” or “21” will take much more effort. Remember, effort estimations may use the same number if they are determined to require the same amount of effort. There is no prescribed formula for determining Story Points. Rather, teams should work together to compare task estimations to one another.Note: In a real project, your team would determine these estimations together, since it is crucial that the people who complete the work provide the estimates. Step-by-Step InstructionsStep 1: Access the templateTo use the template for this course item, click the link below and select “Use Template.” Link to template: Add estimationOpens in a new tabORIf you don’t have a Google account, you can download the template directly from the attachment below.Download XLSX FileActivity Template_ Add estimationXLSX FileStep 2: Review the Product Backlog values and the Bonsai Trees estimates for the Bonsai Trees epicIn the previous activity, you entered new plant care user stories into a Product Backlog that already contained a second epic (“Bonsai Trees”). Before you add estimates to your user stories, review the estimates for the Bonsai epic. You can use these numbers as a baseline to determine the relative estimations for the plant care epic.Step 3: Add the effort estimates to the Plant Care Initiatives epicConsider how much effort the acceptance criteria for the \"Plant Care Initiatives\" compared to those in the \"Bonsai Trees\" epic. (If you're not sure, try discussing the tasks with a friend. That's what you'd do on a real Scrum Team!) Then select a Story Point value from the dropdown that makes sense relative to the \"Bonsai Trees\" estimations. Remember that \"21\" takes far more effort than \"1.\"For example, the user story “As a Bonsai tree owner, I want to have the right tools to care for my tree so I can shape and style it properly,” has an effort estimation of 13. Think about whether the \"Plant Care Initiatives\" user stories require more, less, or about the same amount of effort to make your estimations.What to Include in Your ResponseBe sure to address the following criteria in your completed adding estimation template:Each story has an effort estimation in Story Points (1, 3, 5, 8, 13, 21).Did you complete this activity?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Yes",
+        "is_correct": true
+      },
+      {
+        "answer_text": "No",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "module-3-activity-create-a-sprint-plan-and-sprint-backlog-q1",
+    "module": "Implementing Scrum",
+    "question_text": "Did you complete the activity?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Yes.",
+        "is_correct": true
+      },
+      {
+        "answer_text": "No.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "module-3-activity-recap-a-sprint-retrospective-q1",
+    "module": "Implementing Scrum",
+    "question_text": "To pass this practice quiz, you must receive 100%, or 1 out of 1 point, by completing the activity below. You can learn more about the graded and practice items in the Course OverviewOpens in a new tab.Activity OverviewIn this activity, you will develop a list of takeaways and action items from a Sprint Retrospective. A Sprint Retrospective is one of the five main Sprint events and gives a chance for the Scrum Team to get together and discuss the work they just finished. Your task is to write an email to the Scrum Team recapping the Retrospective. Note: Throughout this course, you will complete tasks normally done by others (like the Development Team or Product Owner). Even if you don’t perform them yourself, it is important that you understand these processes.Be sure to complete this activity before moving on. The next course item will provide you with a completed exemplar to compare to your own work. You will not be able to access the exemplar until you have completed this activity.ScenarioReview the scenario below. Then complete the step-by-step-instructions. The Virtual Verde team has completed the first Sprint based on the Backlog you created in the last activity, Create a Sprint Plan and Sprint BacklogOpens in a new tab. The team also gathered for a Sprint Retrospective to go over what worked well during the Sprint, and what they want to change for the future. Your team reviewed each item from the Sprint, and discussed how the work went and how the team performed.After the meeting, you took photos of the whiteboards your team created during the discussion, knowing you’d need the notes to reflect on team accomplishments and what to change for the future. Note: Any team member can write Retrospective recaps. Even if you don't write them, this activity will help you recognize effective recap emails.Step-By-Step InstructionsStep 1: Access the templateTo use the template for this course item, click the link below and select “Use Template.” Link to template: Sprint retrospective emailOpens in a new tabOR If you don’t have a Google account, you can download the template directly from the attachment below.Download DOCX FileActivity Template_ Sprint retrospective emailDOCX FileStep 2: Review the whiteboard notes from the Sprint RetrospectiveOpen the slide deck with your whiteboard notesOpens in a new tab (click the link and select “Use Template” to make a copy in Google Slides or download the notes using the attachment below). Then review the team’s successes, what worked well in terms of process and performance, and what issues you need to resolve for future Sprints.The team used a +/Δ format for the discussion: They listed what went well under the + (or plus) heading, and listed roadblocks and things they want to change going forward under the Δ (or Delta) heading (Δ is the mathematical symbol for change).Download whiteboard notes attachment:Download PPTX FileActivity_ Sprint retro whiteboardsPPTX FileStep 3: Make a list of takeawaysMake a list of 5-10 key takeaways from the whiteboard notes. These could be about team performance, tasks accomplished, workflow, communication, or anything else you discussed. For example, a note reading, “Didn't truly understand the scope of this item,” could translate into the takeaway, “Let’s review how we do our estimates next time, as we may not be accounting for the full scope.”Step 4: Write a recap email to the Scrum TeamFinally, compose an email recapping the meeting and listing the key takeaways. Be sure to include:A Subject line: It should be brief and describe the content of the message.An Introduction: Greet the team and explain why you are sending the email.A Recap: Summarize your thoughts on the retrospective. Were you pleased with how the meeting went? How much did the team accomplish?Key takeaways: List 5-10 key takeaways from the whiteboard notes. What went well with the Sprint? What issues need to be addressed before the next Sprint?Next steps: Wrap up the email and propose next steps.A Closing: Sign off with your name and title.What to Include in Your ResponseBe sure to address the following elements in your completed Sprint Retrospective email:A subject lineAn introA recap of the Sprint Retrospective5-10 key takeaways based on the discussion notesNext stepsA closingDid you complete this activity?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Yes",
+        "is_correct": true
+      },
+      {
+        "answer_text": "No",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "module-3-test-your-knowledge-the-sprint-q1",
+    "module": "Implementing Scrum",
+    "question_text": "Which of the following are included in a Sprint’s set of events? Select all that apply.",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "Sprint Retrospective",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Sprint Review",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Sprint Planning",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Daily Scrum",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Sprint Closing",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "module-3-test-your-knowledge-the-sprint-q2",
+    "module": "Implementing Scrum",
+    "question_text": "What are the benefits of timeboxes? Select all that apply.",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "They help the team develop a predictable rhythm to their work.",
+        "is_correct": true
+      },
+      {
+        "answer_text": "They create a sense of urgency to drive prioritization.",
+        "is_correct": true
+      },
+      {
+        "answer_text": "They enable the team to visually understand the work.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "They provide a window of focus to improve productivity.",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "module-3-test-your-knowledge-the-sprint-q3",
+    "module": "Implementing Scrum",
+    "question_text": "How long is a typical Sprint’s timebox?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Between one and three days",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Between one and four weeks",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Between two and three months",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "module-3-test-your-knowledge-the-sprint-q4",
+    "module": "Implementing Scrum",
+    "question_text": "Which of the following factors should you consider when setting the length of a Sprint’s timebox? Select all that apply.",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "The expected frequency of changes",
+        "is_correct": true
+      },
+      {
+        "answer_text": "How much focused time the solution Developers need to build a Backlog item",
+        "is_correct": true
+      },
+      {
+        "answer_text": "The likelihood that the project will go over budget",
+        "is_correct": false
+      },
+      {
+        "answer_text": "How much overhead—such as testing and review—goes into the delivery of the product",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "module-3-module-3-challenge-q1",
+    "module": "Implementing Scrum",
+    "question_text": "Which of the following best describes the purpose of a Product Backlog for the Scrum team?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "The training module for your product’s release.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "A collection of thoughts about the product from your team.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "It is the guide and roadmap of your product.",
+        "is_correct": true
+      },
+      {
+        "answer_text": "A complete description of what your product will do.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "module-3-module-3-challenge-q2",
+    "module": "Implementing Scrum",
+    "question_text": "A Product Owner writes a user story for an item in a Sprint. They ensure the team can discuss the item and make adjustments as needed. Which I.N.V.E.S.T. story writing criteria are they trying to fulfill?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Independent",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Negotiable",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Valuable",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Estimitable",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "module-3-module-3-challenge-q3",
+    "module": "Implementing Scrum",
+    "question_text": "Which effort estimation technique involves team members walking around the room and placing stickers on each item?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Planning Poker™",
+        "is_correct": false
+      },
+      {
+        "answer_text": "The Bucket System",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Affinity Mapping",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Dot Voting",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "module-3-module-3-challenge-q4",
+    "module": "Implementing Scrum",
+    "question_text": "Fill in the blank: The amount of work a Product Owner plans for the Sprint is based on _____.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "direction from the customer",
+        "is_correct": false
+      },
+      {
+        "answer_text": "the historical capacity of the team",
+        "is_correct": true
+      },
+      {
+        "answer_text": "the future capacity of the team",
+        "is_correct": false
+      },
+      {
+        "answer_text": "direction from the stakeholders",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "module-3-module-3-challenge-q5",
+    "module": "Implementing Scrum",
+    "question_text": "During what Scrum event will the Scrum Master ask questions like: What has been our average velocity? Who on the team has any upcoming vacations or work conflicts? Who is responsible for what Sprint tasks?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Sprint Review",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Sprint Planning",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Sprint Retrospective",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Daily Scrum",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "module-3-module-3-challenge-q6",
+    "module": "Implementing Scrum",
+    "question_text": "During the Sprint Review, what does the team unveil that demonstrates what they produced in a given Sprint that is considered releasable?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Acceptance criteria",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Product increment",
+        "is_correct": true
+      },
+      {
+        "answer_text": "User story",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Product Backlog",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "module-3-module-3-challenge-q7",
+    "module": "Implementing Scrum",
+    "question_text": "During team retrospectives, the Scrum Master notices that a team member does not speak up or ask as many questions. What can they do to ensure all members can provide feedback? Select all that apply.",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "Pair up team members to encourage participation.",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Ask that specific team member to speak up first during retrospectives.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Take the first ten minutes of the meeting to implement some quiet journaling.",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Make no changes and hope that they will be able to speak up in the future.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "module-3-module-3-challenge-q8",
+    "module": "Implementing Scrum",
+    "question_text": "Fill in the blank: When a team conducts Sprint Planning, they use the average velocity of _____ to determine how many items they can safely add to their Sprint Backlog.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "at least three days",
+        "is_correct": false
+      },
+      {
+        "answer_text": "at least three story points",
+        "is_correct": false
+      },
+      {
+        "answer_text": "at least three weeks",
+        "is_correct": false
+      },
+      {
+        "answer_text": "at least three Sprints",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "module-3-module-3-challenge-q9",
+    "module": "Implementing Scrum",
+    "question_text": "Why would a Scrum Team use a Kanban board? Select all that apply.",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "To visualize tasks",
+        "is_correct": true
+      },
+      {
+        "answer_text": "To take fewer notes",
+        "is_correct": false
+      },
+      {
+        "answer_text": "To give a better sense of the team’s flow of work",
+        "is_correct": true
+      },
+      {
+        "answer_text": "To make it easier to notice work-in-progress (WIP) limits",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "module-3-module-3-challenge-q10",
+    "module": "Implementing Scrum",
+    "question_text": "Which of the following options exemplifies the Scrum pillar of transparency?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Allow team members to compete with each other on task timelines.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Inspect new requirements and additional features from stakeholders.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Consistently track all progress and updates for a task.",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Consistently track points each team member completes.",
+        "is_correct": false
+      }
+    ]
+  }
+]

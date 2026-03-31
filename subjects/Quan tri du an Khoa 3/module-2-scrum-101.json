@@ -1,0 +1,338 @@
+[
+  {
+    "question_id": "module-2-test-your-knowledge-scrum-roles-q1",
+    "module": "Scrum 101",
+    "question_text": "What is the primary role of the Development Team, also known as Developers?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Build the product",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Ensure the team is building the right product",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Maximize the value of the product delivered by the team",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Help the team understand why their work matters",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "module-2-test-your-knowledge-scrum-roles-q2",
+    "module": "Scrum 101",
+    "question_text": "What are the primary responsibilities of a Product Owner? Select all that apply.",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "Coaches the Scrum Team",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Ensures the Product Backlog is visible and transparent to all",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Prioritizes the Product Backlog to optimize delivery and value to customers",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Makes sure the product or service fulfills the customer’s needs",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "module-2-test-your-knowledge-scrum-roles-q3",
+    "module": "Scrum 101",
+    "question_text": "What is the primary role of the Scrum Master?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "They ensure the team is building the right product.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "They do the work to build the product.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "They work to continuously maximize the value of the product delivered by the Scrum Team.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "They promote and support the Scrum process by helping everyone understand and implement Scrum.",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "module-2-test-your-knowledge-scrum-roles-q4",
+    "module": "Scrum 101",
+    "question_text": "Imagine you are a Scrum Master coaching Developers to embrace the traits of an effective Development Team: being cross-functional, self-organizing, and supportive. Which additional trait should effective Development Teams display?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "They should work as individuals rather than as a team.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "They should share expertise in the same discipline.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "They should operate independently, without direct oversight from the Product Owner.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "They should be customer-oriented.",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "module-2-module-2-challenge-q1",
+    "module": "Scrum 101",
+    "question_text": "In the three pillars of Scrum, what does transparency mean? Select all that apply.",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "Teams must be upfront and open with all stakeholders, including team members, customers, sponsors, and management.",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Only team members who deal with vendors or stakeholders must be transparent.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Everyone on the team must be transparent in order to avoid mixed signals, breakdowns of communication, and unnecessary complications.",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Teams must make the most significant aspects of their work visible to those responsible for the outcome.",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "module-2-module-2-challenge-q2",
+    "module": "Scrum 101",
+    "question_text": "As a Scrum master, you write a short statement for the project that your team can work towards. You remind them of this statement throughout the project to keep the team motivated. What type of statement are you writing?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Plan",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Mission",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Roadmap",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Focus",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "module-2-module-2-challenge-q3",
+    "module": "Scrum 101",
+    "question_text": "Scrum Masters should have which of the following skills? Select all that apply.",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "Facilitation",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Organization",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Programming knowledge",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Leadership",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "module-2-module-2-challenge-q4",
+    "module": "Scrum 101",
+    "question_text": "Fill in the blank: The _____ is the single authoritative source that a Scrum team uses to pick up tasks and work towards the project goal.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Project roadmap",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Product vision",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Mission statement",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Product Backlog",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "module-2-module-2-challenge-q5",
+    "module": "Scrum 101",
+    "question_text": "Fill in the blank: In a Scrum team, the Scrum Master often assumes the same responsibilities, and in many ways is similar to the role of the _____.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Technical Manager",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Developers",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Project Manager",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Project Owner",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "module-2-module-2-challenge-q6",
+    "module": "Scrum 101",
+    "question_text": "In Scrum, the Development Team should operate in what way?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "As an independent group",
+        "is_correct": false
+      },
+      {
+        "answer_text": "As a self-organizing group",
+        "is_correct": true
+      },
+      {
+        "answer_text": "As hierarchical group",
+        "is_correct": false
+      },
+      {
+        "answer_text": "As self-sufficient individuals",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "module-2-module-2-challenge-q7",
+    "module": "Scrum 101",
+    "question_text": "What are the key characteristics of successful Product Owners? Select all that apply.",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "Customer-focused",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Optimistic",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Independent",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Collaborative",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "module-2-module-2-challenge-q8",
+    "module": "Scrum 101",
+    "question_text": "Which Scrum value most closely resonates with the following: Treat others as you would like to be treated.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Respect",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Dissension",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Commitment",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Focus",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "module-2-module-2-challenge-q9",
+    "module": "Scrum 101",
+    "question_text": "Fill in the blank: The Development Team acknowledges that the best products come from teams who are _____.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "customer-oriented",
+        "is_correct": true
+      },
+      {
+        "answer_text": "co-located",
+        "is_correct": false
+      },
+      {
+        "answer_text": "cross-organizing",
+        "is_correct": false
+      },
+      {
+        "answer_text": "self-organizing",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "module-2-module-2-challenge-q10",
+    "module": "Scrum 101",
+    "question_text": "Which of the following are responsibilities that a Product Owner would typically have and a project manager would not have? Select all that apply.",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "Create and communicate Product Backlog items",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Manage stakeholders",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Developing and explicitly communicating the Product Goal",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Monitor team performance",
+        "is_correct": false
+      }
+    ]
+  }
+]
