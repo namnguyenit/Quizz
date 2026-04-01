@@ -58,6 +58,38 @@
 		showVersionModal = false;
 		location.reload();
 	}
+
+	// Session Analytics Tracking
+	$effect(() => {
+		if (typeof window === 'undefined') return;
+		
+		const session_id = crypto.randomUUID ? crypto.randomUUID() : Math.random().toString(36).substring(2);
+		const startTime = Date.now();
+
+		// Initial start call
+		fetch('/api/track', {
+			method: 'POST',
+			body: JSON.stringify({ action: 'start', session_id })
+		}).catch(e => console.error('Tracking Error(start):', e));
+
+		// Ping update loop
+		const interval = setInterval(() => {
+			const duration = Math.floor((Date.now() - startTime) / 1000);
+			fetch('/api/track', {
+				method: 'POST',
+				keepalive: true,
+				body: JSON.stringify({ action: 'update', session_id, duration })
+			}).catch(() => {});
+		}, 10000); // update every 10 seconds
+
+		// End session capture
+		window.addEventListener('beforeunload', () => {
+			const duration = Math.floor((Date.now() - startTime) / 1000);
+			navigator.sendBeacon('/api/track', JSON.stringify({ action: 'update', session_id, duration }));
+		});
+
+		return () => clearInterval(interval);
+	});
 </script>
 
 {#if showVersionModal}

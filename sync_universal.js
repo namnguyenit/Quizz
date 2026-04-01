@@ -153,6 +153,20 @@ async function ensureTables() {
 			await db.execute(`ALTER TABLE questions ADD COLUMN ${name} ${type}`);
 		}
 	}
+
+	// Create visitor_logs table for Analytics tracking
+	await db.execute(`
+		CREATE TABLE IF NOT EXISTS visitor_logs (
+			session_id TEXT PRIMARY KEY,
+			ip_address TEXT,
+			location TEXT,
+			device TEXT,
+			os TEXT,
+			browser TEXT,
+			visited_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+			duration INTEGER DEFAULT 0
+		)
+	`);
 }
 
 async function dropAllTables() {
