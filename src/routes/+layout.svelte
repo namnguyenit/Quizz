@@ -72,15 +72,28 @@
 			localStorage.setItem(VISITOR_KEY, visitor_id);
 		}
 
-		// 2. Dùng sessionStorage để giữ nguyên phiên khi người dùng ấn F5/tải lại trang
-		const SESSION_KEY = 'quiz_current_session';
-		let session_id = sessionStorage.getItem(SESSION_KEY);
-		if (!session_id) {
+		// 2. Quản lý Session kéo dài 15 phút (cho phép người dùng tắt trình duyệt bật lại trong 15p)
+		const SESSION_KEY = 'quiz_current_session_id';
+		const LAST_ACTIVE_KEY = 'quiz_session_last_active';
+		const DURATION_KEY = 'quiz_session_duration';
+		const SESSION_TIMEOUT_MS = 15 * 60 * 1000; // 15 phút
+
+		const now = Date.now();
+		let session_id = localStorage.getItem(SESSION_KEY);
+		let last_active = parseInt(localStorage.getItem(LAST_ACTIVE_KEY) || '0', 10);
+		let accDuration = parseInt(localStorage.getItem(DURATION_KEY) || '0', 10);
+
+		// Nếu không có session, hoặc đã nghỉ quá 15 phút -> Tạo Session (log) mới
+		if (!session_id || (now - last_active > SESSION_TIMEOUT_MS)) {
 			session_id = crypto.randomUUID ? crypto.randomUUID() : Math.random().toString(36).substring(2);
-			sessionStorage.setItem(SESSION_KEY, session_id);
+			accDuration = 0;
+			localStorage.setItem(SESSION_KEY, session_id);
+			localStorage.setItem(DURATION_KEY, '0');
 		}
-		
-		const startTime = Date.now();
+
+		// Cập nhật last active liên tục
+		localStorage.setItem(LAST_ACTIVE_KEY, now.toString());
+		let pingStartTime = Date.now();
 
 		// Initial start call
 		const visitor_name = localStorage.getItem('quiz_visitor_name') || undefined;
@@ -91,18 +104,32 @@
 
 		// Ping update loop
 		const interval = setInterval(() => {
-			const duration = Math.floor((Date.now() - startTime) / 1000);
+			const updateNow = Date.now();
+			localStorage.setItem(LAST_ACTIVE_KEY, updateNow.toString()); // Gia hạn 15p
+
+			// Cộng dồn duration kể từ lần ping trước (không tính thời gian nháp nếu họ tắt tab 10 phút trước đó)
+			const chunkDuration = Math.floor((updateNow - pingStartTime) / 1000);
+			pingStartTime = updateNow;
+			accDuration += chunkDuration;
+			localStorage.setItem(DURATION_KEY, accDuration.toString());
+
 			fetch('/api/track', {
 				method: 'POST',
 				keepalive: true,
-				body: JSON.stringify({ action: 'update', session_id, duration, current_quiz: pageState.moduleId || null })
+				body: JSON.stringify({ action: 'update', session_id, duration: accDuration, current_quiz: pageState.moduleId || null })
 			}).catch(() => {});
 		}, 10000); // update every 10 seconds
 
-		// End session capture
+		// End session capture đóng tab
 		window.addEventListener('beforeunload', () => {
-			const duration = Math.floor((Date.now() - startTime) / 1000);
-			navigator.sendBeacon('/api/track', JSON.stringify({ action: 'update', session_id, duration, current_quiz: pageState.moduleId || null }));
+			const finishNow = Date.now();
+			localStorage.setItem(LAST_ACTIVE_KEY, finishNow.toString());
+
+			const chunkDuration = Math.floor((finishNow - pingStartTime) / 1000);
+			accDuration += chunkDuration;
+			localStorage.setItem(DURATION_KEY, accDuration.toString());
+
+			navigator.sendBeacon('/api/track', JSON.stringify({ action: 'update', session_id, duration: accDuration, current_quiz: pageState.moduleId || null }));
 		});
 
 		return () => clearInterval(interval);
