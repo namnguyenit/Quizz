@@ -30,7 +30,7 @@ export const load: PageServerLoad = async ({ cookies }) => {
 
 	// Fetch logs
 	const { rows } = await db.execute(`
-		SELECT * FROM visitor_logs ORDER BY visited_at DESC LIMIT 2000
+		SELECT * FROM visitor_logs ORDER BY visited_at DESC LIMIT 5000
 	`);
 	
 	const logs = rows.map(r => ({
