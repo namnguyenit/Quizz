@@ -56,6 +56,25 @@
 		}
 	});
 
+	// Trigger Quiz View Analytics
+	$effect(() => {
+		const currentModule = pageState.moduleId;
+		if (typeof window !== 'undefined' && currentModule) {
+			const is_admin = localStorage.getItem('quiz_is_admin') === 'true';
+			if (!is_admin) {
+				const visitor_id = localStorage.getItem('quiz_uniq_visitor_id');
+				fetch('/api/track', {
+					method: 'POST',
+					body: JSON.stringify({
+						action: 'view_quiz',
+						visitor_id,
+						quiz_path: currentModule
+					})
+				}).catch(() => {});
+			}
+		}
+	});
+
 	function handleSaveName(name: string) {
 		const validName = name.trim();
 		if (validName) {

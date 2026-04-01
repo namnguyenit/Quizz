@@ -22,7 +22,7 @@
 	import '../app.css';
 	import { APP_VERSION } from '../lib/config';
 	import NewVersionModal from './NewVersionModal.svelte';
-	import { styleState, setStyle, setFont } from './global.svelte';
+	import { styleState, setStyle, setFont, pageState } from './global.svelte';
 	import { FONTS } from '../lib/theme';
 
 	injectAnalytics({ mode: dev ? 'development' : 'production' });
@@ -86,7 +86,7 @@
 		const visitor_name = localStorage.getItem('quiz_visitor_name') || undefined;
 		fetch('/api/track', {
 			method: 'POST',
-			body: JSON.stringify({ action: 'start', session_id, visitor_id, visitor_name })
+			body: JSON.stringify({ action: 'start', session_id, visitor_id, visitor_name, current_quiz: pageState.moduleId || null })
 		}).catch(e => console.error('Tracking Error(start):', e));
 
 		// Ping update loop
@@ -95,14 +95,14 @@
 			fetch('/api/track', {
 				method: 'POST',
 				keepalive: true,
-				body: JSON.stringify({ action: 'update', session_id, duration })
+				body: JSON.stringify({ action: 'update', session_id, duration, current_quiz: pageState.moduleId || null })
 			}).catch(() => {});
 		}, 10000); // update every 10 seconds
 
 		// End session capture
 		window.addEventListener('beforeunload', () => {
 			const duration = Math.floor((Date.now() - startTime) / 1000);
-			navigator.sendBeacon('/api/track', JSON.stringify({ action: 'update', session_id, duration }));
+			navigator.sendBeacon('/api/track', JSON.stringify({ action: 'update', session_id, duration, current_quiz: pageState.moduleId || null }));
 		});
 
 		return () => clearInterval(interval);

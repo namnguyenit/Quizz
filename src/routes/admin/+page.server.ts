@@ -25,6 +25,7 @@ export const load: PageServerLoad = async ({ cookies }) => {
 			device TEXT,
 			os TEXT,
 			browser TEXT,
+			current_quiz TEXT,
 			visited_at DATETIME DEFAULT CURRENT_TIMESTAMP,
 			duration INTEGER DEFAULT 0
 		)
@@ -44,6 +45,7 @@ export const load: PageServerLoad = async ({ cookies }) => {
 		device: typeof r.device === 'string' ? r.device : '',
 		os: typeof r.os === 'string' ? r.os : '',
 		browser: typeof r.browser === 'string' ? r.browser : '',
+		current_quiz: typeof r.current_quiz === 'string' ? r.current_quiz : '',
 		visited_at: typeof r.visited_at === 'string' ? r.visited_at : '',
 		duration: typeof r.duration === 'number' ? r.duration : 0
 	}));
@@ -90,6 +92,10 @@ export const actions: Actions = {
 				try {
 					await db.execute({
 						sql: `DELETE FROM visitor_logs WHERE visitor_id = ?`,
+						args: [visitor_id]
+					});
+					await db.execute({
+						sql: `DELETE FROM quiz_views WHERE visitor_id = ?`,
 						args: [visitor_id]
 					});
 				} catch(e) { console.error('Error clearing admin logs by ID:', e); }

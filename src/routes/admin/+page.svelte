@@ -62,7 +62,8 @@
 			(l.location || '').toLowerCase().includes(query) ||
 			(l.device || '').toLowerCase().includes(query) ||
 			(l.os || '').toLowerCase().includes(query) ||
-			(l.browser || '').toLowerCase().includes(query)
+			(l.browser || '').toLowerCase().includes(query) ||
+			(l.current_quiz || '').toLowerCase().includes(query)
 		);
 	});
 
@@ -156,6 +157,22 @@
 		});
 		return uniqueIds.size;
 	});
+
+	function formatQuizPath(path: string): string {
+		if (!path) return 'Đang ở trang chủ';
+		const parts = path.split('/');
+		const file = parts.pop()?.replace('.json', '') || '';
+		const formatName = (str: string) => str.replace(/[-_]/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
+		
+		let result = formatName(file);
+		if (parts.length > 0 && parts[0] === 'subjects') {
+			parts.shift(); // bỏ 'subjects'
+			if (parts.length > 0) {
+				result = formatName(parts[parts.length - 1]) + ' - ' + result;
+			}
+		}
+		return result;
+	}
 
 	function formatDuration(seconds: number): string {
 		if (seconds < 60) return `${Math.floor(seconds)}s`;
@@ -277,6 +294,9 @@
 					<button onclick={() => window.location.reload()} class="flex items-center gap-2 px-4 py-2 bg-gray-800 hover:bg-gray-700 border border-gray-700 rounded-xl text-sm font-medium transition-colors cursor-pointer">
 						<RefreshCw size={16} /> Refresh
 					</button>
+					<a href="/admin/quizzes" class="flex items-center gap-2 px-4 py-2 bg-indigo-500/10 hover:bg-indigo-500/20 text-indigo-400 border border-indigo-500/30 rounded-xl text-sm font-medium transition-colors cursor-pointer">
+						<BarChart2 size={16} /> Data Đề Thi
+					</a>
 					<form method="POST" action="?/logout" onsubmit={() => { if(typeof window !== 'undefined') localStorage.removeItem('quiz_is_admin'); }}>
 						<button type="submit" class="flex items-center gap-2 px-4 py-2 bg-red-500/10 hover:bg-red-500/20 text-red-400 border border-red-500/30 rounded-xl text-sm font-medium transition-colors cursor-pointer">
 							<LogOut size={16} /> Logout
@@ -417,6 +437,7 @@
 							<tr>
 								<th class="px-6 py-3 font-semibold w-12">#</th>
 								<th class="px-6 py-3 font-semibold">User / IP</th>
+								<th class="px-6 py-3 font-semibold">Activity</th>
 								<th class="px-6 py-3 font-semibold">Location</th>
 								<th class="px-6 py-3 font-semibold">Device & OS</th>
 								<th class="px-6 py-3 font-semibold">Browser</th>
@@ -437,6 +458,11 @@
 										{:else}
 											<div class="font-mono text-emerald-400/90">{row.ip_address}</div>
 										{/if}
+									</td>
+									<td class="px-6 py-3.5">
+										<div class="max-w-[180px] lg:max-w-[250px] truncate text-xs font-medium text-indigo-300 bg-indigo-500/10 px-2 py-1 rounded-md border border-indigo-500/20" title={row.current_quiz || 'Trang chủ'}>
+											{formatQuizPath(row.current_quiz)}
+										</div>
 									</td>
 									<td class="px-6 py-3.5"><div class="max-w-[150px] truncate" title={row.location}>{row.location}</div></td>
 									<td class="px-6 py-3.5">{row.device} • {row.os}</td>

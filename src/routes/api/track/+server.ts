@@ -45,7 +45,7 @@ export const POST: RequestHandler = async ({ request, cookies, getClientAddress 
         // Because navigator.sendBeacon sends text/plain, we parse manually or use request.text()
 		const text = await request.text();
         const body = JSON.parse(text);
-		const { action, session_id, duration, visitor_id, visitor_name, name } = body;
+		const { action, session_id, duration, visitor_id, visitor_name, name, current_quiz } = body;
 
 		if (action === 'start') {
 			let ip = 'Unknown';
@@ -74,13 +74,16 @@ export const POST: RequestHandler = async ({ request, cookies, getClientAddress 
 			const ua = request.headers.get('user-agent') || '';
 			const { browser, device, os } = getBrowserInfo(ua);
 
-			// Thử tạo thêm cột visitor_id, visitor_name cho bảng cũ nếu đã tồn tại
+			// Thử tạo thêm cột visitor_id, visitor_name, current_quiz cho bảng cũ nếu đã tồn tại
 			try {
 				await db.execute(`ALTER TABLE visitor_logs ADD COLUMN visitor_id TEXT`);
-			} catch(e) { /* Bỏ qua nếu cột đã tồn tại */ }
+			} catch(e) { }
 			try {
 				await db.execute(`ALTER TABLE visitor_logs ADD COLUMN visitor_name TEXT`);
-			} catch(e) { /* Bỏ qua nếu cột đã tồn tại */ }
+			} catch(e) { }
+			try {
+				await db.execute(`ALTER TABLE visitor_logs ADD COLUMN current_quiz TEXT`);
+			} catch(e) { }
 
 			// create table if not exists
 			await db.execute(`
@@ -93,21 +96,22 @@ export const POST: RequestHandler = async ({ request, cookies, getClientAddress 
 					device TEXT,
 					os TEXT,
 					browser TEXT,
+					current_quiz TEXT,
 					visited_at DATETIME DEFAULT CURRENT_TIMESTAMP,
 					duration INTEGER DEFAULT 0
 				)
 			`);
 
 			await db.execute({
-				sql: `INSERT OR IGNORE INTO visitor_logs (session_id, visitor_id, visitor_name, ip_address, location, device, os, browser, visited_at, duration) VALUES (?, ?, ?, ?, ?, ?, ?, ?, CURRENT_TIMESTAMP, 0)`,
-				args: [session_id, visitor_id || null, visitor_name || null, ip, location, device, os, browser]
+				sql: `INSERT OR IGNORE INTO visitor_logs (session_id, visitor_id, visitor_name, ip_address, location, device, os, browser, current_quiz, visited_at, duration) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, CURRENT_TIMESTAMP, 0)`,
+				args: [session_id, visitor_id || null, visitor_name || null, ip, location, device, os, browser, current_quiz || null]
 			});
 
 			return json({ success: true });
 		} else if (action === 'update' && session_id) {
 			await db.execute({
-				sql: `UPDATE visitor_logs SET duration = ? WHERE session_id = ?`,
-				args: [duration || 0, session_id]
+				sql: `UPDATE visitor_logs SET duration = ?, current_quiz = ? WHERE session_id = ?`,
+				args: [duration || 0, current_quiz || null, session_id]
 			});
 			return json({ success: true });
 		} else if (action === 'update_name' && visitor_id && name) {
@@ -118,6 +122,22 @@ export const POST: RequestHandler = async ({ request, cookies, getClientAddress 
 				sql: `UPDATE visitor_logs SET visitor_name = ? WHERE visitor_id = ?`,
 				args: [name, visitor_id]
 			});
+			return json({ success: true });
+		} else if (action === 'view_quiz' && body.quiz_path) {
+			try {
+				await db.execute(`
+					CREATE TABLE IF NOT EXISTS quiz_views (
+						id INTEGER PRIMARY KEY AUTOINCREMENT,
+						visitor_id TEXT,
+						quiz_path TEXT,
+						viewed_at DATETIME DEFAULT CURRENT_TIMESTAMP
+					)
+				`);
+				await db.execute({
+					sql: `INSERT INTO quiz_views (visitor_id, quiz_path, viewed_at) VALUES (?, ?, CURRENT_TIMESTAMP)`,
+					args: [visitor_id || null, body.quiz_path]
+				});
+			} catch(e) {}
 			return json({ success: true });
 		}
 
