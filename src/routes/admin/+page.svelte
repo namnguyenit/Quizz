@@ -1,8 +1,21 @@
 <script lang="ts">
 	import type { PageData, ActionData } from './$types';
 	import { BarChart2, LogOut, Clock, Globe, Laptop, Smartphone, Eye, Server, RefreshCw } from '@lucide/svelte';
+	import { onMount } from 'svelte';
+	import { invalidateAll } from '$app/navigation';
 
 	let { data, form } = $props<{ data: PageData; form: ActionData }>();
+
+	// Auto-refresh (Realtime emulation)
+	onMount(() => {
+		let interval: ReturnType<typeof setInterval>;
+		if (data.authorized) {
+			interval = setInterval(() => {
+				invalidateAll();
+			}, 5000); // Refresh every 5 seconds
+		}
+		return () => clearInterval(interval);
+	});
 
 	// Process data for charts
 	const browserStats = $derived.by(() => {
