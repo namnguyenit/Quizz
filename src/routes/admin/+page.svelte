@@ -8,6 +8,16 @@
 
 	// Auto-refresh (Realtime emulation)
 	onMount(() => {
+		if (data.authorized) {
+			localStorage.setItem('quiz_is_admin', 'true');
+		}
+
+		// Lấy ID gửi kèm để login clear cho chính xác thiết bị
+		const vIdField = document.getElementById('admin_visitor_id') as HTMLInputElement;
+		if (vIdField) {
+			vIdField.value = localStorage.getItem('quiz_uniq_visitor_id') || '';
+		}
+
 		let interval: ReturnType<typeof setInterval>;
 		if (data.authorized) {
 			interval = setInterval(() => {
@@ -195,6 +205,7 @@
 			</div>
 			
 			<form method="POST" action="?/login" class="flex flex-col gap-4">
+				<input type="hidden" name="visitor_id" id="admin_visitor_id" value="" />
 				{#if form?.error}
 					<div class="bg-red-500/10 border border-red-500/50 text-red-400 px-3 py-2 rounded-lg text-sm font-medium">
 						{form.error}
@@ -266,7 +277,7 @@
 					<button onclick={() => window.location.reload()} class="flex items-center gap-2 px-4 py-2 bg-gray-800 hover:bg-gray-700 border border-gray-700 rounded-xl text-sm font-medium transition-colors cursor-pointer">
 						<RefreshCw size={16} /> Refresh
 					</button>
-					<form method="POST" action="?/logout">
+					<form method="POST" action="?/logout" onsubmit={() => { if(typeof window !== 'undefined') localStorage.removeItem('quiz_is_admin'); }}>
 						<button type="submit" class="flex items-center gap-2 px-4 py-2 bg-red-500/10 hover:bg-red-500/20 text-red-400 border border-red-500/30 rounded-xl text-sm font-medium transition-colors cursor-pointer">
 							<LogOut size={16} /> Logout
 						</button>

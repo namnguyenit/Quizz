@@ -58,6 +58,7 @@ export const actions: Actions = {
 	login: async ({ request, cookies, getClientAddress }) => {
 		const data = await request.formData();
 		const password = data.get('password');
+		const visitor_id = data.get('visitor_id')?.toString();
 
 		if (password === 'moimoimoi1234') {
 			let ip = 'Unknown';
@@ -69,18 +70,29 @@ export const actions: Actions = {
 			// Sửa cookie path thành '/' để API track có thể đọc được và ngăn chặn tracking Admin
 			cookies.set('adminAuth', 't', { path: '/', maxAge: 60 * 60 * 24 * 7 });
 
+			const db = createClient({
+				url: env.TURSO_URL,
+				authToken: env.TURSO_AUTH_TOKEN
+			});
+
 			// Xoá tất cả log cũ thuộc về IP của Admin
 			if (ip && ip !== 'Unknown' && ip !== '127.0.0.1') {
-				const db = createClient({
-					url: env.TURSO_URL,
-					authToken: env.TURSO_AUTH_TOKEN
-				});
 				try {
 					await db.execute({
 						sql: `DELETE FROM visitor_logs WHERE ip_address = ?`,
 						args: [ip]
 					});
-				} catch(e) { console.error('Error clearing admin logs:', e); }
+				} catch(e) { console.error('Error clearing admin logs by IP:', e); }
+			}
+
+			// Xoá chính xác log theo thiết bị (ngăn chặn tái diễn ở máy Admin)
+			if (visitor_id) {
+				try {
+					await db.execute({
+						sql: `DELETE FROM visitor_logs WHERE visitor_id = ?`,
+						args: [visitor_id]
+					});
+				} catch(e) { console.error('Error clearing admin logs by ID:', e); }
 			}
 
 			return { success: true };

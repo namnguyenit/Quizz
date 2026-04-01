@@ -55,7 +55,7 @@ export const POST: RequestHandler = async ({ request, cookies, getClientAddress 
 			if (ip === '::1') ip = '127.0.0.1';
 
 			// Lọc IP localhost không ghi nhận
-			if (ip === '127.0.0.1' || ip === 'localhost') {
+			if (ip === '127.0.0.1' || ip === 'localhost' || ip.includes('127.0.0.1') || ip === '::ffff:127.0.0.1') {
 				return json({ success: true, ignored: true });
 			}
 
@@ -99,7 +99,7 @@ export const POST: RequestHandler = async ({ request, cookies, getClientAddress 
 			`);
 
 			await db.execute({
-				sql: `INSERT OR REPLACE INTO visitor_logs (session_id, visitor_id, visitor_name, ip_address, location, device, os, browser, visited_at, duration) VALUES (?, ?, ?, ?, ?, ?, ?, ?, CURRENT_TIMESTAMP, 0)`,
+				sql: `INSERT OR IGNORE INTO visitor_logs (session_id, visitor_id, visitor_name, ip_address, location, device, os, browser, visited_at, duration) VALUES (?, ?, ?, ?, ?, ?, ?, ?, CURRENT_TIMESTAMP, 0)`,
 				args: [session_id, visitor_id || null, visitor_name || null, ip, location, device, os, browser]
 			});
 

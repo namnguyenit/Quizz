@@ -62,6 +62,7 @@
 	// Session Analytics Tracking
 	$effect(() => {
 		if (typeof window === 'undefined') return;
+		if (localStorage.getItem('quiz_is_admin') === 'true') return;
 		
 		// 1. Tạo hoặc lấy visitor_id định danh duy nhất cho từng trình duyệt
 		const VISITOR_KEY = 'quiz_uniq_visitor_id';
@@ -71,7 +72,14 @@
 			localStorage.setItem(VISITOR_KEY, visitor_id);
 		}
 
-		const session_id = crypto.randomUUID ? crypto.randomUUID() : Math.random().toString(36).substring(2);
+		// 2. Dùng sessionStorage để giữ nguyên phiên khi người dùng ấn F5/tải lại trang
+		const SESSION_KEY = 'quiz_current_session';
+		let session_id = sessionStorage.getItem(SESSION_KEY);
+		if (!session_id) {
+			session_id = crypto.randomUUID ? crypto.randomUUID() : Math.random().toString(36).substring(2);
+			sessionStorage.setItem(SESSION_KEY, session_id);
+		}
+		
 		const startTime = Date.now();
 
 		// Initial start call
