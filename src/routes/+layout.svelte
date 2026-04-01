@@ -63,13 +63,22 @@
 	$effect(() => {
 		if (typeof window === 'undefined') return;
 		
+		// 1. Tạo hoặc lấy visitor_id định danh duy nhất cho từng trình duyệt
+		const VISITOR_KEY = 'quiz_uniq_visitor_id';
+		let visitor_id = localStorage.getItem(VISITOR_KEY);
+		if (!visitor_id) {
+			visitor_id = crypto.randomUUID ? crypto.randomUUID() : Math.random().toString(36).substring(2);
+			localStorage.setItem(VISITOR_KEY, visitor_id);
+		}
+
 		const session_id = crypto.randomUUID ? crypto.randomUUID() : Math.random().toString(36).substring(2);
 		const startTime = Date.now();
 
 		// Initial start call
+		const visitor_name = localStorage.getItem('quiz_visitor_name') || undefined;
 		fetch('/api/track', {
 			method: 'POST',
-			body: JSON.stringify({ action: 'start', session_id })
+			body: JSON.stringify({ action: 'start', session_id, visitor_id, visitor_name })
 		}).catch(e => console.error('Tracking Error(start):', e));
 
 		// Ping update loop

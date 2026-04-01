@@ -18,6 +18,8 @@ export const load: PageServerLoad = async ({ cookies }) => {
 	await db.execute(`
 		CREATE TABLE IF NOT EXISTS visitor_logs (
 			session_id TEXT PRIMARY KEY,
+			visitor_id TEXT,
+			visitor_name TEXT,
 			ip_address TEXT,
 			location TEXT,
 			device TEXT,
@@ -35,6 +37,8 @@ export const load: PageServerLoad = async ({ cookies }) => {
 	
 	const logs = rows.map(r => ({
 		session_id: typeof r.session_id === 'string' ? r.session_id : '',
+		visitor_id: typeof r.visitor_id === 'string' ? r.visitor_id : '',
+		visitor_name: typeof r.visitor_name === 'string' ? r.visitor_name : '',
 		ip_address: typeof r.ip_address === 'string' ? r.ip_address : '',
 		location: typeof r.location === 'string' ? r.location : '',
 		device: typeof r.device === 'string' ? r.device : '',
@@ -51,19 +55,41 @@ export const load: PageServerLoad = async ({ cookies }) => {
 };
 
 export const actions: Actions = {
-	login: async ({ request, cookies }) => {
+	login: async ({ request, cookies, getClientAddress }) => {
 		const data = await request.formData();
 		const password = data.get('password');
 
 		if (password === 'moimoimoi1234') {
-			cookies.set('adminAuth', 't', { path: '/admin', maxAge: 60 * 60 * 24 * 7 });
+			let ip = 'Unknown';
+			try { ip = getClientAddress(); } catch(e) {}
+			if (request.headers.get('x-forwarded-for')) ip = request.headers.get('x-forwarded-for')?.split(',')[0].trim() || ip;
+			if (request.headers.get('x-real-ip')) ip = request.headers.get('x-real-ip') || ip;
+			if (ip === '::1') ip = '127.0.0.1';
+
+			// Sửa cookie path thành '/' để API track có thể đọc được và ngăn chặn tracking Admin
+			cookies.set('adminAuth', 't', { path: '/', maxAge: 60 * 60 * 24 * 7 });
+
+			// Xoá tất cả log cũ thuộc về IP của Admin
+			if (ip && ip !== 'Unknown' && ip !== '127.0.0.1') {
+				const db = createClient({
+					url: env.TURSO_URL,
+					authToken: env.TURSO_AUTH_TOKEN
+				});
+				try {
+					await db.execute({
+						sql: `DELETE FROM visitor_logs WHERE ip_address = ?`,
+						args: [ip]
+					});
+				} catch(e) { console.error('Error clearing admin logs:', e); }
+			}
+
 			return { success: true };
 		} else {
 			return fail(400, { error: '⚠️ Mật khẩu không chính xác minh!' });
 		}
 	},
 	logout: async ({ cookies }) => {
-		cookies.delete('adminAuth', { path: '/admin' });
+		cookies.delete('adminAuth', { path: '/' });
 		throw redirect(303, '/admin');
 	}
 };

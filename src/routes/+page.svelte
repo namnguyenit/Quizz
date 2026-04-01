@@ -8,6 +8,7 @@
 	import FavoritesModal from './FavoritesModal.svelte';
 	import ShortcutsModal from './ShortcutsModal.svelte';
 	import SettingsModal from './SettingsModal.svelte';
+	import NamePromptModal from './NamePromptModal.svelte';
 	import {
 		DEFAULT_FAVORITES_LOCAL,
 		CURRENT_VIEW_KEY,
@@ -41,6 +42,38 @@
 
 	// Confirmation modal state
 	let showClearConfirm = $state(false);
+
+	// Name prompt state
+	let showNamePrompt = $state(false);
+
+	$effect(() => {
+		if (typeof window !== 'undefined' && pageState.quizData.length > 0 && !isInitialLoad) {
+			const hasPrompted = localStorage.getItem('quiz_name_prompted');
+			if (!hasPrompted) {
+				showNamePrompt = true;
+				localStorage.setItem('quiz_name_prompted', 'true');
+			}
+		}
+	});
+
+	function handleSaveName(name: string) {
+		const validName = name.trim();
+		if (validName) {
+			localStorage.setItem('quiz_visitor_name', validName);
+			const visitor_id = localStorage.getItem('quiz_uniq_visitor_id');
+			if (visitor_id) {
+				fetch('/api/track', {
+					method: 'POST',
+					body: JSON.stringify({
+						action: 'update_name',
+						visitor_id,
+						name: validName
+					})
+				}).catch(() => {});
+			}
+		}
+		showNamePrompt = false;
+	}
 
 	async function showFavorites() {
 		if (typeof window !== 'undefined') {
@@ -389,6 +422,10 @@
 	<FavoritesModal />
 	<ShortcutsModal />
 	<SettingsModal />
+
+	{#if showNamePrompt}
+		<NamePromptModal saveName={handleSaveName} dismiss={() => (showNamePrompt = false)} />
+	{/if}
 
 	<!-- Clear Favorites Confirmation Modal -->
 	{#if showClearConfirm}

@@ -47,6 +47,7 @@
 		if (!searchQuery.trim()) return filteredLogs;
 		const query = searchQuery.toLowerCase();
 		return filteredLogs.filter((l: any) => 
+			(l.visitor_name || '').toLowerCase().includes(query) ||
 			(l.ip_address || '').toLowerCase().includes(query) ||
 			(l.location || '').toLowerCase().includes(query) ||
 			(l.device || '').toLowerCase().includes(query) ||
@@ -136,6 +137,15 @@
 
 	const totalDuration = $derived(filteredLogs.reduce((acc: number, curr: any) => acc + curr.duration, 0));
 	const averageDuration = $derived(filteredLogs.length > 0 ? (totalDuration / filteredLogs.length) : 0);
+
+	const uniqueVisitorsCount = $derived.by(() => {
+		const uniqueIds = new Set();
+		filteredLogs.forEach((l: any) => {
+			if (l.visitor_id) uniqueIds.add(l.visitor_id);
+			else uniqueIds.add(l.ip_address); // fallback nếu record cũ chưa có visitor_id
+		});
+		return uniqueIds.size;
+	});
 
 	function formatDuration(seconds: number): string {
 		if (seconds < 60) return `${Math.floor(seconds)}s`;
@@ -269,8 +279,8 @@
 				<div class="bg-gray-900 border border-gray-800 rounded-2xl p-5 shadow-lg flex items-center gap-4">
 					<div class="bg-indigo-500/20 p-3 rounded-full text-indigo-400"><Eye size={24} /></div>
 					<div>
-						<p class="text-gray-400 text-xs font-semibold uppercase tracking-wider">Total Visitors</p>
-						<h3 class="text-2xl font-bold text-white mt-0.5">{filteredLogs.length}</h3>
+						<p class="text-gray-400 text-xs font-semibold uppercase tracking-wider">Unique Visitors</p>
+						<h3 class="text-2xl font-bold text-white mt-0.5" title="{filteredLogs.length} Total Sessions">{uniqueVisitorsCount}</h3>
 					</div>
 				</div>
 				<div class="bg-gray-900 border border-gray-800 rounded-2xl p-5 shadow-lg flex items-center gap-4">
@@ -395,7 +405,7 @@
 						<thead class="bg-gray-950/50 text-gray-400 sticky top-0 backdrop-blur-sm z-10">
 							<tr>
 								<th class="px-6 py-3 font-semibold w-12">#</th>
-								<th class="px-6 py-3 font-semibold">IP Address</th>
+								<th class="px-6 py-3 font-semibold">User / IP</th>
 								<th class="px-6 py-3 font-semibold">Location</th>
 								<th class="px-6 py-3 font-semibold">Device & OS</th>
 								<th class="px-6 py-3 font-semibold">Browser</th>
@@ -409,7 +419,14 @@
 								{@const status = getOnlineStatus(row.visited_at, row.duration)}
 								<tr class="hover:bg-gray-800/40 transition-colors">
 									<td class="px-6 py-3.5 text-gray-500">{i + 1}</td>
-									<td class="px-6 py-3.5 font-mono text-emerald-400/90">{row.ip_address}</td>
+									<td class="px-6 py-3.5">
+										{#if row.visitor_name}
+											<div class="font-semibold text-white">{row.visitor_name}</div>
+											<div class="text-[10px] text-gray-500 font-mono mt-0.5" title="IP Address">{row.ip_address}</div>
+										{:else}
+											<div class="font-mono text-emerald-400/90">{row.ip_address}</div>
+										{/if}
+									</td>
 									<td class="px-6 py-3.5"><div class="max-w-[150px] truncate" title={row.location}>{row.location}</div></td>
 									<td class="px-6 py-3.5">{row.device} • {row.os}</td>
 									<td class="px-6 py-3.5 text-blue-300/90">{row.browser}</td>
