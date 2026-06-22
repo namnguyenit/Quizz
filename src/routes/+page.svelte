@@ -5,6 +5,7 @@
 	import TopBar from './TopBar.svelte';
 	import Carousel from './Carousel.svelte';
 	import LibraryGrid from './LibraryGrid.svelte';
+	import FlashcardView from './FlashcardView.svelte';
 	import FavoritesModal from './FavoritesModal.svelte';
 	import ShortcutsModal from './ShortcutsModal.svelte';
 	import SettingsModal from './SettingsModal.svelte';
@@ -190,6 +191,7 @@
 			['INPUT', 'SELECT', 'TEXTAREA'].includes((document.activeElement as HTMLElement).tagName)
 		)
 			return;
+		if (appState.currentView === 'flashcard') return; // Handled by FlashcardView
 		if (e.key === 'ArrowRight' || e.key === 'd' || e.key === 'D') {
 			if (pageState.current < pageState.quizData.length - 1) {
 				pageState.current += 1;
@@ -350,7 +352,7 @@
 	class="flex h-[100dvh] w-screen overflow-hidden bg-[var(--bg-primary)] text-[var(--text-primary)] font-sans"
 >
 	<!-- Sidebar (only show when quiz is loaded) -->
-	{#if uiState.sidebarOpen && pageState.quizData.length > 0}
+	{#if uiState.sidebarOpen && ((appState.currentView === 'flashcard' && pageState.flashcardData.length > 0) || (appState.currentView !== 'flashcard' && pageState.quizData.length > 0))}
 		<div
 			class="fixed top-0 left-0 h-full z-40 bg-[var(--bg-surface)] transition-transform duration-200 ease-in-out
 							md:static md:translate-x-0 md:min-w-[200px] md:w-[300px]"
@@ -360,7 +362,7 @@
 	{/if}
 
 	<!-- Backdrop (mobile only) -->
-	{#if uiState.sidebarOpen && pageState.quizData.length > 0 && typeof window !== 'undefined' && window.innerWidth < 768}
+	{#if uiState.sidebarOpen && ((appState.currentView === 'flashcard' && pageState.flashcardData.length > 0) || (appState.currentView !== 'flashcard' && pageState.quizData.length > 0)) && typeof window !== 'undefined' && window.innerWidth < 768}
 		<button
 			type="button"
 			class="fixed inset-0 bg-black/50 z-30"
@@ -401,7 +403,14 @@
 				</div>
 			{/if}
 
-			{#if pageState.quizData.length > 0}
+			{#if appState.currentView === 'flashcard' && pageState.flashcardData.length > 0}
+				<!-- Flashcard View -->
+				<div
+					class="relative w-full h-full flex flex-col items-center justify-center overflow-hidden md:items-start md:justify-center"
+				>
+					<FlashcardView />
+				</div>
+			{:else if pageState.quizData.length > 0 && appState.currentView !== 'flashcard'}
 				<!-- Quiz View -->
 				<div
 					class="relative w-full h-full flex flex-col items-center justify-center overflow-hidden md:items-start md:justify-center"

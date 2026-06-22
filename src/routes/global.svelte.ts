@@ -24,6 +24,7 @@ export type Quiz = {
 	question_type: string;
 	answers: string[];
 	image_url?: string | null;
+	code?: string | null;
 	section?: 'mcq' | 'reading' | string;
 	reading_set_id?: string | null;
 	reading_type?: string | null;
@@ -34,24 +35,37 @@ export type Quiz = {
 	[key: string]: unknown;
 };
 
+export type Flashcard = {
+	id: string;
+	collection_id: string;
+	front_text: string;
+	back_text: string;
+	pronunciation?: string | null;
+	image_url?: string | null;
+	card_order?: number | null;
+};
+
 export type AppState = {
-	currentView: 'all' | 'favorites';
+	currentView: 'all' | 'favorites' | 'flashcard';
 	all: { module: string; questionIndex: number };
 	favorites: { module: string; questionIndex: number };
+	flashcard: { module: string; cardIndex: number };
 };
 
 export type PageState = {
 	quizData: Quiz[];
+	flashcardData: Flashcard[];
 	current: number;
 	questionAnswers: Map<string, number[]>;
 	questionLocked: boolean;
 	questionLockedStatus: Map<string, boolean>;
 	isLoading: boolean;
-	moduleId: string; // Current module ID for the quiz
+	moduleId: string; // Current module ID for the quiz or flashcard
 };
 
 export const pageState = $state<PageState>({
 	quizData: [],
+	flashcardData: [],
 	current: 0,
 	questionAnswers: new SvelteMap(),
 	questionLocked: false,
@@ -64,10 +78,11 @@ export const favorites = new SvelteSet<string>();
 export const appState = $state<AppState>({
 	currentView: 'all',
 	all: { module: '', questionIndex: 0 },
-	favorites: { ...DEFAULT_FAVORITES_LOCAL }
+	favorites: { ...DEFAULT_FAVORITES_LOCAL },
+	flashcard: { module: '', cardIndex: 0 }
 });
 
-export function setCurrentView(newView: 'all' | 'favorites') {
+export function setCurrentView(newView: 'all' | 'favorites' | 'flashcard') {
 	appState.currentView = newView;
 	if (newView === 'favorites') {
 		pageState.questionAnswers.clear();
@@ -79,6 +94,7 @@ export type QuizNav = {
 	id: string;
 	name: string;
 	display_order: number;
+	type: 'quiz' | 'flashcard';
 };
 
 export type SubjectNav = {
@@ -160,13 +176,38 @@ export async function loadQuiz(quizId: string) {
 	}
 }
 
+export async function loadFlashcard(collectionId: string) {
+	pageState.isLoading = true;
+	try {
+		const res = await fetch(`/api/flashcard?id=${collectionId}`);
+		const data = await res.json();
+		if (data.flashcards) {
+			pageState.flashcardData = data.flashcards;
+			pageState.moduleId = collectionId;
+			pageState.current = 0;
+			setCurrentView('flashcard');
+			uiState.sidebarMode = 'questions';
+			// Open sidebar on desktop when loading
+			if (typeof window !== 'undefined' && window.innerWidth >= 768) {
+				uiState.sidebarOpen = true;
+			}
+		}
+	} catch (err) {
+		console.error('Failed to load flashcards:', err);
+	} finally {
+		pageState.isLoading = false;
+	}
+}
+
 export function clearQuiz() {
 	pageState.quizData = [];
+	pageState.flashcardData = [];
 	pageState.moduleId = '';
 	pageState.current = 0;
 	pageState.questionAnswers.clear();
 	pageState.questionLockedStatus.clear();
 	pageState.questionLocked = false;
+	setCurrentView('all');
 	uiState.sidebarMode = 'library';
 	uiState.sidebarOpen = false;
 	// Clear URL when returning to library

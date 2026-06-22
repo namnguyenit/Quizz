@@ -1,0 +1,367 @@
+[
+  {
+    "question_id": "module-4-test-doubles-introduction-q1",
+    "module": "Writing Good Unit Tests",
+    "question_text": "If a system under test needs to interact with other systems in order to complete a unit test, just skip the testing.\nVN: Nếu một hệ thống đang được thử nghiệm cần tương tác với các hệ thống khác để hoàn thành thử nghiệm đơn vị, chỉ cần bỏ qua thử nghiệm.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "True (ĐÚNG VẬY)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "False (SAI)",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-4-test-doubles-introduction-q2",
+    "module": "Writing Good Unit Tests",
+    "question_text": "What do you call lightweight versions of components that a system under test interacts with that are necessary to do unit testing?\nVN: Bạn gọi phiên bản nhẹ của các thành phần mà hệ thống đang được thử nghiệm tương tác với những phiên bản cần thiết để thực hiện thử nghiệm đơn vị là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Dummy Objects (Đối tượng giả)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Test Doubles (Kiểm tra đôi)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Test Stubs (Bài kiểm tra)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Mock Objects (Đối tượng giả)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-4-test-doubles-introduction-q3",
+    "module": "Writing Good Unit Tests",
+    "question_text": "What do you call the dummy values that are filled into objects that are required as parameters by the system under test, but are otherwise irrelevant?\nVN: Bạn gọi giá trị giả được điền vào các đối tượng được hệ thống đang thử nghiệm yêu cầu làm tham số nhưng lại không liên quan?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Dummy Values (Giá trị giả)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Dummy Stubs (Sơ khai giả)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Dummy Mocks (Mô phỏng giả)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Dummy Objects (Đối tượng giả)",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-4-test-doubles-introduction-q4",
+    "module": "Writing Good Unit Tests",
+    "question_text": "What are the dummy input data sources used by a system under test?\nVN: Các nguồn dữ liệu đầu vào giả được hệ thống đang thử nghiệm sử dụng là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Dummy Objects (Đối tượng giả)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Test Stubs (Bài kiểm tra)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Fake Objects (Đồ vật giả)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Spy Objects (Đối tượng gián điệp)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-4-test-doubles-introduction-q5",
+    "module": "Writing Good Unit Tests",
+    "question_text": "What would you use in order to check the indirect results produced by a system under test?\nVN: Bạn sẽ sử dụng gì để kiểm tra kết quả gián tiếp do hệ thống đang thử nghiệm tạo ra?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Mock Objects (Đối tượng giả)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Sky Objects (Vật thể trên bầu trời)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Fake Objects (Đồ vật giả)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Dummy Objects (Đối tượng giả)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-4-test-doubles-introduction-q6",
+    "module": "Writing Good Unit Tests",
+    "question_text": "There is essentially no difference between spy objects and mock objects.\nVN: Về cơ bản không có sự khác biệt giữa đối tượng gián điệp và đối tượng giả.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "True (ĐÚNG VẬY)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "False (SAI)",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-4-test-doubles-introduction-q7",
+    "module": "Writing Good Unit Tests",
+    "question_text": "The goal of Mockito is to:\nVN: Mục tiêu của Mockito là:",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Automatically generate flakey tests (Tự động tạo các bài kiểm tra hoàn hảo)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Create test doubles and inspect interactions (Tạo nhân đôi thử nghiệm và kiểm tra tương tác)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Assist in doing unit testing in a vacuum (Hỗ trợ thực hiện kiểm tra đơn vị trong chân không)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-4-test-doubles-input-q1",
+    "module": "Writing Good Unit Tests",
+    "question_text": "When providing test inputs for test doubles, we want to use ____ and ____.\nVN: Khi cung cấp đầu vào kiểm thử cho kiểm thử kép, chúng tôi muốn sử dụng ____ và ____.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Mock objects; Spy objects (Đồ vật giả; Đối tượng gián điệp)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Dummy objects; Mock objects (Đồ vật giả; Đối tượng giả)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Test stubs; Spy objects (Phiếu kiểm tra; Đối tượng gián điệp)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Dummy objects; Test stubs (Đồ vật giả; Phiếu kiểm tra)",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-4-test-doubles-input-q2",
+    "module": "Writing Good Unit Tests",
+    "question_text": "During constructing test doubles, you wish to provide outputs for just a handful of values. What do you use?\nVN: Trong quá trình xây dựng các phép thử nhân đôi, bạn muốn cung cấp kết quả đầu ra cho một số ít giá trị. Bạn sử dụng cái gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Dummy Objects (Đối tượng giả)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Test Doubles (Kiểm tra đôi)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Test Stubs (Bài kiểm tra)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Mock Objects (Đối tượng giả)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-4-test-doubles-input-q3",
+    "module": "Writing Good Unit Tests",
+    "question_text": "During testing, you find that the unit tests require the use of a computationally expensive database. What could you use as a test double?\nVN: Trong quá trình thử nghiệm, bạn nhận thấy rằng các bài kiểm tra đơn vị yêu cầu sử dụng cơ sở dữ liệu tốn kém về mặt tính toán. Bạn có thể sử dụng cái gì để thử nghiệm gấp đôi?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Test Stubs (Bài kiểm tra)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Fake Objects (Đồ vật giả)",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-4-test-doubles-input-q4",
+    "module": "Writing Good Unit Tests",
+    "question_text": "In Mockito, there is a distiction between the roles that a class plays and how you construct it. The roles of a test double are stub, mock, and dummy (or all three). How you construct them in Mockito is the same.\nVN: Trong Mockito, có sự phân biệt giữa vai trò của một lớp và cách bạn xây dựng nó. Các vai trò của một bài kiểm tra kép là sơ khai, mô phỏng và giả (hoặc cả ba). Cách bạn xây dựng chúng trong Mockito là như nhau.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "True (ĐÚNG VẬY)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "False (SAI)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-4-test-doubles-output-q1",
+    "module": "Writing Good Unit Tests",
+    "question_text": "______ provide the ecosystem.\nVN: ______ cung cấp hệ sinh thái.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Test doubles (Kiểm tra nhân đôi)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Inputs and outputs (Đầu vào và đầu ra)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Side effects (tác dụng phụ)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Mock objects (Đối tượng giả)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-4-test-doubles-output-q2",
+    "module": "Writing Good Unit Tests",
+    "question_text": "Mocks and spies will allow fine grain monitoring of the system under test.\nVN: Mô phỏng và gián điệp sẽ cho phép giám sát chi tiết hệ thống đang được thử nghiệm.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "True (ĐÚNG VẬY)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "False (SAI)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-4-test-doubles-output-q3",
+    "module": "Writing Good Unit Tests",
+    "question_text": "Which of the following are not a part of testing interactions using mock objects and spy objects?\nVN: Điều nào sau đây không phải là một phần của quá trình thử nghiệm tương tác bằng cách sử dụng đối tượng mô phỏng và đối tượng gián điệp?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Methods are being called (or not)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Required fill-in values are being created for the system under test (Các giá trị điền bắt buộc đang được tạo cho hệ thống đang được thử nghiệm)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Proper parameters are being used for method calls (Các tham số thích hợp đang được sử dụng cho các cuộc gọi phương thức)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Methods are being called in the proper order (Các phương thức đang được gọi theo đúng thứ tự)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-4-test-doubles-output-q4",
+    "module": "Writing Good Unit Tests",
+    "question_text": "______ objects allow us to observe interactions of fake objects. _____ objects allow us to observe interactions of real objects.\nVN: ______ đồ vật cho phép chúng ta quan sát sự tương tác của các đồ vật giả. _____ đồ vật cho phép chúng ta quan sát sự tương tác của đồ vật thật.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Mock; Dummy (Giả; giả)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Spy; Mock (Điệp viên; mô phỏng)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Dummy; Mock (Giả; mô phỏng)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Mock; Spy (Giả; Điệp viên)",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-4-test-doubles-output-q5",
+    "module": "Writing Good Unit Tests",
+    "question_text": "In Mockito, there is no capability to override the behavior of methods with a spy object.\nVN: Trong Mockito, không có khả năng ghi đè hành vi của các phương thức bằng đối tượng gián điệp.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "True (ĐÚNG VẬY)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "False (SAI)",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-4-test-doubles-output-q6",
+    "module": "Writing Good Unit Tests",
+    "question_text": "In Mockito, it is possible to create an object that is both a stub and a mock.\nVN: Trong Mockito, có thể tạo một đối tượng vừa là sơ khai vừa là mô hình.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "True (ĐÚNG VẬY)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "False (SAI)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  }
+]

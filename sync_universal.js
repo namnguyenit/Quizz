@@ -38,13 +38,27 @@ function parseQuizContent(filePath) {
 		throw e;
 	}
 
+	if (raw?.type === 'flashcard' || raw?.flashcards || (Array.isArray(raw) && raw.some(i => i.front_text && i.back_text))) {
+		const flashcards = raw?.flashcards || (Array.isArray(raw) ? raw : []);
+		return {
+			type: 'flashcard',
+			items: flashcards.map((f, idx) => ({
+				...f,
+				card_order: idx
+			}))
+		};
+	}
+
 	// Legacy format: a file is just an array of questions.
 	if (Array.isArray(raw)) {
-		return raw.map((q, idx) => ({
-			...q,
-			section: q.section || 'mcq',
-			question_order: idx
-		}));
+		return {
+			type: 'quiz',
+			items: raw.map((q, idx) => ({
+				...q,
+				section: q.section || 'mcq',
+				question_order: idx
+			}))
+		};
 	}
 
 	// New format: one file is one exam, with 2 parts: mcq + reading.
@@ -83,14 +97,15 @@ function parseQuizContent(filePath) {
 		}
 	}
 
-	return normalized;
+	return { type: 'quiz', items: normalized };
 }
 
 // --- Stats Tracking ---
 const stats = {
 	subjects: { added: 0, updated: 0, deleted: 0 },
 	collections: { added: 0, updated: 0, deleted: 0 },
-	questions: { added: 0, updated: 0, deleted: 0 }
+	questions: { added: 0, updated: 0, deleted: 0 },
+	flashcards: { added: 0, updated: 0, deleted: 0 }
 };
 
 // --- Database Operations ---
@@ -110,9 +125,16 @@ async function ensureTables() {
 			subject_id TEXT NOT NULL,
 			name TEXT NOT NULL,
 			display_order INTEGER DEFAULT 0,
+			type TEXT DEFAULT 'quiz',
 			FOREIGN KEY (subject_id) REFERENCES subjects(id)
 		)
 	`);
+	
+	// Lightweight migration for type in quiz_collections
+	const qcCols = await db.execute('PRAGMA table_info(quiz_collections)');
+	if (!qcCols.rows.some((row) => row.name === 'type')) {
+		await db.execute("ALTER TABLE quiz_collections ADD COLUMN type TEXT DEFAULT 'quiz'");
+	}
 
 	await db.execute(`
 		CREATE TABLE IF NOT EXISTS questions (
@@ -122,6 +144,7 @@ async function ensureTables() {
 			question_type TEXT NOT NULL,
 			answers TEXT NOT NULL,
 			image_url TEXT,
+			code TEXT,
 			section TEXT DEFAULT 'mcq',
 			reading_set_id TEXT,
 			reading_type TEXT,
@@ -129,6 +152,20 @@ async function ensureTables() {
 			reading_passage TEXT,
 			reading_order INTEGER,
 			question_order INTEGER,
+			status TEXT DEFAULT 'active',
+			FOREIGN KEY (collection_id) REFERENCES quiz_collections(id)
+		)
+	`);
+
+	await db.execute(`
+		CREATE TABLE IF NOT EXISTS flashcards (
+			id TEXT PRIMARY KEY,
+			collection_id TEXT NOT NULL,
+			front_text TEXT NOT NULL,
+			back_text TEXT NOT NULL,
+			pronunciation TEXT,
+			image_url TEXT,
+			card_order INTEGER,
 			status TEXT DEFAULT 'active',
 			FOREIGN KEY (collection_id) REFERENCES quiz_collections(id)
 		)
@@ -145,7 +182,8 @@ async function ensureTables() {
 		['reading_title', 'TEXT'],
 		['reading_passage', 'TEXT'],
 		['reading_order', 'INTEGER'],
-		['question_order', 'INTEGER']
+		['question_order', 'INTEGER'],
+		['code', 'TEXT']
 	];
 
 	for (const [name, type] of requiredColumns) {
@@ -170,6 +208,7 @@ async function ensureTables() {
 }
 
 async function dropAllTables() {
+	await db.execute(`DROP TABLE IF EXISTS flashcards`);
 	await db.execute(`DROP TABLE IF EXISTS questions`);
 	await db.execute(`DROP TABLE IF EXISTS quiz_collections`);
 	await db.execute(`DROP TABLE IF EXISTS subjects`);
@@ -182,16 +221,23 @@ async function getExistingSubjects() {
 
 async function getExistingCollections() {
 	const result = await db.execute(
-		'SELECT id, subject_id, name, display_order FROM quiz_collections'
+		'SELECT id, subject_id, name, display_order, type FROM quiz_collections'
 	);
 	return new Map(result.rows.map((row) => [row.id, row]));
 }
 
 async function getExistingQuestions() {
 	const result = await db.execute(
-		'SELECT question_id, collection_id, question_text, question_type, answers, image_url, section, reading_set_id, reading_type, reading_title, reading_passage, reading_order, question_order FROM questions'
+		'SELECT question_id, collection_id, question_text, question_type, answers, image_url, code, section, reading_set_id, reading_type, reading_title, reading_passage, reading_order, question_order FROM questions'
 	);
 	return new Map(result.rows.map((row) => [row.question_id, row]));
+}
+
+async function getExistingFlashcards() {
+	const result = await db.execute(
+		'SELECT id, collection_id, front_text, back_text, pronunciation, image_url, card_order FROM flashcards'
+	);
+	return new Map(result.rows.map((row) => [row.id, row]));
 }
 
 async function upsertSubject(id, name, displayOrder, description) {
@@ -202,18 +248,18 @@ async function upsertSubject(id, name, displayOrder, description) {
 	});
 }
 
-async function upsertCollection(id, subjectId, name, displayOrder) {
+async function upsertCollection(id, subjectId, name, displayOrder, type = 'quiz') {
 	if (FLAGS.dryRun) return;
 	await db.execute({
-		sql: `INSERT OR REPLACE INTO quiz_collections (id, subject_id, name, display_order) VALUES (?, ?, ?, ?)`,
-		args: [id, subjectId, name, displayOrder]
+		sql: `INSERT OR REPLACE INTO quiz_collections (id, subject_id, name, display_order, type) VALUES (?, ?, ?, ?, ?)`,
+		args: [id, subjectId, name, displayOrder, type]
 	});
 }
 
 async function upsertQuestion(q, collectionId) {
 	if (FLAGS.dryRun) return;
 	await db.execute({
-		sql: `INSERT OR REPLACE INTO questions (question_id, collection_id, question_text, question_type, answers, image_url, section, reading_set_id, reading_type, reading_title, reading_passage, reading_order, question_order, status) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`,
+		sql: `INSERT OR REPLACE INTO questions (question_id, collection_id, question_text, question_type, answers, image_url, code, section, reading_set_id, reading_type, reading_title, reading_passage, reading_order, question_order, status) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`,
 		args: [
 			q.question_id,
 			collectionId,
@@ -221,6 +267,7 @@ async function upsertQuestion(q, collectionId) {
 			q.question_type,
 			JSON.stringify(q.answers),
 			q.image_url || null,
+			q.code || null,
 			q.section || 'mcq',
 			q.reading_set_id || null,
 			q.reading_type || null,
@@ -233,6 +280,23 @@ async function upsertQuestion(q, collectionId) {
 	});
 }
 
+async function upsertFlashcard(f, collectionId) {
+	if (FLAGS.dryRun) return;
+	await db.execute({
+		sql: `INSERT OR REPLACE INTO flashcards (id, collection_id, front_text, back_text, pronunciation, image_url, card_order, status) VALUES (?, ?, ?, ?, ?, ?, ?, ?)`,
+		args: [
+			f.id,
+			collectionId,
+			f.front_text,
+			f.back_text,
+			f.pronunciation || null,
+			f.image_url || null,
+			f.card_order ?? null,
+			'active'
+		]
+	});
+}
+
 async function deleteSubject(id) {
 	if (FLAGS.dryRun) return;
 	await db.execute({ sql: 'DELETE FROM subjects WHERE id = ?', args: [id] });
@@ -240,7 +304,8 @@ async function deleteSubject(id) {
 
 async function deleteCollection(id) {
 	if (FLAGS.dryRun) return;
-	// Delete questions first (foreign key)
+	// Delete questions and flashcards first (foreign key)
+	await db.execute({ sql: 'DELETE FROM flashcards WHERE collection_id = ?', args: [id] });
 	await db.execute({ sql: 'DELETE FROM questions WHERE collection_id = ?', args: [id] });
 	await db.execute({ sql: 'DELETE FROM quiz_collections WHERE id = ?', args: [id] });
 }
@@ -250,13 +315,19 @@ async function deleteQuestion(id) {
 	await db.execute({ sql: 'DELETE FROM questions WHERE question_id = ?', args: [id] });
 }
 
+async function deleteFlashcard(id) {
+	if (FLAGS.dryRun) return;
+	await db.execute({ sql: 'DELETE FROM flashcards WHERE id = ?', args: [id] });
+}
+
 // --- File Scanning ---
 function scanSubjectsDirectory() {
 	const subjectsDir = 'subjects';
 	const result = {
 		subjects: new Map(),
 		collections: new Map(),
-		questions: new Map()
+		questions: new Map(),
+		flashcards: new Map()
 	};
 
 	const subjectFolders = readdirSync(subjectsDir).filter((f) =>
@@ -293,43 +364,67 @@ function scanSubjectsDirectory() {
 			const quizName = match ? match[2].replace(/-/g, ' ') : fileName.replace(/-/g, ' ');
 			const collectionId = `${subjectId}-${fileName}`;
 
+			const parsed = parseQuizContent(quizPath);
+			const collectionType = parsed.type;
+			const items = parsed.items;
+
 			result.collections.set(collectionId, {
 				id: collectionId,
 				subject_id: subjectId,
 				name: quizName,
-				display_order: displayOrder
+				display_order: displayOrder,
+				type: collectionType
 			});
 
-			const questions = parseQuizContent(quizPath);
-			for (const [qIndex, q] of questions.entries()) {
-				const baseQuestionId =
-					typeof q.question_id === 'string' && q.question_id.trim().length > 0
-						? q.question_id.trim()
-						: `${fileName}-q${qIndex + 1}`;
-
-				let normalizedQuestionId = baseQuestionId;
-				const existing = result.questions.get(normalizedQuestionId);
-
-				// Keep backward compatibility for already-unique IDs,
-				// but auto-namespace duplicates to avoid silent overwrites.
-				if (existing && existing.collection_id !== collectionId) {
-					normalizedQuestionId = `${collectionId}__${baseQuestionId}`;
-					let suffix = 2;
-					while (result.questions.has(normalizedQuestionId)) {
-						normalizedQuestionId = `${collectionId}__${baseQuestionId}__${suffix}`;
-						suffix += 1;
+			if (collectionType === 'flashcard') {
+				for (const [fIndex, f] of items.entries()) {
+					const baseFlashcardId = typeof f.id === 'string' && f.id.trim().length > 0 
+						? f.id.trim() 
+						: `${fileName}-f${fIndex + 1}`;
+					
+					let normalizedId = baseFlashcardId;
+					const existing = result.flashcards.get(normalizedId);
+					if (existing && existing.collection_id !== collectionId) {
+						normalizedId = `${collectionId}__${baseFlashcardId}`;
 					}
-					log(
-						`  [WARN] Duplicate question_id \"${baseQuestionId}\" across collections. Auto-remapped to \"${normalizedQuestionId}\".`,
-						'verbose'
-					);
+					
+					result.flashcards.set(normalizedId, {
+						...f,
+						id: normalizedId,
+						collection_id: collectionId
+					});
 				}
+			} else {
+				for (const [qIndex, q] of items.entries()) {
+					const baseQuestionId =
+						typeof q.question_id === 'string' && q.question_id.trim().length > 0
+							? q.question_id.trim()
+							: `${fileName}-q${qIndex + 1}`;
 
-				result.questions.set(normalizedQuestionId, {
-					...q,
-					question_id: normalizedQuestionId,
-					collection_id: collectionId
-				});
+					let normalizedQuestionId = baseQuestionId;
+					const existing = result.questions.get(normalizedQuestionId);
+
+					// Keep backward compatibility for already-unique IDs,
+					// but auto-namespace duplicates to avoid silent overwrites.
+					if (existing && existing.collection_id !== collectionId) {
+						normalizedQuestionId = `${collectionId}__${baseQuestionId}`;
+						let suffix = 2;
+						while (result.questions.has(normalizedQuestionId)) {
+							normalizedQuestionId = `${collectionId}__${baseQuestionId}__${suffix}`;
+							suffix += 1;
+						}
+						log(
+							`  [WARN] Duplicate question_id \"${baseQuestionId}\" across collections. Auto-remapped to \"${normalizedQuestionId}\".`,
+							'verbose'
+						);
+					}
+
+					result.questions.set(normalizedQuestionId, {
+						...q,
+						question_id: normalizedQuestionId,
+						collection_id: collectionId
+					});
+				}
 			}
 		}
 	}
@@ -350,7 +445,8 @@ function collectionChanged(existing, local) {
 	return (
 		existing.subject_id !== local.subject_id ||
 		existing.name !== local.name ||
-		existing.display_order !== local.display_order
+		existing.display_order !== local.display_order ||
+		existing.type !== local.type
 	);
 }
 
@@ -373,7 +469,18 @@ function questionChanged(existing, local) {
 		(existing.reading_title || null) !== (local.reading_title || null) ||
 		(existing.reading_passage || null) !== (local.reading_passage || null) ||
 		(existing.reading_order ?? null) !== (local.reading_order ?? null) ||
-		(existing.question_order ?? null) !== (local.question_order ?? null)
+		(existing.question_order ?? null) !== (local.question_order ?? null) ||
+		(existing.code || null) !== (local.code || null)
+	);
+}
+
+function flashcardChanged(existing, local) {
+	return (
+		existing.front_text !== local.front_text ||
+		existing.back_text !== local.back_text ||
+		(existing.pronunciation || null) !== (local.pronunciation || null) ||
+		(existing.image_url || null) !== (local.image_url || null) ||
+		(existing.card_order ?? null) !== (local.card_order ?? null)
 	);
 }
 
@@ -408,17 +515,20 @@ async function run() {
 		let existingSubjects = new Map();
 		let existingCollections = new Map();
 		let existingQuestions = new Map();
+		let existingFlashcards = new Map();
 
 		if (!FLAGS.clean) {
 			existingSubjects = await getExistingSubjects();
 			existingCollections = await getExistingCollections();
 			existingQuestions = await getExistingQuestions();
+			existingFlashcards = await getExistingFlashcards();
 		}
 
 		// Track what we've processed (for deletion detection)
 		const processedSubjects = new Set();
 		const processedCollections = new Set();
 		const processedQuestions = new Set();
+		const processedFlashcards = new Set();
 
 		// --- Sync Subjects ---
 		for (const [subjectId, localSubject] of local.subjects) {
@@ -454,15 +564,17 @@ async function run() {
 			const existing = existingCollections.get(collectionId);
 
 			if (!existing) {
-				const questionCount = [...local.questions.values()].filter(
-					(q) => q.collection_id === collectionId
-				).length;
-				log(`  [ADD] Collection: ${localCollection.name} (${questionCount} questions)`);
+				const isFlashcard = localCollection.type === 'flashcard';
+				const itemCount = isFlashcard
+					? [...local.flashcards.values()].filter((f) => f.collection_id === collectionId).length
+					: [...local.questions.values()].filter((q) => q.collection_id === collectionId).length;
+				log(`  [ADD] Collection: ${localCollection.name} (${itemCount} items, type: ${localCollection.type})`);
 				await upsertCollection(
 					collectionId,
 					localCollection.subject_id,
 					localCollection.name,
-					localCollection.display_order
+					localCollection.display_order,
+					localCollection.type
 				);
 				stats.collections.added++;
 			} else if (collectionChanged(existing, localCollection)) {
@@ -471,7 +583,8 @@ async function run() {
 					collectionId,
 					localCollection.subject_id,
 					localCollection.name,
-					localCollection.display_order
+					localCollection.display_order,
+					localCollection.type
 				);
 				stats.collections.updated++;
 			} else {
@@ -497,6 +610,24 @@ async function run() {
 			}
 		}
 
+		// --- Sync Flashcards ---
+		for (const [flashcardId, localFlashcard] of local.flashcards) {
+			processedFlashcards.add(flashcardId);
+			const existing = existingFlashcards.get(flashcardId);
+
+			if (!existing) {
+				log(`    [ADD] Flashcard: ${flashcardId}`, 'verbose');
+				await upsertFlashcard(localFlashcard, localFlashcard.collection_id);
+				stats.flashcards.added++;
+			} else if (flashcardChanged(existing, localFlashcard)) {
+				log(`    [UPDATE] Flashcard: ${flashcardId}`, 'verbose');
+				await upsertFlashcard(localFlashcard, localFlashcard.collection_id);
+				stats.flashcards.updated++;
+			} else {
+				log(`    [SKIP] Flashcard: ${flashcardId} (no changes)`, 'verbose');
+			}
+		}
+
 		// --- Deletion Detection ---
 		if (!FLAGS.noDelete && !FLAGS.clean) {
 			// Delete orphaned questions
@@ -505,6 +636,15 @@ async function run() {
 					log(`  [DELETE] Question: ${questionId}`);
 					await deleteQuestion(questionId);
 					stats.questions.deleted++;
+				}
+			}
+
+			// Delete orphaned flashcards
+			for (const [flashcardId] of existingFlashcards) {
+				if (!processedFlashcards.has(flashcardId)) {
+					log(`  [DELETE] Flashcard: ${flashcardId}`);
+					await deleteFlashcard(flashcardId);
+					stats.flashcards.deleted++;
 				}
 			}
 
@@ -538,6 +678,9 @@ async function run() {
 		);
 		console.log(
 			`  Questions:   ${stats.questions.added} added, ${stats.questions.updated} updated, ${stats.questions.deleted} deleted`
+		);
+		console.log(
+			`  Flashcards:  ${stats.flashcards.added} added, ${stats.flashcards.updated} updated, ${stats.flashcards.deleted} deleted`
 		);
 		console.log(`\nSync complete! (${elapsed}s)`);
 

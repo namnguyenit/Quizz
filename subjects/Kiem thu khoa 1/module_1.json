@@ -1,0 +1,427 @@
+[
+  {
+    "question_id": "module-1-overview-q1",
+    "module": "Introduction to Software Testing Terminology",
+    "question_text": "Design and prototype walk-throughs with users are examples of:\nVN: Hướng dẫn thiết kế và nguyên mẫu với người dùng là ví dụ về:",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Validation (Xác thực)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Verification (Xác minh)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-1-overview-q2",
+    "module": "Introduction to Software Testing Terminology",
+    "question_text": "Unit tests mapping requirements (or User Stories in Agile development) to class behaviors are examples of:\nVN: Bài kiểm tra đơn vị ánh xạ các yêu cầu (hoặc Câu chuyện của người dùng trong phát triển Agile) tới các hành vi của lớp là ví dụ về:",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Verification (Xác minh)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Validation (Xác thực)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-1-overview-q3",
+    "module": "Introduction to Software Testing Terminology",
+    "question_text": "User interviews to see if requirements/User Stories match the user's expectations of how the system will perform are examples of:\nVN: Phỏng vấn người dùng để xem liệu các yêu cầu/Câu chuyện của người dùng có phù hợp với mong đợi của người dùng về cách hệ thống sẽ hoạt động hay không. Ví dụ về:",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Validation (Xác thực)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Verification (Xác minh)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-1-overview-q4",
+    "module": "Introduction to Software Testing Terminology",
+    "question_text": "Refactoring is a technique that modifies the structure of software to improve the design (or some non-functional attribute such as performance) without changing the functionality of the software.  \n\nRegression testing after refactoring the system to determine whether it behaves the same as the non-refactored version is an example of:\nVN: Tái cấu trúc là một kỹ thuật sửa đổi cấu trúc của phần mềm để cải thiện thiết kế (hoặc một số thuộc tính phi chức năng như hiệu suất) mà không làm thay đổi chức năng của phần mềm.  \n\nKiểm tra hồi quy sau khi tái cấu trúc hệ thống để xác định xem nó có hoạt động giống như phiên bản không được tái cấu trúc hay không là một ví dụ về:",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Verification (Xác minh)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Validation (Xác thực)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-1-overview-q5",
+    "module": "Introduction to Software Testing Terminology",
+    "question_text": "Which of the following are strengths of testing? (Check all that apply)\nVN: Điều nào sau đây là điểm mạnh của thử nghiệm? (Đánh dấu tất cả những gì áp dụng)",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "It checks the whole system, including software that you didn't write. (Nó kiểm tra toàn bộ hệ thống, bao gồm cả phần mềm mà bạn không viết.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "It can conclusively determine whether the software is correct. (Nó có thể xác định chắc chắn liệu phần mềm có đúng hay không.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "It documents system behavior. (Nó ghi lại hành vi của hệ thống.)",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-1-on-the-difficulty-of-software-testing-q1",
+    "module": "Introduction to Software Testing Terminology",
+    "question_text": "We said that software testing is different than testing in many disciplines because software is discontinuous.  In mathematics, continuity means that if you know the value of a function at one point, you can make claims about its value at points nearby.  Why does this matter for testing?\nVN: Chúng tôi đã nói rằng kiểm thử phần mềm khác với kiểm thử ở nhiều lĩnh vực vì phần mềm không liên tục.  Trong toán học, tính liên tục có nghĩa là nếu bạn biết giá trị của một hàm tại một điểm, bạn có thể khẳng định giá trị của nó tại các điểm gần đó.  Tại sao điều này lại quan trọng đối với việc thử nghiệm?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Continuous systems are simpler to test because you can often extrapolate test results from one point to points 'nearby'. (Các hệ thống liên tục dễ kiểm tra hơn vì bạn thường có thể ngoại suy kết quả kiểm tra từ một điểm đến các điểm 'gần đó'.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Computer systems are easier to test than continuous systems because continuous systems have an infinite number of points to test while software is finite. (Hệ thống máy tính dễ kiểm tra hơn hệ thống liên tục vì hệ thống liên tục có vô số điểm cần kiểm tra trong khi phần mềm là hữu hạn.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "There is no way to test software thoroughly. (Không có cách nào để kiểm tra phần mềm một cách kỹ lưỡng.)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-1-on-the-difficulty-of-software-testing-q2",
+    "module": "Introduction to Software Testing Terminology",
+    "question_text": "We said that the Zune needed tests for boundary conditions. These are values that check that the boundaries of arithmetic or relational expressions (like ==, !=, <, >, <=, >=) are tested.  What are examples of boundary condition tests for the following function?\nVN: Chúng tôi đã nói rằng Zune cần kiểm tra các điều kiện biên. Đây là các giá trị kiểm tra xem ranh giới của các biểu thức số học hoặc quan hệ (như ==, !=, <, >, <=, >=) có được kiểm tra hay không.  Ví dụ về kiểm tra điều kiện biên cho hàm sau là gì?",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "A  = 1, N = 5, X = 5 (A = 1, N = 5, X = 5)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "A  = 5, X = 5, N = 5 (A = 5, X = 5, N = 5)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "A  = 1, X = 10, N = 1 (A = 1, X = 10, N = 1)",
+        "is_correct": true
+      }
+    ],
+    "code": "int flipSome(int A , int N, int X) \n{ \n  int i=0; \n  while (i<N) \n  { \n    if (A<X) \n      A = -A; \n    i++; \n  } \n  return(1); \n}"
+  },
+  {
+    "question_id": "module-1-on-the-difficulty-of-software-testing-q3",
+    "module": "Introduction to Software Testing Terminology",
+    "question_text": "Is testing a (primarily) optimistic or pessimistic verification technique?\nVN: Thử nghiệm là một kỹ thuật xác minh (chủ yếu) lạc quan hay bi quan?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Pessimistic (Bi quan)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Optimistic (Lạc quan)",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-1-on-the-difficulty-of-software-testing-q4",
+    "module": "Introduction to Software Testing Terminology",
+    "question_text": "Is it always possible to prove whether any program meets its requirements in all cases, given enough effort?\nVN: Có phải luôn luôn có thể chứng minh được liệu chương trình nào có đáp ứng được yêu cầu của nó trong mọi trường hợp với đủ nỗ lực hay không?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Yes (Đúng)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "No (KHÔNG)",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-1-what-is-a-test-q1",
+    "module": "Introduction to Software Testing Terminology",
+    "question_text": "An automated oracle is:\nVN: Một oracle tự động là:",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "A program that automatically generates test-cases. (Một chương trình tự động tạo ra các trường hợp thử nghiệm.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "A program that automatically matches the actual program output to the expected output of the test case. (Một chương trình tự động khớp đầu ra của chương trình thực tế với đầu ra dự kiến ​​của ca kiểm thử.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "A program that automatically generates input test data. (Một chương trình tự động tạo ra dữ liệu thử nghiệm đầu vào.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "All of the above. (Tất cả những điều trên.)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-1-what-is-a-test-q2",
+    "module": "Introduction to Software Testing Terminology",
+    "question_text": "The setup step for a test case is important to establish a specific state for the program to run the test.\nVN: Bước thiết lập cho một test case rất quan trọng để thiết lập trạng thái cụ thể cho chương trình chạy thử nghiệm.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "True (ĐÚNG VẬY)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "False (SAI)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-1-what-is-a-test-q3",
+    "module": "Introduction to Software Testing Terminology",
+    "question_text": "Tasks that can be part of the tear down phase are (choose two answers):\nVN: Các nhiệm vụ có thể là một phần của giai đoạn chia nhỏ là (chọn hai câu trả lời):",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "Initialize test case values (Khởi tạo giá trị trường hợp thử nghiệm)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Remove data you added after testing is done (Xóa dữ liệu bạn đã thêm sau khi kiểm tra xong)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Open connection for testing (Mở kết nối để thử nghiệm)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Close connection after testing is done (Đóng kết nối sau khi kiểm tra xong)",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-1-what-is-a-test-q4",
+    "module": "Introduction to Software Testing Terminology",
+    "question_text": "Assessment is the phase where:\nVN: Đánh giá là giai đoạn:",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Software output is checked by an oracle. (Đầu ra của phần mềm được kiểm tra bởi oracle.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Test cases are run. (Các trường hợp thử nghiệm được chạy.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Test data is initialized. (Dữ liệu thử nghiệm được khởi tạo.)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-1-automation-using-a-test-framework-q1",
+    "module": "Introduction to Software Testing Terminology",
+    "question_text": "Testing execution frameworks (e.g., JUnit) are important because:\nVN: Các khung thực thi thử nghiệm (ví dụ: JUnit) rất quan trọng vì:",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "They allow automated checks against an oracle (e.g., Do the outputs of the program match expectations?) to determine whether or not a test passes. (Chúng cho phép kiểm tra tự động dựa trên oracle (ví dụ: Kết quả đầu ra của chương trình có khớp với mong đợi không?) để xác định xem thử nghiệm có vượt qua hay không.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "They run all test cases and provide feedback on which test cases passed and which failed. (Họ chạy tất cả các trường hợp thử nghiệm và cung cấp phản hồi về trường hợp thử nghiệm nào đạt và trường hợp thử nghiệm nào thất bại.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "They generate tests for you. (Họ tạo ra các bài kiểm tra cho bạn.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "They allow programmers to unit test each method. (Chúng cho phép các lập trình viên kiểm thử từng phương pháp.)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-1-automation-using-a-test-framework-q2",
+    "module": "Introduction to Software Testing Terminology",
+    "question_text": "To test a main method you need to:\nVN: Để kiểm tra một phương pháp chính, bạn cần:",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "Redirect input to be entered by the test case. (Chuyển hướng đầu vào để trường hợp thử nghiệm nhập vào.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Redirect output to be generated by the test case. (Chuyển hướng đầu ra được tạo bởi trường hợp thử nghiệm.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Invoke the main method with the right parameters. (Gọi phương thức chính với các tham số phù hợp.)",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-1-automation-using-a-test-framework-q3",
+    "module": "Introduction to Software Testing Terminology",
+    "question_text": "In a test framework,  we write test cases:\nVN: Trong khung kiểm thử, chúng tôi viết các trường hợp kiểm thử:",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Inside the executed method and we annotate that this part is for testing. (Bên trong phương thức được thực thi và chúng tôi chú thích rằng phần này là để thử nghiệm.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Inside the class to be tested; we annotate that this part is for testing. (Bên trong lớp được kiểm tra; chúng tôi chú thích rằng phần này là để thử nghiệm.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "In a separate class---usually, with one or more test classes per class under test. (Trong một lớp riêng biệt---thông thường, có một hoặc nhiều lớp kiểm tra cho mỗi lớp được kiểm tra.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "All of the above. (Tất cả những điều trên.)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-1-automation-writing-junit-tests-q1",
+    "module": "Introduction to Software Testing Terminology",
+    "question_text": "Given a program that calculates the surface area of sphere A using the equation below where r is the radius of the sphere and is provided by the user, which of the following are valid test cases?\n\n$$A = 4 \\pi r^2$$\nVN: Cho một chương trình tính diện tích bề mặt của hình cầu A bằng phương trình bên dưới trong đó r là bán kính của hình cầu và do người dùng cung cấp, trường hợp nào sau đây là trường hợp kiểm thử hợp lệ?\n\n$$A = 4 \\pi r^2$$",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "input r = 1/2, expected output = 3.14 (đầu vào r = 1/2, đầu ra dự kiến ​​= 3,14)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "input r = -1/2, expected output = invalid input (đầu vào r = -1/2, đầu ra dự kiến ​​= đầu vào không hợp lệ)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "input r = 0, expected output = invalid input (đầu vào r = 0, đầu ra dự kiến ​​= đầu vào không hợp lệ)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "input r = 30, expected output = 11309.73 (đầu vào r = 30, đầu ra dự kiến ​​= 11309,73)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "input r = -1, expected output = invalid input (đầu vào r = -1, đầu ra dự kiến ​​= đầu vào không hợp lệ)",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-1-automation-writing-junit-tests-q2",
+    "module": "Introduction to Software Testing Terminology",
+    "question_text": "Redirection of system input and output for the Coffee Maker example is done in order to test:\nVN: Việc chuyển hướng đầu vào và đầu ra của hệ thống cho ví dụ về Máy pha cà phê được thực hiện để kiểm tra:",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "The main method. (Phương pháp chính.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Any method for a domain class (CoffeeMaker, Recipe, etc.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "All the domain classes in the system. (Tất cả các lớp miền trong hệ thống.)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-1-automation-writing-junit-tests-q3",
+    "module": "Introduction to Software Testing Terminology",
+    "question_text": "Testing is all about corner cases.\nVN: Thử nghiệm là tất cả về các trường hợp góc.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "True. (ĐÚNG VẬY.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "False. (SAI.)",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-1-automation-writing-junit-tests-q4",
+    "module": "Introduction to Software Testing Terminology",
+    "question_text": "The strategy of writing test cases before implementation is:\nVN: Chiến lược viết test case trước khi thực hiện là:",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "A bad idea. Implementation needs to be there to know which test cases you should include. (Một ý tưởng tồi. Việc triển khai cần phải có sẵn để biết bạn nên đưa vào trường hợp thử nghiệm nào.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "A good idea. Test cases should be built based on the expected output and should not be influenced by the implementation. (Một ý tưởng hay. Các trường hợp thử nghiệm phải được xây dựng dựa trên kết quả đầu ra dự kiến ​​và không bị ảnh hưởng bởi việc triển khai.)",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-1-automation-writing-junit-tests-q5",
+    "module": "Introduction to Software Testing Terminology",
+    "question_text": "When you have a new test case:\nVN: Khi bạn có một trường hợp thử nghiệm mới:",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "You need to run it alone to check that it has passed. There is no need to run other, older test cases since they previously passed and they may take a while to rerun. (Bạn cần phải chạy nó một mình để kiểm tra xem nó đã vượt qua chưa. Không cần phải chạy các trường hợp thử nghiệm cũ hơn khác vì chúng đã vượt qua trước đó và có thể mất một lúc để chạy lại.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "All test cases need to be run including the new one. (Tất cả các trường hợp thử nghiệm cần phải được chạy bao gồm cả trường hợp mới.)",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  }
+]

@@ -1,0 +1,29 @@
+{
+  "type": "flashcard",
+  "flashcards": [
+    {
+      "front_text": "Nihao",
+      "back_text": "Xin chào",
+      "pronunciation": "Nǐ hǎo",
+      "image_url": null
+    },
+    {
+      "front_text": "Xiexie",
+      "back_text": "Cảm ơn",
+      "pronunciation": "Xièxie",
+      "image_url": null
+    },
+    {
+      "front_text": "Zaijian",
+      "back_text": "Tạm biệt",
+      "pronunciation": "Zàijiàn",
+      "image_url": null
+    },
+    {
+      "front_text": "Apple",
+      "back_text": "Quả táo",
+      "pronunciation": "Aep-puhl",
+      "image_url": null
+    }
+  ]
+}

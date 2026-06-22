@@ -2,6 +2,20 @@
 	import { DEBUG } from '$lib/config';
 	import BilingualText from '$lib/components/BilingualText.svelte';
 	let isHeld = $state(false);
+	
+	import Prism from 'prismjs';
+	import 'prismjs/themes/prism-tomorrow.css';
+	import 'prismjs/components/prism-c';
+	import 'prismjs/components/prism-java';
+
+	let codeElement = $state<HTMLElement | null>(null);
+
+	$effect(() => {
+		if (codeElement && currentQuestion?.code) {
+			codeElement.textContent = currentQuestion.code;
+			Prism.highlightElement(codeElement);
+		}
+	});
 	import {
 		Star,
 		ArrowUp,
@@ -29,6 +43,7 @@
 		answers?: Array<{ is_correct: boolean }>;
 		question_type: string;
 		image_url?: string | null;
+		code?: string | null;
 	}
 
 	interface QuizQuestion {
@@ -36,6 +51,7 @@
 		question_text?: string;
 		question_type?: string;
 		answers?: unknown[];
+		code?: string | null;
 		[key: string]: unknown;
 	}
 
@@ -364,6 +380,20 @@
 				{quizData.length === 0 ? 'Please select a module to begin.' : ''}
 			{/if}
 		</div>
+		<!-- Question Code Block -->
+		{#if currentQuestion?.code}
+			<div class="question-code mb-4 overflow-hidden rounded-lg border border-[#2d2d2d] bg-[#1e1e1e] shadow-lg">
+				<div class="flex items-center justify-between px-4 py-2 border-b border-[#2d2d2d] bg-[#252526] text-xs text-[#858585] font-mono select-none">
+					<div class="flex items-center gap-2">
+						<span class="w-3 h-3 rounded-full bg-[#ff5f56]"></span>
+						<span class="w-3 h-3 rounded-full bg-[#ffbd2e]"></span>
+						<span class="w-3 h-3 rounded-full bg-[#27c93f]"></span>
+						<span class="ml-2 text-xs">code_snippet.c</span>
+					</div>
+				</div>
+				<pre class="!p-4 !pb-6 !m-0 overflow-x-auto text-sm font-mono leading-relaxed !bg-[#1e1e1e] main-scrollbar"><code bind:this={codeElement} class="language-c">{currentQuestion.code}</code></pre>
+			</div>
+		{/if}
 		<!-- Answers List -->
 		<div class="answers-row flex flex-col gap-3 mb-4">
 			{#if currentQuestion}

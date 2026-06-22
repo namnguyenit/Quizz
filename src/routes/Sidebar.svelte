@@ -54,22 +54,37 @@
 		</button>
 	</div>
 
-	<!-- Question list -->
+	<!-- Question/Flashcard list -->
 	<!-- stopPropagation prevents wheel events from triggering quiz navigation -->
 	<div class="flex-1 overflow-y-auto main-scrollbar p-2 flex flex-col gap-1" onwheel={(e) => e.stopPropagation()}>
-		{#each pageState.quizData as q, idx (q.question_id)}
-			<button
-				class="cursor-pointer sidebar-btn flex items-center justify-between px-4 py-2 rounded-lg text-sm transition-colors {idx ===
-				pageState.current
-					? 'bg-[var(--color-primary)] text-[var(--bg-primary)] font-bold'
-					: 'text-[var(--text-primary)] hover:bg-[var(--bg-hover)]'}"
-				onclick={() => handleQuestionClick(idx)}
-			>
-				<span>Question {idx + 1}</span>
-				{#if favorites.has(q.question_id)}
-					<Star fill="var(--color-accent)" color="var(--color-accent)" size={16} />
-				{/if}
-			</button>
-		{/each}
+		{#if appState.currentView === 'flashcard'}
+			{#each pageState.flashcardData as card, idx (card.id)}
+				<button
+					class="cursor-pointer sidebar-btn flex items-start text-left gap-2 px-4 py-2 rounded-lg text-sm transition-colors {idx ===
+					pageState.current
+						? 'bg-[var(--color-primary)] text-[var(--bg-primary)] font-bold'
+						: 'text-[var(--text-primary)] hover:bg-[var(--bg-hover)]'}"
+					onclick={() => handleQuestionClick(idx)}
+				>
+					<span class="whitespace-nowrap shrink-0">Card {idx + 1}</span>
+					<span class="truncate opacity-80 text-xs mt-0.5">{card.front_text}</span>
+				</button>
+			{/each}
+		{:else}
+			{#each pageState.quizData as q, idx (q.question_id)}
+				<button
+					class="cursor-pointer sidebar-btn flex items-center justify-between px-4 py-2 rounded-lg text-sm transition-colors {idx ===
+					pageState.current
+						? 'bg-[var(--color-primary)] text-[var(--bg-primary)] font-bold'
+						: 'text-[var(--text-primary)] hover:bg-[var(--bg-hover)]'}"
+					onclick={() => handleQuestionClick(idx)}
+				>
+					<span>Question {idx + 1}</span>
+					{#if favorites.has(q.question_id)}
+						<Star fill="var(--color-accent)" color="var(--color-accent)" size={16} />
+					{/if}
+				</button>
+			{/each}
+		{/if}
 	</div>
 </div>

@@ -10,6 +10,7 @@
 		answers?: Array<{ is_correct: boolean }>;
 		question_type: string;
 		image_url?: string | null;
+		code?: string | null;
 		section?: string;
 		reading_title?: string | null;
 		reading_passage?: string | null;
@@ -23,6 +24,7 @@
 			answers: Array.isArray(q.answers) ? (q.answers as Array<{ is_correct: boolean }>) : [],
 			question_type: typeof q.question_type === 'string' ? (q.question_type as string) : 'single',
 			image_url: typeof q.image_url === 'string' ? q.image_url : null,
+			code: typeof q.code === 'string' ? q.code : null,
 			section: typeof q.section === 'string' ? q.section : undefined,
 			reading_title: typeof q.reading_title === 'string' ? q.reading_title : null,
 			reading_passage: typeof q.reading_passage === 'string' ? q.reading_passage : null,

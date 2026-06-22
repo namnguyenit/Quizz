@@ -1,0 +1,889 @@
+[
+  {
+    "question_id": "module-2-dependability-quiz-q1",
+    "module": "Testing Foundations",
+    "question_text": "What is the time ordering (in terms of when a mistake is made or occurs in the running system) of the following: (1) an error, (2) a fault, and (3) a failure?\nVN: Thứ tự thời gian (về thời điểm xảy ra hoặc xảy ra lỗi trong hệ thống đang chạy) như sau: (1) lỗi, (2) lỗi và (3) lỗi?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "1,2,3 (1,2,3)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "1,3,2 (1,3,2)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "2,1,3 (2,1,3)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "2,3,1 (2,3,1)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "3,1,2 (3,1,2)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "3,2,1 (3,2,1)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-2-dependability-quiz-q2",
+    "module": "Testing Foundations",
+    "question_text": "Testing helps with which kind of dependability criteria?\nVN: Kiểm tra giúp loại tiêu chí đáng tin cậy nào?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "fault avoidance (tránh lỗi)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "fault tolerance (khả năng chịu lỗi)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "error removal (loại bỏ lỗi)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "fault forecasting (dự báo lỗi)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-2-dependability-quiz-q3",
+    "module": "Testing Foundations",
+    "question_text": "Availability is the same as reliability.\nVN: Tính sẵn có cũng giống như độ tin cậy.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "True (ĐÚNG VẬY)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "False (SAI)",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-2-dependability-quiz-q4",
+    "module": "Testing Foundations",
+    "question_text": "A correct system (with respect to its requirements) will be safe.\nVN: Một hệ thống chính xác (theo yêu cầu của nó) sẽ an toàn.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "True (ĐÚNG VẬY)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "False (SAI)",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-2-dependability-quiz-q5",
+    "module": "Testing Foundations",
+    "question_text": "A correct system will be reliable.\nVN: Một hệ thống chính xác sẽ đáng tin cậy.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "True (ĐÚNG VẬY)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "False (SAI)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-2-dependability-quiz-q6",
+    "module": "Testing Foundations",
+    "question_text": "Robust systems are reliable.\nVN: Hệ thống mạnh mẽ là đáng tin cậy.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "True (ĐÚNG VẬY)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "False (SAI)",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-2-dependability-quiz-q7",
+    "module": "Testing Foundations",
+    "question_text": "Safe systems are robust.\nVN: Hệ thống an toàn rất mạnh mẽ.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "True (ĐÚNG VẬY)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "False (SAI)",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-2-testing-principles-where-q1",
+    "module": "Testing Foundations",
+    "question_text": "Why do floating point numbers sometimes lead to erroneous code?\nVN: Tại sao số dấu phẩy động đôi khi dẫn đến mã sai?",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "Arithmetic on floating point numbers is often approximate, so it can introduce errors (Số học trên số dấu phẩy động thường mang tính gần đúng nên có thể gây ra lỗi)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Floating point numbers have values that are not actually numbers, such as infinity and NaN (not a number), that can cause computations to behave strangely. (Số dấu phẩy động có các giá trị không thực sự là số, chẳng hạn như vô cực và NaN (không phải số), có thể khiến các phép tính hoạt động kỳ lạ.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "In Java, floating point numbers cannot represent numbers as large as ints and longs (Trong Java, số dấu phẩy động không thể biểu thị các số lớn như int và long)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "As floating point computations are approximate, equality comparisons fail after computations that would succeed when using real numbers (Vì các phép tính dấu phẩy động là gần đúng nên việc so sánh đẳng thức sẽ thất bại sau các phép tính thành công khi sử dụng số thực)",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-2-testing-principles-where-q2",
+    "module": "Testing Foundations",
+    "question_text": "Why do relational boundaries sometimes lead to erroneous code?\nVN: Tại sao ranh giới quan hệ đôi khi dẫn đến mã sai?",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "Programmers often make 'off-by-one' errors (Lập trình viên thường mắc lỗi “từng cái một”)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Determining strict limits on ranges is difficult in requirements engineering (Việc xác định giới hạn nghiêm ngặt về phạm vi là khó khăn trong kỹ thuật yêu cầu)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Relational boundaries define points of discontinuity for programs (Ranh giới quan hệ xác định các điểm gián đoạn cho các chương trình)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "The Java compiler sometimes optimizes these expressions incorrectly (Trình biên dịch Java đôi khi tối ưu hóa các biểu thức này không chính xác)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-2-testing-principles-where-q3",
+    "module": "Testing Foundations",
+    "question_text": "Why do casts sometimes lead to erroneous code?\nVN: Tại sao việc ép kiểu đôi khi dẫn đến mã sai?",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "When converting an integer to a smaller bit length (e.g. long to int), the value may be truncated. (Khi chuyển đổi một số nguyên thành độ dài bit nhỏ hơn (ví dụ: long thành int), giá trị có thể bị cắt bớt.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "When converting to a larger bit length (e.g., int to long), the value may change from positive to negative. (Khi chuyển đổi sang độ dài bit lớn hơn (ví dụ: int thành long), giá trị có thể thay đổi từ dương sang âm.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "When converting from signed to unsigned types (e.g., int to byte), negative numbers can't be represented. (Khi chuyển đổi từ loại có dấu sang loại không dấu (ví dụ: int sang byte), số âm không thể được biểu thị.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "When converting from a double to int, the value is truncated to a whole number. (Khi chuyển đổi từ double sang int, giá trị bị cắt bớt thành số nguyên.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "When converting from an int to double, the integer value may not be exactly representable. (Khi chuyển đổi từ int sang double, giá trị số nguyên có thể không được biểu diễn chính xác.)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-2-testing-principles-how-q1",
+    "module": "Testing Foundations",
+    "question_text": "Why are we often able to test more rigorously at the unit level rather than the system level?\nVN: Tại sao chúng ta thường có thể kiểm tra nghiêm ngặt hơn ở cấp đơn vị hơn là cấp hệ thống?",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "We can usually see more of the internal state at the unit level so we can build stronger oracles. (Chúng ta thường có thể thấy nhiều trạng thái nội bộ hơn ở cấp đơn vị để có thể xây dựng các oracle mạnh hơn.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "There are always fewer dependencies for unit tests than there are for system tests. (Luôn có ít sự phụ thuộc hơn cho các bài kiểm tra đơn vị so với các bài kiểm tra hệ thống.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "The tests tend to run faster, so we can run more of them. (Các bài kiểm tra có xu hướng chạy nhanh hơn, vì vậy chúng tôi có thể chạy nhiều bài kiểm tra hơn.)",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-2-testing-principles-how-q2",
+    "module": "Testing Foundations",
+    "question_text": "When we say that we want redundant verification, what do we mean?\nVN: Khi chúng tôi nói rằng chúng tôi muốn xác minh dư thừa, chúng tôi muốn nói gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "We want lots of similar or same tests. (Chúng tôi muốn có nhiều bài kiểm tra tương tự hoặc giống nhau.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "We want several different verification techniques checking the same program or subsystem. (Chúng tôi muốn một số kỹ thuật xác minh khác nhau kiểm tra cùng một chương trình hoặc hệ thống con.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "We want to re-run proofs of multiple subsystems to make sure we get the same answer. (Chúng tôi muốn chạy lại bằng chứng của nhiều hệ thống con để đảm bảo rằng chúng tôi nhận được cùng một câu trả lời.)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-2-testing-principles-how-q3",
+    "module": "Testing Foundations",
+    "question_text": "Which of the following are good ways to work with developers to reduce systematic errors?\nVN: Cách nào sau đây là cách hiệu quả để làm việc với các nhà phát triển nhằm giảm thiểu lỗi hệ thống?",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "E-mail developers lists of bugs that have been found over the last few months. (Danh sách các lỗi của nhà phát triển e-mail đã được tìm thấy trong vài tháng qua.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Use languages / IDEs that eliminate certain classes of errors by compile-time checks. (Sử dụng các ngôn ngữ/IDE để loại bỏ một số loại lỗi nhất định bằng cách kiểm tra thời gian biên dịch.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Create libraries or utility functions to encapsulate operations that developers tend to get wrong. (Tạo thư viện hoặc chức năng tiện ích để gói gọn các hoạt động mà nhà phát triển có xu hướng mắc sai lầm.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Create tools to test/verify specific kinds of common errors. (Tạo các công cụ để kiểm tra/xác minh các loại lỗi phổ biến cụ thể.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Create checklists for developers based on the most common errors seen in test. (Tạo danh sách kiểm tra cho nhà phát triển dựa trên các lỗi phổ biến nhất được thấy trong thử nghiệm.)",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-2-testing-principles-how-q4",
+    "module": "Testing Foundations",
+    "question_text": "We state that programs, as well as tests, can be flakey.  What does it mean for a program to be flakey?\nVN: Chúng tôi tuyên bố rằng các chương trình cũng như các bài kiểm tra có thể không ổn định.  Việc một chương trình bị lỗi có nghĩa là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Sometimes the program creates different outputs for the same input. (Đôi khi chương trình tạo ra các đầu ra khác nhau cho cùng một đầu vào.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Given the same inputs, sometimes the program fails a test and other times it does not. (Với cùng các đầu vào, đôi khi chương trình không vượt qua được quá trình kiểm tra và những lần khác thì không.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Sometimes the program ends up in different internal states for the same input. (Đôi khi chương trình kết thúc ở các trạng thái nội bộ khác nhau cho cùng một đầu vào.)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-2-testing-principles-how-q5",
+    "module": "Testing Foundations",
+    "question_text": "Why is observability an important issue in testing?\nVN: Tại sao khả năng quan sát lại là một vấn đề quan trọng trong thử nghiệm?",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "Often programs are stateful - that is, a test may trigger an error, but it only becomes visible as an output if a long sequence of steps are executed, whereas it might be immediately visible by examining internal state. (Thông thường, các chương trình có trạng thái - nghĩa là, quá trình kiểm tra có thể gây ra lỗi nhưng nó chỉ hiển thị dưới dạng đầu ra nếu một chuỗi các bước dài được thực thi, trong khi nó có thể hiển thị ngay lập tức bằng cách kiểm tra trạng thái bên trong.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Because developers like to use the 'Observer' pattern and this can often lead to errors because it decouples the domain object and the GUI presentation. (Bởi vì các nhà phát triển thích sử dụng mẫu 'Observer' và điều này thường có thể dẫn đến lỗi vì nó tách rời đối tượng miền và cách trình bày GUI.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "If a program error is transient (it happens and is masked out by other code), you might not be able to \"see\" it and the test may pass. (Nếu lỗi chương trình chỉ xảy ra nhất thời (nó xảy ra và bị mã khác che đi), bạn có thể không \"nhìn thấy\" lỗi đó và bài kiểm tra có thể vượt qua.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Developers often want to hide important information related to their code because they think it leads to job security. (Các nhà phát triển thường muốn giấu đi những thông tin quan trọng liên quan đến code của họ vì họ cho rằng nó dẫn đến bảo mật công việc.)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-2-the-v-model-quiz-q1",
+    "module": "Testing Foundations",
+    "question_text": "The V-Model is:\nVN: Mô hình chữ V là:",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "A testing framework for running tests at each step during software development. (Khung thử nghiệm để chạy thử nghiệm ở mỗi bước trong quá trình phát triển phần mềm.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "A software development model that pairs different stages of software development with the appropriate testing procedure. These tests are later used when checking the verification of each phase of the software. (Một mô hình phát triển phần mềm kết hợp các giai đoạn phát triển phần mềm khác nhau với quy trình kiểm thử thích hợp. Các thử nghiệm này sau đó được sử dụng khi kiểm tra xác minh từng giai đoạn của phần mềm.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "All of the above (Tất cả những điều trên)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-2-the-v-model-quiz-q2",
+    "module": "Testing Foundations",
+    "question_text": "The system design is tested using:\nVN: Thiết kế hệ thống được kiểm tra bằng cách sử dụng:",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Unit Testing. (Kiểm tra đơn vị.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Module Testing. (Kiểm tra mô-đun.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Validation Testing. (Kiểm tra xác nhận.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Verification Testing. (Kiểm tra xác minh.)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-2-the-v-model-quiz-q3",
+    "module": "Testing Foundations",
+    "question_text": "The specification of the system is tested using:\nVN: Đặc điểm kỹ thuật của hệ thống được kiểm tra bằng cách sử dụng:",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Unit Testing (Kiểm tra đơn vị)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Validation Testing. (Kiểm tra xác nhận.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Verification Testing. (Kiểm tra xác minh.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "System Integration Testing. (Kiểm tra tích hợp hệ thống.)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-2-validation-and-verification-in-the-v-model-quiz-q1",
+    "module": "Testing Foundations",
+    "question_text": "The difference between validation and verification is:\nVN: Sự khác biệt giữa xác nhận và xác minh là:",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Validation confirms that we are building the right product while verification confirms that we are building the product right. (Quá trình xác thực xác nhận rằng chúng tôi đang xây dựng đúng sản phẩm trong khi quá trình xác minh xác nhận rằng chúng tôi đang xây dựng đúng sản phẩm.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Validation is planned during the user requirement stage in the V-model while verification is planned during the user specification stage. (Việc xác nhận được lên kế hoạch trong giai đoạn yêu cầu người dùng trong mô hình chữ V trong khi việc xác minh được lên kế hoạch trong giai đoạn đặc tả người dùng.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "None of the above (Không có điều nào ở trên)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "A and B (A và B)",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-2-validation-and-verification-in-the-v-model-quiz-q2",
+    "module": "Testing Foundations",
+    "question_text": "With respect to the V-model, a system that has passed verification testing means:\nVN: Đối với mô hình chữ V, một hệ thống đã vượt qua thử nghiệm xác minh có nghĩa là:",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "The system is done and no further testing is needed. (Hệ thống đã hoàn tất và không cần thử nghiệm thêm.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "The system has passed all tests from unit testing through verification testing and is now ready for validation testing. (Hệ thống đã vượt qua tất cả các bài kiểm tra từ kiểm tra đơn vị đến kiểm tra xác minh và hiện đã sẵn sàng cho kiểm tra xác nhận.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "The system needs to be tested all the way from unit testing up through verification testing, before being claimed correct. (Hệ thống cần phải được kiểm tra toàn bộ từ kiểm tra đơn vị cho đến kiểm tra xác minh trước khi được xác nhận là chính xác.)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-2-validation-and-verification-in-the-v-model-quiz-q3",
+    "module": "Testing Foundations",
+    "question_text": "With respect to the V-model, a valid system implies a verified system:\nVN: Đối với mô hình chữ V, một hệ thống hợp lệ hàm ý một hệ thống đã được xác minh:",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "True. (ĐÚNG VẬY.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "False. (SAI.)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-2-structural-testing-q1",
+    "module": "Testing Foundations",
+    "question_text": "Structural testing is:\nVN: Kiểm tra kết cấu là:",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Black-box testing (Kiểm thử hộp đen)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Blue-box testing (Thử nghiệm hộp xanh)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "White-box testing (Kiểm thử hộp trắng)",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-2-structural-testing-q2",
+    "module": "Testing Foundations",
+    "question_text": "What is not true about structural testing?\nVN: Điều gì không đúng về thử nghiệm cấu trúc?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Structural coverage criteria use the structure of the code to measure the adequacy of tests. (Tiêu chí bao phủ cấu trúc sử dụng cấu trúc của mã để đo lường tính đầy đủ của các bài kiểm tra.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Structural testing is white-box testing. (Kiểm thử cấu trúc là kiểm thử hộp trắng.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "In most cases, it is infeasible to reach 100% structural coverage. (Trong hầu hết các trường hợp, không thể đạt được mức độ bao phủ cấu trúc 100%.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "The goal of testing is to achieve 100% structural coverage to ensure the absence of bugs. (Mục tiêu của thử nghiệm là đạt được mức độ bao phủ cấu trúc 100% để đảm bảo không có lỗi.)",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-2-mutation-testing-q1",
+    "module": "Testing Foundations",
+    "question_text": "Which of the following is not true about mutation testing?\nVN: Điều nào sau đây không đúng về thử nghiệm đột biến?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "With mutation testing, you can know how much of the code structure you covered. (Với thử nghiệm đột biến, bạn có thể biết bạn đã bao phủ bao nhiêu cấu trúc mã.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "The mutation adequacy score tells you the quality of tests; the higher the score, the better the quality of test cases. (Điểm thỏa đáng về đột biến cho bạn biết chất lượng của các bài kiểm tra; điểm càng cao thì chất lượng của các ca kiểm thử càng tốt.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "A mutant is killed when there exists one or more tests that can differentiate between the output of the mutant and the output of the original program. (Một đột biến bị giết khi tồn tại một hoặc nhiều thử nghiệm có thể phân biệt giữa đầu ra của đột biến và đầu ra của chương trình gốc.)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-2-mutation-testing-q2",
+    "module": "Testing Foundations",
+    "question_text": "Which of the following are not true about mutation testing?\nVN: Điều nào sau đây không đúng về thử nghiệm đột biến?",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "You only create one mutant for mutation testing. (Bạn chỉ tạo một đột biến để kiểm tra đột biến.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "A mutant and the original program are syntactically different. (Chương trình đột biến và chương trình gốc khác nhau về mặt cú pháp.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "The mutation operator introduces a syntactic change to the program so that the mutant cannot be compiled. (Toán tử đột biến đưa ra một thay đổi cú pháp cho chương trình để đột biến không thể được biên dịch.)",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-2-mutation-testing-q3",
+    "module": "Testing Foundations",
+    "question_text": "Jenny wrote a program and created 10 test cases. She also created 50 mutants from the original program to measure the adequacy of her test inputs using mutation testing. After running all of the test cases against each of the mutants, Jenny found that all of the test cases had passed on all of the mutants. In this situation, what is the most appropriate step she should take next?\nVN: Jenny đã viết một chương trình và tạo ra 10 trường hợp thử nghiệm. Cô cũng tạo ra 50 đột biến từ chương trình ban đầu để đo lường mức độ đầy đủ của các đầu vào thử nghiệm của mình bằng thử nghiệm đột biến. Sau khi chạy tất cả các trường hợp thử nghiệm đối với từng người đột biến, Jenny nhận thấy rằng tất cả các trường hợp thử nghiệm đều đã chuyển sang tất cả các người đột biến. Trong tình huống này, bước đi thích hợp nhất cô ấy nên làm tiếp theo là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "She should write more test cases. (Cô ấy nên viết nhiều trường hợp thử nghiệm hơn.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "She can stop testing because all the tests have passed. (Cô ấy có thể ngừng kiểm tra vì tất cả các bài kiểm tra đã vượt qua.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "She should create more mutants. (Cô ấy nên tạo ra nhiều dị nhân hơn.)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-2-on-basic-testing-terminology-dependability-and-testing-principles-q1",
+    "module": "Testing Foundations",
+    "question_text": "Why is testing considered an 'optimistic' verification technology?\nVN: Tại sao thử nghiệm được coi là công nghệ xác minh “lạc quan”?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Any tests that fail may not actually matter from the user's perspective (Bất kỳ thử nghiệm nào thất bại có thể không thực sự quan trọng theo quan điểm của người dùng)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "You can use testing on any kind of software, whereas you can only run static analysis or proofs on small systems. (Bạn có thể sử dụng thử nghiệm trên bất kỳ loại phần mềm nào, trong khi bạn chỉ có thể chạy phân tích hoặc thử nghiệm tĩnh trên các hệ thống nhỏ.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "The tests may all pass but the program may still be incorrect (Các bài kiểm tra có thể đều đạt nhưng chương trình vẫn có thể sai)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Some tests may fail, but the program may be correct. (Một số thử nghiệm có thể thất bại, nhưng chương trình có thể đúng.)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-2-on-basic-testing-terminology-dependability-and-testing-principles-q2",
+    "module": "Testing Foundations",
+    "question_text": "If a test fails, it could mean:\nVN: Nếu thử nghiệm thất bại, điều đó có thể có nghĩa là:",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "There is no problem (Không có vấn đề gì)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "The program is incorrect (Chương trình không đúng)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "The test itself is incorrect (Bản thân bài kiểm tra không chính xác)",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-2-on-basic-testing-terminology-dependability-and-testing-principles-q3",
+    "module": "Testing Foundations",
+    "question_text": "Suppose we have two systems A and B, and A is more rigorously tested than B.  Does System A better meet its quality goals than System B?\nVN: Giả sử chúng ta có hai hệ thống A và B, và A được kiểm tra nghiêm ngặt hơn B. Hệ thống A có đáp ứng các mục tiêu chất lượng tốt hơn Hệ thống B không?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Yes (Đúng)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "No (KHÔNG)",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-2-on-basic-testing-terminology-dependability-and-testing-principles-q4",
+    "module": "Testing Foundations",
+    "question_text": "Unit test is used to test: (choose best answer)\nVN: Unit test dùng để kiểm tra: (chọn câu trả lời đúng nhất)",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "User initial requirements. (Yêu cầu ban đầu của người dùng.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "All of the above. (Tất cả những điều trên.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Implementation of the software. (Triển khai phần mềm.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Design of the software. (Thiết kế của phần mềm.)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-2-on-basic-testing-terminology-dependability-and-testing-principles-q5",
+    "module": "Testing Foundations",
+    "question_text": "'Service' is the system behavior as defined by the software requirements.\nVN: 'Dịch vụ' là hành vi của hệ thống được xác định bởi các yêu cầu phần mềm.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "False (SAI)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "True (ĐÚNG VẬY)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-2-on-basic-testing-terminology-dependability-and-testing-principles-q6",
+    "module": "Testing Foundations",
+    "question_text": "A latent error becomes an effective error when\nVN: Một lỗi tiềm ẩn trở thành một lỗi hiệu quả khi",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "the error causes the program to return something unexpected to the user. (lỗi khiến chương trình trả về điều gì đó không mong muốn cho người dùng.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "the program executes the line of code containing the latent error. (chương trình thực thi dòng mã chứa lỗi tiềm ẩn.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "the user types it into the code (người dùng nhập nó vào mã)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "the program reaches a state where the error manifests. (chương trình đạt đến trạng thái xuất hiện lỗi.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "the program starts executing (chương trình bắt đầu thực thi)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-2-on-basic-testing-terminology-dependability-and-testing-principles-q7",
+    "module": "Testing Foundations",
+    "question_text": "Does a program terminating with an error always indicate a failure?\nVN: Có phải chương trình kết thúc với một lỗi luôn báo lỗi không?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Yes (Đúng)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "No (KHÔNG)",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-2-on-basic-testing-terminology-dependability-and-testing-principles-q8",
+    "module": "Testing Foundations",
+    "question_text": "Adaptive cruise control software that continues to run in the presence of multiple hardware and service failures but regularly misjudges the distance between cars by a substantial amount is an example of a ______ system.\nVN: Phần mềm điều khiển hành trình thích ứng tiếp tục chạy khi có nhiều lỗi phần cứng và dịch vụ nhưng thường xuyên đánh giá sai khoảng cách giữa các ô tô ở mức đáng kể là một ví dụ về hệ thống ______.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "certainly reliable (chắc chắn đáng tin cậy)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "certainly correct (chắc chắn đúng)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "certainly safe (chắc chắn an toàn)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "certainly incorrect (chắc chắn là sai)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "certainly robust (chắc chắn mạnh mẽ)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-2-on-basic-testing-terminology-dependability-and-testing-principles-q9",
+    "module": "Testing Foundations",
+    "question_text": "Mutation testing is a _______ metric\nVN: Kiểm tra đột biến là một số liệu _______",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "black-box (hộp đen)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "gray-box (hộp màu xám)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "white-box (hộp trắng)",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-2-on-basic-testing-terminology-dependability-and-testing-principles-q10",
+    "module": "Testing Foundations",
+    "question_text": "Which of the following are true about testing? Check all that apply.\nVN: Điều nào sau đây là đúng về thử nghiệm? Đánh dấu tất cả những gì áp dụng.",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "It is difficult to do rigorously. (Thật khó để thực hiện một cách nghiêm túc.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "It documents system behavior. (Nó ghi lại hành vi của hệ thống.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "It can sometimes find errors that are not actively looked for, when (for example) a program crashes during execution of a test case. (Đôi khi nó có thể tìm thấy các lỗi không được tìm kiếm tích cực, khi (ví dụ) một chương trình gặp sự cố trong khi thực hiện một trường hợp kiểm thử.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "It checks the whole system, including software that you didn't write. (Nó kiểm tra toàn bộ hệ thống, bao gồm cả phần mềm mà bạn không viết.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "It can conclusively determine whether the software is correct. (Nó có thể xác định chắc chắn liệu phần mềm có đúng hay không.)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-2-on-basic-testing-terminology-dependability-and-testing-principles-q11",
+    "module": "Testing Foundations",
+    "question_text": "Tasks that can be part of the Tear Down phase are (choose two answers):\nVN: Các nhiệm vụ có thể là một phần của giai đoạn Tear Down là (chọn hai câu trả lời):",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "Initialize test case values. (Khởi tạo các giá trị trường hợp thử nghiệm.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Remove data you added after testing is done. (Xóa dữ liệu bạn đã thêm sau khi kiểm tra xong.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Open connection for testing. (Mở kết nối để thử nghiệm.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Close connection after testing is done. (Đóng kết nối sau khi kiểm tra xong.)",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-2-on-basic-testing-terminology-dependability-and-testing-principles-q12",
+    "module": "Testing Foundations",
+    "question_text": "In the JUnit test framework, we write test cases (choose the best answer):\nVN: Trong khung kiểm thử JUnit, chúng tôi viết các trường hợp kiểm thử (chọn câu trả lời đúng nhất):",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "inside the executed method and we annotate that this part is for testing. (bên trong phương thức được thực thi và chúng tôi chú thích rằng phần này là để thử nghiệm.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "inside the class to be tested we annotate that this part is for testing. (bên trong lớp cần kiểm tra chúng tôi chú thích rằng phần này là để kiểm tra.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "in a separate class, and for each method in the program we associated a test case(s) to test the correctness of the method. (trong một lớp riêng biệt và đối với mỗi phương thức trong chương trình, chúng tôi liên kết (các) trường hợp thử nghiệm để kiểm tra tính đúng đắn của phương thức.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "All of the above. (Tất cả những điều trên.)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-2-on-basic-testing-terminology-dependability-and-testing-principles-q13",
+    "module": "Testing Foundations",
+    "question_text": "Concurrent systems are quite difficult to test because (choose the best answer):\nVN: Các hệ thống đồng thời khá khó kiểm tra vì (chọn câu trả lời đúng nhất):",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "the different potential interleavings of threads leads to 'race conditions' where the program may behave differently between executions (khả năng xen kẽ các luồng khác nhau dẫn đến 'điều kiện chạy đua' trong đó chương trình có thể hoạt động khác nhau giữa các lần thực thi)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "to ensure that only one thread uses a variable at a time, Java 'synchronized' code can lead to deadlocks where each thread is blocked waiting for another thread. (để đảm bảo rằng tại một thời điểm chỉ có một luồng sử dụng một biến, mã 'được đồng bộ hóa' của Java có thể dẫn đến bế tắc trong đó mỗi luồng bị chặn để chờ một luồng khác.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "All of the above (Tất cả những điều trên)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "the different potential interleavings of threads means that there are many more possible system states (khả năng xen kẽ các luồng khác nhau có nghĩa là có nhiều trạng thái hệ thống khả thi hơn)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  }
+]

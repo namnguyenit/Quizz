@@ -1,9 +1,13 @@
 <script lang="ts">
-	import { BookOpen, ChevronRight } from '@lucide/svelte';
-	import { uiState, loadQuiz } from './global.svelte';
+	import { BookOpen, ChevronRight, Layers } from '@lucide/svelte';
+	import { uiState, loadQuiz, loadFlashcard } from './global.svelte';
 
 	function handleQuizClick(quizId: string) {
 		loadQuiz(quizId);
+	}
+
+	function handleFlashcardClick(quizId: string) {
+		loadFlashcard(quizId);
 	}
 </script>
 
@@ -42,10 +46,13 @@
 							{#each subject.quizzes as quiz (quiz.id)}
 								<button
 									class="group cursor-pointer text-left p-4 rounded-xl bg-[var(--bg-surface)] border border-[var(--border)] hover:border-[var(--color-primary)] hover:bg-[var(--bg-hover)] transition-all duration-200"
-									onclick={() => handleQuizClick(quiz.id)}
+									onclick={() => quiz.type === 'flashcard' ? handleFlashcardClick(quiz.id) : handleQuizClick(quiz.id)}
 								>
 									<div class="flex items-start justify-between gap-2">
-										<div class="flex-1 min-w-0">
+										<div class="flex-1 min-w-0 flex items-center gap-2">
+											{#if quiz.type === 'flashcard'}
+												<Layers size={18} class="text-[var(--text-secondary)] group-hover:text-[var(--color-primary)] transition-colors" />
+											{/if}
 											<h3
 												class="font-semibold text-[var(--text-primary)] group-hover:text-[var(--color-primary)] transition-colors truncate"
 											>

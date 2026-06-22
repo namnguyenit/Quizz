@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { dev } from '$app/environment';
+	import '@fontsource/noto-sans-sc';
 	import '@fontsource-variable/noto-sans';
 	import '@fontsource-variable/plus-jakarta-sans';
 	import '@fontsource-variable/outfit';
