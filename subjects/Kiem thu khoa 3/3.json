@@ -1,0 +1,397 @@
+[
+    {
+        "question_id": "module-3-q1",
+        "module": "Static Analysis",
+        "question_text": "Static analysis is used to:\nVN: Phân tích tĩnh được sử dụng để:",
+        "question_type": "multiple_answer_question",
+        "answers": [
+            {
+                "answer_text": "test programs. (kiểm thử chương trình.)",
+                "is_correct": true
+            },
+            {
+                "answer_text": "to analyze program behavior over any input (để phân tích hành vi của chương trình trên mọi đầu vào)",
+                "is_correct": true
+            },
+            {
+                "answer_text": "to measure system performance (để đo lường hiệu năng hệ thống)",
+                "is_correct": false
+            },
+            {
+                "answer_text": "to replace compilers (để thay thế trình biên dịch)",
+                "is_correct": false
+            }
+        ],
+        "code": ""
+    },
+    {
+        "question_id": "module-3-q2",
+        "module": "Static Analysis",
+        "question_text": "Dynamic testing is one way to test a program for all inputs.\nVN: Kiểm thử động là một cách để kiểm thử chương trình với tất cả các đầu vào.",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_text": "True (Đúng)",
+                "is_correct": true
+            },
+            {
+                "answer_text": "False (Sai)",
+                "is_correct": false
+            }
+        ],
+        "code": ""
+    },
+    {
+        "question_id": "module-3-q3",
+        "module": "Static Analysis",
+        "question_text": "Static analysis can be used to establish a property for all executions of the program.\nVN: Phân tích tĩnh có thể được sử dụng để chứng minh một thuộc tính trên mọi luồng thực thi của chương trình.",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_text": "True (Đúng)",
+                "is_correct": true
+            },
+            {
+                "answer_text": "False (Sai)",
+                "is_correct": false
+            }
+        ],
+        "code": ""
+    },
+    {
+        "question_id": "module-3-q4",
+        "module": "Static Analysis",
+        "question_text": "Static analysis can produce the reason why a property holds.\nVN: Phân tích tĩnh có thể đưa ra lý do tại sao một thuộc tính lại được thỏa mãn.",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_text": "True (Đúng)",
+                "is_correct": false
+            },
+            {
+                "answer_text": "False. (Sai.)",
+                "is_correct": true
+            }
+        ],
+        "code": ""
+    },
+    {
+        "question_id": "module-3-q5",
+        "module": "Static Analysis",
+        "question_text": "Static analysis can be used to explore properties of multi-threaded programs\nVN: Phân tích tĩnh có thể được sử dụng để khám phá các thuộc tính của chương trình đa luồng.",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_text": "True (Đúng)",
+                "is_correct": true
+            },
+            {
+                "answer_text": "False (Sai)",
+                "is_correct": false
+            }
+        ],
+        "code": ""
+    },
+    {
+        "question_id": "module-3-q6",
+        "module": "Static Analysis",
+        "question_text": "Overapproximation is not sound because you are increasing the analysis to what is not in the system.\nVN: Xấp xỉ trên (overapproximation) là không chặt chẽ (not sound) vì bạn đang mở rộng phạm vi phân tích sang cả những thứ không tồn tại trong hệ thống.",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_text": "True. (Đúng.)",
+                "is_correct": false
+            },
+            {
+                "answer_text": "False. (Sai.)",
+                "is_correct": true
+            }
+        ],
+        "code": ""
+    },
+    {
+        "question_id": "module-3-q7",
+        "module": "Static Analysis",
+        "question_text": "The consequence of Rice theorem is that\nVN: Hệ quả của định lý Rice là",
+        "question_type": "multiple_answer_question",
+        "answers": [
+            {
+                "answer_text": "one can work with overapproximation of program analysis. (người ta có thể làm việc với xấp xỉ trên (overapproximation) khi phân tích chương trình.)",
+                "is_correct": true
+            },
+            {
+                "answer_text": "one can work with underapproximation of program analysis. (người ta có thể làm việc với xấp xỉ dưới (underapproximation) khi phân tích chương trình.)",
+                "is_correct": true
+            },
+            {
+                "answer_text": "one can work with exact analysis of the program. (người ta có thể làm việc với phân tích chính xác tuyệt đối của chương trình.)",
+                "is_correct": false
+            }
+        ],
+        "code": ""
+    },
+    {
+        "question_id": "module-3-q8",
+        "module": "Static Analysis",
+        "question_text": "Because of overapproximation:\nVN: Do sử dụng xấp xỉ trên (overapproximation):",
+        "question_type": "multiple_answer_question",
+        "answers": [
+            {
+                "answer_text": "real faults can be detected. (có thể phát hiện được các lỗi thực tế.)",
+                "is_correct": true
+            },
+            {
+                "answer_text": "false faults can be raised. (có thể phát sinh các lỗi giả (cảnh báo giả).)",
+                "is_correct": false
+            },
+            {
+                "answer_text": "None of the above. Overapproximation is not helpful or related to fault finding. (Không có đáp án nào đúng. Xấp xỉ trên không có ích hoặc không liên quan đến việc tìm kiếm lỗi.)",
+                "is_correct": false
+            }
+        ],
+        "code": ""
+    },
+    {
+        "question_id": "module-3-q9",
+        "module": "Static Analysis",
+        "question_text": "Select all that apply:\nVN: Chọn tất cả các đáp án đúng:",
+        "question_type": "multiple_answer_question",
+        "answers": [
+            {
+                "answer_text": "Testing can scale to larger programs while static analysis cannot. (Kiểm thử có thể mở rộng quy mô cho các chương trình lớn trong khi phân tích tĩnh thì không.)",
+                "is_correct": true
+            },
+            {
+                "answer_text": "Testing is used to show the absence of classes of faults. (Kiểm thử được sử dụng để chứng minh sự vắng mặt của các nhóm lỗi.)",
+                "is_correct": false
+            },
+            {
+                "answer_text": "Static analysis is used to show the absence of classes of faults. (Phân tích tĩnh được sử dụng để chứng minh sự vắng mặt của các nhóm lỗi.)",
+                "is_correct": true
+            },
+            {
+                "answer_text": "Testing is optimistically inaccurate and may lead to acceptance of faulty program. (Kiểm thử mang tính thiếu chính xác lạc quan (optimistically inaccurate) và có thể dẫn đến việc chấp nhận một chương trình có lỗi.)",
+                "is_correct": true
+            }
+        ],
+        "code": ""
+    },
+    {
+        "question_id": "module-3-q10",
+        "module": "Static Analysis",
+        "question_text": "Analyzing programs matters because programs have faults that are not revealed by testing.\nVN: Việc phân tích chương trình là quan trọng vì chương trình có thể chứa những lỗi mà quá trình kiểm thử không phát hiện ra được.",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_text": "True. (Đúng.)",
+                "is_correct": true
+            },
+            {
+                "answer_text": "False (Sai)",
+                "is_correct": false
+            }
+        ],
+        "code": ""
+    },
+    {
+        "question_id": "module-3-q11",
+        "module": "Static Analysis",
+        "question_text": "Important conditions to determine about programs to analyze are: (Check all that apply)\nVN: Các điều kiện quan trọng cần xác định đối với chương trình cần phân tích là: (Chọn tất cả các đáp án đúng)",
+        "question_type": "multiple_answer_question",
+        "answers": [
+            {
+                "answer_text": "Pre-Condition (Tiền điều kiện)",
+                "is_correct": true
+            },
+            {
+                "answer_text": "Post-Condition (Hậu điều kiện)",
+                "is_correct": true
+            },
+            {
+                "answer_text": "Invariants (Các bất biến)",
+                "is_correct": true
+            },
+            {
+                "answer_text": "A and B (A và B)",
+                "is_correct": false
+            }
+        ],
+        "code": ""
+    },
+    {
+        "question_id": "module-3-q12",
+        "module": "Static Analysis",
+        "question_text": "Check all that are true.\nVN: Chọn tất cả các phát biểu đúng.",
+        "question_type": "multiple_answer_question",
+        "answers": [
+            {
+                "answer_text": "Annotations are synonym to assertions. (Chú thích (annotation) là từ đồng nghĩa với khẳng định (assertion).)",
+                "is_correct": false
+            },
+            {
+                "answer_text": "Assertions is a boolean-valued expression that is expected to be always true at the point of the program. (Khẳng định (assertion) là một biểu thức mang giá trị boolean được kỳ vọng là luôn đúng tại thời điểm thực thi đó của chương trình.)",
+                "is_correct": true
+            },
+            {
+                "answer_text": "Annotations are a metadata added to the source code with no direct effect on the operation of the code that they annotate. (Chú thích (annotation) là siêu dữ liệu được thêm vào mã nguồn và không gây ảnh hưởng trực tiếp đến hoạt động của đoạn mã mà chúng chú thích.)",
+                "is_correct": true
+            },
+            {
+                "answer_text": "All of the above. (Tất cả các đáp án trên.)",
+                "is_correct": false
+            },
+            {
+                "answer_text": "None of the above. (Không có đáp án nào ở trên.)",
+                "is_correct": false
+            }
+        ],
+        "code": ""
+    },
+    {
+        "question_id": "module-3-q13",
+        "module": "Static Analysis",
+        "question_text": "A static analysis technique overapproximates the reachable states of a program, to examine those states and determine if the program could ever reach an undesirable state.  Such an analysis is:\nVN: Một kỹ thuật phân tích tĩnh thực hiện xấp xỉ trên (overapproximate) các trạng thái có thể đạt tới của một chương trình, nhằm kiểm tra các trạng thái đó và xác định xem chương trình có khả năng rơi vào một trạng thái không mong muốn nào hay không. Phân tích như vậy được gọi là:",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_text": "optimistic\n\ni.e., the analysis may result in a \"no\"  answer for some programs that  exhibit undesirable behavior on some input. (lạc quan (optimistic)\n\nnghĩa là phân tích có thể trả về kết quả \"không\" đối với một số chương trình thực sự có phát sinh hành vi không mong muốn trên một vài đầu vào nào đó.)",
+                "is_correct": false
+            },
+            {
+                "answer_text": "pessimistic\n\ni.e., the analysis may result in a \"yes\" answer for some programs do not exhibit undesirable behavior on any input. (bi quan (pessimistic)\n\nnghĩa là phân tích có thể trả về kết quả \"có\" (báo lỗi) đối với một số chương trình thực chất không hề phát sinh hành vi không mong muốn trên bất kỳ đầu vào nào.)",
+                "is_correct": true
+            },
+            {
+                "answer_text": "precise\n\ni.e., the analysis result is always correct; the analysis will answer \"yes\" for exactly those programs that do not reach undesirable states on any input. (chính xác (precise)\n\nnghĩa là kết quả phân tích luôn đúng; phân tích sẽ chỉ trả về \"có\" cho chính xác những chương trình không bao giờ rơi vào trạng thái không mong muốn trên bất kỳ đầu vào nào.)",
+                "is_correct": false
+            }
+        ],
+        "code": ""
+    },
+    {
+        "question_id": "module-3-q14",
+        "module": "Static Analysis",
+        "question_text": "The above is a representation of a Java compilation output showing an error in a piece of Java code.  In this instance, the error indicated is\nVN: Đoạn trên mô tả một kết quả biên dịch Java cho thấy có lỗi trong đoạn mã. Trong trường hợp này, lỗi được chỉ ra là:",
+        "question_type": "multiple_answer_question",
+        "answers": [
+            {
+                "answer_text": "an indication of a real use-before-intialization fault (dấu hiệu của một lỗi sử dụng biến trước khi khởi tạo (use-before-initialization) thực sự)",
+                "is_correct": false
+            },
+            {
+                "answer_text": "an example of a false alarm (một ví dụ về cảnh báo giả (false alarm))",
+                "is_correct": true
+            },
+            {
+                "answer_text": "The result of executing the code (Kết quả của việc thực thi mã lệnh)",
+                "is_correct": false
+            },
+            {
+                "answer_text": "the result of a static analysis (kết quả của một quá trình phân tích tĩnh)",
+                "is_correct": true
+            }
+        ],
+        "code": ""
+    },
+    {
+        "question_id": "module-3-q15",
+        "module": "Static Analysis",
+        "question_text": "Examples of analyses that can be cast as dataflow analysis problems include:\nVN: Các ví dụ về phân tích có thể được mô hình hóa thành các bài toán phân tích luồng dữ liệu (dataflow analysis) bao gồm:",
+        "question_type": "multiple_answer_question",
+        "answers": [
+            {
+                "answer_text": "taint analysis\n\ni.e., is there a potential for tainted input to be used at a particular statement where a sensitive operation is performed? (phân tích lan truyền vết (taint analysis)\n\nnghĩa là liệu có khả năng một đầu vào không an toàn (tainted input) bị đem ra sử dụng tại một câu lệnh thực thi thao tác nhạy cảm hay không?)",
+                "is_correct": true
+            },
+            {
+                "answer_text": "use-before-initialization\n\ni.e., analysis to determine if there is a potential use of a variable before it is initialized (sử dụng trước khi khởi tạo (use-before-initialization)\n\nnghĩa là phân tích để xác định xem liệu có khả năng một biến bị đem ra sử dụng trước khi được khởi tạo hay không)",
+                "is_correct": true
+            },
+            {
+                "answer_text": "assertion-violation-detection\n\ni.e., analysis to determine if an assertion violation can occur. (phát hiện vi phạm khẳng định (assertion-violation-detection)\n\nnghĩa là phân tích để xác định xem việc vi phạm các câu lệnh khẳng định có thể xảy ra hay không.)",
+                "is_correct": false
+            }
+        ],
+        "code": ""
+    },
+    {
+        "question_id": "module-3-q16",
+        "module": "Static Analysis",
+        "question_text": "Assert statements in a program capture expectation of what must be true when execution reaches a certain point in the program. Such expectations may capture:\nVN: Các câu lệnh khẳng định (assert) trong chương trình thể hiện kỳ vọng về những điều bắt buộc phải đúng khi quá trình chạy chạm đến một điểm nhất định. Những kỳ vọng này có thể thể hiện:",
+        "question_type": "multiple_answer_question",
+        "answers": [
+            {
+                "answer_text": "Pre-condition\n\nWhat is expected to be true before a part of a code is executed. (Tiền điều kiện (Pre-condition)\n\nĐiều được kỳ vọng là đúng trước khi một đoạn mã được thực thi.)",
+                "is_correct": true
+            },
+            {
+                "answer_text": "Invariant\n\nWhat is expected to be true every time some code is executed. (Bất biến (Invariant)\n\nĐiều được kỳ vọng là luôn đúng mỗi khi một đoạn mã được thực thi.)",
+                "is_correct": true
+            },
+            {
+                "answer_text": "Post-condition\n\nWhat is expected to be true after a part of a code is executed. (Hậu điều kiện (Post-condition)\n\nĐiều được kỳ vọng là đúng sau khi một đoạn mã được thực thi.)",
+                "is_correct": true
+            }
+        ],
+        "code": ""
+    },
+    {
+        "question_id": "module-3-q17",
+        "module": "Static Analysis",
+        "question_text": "\"Simple checks on programs for naming conventions are not useful for detecting or preventing defects\".  Provide one argument or reason to counter this statement.\nVN: \"Các kiểm tra đơn giản trên chương trình để xem xét quy tắc đặt tên (naming conventions) không có ích lợi gì cho việc phát hiện hoặc ngăn ngừa lỗi\". Hãy đưa ra một lập luận hoặc lý do để phản bác lại nhận định này.",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_text": "Naming conventions improve code readability and help prevent bugs caused by confusing variable names. (Quy tắc đặt tên cải thiện khả năng đọc hiểu mã nguồn và giúp ngăn ngừa lỗi phát sinh do tên biến gây nhầm lẫn.)",
+                "is_correct": true
+            }
+        ],
+        "code": ""
+    },
+    {
+        "question_id": "module-3-q18",
+        "module": "Static Analysis",
+        "question_text": "Program annotations are useful for providing information to tools that analyze the programs.  Such annotations\nVN: Các chú thích (annotations) trong chương trình rất hữu ích để cung cấp thông tin cho các công cụ phân tích. Những chú thích này:",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_text": "Can be used only for static analysis\n\ni.e., the information cannot be made available at runtime (Chỉ có thể được sử dụng cho phân tích tĩnh\n\nnghĩa là thông tin này không thể được truy xuất trong lúc chạy (runtime))",
+                "is_correct": false
+            },
+            {
+                "answer_text": "May affect program behavior\n\ni.e., the semantics of the program may change (Có thể ảnh hưởng đến hành vi của chương trình\n\nnghĩa là ngữ nghĩa của chương trình có thể bị thay đổi)",
+                "is_correct": false
+            },
+            {
+                "answer_text": "Carry metainformation\n\ni.e., provide information about program elements (Mang siêu dữ liệu (metainformation)\n\nnghĩa là cung cấp các thông tin bổ sung về các thành phần trong chương trình)",
+                "is_correct": true
+            }
+        ],
+        "code": ""
+    },
+    {
+        "question_id": "module-3-q19",
+        "module": "Static Analysis",
+        "question_text": "Executing a program P on three different inputs 1, 10, and 100, we observe the respective outputs to be  0, 1 and 2. Which of the following can be inferred from this observation.\nVN: Thực thi chương trình P với ba đầu vào khác nhau 1, 10 và 100, chúng ta thu được các đầu ra tương ứng là 0, 1 và 2. Điều nào sau đây có thể được suy ra từ quan sát này.",
+        "question_type": "multiple_answer_question",
+        "answers": [
+            {
+                "answer_text": "Any correct description of the behavior of the program should allow the pairs (1, 0), (10, 1) and (100, 2) for the value of (input, output). (Bất kỳ mô tả chính xác nào về hành vi của chương trình cũng đều phải cho phép các cặp (1, 0), (10, 1) và (100, 2) cho giá trị của (đầu vào, đầu ra).)",
+                "is_correct": true
+            },
+            {
+                "answer_text": "The program outputs the number of digits of the input that are zero. (Chương trình xuất ra số lượng chữ số 0 có trong đầu vào.)",
+                "is_correct": false
+            },
+            {
+                "answer_text": "The property \"output is a non-zero integer\" is not satisfied by this program. (Thuộc tính \"đầu ra là một số nguyên khác 0\" không được thỏa mãn bởi chương trình này.)",
+                "is_correct": true
+            },
+            {
+                "answer_text": "Suppose we conclude from the three observations that the property \"output is less than input\" holds true for this program. This could be a potential case of optimistic inaccuracy. (Giả sử dựa trên ba quan sát đó, chúng ta kết luận rằng thuộc tính \"đầu ra nhỏ hơn đầu vào\" là luôn đúng đối với chương trình này. Đây có thể là một trường hợp tiềm ẩn của sai số lạc quan (optimistic inaccuracy).)",
+                "is_correct": true
+            }
+        ],
+        "code": ""
+    }
+]

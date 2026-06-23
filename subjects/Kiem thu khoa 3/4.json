@@ -1,0 +1,1007 @@
+[
+    {
+        "question_id": "module-4-q1",
+        "module": "Effective Automated Verification",
+        "question_text": "With regression testing, we are able to determine whether changes in the software affected its intended behavior.\nVN: Với kiểm thử hồi quy (regression testing), chúng ta có thể xác định xem những thay đổi trong phần mềm có làm ảnh hưởng đến hành vi mong muốn của nó hay không.",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_text": "True (Đúng)",
+                "is_correct": true
+            },
+            {
+                "answer_text": "False (Sai)",
+                "is_correct": false
+            }
+        ],
+        "code": ""
+    },
+    {
+        "question_id": "module-4-q2",
+        "module": "Effective Automated Verification",
+        "question_text": "Determining the sufficiency of tests in a test suite is known as _______ in regression testing.\nVN: Việc xác định tính đầy đủ của các ca kiểm thử trong một bộ kiểm thử được gọi là _______ trong kiểm thử hồi quy.",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_text": "test selection problem (bài toán chọn lọc ca kiểm thử (test selection problem))",
+                "is_correct": false
+            },
+            {
+                "answer_text": "coverage identification problem (bài toán xác định độ phủ (coverage identification problem))",
+                "is_correct": true
+            },
+            {
+                "answer_text": "test suite maintenance problem (bài toán bảo trì bộ kiểm thử (test suite maintenance problem))",
+                "is_correct": false
+            }
+        ],
+        "code": ""
+    },
+    {
+        "question_id": "module-4-q3",
+        "module": "Effective Automated Verification",
+        "question_text": "Known as test selection problem, is the challenge engineers face when having to choose which part of the test suite is about to fail after functional changes in the source code.\nVN: Được gọi là bài toán chọn lọc ca kiểm thử (test selection problem), đây là thách thức mà các kỹ sư phải đối mặt khi cần chọn ra phần nào trong bộ kiểm thử có khả năng sẽ fail (thất bại) sau khi có những thay đổi về tính năng trong mã nguồn.",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_text": "True (Đúng)",
+                "is_correct": false
+            },
+            {
+                "answer_text": "False (Sai)",
+                "is_correct": true
+            }
+        ],
+        "code": ""
+    },
+    {
+        "question_id": "module-4-q4",
+        "module": "Effective Automated Verification",
+        "question_text": "In software maintenance phase, changes may affect...\nVN: Trong giai đoạn bảo trì phần mềm, các thay đổi có thể gây ảnh hưởng đến...",
+        "question_type": "multiple_answer_question",
+        "answers": [
+            {
+                "answer_text": "tests (các ca kiểm thử)",
+                "is_correct": true
+            },
+            {
+                "answer_text": "requirements (các yêu cầu)",
+                "is_correct": true
+            },
+            {
+                "answer_text": "implementation (mã nguồn triển khai)",
+                "is_correct": true
+            }
+        ],
+        "code": ""
+    },
+    {
+        "question_id": "module-4-q5",
+        "module": "Effective Automated Verification",
+        "question_text": "How are software requirements used in property-based oracles?\nVN: Các yêu cầu phần mềm được sử dụng như thế nào trong các oracle dựa trên thuộc tính (property-based oracles)?",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_text": "The requirements are used to create tests for the program (Các yêu cầu được sử dụng để sinh ra các ca kiểm thử cho chương trình)",
+                "is_correct": false
+            },
+            {
+                "answer_text": "The properties that the oracle checks are expressed through the requirements (Các thuộc tính mà oracle kiểm tra được biểu diễn thông qua các yêu cầu)",
+                "is_correct": true
+            }
+        ],
+        "code": ""
+    },
+    {
+        "question_id": "module-4-q6",
+        "module": "Effective Automated Verification",
+        "question_text": "The biggest challenge in regression testing lies in creating strong oracles to judge the updated program.\nVN: Thách thức lớn nhất trong kiểm thử hồi quy nằm ở việc tạo ra các oracle đủ mạnh để đánh giá chương trình sau khi cập nhật.",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_text": "True (Đúng)",
+                "is_correct": false
+            },
+            {
+                "answer_text": "False (Sai)",
+                "is_correct": true
+            }
+        ],
+        "code": ""
+    },
+    {
+        "question_id": "module-4-q7",
+        "module": "Effective Automated Verification",
+        "question_text": "The biggest cost in regression testing is that of test case generation.\nVN: Chi phí lớn nhất trong kiểm thử hồi quy là chi phí sinh ca kiểm thử (test case generation).",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_text": "True (Đúng)",
+                "is_correct": false
+            },
+            {
+                "answer_text": "False (Sai)",
+                "is_correct": true
+            }
+        ],
+        "code": ""
+    },
+    {
+        "question_id": "module-4-q8",
+        "module": "Effective Automated Verification",
+        "question_text": "[1] oracles use a previous version of the program to determine equivalence, while [2]_ oracles use handwritten monitors to check behavior preservation.\nVN: Các oracle [1] sử dụng một phiên bản cũ của chương trình để xác định tính tương đương, trong khi các oracle [2]_ sử dụng các trình giám sát tự viết (handwritten monitors) để kiểm tra tính bảo toàn hành vi.",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_text": "[1] Property-based \n\n[2] consistency ([1] Dựa trên thuộc tính (Property-based) \n\n[2] Tính nhất quán (Consistency))",
+                "is_correct": false
+            },
+            {
+                "answer_text": "[1] Consistency  \n\n[2] property-based ([1] Dựa trên tính nhất quán (Consistency) \n\n[2] Dựa trên thuộc tính (Property-based))",
+                "is_correct": true
+            }
+        ],
+        "code": ""
+    },
+    {
+        "question_id": "module-4-q9",
+        "module": "Effective Automated Verification",
+        "question_text": "Detecting code mutations is particularly important because they are altering the _______ of the software.\nVN: Việc phát hiện các đột biến mã nguồn (code mutations) là đặc biệt quan trọng vì chúng đang làm thay đổi _______ của phần mềm.",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_text": "functionality (tính năng (functionality))",
+                "is_correct": true
+            },
+            {
+                "answer_text": "structure (cấu trúc (structure))",
+                "is_correct": false
+            }
+        ],
+        "code": ""
+    },
+    {
+        "question_id": "module-4-q10",
+        "module": "Effective Automated Verification",
+        "question_text": "The goal in security testing is to\nVN: Mục tiêu của kiểm thử bảo mật là",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_text": "find as many bugs as possible (tìm ra càng nhiều lỗi càng tốt)",
+                "is_correct": false
+            },
+            {
+                "answer_text": "gain acceptable confidence that system is resilient to attack (đạt được mức độ tin cậy chấp nhận được rằng hệ thống có khả năng chống chịu trước các cuộc tấn công)",
+                "is_correct": true
+            }
+        ],
+        "code": ""
+    },
+    {
+        "question_id": "module-4-q11",
+        "module": "Effective Automated Verification",
+        "question_text": "Which of the following statements are correct?\nVN: Những phát biểu nào sau đây là chính xác?",
+        "question_type": "multiple_answer_question",
+        "answers": [
+            {
+                "answer_text": "It is better to perform security testing using fuzz testing manually. (Tốt hơn hết là thực hiện kiểm thử bảo mật bằng kiểm thử mờ (fuzz testing) theo cách thủ công.)",
+                "is_correct": false
+            },
+            {
+                "answer_text": "Even with modern security testing  strategies cannot make strong statements about security. (Ngay cả các chiến lược kiểm thử bảo mật hiện đại cũng không thể đưa ra những khẳng định chắc chắn 100% về tính bảo mật.)",
+                "is_correct": true
+            },
+            {
+                "answer_text": "Although fuzz testing cannot provide complete confidence that software is secure, it is integral part of modern software development. (Mặc dù fuzz testing không thể mang lại sự tin cậy tuyệt đối rằng phần mềm là an toàn, nó vẫn là một phần không thể thiếu trong phát triển phần mềm hiện đại.)",
+                "is_correct": true
+            },
+            {
+                "answer_text": "Fuzz testing means to run program on many normal inputs looking for exploitable flaws. (Fuzz testing nghĩa là chạy chương trình với nhiều đầu vào bình thường để tìm kiếm các lỗ hổng có thể bị khai thác.)",
+                "is_correct": false
+            }
+        ],
+        "code": ""
+    },
+    {
+        "question_id": "module-4-q12",
+        "module": "Effective Automated Verification",
+        "question_text": "Which types of failures resulting from fuzz testing indicate security flaws?\nVN: Những loại lỗi/sự cố nào do quá trình fuzz testing phát hiện ra cho thấy phần mềm đang có lỗ hổng bảo mật?",
+        "question_type": "multiple_answer_question",
+        "answers": [
+            {
+                "answer_text": "program errors (các lỗi logic chương trình)",
+                "is_correct": false
+            },
+            {
+                "answer_text": "assertion violations (các vi phạm assertion (khẳng định))",
+                "is_correct": false
+            },
+            {
+                "answer_text": "crashes (các trường hợp crash (sập chương trình))",
+                "is_correct": true
+            },
+            {
+                "answer_text": "privilege escalation (leo thang đặc quyền)",
+                "is_correct": true
+            }
+        ],
+        "code": ""
+    },
+    {
+        "question_id": "module-4-q13",
+        "module": "Effective Automated Verification",
+        "question_text": "Which of the following can cause a denial of service (DoS) attack?\nVN: Điều nào sau đây có thể gây ra một cuộc tấn công từ chối dịch vụ (DoS)?",
+        "question_type": "multiple_answer_question",
+        "answers": [
+            {
+                "answer_text": "buffer overflow (tràn bộ đệm)",
+                "is_correct": false
+            },
+            {
+                "answer_text": "non-release of resources (không giải phóng tài nguyên)",
+                "is_correct": true
+            },
+            {
+                "answer_text": "deadlock (khóa chết (deadlock))",
+                "is_correct": true
+            },
+            {
+                "answer_text": "use of invalid memory (sử dụng bộ nhớ không hợp lệ)",
+                "is_correct": false
+            }
+        ],
+        "code": ""
+    },
+    {
+        "question_id": "module-4-q14",
+        "module": "Effective Automated Verification",
+        "question_text": "The first thing in security fuzz testing is to\nVN: Việc đầu tiên cần làm trong kiểm thử bảo mật bằng fuzzing là:",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_text": "analyze program structure and its dependencies to untrusted packages (phân tích cấu trúc chương trình và sự phụ thuộc của nó vào các thư viện (packages) không đáng tin cậy)",
+                "is_correct": false
+            },
+            {
+                "answer_text": "analyze inputs to catch exploitations possible on user-visible interface (phân tích các đầu vào để bắt các lỗ hổng khai thác có thể xảy ra trên giao diện mà người dùng tương tác)",
+                "is_correct": true
+            }
+        ],
+        "code": ""
+    },
+    {
+        "question_id": "module-4-q15",
+        "module": "Effective Automated Verification",
+        "question_text": "What are 2 main strategies for security testing using fuzz testing?\nVN: 2 chiến lược chính của kiểm thử bảo mật sử dụng fuzz testing là gì?",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_text": "Dumb fuzzing and Smart fuzzing (Fuzzing mù mờ (Dumb fuzzing) và Fuzzing thông minh (Smart fuzzing))",
+                "is_correct": true
+            }
+        ],
+        "code": ""
+    },
+    {
+        "question_id": "module-4-q16",
+        "module": "Effective Automated Verification",
+        "question_text": "Select all the correct statements:\nVN: Chọn tất cả các phát biểu đúng:",
+        "question_type": "multiple_answer_question",
+        "answers": [
+            {
+                "answer_text": "Dumb fuzzers only make random changes to the program input without any knowledge about the program. (Các bộ dumb fuzzer chỉ thực hiện thay đổi ngẫu nhiên lên đầu vào của chương trình mà hoàn toàn không cần bất kỳ tri thức nào về cấu trúc bên trong của chương trình đó.)",
+                "is_correct": false
+            },
+            {
+                "answer_text": "Smart fuzzing requires a parser and model for program input format. (Fuzzing thông minh yêu cầu một bộ phân tích cú pháp (parser) và mô hình cho định dạng đầu vào của chương trình.)",
+                "is_correct": true
+            },
+            {
+                "answer_text": "White-box fuzzing runs random fuzz testing on instrumented programs. (Fuzzing hộp trắng tiến hành fuzz testing ngẫu nhiên trên các chương trình đã được gắn mã theo dõi (instrumented).)",
+                "is_correct": false
+            },
+            {
+                "answer_text": "The goal of combining white-box fuzzing with instrumentation is to look for vulnerability in the program paths executed under current test cases. (Mục tiêu của việc kết hợp fuzzing hộp trắng với việc gắn mã theo dõi là tìm kiếm lỗ hổng trong các luồng chạy của chương trình đang được thực thi dưới những ca kiểm thử hiện tại.)",
+                "is_correct": false
+            },
+            {
+                "answer_text": "The purpose of using an explicit model of input types by smart fuzzers is to create inputs that satisfy error detectors in programs. (Mục đích của việc sử dụng mô hình tường minh về các kiểu đầu vào trong fuzzer thông minh là để sinh ra các đầu vào đáp ứng được các bộ phát hiện lỗi (error detectors) trong chương trình.)",
+                "is_correct": true
+            }
+        ],
+        "code": ""
+    },
+    {
+        "question_id": "module-4-q17",
+        "module": "Effective Automated Verification",
+        "question_text": "Which of the following statements are true of dumb analytical fuzzing?\nVN: Những phát biểu nào sau đây là đúng về kỹ thuật fuzzing phân tích mù mờ (dumb analytical fuzzing)?",
+        "question_type": "multiple_answer_question",
+        "answers": [
+            {
+                "answer_text": "It doesn't need to build a model of program inputs. (Nó không cần xây dựng mô hình về các đầu vào của chương trình.)",
+                "is_correct": true
+            },
+            {
+                "answer_text": "It is random testing. (Nó là một dạng kiểm thử ngẫu nhiên.)",
+                "is_correct": false
+            },
+            {
+                "answer_text": "It uses a symbolic representation of the path and program structure. (Nó sử dụng một biểu diễn dạng ký hiệu (symbolic) của luồng thực thi và cấu trúc chương trình.)",
+                "is_correct": true
+            }
+        ],
+        "code": ""
+    },
+    {
+        "question_id": "module-4-q18",
+        "module": "Effective Automated Verification",
+        "question_text": "How can we perform fuzzing more effectively?\nVN: Làm thế nào để chúng ta có thể thực hiện fuzzing hiệu quả hơn?",
+        "question_type": "multiple_answer_question",
+        "answers": [
+            {
+                "answer_text": "Increase time of fuzzing (Tăng thời gian chạy fuzzing)",
+                "is_correct": true
+            },
+            {
+                "answer_text": "Make the fuzzer smarter by obtaining more knowledge about system (Làm cho bộ fuzzer thông minh hơn bằng cách thu thập thêm tri thức/thông tin về hệ thống)",
+                "is_correct": true
+            },
+            {
+                "answer_text": "Use all kind of fuzzers with different techniques in parallel (Sử dụng song song nhiều loại fuzzer với các kỹ thuật khác nhau)",
+                "is_correct": true
+            },
+            {
+                "answer_text": "Avoid dumb techniques of fuzzing such as random test generation (Tránh sử dụng các kỹ thuật fuzzing mù mờ như sinh ca kiểm thử ngẫu nhiên)",
+                "is_correct": false
+            }
+        ],
+        "code": ""
+    },
+    {
+        "question_id": "module-4-q19",
+        "module": "Effective Automated Verification",
+        "question_text": "Which one is correct:\nVN: Phát biểu nào sau đây là đúng:",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_text": "All the failures recognized during fuzz testing are important to analyze because the goal is to obtain high confidence in program security. (Tất cả các sự cố nhận diện được trong quá trình fuzz testing đều quan trọng và cần phải phân tích, vì mục tiêu là đạt được sự tin tưởng cao vào tính bảo mật của chương trình.)",
+                "is_correct": false
+            },
+            {
+                "answer_text": "It is important to categorize results of fuzz testing to determine severity of the failure and recognize the exploitable ones. (Việc phân loại kết quả của fuzz testing là rất quan trọng để xác định mức độ nghiêm trọng của sự cố và nhận diện các lỗi có khả năng bị khai thác.)",
+                "is_correct": true
+            }
+        ],
+        "code": ""
+    },
+    {
+        "question_id": "module-4-q20",
+        "module": "Effective Automated Verification",
+        "question_text": "Runtime monitoring:\nVN: Giám sát lúc chạy (Runtime monitoring):",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_text": "is about collecting information from the program runs for logging purposes and offline analyses (là việc thu thập thông tin từ các lần chạy của chương trình để phục vụ mục đích ghi nhật ký (logging) và phân tích offline (ngoại tuyến))",
+                "is_correct": false
+            },
+            {
+                "answer_text": "can be considered as property-based testing (có thể được xem như là một hình thức kiểm thử dựa trên thuộc tính (property-based testing))",
+                "is_correct": true
+            }
+        ],
+        "code": ""
+    },
+    {
+        "question_id": "module-4-q21",
+        "module": "Effective Automated Verification",
+        "question_text": "The goal in runtime monitoring is to extract information from program runs to:\nVN: Mục tiêu của việc giám sát lúc chạy là trích xuất thông tin từ các lần chạy của chương trình nhằm:",
+        "question_type": "multiple_answer_question",
+        "answers": [
+            {
+                "answer_text": "make sure it performs adequately. (đảm bảo chương trình hoạt động đúng mức yêu cầu.)",
+                "is_correct": true
+            },
+            {
+                "answer_text": "make sure environment assumptions are not being violated. (đảm bảo các giả định về môi trường không bị vi phạm.)",
+                "is_correct": true
+            },
+            {
+                "answer_text": "prevent misbehavior. (ngăn chặn các hành vi sai lệch.)",
+                "is_correct": true
+            },
+            {
+                "answer_text": "program recovery from the misbehavior by behavior modification. (phục hồi chương trình khỏi trạng thái sai lệch bằng cách điều chỉnh hành vi.)",
+                "is_correct": true
+            }
+        ],
+        "code": ""
+    },
+    {
+        "question_id": "module-4-q22",
+        "module": "Effective Automated Verification",
+        "question_text": "A runtime monitor has a main component called a program instrumentor that\nVN: Một bộ giám sát lúc chạy có một thành phần chính gọi là bộ gắn mã theo dõi chương trình (program instrumentor) dùng để:",
+        "question_type": "multiple_answer_question",
+        "answers": [
+            {
+                "answer_text": "is a test harness. (hoạt động như một khung kiểm thử (test harness).)",
+                "is_correct": false
+            },
+            {
+                "answer_text": "dynamically checks if the specification is satisfied by the program. (kiểm tra động (dynamic check) xem chương trình có đáp ứng đúng bản đặc tả (specification) hay không.)",
+                "is_correct": true
+            },
+            {
+                "answer_text": "statically analyzes program structure and dependencies. (phân tích tĩnh cấu trúc và sự phụ thuộc của chương trình.)",
+                "is_correct": true
+            }
+        ],
+        "code": ""
+    },
+    {
+        "question_id": "module-4-q23",
+        "module": "Effective Automated Verification",
+        "question_text": "What are the strategies that a runtime monitor may use in case of detecting an abnormal behavior?\nVN: Các chiến lược mà bộ giám sát lúc chạy có thể sử dụng khi phát hiện hành vi bất thường là gì?",
+        "question_type": "multiple_answer_question",
+        "answers": [
+            {
+                "answer_text": "Shut down the system in case of a security compromise (Tắt hệ thống trong trường hợp xảy ra sự cố xâm nhập bảo mật)",
+                "is_correct": true
+            },
+            {
+                "answer_text": "Give control to the user in fail-unsafe systems or uncertain environments (Trao lại quyền kiểm soát cho người dùng ở những hệ thống không an toàn khi có lỗi (fail-unsafe) hoặc trong môi trường thiếu chắc chắn)",
+                "is_correct": true
+            },
+            {
+                "answer_text": "Prevent system shutdown even in the presence of safety failures (Ngăn hệ thống tắt đi ngay cả khi xuất hiện các lỗi liên quan đến an toàn)",
+                "is_correct": false
+            }
+        ],
+        "code": ""
+    },
+    {
+        "question_id": "module-4-q24",
+        "module": "Effective Automated Verification",
+        "question_text": "An efficient runtime monitor:\nVN: Một bộ giám sát lúc chạy hiệu quả cần:",
+        "question_type": "multiple_answer_question",
+        "answers": [
+            {
+                "answer_text": "introduces low overhead to the system execution. (phát sinh ít chi phí hiệu năng (overhead) cho quá trình thực thi của hệ thống.)",
+                "is_correct": true
+            },
+            {
+                "answer_text": "is memory efficient. (tối ưu về mặt sử dụng bộ nhớ.)",
+                "is_correct": true
+            },
+            {
+                "answer_text": "checks for security compromises. (kiểm tra các sự cố xâm nhập bảo mật.)",
+                "is_correct": false
+            },
+            {
+                "answer_text": "guarantees all the environmental assumptions. (đảm bảo mọi giả định về môi trường đều được thỏa mãn.)",
+                "is_correct": false
+            }
+        ],
+        "code": ""
+    },
+    {
+        "question_id": "module-4-q25",
+        "module": "Effective Automated Verification",
+        "question_text": "What is the goal of regression testing?\nVN: Mục tiêu của kiểm thử hồi quy là gì?",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_text": "To check whether new functionality works correctly (Để kiểm tra xem một tính năng mới có hoạt động đúng hay không)",
+                "is_correct": false
+            },
+            {
+                "answer_text": "To determine whether previously developed software performs the same way after modifications (Để xác định xem phần mềm đã được phát triển trước đó có tiếp tục hoạt động đúng như cũ sau khi có sửa đổi hay không)",
+                "is_correct": true
+            },
+            {
+                "answer_text": "To add to test suites to more rigorously test existing software (Để bổ sung vào các bộ kiểm thử nhằm kiểm tra phần mềm hiện tại một cách khắt khe hơn)",
+                "is_correct": false
+            },
+            {
+                "answer_text": "To determine whether or not a bug in a previous version of the software is fixed (Để xác định xem một lỗi trong phiên bản cũ của phần mềm đã được sửa hay chưa)",
+                "is_correct": false
+            },
+            {
+                "answer_text": "The first and second answers are true (Câu trả lời thứ nhất và thứ hai đều đúng)",
+                "is_correct": false
+            },
+            {
+                "answer_text": "All of the above (Tất cả các đáp án trên)",
+                "is_correct": false
+            }
+        ],
+        "code": ""
+    },
+    {
+        "question_id": "module-4-q26",
+        "module": "Effective Automated Verification",
+        "question_text": "Why is regression testing well-suited for automated verification?\nVN: Tại sao kiểm thử hồi quy lại rất phù hợp để áp dụng các kỹ thuật xác minh tự động?",
+        "question_type": "multiple_answer_question",
+        "answers": [
+            {
+                "answer_text": "The tests are low cost to generate so it is inexpensive to throw tests away. (Các ca kiểm thử sinh ra tốn rất ít chi phí nên việc loại bỏ bớt các ca kiểm thử không quá tốn kém.)",
+                "is_correct": false
+            },
+            {
+                "answer_text": "It is straightforward to generate many tests using automated verification. (Việc sinh ra nhiều ca kiểm thử bằng cách dùng xác minh tự động là rất dễ dàng.)",
+                "is_correct": true
+            },
+            {
+                "answer_text": "A good oracle for determining success of automated tests is always available. (Luôn có sẵn một oracle tốt để đánh giá sự thành công của các ca kiểm thử tự động.)",
+                "is_correct": true
+            }
+        ],
+        "code": ""
+    },
+    {
+        "question_id": "module-4-q27",
+        "module": "Effective Automated Verification",
+        "question_text": "What is the goal of fuzz testing?\nVN: Mục tiêu của kiểm thử mờ (fuzz testing) là gì?",
+        "question_type": "multiple_answer_question",
+        "answers": [
+            {
+                "answer_text": "To check whether software has good real-time performance (Để kiểm tra xem phần mềm có hiệu năng thời gian thực tốt hay không)",
+                "is_correct": false
+            },
+            {
+                "answer_text": "To check whether software is robust (does not crash) (Để kiểm tra xem phần mềm có mạnh mẽ/ổn định hay không (không bị crash))",
+                "is_correct": true
+            },
+            {
+                "answer_text": "To check whether software meets its functional requirements (Để kiểm tra xem phần mềm có đáp ứng được các yêu cầu chức năng hay không)",
+                "is_correct": false
+            },
+            {
+                "answer_text": "To check whether software has security bugs (Để kiểm tra xem phần mềm có lỗi bảo mật hay không)",
+                "is_correct": true
+            }
+        ],
+        "code": ""
+    },
+    {
+        "question_id": "module-4-q28",
+        "module": "Effective Automated Verification",
+        "question_text": "How is smart grammar-based fuzz testing different than adaptive random testing?\nVN: Fuzz testing thông minh dựa trên ngữ pháp (grammar-based) khác biệt như thế nào so với kiểm thử ngẫu nhiên thích ứng?",
+        "question_type": "multiple_answer_question",
+        "answers": [
+            {
+                "answer_text": "Grammar-based fuzzing has more knowledge of valid inputs (Fuzzing dựa trên ngữ pháp sở hữu nhiều tri thức hơn về các định dạng đầu vào hợp lệ)",
+                "is_correct": true
+            },
+            {
+                "answer_text": "Grammar-based fuzzing is more likely to generate more almost-correct malformed inputs than adaptive random testing (Fuzzing dựa trên ngữ pháp có xác suất cao hơn trong việc sinh ra các đầu vào sai định dạng nhưng gần sát với mức hợp lệ (almost-correct malformed inputs) so với kiểm thử ngẫu nhiên thích ứng)",
+                "is_correct": true
+            },
+            {
+                "answer_text": "They are not substantially different (Chúng không khác biệt nhau một cách đáng kể)",
+                "is_correct": false
+            },
+            {
+                "answer_text": "Adaptive random testing uses more sophisticated metrics for generating the next test (Kiểm thử ngẫu nhiên thích ứng sử dụng các độ đo phức tạp hơn để sinh ra bài kiểm thử tiếp theo)",
+                "is_correct": false
+            }
+        ],
+        "code": ""
+    },
+    {
+        "question_id": "module-4-q29",
+        "module": "Effective Automated Verification",
+        "question_text": "Fuzz security testing is only concerned about generating malformed inputs.\nVN: Kiểm thử bảo mật bằng fuzzing chỉ quan tâm đến việc tạo ra các đầu vào sai định dạng (malformed inputs).",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_text": "True (Đúng)",
+                "is_correct": false
+            },
+            {
+                "answer_text": "False (Sai)",
+                "is_correct": true
+            }
+        ],
+        "code": ""
+    },
+    {
+        "question_id": "module-4-q30",
+        "module": "Effective Automated Verification",
+        "question_text": "What is the main source of human effort for grammar-based fuzzing?\nVN: Hoạt động nào đòi hỏi nhiều công sức/nỗ lực nhất từ con người khi làm fuzzing dựa trên ngữ pháp?",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_text": "Writing tests (Viết các ca kiểm thử)",
+                "is_correct": false
+            },
+            {
+                "answer_text": "Manually instrumenting the program (Gắn mã theo dõi cho chương trình (instrumenting) một cách thủ công)",
+                "is_correct": false
+            },
+            {
+                "answer_text": "Creating the grammar to be used by the fuzzer (Tạo ra các tập quy tắc ngữ pháp để bộ fuzzer sử dụng)",
+                "is_correct": true
+            },
+            {
+                "answer_text": "Determining what kind of fault was demonstrated by the test (Xác định xem bài kiểm thử đã phát hiện ra loại lỗi nào)",
+                "is_correct": false
+            },
+            {
+                "answer_text": "All of the above require similar levels of human effort (Tất cả các công việc trên đều đòi hỏi mức độ nỗ lực của con người tương đương nhau)",
+                "is_correct": false
+            }
+        ],
+        "code": ""
+    },
+    {
+        "question_id": "module-4-q31",
+        "module": "Effective Automated Verification",
+        "question_text": "What steps can be used to improve fuzzing performance?\nVN: Có thể áp dụng các bước nào để cải thiện hiệu suất của quá trình fuzzing?",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_text": "Biasing inputs for random testing (Định hướng (bias) đầu vào đối với kiểm thử ngẫu nhiên)",
+                "is_correct": false
+            },
+            {
+                "answer_text": "Running multiple fuzzers concurrently (Chạy đồng thời nhiều fuzzer)",
+                "is_correct": false
+            },
+            {
+                "answer_text": "Running each fuzzer for longer periods of time (Chạy mỗi fuzzer trong một khoảng thời gian dài hơn)",
+                "is_correct": false
+            },
+            {
+                "answer_text": "Adding grammar information to the fuzzer (Cung cấp thêm thông tin về ngữ pháp cho fuzzer)",
+                "is_correct": false
+            },
+            {
+                "answer_text": "All of the above (Tất cả các đáp án trên)",
+                "is_correct": true
+            }
+        ],
+        "code": ""
+    },
+    {
+        "question_id": "module-4-q32",
+        "module": "Effective Automated Verification",
+        "question_text": "Are fuzzers optimistic or pessimistic verification tools?\nVN: Fuzzer là các công cụ xác minh mang tính lạc quan (optimistic) hay bi quan (pessimistic)?",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_text": "Optimistic - They may miss existing security problems in programs (Lạc quan - Chúng có thể bỏ sót những lỗ hổng bảo mật thực sự đang tồn tại trong chương trình)",
+                "is_correct": true
+            },
+            {
+                "answer_text": "Pessimistic - They only find crashes or security flaws. (Bi quan - Chúng chỉ tìm ra được các vụ sập (crash) hoặc lỗi bảo mật.)",
+                "is_correct": false
+            }
+        ],
+        "code": ""
+    },
+    {
+        "question_id": "module-4-q33",
+        "module": "Effective Automated Verification",
+        "question_text": "Which of the following can be performed with runtime monitoring?\nVN: Điều nào sau đây có thể thực hiện được thông qua giám sát lúc chạy (runtime monitoring)?",
+        "question_type": "multiple_answer_question",
+        "answers": [
+            {
+                "answer_text": "Measuring whether application real-time performance is adequate (Đo lường xem hiệu năng thời gian thực của ứng dụng đã đủ tốt hay chưa)",
+                "is_correct": true
+            },
+            {
+                "answer_text": "Monitoring whether the application meets its functional requirements (Giám sát xem ứng dụng có đáp ứng được các yêu cầu chức năng hay không)",
+                "is_correct": true
+            },
+            {
+                "answer_text": "Determining whether the program is correct (Xác định xem chương trình đã chính xác tuyệt đối hay chưa)",
+                "is_correct": false
+            },
+            {
+                "answer_text": "Measuring whether the environment matches program assumptions (Đo lường xem môi trường thực tế có khớp với những giả định của chương trình hay không)",
+                "is_correct": true
+            },
+            {
+                "answer_text": "Determining whether the program will terminate (Xác định xem chương trình có kết thúc (terminate) hay không)",
+                "is_correct": false
+            }
+        ],
+        "code": ""
+    },
+    {
+        "question_id": "module-4-q34",
+        "module": "Effective Automated Verification",
+        "question_text": "What is a \"fail-safe\" system?\nVN: Một hệ thống \"an toàn khi có lỗi\" (fail-safe) là gì?",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_text": "One in which the software or physical systems can fail leaving the system in a safe state. (Hệ thống mà nếu phần mềm hoặc phần cứng vật lý gặp lỗi, toàn bộ hệ thống vẫn được đưa về một trạng thái an toàn.)",
+                "is_correct": true
+            },
+            {
+                "answer_text": "One in which the software makes the system safe in case of physical failures. (Hệ thống mà ở đó phần mềm làm cho hệ thống luôn an toàn bất chấp các lỗi hỏng hóc về mặt vật lý.)",
+                "is_correct": false
+            },
+            {
+                "answer_text": "One in which there is redundancy so any single physical or computer failure will not cause the system to fail. (Hệ thống được thiết kế dư thừa (redundancy) để bất kỳ một lỗi hỏng vật lý hoặc máy tính đơn lẻ nào cũng không làm sập toàn bộ hệ thống.)",
+                "is_correct": false
+            },
+            {
+                "answer_text": "All of the above (Tất cả các đáp án trên)",
+                "is_correct": false
+            }
+        ],
+        "code": ""
+    },
+    {
+        "question_id": "module-4-q35",
+        "module": "Effective Automated Verification",
+        "question_text": "If software is not fail-safe, is there any good reason for runtime monitoring?\nVN: Nếu phần mềm không phải là chuẩn fail-safe, liệu có còn lý do chính đáng nào để áp dụng giám sát lúc chạy hay không?",
+        "question_type": "multiple_answer_question",
+        "answers": [
+            {
+                "answer_text": "No - in this case, the system will fail anyway. (Không - trong trường hợp này, đằng nào thì hệ thống cũng sẽ sập.)",
+                "is_correct": false
+            },
+            {
+                "answer_text": "Yes - we can give control back to the operator so that they can control a process manually. (Có - chúng ta có thể trả lại quyền kiểm soát cho người vận hành để họ trực tiếp điều khiển quy trình bằng tay.)",
+                "is_correct": true
+            },
+            {
+                "answer_text": "Yes - we can provide warnings to the operator that the software may not be behaving correctly. (Có - chúng ta có thể gửi cảnh báo cho người vận hành biết rằng phần mềm đang có dấu hiệu hoạt động bất thường.)",
+                "is_correct": true
+            },
+            {
+                "answer_text": "Yes - this technique lets the software recover from failures and keep going. (Có - kỹ thuật này cho phép phần mềm tự phục hồi sau lỗi và tiếp tục hoạt động.)",
+                "is_correct": false
+            },
+            {
+                "answer_text": "No - it slows the program down too much. (Không - nó làm cho chương trình chạy quá chậm.)",
+                "is_correct": false
+            }
+        ],
+        "code": ""
+    },
+    {
+        "question_id": "module-4-q36",
+        "module": "Effective Automated Verification",
+        "question_text": "Automated testing should replace writing test cases by hand.\nVN: Kiểm thử tự động nên hoàn toàn thay thế việc viết ca kiểm thử thủ công.",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_text": "True (Đúng)",
+                "is_correct": false
+            },
+            {
+                "answer_text": "False (Sai)",
+                "is_correct": true
+            }
+        ],
+        "code": ""
+    },
+    {
+        "question_id": "module-4-q37",
+        "module": "Effective Automated Verification",
+        "question_text": "The most useful automated verification technique that we have examined is\nVN: Kỹ thuật xác minh tự động hữu ích nhất mà chúng ta đã nghiên cứu là:",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_text": "Random testing (Kiểm thử ngẫu nhiên)",
+                "is_correct": false
+            },
+            {
+                "answer_text": "Adaptive random testing (Kiểm thử ngẫu nhiên thích ứng)",
+                "is_correct": false
+            },
+            {
+                "answer_text": "Fuzz testing (Kiểm thử mờ (Fuzz testing))",
+                "is_correct": false
+            },
+            {
+                "answer_text": "Search-based testing (Kiểm thử dựa trên tìm kiếm)",
+                "is_correct": false
+            },
+            {
+                "answer_text": "Static analysis (Phân tích tĩnh)",
+                "is_correct": false
+            },
+            {
+                "answer_text": "It depends.  What is most useful depends on the goal of testing. (Còn tùy. Kỹ thuật nào hữu ích nhất sẽ phụ thuộc vào mục tiêu kiểm thử của bạn.)",
+                "is_correct": true
+            }
+        ],
+        "code": ""
+    },
+    {
+        "question_id": "module-4-q38",
+        "module": "Effective Automated Verification",
+        "question_text": "None of the automated verification techniques scale to real programs.\nVN: Không có một kỹ thuật xác minh tự động nào có khả năng mở rộng quy mô (scale) để áp dụng được cho các chương trình thực tế.",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_text": "True (Đúng)",
+                "is_correct": false
+            },
+            {
+                "answer_text": "False (Sai)",
+                "is_correct": true
+            }
+        ],
+        "code": ""
+    },
+    {
+        "question_id": "module-4-q39",
+        "module": "Effective Automated Verification",
+        "question_text": "Knowing one testing technique is enough to be an effective test engineer.\nVN: Chỉ cần biết một kỹ thuật kiểm thử là đủ để trở thành một kỹ sư kiểm thử giỏi.",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_text": "True (Đúng)",
+                "is_correct": false
+            },
+            {
+                "answer_text": "False (Sai)",
+                "is_correct": true
+            }
+        ],
+        "code": ""
+    },
+    {
+        "question_id": "module-4-q40",
+        "module": "Effective Automated Verification",
+        "question_text": "The main problems with random testing are:\nVN: Các nhược điểm chính của kiểm thử ngẫu nhiên (random testing) là:",
+        "question_type": "multiple_answer_question",
+        "answers": [
+            {
+                "answer_text": "it does not scale to real programs (nó không có khả năng mở rộng áp dụng cho các chương trình thực tế)",
+                "is_correct": false
+            },
+            {
+                "answer_text": "it is unable to explore paths that rely on specific inputs given a large input space (nó không có khả năng khám phá được các luồng chạy (paths) vốn đòi hỏi phải có đầu vào thật chính xác giữa một không gian đầu vào khổng lồ)",
+                "is_correct": true
+            },
+            {
+                "answer_text": "input distributions in practice may not match random distributions used during testing, so the likelihood of failure may be larger than expected in actual use. (phân phối đầu vào trong thực tế có thể không khớp với phân phối ngẫu nhiên được dùng khi test, dẫn tới rủi ro xảy ra lỗi khi dùng thực tế có thể cao hơn dự đoán.)",
+                "is_correct": true
+            },
+            {
+                "answer_text": "it takes a lot of time to generate each test (mất rất nhiều thời gian mới sinh ra được một bài kiểm thử)",
+                "is_correct": false
+            }
+        ],
+        "code": ""
+    },
+    {
+        "question_id": "module-4-q41",
+        "module": "Effective Automated Verification",
+        "question_text": "The main problems with symbolic execution are:\nVN: Các vấn đề chính đối với kỹ thuật thực thi biểu tượng (symbolic execution) là:",
+        "question_type": "multiple_answer_question",
+        "answers": [
+            {
+                "answer_text": "dealing with program paths containing non-linear math (khó khăn trong việc xử lý các luồng chạy của chương trình có chứa toán học phi tuyến (non-linear math))",
+                "is_correct": true
+            },
+            {
+                "answer_text": "handling complex string operations (khó khăn trong việc xử lý các thao tác chuỗi phức tạp)",
+                "is_correct": true
+            },
+            {
+                "answer_text": "choosing the correct value that solves complex linear constraints (khó chọn đúng giá trị để giải các hệ ràng buộc tuyến tính phức tạp)",
+                "is_correct": false
+            },
+            {
+                "answer_text": "too many paths in large programs (quá bùng nổ số lượng đường dẫn (paths) trong các chương trình lớn)",
+                "is_correct": true
+            },
+            {
+                "answer_text": "program dependencies (like databases) that are unknown to the symbolic solver (vấp phải các phụ thuộc bên ngoài của chương trình (ví dụ: database) mà bộ giải biểu tượng (symbolic solver) không thể biết được)",
+                "is_correct": true
+            }
+        ],
+        "code": ""
+    },
+    {
+        "question_id": "module-4-q42",
+        "module": "Effective Automated Verification",
+        "question_text": "Successful automated testing always requires\nVN: Kiểm thử tự động muốn thành công thì luôn luôn yêu cầu phải có:",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_text": "a machine-checkable oracle that can determine success or failure. (một oracle (cơ chế phân định) có thể tự động kiểm tra bằng máy tính để phán đoán xem ca kiểm thử đó thành công hay thất bại.)",
+                "is_correct": true
+            },
+            {
+                "answer_text": "access to the internals of the program to monitor program state. (quyền truy cập sâu vào bên trong mã nguồn để giám sát trạng thái chương trình.)",
+                "is_correct": false
+            },
+            {
+                "answer_text": "access to really fast computers to generate the tests. (quyền truy cập vào các hệ thống máy tính cực mạnh để sinh ca kiểm thử.)",
+                "is_correct": false
+            },
+            {
+                "answer_text": "All of the above (Tất cả các đáp án trên)",
+                "is_correct": false
+            }
+        ],
+        "code": ""
+    },
+    {
+        "question_id": "module-4-q43",
+        "module": "Effective Automated Verification",
+        "question_text": "Choose which of the following are true:\nVN: Chọn những phát biểu nào sau đây là đúng:",
+        "question_type": "multiple_answer_question",
+        "answers": [
+            {
+                "answer_text": "Test automation is not recognized as a useful skill in the industry. (Tự động hóa kiểm thử không được xem là một kỹ năng hữu ích trong ngành.)",
+                "is_correct": false
+            },
+            {
+                "answer_text": "Testers will also be expected to develop software in the future. (Các kiểm thử viên (tester) cũng sẽ được kỳ vọng phải biết phát triển phần mềm trong tương lai.)",
+                "is_correct": true
+            },
+            {
+                "answer_text": "According to a recent survey, more than 1/2 of businesses are using test-generation tools. (Theo một khảo sát gần đây, có tới hơn một nửa số doanh nghiệp đang sử dụng các công cụ sinh ca kiểm thử (test-generation tools).)",
+                "is_correct": true
+            },
+            {
+                "answer_text": "We understand how to test machine learning software like neural nets. (Chúng ta đã hiểu rõ cách để kiểm thử các phần mềm máy học như mạng nơ-ron.)",
+                "is_correct": false
+            },
+            {
+                "answer_text": "Agile and DevOps are important skills for test engineers. (Agile và DevOps là những kỹ năng cực kỳ quan trọng đối với kỹ sư kiểm thử.)",
+                "is_correct": true
+            }
+        ],
+        "code": ""
+    },
+    {
+        "question_id": "module-4-q44",
+        "module": "Effective Automated Verification",
+        "question_text": "Which of the following describes the problem with testing machine learning systems?\nVN: Điều nào sau đây mô tả đúng nhất khó khăn trong việc kiểm thử các hệ thống máy học (machine learning)?",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_text": "No traditional program structure for test metrics (Chúng không có cấu trúc chương trình truyền thống để có thể áp dụng các độ đo kiểm thử)",
+                "is_correct": false
+            },
+            {
+                "answer_text": "Difficult to define requirements for program behavior (Rất khó để định nghĩa một cách chính xác các yêu cầu về hành vi mong muốn cho hệ thống)",
+                "is_correct": false
+            },
+            {
+                "answer_text": "Online evolution means that program behavior will change (Sự tiến hóa trực tuyến (online evolution) khiến cho hành vi của hệ thống sẽ liên tục thay đổi theo thời gian)",
+                "is_correct": false
+            },
+            {
+                "answer_text": "All of the above (Tất cả các đáp án trên)",
+                "is_correct": true
+            }
+        ],
+        "code": ""
+    },
+    {
+        "question_id": "module-4-q45",
+        "module": "Effective Automated Verification",
+        "question_text": "Which of the following are true of systems of systems?\nVN: Những phát biểu nào sau đây là đúng về khái niệm hệ thống của các hệ thống (systems of systems)?",
+        "question_type": "multiple_answer_question",
+        "answers": [
+            {
+                "answer_text": "Parts evolve independently (Các thành phần bên trong phát triển/tiến hóa một cách độc lập)",
+                "is_correct": true
+            },
+            {
+                "answer_text": "No central governing authority (Không tồn tại một cơ quan hay ứng dụng quản lý tập trung nào)",
+                "is_correct": true
+            },
+            {
+                "answer_text": "Decoupled execution allows separate testing (Thực thi tách rời (decoupled execution) cho phép kiểm thử một cách riêng biệt)",
+                "is_correct": false
+            },
+            {
+                "answer_text": "Interfaces evolve over time (Các giao diện kết nối (interfaces) liên tục thay đổi theo thời gian)",
+                "is_correct": true
+            }
+        ],
+        "code": ""
+    }
+]

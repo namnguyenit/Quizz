@@ -1,0 +1,444 @@
+[
+    {
+        "question_id": "module-2-q1",
+        "module": "Automated Test Generation",
+        "question_text": "Which of the following can be the goal of creating test inputs?\nVN: Đâu có thể là mục tiêu của việc sinh dữ liệu kiểm thử đầu vào?",
+        "question_type": "multiple_answer_question",
+        "answers": [
+            {
+                "answer_text": "Exercise representative values (Thực thi các giá trị đại diện)",
+                "is_correct": true
+            },
+            {
+                "answer_text": "Find faults (Tìm lỗi)",
+                "is_correct": true
+            },
+            {
+                "answer_text": "Prove the absence of bugs (Chứng minh phần mềm không còn lỗi)",
+                "is_correct": false
+            },
+            {
+                "answer_text": "Model use-case scenario (Mô hình hóa các kịch bản sử dụng thực tế (use-case))",
+                "is_correct": true
+            },
+            {
+                "answer_text": "Obtain coverage (Đạt được các tiêu chí về độ phủ)",
+                "is_correct": true
+            },
+            {
+                "answer_text": "Exercise all possible executions of the program (Thực thi mọi luồng chạy có thể của chương trình)",
+                "is_correct": false
+            }
+        ],
+        "code": ""
+    },
+    {
+        "question_id": "module-2-q2",
+        "module": "Automated Test Generation",
+        "question_text": "List each step of the search-based testing process in a correct order:\n\nCheck if the chosen solutions satisfy the test goal\n\nDefine a goal of testing and a search strategy\n\nExecute a candidate solution\n\nIf the goal is unsatisfied, choose another candidate solution and repeat until the goal is satisfied\n\nChoose a candidate solution\n\nWrite the correct order in a five-digit number. For example, write12345 to answer that the correct order is as written above.\nVN: Hãy sắp xếp các bước của quy trình kiểm thử dựa trên tìm kiếm (search-based testing) theo thứ tự đúng:\n\nKiểm tra xem giải pháp được chọn có thỏa mãn mục tiêu kiểm thử hay không\n\nXác định mục tiêu kiểm thử và chiến lược tìm kiếm\n\nThực thi một giải pháp ứng viên (candidate solution)\n\nNếu mục tiêu chưa được thỏa mãn, hãy chọn một giải pháp ứng viên khác và lặp lại cho đến khi đạt mục tiêu\n\nChọn một giải pháp ứng viên\n\nViết thứ tự đúng dưới dạng một số có 5 chữ số. Ví dụ: viết '12345' nếu thứ tự đúng giống hệt như danh sách trên.",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_text": "25314 (25314)",
+                "is_correct": true
+            }
+        ],
+        "code": ""
+    },
+    {
+        "question_id": "module-2-q3",
+        "module": "Automated Test Generation",
+        "question_text": "Which of the following statements about search-based testing are true?\nVN: Phát biểu nào sau đây về kiểm thử dựa trên tìm kiếm (search-based testing) là đúng?",
+        "question_type": "multiple_answer_question",
+        "answers": [
+            {
+                "answer_text": "The goal of search as optimization is to find the \"best solution\" within the given search budget (Mục tiêu của bài toán tìm kiếm tối ưu hóa là tìm ra \"giải pháp tốt nhất\" trong giới hạn tài nguyên tìm kiếm (search budget) cho phép)",
+                "is_correct": true
+            },
+            {
+                "answer_text": "Search budget can be the amount of time you can allocate to finding solutions (Tài nguyên tìm kiếm có thể là quỹ thời gian mà bạn phân bổ để tìm giải pháp)",
+                "is_correct": true
+            },
+            {
+                "answer_text": "During the search process, the order of the solution you find doesn't matter in most cases (Trong quá trình tìm kiếm, thứ tự tìm thấy của các giải pháp đa phần là không quan trọng)",
+                "is_correct": false
+            },
+            {
+                "answer_text": "In practice, search budget can be unbound (Trong thực tế, tài nguyên tìm kiếm có thể là vô hạn)",
+                "is_correct": false
+            },
+            {
+                "answer_text": "Search budget can be the number of attempts you can try before achieving the test objective (Tài nguyên tìm kiếm có thể là số lần chạy thử tối đa trước khi đạt được mục tiêu kiểm thử)",
+                "is_correct": true
+            }
+        ],
+        "code": ""
+    },
+    {
+        "question_id": "module-2-q4",
+        "module": "Automated Test Generation",
+        "question_text": "Which of the following is not the benefits of random testing?\nVN: Đâu KHÔNG phải là lợi ích của kiểm thử ngẫu nhiên (random testing)?",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_text": "Many input data can be generated quickly (Có thể sinh ra lượng lớn dữ liệu đầu vào một cách nhanh chóng)",
+                "is_correct": false
+            },
+            {
+                "answer_text": "It is possible to apply random testing without a domain knowledge (Có thể áp dụng kiểm thử ngẫu nhiên mà không cần đến kiến thức nghiệp vụ (domain knowledge))",
+                "is_correct": false
+            },
+            {
+                "answer_text": "It is easy to implement a random test generator (Dễ dàng cài đặt một bộ sinh ca kiểm thử ngẫu nhiên (random test generator))",
+                "is_correct": false
+            },
+            {
+                "answer_text": "It does not require much planning (Không đòi hỏi phải lên kế hoạch quá nhiều)",
+                "is_correct": false
+            },
+            {
+                "answer_text": "It can easily exercise the deeply nested code structure quickly (Nó có thể nhanh chóng đi sâu vào và thực thi các khối mã bị lồng ghép phức tạp (deeply nested code))",
+                "is_correct": true
+            }
+        ],
+        "code": ""
+    },
+    {
+        "question_id": "module-2-q5",
+        "module": "Automated Test Generation",
+        "question_text": "Which of the following are the weakness of random testing?\nVN: Đâu là điểm yếu của kiểm thử ngẫu nhiên?",
+        "question_type": "multiple_answer_question",
+        "answers": [
+            {
+                "answer_text": "It can take a long time to achieve a testing objective. (Có thể tốn rất nhiều thời gian mới đạt được mục tiêu kiểm thử.)",
+                "is_correct": true
+            },
+            {
+                "answer_text": "It requires domain knowledge. (Nó đòi hỏi phải có kiến thức nghiệp vụ.)",
+                "is_correct": false
+            },
+            {
+                "answer_text": "It can be difficult to reach some parts of the program. (Rất khó để nó chạm tới (reach) một số phần mã lệnh nhất định của chương trình.)",
+                "is_correct": true
+            }
+        ],
+        "code": ""
+    },
+    {
+        "question_id": "module-2-q6",
+        "module": "Automated Test Generation",
+        "question_text": "Why is adaptive random testing more effective than pure random testing?\nVN: Tại sao kiểm thử ngẫu nhiên thích ứng (adaptive random testing) lại mang lại hiệu quả cao hơn kiểm thử ngẫu nhiên thuần túy?",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_text": "Because adaptive random testing favors diverse input. (Vì kiểm thử ngẫu nhiên thích ứng ưu tiên việc sinh ra các dữ liệu đầu vào đa dạng hơn.)",
+                "is_correct": true
+            },
+            {
+                "answer_text": "Because adaptive random testing attacks a small contiguous regions where many faults are most likely to appear. (Vì kiểm thử ngẫu nhiên thích ứng tập trung đánh vào các vùng nhỏ liền kề nhau - nơi có khả năng xuất hiện lỗi cao nhất.)",
+                "is_correct": false
+            },
+            {
+                "answer_text": "Because adaptive random testing utilizes the domain knowledge of the input space. (Vì nó tận dụng được kiến thức nghiệp vụ về không gian đầu vào (input space).)",
+                "is_correct": false
+            }
+        ],
+        "code": ""
+    },
+    {
+        "question_id": "module-2-q7",
+        "module": "Automated Test Generation",
+        "question_text": "___________ is fast and easy to implement and requires no information about the system.\nVN: ___________ vừa nhanh, vừa dễ triển khai và không đòi hỏi thông tin gì về hệ thống.",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_text": "Random testing (Kiểm thử ngẫu nhiên)",
+                "is_correct": true
+            },
+            {
+                "answer_text": "Adaptive random testing (Kiểm thử ngẫu nhiên thích ứng)",
+                "is_correct": false
+            },
+            {
+                "answer_text": "Symbolic execution (Thực thi ký hiệu (Symbolic execution))",
+                "is_correct": false
+            }
+        ],
+        "code": ""
+    },
+    {
+        "question_id": "module-2-q8",
+        "module": "Automated Test Generation",
+        "question_text": "A metaheuristic local search is very fast and efficient no matter which initial guess you make.\nVN: Thuật toán tìm kiếm cục bộ metaheuristic hoạt động rất nhanh và hiệu quả, bất kể bạn chọn điểm xuất phát (initial guess) như thế nào.",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_text": "True (Đúng)",
+                "is_correct": false
+            },
+            {
+                "answer_text": "False (Sai)",
+                "is_correct": true
+            }
+        ],
+        "code": ""
+    },
+    {
+        "question_id": "module-2-q9",
+        "module": "Automated Test Generation",
+        "question_text": "A neighbor ...\nVN: Một trạng thái lân cận (neighbor) ...",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_text": ": the local maxima value (: giá trị cực đại cục bộ)",
+                "is_correct": false
+            },
+            {
+                "answer_text": ": the metaheuristic (: thuật toán metaheuristic)",
+                "is_correct": false
+            },
+            {
+                "answer_text": ": tests created by making a small change to the current test. (: là các ca kiểm thử được tạo ra bằng cách thay đổi một chút ở ca kiểm thử hiện tại.)",
+                "is_correct": true
+            }
+        ],
+        "code": ""
+    },
+    {
+        "question_id": "module-2-q10",
+        "module": "Automated Test Generation",
+        "question_text": "An algorithm used in local search is called Hill Climbing. With Hill Climbing, the problem of being stuck in a local maxima is avoided.\nVN: Một trong những thuật toán dùng trong tìm kiếm cục bộ là Hill Climbing (Leo đồi). Với Hill Climbing, ta có thể tránh được vấn đề bị kẹt ở một điểm cực đại cục bộ (local maxima).",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_text": "False (Sai)",
+                "is_correct": true
+            },
+            {
+                "answer_text": "True (Đúng)",
+                "is_correct": false
+            }
+        ],
+        "code": ""
+    },
+    {
+        "question_id": "module-2-q11",
+        "module": "Automated Test Generation",
+        "question_text": "An algorithm used in local search is called Simulated Annealing. With Simulated Annealing, the problem of being stuck in a local maxima is not avoided.\nVN: Một thuật toán khác dùng trong tìm kiếm cục bộ là Simulated Annealing (Tôi luyện mô phỏng). Với Simulated Annealing, ta không thể tránh được vấn đề bị kẹt ở một điểm cực đại cục bộ.",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_text": "False (Sai)",
+                "is_correct": true
+            },
+            {
+                "answer_text": "True (Đúng)",
+                "is_correct": false
+            }
+        ],
+        "code": ""
+    },
+    {
+        "question_id": "module-2-q12",
+        "module": "Automated Test Generation",
+        "question_text": "Global Search uses a strategy based on natural processes.\nVN: Các thuật toán Tìm kiếm toàn cục (Global Search) sử dụng một chiến lược mô phỏng lại các quá trình trong tự nhiên.",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_text": "True (Đúng)",
+                "is_correct": true
+            },
+            {
+                "answer_text": "False (Sai)",
+                "is_correct": false
+            }
+        ],
+        "code": ""
+    },
+    {
+        "question_id": "module-2-q13",
+        "module": "Automated Test Generation",
+        "question_text": "We need to find a way to see how close we are to the ideal solution. To do this we use fitness functions.\nVN: Chúng ta cần có cách để đo lường xem mình đang tiến gần đến giải pháp lý tưởng ở mức độ nào. Để làm được điều đó, chúng ta sử dụng các hàm độ thích nghi (fitness functions).",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_text": "True (Đúng)",
+                "is_correct": true
+            },
+            {
+                "answer_text": "False (Sai)",
+                "is_correct": false
+            }
+        ],
+        "code": ""
+    },
+    {
+        "question_id": "module-2-q14",
+        "module": "Automated Test Generation",
+        "question_text": "Fitness function needs to be:\nVN: Một hàm độ thích nghi (fitness function) cần đáp ứng tiêu chí:",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_text": "Fast to calculate (Tính toán nhanh)",
+                "is_correct": false
+            },
+            {
+                "answer_text": "Quick to converge. (Hội tụ nhanh.)",
+                "is_correct": false
+            },
+            {
+                "answer_text": "All of the above. (Tất cả các đáp án trên.)",
+                "is_correct": true
+            }
+        ],
+        "code": ""
+    },
+    {
+        "question_id": "module-2-q15",
+        "module": "Automated Test Generation",
+        "question_text": "In a real-time system, a controller uses sensors to command changes to the world\nVN: Trong hệ thống thời gian thực (real-time system), bộ điều khiển sử dụng các cảm biến để gửi đi các lệnh làm thay đổi môi trường thực tế bên ngoài.",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_text": "False (Sai)",
+                "is_correct": true
+            },
+            {
+                "answer_text": "True (Đúng)",
+                "is_correct": false
+            }
+        ],
+        "code": ""
+    },
+    {
+        "question_id": "module-2-q16",
+        "module": "Automated Test Generation",
+        "question_text": "The main characteristic of sampling systems is the fact that only a subset of the real-time inputs is being considered to compute outputs.\nVN: Đặc điểm cốt lõi của các hệ thống lấy mẫu (sampling systems) là chúng chỉ xem xét một tập con các giá trị đầu vào thời gian thực để tính toán đầu ra.",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_text": "True (Đúng)",
+                "is_correct": true
+            },
+            {
+                "answer_text": "False (Sai)",
+                "is_correct": false
+            }
+        ],
+        "code": ""
+    },
+    {
+        "question_id": "module-2-q17",
+        "module": "Automated Test Generation",
+        "question_text": "The sampling rate directly affects the quality of the sampling system. Which of the following statements are universally true?\nVN: Tốc độ lấy mẫu (sampling rate) ảnh hưởng trực tiếp đến chất lượng của hệ thống lấy mẫu. Trong số các nhận định sau, nhận định nào luôn đúng?",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_text": "With a low sampling rate we are able to cover the majority of the desired system behaviors. (Với tốc độ lấy mẫu thấp, ta vẫn có thể bao phủ (cover) phần lớn các hành vi mong muốn của hệ thống.)",
+                "is_correct": false
+            },
+            {
+                "answer_text": "We get a better approximation of the input space, the higher the sampling rate is. (Tốc độ lấy mẫu càng cao thì ta càng có một bản xấp xỉ chính xác hơn về không gian đầu vào (input space).)",
+                "is_correct": true
+            },
+            {
+                "answer_text": "A low sampling rate is ideal for systems that change states with a high rate. (Tốc độ lấy mẫu thấp là cấu hình lý tưởng dành cho các hệ thống có tần suất thay đổi trạng thái cao.)",
+                "is_correct": false
+            }
+        ],
+        "code": ""
+    },
+    {
+        "question_id": "module-2-q18",
+        "module": "Automated Test Generation",
+        "question_text": "Why is it important to perform a bounded amount of work during each cycle?\nVN: Tại sao mỗi chu kỳ chỉ nên thực hiện một khối lượng công việc có giới hạn (bounded amount of work)?",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_text": "Because the system has to always account for the processing of upcoming samples. (Bởi vì hệ thống luôn phải chừa nguồn lực để xử lý các mẫu (samples) tiếp theo.)",
+                "is_correct": true
+            },
+            {
+                "answer_text": "Because the sampling rate needs to be high. (Bởi vì tốc độ lấy mẫu cần phải cao.)",
+                "is_correct": false
+            }
+        ],
+        "code": ""
+    },
+    {
+        "question_id": "module-2-q19",
+        "module": "Automated Test Generation",
+        "question_text": "The length of input sequences during testing does not affect the soundness of verification results for real-time systems.\nVN: Trong quá trình kiểm thử, độ dài của chuỗi đầu vào (input sequences) không làm ảnh hưởng đến tính chặt chẽ (soundness) của kết quả xác minh trên các hệ thống thời gian thực.",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_text": "True (Đúng)",
+                "is_correct": true
+            },
+            {
+                "answer_text": "False (Sai)",
+                "is_correct": false
+            }
+        ],
+        "code": ""
+    },
+    {
+        "question_id": "module-2-q20",
+        "module": "Automated Test Generation",
+        "question_text": "Requirements for real-time systems involve behaviors over _______ time\nVN: Các yêu cầu đối với hệ thống thời gian thực bao hàm các hành vi diễn ra trên miền thời gian _______",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_text": "real (thực)",
+                "is_correct": false
+            },
+            {
+                "answer_text": "discrete (rời rạc)",
+                "is_correct": false
+            },
+            {
+                "answer_text": "both real and discrete (cả thực và rời rạc)",
+                "is_correct": true
+            }
+        ],
+        "code": ""
+    },
+    {
+        "question_id": "module-2-q21",
+        "module": "Automated Test Generation",
+        "question_text": "What do the parameters help determine when using Parameterized Unit Tests?\nVN: Khi sử dụng Kiểm thử đơn vị có tham số (Parameterized Unit Tests), các tham số đóng vai trò quyết định điều gì?",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_text": "The length of the test step sequences (Độ dài của chuỗi bước kiểm thử)",
+                "is_correct": true
+            },
+            {
+                "answer_text": "The discrete time requirements (Các yêu cầu về thời gian rời rạc)",
+                "is_correct": false
+            },
+            {
+                "answer_text": "The sampling rate of the real-time system (Tốc độ lấy mẫu của hệ thống thời gian thực)",
+                "is_correct": false
+            }
+        ],
+        "code": ""
+    },
+    {
+        "question_id": "module-2-q22",
+        "module": "Automated Test Generation",
+        "question_text": "It is possible to bias the unit test generators towards certain inputs. How does that help during the testing process?\nVN: Ta có thể định hướng (bias) cho các bộ sinh ca kiểm thử đơn vị (unit test generators) thiên về một số dữ liệu đầu vào nhất định. Việc này mang lại lợi ích gì cho quá trình kiểm thử?",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_text": "We are able to focus testing on a specific part of the system's behavior (Ta có thể tập trung nguồn lực kiểm thử vào một khía cạnh cụ thể trong hành vi của hệ thống)",
+                "is_correct": true
+            },
+            {
+                "answer_text": "We are able to determine whether the current sampling rate is sufficient to approximate the input space (Ta có thể xác định xem tốc độ lấy mẫu hiện tại có đủ để xấp xỉ không gian đầu vào (input space) hay không)",
+                "is_correct": false
+            }
+        ],
+        "code": ""
+    }
+]

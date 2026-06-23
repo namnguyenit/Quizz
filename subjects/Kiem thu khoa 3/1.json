@@ -1,0 +1,556 @@
+[
+    {
+        "question_id": "module-1-q1",
+        "module": "Introduction to Automated Analysis",
+        "question_text": "When all tests in a test suite pass even when software contains bugs, it is an example of ______ verification.\nVN: Khi phần mềm có lỗi nhưng tất cả các ca kiểm thử trong bộ kiểm thử vẫn pass (vượt qua), đây là ví dụ về kiểm chứng ______.",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_text": "Optimistic verification (Kiểm chứng lạc quan)",
+                "is_correct": true
+            },
+            {
+                "answer_text": "Pessimistic verification (Kiểm chứng bi quan)",
+                "is_correct": false
+            }
+        ],
+        "code": ""
+    },
+    {
+        "question_id": "module-1-q2",
+        "module": "Introduction to Automated Analysis",
+        "question_text": "Why is perfect validation impractical?\nVN: Tại sao việc thẩm định (validation) hoàn hảo lại là điều phi thực tế?",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_text": "It isn't impractical at all. Perfect validation is done regularly with safety critical systems. (Hoàn toàn không phi thực tế. Việc thẩm định hoàn hảo thường xuyên được thực hiện đối với các hệ thống yêu cầu độ an toàn cực kỳ cao.)",
+                "is_correct": false
+            },
+            {
+                "answer_text": "The halting problem; it is undecidable. (Do bài toán dừng (halting problem); đây là bài toán không thể quyết định được.)",
+                "is_correct": true
+            }
+        ],
+        "code": ""
+    },
+    {
+        "question_id": "module-1-q3",
+        "module": "Introduction to Automated Analysis",
+        "question_text": "Check all that apply: Static analysis determines if a program is well formed. This includes checking for:\nVN: Chọn tất cả các đáp án đúng: Phân tích tĩnh (Static analysis) xác định xem một chương trình có cấu trúc chuẩn (well-formed) hay không. Các bước này bao gồm kiểm tra:",
+        "question_type": "multiple_answer_question",
+        "answers": [
+            {
+                "answer_text": "Integer overflow (Lỗi tràn số nguyên)",
+                "is_correct": true
+            },
+            {
+                "answer_text": "Divide by zero exceptions (Ngoại lệ chia cho 0)",
+                "is_correct": true
+            },
+            {
+                "answer_text": "Coverage testing (Kiểm thử độ phủ)",
+                "is_correct": false
+            },
+            {
+                "answer_text": "Null pointer exceptions (Ngoại lệ con trỏ null)",
+                "is_correct": true
+            }
+        ],
+        "code": ""
+    },
+    {
+        "question_id": "module-1-q4",
+        "module": "Introduction to Automated Analysis",
+        "question_text": "Automated execution of tests is important to make software testing effective.\nVN: Tự động hóa quá trình chạy kiểm thử là yếu tố quan trọng giúp việc kiểm thử phần mềm đạt hiệu quả.",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_text": "True (Đúng)",
+                "is_correct": true
+            },
+            {
+                "answer_text": "False (Sai)",
+                "is_correct": false
+            }
+        ],
+        "code": ""
+    },
+    {
+        "question_id": "module-1-q5",
+        "module": "Introduction to Automated Analysis",
+        "question_text": "Fill in the blanks. To make testing rigorous, we need to automate the ______________ and _______________ of tests.\nVN: Điền vào chỗ trống. Để quá trình kiểm thử được chặt chẽ, chúng ta cần tự động hóa khâu ______________ và _______________ các ca kiểm thử.",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_text": "Generation; Execution (Tạo sinh; Thực thi)",
+                "is_correct": true
+            },
+            {
+                "answer_text": "Execution; Rigor (Thực thi; Chặt chẽ)",
+                "is_correct": false
+            },
+            {
+                "answer_text": "Execution; Effective (Thực thi; Hiệu quả)",
+                "is_correct": false
+            }
+        ],
+        "code": ""
+    },
+    {
+        "question_id": "module-1-q6",
+        "module": "Introduction to Automated Analysis",
+        "question_text": "Autmated Test Generation  requires a kind of oracle to determine what is the proper behavior  of the program.\nVN: Quá trình Tạo ca kiểm thử tự động yêu cầu một 'oracle' (cơ chế phân định tính đúng đắn) để xác định xem chương trình có hoạt động đúng như mong đợi hay không.",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_text": "False (Sai)",
+                "is_correct": false
+            },
+            {
+                "answer_text": "True (Đúng)",
+                "is_correct": true
+            }
+        ],
+        "code": ""
+    },
+    {
+        "question_id": "module-1-q7",
+        "module": "Introduction to Automated Analysis",
+        "question_text": "Static analysis and model checking tools usually have two inputs. These are:\nVN: Các công cụ phân tích tĩnh và kiểm chứng mô hình (model checking) thường có hai đầu vào. Đó là:",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_text": "This statement is false. Static analysis tools only require an oracle (a single input) to perform analysis. (Phát biểu này sai. Các công cụ phân tích tĩnh chỉ cần một oracle (một đầu vào duy nhất) để thực hiện phân tích.)",
+                "is_correct": false
+            },
+            {
+                "answer_text": "Oracle and the Source code (Oracle và Mã nguồn)",
+                "is_correct": true
+            },
+            {
+                "answer_text": "This statement is false. Static analysis tools only require the source code (a single input) to perform analysis. (Phát biểu này sai. Các công cụ phân tích tĩnh chỉ cần mã nguồn (một đầu vào duy nhất) để thực hiện phân tích.)",
+                "is_correct": false
+            }
+        ],
+        "code": ""
+    },
+    {
+        "question_id": "module-1-q8",
+        "module": "Introduction to Automated Analysis",
+        "question_text": "The output of model checking tools consists of:\nVN: Đầu ra của các công cụ kiểm chứng mô hình bao gồm:",
+        "question_type": "multiple_answer_question",
+        "answers": [
+            {
+                "answer_text": "Oracle showing which properties are the most relevant. (Oracle chỉ ra những thuộc tính nào là liên quan nhất.)",
+                "is_correct": false
+            },
+            {
+                "answer_text": "An indication of the properties that passed. (Chỉ báo về các thuộc tính đã pass (được thỏa mãn).)",
+                "is_correct": true
+            },
+            {
+                "answer_text": "A test case in the event that a property does not hold. (Một ca kiểm thử cho trường hợp thuộc tính không được thỏa mãn (có lỗi xảy ra).)",
+                "is_correct": true
+            },
+            {
+                "answer_text": "Coverage metric (Chỉ số đo lường độ phủ)",
+                "is_correct": false
+            }
+        ],
+        "code": ""
+    },
+    {
+        "question_id": "module-1-q9",
+        "module": "Introduction to Automated Analysis",
+        "question_text": "Static analysis can find well-formedness errors in programs. Select the examples of well-formedness errors.\nVN: Phân tích tĩnh có thể tìm ra các lỗi vi phạm cấu trúc chuẩn (well-formedness) trong chương trình. Hãy chọn các ví dụ về loại lỗi này.",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_text": "Security Vulnerabilities (Lỗ hổng bảo mật)",
+                "is_correct": false
+            },
+            {
+                "answer_text": "Resource Leaks (Rò rỉ tài nguyên)",
+                "is_correct": false
+            },
+            {
+                "answer_text": "Race Conditions (Lỗi tương tranh / Race condition)",
+                "is_correct": false
+            },
+            {
+                "answer_text": "Memory Errors (Lỗi bộ nhớ)",
+                "is_correct": false
+            },
+            {
+                "answer_text": "Violations of API or Framework (Vi phạm quy tắc sử dụng API hoặc Framework)",
+                "is_correct": false
+            },
+            {
+                "answer_text": "Uncaught exceptions (Ngoại lệ không được bắt)",
+                "is_correct": false
+            },
+            {
+                "answer_text": "All of the above (Tất cả các phương án trên)",
+                "is_correct": true
+            }
+        ],
+        "code": ""
+    },
+    {
+        "question_id": "module-1-q10",
+        "module": "Introduction to Automated Analysis",
+        "question_text": "Check all true statements with regards to sound abstraction.\nVN: Chọn tất cả các phát biểu đúng liên quan đến trừu tượng hóa chặt chẽ (sound abstraction).",
+        "question_type": "multiple_answer_question",
+        "answers": [
+            {
+                "answer_text": "A sound abstraction includes all of the original program's reachable states. (Một trừu tượng hóa chặt chẽ bao hàm tất cả các trạng thái có thể đạt tới của chương trình gốc.)",
+                "is_correct": true
+            },
+            {
+                "answer_text": "A sound abstraction includes all of the behavior of the original program. (Một trừu tượng hóa chặt chẽ bao hàm toàn bộ hành vi của chương trình gốc.)",
+                "is_correct": true
+            },
+            {
+                "answer_text": "A sound abstraction is not possible. (Một trừu tượng hóa chặt chẽ là điều không thể thực hiện được.)",
+                "is_correct": false
+            },
+            {
+                "answer_text": "A sound abstraction is not usually used in tools. (Một trừu tượng hóa chặt chẽ thường không được sử dụng trong các công cụ.)",
+                "is_correct": true
+            },
+            {
+                "answer_text": "A sound abstraction can result in a large number of false alarms (errors that cannot occur in original program). (Một trừu tượng hóa chặt chẽ có thể dẫn đến một lượng lớn cảnh báo giả (báo lỗi nhưng thực tế chương trình gốc không xảy ra lỗi).)",
+                "is_correct": true
+            }
+        ],
+        "code": ""
+    },
+    {
+        "question_id": "module-1-q11",
+        "module": "Introduction to Automated Analysis",
+        "question_text": "Model checking checks well-formedness, but it cannot determine if the program does the right thing in terms of behavior.\nVN: Kiểm chứng mô hình giúp kiểm tra tính chuẩn xác của cấu trúc (well-formedness), nhưng nó không thể xác định liệu chương trình có thực hiện đúng các hành vi nghiệp vụ mong muốn hay không.",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_text": "True (Đúng)",
+                "is_correct": false
+            },
+            {
+                "answer_text": "False (Sai)",
+                "is_correct": true
+            }
+        ],
+        "code": ""
+    },
+    {
+        "question_id": "module-1-q12",
+        "module": "Introduction to Automated Analysis",
+        "question_text": "Since even small programs have trillions of states, how can we prove properties or requirements of programs?\nVN: Vì ngay cả những chương trình nhỏ cũng có thể có tới hàng nghìn tỷ trạng thái, làm cách nào để chúng ta có thể chứng minh được các thuộc tính hoặc yêu cầu của chương trình?",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_text": "Computers are quite fast and can check trillions of states quite easily. (Máy tính rất nhanh và có thể kiểm tra hàng nghìn tỷ trạng thái một cách khá dễ dàng.)",
+                "is_correct": false
+            },
+            {
+                "answer_text": "Represent the system states or paths symbolically as boolean formulas. (Đại diện cho các trạng thái hoặc luồng thực thi của hệ thống dưới dạng các công thức boolean.)",
+                "is_correct": true
+            },
+            {
+                "answer_text": "Represent the system states or paths as a large graph. (Đại diện cho các trạng thái hoặc luồng thực thi của hệ thống bằng một đồ thị khổng lồ.)",
+                "is_correct": false
+            }
+        ],
+        "code": ""
+    },
+    {
+        "question_id": "module-1-q13",
+        "module": "Introduction to Automated Analysis",
+        "question_text": "The question asked by SMT/SAT solvers is: 'Given a boolean formula, is there any assignment of variables for which the formula is true?'\nVN: Bài toán mà các bộ giải SMT/SAT (solvers) cần trả lời là: 'Cho một công thức boolean, có tồn tại phép gán giá trị cho các biến nào để công thức đó trả về đúng (true) hay không?'",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_text": "False (Sai)",
+                "is_correct": false
+            },
+            {
+                "answer_text": "True (Đúng)",
+                "is_correct": true
+            }
+        ],
+        "code": ""
+    },
+    {
+        "question_id": "module-1-q14",
+        "module": "Introduction to Automated Analysis",
+        "question_text": "Which of the following choices correctly finish this sentence? \n\nSMT (Satisfiability Modulo Theories) adds into SAT solvers additional 'theories' that can solve ____________.\nVN: Chọn phương án đúng nhất để hoàn thành câu sau: \n\nSMT (Satisfiability Modulo Theories) bổ sung thêm các 'lý thuyết' vào các bộ giải SAT, giúp giải quyết các bài toán về ____________.",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_text": "Arrays (Mảng)",
+                "is_correct": false
+            },
+            {
+                "answer_text": "Linear integer arithmetic (Số học số nguyên tuyến tính)",
+                "is_correct": false
+            },
+            {
+                "answer_text": "Real arithmetic (Số học số thực)",
+                "is_correct": false
+            },
+            {
+                "answer_text": "All of the above (Tất cả các phương án trên)",
+                "is_correct": true
+            }
+        ],
+        "code": ""
+    },
+    {
+        "question_id": "module-1-q15",
+        "module": "Introduction to Automated Analysis",
+        "question_text": "Choose the best answer. Running automated testing without an Oracle...\nVN: Chọn câu trả lời đúng nhất. Chạy kiểm thử tự động mà không có Oracle (Cơ chế phân định kết quả)...",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_text": "is a good way to know if your program crashes. (là một cách tốt để biết chương trình của bạn có bị crash (treo/ngừng hoạt động) hay không.)",
+                "is_correct": false
+            },
+            {
+                "answer_text": "is the best way to see if your program behaves properly. (là cách tốt nhất để xem chương trình có hoạt động đúng nghiệp vụ hay không.)",
+                "is_correct": false
+            },
+            {
+                "answer_text": "does not provide feedback as to whether your program is performing correctly. (sẽ không thể cho bạn biết chương trình có đang thực thi chính xác hay không.)",
+                "is_correct": true
+            }
+        ],
+        "code": ""
+    },
+    {
+        "question_id": "module-1-q16",
+        "module": "Introduction to Automated Analysis",
+        "question_text": "Given the English language requirement 'If the mode is COOKING, then the door is CLOSED,' which of the following are proper java encodings of that requirement? Check all that apply.\nVN: Giả sử có một yêu cầu mô tả bằng lời như sau: 'Nếu hệ thống đang ở chế độ COOKING, thì cửa phải ở trạng thái CLOSED'. Các đoạn mã Java nào sau đây thể hiện đúng yêu cầu đó? Chọn tất cả các đáp án đúng.",
+        "question_type": "multiple_answer_question",
+        "answers": [
+            {
+                "answer_text": "assert( !(mode == COOKING) && door_closed); (assert( !(mode == COOKING) && door_closed);)",
+                "is_correct": false
+            },
+            {
+                "answer_text": "assert((mode == COOKING) && door_closed); (assert((mode == COOKING) && door_closed);)",
+                "is_correct": false
+            },
+            {
+                "answer_text": "assert( (mode == COOKING) || door_closed); (assert( (mode == COOKING) || door_closed);)",
+                "is_correct": false
+            },
+            {
+                "answer_text": "assert( !(mode == COOKING) || door_closed); (assert( !(mode == COOKING) || door_closed);)",
+                "is_correct": true
+            },
+            {
+                "answer_text": "none of the above (Không có phương án nào đúng)",
+                "is_correct": false
+            }
+        ],
+        "code": ""
+    },
+    {
+        "question_id": "module-1-q17",
+        "module": "Introduction to Automated Analysis",
+        "question_text": "Testable natural language requirements can always be formalized and used for an Oracle.\nVN: Các yêu cầu bằng ngôn ngữ tự nhiên có thể kiểm thử được thì luôn luôn có thể được hình thức hóa và dùng làm Oracle.",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_text": "True (Đúng)",
+                "is_correct": true
+            },
+            {
+                "answer_text": "False (Sai)",
+                "is_correct": false
+            }
+        ],
+        "code": ""
+    },
+    {
+        "question_id": "module-1-q18",
+        "module": "Introduction to Automated Analysis",
+        "question_text": "Select the best answer. Unit tests are a way to test how the system performs...\nVN: Chọn câu trả lời đúng nhất. Kiểm thử đơn vị (Unit test) là cách để kiểm tra xem hệ thống hoạt động ra sao...",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_text": "Under stress (Dưới điều kiện tải nặng (Stress testing))",
+                "is_correct": false
+            },
+            {
+                "answer_text": "at a small scope (a class or function) (ở phạm vi nhỏ (mức class hoặc function))",
+                "is_correct": true
+            },
+            {
+                "answer_text": "In the abscence of an Oracle (Trong trường hợp không có Oracle)",
+                "is_correct": false
+            }
+        ],
+        "code": ""
+    },
+    {
+        "question_id": "module-1-q19",
+        "module": "Introduction to Automated Analysis",
+        "question_text": "When generalizing parameterized unit tests, the more generalization that occurs, the more complex the Oracle becomes.\nVN: Khi tổng quát hóa các ca kiểm thử đơn vị có tham số (parameterized unit tests), tính tổng quát càng cao thì Oracle đi kèm càng trở nên phức tạp.",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_text": "True (Đúng)",
+                "is_correct": true
+            },
+            {
+                "answer_text": "False (Sai)",
+                "is_correct": false
+            }
+        ],
+        "code": ""
+    },
+    {
+        "question_id": "module-1-q20",
+        "module": "Introduction to Automated Analysis",
+        "question_text": "It is impossible for the Oracle to contain mistakes.\nVN: Oracle không bao giờ có thể chứa lỗi sai.",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_text": "True (Đúng)",
+                "is_correct": false
+            },
+            {
+                "answer_text": "False (Sai)",
+                "is_correct": true
+            }
+        ],
+        "code": ""
+    },
+    {
+        "question_id": "module-1-q21",
+        "module": "Introduction to Automated Analysis",
+        "question_text": "Why is it important to find a balance between generality and complexity when writing an Oracle using parameterized unit tests?\nVN: Tại sao cần phải cân bằng giữa tính tổng quát và độ phức tạp khi viết Oracle cho các ca kiểm thử đơn vị có tham số?",
+        "question_type": "multiple_answer_question",
+        "answers": [
+            {
+                "answer_text": "If too many generalizations occur, the Oracle starts to become as complex as the original program. (Nếu tổng quát hóa quá mức, Oracle sẽ trở nên phức tạp ngang ngửa chính chương trình đang cần kiểm thử.)",
+                "is_correct": true
+            },
+            {
+                "answer_text": "It is not important to find this balance. The more generalized the Oracle, the better it is at finding bugs in the program under test. (Việc cân bằng này không quan trọng. Oracle càng tổng quát thì càng dễ phát hiện lỗi của chương trình.)",
+                "is_correct": false
+            },
+            {
+                "answer_text": "It may take too much time to generalize the unit tests to create a perfect Oracle. (Sẽ tốn quá nhiều thời gian để tổng quát hóa các unit test hòng tạo ra một Oracle hoàn hảo.)",
+                "is_correct": true
+            }
+        ],
+        "code": ""
+    },
+    {
+        "question_id": "module-1-q22",
+        "module": "Introduction to Automated Analysis",
+        "question_text": "Automated analysis tools try to find any possible violation of a property.\nVN: Các công cụ phân tích tự động luôn cố gắng tìm ra mọi trường hợp có thể vi phạm một thuộc tính nào đó của phần mềm.",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_text": "True (Đúng)",
+                "is_correct": true
+            },
+            {
+                "answer_text": "False (Sai)",
+                "is_correct": false
+            }
+        ],
+        "code": ""
+    },
+    {
+        "question_id": "module-1-q23",
+        "module": "Introduction to Automated Analysis",
+        "question_text": "Automated analysis tools will never try to find possible violations of a property outside of the operating envelope of the system.\nVN: Các công cụ phân tích tự động sẽ không bao giờ tìm kiếm các vi phạm thuộc tính nằm ngoài phạm vi hoạt động dự kiến của hệ thống.",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_text": "True (Đúng)",
+                "is_correct": false
+            },
+            {
+                "answer_text": "False (Sai)",
+                "is_correct": true
+            }
+        ],
+        "code": ""
+    },
+    {
+        "question_id": "module-1-q24",
+        "module": "Introduction to Automated Analysis",
+        "question_text": "Another word for environmental assumptions is _______\nVN: Một thuật ngữ khác dùng để chỉ các giả định về môi trường (environmental assumptions) là _______",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_text": "Automated analysis (Phân tích tự động)",
+                "is_correct": false
+            },
+            {
+                "answer_text": "Invariant (Bất biến)",
+                "is_correct": true
+            },
+            {
+                "answer_text": "Data fields (Các trường dữ liệu)",
+                "is_correct": false
+            }
+        ],
+        "code": ""
+    },
+    {
+        "question_id": "module-1-q25",
+        "module": "Introduction to Automated Analysis",
+        "question_text": "In general terms, constraints that are necessary for correct execution of the test have to be added. This includes:\nVN: Nhìn chung, chúng ta cần bổ sung các ràng buộc cần thiết để ca kiểm thử có thể thực thi chính xác. Những ràng buộc này bao gồm:",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_text": "Non-null restrictions (Ràng buộc không được null)",
+                "is_correct": false
+            },
+            {
+                "answer_text": "Numeric range restrictions (Ràng buộc về phạm vi của các giá trị số)",
+                "is_correct": false
+            },
+            {
+                "answer_text": "Constraints on singletons or data fields (Ràng buộc đối với các đối tượng singleton hoặc các trường dữ liệu)",
+                "is_correct": false
+            },
+            {
+                "answer_text": "Well-formedness on data structures (Ràng buộc về cấu trúc chuẩn của các cấu trúc dữ liệu)",
+                "is_correct": false
+            },
+            {
+                "answer_text": "All of the above (Tất cả các phương án trên)",
+                "is_correct": true
+            }
+        ],
+        "code": ""
+    },
+    {
+        "question_id": "module-1-q26",
+        "module": "Introduction to Automated Analysis",
+        "question_text": "If we overconstrain assumptions, what could be the consequence? Why must we be careful with environmental assumptions?\nVN: Nếu chúng ta đặt ra các giả định quá khắt khe (ràng buộc quá mức), hệ quả có thể là gì? Tại sao chúng ta phải thật cẩn trọng với các giả định về môi trường?",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_text": "We may miss actual test cases and have confidence in the system when it is unwarranted. (Chúng ta có thể bỏ sót các trường hợp kiểm thử thực tế và sinh ra sự tự tin thái quá vào hệ thống dù chưa được kiểm chứng đầy đủ.)",
+                "is_correct": true
+            },
+            {
+                "answer_text": "We could take too much time testing. (Chúng ta có thể tốn quá nhiều thời gian để kiểm thử.)",
+                "is_correct": false
+            },
+            {
+                "answer_text": "There are no negative consequences of this whatsoever. (Hoàn toàn không có bất kỳ hệ quả tiêu cực nào xảy ra.)",
+                "is_correct": false
+            }
+        ],
+        "code": ""
+    }
+]
