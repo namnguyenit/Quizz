@@ -1,0 +1,758 @@
+[
+  {
+    "question_id": "module-3-writing-requirements-for-testability-q1",
+    "module": "Module 3",
+    "question_text": "A good requirement properly defines system functionality.\nVN: Một yêu cầu tốt sẽ xác định đúng chức năng của hệ thống.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "False (Sai)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "True (Đúng)",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-3-writing-requirements-for-testability-q2",
+    "module": "Module 3",
+    "question_text": "Good requirements should be... (Choose all that apply)\nVN: Yêu cầu tốt phải là... (Chọn tất cả những gì áp dụng)",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "Unambiguous (rõ ràng)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Complete (Hoàn thành)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Vague (mơ hồ)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Consistent (Nhất quán)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Modifiable (Có thể sửa đổi)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Final (Cuối cùng)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Prioritized (Được ưu tiên)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Traceable (Có thể theo dõi)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Verifiable (Có thể kiểm chứng)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Unquantifiable (Không thể định lượng được)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-3-writing-requirements-for-testability-q3",
+    "module": "Module 3",
+    "question_text": "If you cannot test a requirement...\nVN: Nếu bạn không thể kiểm tra một yêu cầu...",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "the system is certainly not easy to use. (hệ thống này chắc chắn không dễ sử dụng.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "the tests must be incorrect. (các bài kiểm tra phải không chính xác.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "there is no way to know if you have successfully completed the project. (không có cách nào để biết liệu bạn đã hoàn thành dự án thành công hay chưa.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "the customer will never know. (khách hàng sẽ không bao giờ biết.)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-3-bad-requirements-for-testability-q1",
+    "module": "Module 3",
+    "question_text": "Which of the following is not true: Requirements should be...\nVN: Điều nào sau đây không đúng: Yêu cầu phải...",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Unambiguous (rõ ràng)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Clear (Thông thoáng)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Vague (mơ hồ)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Precise (Chính xác)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Understandable (Có thể hiểu được)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-3-bad-requirements-for-testability-q2",
+    "module": "Module 3",
+    "question_text": "What is one way to help ensure that your requirements are clear, precise, and unambiguous?\nVN: Một cách để giúp đảm bảo rằng các yêu cầu của bạn là rõ ràng, chính xác và rõ ràng?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Ask your boss if they are okay requirements. (Hãy hỏi sếp của bạn xem những yêu cầu đó có ổn không.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Make assumptions about the input. (Đưa ra các giả định về đầu vào.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Develop test cases for each requirement. (Phát triển các test case (trường hợp kiểm thử) cho từng yêu cầu.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Check the expected output and see if it matches actual output. (Kiểm tra đầu ra dự kiến ​​và xem liệu nó có khớp với đầu ra thực tế hay không.)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-3-bad-requirements-for-testability-q3",
+    "module": "Module 3",
+    "question_text": "Border cases can occur when requirements are vague.\nVN: Các trường hợp biên giới có thể xảy ra khi các yêu cầu không rõ ràng.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "True (Đúng)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "False (Sai)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-3-writing-test-cases-for-requirements-q1",
+    "module": "Module 3",
+    "question_text": "Say you want to do test-driven development (TDD), what three things must you define to construct your tests?\nVN: Giả sử bạn muốn thực hiện phát triển dựa trên thử nghiệm (TDD), bạn phải xác định ba điều gì để xây dựng thử nghiệm của mình?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Input, Requirement, Expected Output (Đầu vào, yêu cầu, đầu ra mong đợi)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Input, Expected Procedure, Actual Output (Đầu vào, Quy trình dự kiến, Đầu ra thực tế)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Input, Procedure, Actual Output (Đầu vào, thủ tục, đầu ra thực tế)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Input, Test Procedure, Expected Output (Đầu vào, quy trình kiểm tra, đầu ra dự kiến)",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-3-writing-test-cases-for-requirements-q2",
+    "module": "Module 3",
+    "question_text": "Is the following a good requirement: 'When showing user information, all relevant information about the user must be shown'?\nVN: Yêu cầu sau có tốt không: 'Khi hiển thị thông tin người dùng, tất cả thông tin liên quan về người dùng phải được hiển thị'?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Yes (Có)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "No (Không)",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-3-writing-test-cases-for-requirements-q3",
+    "module": "Module 3",
+    "question_text": "There are some vague and ambiguous words that should automatically raise a red flag when reading requirements. What are some of those words? (Check all that apply)\nVN: Có một số từ mơ hồ, mơ hồ nên tự động cảnh báo khi đọc yêu cầu. Một số từ đó là gì? (Đánh dấu tất cả những gì áp dụng)",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "Eventually (Sau cùng)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Sometimes (Thỉnh thoảng)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Bad (Xấu)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Clearly (Rõ ràng)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "At some point (Tại một thời điểm nào đó)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Effective (Hiệu quả)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Similar (Tương tự)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Always (Luôn luôn)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "None of the above (Không có điều nào ở trên)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-3-writing-test-cases-for-requirements-q4",
+    "module": "Module 3",
+    "question_text": "Poor requirements can be better written by first writing test cases.\nVN: Các yêu cầu kém có thể được viết tốt hơn bằng cách viết các trường hợp kiểm thử đầu tiên.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "True (Đúng)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "False (Sai)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-3-writing-test-cases-for-requirements-q5",
+    "module": "Module 3",
+    "question_text": "Tests consist of {Input, Test Procedure, and Expected Output}.  Which of these three components are used to to induce the conditions you are seeking to test?\nVN: Các thử nghiệm bao gồm {Đầu vào, Quy trình thử nghiệm và Đầu ra dự kiến}.  Thành phần nào trong ba thành phần này được sử dụng để tạo ra các điều kiện mà bạn đang muốn kiểm tra?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Output (đầu ra)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Test Procedure (Quy trình kiểm tra)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Input (đầu vào)",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-3-writing-test-cases-for-requirements-q6",
+    "module": "Module 3",
+    "question_text": "When speaking of Input, Test Procedure, and Output, which of these is described by the following statement: What and how will you measure?\nVN: Khi nói về Đầu vào, Quy trình kiểm tra và Đầu ra, điều nào trong số này được mô tả bằng câu lệnh sau: Bạn sẽ đo lường cái gì và như thế nào?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Input (đầu vào)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Test Procedure (Quy trình kiểm tra)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Output (đầu ra)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-3-writing-test-cases-for-requirements-q7",
+    "module": "Module 3",
+    "question_text": "When speaking of Input, Test Procedure, and Output, which of these is described by the following statement: What is the resulting measurement when executing the input for that procedure?\nVN: Khi nói về Đầu vào, Quy trình kiểm tra và Đầu ra, điều nào trong số này được mô tả bằng câu lệnh sau: Kết quả đo lường khi thực hiện đầu vào cho quy trình đó là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Output (đầu ra)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Input (đầu vào)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Test Procedure (Quy trình kiểm tra)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-3-fixing-requirements-for-testability-q1",
+    "module": "Module 3",
+    "question_text": "Fill in the blanks: Use ______, _______, and ______ to help redefine requirements.\nVN: Điền vào chỗ trống: Sử dụng ______, _______ và ______ để giúp xác định lại các yêu cầu.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Test cases, Requirements, Test Procedure (Các trường hợp kiểm thử, Yêu cầu, Quy trình kiểm thử)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Expected Output, Common sense, Input (Đầu ra mong đợi, Ý thức chung, Đầu vào)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Input, Test Procedure, Expected Output (Đầu vào, quy trình kiểm tra, đầu ra dự kiến)",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-3-fixing-requirements-for-testability-q2",
+    "module": "Module 3",
+    "question_text": "Developing test cases for requirements can...\nVN: Việc phát triển các ca kiểm thử cho các yêu cầu có thể...",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "help write better requirements. (giúp viết yêu cầu tốt hơn.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "increase fault avoidance. (tăng khả năng tránh lỗi.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "decrease fault tolerance. (giảm khả năng chịu lỗi.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "create bad requirements. (tạo ra những yêu cầu xấu.)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-3-fixing-requirements-for-testability-q3",
+    "module": "Module 3",
+    "question_text": "You should analyze your requirements for testability.\nVN: Bạn nên phân tích các yêu cầu của bạn để kiểm tra.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "True (Đúng)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "False (Sai)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-3-fixing-requirements-for-testability-q4",
+    "module": "Module 3",
+    "question_text": "Sometimes in requirements, you have to have placeholders: words/concepts that you assume are defined somewhere else. Given the requirement: 'When temperature reaches threshold, an alarm will be raised within 2 seconds,' what are the placeholders? (Check all that apply)\nVN: Đôi khi trong yêu cầu, bạn phải có phần giữ chỗ: các từ/khái niệm mà bạn cho rằng được định nghĩa ở một nơi khác. Đưa ra yêu cầu: 'Khi nhiệt độ đạt đến ngưỡng, cảnh báo sẽ được đưa ra trong vòng 2 giây', phần giữ chỗ là gì? (Đánh dấu tất cả những gì áp dụng)",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "Alarm (Báo thức)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Threshold (Ngưỡng)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Temperature (Nhiệt độ)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Seconds (Giây)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-3-are-these-requirements-testable?-q1",
+    "module": "Module 3",
+    "question_text": "Is the following requirement testable for a web server?  'When concurrent requests arrive in high volume, the server shall allocate more threads and handle all requests successfully.' (Check all answers that apply)\nVN: Yêu cầu sau đây có thể kiểm tra được đối với máy chủ web không?  'Khi các yêu cầu đồng thời đến với số lượng lớn, máy chủ sẽ phân bổ nhiều luồng hơn và xử lý thành công tất cả các yêu cầu.' (Đánh dấu tất cả các câu trả lời phù hợp)",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Testable as is. (Có thể kiểm tra được.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Not testable.  No indication of how many threads will be allocated. (Không thể kiểm tra được.  Không có dấu hiệu cho thấy có bao nhiêu chủ đề sẽ được phân bổ.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Not testable.  What does 'successfully' mean? (Không thể kiểm tra được.  'Thành công' nghĩa là gì?)",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-3-are-these-requirements-testable?-q2",
+    "module": "Module 3",
+    "question_text": "Is the following requirement testable for a web-based word processor? 'When the application loses network connectivity on a PC with sufficient local filesystem space, it shall save a draft of the current document to local storage in the user's home folder.'   Check all answers that apply.\nVN: Yêu cầu sau đây có thể kiểm tra được đối với trình xử lý văn bản dựa trên web không? 'Khi ứng dụng mất kết nối mạng trên PC có đủ dung lượng hệ thống tệp cục bộ, ứng dụng sẽ lưu bản nháp của tài liệu hiện tại vào bộ nhớ cục bộ trong thư mục chính của người dùng.'   Kiểm tra tất cả các câu trả lời áp dụng.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Testable as is. (Có thể kiểm tra được.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Not testable.  No indiction of where on the filesystem the document will be stored. (Không thể kiểm tra được.  Không có dấu hiệu nào cho biết tài liệu sẽ được lưu trữ ở đâu trên hệ thống tập tin.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Not testable.  No indication of how long it takes to detect loss of connectivity. (Không thể kiểm tra được.  Không có dấu hiệu cho thấy phải mất bao lâu để phát hiện mất kết nối.)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-3-are-these-requirements-testable?-q3",
+    "module": "Module 3",
+    "question_text": "Is the following requirement testable for a web server? 'If the web server is breached by an attacker, it can be partitioned into multiple processes with different privileges to prevent the attack from spreading.' (Check all answers that apply)\nVN: Yêu cầu sau đây có thể kiểm tra được đối với máy chủ web không? “Nếu máy chủ web bị kẻ tấn công xâm phạm, nó có thể được phân vùng thành nhiều quy trình với các đặc quyền khác nhau để ngăn chặn cuộc tấn công lan rộng”. (Đánh dấu tất cả các câu trả lời phù hợp)",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "Testable as is. (Có thể kiểm tra được.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Not testable because we don't know how the system is partitioned. (Không thể kiểm tra được vì chúng tôi không biết hệ thống được phân vùng như thế nào.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Not testable because it is unclear how privileges are allocated or how they would keep the attack from spreading. (Không thể kiểm tra được vì không rõ các đặc quyền được phân bổ như thế nào hoặc chúng sẽ ngăn chặn cuộc tấn công lan rộng như thế nào.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Not testable because you can't prevent an attacker from breaking into your system. (Không thể kiểm tra được vì bạn không thể ngăn kẻ tấn công xâm nhập vào hệ thống của mình.)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-3-are-these-requirements-testable?-q4",
+    "module": "Module 3",
+    "question_text": "Is the following requirement testable for a door security system?  'Given a locked door, when a user presents an invalid authorization token to the door sensor, the door shall remain locked and an audible sound will be played from the piezo buzzer.'  Check all answers that apply.\nVN: Yêu cầu sau đây có thể kiểm tra được đối với hệ thống an ninh cửa không?  'Với một cánh cửa bị khóa, khi người dùng xuất trình mã thông báo ủy quyền không hợp lệ cho cảm biến cửa, cửa sẽ vẫn bị khóa và âm thanh nghe được sẽ được phát ra từ bộ rung Piezo.'  Kiểm tra tất cả các câu trả lời áp dụng.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Testable as is. (Có thể kiểm tra được.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Not testable because we don't state how loud the sound is. (Không thể kiểm tra được vì chúng tôi không cho biết âm thanh lớn đến mức nào.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Not testable because the requirement does not describe what happens if the door is unlocked. (Không thể kiểm tra được vì yêu cầu không mô tả điều gì sẽ xảy ra nếu cửa không khóa.)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-3-introduction-to-user-stories-and-behavior-driven-development-q1",
+    "module": "Module 3",
+    "question_text": "Why are User Stories important in software testing?\nVN: Tại sao Câu chuyện của người dùng lại quan trọng trong kiểm thử phần mềm?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "They allow the system's user to provide important feedback regarding system testing. (Chúng cho phép người dùng hệ thống cung cấp phản hồi quan trọng về việc kiểm tra hệ thống.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "They provide a way of developing software requirements by viewing the system from a user's perspective. (Chúng cung cấp cách phát triển các yêu cầu phần mềm bằng cách xem hệ thống từ góc độ của người dùng.)",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-3-introduction-to-user-stories-and-behavior-driven-development-q2",
+    "module": "Module 3",
+    "question_text": "User Stories are mainly expressed using the rule...\nVN: Câu chuyện của người dùng chủ yếu được thể hiện bằng quy tắc...",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "As a < role >, I want <feature> so that < reason > (Với tư cách là một <vai trò>, tôi muốn có <tính năng> để < lý do>)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "When I < action >, I expect < result > (Khi tôi < hành động >, tôi mong đợi < kết quả >)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "The < role > should not be able to < feature > because < reason > (<vai trò> không thể <tính năng> vì <lý do>)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-3-introduction-to-user-stories-and-behavior-driven-development-q3",
+    "module": "Module 3",
+    "question_text": "Why are roles used in User Stories?\nVN: Tại sao các vai trò được sử dụng trong Câu chuyện của người dùng?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "To define the role that each component has in the system under test. (Để xác định vai trò của từng thành phần trong hệ thống cần kiểm thử (SUT).)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "To identify the role of each engineer involved in the system's development. (Để xác định vai trò của từng kỹ sư tham gia vào quá trình phát triển hệ thống.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "To identify all the different kinds of users in the end product. (Để xác định tất cả các loại người dùng khác nhau trong sản phẩm cuối cùng.)",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-3-introduction-to-user-stories-and-behavior-driven-development-q4",
+    "module": "Module 3",
+    "question_text": "Why are reasons useful in User Stories? (Check all that apply)\nVN: Tại sao lý do lại hữu ích trong Câu chuyện của người dùng? (Đánh dấu tất cả những gì áp dụng)",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "To convince the leading engineer regarding the implementation of a feature. (Để thuyết phục kỹ sư hàng đầu về việc triển khai một tính năng.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "To detect overlapping functionality between features. (Để phát hiện chức năng chồng chéo giữa các tính năng.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "To improve testing by providing context. (Để cải thiện thử nghiệm bằng cách cung cấp ngữ cảnh.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "To justify the importance of testing a specific feature. (Để chứng minh tầm quan trọng của việc thử nghiệm một tính năng cụ thể.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "To prioritize features. (Để ưu tiên các tính năng.)",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-3-introduction-to-user-stories-and-behavior-driven-development-q5",
+    "module": "Module 3",
+    "question_text": "Epics are different from detailed User Stories because...\nVN: Sử thi khác với Câu chuyện chi tiết của người dùng vì...",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "they are very detailed in describing how a feature should be implemented, for a broad range of users. (chúng rất chi tiết trong việc mô tả cách triển khai một tính năng cho nhiều người dùng.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "they involve a story that applies to a broad range of users. (chúng liên quan đến một câu chuyện áp dụng cho nhiều đối tượng người dùng.)",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-3-introduction-to-user-stories-and-behavior-driven-development-q6",
+    "module": "Module 3",
+    "question_text": "The Gherkin language is an effective way to...\nVN: Ngôn ngữ Gherkin là một cách hiệu quả để...",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "express a User Story in such a way that it can be used to generate tests. (thể hiện Câu chuyện của người dùng theo cách mà nó có thể được sử dụng để tạo các bài kiểm tra.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "express a User Story in such a way that it can be used to generate an implementation of the desired feature. (thể hiện Câu chuyện của người dùng theo cách mà nó có thể được sử dụng để tạo ra việc triển khai tính năng mong muốn.)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-3-introduction-to-user-stories-and-behavior-driven-development-q7",
+    "module": "Module 3",
+    "question_text": "Behavior-driven development puts the user at the center of the testing cycle.\nVN: Sự phát triển theo định hướng hành vi đặt người dùng vào trung tâm của chu trình thử nghiệm.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "True (Đúng)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "False (Sai)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-3-regular-expressions-101-q1",
+    "module": "Module 3",
+    "question_text": "Consider the Regular Expression (Hello World)*. Which of the following strings does it match? (Check all that apply)\nVN: Hãy xem xét Biểu thức chính quy (Xin chào thế giới)*. Nó khớp với chuỗi nào sau đây? (Đánh dấu tất cả những gì áp dụng)",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "1\nhello world (1\nxin chào thế giới)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Nothing (Không có gì)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "1\nWorld Hello (1\nThế giới xin chào)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "1\nWorld (1\nthế giới)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "1\nHello WorldHello World (1\nXin chào thế giớiXin chào thế giới)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "1\nHello World (1\nXin chào thế giới)",
+        "is_correct": true
+      }
+    ],
+    "code": "1\nhello world"
+  },
+  {
+    "question_id": "module-3-regular-expressions-101-q2",
+    "module": "Module 3",
+    "question_text": "123-454 It was the best of times, \"it was the worst of times\", it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair.\n\nThe Regular Expression [a-zA-Z]+s matches 18 places in the text. How many places does the Regular Expression  [a-zA-Z]*?s match?\nVN: 123-454 Đó là thời đẹp nhất, “đó là thời tồi tệ nhất”, đó là thời đại ngu xuẩn, đó là thời đại của niềm tin, đó là thời đại của sự hoài nghi, đó là mùa của Ánh sáng, đó là mùa của Bóng tối, đó là mùa xuân của hy vọng, đó là mùa đông của tuyệt vọng.\n\nBiểu thức chính quy [a-zA-Z]+s khớp với 18 vị trí trong văn bản. Biểu thức chính quy [a-zA-Z]*?s khớp với bao nhiêu vị trí?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "15 (15)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "18 (18)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "20 (20)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "24 (24)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "30 (30)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-3-regular-expressions-101-q3",
+    "module": "Module 3",
+    "question_text": "Which one of the strings does the following Regular Expression match?\n\n(\\s*(cu(((?i)kes)|(cumber)+))){2}\nVN: Biểu thức chính quy sau đây khớp với chuỗi nào trong các chuỗi?\n\n(\\s*(cu(((?i)kes)|(cumber)+))){2}",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "cuKeScucumbercumber (cuKeDưa chuột)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "cucumberCUKES (dưa chuộtCUKES)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "34cukes (34 cuke)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "cu123cumbercukes (cu123cumbercukes)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-3-regular-expressions-101-q4",
+    "module": "Module 3",
+    "question_text": "At what kinds of strings will the Regular Expression \\\\\\\\A-Z(?i)(a-z)*  find a match in Java? (Check all that apply)\nVN: Biểu thức chính quy \\\\\\\\A-Z(?i)(a-z)* sẽ tìm thấy loại chuỗi nào trong Java? (Đánh dấu tất cả những gì áp dụng)",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Strings that start with one backslash, then a capital letter, then any number of case-insensitive letters. (Các chuỗi bắt đầu bằng một dấu gạch chéo ngược, sau đó là chữ in hoa, rồi bất kỳ số chữ cái không phân biệt chữ hoa chữ thường.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Strings that start with two backslashes, then a capital letter, then any number of case-insensitive letters. (Các chuỗi bắt đầu bằng hai dấu gạch chéo ngược, sau đó là chữ in hoa, sau đó là bất kỳ số chữ cái không phân biệt chữ hoa chữ thường.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Strings that start with two backslashes, any number of capital letters, and one or zero case-insensitive letters. (Các chuỗi bắt đầu bằng hai dấu gạch chéo ngược, số chữ cái in hoa bất kỳ và một hoặc không chữ cái không phân biệt chữ hoa chữ thường.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Strings that start with four backslashes, then a capital letter, then any number of case-insensitive letters. (Các chuỗi bắt đầu bằng bốn dấu gạch chéo ngược, sau đó là chữ in hoa, sau đó là số lượng chữ cái không phân biệt chữ hoa chữ thường.)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  }
+]

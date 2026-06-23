@@ -2,15 +2,15 @@
   {
     "question_id": "module-3-what-is-a-test-plan-q1",
     "module": "Testing in the Software Development Lifecycle",
-    "question_text": "The unit testing plan that is generated is always a formal document.\nVN: Kế hoạch kiểm thử đơn vị được tạo ra luôn là một tài liệu chính thức.",
+    "question_text": "The unit testing plan that is generated is always a formal document.\nVN: Kế hoạch kiểm thử đơn vị (unit test plan) được tạo ra luôn là một tài liệu trang trọng.",
     "question_type": "single_answer_question",
     "answers": [
       {
-        "answer_text": "True (ĐÚNG VẬY)",
+        "answer_text": "True (Đúng)",
         "is_correct": false
       },
       {
-        "answer_text": "False (SAI)",
+        "answer_text": "False (Sai)",
         "is_correct": true
       }
     ],
@@ -19,23 +19,23 @@
   {
     "question_id": "module-3-what-is-a-test-plan-q2",
     "module": "Testing in the Software Development Lifecycle",
-    "question_text": "Which of the following is the kind of test that determines whether or not you built the correct thing for the customer?\nVN: Điều nào sau đây là loại thử nghiệm xác định xem bạn có xây dựng đúng sản phẩm cho khách hàng hay không?",
+    "question_text": "Which of the following is the kind of test that determines whether or not you built the correct thing for the customer?\nVN: Kiểm thử nào sau đây xác định xem bạn có xây dựng đúng sản phẩm đáp ứng mong muốn của khách hàng hay không?",
     "question_type": "single_answer_question",
     "answers": [
       {
-        "answer_text": "Unit Test (Kiểm tra đơn vị)",
+        "answer_text": "Unit Test (unit test)",
         "is_correct": false
       },
       {
-        "answer_text": "Customer Acceptance Test (Kiểm tra sự chấp nhận của khách hàng)",
+        "answer_text": "Customer Acceptance Test (Customer Acceptance Test)",
         "is_correct": true
       },
       {
-        "answer_text": "Unit Testing Plan (Kế hoạch kiểm tra đơn vị)",
+        "answer_text": "Unit Testing Plan (unit test)",
         "is_correct": false
       },
       {
-        "answer_text": "System Validation Test (Kiểm tra xác thực hệ thống)",
+        "answer_text": "System Validation Test (System Validation Test)",
         "is_correct": false
       }
     ],
@@ -44,15 +44,15 @@
   {
     "question_id": "module-3-what-is-a-test-plan-q3",
     "module": "Testing in the Software Development Lifecycle",
-    "question_text": "System validation testing is when the system is tested for error prone constructs and low level functionality assurances.\nVN: Kiểm tra xác thực hệ thống là khi hệ thống được kiểm tra các cấu trúc dễ bị lỗi và đảm bảo chức năng ở mức độ thấp.",
+    "question_text": "System validation testing is when the system is tested for error prone constructs and low level functionality assurances.\nVN: Kiểm thử thẩm định hệ thống (System validation testing) là khi hệ thống được kiểm thử các cấu trúc dễ gây lỗi và đảm bảo các chức năng ở mức cơ bản.",
     "question_type": "single_answer_question",
     "answers": [
       {
-        "answer_text": "True (ĐÚNG VẬY)",
+        "answer_text": "True (Đúng)",
         "is_correct": false
       },
       {
-        "answer_text": "False (SAI)",
+        "answer_text": "False (Sai)",
         "is_correct": true
       }
     ],
@@ -61,7 +61,7 @@
   {
     "question_id": "module-3-what-is-a-test-plan-q4",
     "module": "Testing in the Software Development Lifecycle",
-    "question_text": "Which of the following is NOT an important component of a test plan according to the Quality Assurance Institute?\nVN: Điều nào sau đây KHÔNG phải là thành phần quan trọng của kế hoạch kiểm tra theo Viện Đảm bảo Chất lượng?",
+    "question_text": "Which of the following is NOT an important component of a test plan according to the Quality Assurance Institute?\nVN: Thành phần nào sau đây KHÔNG phải là thành phần quan trọng của kế hoạch kiểm thử theo Viện Đảm bảo Chất lượng (Quality Assurance Institute)?",
     "question_type": "single_answer_question",
     "answers": [
       {
@@ -73,15 +73,15 @@
         "is_correct": false
       },
       {
-        "answer_text": "Resources and Testing Environment (Tài nguyên và môi trường thử nghiệm)",
+        "answer_text": "Resources and Testing Environment (Tài nguyên và môi trường kiểm thử)",
         "is_correct": false
       },
       {
-        "answer_text": "Reliability (Độ tin cậy)",
+        "answer_text": "Reliability (reliability)",
         "is_correct": true
       },
       {
-        "answer_text": "Entry and Exit Conditions (Điều kiện vào và ra)",
+        "answer_text": "Entry and Exit Conditions (Entry/Exit Conditions)",
         "is_correct": false
       }
     ],
@@ -90,23 +90,23 @@
   {
     "question_id": "module-3-what-is-a-test-plan-q5",
     "module": "Testing in the Software Development Lifecycle",
-    "question_text": "Which of the following traces test cases back to requirements?\nVN: Trường hợp kiểm thử nào sau đây quay lại yêu cầu?",
+    "question_text": "Which of the following traces test cases back to requirements?\nVN: Tài liệu nào sau đây giúp truy vết các test case ngược trở lại các yêu cầu?",
     "question_type": "single_answer_question",
     "answers": [
       {
-        "answer_text": "Traceability Report (Báo cáo truy xuất nguồn gốc)",
+        "answer_text": "Traceability Report (Traceability Report)",
         "is_correct": true
       },
       {
-        "answer_text": "Domain Report (Báo cáo tên miền)",
+        "answer_text": "Domain Report (Domain Report)",
         "is_correct": false
       },
       {
-        "answer_text": "Unit Testing Plan (Kế hoạch kiểm tra đơn vị)",
+        "answer_text": "Unit Testing Plan (unit test)",
         "is_correct": false
       },
       {
-        "answer_text": "Domain Expert (Chuyên gia tên miền)",
+        "answer_text": "Domain Expert (domain expert)",
         "is_correct": false
       }
     ],
@@ -115,19 +115,19 @@
   {
     "question_id": "module-3-importance-of-a-good-test-plan-q1",
     "module": "Testing in the Software Development Lifecycle",
-    "question_text": "Which of the following is not true about a traceability (requirements) matrix.\nVN: Điều nào sau đây không đúng về ma trận truy xuất nguồn gốc (các yêu cầu).",
+    "question_text": "Which of the following is not true about a traceability (requirements) matrix.\nVN: Điều nào sau đây KHÔNG đúng về ma trận truy vết yêu cầu (traceability matrix).",
     "question_type": "single_answer_question",
     "answers": [
       {
-        "answer_text": "It helps find untested requirements (Nó giúp tìm ra các yêu cầu chưa được kiểm tra)",
+        "answer_text": "It helps find untested requirements (Nó giúp tìm ra các yêu cầu chưa được kiểm thử)",
         "is_correct": false
       },
       {
-        "answer_text": "It will list any missing requirements (Nó sẽ liệt kê mọi yêu cầu còn thiếu)",
+        "answer_text": "It will list any missing requirements (Nó giúp phát hiện các yêu cầu còn thiếu)",
         "is_correct": true
       },
       {
-        "answer_text": "It helps identify test cases that don't tie to requirements. (Nó giúp xác định các trường hợp thử nghiệm không gắn với yêu cầu.)",
+        "answer_text": "It helps identify test cases that don't tie to requirements. (Nó giúp xác định các test case không liên kết với yêu cầu nào.)",
         "is_correct": false
       }
     ],
@@ -136,15 +136,15 @@
   {
     "question_id": "module-3-importance-of-a-good-test-plan-q2",
     "module": "Testing in the Software Development Lifecycle",
-    "question_text": "When considering concerns or risks of test planning, it's important to take preventative action when possible.\nVN: Khi xem xét các mối lo ngại hoặc rủi ro khi lập kế hoạch kiểm tra, điều quan trọng là phải thực hiện hành động phòng ngừa khi có thể.",
+    "question_text": "When considering concerns or risks of test planning, it's important to take preventative action when possible.\nVN: Khi xem xét các mối lo ngại hoặc rủi ro khi lập kế hoạch kiểm thử, điều quan trọng là phải có hành động phòng ngừa khi có thể.",
     "question_type": "single_answer_question",
     "answers": [
       {
-        "answer_text": "True (ĐÚNG VẬY)",
+        "answer_text": "True (Đúng)",
         "is_correct": true
       },
       {
-        "answer_text": "False (SAI)",
+        "answer_text": "False (Sai)",
         "is_correct": false
       }
     ],
@@ -153,15 +153,15 @@
   {
     "question_id": "module-3-importance-of-a-good-test-plan-q3",
     "module": "Testing in the Software Development Lifecycle",
-    "question_text": "It is normal to accept requirements with a 'to-be-determined' in them.\nVN: Việc chấp nhận các yêu cầu có từ 'được xác định' trong đó là điều bình thường.",
+    "question_text": "It is normal to accept requirements with a 'to-be-determined' in them.\nVN: Việc chấp nhận các yêu cầu chứa cụm từ 'chờ xác định' (TBD) là điều bình thường.",
     "question_type": "single_answer_question",
     "answers": [
       {
-        "answer_text": "True (ĐÚNG VẬY)",
+        "answer_text": "True (Đúng)",
         "is_correct": false
       },
       {
-        "answer_text": "False (SAI)",
+        "answer_text": "False (Sai)",
         "is_correct": true
       }
     ],
@@ -170,15 +170,15 @@
   {
     "question_id": "module-3-importance-of-a-good-test-plan-q4",
     "module": "Testing in the Software Development Lifecycle",
-    "question_text": "Testing is the only way to locate bugs in a system.\nVN: Kiểm tra là cách duy nhất để xác định vị trí lỗi trong hệ thống.",
+    "question_text": "Testing is the only way to locate bugs in a system.\nVN: Kiểm thử là cách duy nhất để xác định vị trí các lỗi (bugs) trong hệ thống.",
     "question_type": "single_answer_question",
     "answers": [
       {
-        "answer_text": "True (ĐÚNG VẬY)",
+        "answer_text": "True (Đúng)",
         "is_correct": false
       },
       {
-        "answer_text": "False (SAI)",
+        "answer_text": "False (Sai)",
         "is_correct": true
       }
     ],
@@ -187,7 +187,7 @@
   {
     "question_id": "module-3-importance-of-a-good-test-plan-q5",
     "module": "Testing in the Software Development Lifecycle",
-    "question_text": "There is always pressure on ______ to prove a product is not ready for release (especially in the Waterfall Method).\nVN: Luôn có áp lực buộc ______ phải chứng minh sản phẩm chưa sẵn sàng để tung ra thị trường (đặc biệt là trong Phương pháp thác nước).",
+    "question_text": "There is always pressure on ______ to prove a product is not ready for release (especially in the Waterfall Method).\nVN: Luôn có áp lực đặt lên ______ trong việc chứng minh sản phẩm chưa sẵn sàng để phát hành (đặc biệt là trong mô hình Thác nước).",
     "question_type": "single_answer_question",
     "answers": [
       {
@@ -195,11 +195,11 @@
         "is_correct": false
       },
       {
-        "answer_text": "Domain Expert (Chuyên gia tên miền)",
+        "answer_text": "Domain Expert (domain expert)",
         "is_correct": false
       },
       {
-        "answer_text": "Testers (Người thử nghiệm)",
+        "answer_text": "Testers (người kiểm thử)",
         "is_correct": true
       },
       {
@@ -212,15 +212,15 @@
   {
     "question_id": "module-3-stages-of-software-testing-process-q1",
     "module": "Testing in the Software Development Lifecycle",
-    "question_text": "Unit testing is usually white box testing done by the developer on a small piece of code (a function or class).\nVN: Kiểm thử đơn vị thường là kiểm thử hộp trắng do nhà phát triển thực hiện trên một đoạn mã nhỏ (một hàm hoặc lớp).",
+    "question_text": "Unit testing is usually white box testing done by the developer on a small piece of code (a function or class).\nVN: Kiểm thử đơn vị thường là kiểm thử hộp trắng do lập trình viên thực hiện trên một phần mã nguồn nhỏ (một hàm hoặc một lớp).",
     "question_type": "single_answer_question",
     "answers": [
       {
-        "answer_text": "True (ĐÚNG VẬY)",
+        "answer_text": "True (Đúng)",
         "is_correct": true
       },
       {
-        "answer_text": "False (SAI)",
+        "answer_text": "False (Sai)",
         "is_correct": false
       }
     ],
@@ -229,23 +229,23 @@
   {
     "question_id": "module-3-stages-of-software-testing-process-q2",
     "module": "Testing in the Software Development Lifecycle",
-    "question_text": "Which of these should NOT be included in unit testing?\nVN: Cái nào trong số này KHÔNG nên được đưa vào thử nghiệm đơn vị?",
+    "question_text": "Which of these should NOT be included in unit testing?\nVN: Khái niệm nào sau đây KHÔNG nên bao gồm trong kiểm thử đơn vị?",
     "question_type": "single_answer_question",
     "answers": [
       {
-        "answer_text": "Testing array bounds (Kiểm tra giới hạn mảng)",
+        "answer_text": "Testing array bounds (array bounds)",
         "is_correct": false
       },
       {
-        "answer_text": "Test loop boundaries for off-by-one errors (Kiểm tra ranh giới vòng lặp cho từng lỗi một)",
+        "answer_text": "Test loop boundaries for off-by-one errors (off-by-one)",
         "is_correct": false
       },
       {
-        "answer_text": "Error prone constructs (Cấu trúc dễ bị lỗi)",
+        "answer_text": "Error prone constructs (Các cấu trúc dễ phát sinh sai sót/lỗi)",
         "is_correct": false
       },
       {
-        "answer_text": "Module integration testing (Kiểm tra tích hợp mô-đun)",
+        "answer_text": "Module integration testing (Kiểm thử tích hợp mô-đun)",
         "is_correct": true
       }
     ],
@@ -254,15 +254,15 @@
   {
     "question_id": "module-3-stages-of-software-testing-process-q3",
     "module": "Testing in the Software Development Lifecycle",
-    "question_text": "Design Verification Testing has two aspects: Integration testing and Functional testing.\nVN: Kiểm tra xác minh thiết kế có hai khía cạnh: Kiểm tra tích hợp và Kiểm tra chức năng.",
+    "question_text": "Design Verification Testing has two aspects: Integration testing and Functional testing.\nVN: Kiểm thử xác minh thiết kế (Design Verification Testing) có hai khía cạnh: Kiểm thử tích hợp và Kiểm thử chức năng.",
     "question_type": "single_answer_question",
     "answers": [
       {
-        "answer_text": "True (ĐÚNG VẬY)",
+        "answer_text": "True (Đúng)",
         "is_correct": true
       },
       {
-        "answer_text": "False (SAI)",
+        "answer_text": "False (Sai)",
         "is_correct": false
       }
     ],
@@ -271,23 +271,23 @@
   {
     "question_id": "module-3-stages-of-software-testing-process-q4",
     "module": "Testing in the Software Development Lifecycle",
-    "question_text": "Testing modules to ensure they work together properly occurs at which stage of software testing process?\nVN: Kiểm thử các mô-đun để đảm bảo chúng hoạt động cùng nhau đúng cách xảy ra ở giai đoạn nào của quy trình kiểm thử phần mềm?",
+    "question_text": "Testing modules to ensure they work together properly occurs at which stage of software testing process?\nVN: Kiểm thử các mô-đun để đảm bảo chúng hoạt động cùng nhau đúng cách diễn ra ở giai đoạn nào của quy trình kiểm thử phần mềm?",
     "question_type": "single_answer_question",
     "answers": [
       {
-        "answer_text": "Unit Testing (Kiểm tra đơn vị)",
+        "answer_text": "Unit Testing (unit test)",
         "is_correct": false
       },
       {
-        "answer_text": "Design Verification Testing (Kiểm tra xác minh thiết kế)",
+        "answer_text": "Design Verification Testing (Design Verification Testing)",
         "is_correct": true
       },
       {
-        "answer_text": "System Validation Testing (Kiểm tra xác thực hệ thống)",
+        "answer_text": "System Validation Testing (System Validation Testing)",
         "is_correct": false
       },
       {
-        "answer_text": "Functional Testing (Kiểm tra chức năng)",
+        "answer_text": "Functional Testing (Functional Testing)",
         "is_correct": false
       }
     ],
@@ -296,15 +296,15 @@
   {
     "question_id": "module-3-stages-of-software-testing-process-q5",
     "module": "Testing in the Software Development Lifecycle",
-    "question_text": "System validation testing occurs once the full system is complete.\nVN: Kiểm tra xác nhận hệ thống xảy ra sau khi toàn bộ hệ thống hoàn tất.",
+    "question_text": "System validation testing occurs once the full system is complete.\nVN: Kiểm thử thẩm định hệ thống diễn ra sau khi toàn bộ hệ thống đã hoàn thành.",
     "question_type": "single_answer_question",
     "answers": [
       {
-        "answer_text": "True (ĐÚNG VẬY)",
+        "answer_text": "True (Đúng)",
         "is_correct": true
       },
       {
-        "answer_text": "False (SAI)",
+        "answer_text": "False (Sai)",
         "is_correct": false
       }
     ],
@@ -313,7 +313,7 @@
   {
     "question_id": "module-3-stages-of-software-testing-process-q6",
     "module": "Testing in the Software Development Lifecycle",
-    "question_text": "System validation testing will test the system for quality of behavior delivery on many aspects. Which of the following is not one of those aspects?\nVN: Kiểm tra xác thực hệ thống sẽ kiểm tra hệ thống về chất lượng phân phối hành vi trên nhiều khía cạnh. Điều nào sau đây không phải là một trong những khía cạnh đó?",
+    "question_text": "System validation testing will test the system for quality of behavior delivery on many aspects. Which of the following is not one of those aspects?\nVN: Kiểm thử thẩm định hệ thống sẽ kiểm thử hệ thống về chất lượng hoạt động trên nhiều khía cạnh. Điều nào sau đây KHÔNG phải là một trong những khía cạnh đó?",
     "question_type": "single_answer_question",
     "answers": [
       {
@@ -333,11 +333,11 @@
         "is_correct": false
       },
       {
-        "answer_text": "Loop Invariants (Bất biến vòng lặp)",
+        "answer_text": "Loop Invariants (Loop Invariants)",
         "is_correct": true
       },
       {
-        "answer_text": "Security (Bảo vệ)",
+        "answer_text": "Security (Bảo mật)",
         "is_correct": false
       }
     ],
@@ -346,23 +346,23 @@
   {
     "question_id": "module-3-test-status-reports-q1",
     "module": "Testing in the Software Development Lifecycle",
-    "question_text": "Which of the following is  NOT part of the test (status) report.\nVN: Phần nào sau đây KHÔNG phải là một phần của báo cáo (trạng thái) thử nghiệm.",
+    "question_text": "Which of the following is  NOT part of the test (status) report.\nVN: Thành phần nào sau đây KHÔNG phải là một phần của báo cáo (trạng thái) kiểm thử?",
     "question_type": "single_answer_question",
     "answers": [
       {
-        "answer_text": "Open defects (Khiếm khuyết mở)",
+        "answer_text": "Open defects (Open defects)",
         "is_correct": false
       },
       {
-        "answer_text": "Test case code (Mã trường hợp thử nghiệm)",
+        "answer_text": "Test case code (Mã nguồn của test case)",
         "is_correct": true
       },
       {
-        "answer_text": "What was tested (Những gì đã được thử nghiệm)",
+        "answer_text": "What was tested (Những phần đã được kiểm thử)",
         "is_correct": false
       },
       {
-        "answer_text": "What was not tested (Những gì chưa được thử nghiệm)",
+        "answer_text": "What was not tested (Những phần chưa được kiểm thử)",
         "is_correct": false
       }
     ],
@@ -371,15 +371,15 @@
   {
     "question_id": "module-3-test-status-reports-q2",
     "module": "Testing in the Software Development Lifecycle",
-    "question_text": "The only test report is the final report and is sent only when all testing is complete.\nVN: Báo cáo thử nghiệm duy nhất là báo cáo cuối cùng và chỉ được gửi khi tất cả thử nghiệm đã hoàn tất.",
+    "question_text": "The only test report is the final report and is sent only when all testing is complete.\nVN: Báo cáo kiểm thử duy nhất là báo cáo cuối cùng và chỉ được gửi khi toàn bộ quá trình kiểm thử hoàn tất.",
     "question_type": "single_answer_question",
     "answers": [
       {
-        "answer_text": "True (ĐÚNG VẬY)",
+        "answer_text": "True (Đúng)",
         "is_correct": false
       },
       {
-        "answer_text": "False (SAI)",
+        "answer_text": "False (Sai)",
         "is_correct": true
       }
     ],
@@ -388,19 +388,19 @@
   {
     "question_id": "module-3-test-status-reports-q3",
     "module": "Testing in the Software Development Lifecycle",
-    "question_text": "Test (status) reports are important because:\nVN: Báo cáo kiểm tra (trạng thái) rất quan trọng vì:",
+    "question_text": "Test (status) reports are important because:\nVN: Các báo cáo (trạng thái) kiểm thử rất quan trọng vì:",
     "question_type": "single_answer_question",
     "answers": [
       {
-        "answer_text": "Allows management to better manage risk. (Cho phép quản lý quản lý rủi ro tốt hơn.)",
+        "answer_text": "Allows management to better manage risk. (Giúp cấp quản lý kiểm soát rủi ro tốt hơn.)",
         "is_correct": false
       },
       {
-        "answer_text": "Allows marketing to provide to the customers updates and manage customer expectations. (Cho phép bộ phận tiếp thị cung cấp thông tin cập nhật cho khách hàng và quản lý kỳ vọng của khách hàng.)",
+        "answer_text": "Allows marketing to provide to the customers updates and manage customer expectations. (Cho phép bộ phận marketing cung cấp thông tin cập nhật cho khách hàng và quản lý các kỳ vọng của khách hàng.)",
         "is_correct": false
       },
       {
-        "answer_text": "Assists in process improvement through postmortem evaluations. (Hỗ trợ cải tiến quy trình thông qua đánh giá sau khi giết mổ.)",
+        "answer_text": "Assists in process improvement through postmortem evaluations. (Hỗ trợ cải tiến quy trình thông qua các đánh giá tổng kết sau dự án (postmortem evaluation).)",
         "is_correct": false
       },
       {
@@ -413,15 +413,15 @@
   {
     "question_id": "module-3-test-status-reports-q4",
     "module": "Testing in the Software Development Lifecycle",
-    "question_text": "Testing is _______ but not _________ from development.\nVN: Kiểm tra là _______ nhưng không _________ từ quá trình phát triển.",
+    "question_text": "Testing is _______ but not _________ from development.\nVN: Kiểm thử thì _______ nhưng không _______ với quá trình phát triển.",
     "question_type": "single_answer_question",
     "answers": [
       {
-        "answer_text": "Independent; Isolated (Độc lập; Bị cô lập)",
+        "answer_text": "Independent; Isolated (Độc lập; Tách biệt)",
         "is_correct": true
       },
       {
-        "answer_text": "Isolated; Independent (Bị cô lập; Độc lập)",
+        "answer_text": "Isolated; Independent (Tách biệt; Độc lập)",
         "is_correct": false
       }
     ],
@@ -434,19 +434,19 @@
     "question_type": "single_answer_question",
     "answers": [
       {
-        "answer_text": "Risk mitigation (Giảm thiểu rủi ro)",
+        "answer_text": "Risk mitigation (Risk mitigation)",
         "is_correct": true
       },
       {
-        "answer_text": "Risk analysis (Phân tích rủi ro)",
+        "answer_text": "Risk analysis (Risk analysis)",
         "is_correct": false
       },
       {
-        "answer_text": "Risk testing (Kiểm tra rủi ro)",
+        "answer_text": "Risk testing (Risk testing)",
         "is_correct": false
       },
       {
-        "answer_text": "Risk equation (Phương trình rủi ro)",
+        "answer_text": "Risk equation (Risk equation)",
         "is_correct": false
       }
     ],
@@ -455,7 +455,7 @@
   {
     "question_id": "module-3-risk-based-test-planning-q2",
     "module": "Testing in the Software Development Lifecycle",
-    "question_text": "The risk equation is:\nVN: Phương trình rủi ro là:",
+    "question_text": "The risk equation is:\nVN: Công thức tính rủi ro là:",
     "question_type": "single_answer_question",
     "answers": [
       {
@@ -463,7 +463,7 @@
         "is_correct": false
       },
       {
-        "answer_text": "risk = likelihood / impact (rủi ro = khả năng / tác động)",
+        "answer_text": "risk = likelihood / impact (rủi ro = khả năng xảy ra / tác động)",
         "is_correct": false
       },
       {
@@ -471,7 +471,7 @@
         "is_correct": true
       },
       {
-        "answer_text": "risk = likelihood + impact (rủi ro = khả năng + tác động)",
+        "answer_text": "risk = likelihood + impact (rủi ro = khả năng xảy ra + tác động)",
         "is_correct": false
       }
     ],
@@ -480,23 +480,23 @@
   {
     "question_id": "module-3-risk-based-test-planning-q3",
     "module": "Testing in the Software Development Lifecycle",
-    "question_text": "The amount of loss management is willing to accept is known as:\nVN: Số tiền quản lý tổn thất sẵn sàng chấp nhận được gọi là:",
+    "question_text": "The amount of loss management is willing to accept is known as:\nVN: Mức độ tổn thất mà ban quản lý sẵn sàng chấp nhận được gọi là:",
     "question_type": "single_answer_question",
     "answers": [
       {
-        "answer_text": "Risk mitigation (Giảm thiểu rủi ro)",
+        "answer_text": "Risk mitigation (Risk mitigation)",
         "is_correct": false
       },
       {
-        "answer_text": "Risk appetite (Khẩu vị rủi ro)",
+        "answer_text": "Risk appetite (Risk appetite)",
         "is_correct": true
       },
       {
-        "answer_text": "Risk impact (Tác động rủi ro)",
+        "answer_text": "Risk impact (Risk impact)",
         "is_correct": false
       },
       {
-        "answer_text": "Risk equation (Phương trình rủi ro)",
+        "answer_text": "Risk equation (Risk equation)",
         "is_correct": false
       }
     ],
@@ -505,11 +505,11 @@
   {
     "question_id": "module-3-risk-based-test-planning-q4",
     "module": "Testing in the Software Development Lifecycle",
-    "question_text": "In terms of risk impact, depth of impact refers to:\nVN: Về mặt tác động rủi ro, độ sâu tác động đề cập đến:",
+    "question_text": "In terms of risk impact, depth of impact refers to:\nVN: Về mặt tác động rủi ro, độ sâu của tác động (depth of impact) đề cập đến:",
     "question_type": "single_answer_question",
     "answers": [
       {
-        "answer_text": "Number of people or systems affected (Số người hoặc hệ thống bị ảnh hưởng)",
+        "answer_text": "Number of people or systems affected (Số lượng người hoặc hệ thống bị ảnh hưởng)",
         "is_correct": false
       },
       {
@@ -517,7 +517,7 @@
         "is_correct": false
       },
       {
-        "answer_text": "Severity of damage (Mức độ thiệt hại)",
+        "answer_text": "Severity of damage (Mức độ nghiêm trọng của thiệt hại)",
         "is_correct": true
       },
       {
@@ -530,19 +530,19 @@
   {
     "question_id": "module-3-risk-based-test-planning-q5",
     "module": "Testing in the Software Development Lifecycle",
-    "question_text": "When considering risk, it is important to consider categories of impact. Which of the following is NOT given as an example in the lecture slides.\nVN: Khi xem xét rủi ro, điều quan trọng là phải xem xét các loại tác động. Điều nào sau đây KHÔNG được đưa ra làm ví dụ trong các slide bài giảng.",
+    "question_text": "When considering risk, it is important to consider categories of impact. Which of the following is NOT given as an example in the lecture slides.\nVN: Khi xem xét rủi ro, việc cân nhắc các loại tác động là rất quan trọng. Điều nào sau đây KHÔNG được đưa ra làm ví dụ trong các slide bài giảng?",
     "question_type": "single_answer_question",
     "answers": [
       {
-        "answer_text": "Reputation (Danh tiếng)",
+        "answer_text": "Reputation (Uy tín / Danh tiếng)",
         "is_correct": false
       },
       {
-        "answer_text": "Customer/User base (Cơ sở khách hàng/người dùng)",
+        "answer_text": "Customer/User base (Lượng khách hàng/người dùng)",
         "is_correct": false
       },
       {
-        "answer_text": "Motivation (Động lực)",
+        "answer_text": "Motivation (Motivation)",
         "is_correct": true
       },
       {
@@ -550,7 +550,7 @@
         "is_correct": false
       },
       {
-        "answer_text": "Lives (Cuộc sống)",
+        "answer_text": "Lives (Sinh mạng con người)",
         "is_correct": false
       }
     ],
@@ -559,15 +559,15 @@
   {
     "question_id": "module-3-risk-based-test-planning-q6",
     "module": "Testing in the Software Development Lifecycle",
-    "question_text": "Asking the question: What can you do to control (reduce) the risk? is an example of:\nVN: Đặt câu hỏi: Bạn có thể làm gì để kiểm soát (giảm thiểu) rủi ro? là một ví dụ về:",
+    "question_text": "Asking the question: What can you do to control (reduce) the risk? is an example of:\nVN: Đặt câu hỏi: Bạn có thể làm gì để kiểm soát (giảm thiểu) rủi ro? là ví dụ về:",
     "question_type": "single_answer_question",
     "answers": [
       {
-        "answer_text": "Risk analysis (Phân tích rủi ro)",
+        "answer_text": "Risk analysis (Risk analysis)",
         "is_correct": false
       },
       {
-        "answer_text": "Risk testing (Kiểm tra rủi ro)",
+        "answer_text": "Risk testing (Risk testing)",
         "is_correct": false
       },
       {
@@ -575,11 +575,11 @@
         "is_correct": false
       },
       {
-        "answer_text": "Risk mitigation (Giảm thiểu rủi ro)",
+        "answer_text": "Risk mitigation (Risk mitigation)",
         "is_correct": true
       },
       {
-        "answer_text": "Risk Appetite (Sự thèm ăn rủi ro)",
+        "answer_text": "Risk Appetite (Risk appetite)",
         "is_correct": false
       }
     ],
@@ -588,15 +588,15 @@
   {
     "question_id": "module-3-risk-based-test-planning-q7",
     "module": "Testing in the Software Development Lifecycle",
-    "question_text": "When risk avoidance fails, the best thing to do is to test features with the highest impact and the features that are most likely to fail.\nVN: Khi việc tránh rủi ro không thành công, điều tốt nhất cần làm là kiểm tra các tính năng có tác động cao nhất và các tính năng có nhiều khả năng bị lỗi nhất.",
+    "question_text": "When risk avoidance fails, the best thing to do is to test features with the highest impact and the features that are most likely to fail.\nVN: Khi việc phòng tránh rủi ro thất bại, điều tốt nhất nên làm là kiểm thử các tính năng có tác động lớn nhất và các tính năng có khả năng bị lỗi cao nhất.",
     "question_type": "single_answer_question",
     "answers": [
       {
-        "answer_text": "True (ĐÚNG VẬY)",
+        "answer_text": "True (Đúng)",
         "is_correct": true
       },
       {
-        "answer_text": "False (SAI)",
+        "answer_text": "False (Sai)",
         "is_correct": false
       }
     ],
@@ -605,15 +605,15 @@
   {
     "question_id": "module-3-software-defect-reports-q1",
     "module": "Testing in the Software Development Lifecycle",
-    "question_text": "Only about half of testing efforts are spent on actual testing.\nVN: Chỉ có khoảng một nửa nỗ lực thử nghiệm được dành cho thử nghiệm thực tế.",
+    "question_text": "Only about half of testing efforts are spent on actual testing.\nVN: Chỉ có khoảng một nửa công sức kiểm thử được dành cho việc thực hiện kiểm thử thực tế.",
     "question_type": "single_answer_question",
     "answers": [
       {
-        "answer_text": "True (ĐÚNG VẬY)",
+        "answer_text": "True (Đúng)",
         "is_correct": true
       },
       {
-        "answer_text": "False (SAI)",
+        "answer_text": "False (Sai)",
         "is_correct": false
       }
     ],
@@ -622,27 +622,27 @@
   {
     "question_id": "module-3-software-defect-reports-q2",
     "module": "Testing in the Software Development Lifecycle",
-    "question_text": "The stages in software defect life cycles include all of the following except for one. Choose the incorrect stage in the list below:\nVN: Các giai đoạn trong vòng đời lỗi phần mềm bao gồm tất cả các giai đoạn sau, ngoại trừ một giai đoạn. Chọn giai đoạn sai trong danh sách dưới đây:",
+    "question_text": "The stages in software defect life cycles include all of the following except for one. Choose the incorrect stage in the list below:\nVN: Các giai đoạn trong vòng đời của lỗi phần mềm (defect life cycle) bao gồm tất cả các giai đoạn sau, ngoại trừ một. Chọn giai đoạn sai trong danh sách dưới đây:",
     "question_type": "single_answer_question",
     "answers": [
       {
-        "answer_text": "Analyze (Phân tích)",
+        "answer_text": "Analyze (Analyze)",
         "is_correct": false
       },
       {
-        "answer_text": "Report (Báo cáo)",
+        "answer_text": "Report (Report)",
         "is_correct": false
       },
       {
-        "answer_text": "Track status (Theo dõi trạng thái)",
+        "answer_text": "Track status (Track status)",
         "is_correct": false
       },
       {
-        "answer_text": "Retest bug (Kiểm tra lại lỗi)",
+        "answer_text": "Retest bug (Retest bug)",
         "is_correct": false
       },
       {
-        "answer_text": "Close bug (Đóng lỗi)",
+        "answer_text": "Close bug (Close bug)",
         "is_correct": false
       },
       {
@@ -655,19 +655,19 @@
   {
     "question_id": "module-3-software-defect-reports-analysis-q1",
     "module": "Testing in the Software Development Lifecycle",
-    "question_text": "Part of analysis is figuring out where the fault of the defect lies. The fault could lie with the:\nVN: Một phần của việc phân tích là tìm ra lỗi của lỗi nằm ở đâu. Lỗi có thể nằm ở:",
+    "question_text": "Part of analysis is figuring out where the fault of the defect lies. The fault could lie with the:\nVN: Một phần của việc phân tích là tìm ra nguồn gốc của khiếu khuyết (defect). Khiếm khuyết đó có thể nằm ở:",
     "question_type": "single_answer_question",
     "answers": [
       {
-        "answer_text": "Test (Bài kiểm tra)",
+        "answer_text": "Test (Test)",
         "is_correct": false
       },
       {
-        "answer_text": "Tester (Người thử nghiệm)",
+        "answer_text": "Tester (Người kiểm thử)",
         "is_correct": false
       },
       {
-        "answer_text": "Product (Sản phẩm)",
+        "answer_text": "Product (Product)",
         "is_correct": false
       },
       {
@@ -680,15 +680,15 @@
   {
     "question_id": "module-3-software-defect-reports-analysis-q2",
     "module": "Testing in the Software Development Lifecycle",
-    "question_text": "Reproducibility and repeatability are the same thing when it comes to defects.\nVN: Khả năng tái tạo và khả năng lặp lại là như nhau khi nói đến khuyết tật.",
+    "question_text": "Reproducibility and repeatability are the same thing when it comes to defects.\nVN: Khả năng tái hiện (reproducibility) và khả năng lặp lại (repeatability) là giống nhau khi nói về các lỗi phần mềm.",
     "question_type": "single_answer_question",
     "answers": [
       {
-        "answer_text": "True (ĐÚNG VẬY)",
+        "answer_text": "True (Đúng)",
         "is_correct": false
       },
       {
-        "answer_text": "False (SAI)",
+        "answer_text": "False (Sai)",
         "is_correct": true
       }
     ],
@@ -697,15 +697,15 @@
   {
     "question_id": "module-3-software-defect-reports-analysis-q3",
     "module": "Testing in the Software Development Lifecycle",
-    "question_text": "Not all defects are created equal.\nVN: Không phải tất cả các khiếm khuyết đều được tạo ra như nhau.",
+    "question_text": "Not all defects are created equal.\nVN: Không phải mọi lỗi phần mềm (defects) đều giống nhau.",
     "question_type": "single_answer_question",
     "answers": [
       {
-        "answer_text": "True (ĐÚNG VẬY)",
+        "answer_text": "True (Đúng)",
         "is_correct": true
       },
       {
-        "answer_text": "False (SAI)",
+        "answer_text": "False (Sai)",
         "is_correct": false
       }
     ],
@@ -714,27 +714,27 @@
   {
     "question_id": "module-3-software-defect-reports-reporting-q1",
     "module": "Testing in the Software Development Lifecycle",
-    "question_text": "The report phase consists of four main steps. Which of the following is not one of those steps?\nVN: Giai đoạn báo cáo bao gồm bốn bước chính. Bước nào sau đây không phải là một trong những bước đó?",
+    "question_text": "The report phase consists of four main steps. Which of the following is not one of those steps?\nVN: Giai đoạn báo cáo bao gồm bốn bước chính. Bước nào sau đây KHÔNG phải là một trong những bước đó?",
     "question_type": "single_answer_question",
     "answers": [
       {
-        "answer_text": "Let developers decide whether to report defect (Hãy để nhà phát triển quyết định có báo cáo lỗi hay không)",
+        "answer_text": "Let developers decide whether to report defect (Để lập trình viên quyết định xem có báo cáo khiếm khuyết hay không)",
         "is_correct": true
       },
       {
-        "answer_text": "Ensure defect is not a duplicate (Đảm bảo lỗi không trùng lặp)",
+        "answer_text": "Ensure defect is not a duplicate (Đảm bảo khiếm khuyết không bị trùng lặp)",
         "is_correct": false
       },
       {
-        "answer_text": "Make sure defect gets fixed (Đảm bảo lỗi được khắc phục)",
+        "answer_text": "Make sure defect gets fixed (Đảm bảo khiếm khuyết được sửa đổi/khắc phục)",
         "is_correct": false
       },
       {
-        "answer_text": "Enter defect into the system (Nhập lỗi vào hệ thống)",
+        "answer_text": "Enter defect into the system (Nhập lỗi/khiếm khuyết vào hệ thống)",
         "is_correct": false
       },
       {
-        "answer_text": "Talk with developers (Nói chuyện với các nhà phát triển)",
+        "answer_text": "Talk with developers (Trao đổi với các lập trình viên)",
         "is_correct": false
       }
     ],
@@ -743,11 +743,11 @@
   {
     "question_id": "module-3-software-defect-reports-reporting-q2",
     "module": "Testing in the Software Development Lifecycle",
-    "question_text": "What are the characteristics of an effective defect report?\nVN: Các đặc điểm của một báo cáo lỗi hiệu quả là gì?",
+    "question_text": "What are the characteristics of an effective defect report?\nVN: Các đặc điểm của một báo cáo khiếm khuyết hiệu quả là gì?",
     "question_type": "single_answer_question",
     "answers": [
       {
-        "answer_text": "Numbered or ID'd (Được đánh số hoặc ID'd)",
+        "answer_text": "Numbered or ID'd (Có số thứ tự hoặc ID)",
         "is_correct": false
       },
       {
@@ -755,15 +755,15 @@
         "is_correct": false
       },
       {
-        "answer_text": "Written (bằng văn bản)",
+        "answer_text": "Written (Bằng văn bản)",
         "is_correct": false
       },
       {
-        "answer_text": "Complete (Hoàn thành)",
+        "answer_text": "Complete (Đầy đủ)",
         "is_correct": false
       },
       {
-        "answer_text": "Understandable (Có thể hiểu được)",
+        "answer_text": "Understandable (Dễ hiểu)",
         "is_correct": false
       },
       {
@@ -776,15 +776,15 @@
   {
     "question_id": "module-3-software-defect-reports-reporting-q3",
     "module": "Testing in the Software Development Lifecycle",
-    "question_text": "You should always include the minimum number of steps to reproduce the defect in a defect report.\nVN: Bạn phải luôn bao gồm số bước tối thiểu để tái tạo lỗi trong báo cáo lỗi.",
+    "question_text": "You should always include the minimum number of steps to reproduce the defect in a defect report.\nVN: Bạn nên luôn bao gồm số lượng bước tối thiểu để tái hiện lỗi trong báo cáo lỗi.",
     "question_type": "single_answer_question",
     "answers": [
       {
-        "answer_text": "True (ĐÚNG VẬY)",
+        "answer_text": "True (Đúng)",
         "is_correct": true
       },
       {
-        "answer_text": "False (SAI)",
+        "answer_text": "False (Sai)",
         "is_correct": false
       }
     ],
@@ -793,11 +793,11 @@
   {
     "question_id": "module-3-software-defect-reports-report-content-q1",
     "module": "Testing in the Software Development Lifecycle",
-    "question_text": "The software defect report content consists of six main components. Which of the following is not one of those components?\nVN: Nội dung báo cáo lỗi phần mềm bao gồm sáu thành phần chính. Thành phần nào sau đây không phải là một trong những thành phần đó?",
+    "question_text": "The software defect report content consists of six main components. Which of the following is not one of those components?\nVN: Nội dung của một báo cáo lỗi phần mềm bao gồm sáu thành phần chính. Thành phần nào sau đây KHÔNG phải là một trong các thành phần đó?",
     "question_type": "single_answer_question",
     "answers": [
       {
-        "answer_text": "Identification Information (Thông tin nhận dạng)",
+        "answer_text": "Identification Information (ID)",
         "is_correct": false
       },
       {
@@ -805,15 +805,15 @@
         "is_correct": false
       },
       {
-        "answer_text": "Status Indicator (Chỉ báo trạng thái)",
+        "answer_text": "Status Indicator (Status Indicator)",
         "is_correct": false
       },
       {
-        "answer_text": "Comments (Bình luận)",
+        "answer_text": "Comments (Ý kiến đóng góp / Bình luận)",
         "is_correct": false
       },
       {
-        "answer_text": "Misc Information (Thông tin linh tinh)",
+        "answer_text": "Misc Information (Thông tin khác / linh tinh)",
         "is_correct": false
       },
       {
@@ -821,7 +821,7 @@
         "is_correct": false
       },
       {
-        "answer_text": "Associated defect reports (Báo cáo lỗi liên quan)",
+        "answer_text": "Associated defect reports (Các báo cáo lỗi liên quan)",
         "is_correct": true
       }
     ],
@@ -830,11 +830,11 @@
   {
     "question_id": "module-3-software-defect-reports-report-content-q2",
     "module": "Testing in the Software Development Lifecycle",
-    "question_text": "Which of the following components would contain a defect identification number?\nVN: Thành phần nào sau đây sẽ chứa số nhận dạng lỗi?",
+    "question_text": "Which of the following components would contain a defect identification number?\nVN: Thành phần nào sau đây sẽ chứa mã số nhận dạng lỗi (defect ID)?",
     "question_type": "single_answer_question",
     "answers": [
       {
-        "answer_text": "Identification Information (Thông tin nhận dạng)",
+        "answer_text": "Identification Information (ID)",
         "is_correct": true
       },
       {
@@ -842,15 +842,15 @@
         "is_correct": false
       },
       {
-        "answer_text": "Status Indicator (Chỉ báo trạng thái)",
+        "answer_text": "Status Indicator (Status Indicator)",
         "is_correct": false
       },
       {
-        "answer_text": "Comments (Bình luận)",
+        "answer_text": "Comments (Ý kiến đóng góp / Bình luận)",
         "is_correct": false
       },
       {
-        "answer_text": "Misc Information (Thông tin linh tinh)",
+        "answer_text": "Misc Information (Thông tin khác / linh tinh)",
         "is_correct": false
       },
       {
@@ -863,11 +863,11 @@
   {
     "question_id": "module-3-software-defect-reports-report-content-q3",
     "module": "Testing in the Software Development Lifecycle",
-    "question_text": "Which of the following components would contain an overview of the problem along with what you did and the results of that action?\nVN: Thành phần nào sau đây chứa thông tin tổng quan về vấn đề cùng với những gì bạn đã làm và kết quả của hành động đó?",
+    "question_text": "Which of the following components would contain an overview of the problem along with what you did and the results of that action?\nVN: Thành phần nào sau đây sẽ chứa thông tin tổng quan về vấn đề cùng với những gì bạn đã làm và kết quả của hành động đó?",
     "question_type": "single_answer_question",
     "answers": [
       {
-        "answer_text": "Identification Information (Thông tin nhận dạng)",
+        "answer_text": "Identification Information (ID)",
         "is_correct": false
       },
       {
@@ -875,15 +875,15 @@
         "is_correct": true
       },
       {
-        "answer_text": "Status Indicator (Chỉ báo trạng thái)",
+        "answer_text": "Status Indicator (Status Indicator)",
         "is_correct": false
       },
       {
-        "answer_text": "Comments (Bình luận)",
+        "answer_text": "Comments (Ý kiến đóng góp / Bình luận)",
         "is_correct": false
       },
       {
-        "answer_text": "Misc Information (Thông tin linh tinh)",
+        "answer_text": "Misc Information (Thông tin khác / linh tinh)",
         "is_correct": false
       },
       {
@@ -896,11 +896,11 @@
   {
     "question_id": "module-3-software-defect-reports-report-content-q4",
     "module": "Testing in the Software Development Lifecycle",
-    "question_text": "Assume that you are writing a defect report and this particular defect is known to have an impact of medium severity. Which component would contain this information?\nVN: Giả sử rằng bạn đang viết một báo cáo lỗi và lỗi cụ thể này được biết là có tác động ở mức độ nghiêm trọng trung bình. Thành phần nào sẽ chứa thông tin này?",
+    "question_text": "Assume that you are writing a defect report and this particular defect is known to have an impact of medium severity. Which component would contain this information?\nVN: Giả sử bạn đang viết một báo cáo lỗi và lỗi cụ thể này được xác định là có mức độ nghiêm trọng trung bình (medium severity). Thành phần nào sẽ chứa thông tin này?",
     "question_type": "single_answer_question",
     "answers": [
       {
-        "answer_text": "Identification Information (Thông tin nhận dạng)",
+        "answer_text": "Identification Information (ID)",
         "is_correct": false
       },
       {
@@ -908,15 +908,15 @@
         "is_correct": false
       },
       {
-        "answer_text": "Status Indicator (Chỉ báo trạng thái)",
+        "answer_text": "Status Indicator (Status Indicator)",
         "is_correct": true
       },
       {
-        "answer_text": "Comments (Bình luận)",
+        "answer_text": "Comments (Ý kiến đóng góp / Bình luận)",
         "is_correct": false
       },
       {
-        "answer_text": "Misc Information (Thông tin linh tinh)",
+        "answer_text": "Misc Information (Thông tin khác / linh tinh)",
         "is_correct": false
       },
       {
@@ -929,15 +929,15 @@
   {
     "question_id": "module-3-software-defect-reports-report-content-q5",
     "module": "Testing in the Software Development Lifecycle",
-    "question_text": "Severity and priority are essentially the same in terms of status indication.\nVN: Mức độ nghiêm trọng và mức độ ưu tiên về cơ bản là giống nhau về chỉ báo trạng thái.",
+    "question_text": "Severity and priority are essentially the same in terms of status indication.\nVN: Mức độ nghiêm trọng (severity) và mức độ ưu tiên (priority) về mặt bản chất là hoàn toàn giống nhau trong việc chỉ báo trạng thái.",
     "question_type": "single_answer_question",
     "answers": [
       {
-        "answer_text": "True (ĐÚNG VẬY)",
+        "answer_text": "True (Đúng)",
         "is_correct": false
       },
       {
-        "answer_text": "False (SAI)",
+        "answer_text": "False (Sai)",
         "is_correct": true
       }
     ],
@@ -946,15 +946,15 @@
   {
     "question_id": "module-3-software-defect-reports-report-content-q6",
     "module": "Testing in the Software Development Lifecycle",
-    "question_text": "The best defect reports have new and ingenious introductions of terminology and abbreviations.\nVN: Các báo cáo lỗi tốt nhất có phần giới thiệu mới và khéo léo về thuật ngữ và chữ viết tắt.",
+    "question_text": "The best defect reports have new and ingenious introductions of terminology and abbreviations.\nVN: Các báo cáo lỗi tốt nhất là những báo cáo chứa các thuật ngữ và chữ viết tắt mới và độc đáo.",
     "question_type": "single_answer_question",
     "answers": [
       {
-        "answer_text": "True (ĐÚNG VẬY)",
+        "answer_text": "True (Đúng)",
         "is_correct": false
       },
       {
-        "answer_text": "False (SAI)",
+        "answer_text": "False (Sai)",
         "is_correct": true
       }
     ],
@@ -963,7 +963,7 @@
   {
     "question_id": "module-3-software-defect-reports-report-content-q7",
     "module": "Testing in the Software Development Lifecycle",
-    "question_text": "Assume that there is a defect that is found to be a problem, but you can essentially ignore it. Which severity level should it have?\nVN: Giả sử rằng có một khiếm khuyết được coi là có vấn đề, nhưng về cơ bản bạn có thể bỏ qua nó. Mức độ nghiêm trọng nào nên có?",
+    "question_text": "Assume that there is a defect that is found to be a problem, but you can essentially ignore it. Which severity level should it have?\nVN: Giả sử phát hiện một lỗi phần mềm, nhưng về cơ bản bạn có thể bỏ qua nó. Lỗi này nên được đặt mức độ nghiêm trọng nào?",
     "question_type": "single_answer_question",
     "answers": [
       {
@@ -979,7 +979,7 @@
         "is_correct": true
       },
       {
-        "answer_text": "Trivial (tầm thường)",
+        "answer_text": "Trivial (Trivial)",
         "is_correct": false
       }
     ],
@@ -988,7 +988,7 @@
   {
     "question_id": "module-3-software-defect-reports-report-content-q8",
     "module": "Testing in the Software Development Lifecycle",
-    "question_text": "Lets say you are working on an unmanned aerial vehicle and a defect is found. This defect happens only occasionally, but if it does the vehicle would come crashing out of the sky onto an unsuspecting population killing many. What severity level should this defect be given?\nVN: Giả sử bạn đang làm việc trên một máy bay không người lái và phát hiện thấy lỗi. Khiếm khuyết này chỉ thỉnh thoảng xảy ra, nhưng nếu nó xảy ra, chiếc xe sẽ lao từ trên trời xuống khiến nhiều người không nghi ngờ gì. Mức độ nghiêm trọng nào nên đưa ra lỗi này?",
+    "question_text": "Lets say you are working on an unmanned aerial vehicle and a defect is found. This defect happens only occasionally, but if it does the vehicle would come crashing out of the sky onto an unsuspecting population killing many. What severity level should this defect be given?\nVN: Giả sử bạn đang làm việc với một thiết bị bay không người lái và phát hiện ra lỗi. Lỗi này chỉ thỉnh thoảng mới xảy ra, nhưng nếu xảy ra, thiết bị sẽ lao từ trên trời xuống khu dân cư gây chết người. Lỗi này nên được đặt mức độ nghiêm trọng nào?",
     "question_type": "single_answer_question",
     "answers": [
       {
@@ -1004,7 +1004,7 @@
         "is_correct": false
       },
       {
-        "answer_text": "Trivial (tầm thường)",
+        "answer_text": "Trivial (Trivial)",
         "is_correct": false
       }
     ],
@@ -1013,27 +1013,27 @@
   {
     "question_id": "module-3-software-defect-reports-report-content-q9",
     "module": "Testing in the Software Development Lifecycle",
-    "question_text": "Assume that a particular low-severity defect is such that by fixing it, it will cause many more problems to come up. What final state should this defect be given?\nVN: Giả sử rằng một lỗi có mức độ nghiêm trọng thấp cụ thể thì việc sửa nó sẽ gây ra nhiều vấn đề hơn nữa. Trạng thái cuối cùng của khiếm khuyết này là gì?",
+    "question_text": "Assume that a particular low-severity defect is such that by fixing it, it will cause many more problems to come up. What final state should this defect be given?\nVN: Giả sử một lỗi có độ nghiêm trọng thấp mà nếu sửa nó có thể phát sinh thêm nhiều lỗi khác phức tạp hơn. Trạng thái cuối cùng của lỗi này nên được đặt là gì?",
     "question_type": "single_answer_question",
     "answers": [
       {
-        "answer_text": "Not repeatable (Không thể lặp lại)",
+        "answer_text": "Not repeatable (Not repeatable)",
         "is_correct": false
       },
       {
-        "answer_text": "Do not fix (Đừng sửa)",
+        "answer_text": "Do not fix (Do not fix)",
         "is_correct": true
       },
       {
-        "answer_text": "Duplicate (Nhân bản)",
+        "answer_text": "Duplicate (Duplicate)",
         "is_correct": false
       },
       {
-        "answer_text": "Not a problem (Không thành vấn đề)",
+        "answer_text": "Not a problem (Not a problem)",
         "is_correct": false
       },
       {
-        "answer_text": "Deferred (Trì hoãn)",
+        "answer_text": "Deferred (Deferred)",
         "is_correct": false
       }
     ],
@@ -1042,15 +1042,15 @@
   {
     "question_id": "module-3-software-defect-reports-report-content-q10",
     "module": "Testing in the Software Development Lifecycle",
-    "question_text": "If there is a relatively easy workaround to a problem, STATE IT in the defect report.\nVN: Nếu có cách giải quyết tương đối dễ dàng cho một vấn đề, HÃY NỔI BẬT NÓ trong báo cáo lỗi.",
+    "question_text": "If there is a relatively easy workaround to a problem, STATE IT in the defect report.\nVN: Nếu có một giải pháp tạm thời (workaround) tương đối dễ dàng cho một vấn đề, HÃY GHI RÕ NÓ trong báo cáo lỗi.",
     "question_type": "single_answer_question",
     "answers": [
       {
-        "answer_text": "True (ĐÚNG VẬY)",
+        "answer_text": "True (Đúng)",
         "is_correct": true
       },
       {
-        "answer_text": "False (SAI)",
+        "answer_text": "False (Sai)",
         "is_correct": false
       }
     ],
@@ -1059,15 +1059,15 @@
   {
     "question_id": "module-3-software-defect-reports-track-retest-and-close-q1",
     "module": "Testing in the Software Development Lifecycle",
-    "question_text": "When it comes to tracking defects, the most important aspect is to have a process and follow it.\nVN: Khi nói đến việc theo dõi lỗi, khía cạnh quan trọng nhất là phải có một quy trình và tuân theo nó.",
+    "question_text": "When it comes to tracking defects, the most important aspect is to have a process and follow it.\nVN: Khi nói đến việc theo dõi lỗi (defect tracking), khía cạnh quan trọng nhất là phải xây dựng được một quy trình và tuân thủ nó.",
     "question_type": "single_answer_question",
     "answers": [
       {
-        "answer_text": "True (ĐÚNG VẬY)",
+        "answer_text": "True (Đúng)",
         "is_correct": true
       },
       {
-        "answer_text": "False (SAI)",
+        "answer_text": "False (Sai)",
         "is_correct": false
       }
     ],
@@ -1076,23 +1076,23 @@
   {
     "question_id": "module-3-software-defect-reports-track-retest-and-close-q2",
     "module": "Testing in the Software Development Lifecycle",
-    "question_text": "Which of the following is not a conclusion reached by the retesting phase?\nVN: Điều nào sau đây không phải là kết luận đạt được trong giai đoạn kiểm tra lại?",
+    "question_text": "Which of the following is not a conclusion reached by the retesting phase?\nVN: Kết luận nào sau đây KHÔNG phải là kết quả thu được từ giai đoạn kiểm thử lại (retesting)?",
     "question_type": "single_answer_question",
     "answers": [
       {
-        "answer_text": "Problem fixed (Đã khắc phục sự cố)",
+        "answer_text": "Problem fixed (Lỗi đã được khắc phục)",
         "is_correct": false
       },
       {
-        "answer_text": "Problem is insurmountable (Vấn đề là không thể vượt qua)",
+        "answer_text": "Problem is insurmountable (Lỗi không thể giải quyết được)",
         "is_correct": true
       },
       {
-        "answer_text": "Problem remains unchanged (Vấn đề không thay đổi)",
+        "answer_text": "Problem remains unchanged (Lỗi vẫn giữ nguyên trạng thái cũ)",
         "is_correct": false
       },
       {
-        "answer_text": "Problem is replaced with a new problem (Vấn đề được thay thế bằng một vấn đề mới)",
+        "answer_text": "Problem is replaced with a new problem (Lỗi cũ biến mất nhưng phát sinh lỗi mới)",
         "is_correct": false
       }
     ],
@@ -1101,19 +1101,19 @@
   {
     "question_id": "module-3-software-defect-reports-track-retest-and-close-q3",
     "module": "Testing in the Software Development Lifecycle",
-    "question_text": "Testing and verification notes belong to which of the following categories?\nVN: Ghi chú kiểm tra và xác minh thuộc loại nào sau đây?",
+    "question_text": "Testing and verification notes belong to which of the following categories?\nVN: Các ghi chú kiểm thử và xác minh thuộc về danh mục nào dưới đây?",
     "question_type": "single_answer_question",
     "answers": [
       {
-        "answer_text": "Track (Theo dõi)",
+        "answer_text": "Track (Track)",
         "is_correct": false
       },
       {
-        "answer_text": "Retest (Kiểm tra lại)",
+        "answer_text": "Retest (Retest)",
         "is_correct": false
       },
       {
-        "answer_text": "Close (Đóng)",
+        "answer_text": "Close (Close)",
         "is_correct": true
       }
     ],

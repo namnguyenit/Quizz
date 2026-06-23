@@ -1,0 +1,1802 @@
+[
+  {
+    "question_id": "module-4-question-226",
+    "module": "Module 4",
+    "question_text": "một phần của chương trình: Tài liệu nào tóm tắt các hoạt động kiểm thử kết hợp với một hoặc nhiều đặc tả thiết kế kiểm thử?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Báo cáo sự cố kiểm thử",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Báo cáo tóm tắt kiểm thử",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Kiểm thử đăng nhập",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Kịch bản kiểm thử",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-4-question-227",
+    "module": "Module 4",
+    "question_text": "Đo lường chất lượng từ góc nhìn user-view dễ dàng bằng cách nào?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Hỏi người sử dụng xem có thấy hài lòng về các chức năng hay không.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Tính tỉ lệ passed test case trong tổng số các test case được thiết kế cho chức",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Bằng tổng số các test cases.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Cả 3 cách trên.",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-4-question-228",
+    "module": "Module 4",
+    "question_text": "Trong một chiến lược kiểm thử đa chu kì, ca kiểm thử được ưu tiên vì lí do nào sau đây:",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Chất lượng của hệ thống ban đầu để thử nghiệm không cao",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Chất lượng của hệ thống được cải thiện từ chu kì này tới chu kì khác",
+        "is_correct": false
+      },
+      {
+        "answer_text": "1 loạt các lỗi được phát hiện khi kiểm tra đến",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Tất cả các phương án trên",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-4-question-229",
+    "module": "Module 4",
+    "question_text": "Bộ nào dưới đây là bộ số liệu có thể được sử dụng để giám sát việc thực hiện kiểm thử?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Số lượng các khuyết tật bị phát hiện, kiểm tra chi phí.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Số lượng các khuyết tật còn lại trong đối tượng kiểm thử.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Tỷ lệ phần trăm hoàn thành nhiệm vụ trong việc chuẩn bị môi trường kiểm tra",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Số lượng ca kiểm thử chạy/ không chạy, các ca kiểm thử thông qua/ không",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-4-question-230",
+    "module": "Module 4",
+    "question_text": "Nhiệm vụ nào không phải nhiệm vụ chính của Exit Criteria?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Marketing, phần mềm, phần cứng, tiêu chuẩn kỹ và thử nghiệm hệ thống.",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Marketing, đầu ra, đầu vào, tiêu chuẩn kỹ thuật và thử nghiệm hệ thống.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Đầu vào, đầu ra, ca kiểm thử, tiêu chuẩn kỹ thuật và thử nghiệm hệ thống.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Đâù vào, đầu ra, tiêu chuẩn kỹ thuật và thử nghiệm hệ thống",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-4-question-231",
+    "module": "Module 4",
+    "question_text": "Bộ số liệu có thể được sử dụng để theo dõi việc thực hiện kiểm tra ?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Số lượng các sai sót phát hiện, chi phí kiểm tra",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Số lượng các sai sót còn lại trong đối tượng kiểm tra",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Tỷ lệ phần trăm các nhiệm vụ hoàn thành trong việc chuẩn bị của môi trường",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Số lượng các ca kiểm thử chạy / không chạy; các ca kiểm thử thông qua / thất",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-4-question-232",
+    "module": "Module 4",
+    "question_text": "Đâu không phải là nguyên tắc quan trọng để phân tích nguyên nhân gây sai sót:",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Tập trung vào các lỗi hệ thống",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Giảm số lượng các sai sót để nâng cao chất lượng",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Sắp xếp, phân loại các lỗi để loại bỏ",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Áp dụng chuyên môn bộ phận nơi các sai sót xảy ra",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-4-question-233",
+    "module": "Module 4",
+    "question_text": "Nhận xét đúng về khuyết tật có độ ưu tiên ở mức Critical:",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Khuyết tật ở mức độ này phải được giải quyết càng sớm càng tốt, và quá trình",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Khuyết tật ở mức độ này sẽ không ảnh hưởng đến quá trình kiểm thử",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Khuyết tật ở mức độ này có thể giải quyết bất kì lúc nào",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Khuyết tật có mức độ ưu tiên cao và ảnh hưởng dến một tập nhỏ các chức",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-4-question-234",
+    "module": "Module 4",
+    "question_text": "Nhân xét đúng về lỗi có độ ưu tiên ở mức cao (high)",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Lỗi ở mức độ này sẽ không ảnh hưởng đến tiến độ kiểm thử.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Lỗi ở mức độ này nên được giải quyết bất kỳ lúc nào có thể",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Lỗi ở mức độ này ở mức ưu tiên cao, quá trình kiểm thử phải dừng lại khi lỗi",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Lỗi ở mức độ này ở mức ưu tiên cao, một tập hợp chức năng con của hệ thống",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-4-question-235",
+    "module": "Module 4",
+    "question_text": "Nhận xét đúng về độ quan trọng của lỗi ở mức thấp (low)",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Nếu nhiều chức năng quan trọng của hệ thống bị suy yếu do lỗi này",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Nếu một số chức cơ bản của hệ thông bị suy yếu",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Nếu không có chức năng quan trọng nào của hệ thống bị suy yếu",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Nếu vấn đề liên quan đến tính năng giao diện của hệ thống",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-4-question-236",
+    "module": "Module 4",
+    "question_text": "Nhận xét đúng về độ ưu tiên và độ nghiêm trọng quá trình kiểm thử",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Mức độ nghiêm trọng của một khuyết tật vẫn giữ nguyên trong vòng đời của nó,",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Mức độ nghiêm trọng của một khuyết tật và mức độ ưu tiên không thay đổi",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Mức độ ưu tiên không thay đổi còn mức độ nghiêm trọng thay đổi trong vòng",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Tất cả các đáp án đều sai",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-4-question-237",
+    "module": "Module 4",
+    "question_text": "Để đo được tính hiệu quả của việc kiểm thử, một công thức được sử dụng phổ biến trong công nghiệp là tính giá trị DRE (defect removal efficiency). Giá trị DRE được tính bằng công thức:",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Số lỗi tìm được trong kiểm thử",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Số lỗi tìm được + số lỗi không tìm được trong kiểm thử",
+        "is_correct": false
+      },
+      {
+        "answer_text": "(Số lỗi tìm được)/(số lỗi tìm được + số lỗi không tìm được)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Cả 3 đều sai",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-4-question-238",
+    "module": "Module 4",
+    "question_text": "Thế nào là kiểm thử chấp nhận nghiệp vụ (BAT)",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Thực hiện dưới sự phát triển tổ chức của nhà cung cấp, không quan tâm tới kết",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Thực hiện dưới sự phát triển tổ chức của nhà cung cấp, nhưng vẫn quan tâm",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Thực hiện bởi người sử dụng",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Thực hiện bởi người sử dụng, đảm bảo hệ thống thỏa mãn các kịch bản theo",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-4-question-239",
+    "module": "Module 4",
+    "question_text": "Kiểm thử chức năng được thực hiện ở đâu?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Ở hệ thống và chỉ ở mức kiểm thử chấp nhận.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Ở tất cả các mức kiểm thử.",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Ở tất cả các mức trên mức kiểm thử tích hợp.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Chỉ ở mức kiểm thử chấp nhận.",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-4-question-240",
+    "module": "Module 4",
+    "question_text": "Các ca kiểm thử chấp nhận dựa trên:",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Các yêu cầu.",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Thiết kế.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Mã nguồn.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Bảng quyết định.",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-4-question-241",
+    "module": "Module 4",
+    "question_text": "Chúng ta sử dụng đầu ra của phân tích yêu cầu và đặc tả yêu cầu như thể đầu vào để viết ra các:",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Ca kiểm thử chấp nhận người dùng.",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Ca kiểm thử mức tích hợp.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Ca kiểm thử mức đơn vị.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Đặc tả chương trình.",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-4-question-242",
+    "module": "Module 4",
+    "question_text": "Điều kiện kiểm thử xuất phát từ:",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Đặc tả",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Testcase",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Dữ liệu test",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Thiết kế test",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-4-question-243",
+    "module": "Module 4",
+    "question_text": "Trong một hệ thống được thiết kế để tính thuế: một nhân viên có lương 4000 thì miến thuế. 1500 tiếp theo chịu thuế 10%, 2800 tiếp theo chịu 22%. Bất kì mức lương nào cao hơn nữa thì đều chịu 40% thuế. Lớp đầu vào nào sau đây cùng nằm trong một nhóm test tương đương",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "4800, 14000, 28000",
+        "is_correct": false
+      },
+      {
+        "answer_text": "5200, 5500, 28000",
+        "is_correct": false
+      },
+      {
+        "answer_text": "28001, 32000, 35000",
+        "is_correct": false
+      },
+      {
+        "answer_text": "5800, 28000, 32000",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-4-question-244",
+    "module": "Module 4",
+    "question_text": "Loại nào sau đây không phải là dữ liệu bất thường:",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Định nghĩa sau đó định nghĩa lại",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Không định nghĩa nhưng tham chiếu",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Định nghĩa sau đó tham chiếu",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Định nghĩa sau đó hủy bỏ định nghĩa",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-4-question-245",
+    "module": "Module 4",
+    "question_text": "Trong mối quan hệ giữa tiêu chuẩn kiểm thử luồng dữ liệu khả thi thì tiêu chuẩn nào sau đây là đầy đủ nhất:",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "All – du-paths",
+        "is_correct": false
+      },
+      {
+        "answer_text": "All – branches",
+        "is_correct": false
+      },
+      {
+        "answer_text": "All – paths",
+        "is_correct": true
+      },
+      {
+        "answer_text": "All – uses",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-4-question-246",
+    "module": "Module 4",
+    "question_text": "Kiểm thử luồng dữ liệu là một kĩ thuật kiểm thử cấu trúc điều khiển ở đó tiêu chí được sử dụng để thiết kế những ca kiểm thử là:",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Dựa vào kiểm thử đường cơ bản.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Thực hiện các điều kiện logic trong một module chương trình.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Chọn những đường kiểm thử dựa vào vị trí và việc sử dụng các biến.",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Tập trung vào kiểm tra tính hợp lệ của vòng lặp.",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-4-question-247",
+    "module": "Module 4",
+    "question_text": "(Lớp tương đương - Equivalence class): Một trường textbox trong một from nhập liệu có khoảng giá trị chấp nhận trong khoảng 18 – 25. Hãy chỉ gia lớp giá trị không hợp lệ.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "A. 17",
+        "is_correct": true
+      },
+      {
+        "answer_text": "B. 19",
+        "is_correct": false
+      },
+      {
+        "answer_text": "C. 24",
+        "is_correct": false
+      },
+      {
+        "answer_text": "D. 21",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-4-question-248",
+    "module": "Module 4",
+    "question_text": "Một hệ thống quản lý lỗi có trách nhiệm theo dõi tình trạng của tất cả các lỗi đã biết và thực thi các quy tắc để kiểm để thay đổi các trạng thái. Nếu nhiệm vụ của bạn là kiểm thử theo dõi trạng thái, phương pháp nào là tốt nhất?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Logic-based testing",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Use-case-based testing",
+        "is_correct": false
+      },
+      {
+        "answer_text": "State transition testing",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Systematic testing according to the V-model",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-4-question-249",
+    "module": "Module 4",
+    "question_text": "Nếu một chương trình đã được kiểm thử và 100% condition coverage được hoàn thành. Thì tiêu chuẩn nào sau đây đảm bảo đạt được?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "100% branch coverage",
+        "is_correct": false
+      },
+      {
+        "answer_text": "100% condition coverage và 100% statement coverage",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Các lớp tương đương và giá trị biên được bao phủ.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "không có tiêu chuẩn nào hoàn thành 100%",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-4-question-250",
+    "module": "Module 4",
+    "question_text": "Cho đoạn chương trình: WHILE (condition A) Do B END WHILE Có bao nhiêu test case nên được có để hoàn thành 100% bao phủ quyết định (decision coverage)?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "2",
+        "is_correct": true
+      },
+      {
+        "answer_text": "không rõ ràng.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "1",
+        "is_correct": false
+      },
+      {
+        "answer_text": "4",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-4-question-251",
+    "module": "Module 4",
+    "question_text": "Trong kiểm thử đơn vị thì đối tượng dùng để kiểm thử là một Modul",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Một lớp.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Phương thức.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Một thành phần(Component)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Tùy theo cách hiểu.",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-4-question-252",
+    "module": "Module 4",
+    "question_text": "Kiểm thử được chia làm nhiều cấp độ, cấp độ nào là đơn giản nhất?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Kiểm thử đơn vị.",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Kiểm thử tích hợp.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Kiểm thử hệ thống.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Kiểm thử chấp nhận.",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-4-question-253",
+    "module": "Module 4",
+    "question_text": "Từ góc nhìn giá trị của phần mềm (Value-based view), thì một phần mềm như thế nào được đánh giá là chất lượng?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Phần mềm dễ bảo trì.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Phần mềm đem lại lợi nhuận cao cho tổ chức.",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Phần mềm có giao diện đẹp.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Một đáp án khác.",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-4-question-254",
+    "module": "Module 4",
+    "question_text": "Định nghĩa kiểm chứng (verification) và thẩm định (validation) nào sau đây là đúng?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Cả hai đều có ý nghĩa giống nhau.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Kiểm chứng có thể hiểu là việc xây dựng phần mềm có đúng đặc tả, đúng thiết",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Thẩm định có thể hiểu là việc xây dựng phần mềm có đúng đặc tả, đúng thiết",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Kiểm chứng là dùng công cụ kiểm tra tự động. Còn thẩm định là thực hiện thủ",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-4-question-255",
+    "module": "Module 4",
+    "question_text": "Thứ tự thực hiện đúng của kiểm chứng (verification) và thẩm định (Validation) là:",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Không cần thứ tự, 2 công việc trên có thể làm đan xen lẫn nhau.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Kiểm chứng, rồi đến thẩm định.",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Thẩm định rồi đến kiểm chứng.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Một đáp án khác.",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-4-question-256",
+    "module": "Module 4",
+    "question_text": "Trong quá trình kiểm thử, mục tiêu quan trọng nhất là",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Tìm ra nhiều lỗi nhất có thể.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Kiểm tra được các khu vực có nguy cơ xảy ra lỗi cao.",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Đạt được độ bao phủ kiểm thử tốt.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Để đánh giá phần mềm đã sẵn sàng cho phát hành.",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-4-question-257",
+    "module": "Module 4",
+    "question_text": "Chọn một lý do không hợp lý khi nói việc kiểm thử đầy đủ là không khả thi:",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Miền đầu vào là quá lớn để kiểm tra.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Giới hạn về nguồn lực tài chính.",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Không thể kiểm tra hết các đường khả thi trong chương trình phần mềm.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Các vấn đề giao diện người dùng là quá phức tạp để kiểm tra hoàn toàn.",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-4-question-258",
+    "module": "Module 4",
+    "question_text": "Thành phần nào sau đây không được coi là một đơn vị",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Hàm",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Lớp",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Module",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Phương thức",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-4-question-259",
+    "module": "Module 4",
+    "question_text": "Kiểm thử giao diện lập trình ứng dụng - API testing là phương pháp nằm trong chiến lược kiểm thử nào.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Kiểm thử hộp đen",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Kiểm thử hộp trắng",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Kiểm thử hộp xám",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Kiểm thử hộp xám và hộp đen",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-4-question-260",
+    "module": "Module 4",
+    "question_text": "Nêu ra các loại kiểm thử trong intergration test.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Kiểm thử cấu trúc",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Kiểm thử chức năng",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Kiểm thử hiệu năng, kiểm thử cấu trúc",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Kiểm thử cấu trúc, kiểm thử chức năng, kiểm thử hiệu năng, kiểm thử khả năng",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-4-question-261",
+    "module": "Module 4",
+    "question_text": "Trong đồ thị chương trình, một đường đi từ điểm nguồn đến điểm đích đại diện cho điều gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "A. Một lỗi trong chương trình.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "B. Một luồng điều khiển có thể xảy ra.",
+        "is_correct": true
+      },
+      {
+        "answer_text": "C. Một chức năng chính của chương trình.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "D. Một luồng dữ liệu.",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-4-question-262",
+    "module": "Module 4",
+    "question_text": "Trong kiểm thử đường đi cơ bản (Basic Path Testing), một đường đi độc lập là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Một đường đi bao gồm tất cả các giá trị biên.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Một đường đi duy nhất từ điểm bắt đầu đến điểm kết thúc mà không lặp lại bất",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Một đường đi được thực hiện nhiều lần trong quá trình kiểm thử.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Một đường đi chứa ít nhất một cạnh hoặc đỉnh mới chưa được đi qua trong bất",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-4-question-263",
+    "module": "Module 4",
+    "question_text": "Một chương trình có độ phức tạp chu trình bằng 1 có nghĩa là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Chương trình có một chu trình duy nhất.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Chương trình có cấu trúc tuyến tính mà không có bất kỳ đường đi phân nhánh",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Chương trình có một lỗi logic.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Chương trình có một điểm vào và một điểm ra duy nhất.",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-4-question-264",
+    "module": "Module 4",
+    "question_text": "Công thức tính độ phức tạp chu trình (Cyclomatic Complexity) là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "V(G) = E - N + 2P",
+        "is_correct": true
+      },
+      {
+        "answer_text": "V(G) = E + N - 2P",
+        "is_correct": false
+      },
+      {
+        "answer_text": "V(G) = E - N - 2P",
+        "is_correct": false
+      },
+      {
+        "answer_text": "V(G) = E + N + 2P",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-4-question-265",
+    "module": "Module 4",
+    "question_text": "Kiểm thử luồng dữ liệu giúp phát hiện loại lỗi nào sau đây?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "A. Lỗi do sử dụng biến chưa được khởi tạo.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "B. Lỗi do khai báo biến không cần thiết.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "C. Lỗi do sử dụng biến ngoài phạm vi.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "D. Cả A và C.",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-4-question-266",
+    "module": "Module 4",
+    "question_text": "Tại sao kiểm thử luồng dữ liệu lại quan trọng đối với chất lượng phần mềm?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Nó giúp tối ưu hóa mã nguồn để giảm độ phức tạp.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Nó đảm bảo rằng tất cả các biến được xử lý một cách chính xác, từ đó giảm",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Nó giúp tăng tốc độ chạy của chương trình.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Nó đảm bảo rằng tất cả các chức năng của giao diện người dùng đều hoạt",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-4-question-267",
+    "module": "Module 4",
+    "question_text": "Để phát hiện lỗi sử dụng biến chưa được khởi tạo, kiểm thử luồng dữ liệu thường kiểm tra điều gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Các giá trị biên của biến.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Các đường đi từ điểm khai báo đến điểm sử dụng biến.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Các đường đi từ điểm gán giá trị đến điểm sử dụng biến.",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Các điều kiện trong bảng quyết định.",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-4-question-268",
+    "module": "Module 4",
+    "question_text": "Một biến chưa được khởi tạo mà đã được sử dụng có thể dẫn đến lỗi nào?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Lỗi biên dịch.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Lỗi logic.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Lỗi thời gian chạy.",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Lỗi giao diện người dùng.",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-4-question-269",
+    "module": "Module 4",
+    "question_text": "Điều nào sau đây đúng?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "1 test cho bao phủ câu lệnh; 3 test cho bao phủ rẽ nhánh",
+        "is_correct": false
+      },
+      {
+        "answer_text": "1 test cho bao phủ câu lệnh; 2 test cho bao phủ rẽ nhánh",
+        "is_correct": false
+      },
+      {
+        "answer_text": "1 test cho bao phủ câu lệnh; 1 test cho bao phủ rẽ nhánh",
+        "is_correct": false
+      },
+      {
+        "answer_text": "2 test cho bao phủ câu lệnh; 3 test cho bao phủ rẽ nhánh",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-4-question-270",
+    "module": "Module 4",
+    "question_text": "Có bao nhiêu đường đi trong CFG sau:",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "1",
+        "is_correct": false
+      },
+      {
+        "answer_text": "2",
+        "is_correct": false
+      },
+      {
+        "answer_text": "3",
+        "is_correct": false
+      },
+      {
+        "answer_text": "4",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-4-question-271",
+    "module": "Module 4",
+    "question_text": "Chi phí của việc sửa lỗi:",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Không quan trọng.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Tăng khi chúng ta đưa sản phẩm vào sử dụng thực tế.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Giảm khi chúng ta không áp dụng nó vào trong thực tế.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Cao hơn nếu tìm thấy trong các yêu cầu cao hơn so với thiết kế chức năng",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-4-question-272",
+    "module": "Module 4",
+    "question_text": "Nếu thời gian thử nghiệm có giới hạn, chúng ta nên ...",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Chỉ kiểm tra các khu vực có nguy cơ cao",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Chỉ kiểm tra các khu vực đơn giản",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Chỉ kiểm tra các khu vực có nguy cơ thấp",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Chỉ kiểm tra các khu vực phức tạp",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-4-question-273",
+    "module": "Module 4",
+    "question_text": "Kĩ thuật nào là kĩ thuật để biểu diễn các chức năng và luồng dữ liệu bằng các kí hiệu chỉ ra luồng dữ liệu, xử lý (các chức năng), kho dữ liệu và nguồn ngoài (nguồn dữ liệu được sinh ra và gửi đi)? (kĩ thuật này là một trong các phương pháp phân tích có cấu trúc)",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "DFD",
+        "is_correct": true
+      },
+      {
+        "answer_text": "ERD",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Lược đồ NS",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Biểu đồ di chuyển trạng thái",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-4-question-274",
+    "module": "Module 4",
+    "question_text": "Đâu là mô tả chính xác về dữ liệu kiểm thử để duyệt một chương trình?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Các trường hợp kiểm thử được chuẩn bị trước, và dữ liệu kiểm thử có thể đáp",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Chỉ có dữ liệu kiểm thử mà đã được xử lý đúng mới được chuẩn bị như các tiến",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Bởi vì dữ liệu được sử dụng để kiểm thử, cần chuẩn bị khoảng 20% khối lượng",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Không cần cung cấp dữ liệu kiểm thử bị loại bỏ vì lỗi trong giai đoạn đưa vào",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-4-question-275",
+    "module": "Module 4",
+    "question_text": "Cho hàm sau Hàm trên có bao nhiêu luồng dữ liệu bất thường?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "1",
+        "is_correct": false
+      },
+      {
+        "answer_text": "2 (n được khai báo nhưng ko đc dùng, i chưa khai báo nhưng đc dùng)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "3",
+        "is_correct": false
+      },
+      {
+        "answer_text": "4",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-4-question-276",
+    "module": "Module 4",
+    "question_text": "Phát biểu nào dưới đây là đúng về kỹ thuật kiểm thử hộp đen và kiểm thử hộp trắng",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Phân hoạch tương đương, Bảng quyết định và Luồng điều khiển nằm trong kỹ",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Phân hoạch tương đương, Phân tích giá trị biên, Luồng dữ liệu nằm trong kỹ",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Phân hoạch tương đương, bảng quyết định, kiểm thử ca sử dụng nằm trong kỹ",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Phân hoạch tương đương, chuyển trạng thái, kiểm thử ca sử dụng và bảng",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-4-question-277",
+    "module": "Module 4",
+    "question_text": "Sắp xếp theo mức độ tăng dần các kỹ thuật phát hiện lỗi về số lượng lỗi và chi phí?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Random testing, Control-flow-testing, Data-flow-testing",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Control-flow-testing, Data-flow-testing, Random testing",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Data-flow-testing, Control-flow-testing, Random testing",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Data-flow-testing, Random testing, Control-flow-testing",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-4-question-278",
+    "module": "Module 4",
+    "question_text": "Chọn all-defs path với biến tv trong các path sau?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "1-2-3-4-5-6-3-4-5",
+        "is_correct": false
+      },
+      {
+        "answer_text": "1-2-3-4-5-6-3-7-9-10",
+        "is_correct": true
+      },
+      {
+        "answer_text": "1-2-3-7-9-10",
+        "is_correct": false
+      },
+      {
+        "answer_text": "1-2-3-4-6-3-7-9-10",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-4-question-279",
+    "module": "Module 4",
+    "question_text": "Luồng dữ liệu không bình thường (Data flow anomaly) trong đoạn code sau đây thuộc loại nào:",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "ur",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Không tồn tại luồng dữ liệu không bình thường",
+        "is_correct": false
+      },
+      {
+        "answer_text": "dd",
+        "is_correct": true
+      },
+      {
+        "answer_text": "du",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-4-question-280",
+    "module": "Module 4",
+    "question_text": "Cho hình vẽ sau, hãy chọn chỉ số của node mà ở node đó có Global c-use của biến tv?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "4",
+        "is_correct": false
+      },
+      {
+        "answer_text": "9",
+        "is_correct": true
+      },
+      {
+        "answer_text": "6",
+        "is_correct": false
+      },
+      {
+        "answer_text": "8",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-4-question-281",
+    "module": "Module 4",
+    "question_text": "Đặc trưng nào cho thấy cái giá của lỗi trong quy trình sản xuất phần mềm?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Chúng là rẻ nhất khi tìm thấy trong giai đoạn phát triển, nhưng đắt nhất trong",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Chúng dễ dàng tìm thấy trong quá trình kiểm thử hệ thống nhưng để sửa những",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Để tìm được những lỗi trong giai đoạn phát triển thì rất rẻ nhưng để sửa những",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Mặc dù rất đắt để tìm ra lỗi trong giai đoạn phát triển nhưng để sửa những lỗi",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-4-question-282",
+    "module": "Module 4",
+    "question_text": "Có bao nhiêu phần trăm khiếm khuyết liên quan đến xác định yêu cầu của phần mềm?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "23.9%",
+        "is_correct": true
+      },
+      {
+        "answer_text": "24.3%",
+        "is_correct": false
+      },
+      {
+        "answer_text": "4.3%",
+        "is_correct": false
+      },
+      {
+        "answer_text": "5.2%",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-4-question-283",
+    "module": "Module 4",
+    "question_text": "Cho hình trên, xét biến tv trong đường đi 1 – 2 – 3 – 7 – 8 – 10 thỏa mãn tiêu chí nào?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "A",
+        "is_correct": false
+      },
+      {
+        "answer_text": "B",
+        "is_correct": true
+      },
+      {
+        "answer_text": "C",
+        "is_correct": false
+      },
+      {
+        "answer_text": "D",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-4-question-284",
+    "module": "Module 4",
+    "question_text": "Nêu một tập các giá trị hợp lệ của các lớp tương đương cho bài toán sau: thanh toán bằng thẻ tín dụng có thể được với Visa, Master, Amex?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Visa, Master, Amex;",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Visa, Master, Amex, Diners, Keycards, và một vài lựa chọn khác",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Visa, Master, Amex, một vài thẻ khác, không có thẻ nào",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Không thẻ, một số thẻ, một trong các thẻ Visa, Master, Amex",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-4-question-285",
+    "module": "Module 4",
+    "question_text": "Trong mô hình lỗi quá trình nào không đúng Với các trạng thái N: New, S: Shelved, A: Assigned, W: Watt",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "N -> P",
+        "is_correct": false
+      },
+      {
+        "answer_text": "N -> S",
+        "is_correct": false
+      },
+      {
+        "answer_text": "N -> A",
+        "is_correct": false
+      },
+      {
+        "answer_text": "N -> W",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-4-question-286",
+    "module": "Module 4",
+    "question_text": "Trong mô hình lỗi quá trình nào đúng",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "W -> O",
+        "is_correct": false
+      },
+      {
+        "answer_text": "R -> H",
+        "is_correct": false
+      },
+      {
+        "answer_text": "C -> D",
+        "is_correct": false
+      },
+      {
+        "answer_text": "D -> A",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-4-question-287",
+    "module": "Module 4",
+    "question_text": "Độ ưu tiên (priority) của sai sót được thể hiện ở mấy cấp độ:",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "1",
+        "is_correct": false
+      },
+      {
+        "answer_text": "2",
+        "is_correct": false
+      },
+      {
+        "answer_text": "3",
+        "is_correct": true
+      },
+      {
+        "answer_text": "4",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-4-question-288",
+    "module": "Module 4",
+    "question_text": "Ghép các cặp giai đoạn của vòng đời phát triển và vòng đời kiểm thử phần mềm sau đây với nhau: i: Thiết kế mức cao; a: Kiểm thử đơn vị ii: Viết mã nguồn; b: Kiểm thử chấp nhận iii: Thiết kế mức thấp; c: Kiểm thử hệ thống iv. Các yêu cầu công việc; d: Kiểm thử tích hợp",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "i-d, ii-a, iii-c, iv-b.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "i-c, ii-d, iii-a, iv-b.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "i-b, ii-a, iii-d, iv-c.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "i-c, ii-a, iii-d, iv-b.",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-4-question-289",
+    "module": "Module 4",
+    "question_text": "Trong biểu đồ chuyển trạng thái dưới đây, trạng thái chuyển nào không đúng",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "ON to OFF",
+        "is_correct": false
+      },
+      {
+        "answer_text": "OFF to ON",
+        "is_correct": false
+      },
+      {
+        "answer_text": "ON to FAULT",
+        "is_correct": false
+      },
+      {
+        "answer_text": "FAULT to ON",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-4-question-290",
+    "module": "Module 4",
+    "question_text": "Định nghĩa nào sau đây là đúng cho c-use toàn cục (Global c- use):",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Một c-use của một biến x trong nút i được gọi là c-use toàn cục nếu x được định",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Một c-use của một biến x trong nút i được gọi là c-use toàn cục nếu x được định",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Một c-use của một biến x trong nút i được gọi là c-use toàn cục nếu x được định",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Một c-use của một biến x trong nút i được gọi là c-use toàn cục nếu tại đó x",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-4-question-291",
+    "module": "Module 4",
+    "question_text": "Cho đồ thị luồng dữ liệu:",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "All-c-uses.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "All-p-uses.",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Cả a và b đều đúng.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Cả a và b đều sai.",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-4-question-292",
+    "module": "Module 4",
+    "question_text": "Cho đồ thị luồng dữ liệu: Xét biến ti trong đường đi 1 – 2 – 3 – 4 – 6 – 3 – 7 – 8 – 10 thỏa mãn tiêu chí nào:",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "All-c-uses.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "All-p-uses.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Cả a và b đều đúng.",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Cả a và b đều sai.",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-4-question-293",
+    "module": "Module 4",
+    "question_text": "Cho đồ thị luồng dữ liệu: Xét biến tv trong đường đi 1 – 2 – 3 – 7 – 9 – 10 thỏa mãn tiêu chí nào:",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "All-c-uses.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "All-p-uses.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "All-uses.",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Cả 3 ý trên đều sai.",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-4-question-294",
+    "module": "Module 4",
+    "question_text": "Một hệ thống tính thuế thu nhập cá nhân: Một nhân viên có lương dưới 4.000 được miễn thuế. 1500 tiếp theo bị đánh thuế ở mức 10%. 28000 tiếp theo sau đó bị đánh thuế ở mức 22%. Mức thu nhập lớn hơn bị đánh thuế ở mức 40%. Nhóm giá trị test nào dưới đây thuộc ba lớp tương đương khác nhau:",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "4000; 5000; 5500",
+        "is_correct": false
+      },
+      {
+        "answer_text": "32001; 34000; 36500",
+        "is_correct": false
+      },
+      {
+        "answer_text": "28000; 28001; 32001",
+        "is_correct": false
+      },
+      {
+        "answer_text": "4000; 4200; 5600",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-4-question-295",
+    "module": "Module 4",
+    "question_text": "Nêu một tập các giá trị hợp lệ của các lớp tương đương cho vấn đề sau: thanh toán bằng thẻ tín dụng có thể được với Visa, Master, Amex:",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Visa, Master, Amex;",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Visa, Master, Amex, Diners, Keycards, và một vài lựa chọn khác",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Visa, Master, Amex, một vài thẻ khác, không có thẻ nào",
+        "is_correct": false
+      },
+      {
+        "answer_text": "không thẻ, một số thẻ,một trong các thẻ Visa, master, amex.",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-4-question-296",
+    "module": "Module 4",
+    "question_text": "Những câu nào sau đây miêu tả đặc điểm chi phí của lỗi",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Tốn ít chi phí nhất nếu tìm thấy trong các giai đoạn phát triển ban đầu và mất",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Dễ tìm thấy nhất trong quá trình thử nghiệm hệ thống nhưng mất nhiều chi phí",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Tốn ít chi phí nhất nếu tìm thấy trong các giai đoạn phát triển ban đầu nhưng",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Tốn nhiều chi phí nếu tìm thấy trong các giai đoạn phát triển ban đầu nhưng lại",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-4-question-297",
+    "module": "Module 4",
+    "question_text": "Các bước trong quá trình kiểm thử: I Phân tích và thiết kế, II Kiểm thử các hoạt động, III Đánh giá tiêu chí và báo cáo, IV Kế hoạch và kiểm soát, V Cài đặt và thực hiện. Trình tự thực hiện là thế nào?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "I, II, III, IV, V.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "IV, I, V, III, II.",
+        "is_correct": true
+      },
+      {
+        "answer_text": "IV, I, V, II, III.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "I, IV, V, III, II.",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  }
+]

@@ -1,0 +1,561 @@
+[
+  {
+    "question_id": "module-2-partition-testing-q1",
+    "module": "Module 2",
+    "question_text": "In Partition Testing, the idea is to fragment the ___ space into subsets, in such a way that some of these are ___ in terms of values that expose faults.\nVN: Trong Kiểm tra phân vùng, ý tưởng là phân chia không gian ___ thành các tập hợp con, theo cách mà một số trong số này có ___ về mặt giá trị bộc lộ lỗi.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "test; sparse (Bài kiểm tra; thưa thớt)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "code; sparse (mã số; thưa thớt)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "output; dense (đầu ra; dày đặc)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "input; dense (đầu vào; dày đặc)",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-2-partition-testing-q2",
+    "module": "Module 2",
+    "question_text": "The partitions that are constructed are always domain ______.\nVN: Các phân vùng được xây dựng luôn là miền ______.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "dependent (sự phụ thuộc)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "independent (độc lập)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-2-partition-testing-q3",
+    "module": "Module 2",
+    "question_text": "In practice, every program fault can lead to a failure-dense partition.\nVN: Trong thực tế, mọi lỗi chương trình đều có thể dẫn đến phân vùng có mật độ lỗi dày đặc.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "False (Sai)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "True (Đúng)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-2-partition-testing-q4",
+    "module": "Module 2",
+    "question_text": "In Quasi-partitioning, overlapping partitions are allowed to exist.\nVN: Trong phân vùng gần đúng, các phân vùng chồng chéo được phép tồn tại.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "True (Đúng)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "False (Sai)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-2-combinatorial-testing-q1",
+    "module": "Module 2",
+    "question_text": "In Combinatorial Testing, the goal is to identify distinct tests and combine them to create new ones.\nVN: Trong Thử nghiệm tổ hợp, mục tiêu là xác định các thử nghiệm riêng biệt và kết hợp chúng để tạo ra thử nghiệm mới.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "True (Đúng)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "False (Sai)",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-2-combinatorial-testing-q2",
+    "module": "Module 2",
+    "question_text": "In Category-partition testing, we create categories of values for each _____ defined in the system.\nVN: Trong thử nghiệm phân vùng Danh mục, chúng tôi tạo các danh mục giá trị cho mỗi _____ được xác định trong hệ thống.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "output (đầu ra)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "input (đầu vào)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "test (Bài kiểm tra)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "interaction (sự tương tác)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-2-combinatorial-testing-q3",
+    "module": "Module 2",
+    "question_text": "Why are constraints important in Category-partition testing?\nVN: Tại sao các ràng buộc lại quan trọng trong thử nghiệm phân vùng Danh mục?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "They alleviate the problem of creating duplicate tests. (Chúng làm giảm bớt vấn đề tạo ra các bài kiểm tra trùng lặp.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "They provide a way to filter out meaningless combinations of attributes. (Chúng cung cấp một cách để lọc ra các tổ hợp thuộc tính vô nghĩa.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Monitoring interactions between attributes is easier when using constraints. (Việc giám sát tương tác giữa các thuộc tính sẽ dễ dàng hơn khi sử dụng các ràng buộc.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "They are used to identify representative values. (Chúng được sử dụng để xác định các giá trị đại diện.)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-2-combinatorial-testing-q4",
+    "module": "Module 2",
+    "question_text": "Property constraints are used to include specific combinations of attribute values.\nVN: Ràng buộc thuộc tính được sử dụng để bao gồm các kết hợp cụ thể của các giá trị thuộc tính.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "False (Sai)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "True (Đúng)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-2-combinatorial-testing-q5",
+    "module": "Module 2",
+    "question_text": "How does N-way Combinatorial testing improve over the traditional method?\nVN: Thử nghiệm tổ hợp N-way cải tiến như thế nào so với phương pháp truyền thống?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "We can identify interactions that only require a part of the given attributes in the original specification (Chúng ta có thể xác định các tương tác chỉ yêu cầu một phần thuộc tính nhất định trong đặc tả ban đầu)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "We can rule out impossible combinations (Chúng ta có thể loại trừ những sự kết hợp không thể)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Only a subset of the representative values are required to generate good test cases (Chỉ cần một tập hợp con các giá trị đại diện để tạo ra các ca kiểm thử tốt)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-2-requirements-coverage-q1",
+    "module": "Module 2",
+    "question_text": "A good principle when creating tests is to focus on checking failure cases only.\nVN: Một nguyên tắc tốt khi tạo các bài kiểm thử là chỉ tập trung vào việc kiểm tra các trường hợp thất bại.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "False (Sai)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "True (Đúng)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-2-requirements-coverage-q2",
+    "module": "Module 2",
+    "question_text": "We can consider cases of buffer overflow as success cases.\nVN: Chúng ta có thể coi trường hợp tràn bộ đệm là trường hợp thành công.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "False (Sai)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "True (Đúng)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-2-requirements-coverage-q3",
+    "module": "Module 2",
+    "question_text": "What kind of cases do we mostly exercise from using tests generated in Behavior-Driven Development?\nVN: Chúng tôi chủ yếu thực hiện những trường hợp nào từ việc sử dụng các thử nghiệm được tạo trong Phát triển theo hướng hành vi?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "failure cases (trường hợp thất bại)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "success cases (trường hợp thành công)",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-2-requirements-coverage-q4",
+    "module": "Module 2",
+    "question_text": "Consider the case where we use Partition testing to generate tests for a given set of requirements. To achieve requirements coverage, which of the following must be true?\nVN: Hãy xem xét trường hợp chúng tôi sử dụng thử nghiệm Phân vùng để tạo thử nghiệm cho một bộ yêu cầu nhất định. Để đạt được phạm vi yêu cầu, điều nào sau đây phải đúng?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Each partition needs to cover success and/or failure cases. (Mỗi phân vùng cần bao gồm các trường hợp thành công và/hoặc thất bại.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Dense partitions must cover success cases. (Phân vùng dày đặc phải bao gồm các trường hợp thành công.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Attribute value combinations must exercise boundary cases. (Các kết hợp giá trị thuộc tính phải thực hiện các trường hợp biên.)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-2-requirements-coverage-q5",
+    "module": "Module 2",
+    "question_text": "Consider the case where we use Combinatorial testing to generate tests for a given set of requirements. To achieve requirements coverage, which of the following must be true?\nVN: Hãy xem xét trường hợp chúng tôi sử dụng Thử nghiệm tổ hợp để tạo thử nghiệm cho một bộ yêu cầu nhất định. Để đạt được phạm vi yêu cầu, điều nào sau đây phải đúng?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Attribute value combinations need to cover both success and failure cases. (Sự kết hợp giá trị thuộc tính cần bao gồm cả trường hợp thành công và thất bại.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Tests need to cover every combination of attribute values. (Các thử nghiệm cần phải bao gồm mọi sự kết hợp của các giá trị thuộc tính.)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-2-code-coverage-metrics-statement-coverage-q1",
+    "module": "Module 2",
+    "question_text": "Which of the following descriptions about statement coverage is not true?\nVN: Mô tả nào sau đây về phạm vi phủ sóng của tuyên bố là không đúng?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "It requires a test suite to execute each statement in the program at least once. (Nó yêu cầu một bộ thử nghiệm để thực thi từng câu lệnh trong chương trình ít nhất một lần.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "It is very ineffective and not used in practice. (Nó rất không hiệu quả và không được sử dụng trong thực tế.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "It usually requires the least number of test cases among other structural coverage criteria. (Nó thường yêu cầu số lượng ca kiểm thử ít nhất trong số các tiêu chí bao phủ cấu trúc khác.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "It is the most basic structural coverage criterion. (Đây là tiêu chí bao phủ cấu trúc cơ bản nhất.)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-2-code-coverage-metrics-statement-coverage-q2",
+    "module": "Module 2",
+    "question_text": "What are the kinds of faults that statement coverage cannot reveal?\nVN: Những loại lỗi mà phạm vi bảo hiểm của tuyên bố không thể tiết lộ là gì?",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "A fault that can be triggered when a loop is not executed. (Một lỗi có thể được kích hoạt khi vòng lặp không được thực thi.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "A division-by-zero bug in an arithmetic statement. (Lỗi chia cho 0 trong một câu lệnh số học.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "A fault that can be triggered when an if-condition is not taken. (Một lỗi có thể được kích hoạt khi điều kiện if không được thực hiện.)",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-2-code-coverage-metrics-branch-coverage-q1",
+    "module": "Module 2",
+    "question_text": "Branch coverage subsumes statement coverage.\nVN: Bảo hiểm chi nhánh bao gồm phạm vi bảo hiểm của câu lệnh.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "True. (Đúng.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "False. (Sai.)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-2-code-coverage-metrics-branch-coverage-q2",
+    "module": "Module 2",
+    "question_text": "Which of the following is not true about branch coverage?\nVN: Điều nào sau đây không đúng về phạm vi bao phủ của chi nhánh?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Branch coverage requires each branch in the program to be followed on both sides. (Phạm vi chi nhánh yêu cầu mỗi chi nhánh trong chương trình phải được tuân thủ ở cả hai phía.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Branch coverage ensures that each outcome of an IF is tested. (Phạm vi chi nhánh đảm bảo rằng mỗi kết quả của IF đều được kiểm tra.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Branch coverage provides better fault-finding efficacy than statement coverage. (Phạm vi chi nhánh mang lại hiệu quả tìm lỗi tốt hơn so với phạm vi câu lệnh.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "A test suite that satisfies statement coverage also satisfies branch coverage. (Một bộ thử nghiệm thỏa mãn phạm vi bao phủ của câu lệnh cũng thỏa mãn phạm vi phủ sóng của nhánh.)",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-2-code-coverage-metrics-branch-coverage-q3",
+    "module": "Module 2",
+    "question_text": "What kind of faults can branch coverage not reveal?\nVN: Phạm vi chi nhánh không thể bộc lộ những loại lỗi nào?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "A fault that can be triggered when a loop is not executed. (Một lỗi có thể được kích hoạt khi vòng lặp không được thực thi.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "A division-by-zero bug in an arithmetic statement. (Lỗi chia cho 0 trong một câu lệnh số học.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "A fault that can be triggered when an if-condition is not taken. (Một lỗi có thể được kích hoạt khi điều kiện if không được thực hiện.)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-2-code-coverage-metrics-decision-coverage-q1",
+    "module": "Module 2",
+    "question_text": "Which is the correct description of decision coverage?\nVN: Mô tả nào đúng về phạm vi quyết định?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Decision coverage requires a test suite to exercise every decision in the branches to take both true and false. (Phạm vi quyết định yêu cầu một bộ thử nghiệm để thực hiện mọi quyết định trong các nhánh để xác định cả đúng và sai.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Decision coverage requires every decision in the program to be exercised. (Phạm vi quyết định yêu cầu mọi quyết định trong chương trình phải được thực hiện.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Decision coverage requires every boolean decision in the program, including assignments to the boolean variables, to produce both outcomes - true and false. (Phạm vi quyết định yêu cầu mọi quyết định boolean trong chương trình, bao gồm cả các phép gán cho các biến boolean, để tạo ra cả hai kết quả - đúng và sai.)",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-2-code-coverage-metrics-decision-coverage-q2",
+    "module": "Module 2",
+    "question_text": "In the following code, what line(s) include a decision?\nVN: Trong đoạn mã sau, (những) dòng nào bao gồm một quyết định?",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "(line 4) a < 5 && b != 0 ((dòng 4) a < 5 && b != 0)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "(line 6) ratio = a / b ((dòng 6) tỉ lệ = a/b)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "(line 3) a>= 0 ((dòng 3) a>= 0)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "(line 5) a_non_negative && safe && !c ((dòng 5) a_non_âm && an toàn && !c)",
+        "is_correct": true
+      }
+    ],
+    "code": "1\n2\n3\n4\n5\n6\n7\n8\n9\ndouble calc_ratio(int a, int b, bool c) {\n  double ratio = 0;\n  bool a_non_negative = a >= 0;\n  bool safe = a < 5 && b != 0;\n  if (a_non_negative && safe && !c) {\n    ratio = a / b;\n  }\n  return ratio;\n}"
+  },
+  {
+    "question_id": "module-2-code-coverage-metrics-decision-coverage-q3",
+    "module": "Module 2",
+    "question_text": "Which of the following is not true about decision coverage?\nVN: Điều nào sau đây không đúng về phạm vi quyết định?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Decision coverage subsumes statement coverage. (Bao phủ quyết định bao gồm bao phủ câu lệnh.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Decision coverage subsumes branch coverage. (Phạm vi quyết định bao trùm phạm vi chi nhánh.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Decision coverage requires individual condition in every decision to take both values. (Phạm vi quyết định yêu cầu điều kiện riêng trong mỗi quyết định để nhận cả hai giá trị.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Decision coverage requires every decision in the program, including assignments of Boolean variables, to be exercised both sides. (Phạm vi quyết định yêu cầu mọi quyết định trong chương trình, bao gồm cả việc gán các biến Boolean, phải được thực hiện cả hai bên.)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-2-code-coverage-metrics-mc/dc-q1",
+    "module": "Module 2",
+    "question_text": "Which of the following is the most accurate description of MC/DC?\nVN: Câu nào sau đây mô tả chính xác nhất về MC/DC?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "It requires a test suite to exercise both true and false outcomes of each condition. (Nó đòi hỏi một bộ thử nghiệm để thực hiện cả kết quả đúng và sai của từng điều kiện.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "It requires a test suite to exercise both true and false outcomes of each condition and that each condition independently affects the decision outcome. (Nó yêu cầu một bộ thử nghiệm để thực hiện cả kết quả đúng và sai của từng điều kiện và mỗi điều kiện ảnh hưởng độc lập đến kết quả quyết định.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "It requires a test suite to exercise all the combinatorial outcomes of conditions in each decision. (Nó đòi hỏi một bộ thử nghiệm để thực hiện tất cả các kết quả tổ hợp của các điều kiện trong mỗi quyết định.)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-2-code-coverage-metrics-mc/dc-q2",
+    "module": "Module 2",
+    "question_text": "What is MC/DC good at?\nVN: MC/DC giỏi về cái gì?",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "Catching errors in complex Boolean expressions. (Bắt lỗi trong các biểu thức Boolean phức tạp.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Finding arithmetic and relational errors. (Tìm lỗi số học và quan hệ.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Ensuring all control flow branches are tested. (Đảm bảo tất cả các nhánh luồng điều khiển đều được kiểm tra.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Ensuring all program statements get tested. (Đảm bảo tất cả các câu lệnh của chương trình đều được kiểm tra.)",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-2-code-coverage-metrics-mc/dc-q3",
+    "module": "Module 2",
+    "question_text": "Which of the following is not true about MC/DC?\nVN: Điều nào sau đây không đúng về MC/DC?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "MC/DC demonstrates independent effect of all conditions on their containing decision. (MC/DC thể hiện tác động độc lập của tất cả các điều kiện đối với quyết định ngăn chặn của chúng.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "MC/DC is more rigorous than statement, branch, and decision coverage. (MC/DC nghiêm ngặt hơn so với phạm vi tuyên bố, chi nhánh và quyết định.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "MC/DC is more effective when the program is structured with as many if statements as possible. (MC/DC hiệu quả hơn khi chương trình được cấu trúc với càng nhiều câu lệnh if càng tốt.)",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-2-code-coverage-metrics-mc/dc-q4",
+    "module": "Module 2",
+    "question_text": "For the decision given below, which of the following is a set of test cases that satisfies MC/DC? Select all that apply. Reminder: there can be more than one test suite which provides MC/DC coverage for any given set of code statements.\nVN: Đối với quyết định đưa ra dưới đây, điều nào sau đây là tập hợp các ca kiểm thử thỏa mãn MC/DC? Chọn tất cả những gì áp dụng. Lời nhắc: có thể có nhiều bộ thử nghiệm cung cấp phạm vi phủ sóng MC/DC cho bất kỳ bộ câu lệnh mã nhất định nào.",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "{ (T, T, T), (F, F, F) } ({(T,T,T),(F,F,F) })",
+        "is_correct": false
+      },
+      {
+        "answer_text": "{ (T, T, F), (F, T, F), (T, F, F), (T, F, T) } ({ (T, T, F), (F, T, F), (T, F, F), (T, F, T) })",
+        "is_correct": true
+      },
+      {
+        "answer_text": "{ (T, T, F), (F, T, F), (T, F, F), (F, T, T) } ({ (T, T, F), (F, T, F), (T, F, F), (F, T, T) })",
+        "is_correct": true
+      },
+      {
+        "answer_text": "{ (T, T, F), (F, T, F), (T, F, F), (F, F, T) } ({ (T, T, F), (F, T, F), (T, F, F), (F, F, T) })",
+        "is_correct": false
+      },
+      {
+        "answer_text": "{ (T, T, F), (T, F, T), (F, T, T), (F, F, F) } ({ (T, T, F), (T, F, T), (F, T, T), (F, F, F) })",
+        "is_correct": false
+      }
+    ],
+    "code": "1\nbool decision = (A && B) || C;"
+  },
+  {
+    "question_id": "module-2-code-coverage-metrics-mc/dc-q5",
+    "module": "Module 2",
+    "question_text": "What is the minimum number of test cases we need to satisfy MC/DC in the following decision?\nVN: Số lượng ca kiểm thử tối thiểu chúng ta cần để đáp ứng MC/DC trong quyết định sau là bao nhiêu?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "4 (4)",
+        "is_correct": true
+      }
+    ],
+    "code": "1\n2\n3\n4\n5\nif (!c && (a || b)) {\n  return 1;\n} else {\n  return 2;\n}"
+  }
+]

@@ -1,0 +1,601 @@
+[
+  {
+    "question_id": "module-1-introduction-to-test-adequacy-q1",
+    "module": "Module 1",
+    "question_text": "Which of the following descriptions of testing terminology is true?\nVN: Mô tả nào sau đây về thuật ngữ kiểm thử là đúng?",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "A test suite is a set of test cases. (Một bộ thử nghiệm là một tập hợp các test case (trường hợp kiểm thử).)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "A test case specification is a requirement to be satisfied by one or more test cases. (Đặc tả ca kiểm thử là yêu cầu phải được đáp ứng bởi một hoặc nhiều ca kiểm thử.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "A test case is a set of test inputs. (Một test case (trường hợp kiểm thử) là một tập hợp các đầu vào kiểm thử (test inputs).)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Test execution is the activity of executing test cases and evaluating their results. (Thực hiện kiểm thử là hoạt động thực hiện các ca kiểm thử và đánh giá kết quả của chúng.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "A test obligation is a partial test specification, requiring some property deemed important through testing. (Nghĩa vụ kiểm tra là một đặc tả kiểm tra một phần, yêu cầu một số thuộc tính được coi là quan trọng thông qua kiểm tra.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "A test adequacy criterion is a set of test obligations which predicates whether a <program, test suite> pair is satisfied or not. (Tiêu chí kiểm tra đầy đủ là một tập hợp các nghĩa vụ kiểm tra xác định xem cặp <chương trình, bộ kiểm tra> có được thỏa mãn hay không.)",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-1-introduction-to-test-adequacy-q2",
+    "module": "Module 1",
+    "question_text": "Which of the following description of test adequacy criteria is not true?\nVN: Mô tả nào sau đây về tiêu chí kiểm tra đầy đủ là không đúng?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "An unsatisfied test obligation may provide some useful information about improving the test suite. (Nghĩa vụ kiểm thử không được đáp ứng có thể cung cấp một số thông tin hữu ích về việc cải thiện bộ kiểm thử.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "A test suite that satisfies a stringent adequacy criterion can prove the correctness of a program. (Một bộ thử nghiệm thỏa mãn tiêu chí đầy đủ nghiêm ngặt có thể chứng minh tính đúng đắn của chương trình.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "If test suite satisfies all the obligations of an adequacy criterion, we can gain some evidence of the thoroughness of testing. (Nếu bộ kiểm thử đáp ứng tất cả các nghĩa vụ của một tiêu chí đầy đủ, chúng ta có thể thu được một số bằng chứng về tính kỹ lưỡng của việc kiểm thử.)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-1-introduction-to-test-adequacy-q3",
+    "module": "Module 1",
+    "question_text": "Which of the following descriptions about coverage measurement is not true?\nVN: Mô tả nào sau đây về đo lường mức độ bao phủ là không đúng?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "The coverage score enables a comparison among different test suites in terms of their quality. (Điểm bao phủ cho phép so sánh giữa các bộ thử nghiệm khác nhau về chất lượng của chúng.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "A coverage score can be used to reveal the trouble spots requiring more attention. (Điểm bảo hiểm có thể được sử dụng để phát hiện những điểm rắc rối cần được chú ý nhiều hơn.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "A coverage score may be useful in indicating the progress toward a thorough test suite. (Điểm bao phủ có thể hữu ích trong việc chỉ ra tiến trình hướng tới một bộ thử nghiệm kỹ lưỡng.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Measuring coverage may be harmful since it may lead to a false sense of confidence. (Việc đo lường mức độ bao phủ có thể có hại vì nó có thể dẫn đến cảm giác tin cậy sai lầm.)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-1-introduction-to-test-adequacy-q4",
+    "module": "Module 1",
+    "question_text": "In which situations can test adequacy criteria be useful?\nVN: Trong những tình huống nào việc kiểm tra tiêu chí đầy đủ có thể hữu ích?",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "Automatic test generation. (Tạo thử nghiệm tự động.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Revealing missing tests. (Tiết lộ các bài kiểm tra còn thiếu.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "To determine when it is safe to stop testing. (Để xác định khi nào là an toàn để ngừng thử nghiệm.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Test selection, or as guidance on manual test generation. (Lựa chọn thử nghiệm hoặc làm hướng dẫn tạo thử nghiệm thủ công.)",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-1-factors-influencing-test-effectiveness-q1",
+    "module": "Module 1",
+    "question_text": "What is the testing artifact that determines if tests pass?\nVN: Yếu tố thử nghiệm xác định xem thử nghiệm có vượt qua hay không là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Test inputs (Kiểm tra đầu vào)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Specification (Đặc điểm kỹ thuật)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Oracle (Test Oracle)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Model / program (Mô hình/chương trình)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-1-factors-influencing-test-effectiveness-q2",
+    "module": "Module 1",
+    "question_text": "Which of the following are not testing artifacts?\nVN: Điều nào sau đây không phải là tạo phẩm thử nghiệm?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Specification (Đặc điểm kỹ thuật)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Test input (Kiểm tra đầu vào)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Program (Chương trình)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Test oracle (Kiểm tra lời tiên tri)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Coverage criteria (Tiêu chí bảo hiểm)",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-1-factors-influencing-test-effectiveness-q3",
+    "module": "Module 1",
+    "question_text": "What are the four artifacts that constitute a complete adequacy criteria?\nVN: Bốn yếu tố cấu thành nên tiêu chí đầy đủ đầy đủ là gì?",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "Test suite (Bộ thử nghiệm)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Coverage criteria (Tiêu chí bảo hiểm)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Specification (Đặc điểm kỹ thuật)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Number of testers (Số lượng tester)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Program structure (Cấu trúc chương trình)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Oracle (Test Oracle)",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-1-factors-influencing-test-effectiveness-q4",
+    "module": "Module 1",
+    "question_text": "Jenny implemented a software component for her hobby IoT project that can cost her $1,000 when it goes wrong. To prevent a possible loss of her asset, she wrote her program very carefully. She even wrote 100 test cases and showed that her test inputs satisfy 80% MC/DC coverage. Despite her efforts, however, her system failed on the field. In this situation, what is the least appropriate thing to do to improve the effectiveness of testing?\nVN: Jenny đã triển khai một thành phần phần mềm cho dự án IoT mà cô yêu thích. Dự án này có thể khiến cô mất 1.000 USD khi xảy ra sự cố (failure). Để ngăn ngừa khả năng mất tài sản, cô ấy đã viết chương trình của mình rất cẩn thận. Cô ấy thậm chí còn viết 100 test case (trường hợp kiểm thử) và cho thấy rằng đầu vào thử nghiệm của cô ấy đáp ứng mức độ bao phủ MC/DC 80%. Tuy nhiên, bất chấp những nỗ lực của cô ấy, hệ thống của cô ấy đã thất bại trên sân. Trong tình huống này, điều ít thích hợp nhất cần làm để nâng cao hiệu quả của thử nghiệm là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Write more assertions in the program. (Viết thêm các khẳng định trong chương trình.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Change the structure of the program so that it gets easier to attain a higher MC/DC coverage score. (Thay đổi cấu trúc của chương trình để dễ dàng đạt được điểm bao phủ MC/DC cao hơn.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Identify the unsatisfied coverage obligations and create more tests to cover them. (Xác định các nghĩa vụ bảo hiểm chưa được đáp ứng và tạo thêm các thử nghiệm để giải quyết chúng.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Choose a more rigorous test adequacy criterion to be used during the testing process. (Chọn tiêu chí kiểm tra đầy đủ nghiêm ngặt hơn để sử dụng trong quá trình kiểm tra.)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-1-program-structure-reachability-and-observability-q1",
+    "module": "Module 1",
+    "question_text": "What is true about the reachability and observability?\nVN: Điều gì đúng về khả năng tiếp cận và khả năng quan sát (observability)?",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "Some parts of the programs are inherently hard to reach. (Một số phần của chương trình vốn đã khó tiếp cận.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "For a test case to find a fault through testing, it is sufficient for the test execution to reach the fault. (Để một trường hợp kiểm thử tìm ra lỗi thông qua kiểm thử, việc thực hiện kiểm thử đạt được lỗi là đủ.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "For a test to find a fault, a fault must propagate to some point where it can be observed. (Để quá trình kiểm tra tìm ra lỗi, lỗi phải lan truyền đến một điểm nào đó mà nó có thể được quan sát thấy.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Most coverage criteria help to ensure observability. (Hầu hết các tiêu chí bao phủ đều giúp đảm bảo khả năng quan sát (observability) được.)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-1-program-structure-reachability-and-observability-q2",
+    "module": "Module 1",
+    "question_text": "Which of the descriptions are true about the reachability and observability of the following code? Suppose that we can only observe the returned value.\nVN: Mô tả nào đúng về khả năng tiếp cận và khả năng quan sát (observability) của đoạn mã sau? Giả sử chúng ta chỉ có thể quan sát giá trị trả về.",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "A fault in S0 can propagate to the return value. (Một lỗi trong S0 có thể lan truyền tới giá trị trả về.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "When S2 is faulty, it can be observed. (Khi S2 bị không ổn định (flakey) có thể quan sát được.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Every statement (S0, S1, S2, and S3) in the program is reachable. (Mọi câu lệnh (S0, S1, S2 và S3) trong chương trình đều có thể truy cập được.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "If S0 and S1 were faulty, they cannot be observed. (Nếu S0 và S1 bị không ổn định (flakey) thì không thể quan sát được chúng.)",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-1-mutation-testing-revisited-q1",
+    "module": "Module 1",
+    "question_text": "Which of the following are true about mutation testing?\nVN: Điều nào sau đây là đúng về kiểm thử đột biến (mutation testing)?",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "With mutation testing, you can know how much of the code structure you covered. (Với kiểm thử đột biến (mutation testing), bạn có thể biết bạn đã bao phủ bao nhiêu cấu trúc mã.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "The mutation adequacy score shows the quality of tests; the higher the score is, the better the quality of the tests. (Điểm tương xứng về đột biến cho thấy chất lượng của các test case; điểm càng cao thì chất lượng bài kiểm tra càng tốt.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "A mutant is killed when there exists one or more tests that can differentiate the output of the mutant and the original program. (Một đột biến bị giết khi tồn tại một hoặc nhiều thử nghiệm có thể phân biệt đầu ra của đột biến và chương trình gốc.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Unlike in structural testing, 100% mutation coverage can guarantee the absence of bug in the program. (Không giống như kiểm thử cấu trúc, phạm vi bao phủ đột biến 100% có thể đảm bảo chương trình không có lỗi.)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-1-mutation-testing-revisited-q2",
+    "module": "Module 1",
+    "question_text": "Which of the following are true about mutation?\nVN: Điều nào sau đây đúng về đột biến?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "A mutation operator introduces a syntactic change to the program so that the mutant cannot be compiled. (Toán tử đột biến đưa ra một thay đổi cú pháp cho chương trình để đột biến không thể được biên dịch.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "You only create one mutant for mutation testing. (Bạn chỉ tạo một đột biến để kiểm thử đột biến (mutation testing).)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "A mutant and the original program are always syntactically different. (Chương trình đột biến và chương trình gốc luôn khác nhau về mặt cú pháp.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "A mutant and the original program are always semantically different (Chương trình đột biến và chương trình gốc luôn khác nhau về mặt ngữ nghĩa)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-1-mutation-testing-revisited-q3",
+    "module": "Module 1",
+    "question_text": "Jenny wrote a small program and created 100 test cases.  All tests pass when run on the original program.  She also created a complete set of mutants from the original program to measure the adequacy of her test suite using mutation testing. After running all the test cases on each of the mutants, Jenny found that for each mutant at least one test case failed.  What should she do next?\nVN: Jenny đã viết một chương trình nhỏ và tạo ra 100 test case (trường hợp kiểm thử).  Tất cả các bài kiểm tra đều đạt khi chạy trên chương trình gốc.  Cô cũng tạo ra một bộ đột biến hoàn chỉnh từ chương trình ban đầu để đo lường mức độ đầy đủ của bộ thử nghiệm của mình bằng cách sử dụng kiểm thử đột biến (mutation testing). Sau khi chạy tất cả các test case (trường hợp kiểm thử) trên mỗi đột biến, Jenny nhận thấy rằng đối với mỗi đột biến thì có ít nhất một test case (trường hợp kiểm thử) thất bại.  Cô nên làm gì tiếp theo?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "She should write more test cases (Cô ấy nên viết nhiều test case hơn)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "She should create more mutants (Cô ấy nên tạo ra nhiều đột biến (mutant) hơn)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "She can stop writing tests for this set of mutants because all of the mutants are killed (Cô ấy có thể ngừng viết bài kiểm tra cho nhóm đột biến (mutant) này vì tất cả các đột biến (mutant) đều bị giết.)",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-1-program-structure-and-fault-finding-q1",
+    "module": "Module 1",
+    "question_text": "Mutation can be an effective substitute for actual faults during the testing process.\nVN: Đột biến có thể là sự thay thế hiệu quả cho các lỗi thực tế trong quá trình thử nghiệm.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "True (Đúng)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "False (Sai)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-1-program-structure-and-fault-finding-q2",
+    "module": "Module 1",
+    "question_text": "How does reachability impmact the effectiveness of Mutation testing (choose one)?\nVN: Khả năng tiếp cận ảnh hưởng như thế nào đến hiệu quả của kiểm thử đột biến (mutation testing) (chọn một)?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "A mutation cannot be stubborn if the statement is easily reachable (Một đột biến không thể cứng đầu nếu câu lệnh có thể truy cập dễ dàng)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Mutations in hard-to-reach statements are harder to kill (Đột biến trong các tuyên bố khó tiếp cận càng khó tiêu diệt hơn)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Mutations in hard-to-reach statements are impossible to kill (Đột biến trong các tuyên bố khó tiếp cận là không thể giết được)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-1-program-structure-and-fault-finding-q3",
+    "module": "Module 1",
+    "question_text": "How does observability impact the effectiveness of Mutation testing (choose one)?\nVN: khả năng quan sát (observability) ảnh hưởng như thế nào đến hiệu quả của kiểm thử đột biến (mutation testing) (chọn một)?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Observability provides better mutation scores than reachability (khả năng quan sát (observability) cung cấp điểm đột biến tốt hơn khả năng tiếp cận)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Observability improves the mutation score by killing reachable, yet stubborn mutants (khả năng quan sát (observability) cải thiện điểm đột biến bằng cách tiêu diệt những đột biến có thể tiếp cận nhưng cứng đầu)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Observable outputs can be used to identify and kill hard-to-reach mutants (Đầu ra có thể quan sát được có thể được sử dụng để xác định và tiêu diệt các đột biến khó tiếp cận)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-1-program-structure-and-fault-finding-q4",
+    "module": "Module 1",
+    "question_text": "Branch coverage is particularly effective in improving mutation testing through strong observability\nVN: Phạm vi chi nhánh đặc biệt hiệu quả trong việc cải thiện kiểm thử đột biến (mutation testing) thông qua khả năng quan sát (observability) mạnh mẽ",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "False (Sai)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "True (Đúng)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-1-test-oracles-q1",
+    "module": "Module 1",
+    "question_text": "True oracles are previous versions of the program that can always detect faults.\nVN: Các oracle thực sự là các phiên bản trước của chương trình luôn có thể phát hiện lỗi.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "True (Đúng)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "False (Sai)",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-1-test-oracles-q2",
+    "module": "Module 1",
+    "question_text": "Which of the following oracles is mostly used for anomaly detection?\nVN: Lời tiên tri nào sau đây chủ yếu được sử dụng để phát hiện sự bất thường?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Consistency oracle (oracle (bộ phân định kết quả) nhất quán)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Statistical oracle (tiên tri thống kê)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Heuristic oracle (Tiên tri heuristic)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Property-based oracle (Oracle dựa trên thuộc tính)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-1-test-oracles-q3",
+    "module": "Module 1",
+    "question_text": "A heuristic oracle approximates correct program _____.\nVN: Một phép tiên tri heuristic sẽ tính gần đúng chương trình _____.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "input (đầu vào)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "output (đầu ra)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "tests (kiểm tra)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-1-test-oracles-q4",
+    "module": "Module 1",
+    "question_text": "How are software requirements used in property-based oracles?\nVN: Các yêu cầu phần mềm được sử dụng như thế nào trong các oracle dựa trên thuộc tính?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "The requirements are used to create tests for the program. (Các yêu cầu được sử dụng để tạo các bài kiểm tra cho chương trình.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "The properties that the oracle checks are expressed in the requirements. (Các thuộc tính mà oracle kiểm tra được thể hiện trong các yêu cầu.)",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-1-test-oracles-q5",
+    "module": "Module 1",
+    "question_text": "How are heuristics used in heuristic oracles?\nVN: Heuristics được sử dụng như thế nào trong các heuristic oracles?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Heuristics allow the approximation of correct program behavior. (Heuristics cho phép tính toán gần đúng hành vi của chương trình.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Heuristics are used to create an approximation of the program under test. (Heuristics được sử dụng để tạo ra một chương trình gần đúng đang được thử nghiệm.)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-1-test-oracles-q6",
+    "module": "Module 1",
+    "question_text": "Automated oracles are guaranteed to be correct.\nVN: Các oracle tự động được đảm bảo là chính xác.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "True (Đúng)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "False (Sai)",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-1-oracles-and-fault-finding-q1",
+    "module": "Module 1",
+    "question_text": "A mutant is equivalent to the program under test if...\nVN: Một đột biến tương đương với chương trình đang được thử nghiệm nếu...",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "their structure is similar. (cấu trúc của chúng giống nhau.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "they behave functionally equivalently for all inputs. (chúng hoạt động tương đương về mặt chức năng đối với tất cả các đầu vào.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "the mutant can be used instead of the program without negative consequences. (đột biến (mutant) có thể được sử dụng thay cho chương trình mà không gây hậu quả tiêu cực.)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-1-oracles-and-fault-finding-q2",
+    "module": "Module 1",
+    "question_text": "A strong oracle may provide more equivalent mutants than a weaker one.\nVN: Một oracle (bộ phân định kết quả) mạnh có thể cung cấp nhiều đột biến tương đương hơn một oracle (bộ phân định kết quả) yếu hơn.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "True (Đúng)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "False (Sai)",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-1-oracles-and-fault-finding-q3",
+    "module": "Module 1",
+    "question_text": "A test suite is more effective in exposing faults when using a ____ oracle.\nVN: Bộ thử nghiệm sẽ hiệu quả hơn trong việc phát hiện lỗi khi sử dụng ____ oracle.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "stronger (mạnh mẽ hơn)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "weaker (yếu hơn)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-1-oracles-and-fault-finding-q4",
+    "module": "Module 1",
+    "question_text": "Weaker oracles tend to lead to better mutation scores.\nVN: Các oracle yếu hơn có xu hướng dẫn đến điểm đột biến tốt hơn.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "True (Đúng)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "False (Sai)",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  }
+]

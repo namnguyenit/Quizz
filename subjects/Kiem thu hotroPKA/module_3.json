@@ -1,0 +1,1877 @@
+[
+  {
+    "question_id": "module-3-question-151",
+    "module": "Module 3",
+    "question_text": "Tại sao kiểm thử luồng dữ liệu lại quan trọng đối với chất lượng phần mềm?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Nó giúp tối ưu hóa mã nguồn để giảm độ phức tạp.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Nó đảm bảo rằng tất cả các biến được xử lý một cách chính xác, từ đó giảm",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Nó giúp tăng tốc độ chạy của chương trình.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Nó đảm bảo rằng tất cả các chức năng của giao diện người dùng đều hoạt",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-3-question-152",
+    "module": "Module 3",
+    "question_text": "Đỉnh hợp nhất được gán nhãn như thế nào trong đồ thị luồng điều khiển:",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Gán nhãn bởi một số nguyên",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Gán nhãn bởi một tên xác định",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Gán nhãn bởi một ký tự",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Không gán nhãn",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-3-question-153",
+    "module": "Module 3",
+    "question_text": "Để kiểm tra một chức năng, lập trình viên phải viết một …….., nó gọi chức năng và khai thác nó để kiểm tra?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Stub",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Driver",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Proxy",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Không đáp án nào",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-3-question-154",
+    "module": "Module 3",
+    "question_text": "Thế nào là bao phủ câu lệnh (statement coverage):",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Thực hiện mọi câu lệnh trong chương trình ít nhất một lần",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Thực hiện ít nhất một câu lệnh trong chương trình",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Thực hiện tất cả các đường đi trong chương trình",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Tất cả đều đúng",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-3-question-155",
+    "module": "Module 3",
+    "question_text": "Thế nào là bao phủ rẽ nhánh (branch coverage):",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Thực hiện mọi câu lệnh trong chương trình ít nhất một lần",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Thực hiện tất cả các lệnh rẽ nhánh trong chương trình",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Thực hiện ít nhất một đường đi trong chương trình",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Thực hiện ít nhất một câu lệnh trong chương trình",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-3-question-156",
+    "module": "Module 3",
+    "question_text": "Thử nghiệm đủ đã được thực hiện khi:",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Hết thời gian.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Mức độ cần thiết của sự tin cậy đã đạt được.",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Không còn lỗi được tìm thấy.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Người dùng sẽ không tìm thấy bất kỳ lỗi nghiêm trọng.",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-3-question-157",
+    "module": "Module 3",
+    "question_text": "Điều nào sau đây là sai?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Trong hệ thống khác nhau một hai lỗi khác nhau có thể tìm ra ở các môi trường",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Một hệ thống là nhất thiết phải đáng tin cậy hơn sau khi gỡ lỗi cho việc loại bỏ",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Một lỗi cần không ảnh hưởng đến độ tin cậy của hệ thống.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Không bị phát hiện sai sót có thể dẫn đến lỗi và cuối cùng đến hành vi không",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-3-question-158",
+    "module": "Module 3",
+    "question_text": "Câu nào là đúng về kiểm thử hộp trắng và đen:",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Phân hoạch tương đương, Kiểm thử dựa trên bảng quyết định và kiểm thử",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Phân hoạch tương đương, Phân tích giá trị bao, kiểm thử luồng dữ liệu là kiểm",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Phân hoạch tương đương, Chuyển trạng thái, kiểm thử ca sử dụng là kiểm thử",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Phân hoạch tương đương, Chuyển trạng thái, kiểm thử ca sử dụng và Kiểm thử",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-3-question-159",
+    "module": "Module 3",
+    "question_text": "Câu nào dưới đây không đúng khi nói về kiểm thử chức năng?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Người kiểm thử phần mềm không cần có 1 kiến thức sâu rộng về đặc tả và",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Mô hình kiểm thử hộp đen chỉ tập chung vào các yêu cầu chức năng của phần",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Tất cả các giá trị đầu vào có thể có đều được kiểm tra",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Kiểm thử ngẫu nhiên Mục đích là để lựa chọn một số đầu vào kiểm tra để phát",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-3-question-160",
+    "module": "Module 3",
+    "question_text": "Các đặc điểm kỹ thuật mô tả các bước cần thiết để vận hành hệ thống và thực hiện các trường hợp thử nghiệm để thực hiện thiết kế thử nghiệm có liên quan?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Trường hợp thử nghiệm kỹ thuật",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Kiểm tra thiết kế kỹ thuật",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Thủ tục kiểm tra kỹ thuật",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Không có",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-3-question-161",
+    "module": "Module 3",
+    "question_text": "Trong kiểm thử hệ thống? Kỹ thuật thiết kế kiểm thử nào sau đây mà các câu bên dưới mô tả đúng nhất một thủ tục để lấy được các ca kiểm thử dựa trên các đặc tả kỹ thuật của một thành phần?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Kỹ thuật hộp đen",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Kỹ thuật hộp trắng.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Kỹ thuật hộp kính.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Kỹ thuật dựa vào kinh nghiệm.",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-3-question-162",
+    "module": "Module 3",
+    "question_text": "Các yếu tố nào cần được xem xét trong quá trình thiết kế hệ thống kiểm thử?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Coverage metrics , Effectiveness",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Productivity, Validation",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Maintenance, User skills",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Tất cả các phương án trên.",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-3-question-163",
+    "module": "Module 3",
+    "question_text": "Điều nào sau đây là đúng về inferred requirement? 1. Inferred requirement là một trong những hệ thống được dự kiến để hỗ trợ, nhưng không được quy định rõ ràng. 2. Inferred requirement cần được kiểm tra giống như các yêu cầu được quy định rõ rang 3. Inferred requirement là hệ thống những yêu cầu thu thập từ người sư dụng. 4. Phương án A và B là đúng",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "A",
+        "is_correct": false
+      },
+      {
+        "answer_text": "B",
+        "is_correct": false
+      },
+      {
+        "answer_text": "C",
+        "is_correct": false
+      },
+      {
+        "answer_text": "D",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-3-question-164",
+    "module": "Module 3",
+    "question_text": "Chọn câu sai trong các câu sau?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Có 3 loại luồng dữ liệu không bình thường",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Cạnh của đồ thị luồng dữ liệu là các p-use",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Có thể phát hiện luồng dữ liệu không khả thi bằng các khái niệm xác định và sử",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Kiểm thử luồng điều khiển có khả năng phát hiện lỗi mạnh hơn kiểm thử luồng",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-3-question-165",
+    "module": "Module 3",
+    "question_text": "Trong Junit, “nếu giá trị mong muốn và giá trị tham chiếu đến cùng một đối tượng trong bộ nhớ thì xác nhận đúng, nếu không thì xác nhận lỗi”, đây là phương thức nào?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "assertEquals(Object expected, Object actual)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "assertEquals(int expected, int actual)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "assertTrue(Boolean condition)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "assertSame(Object expected, Object actual)",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-3-question-166",
+    "module": "Module 3",
+    "question_text": "Công cụ nào sau đây hay được dùng trong kiểm thử đơn vị",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Selenium IDE",
+        "is_correct": false
+      },
+      {
+        "answer_text": "RTH",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Jmeter",
+        "is_correct": false
+      },
+      {
+        "answer_text": "JUnit",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-3-question-167",
+    "module": "Module 3",
+    "question_text": "Unit test trước khi kiểm thử cần",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Không cần gì",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Phân tích yêu cầu",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Chuẩn bị trước các ca kiểm thử hoặc kịch bản kiểm thử",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Thiết kế các lớp",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-3-question-168",
+    "module": "Module 3",
+    "question_text": "Trong đồ thị chương trình (program graph)",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Các đỉnh là các câu lệnh/đoạn lệnh",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Các cạnh là các câu lệnh",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Các cạnh là các đoạn lệnh",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Các đỉnh là câu lệnh rẽ nhánh",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-3-question-169",
+    "module": "Module 3",
+    "question_text": "Đồ thị chương trình là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Một ngôn ngữ lập trình đồ họa.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Một công cụ để kiểm tra lỗi cú pháp trong mã nguồn.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Một loại thuật toán để tối ưu hóa mã nguồn.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Một cách biểu diễn cấu trúc chương trình bằng cách sử dụng các đỉnh và cạnh.",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-3-question-170",
+    "module": "Module 3",
+    "question_text": "Ký hiệu không sử dụng trong đồ thị luồng điều khiển:",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "A",
+        "is_correct": false
+      },
+      {
+        "answer_text": "B",
+        "is_correct": false
+      },
+      {
+        "answer_text": "C",
+        "is_correct": false
+      },
+      {
+        "answer_text": "D",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-3-question-171",
+    "module": "Module 3",
+    "question_text": "Các đường đi được chọn là:",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Tất cả các đường đi có trong đồ thị luồng điều khiển",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Đường đi được chọn trong đồ thị luồng điều khiển thỏa mãn các tiêu chuẩn",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Đường đi trong đồ thị luồng điều khiển mà có thể thực thi được",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Tất cả đều sai",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-3-question-172",
+    "module": "Module 3",
+    "question_text": "Chúng ta chia kiểm thử thành các giai đoạn tách biệt vì:",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Mỗi giai đoạn kiểm thử có một mục đích khác nhau.",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Dễ dàng hơn để quản lý trong các giai đoạn kiểm thử.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Chúng ta có thể chạy thử nghiệm các test khác nhau trên các môi trường khác",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Nhiều giai đoạn hơn thì sẽ kiểm thử chất lượng hơn",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-3-question-173",
+    "module": "Module 3",
+    "question_text": "Phân tích luồng dữ liệu nghiên cứu vấn đề gì :",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Tỷ lệ thay đổi giá trị dữ liệu như thi hành chương trình",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Sự sử dụng dữ liệu trên những con đường xuyên suốt mã chương trình.",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Bản chất phức tạp của mã chương trình",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Khả năng bị hiệu ứng nút cổ chai của chương trình.",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-3-question-174",
+    "module": "Module 3",
+    "question_text": "Kỹ thuật kiểm thử nào dưới đây không thể mô phỏng được tình huống thật ?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Kiểm thử chức năng",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Kiểm thử cấu trúc",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Cả A và B.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Không có đáp án nào đúng.",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-3-question-175",
+    "module": "Module 3",
+    "question_text": "Data flow anomaly xảy ra do đâu?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Dữ liệu",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Môi trường",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Lỗi lập trình",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Người quản lý",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-3-question-176",
+    "module": "Module 3",
+    "question_text": "Equivalence class: Một trường textbox trong 1 from nhập liệu có khoảng giá trị chấp nhận trong khoảng 18 – 25. Hãy chỉ gia lớp giá trị không hợp lệ?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "17",
+        "is_correct": true
+      },
+      {
+        "answer_text": "19",
+        "is_correct": false
+      },
+      {
+        "answer_text": "24",
+        "is_correct": false
+      },
+      {
+        "answer_text": "21",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-3-question-177",
+    "module": "Module 3",
+    "question_text": "Mục tiêu của review meeting là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Xác đinh vấn đề với thiết kế",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Giải quyết vấn đề với thiết kế",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Xác đinh vấn đề và giải quyết vấn đề với thiết kế",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Không có đáp án đúng",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-3-question-178",
+    "module": "Module 3",
+    "question_text": "Test case Escapes (TCE) là gì ?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Ca kiểm thử không được duyệt",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Sự gia tăng đáng kể của số ca kiểm thử lọt",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Ca kiểm thử vô tác dụng",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Ca kiểm thử lớn quá mức cho phép",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-3-question-179",
+    "module": "Module 3",
+    "question_text": "Cái nào không phải là một pha của Fundamental Test Process?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Test Planning and Control",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Test implementation and Execution",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Requirement Analysis",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Evaluating Exit criteria and reporting",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-3-question-180",
+    "module": "Module 3",
+    "question_text": "Kiểm thử luồng dữ liệu là một kỹ thuật kiểm thử cấu trúc điều khiển, và tiêu chuẩn được sử dụng để thiết kế các ca kiểm thử là:",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Dựa trên cơ sở kiểm thử đường",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Thực hiện các điều kiện logic trong một module chương trình",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Lựa chọn các đường kiểm thử dựa trên vị trí và sử dụng của các biến",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Tập trung vào kiểm thử tính hợp lệ của cấu trúc vòng lặp.",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-3-question-181",
+    "module": "Module 3",
+    "question_text": "Một node i có một định nghĩa toàn cục của biến x nếu node i có một định nghĩa của x và bắt buộc phải có một đường đi định nghĩa rõ ràng (def-clear path) từ node i tới:",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Node chứa một global c-use của biến x và cạnh chứa một p- use của biến x.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Node chứa một global c-use của biến x hoặc cạnh chứa một p-use của biến x.",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Cả 2 câu trên đều đúng.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Cả 2 câu trên đều sai.",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-3-question-182",
+    "module": "Module 3",
+    "question_text": "Cái gì là quan trọng trong việc quyết định kĩ thuật test được sử dụng:",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Đặc biệt",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Mục đích test",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Có công cụ hỗ trợ",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Thích hợp cho kiểm thử ứng dụng",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-3-question-183",
+    "module": "Module 3",
+    "question_text": "Đứng theo góc nhìn của người làm phần mềm thì phần mềm được gọi là chất lượng là:",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Tính Module hóa cao.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Đầy đủ các loại tài liệu nghiệp vụ cần thiết.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Code rõ ràng, dễ hiểu.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Tất cả các phương án trên.",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-3-question-184",
+    "module": "Module 3",
+    "question_text": "Loại kiểm thử nào sau đây, được gọi là kiểm thử phi chức năng (non-fuction testing)?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Chỉ Load Test.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Chỉ Stress Test.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Chỉ Security Test.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Cả Load Test, Stress Test và Security Test.",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-3-question-185",
+    "module": "Module 3",
+    "question_text": "Một đồ thị chương trình có 9 cạnh và 8 nút. Độ phức tạp (cyclomatric complexity) của đồ thị này là bao nhiêu?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "9",
+        "is_correct": false
+      },
+      {
+        "answer_text": "8",
+        "is_correct": false
+      },
+      {
+        "answer_text": "3",
+        "is_correct": true
+      },
+      {
+        "answer_text": "2",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-3-question-186",
+    "module": "Module 3",
+    "question_text": "CPPUnit hỗ trợ kiểm thử đơn vị cho ngôn ngữ lập trình nào",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Java",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Python",
+        "is_correct": false
+      },
+      {
+        "answer_text": "C++",
+        "is_correct": true
+      },
+      {
+        "answer_text": "C#",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-3-question-187",
+    "module": "Module 3",
+    "question_text": "Junit chạy trên nền ngôn ngữ nào",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "C++",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Java",
+        "is_correct": true
+      },
+      {
+        "answer_text": "PHP",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Trên tất cả các ngôn ngữ",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-3-question-188",
+    "module": "Module 3",
+    "question_text": "Một ứng dụng ngân hàng xác định tín dụng của khách hàng. Các ứng dụng sử dụng một bộ quy tắc để xác định giới hạn trên của tín dụng. Kỹ thuật kiểm thử hộp đen nào là tốt nhất cho kiểm thử ứng dụng?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Kiểm thử lớp tương đương",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Kiểm thử giá trị biên",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Kiểm thử lớp tương đương và kiểm thử giá trị biên",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Kiểm thử bảng quyết định",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-3-question-189",
+    "module": "Module 3",
+    "question_text": "Đường đi (đường dẫn) khả thi là đường như thế nào?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Có tồn tại đầu vào để đường đi được thực hiện",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Là đường đi qua tất cả các đỉnh",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Không có đầu vào để thực thi đường đi",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Là đường ngắn nhất đi từ đỉnh đầu đến đỉnh cuối",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-3-question-190",
+    "module": "Module 3",
+    "question_text": "Đường đi (đường dẫn) không khả thi là đường như thế nào?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Có tồn tại đầu vào để đường đi được thực hiện",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Là đường đi qua tất cả các đỉnh",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Không có đầu vào để thực thi đường đi",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Là đường ngắn nhất đi từ đỉnh đầu đến đỉnh cuối",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-3-question-191",
+    "module": "Module 3",
+    "question_text": "Cạnh trong đồ thị chương trình thường đại diện cho gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Luồng điều khiển giữa các lệnh hoặc khối lệnh.",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Sự phụ thuộc giữa các module.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Sự truyền dữ liệu giữa các biến.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Mối quan hệ giữa các lớp.",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-3-question-192",
+    "module": "Module 3",
+    "question_text": "Cho đoạn giả mã sau: WHILE (condition A) Do B END WHILE Có bao nhiêu quyết định cần phải kiểm tra để đạt được bao phủ quyết định (decision coverage) là 100%?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "2",
+        "is_correct": true
+      },
+      {
+        "answer_text": "1",
+        "is_correct": false
+      },
+      {
+        "answer_text": "4",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Không xác định",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-3-question-193",
+    "module": "Module 3",
+    "question_text": "Cho đoạn code sau, số lần kiểm tra nhỏ nhất cho statement coverage (bao phủ câu lệnh) và branch coverage (bao phủ nhánh) là bao nhiêu?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Statement Coverage = 1, Branch Coverage = 2",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Statement Coverage = 2, Branch Coverage = 2",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Statement Coverage = 1, Branch Coverage = 3",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Statement Coverage = 2, Branch Coverage = 4",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-3-question-194",
+    "module": "Module 3",
+    "question_text": "Cho đoạn chương trình sau, biết rằng các điều kiện độc lập với nhau. Cần bao nhiêu trường hợp kiểm thử cho tất cả các nhánh (khả năng): if (condition1) statement1; else statement2; if (condition 2) statement 3;",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "1",
+        "is_correct": false
+      },
+      {
+        "answer_text": "2",
+        "is_correct": true
+      },
+      {
+        "answer_text": "3",
+        "is_correct": false
+      },
+      {
+        "answer_text": "4",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-3-question-195",
+    "module": "Module 3",
+    "question_text": "Cho đồ thị luồng điều khiển như sau",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "0",
+        "is_correct": true
+      },
+      {
+        "answer_text": "1",
+        "is_correct": false
+      },
+      {
+        "answer_text": "2",
+        "is_correct": false
+      },
+      {
+        "answer_text": "3",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-3-question-196",
+    "module": "Module 3",
+    "question_text": "Ví dụ về xem xét bao phủ trong đoạn mã nguồn sau đây là một ví dụ về: if (condition1 && (condition2 || function1())) statement1; else statement2;",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Bao phủ các câu lệnh",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Bao phủ các điều kiện",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Bao phủ các mệnh đề",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Bao phủ các đường",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-3-question-197",
+    "module": "Module 3",
+    "question_text": "Cần ít nhất bao nhiêu ca kiểm thử để đảm bảo 100% bao phủ nhánh? if (x>y) x=x+1; else y=y+1; while (x>y) {y=x*y; x=x+1;}",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "1",
+        "is_correct": false
+      },
+      {
+        "answer_text": "2",
+        "is_correct": true
+      },
+      {
+        "answer_text": "3",
+        "is_correct": false
+      },
+      {
+        "answer_text": "4",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-3-question-198",
+    "module": "Module 3",
+    "question_text": "Nếu một đầu vào có dải giá trị từ -10 đến 10, thì các giá trị biên cần kiểm tra là gì trong trường hợp cẩn thận?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "-10 và 10.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "-11, -10, 9, và 10.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "-10, -9, 9, và 10.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "-11, -10, -9, 9, 10, và 11.",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-3-question-199",
+    "module": "Module 3",
+    "question_text": "Kiểm thử giá trị biên có thể được áp dụng cho loại dữ liệu nào sau đây?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Chỉ dữ liệu số nguyên",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Chỉ dữ liệu ký tự",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Cả dữ liệu số nguyên và ký tự",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Dữ liệu số thực",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-3-question-200",
+    "module": "Module 3",
+    "question_text": "Đối với kiểm thử giá trị biên, tại sao các giá trị ngay bên ngoài giới hạn (ví dụ: -1 và 101 cho khoảng từ 0 đến 100) cũng được kiểm tra?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Để đảm bảo chương trình có thể xử lý các giá trị ngoài giới hạn một cách đúng",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Để kiểm tra hiệu suất của chương trình.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Để đảm bảo giao diện người dùng hoạt động đúng.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Để tối ưu hóa mã nguồn.",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-3-question-201",
+    "module": "Module 3",
+    "question_text": "Khi kiểm thử giá trị biên cho một trường hợp nhập liệu số nguyên có giới hạn từ 1 đến 10, giá trị nào sau đây không cần thiết phải kiểm tra?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "0",
+        "is_correct": false
+      },
+      {
+        "answer_text": "1",
+        "is_correct": false
+      },
+      {
+        "answer_text": "50",
+        "is_correct": true
+      },
+      {
+        "answer_text": "11",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-3-question-202",
+    "module": "Module 3",
+    "question_text": "Số trường hợp kiểm thử giá trị biên với hàm n biến trong trường hợp cực kì xấu (robust worst-case) gần bằng:",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "7n",
+        "is_correct": true
+      },
+      {
+        "answer_text": "7n",
+        "is_correct": false
+      },
+      {
+        "answer_text": "5n",
+        "is_correct": false
+      },
+      {
+        "answer_text": "5n",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-3-question-203",
+    "module": "Module 3",
+    "question_text": "Khi thực hiện kiểm thử lớp tương đương cho một dải giá trị từ 1 đến 100, phân chia các lớp tương đương hợp lệ nào dưới đây có thể được tạo ra?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "[1-20], (20-50], (50-100]",
+        "is_correct": true
+      },
+      {
+        "answer_text": "[1-50], [50-90]",
+        "is_correct": false
+      },
+      {
+        "answer_text": "[0-50], [51-70]",
+        "is_correct": false
+      },
+      {
+        "answer_text": "[1-100], [101-200]",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-3-question-204",
+    "module": "Module 3",
+    "question_text": "Trong kiểm thử lớp tương đương, giá trị đại diện của mỗi lớp được chọn như thế nào?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Giá trị biên của lớp.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Giá trị trung bình của lớp.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Bất kỳ giá trị nào trong lớp.",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Giá trị ngẫu nhiên ngoài lớp.",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-3-question-205",
+    "module": "Module 3",
+    "question_text": "Khi kiểm thử lớp tương đương hợp lệ cho một trường hợp nhập liệu số nguyên từ 1 đến 20, giá trị nào dưới đây có thể không cần kiểm tra?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "0",
+        "is_correct": true
+      },
+      {
+        "answer_text": "1",
+        "is_correct": false
+      },
+      {
+        "answer_text": "5",
+        "is_correct": false
+      },
+      {
+        "answer_text": "20",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-3-question-206",
+    "module": "Module 3",
+    "question_text": "Để thực hiện kiểm thử đường đi cơ bản (Basic Path Testing), bước đầu tiên thường là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Viết các trường hợp kiểm thử cho tất cả các giá trị biên.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Phân tích và tạo đồ thị luồng điều khiển của chương trình.",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Xác định tất cả các lớp tương đương của dữ liệu.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Tối ưu hóa mã nguồn để giảm độ phức tạp.",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-3-question-207",
+    "module": "Module 3",
+    "question_text": "Trong công thức tính độ phức tạp chu trình V(G) = E - N + 2P, ký hiệu N đại diện cho gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Số lượng đỉnh (nút) trong đồ thị.",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Số lượng cạnh trong đồ thị.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Số lượng đường dẫn trong đồ thị.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Số lượng chu trình trong đồ thị.",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-3-question-208",
+    "module": "Module 3",
+    "question_text": "Trong công thức tính độ phức tạp chu trình V(G) = E - N + 2P, ký hiệu E đại diện cho gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Số lượng đỉnh (nút) trong đồ thị.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Số lượng cạnh trong đồ thị.",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Số lượng đường đi trong đồ thị.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Số lượng chu trình trong đồ thị.",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-3-question-209",
+    "module": "Module 3",
+    "question_text": "Một bảng quyết định hoàn chỉnh và chính xác cần đảm bảo điều gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "A. Tất cả các giá trị biên được kiểm tra.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "B. Tất cả các điều kiện và hành động tương ứng đều được liệt kê và kiểm tra.",
+        "is_correct": true
+      },
+      {
+        "answer_text": "C. Tất cả các lớp tương đương của dữ liệu được xác định.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "D. Tất cả các yếu tố giao diện người dùng đều hoạt động đúng.",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-3-question-210",
+    "module": "Module 3",
+    "question_text": "Điều gì xảy ra nếu một điều kiện trong bảng quyết định không được đáp ứng?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Tất cả các hành động tương ứng sẽ được thực hiện.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Không có hành động nào sẽ được thực hiện.",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Điều kiện đó sẽ được bỏ qua.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Điều kiện đó sẽ được kiểm tra lại.",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-3-question-211",
+    "module": "Module 3",
+    "question_text": "Một bảng quyết định bao gồm các thành phần nào?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Các điều kiện và hành động.",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Các giá trị biên và lớp tương đương.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Các đường đi và chu trình.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Các nút và cạnh.",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-3-question-212",
+    "module": "Module 3",
+    "question_text": "Trong kiểm thử luồng dữ liệu, thuật ngữ \"Define-Use\" có nghĩa là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Một biến được định nghĩa và sử dụng trong cùng một dòng mã.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Một biến được xác định ở một điểm và được sử dụng ở một điểm khác.",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Một biến được định nghĩa nhưng không bao giờ được sử dụng.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Một biến được sử dụng nhưng không bao giờ được định nghĩa.",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-3-question-213",
+    "module": "Module 3",
+    "question_text": "Khi nào thì kiểm thử luồng dữ liệu được coi là hoàn chỉnh?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Khi tất cả các giá trị biên được kiểm tra.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Khi tất cả các biến trong chương trình đều được khai báo, gán giá trị và sử",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Khi tất cả các lớp tương đương của dữ liệu được kiểm tra.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Khi tất cả các yếu tố giao diện người dùng đều hoạt động đúng.",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-3-question-214",
+    "module": "Module 3",
+    "question_text": "Trong kiểm thử luồng dữ liệu, thuật ngữ \"DU Path\" đại diện cho gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Đường đi từ điểm khai báo đến điểm gán giá trị.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Đường đi từ điểm gán giá trị đến điểm sử dụng.",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Đường đi từ điểm sử dụng đến điểm khai báo.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Đường đi từ điểm gán giá trị đến điểm khai báo.",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-3-question-215",
+    "module": "Module 3",
+    "question_text": "Kiểm thử luồng dữ liệu tập trung vào việc kiểm tra các khía cạnh nào của biến trong chương trình?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Khai báo (Definition), gán giá trị (Assignment), và sử dụng (Usage).",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Chỉ gán giá trị (Assignment).",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Chỉ khai báo (Definition).",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Chỉ sử dụng (Usage).",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-3-question-216",
+    "module": "Module 3",
+    "question_text": "Nếu một đầu vào có dải giá trị từ 1 đến 100, thì số lớp tương đương hợp lệ và không hợp lệ là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "A. 1 lớp hợp lệ và 1 lớp không hợp lệ.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "B. 1 lớp hợp lệ và 2 lớp không hợp lệ.",
+        "is_correct": true
+      },
+      {
+        "answer_text": "C. 2 lớp hợp lệ và 2 lớp không hợp lệ.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "D. 1 lớp hợp lệ và 3 lớp không hợp lệ.",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-3-question-217",
+    "module": "Module 3",
+    "question_text": "Làm thế nào để xác định số lượng trường hợp kiểm thử cần thiết trong kiểm thử lớp tương đương?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Bằng cách kiểm tra từng giá trị biên của mỗi lớp.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Bằng cách chọn một giá trị từ mỗi lớp tương đương hợp lệ và không hợp lệ.",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Bằng cách kiểm tra tất cả các giá trị đầu vào có thể có.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Bằng cách chọn các giá trị trung bình từ mỗi lớp.",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-3-question-218",
+    "module": "Module 3",
+    "question_text": "Một lớp tương đương không hợp lệ là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Một lớp chứa các giá trị đầu vào nằm trong phạm vi cho phép.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Một lớp chứa các giá trị đầu vào nằm ngoài phạm vi cho phép.",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Một lớp chứa các giá trị đầu vào hợp lệ.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Một lớp chứa các giá trị đầu vào trung bình.",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-3-question-219",
+    "module": "Module 3",
+    "question_text": "Hai nhánh của hộp quyết định được gán nhãn:",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "True, False",
+        "is_correct": false
+      },
+      {
+        "answer_text": "T, F",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Cả A và B đều đúng",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Cả A và B đều sai",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-3-question-220",
+    "module": "Module 3",
+    "question_text": "",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Một",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Hai",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Bốn",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Không xác định",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-3-question-221",
+    "module": "Module 3",
+    "question_text": "Câu nào sau đây là sai khi so sánh giữa 2 loại data flow testing là static testing và dynamic testing:",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Static testing hiệu quả hơn dynamic testing",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Dynamic testing có liên quan đến việc chạy một số trường hợp thử nghiệm nên",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Dynamic testing tìm thấy ít lỗi hơn so với static testing.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Dynamic testing có thể được thực hiện trước khi biên dịch trong khi static",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-3-question-222",
+    "module": "Module 3",
+    "question_text": "Các kiểu luồng dữ liệu bất thường (data flow anomaly ) là:",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "(D: Defined, U: Undefined, R: Reference)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "dd, dr, du",
+        "is_correct": true
+      },
+      {
+        "answer_text": "dd, ur, du",
+        "is_correct": false
+      },
+      {
+        "answer_text": "dr, ur, du",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-3-question-223",
+    "module": "Module 3",
+    "question_text": "Câu nào sau đây không phải là Simple path?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "2 – 3 – 4 – 5 – 6 – 7",
+        "is_correct": false
+      },
+      {
+        "answer_text": "3 – 4 – 5 – 7 – 6 – 3",
+        "is_correct": false
+      },
+      {
+        "answer_text": "3 – 5 – 6 – 4 – 3 – 7",
+        "is_correct": true
+      },
+      {
+        "answer_text": "2 – 3 – 6 – 7 – 5 – 4",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-3-question-224",
+    "module": "Module 3",
+    "question_text": "Trong kiểm thử giá trị biên nguyên tắc kiểm thử các dữ liệu vào không gồm loại nào dưới đây?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "A. Giá trị nhỏ nhất",
+        "is_correct": false
+      },
+      {
+        "answer_text": "B. Giá trị lớn nhất",
+        "is_correct": false
+      },
+      {
+        "answer_text": "C. Giá trị bình thường",
+        "is_correct": false
+      },
+      {
+        "answer_text": "D. Dữ liệu vào bao gồm cả 3 loại trên",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "module-3-question-225",
+    "module": "Module 3",
+    "question_text": "Một tài liệu đặc tả chức năng cung cấp những gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Mô tả chi tiết các yêu cầu, các rủi ro có thể có.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Các giao diện kết nối với các module khác của phần mềm, luồng dữ liệu.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Dự toán xử lý lỗi, bộ nhớ sử dụng, hiệu năng và một số kĩ thuật giới hạn.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Tất cả các đáp án đều đúng",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  }
+]
