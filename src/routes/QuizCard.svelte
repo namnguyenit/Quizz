@@ -18,8 +18,6 @@
 	});
 	import {
 		Star,
-		ArrowUp,
-		ArrowDown,
 		Circle,
 		CircleDot,
 		Square,
@@ -199,12 +197,20 @@
 		const deltaY = touchEndY - touchStartY;
 		const deltaTime = Date.now() - touchStartTime;
 
-		// Only trigger swipe if it's a significant vertical swipe (< 300ms and > 40px)
-		if (Math.abs(deltaY) > 40 && deltaTime < 300) {
+		// Vertical swipe gesture detection (swipe up for Next, swipe down for Prev)
+		if (deltaTime < 300 && Math.abs(deltaY) > 50) {
 			if (deltaY < 0) {
-				goToNextCard();
+				// Swipe up -> Next question
+				// Only trigger if the card is not scrollable, or the user is already at the bottom
+				if (!isScrollable.value || scrollState.value === 'bottom') {
+					goToNextCard();
+				}
 			} else {
-				goToPreviousCard();
+				// Swipe down -> Previous question
+				// Only trigger if the card is not scrollable, or the user is already at the top
+				if (!isScrollable.value || scrollState.value === 'top') {
+					goToPreviousCard();
+				}
 			}
 		}
 	}
@@ -284,14 +290,14 @@
 		if (DEBUG) {
 			console.log('isHeld set to true (touchstart)');
 		}
-		if (!isScrollable.value) handleTouchStart(e);
+		handleTouchStart(e);
 	}}
 	ontouchend={(e) => {
 		isHeld = false;
 		if (DEBUG) {
 			console.log('isHeld set to false (touchend)');
 		}
-		if (!isScrollable.value) handleTouchEnd(e);
+		handleTouchEnd(e);
 	}}
 	role="button"
 	tabindex="0"
@@ -382,7 +388,7 @@
 		</div>
 		<!-- Question Code Block -->
 		{#if currentQuestion?.code}
-			<div class="question-code mb-4 overflow-hidden rounded-lg border border-[#2d2d2d] bg-[#1e1e1e] shadow-lg">
+			<div class="question-code shrink-0 mb-4 overflow-hidden rounded-lg border border-[#2d2d2d] bg-[#1e1e1e] shadow-lg">
 				<div class="flex items-center justify-between px-4 py-2 border-b border-[#2d2d2d] bg-[#252526] text-xs text-[#858585] font-mono select-none">
 					<div class="flex items-center gap-2">
 						<span class="w-3 h-3 rounded-full bg-[#ff5f56]"></span>
@@ -496,33 +502,57 @@
 			</div>
 		{/if}
 	</div>
+
+<!-- Mobile Bottom Navigation Bar (Persistent, Sticky) -->
+<div class="md:hidden flex items-center justify-between gap-3 px-4 py-3.5 bg-[var(--bg-surface)] border-t border-[var(--border)] z-20 w-full flex-shrink-0">
+	<!-- Prev Button -->
+	<button
+		type="button"
+		class="flex-1 max-w-[85px] flex items-center justify-center gap-1 py-2.5 rounded-xl border border-[var(--border)] bg-[var(--bg-hover)] text-sm font-semibold text-[var(--text-primary)] hover:bg-[var(--border)] active:scale-95 transition-all disabled:opacity-30 disabled:pointer-events-none cursor-pointer"
+		onclick={goToPreviousCard}
+		disabled={current === 0}
+	>
+		<ChevronLeft size={16} />
+		<span>Prev</span>
+	</button>
+
+	<!-- Progress Indicator -->
+	<div class="flex-1 flex flex-col items-center">
+		<span class="text-[10px] text-[var(--text-secondary)] font-bold tracking-wider uppercase">
+			Question {current + 1} of {quizData.length}
+		</span>
+		<div class="w-full max-w-[120px] bg-[var(--border)] h-2 rounded-full mt-1 overflow-hidden shadow-inner">
+			<div class="bg-[var(--color-primary)] h-full transition-all duration-300 rounded-full" style="width: {((current + 1) / quizData.length) * 100}%"></div>
+		</div>
+	</div>
+
+	<!-- Primary Action Button (Check or Next) -->
+	{#if isMultipleChoice() && !questionLocked}
+		<button
+			type="button"
+			class="flex-1 max-w-[110px] py-2.5 rounded-xl font-bold text-sm transition-all text-center cursor-pointer
+			{selectedAnswers.length > 0
+				? 'bg-[var(--color-primary)] text-[var(--bg-primary)] shadow-md active:scale-95'
+				: 'bg-[var(--bg-hover)] text-[var(--text-secondary)] opacity-50 cursor-not-allowed'}"
+			onclick={checkAnswers}
+			disabled={selectedAnswers.length === 0}
+		>
+			Check
+		</button>
+	{:else}
+		<button
+			type="button"
+			class="flex-1 max-w-[110px] flex items-center justify-center gap-1 py-2.5 rounded-xl bg-[var(--color-primary)] text-[var(--bg-primary)] text-sm font-bold hover:opacity-90 active:scale-95 transition-all disabled:opacity-30 disabled:pointer-events-none cursor-pointer"
+			onclick={goToNextCard}
+			disabled={current === quizData.length - 1}
+		>
+			<span>Next</span>
+			<ChevronRight size={16} />
+		</button>
+	{/if}
 </div>
 
 {#if isScrollable.value}
-	<!-- Mobile: Floating circular buttons -->
-	<button
-		type="button"
-		class="md:hidden fixed bottom-28 left-1/2 -translate-x-1/2 z-10 w-16 h-16 flex items-center justify-center rounded-full bg-[var(--bg-surface)] border-2 border-[var(--color-primary)] shadow-lg transition-opacity duration-200
-              {scrollState.value === 'top' && !isHeld
-			? 'opacity-100'
-			: 'opacity-0 pointer-events-none'}"
-		aria-label="Go to previous card"
-		onclick={goToPreviousCard}
-	>
-		<ArrowUp class="w-8 h-8 text-[var(--color-primary)]" />
-	</button>
-	<button
-		type="button"
-		class="md:hidden fixed bottom-28 left-1/2 -translate-x-1/2 z-10 w-16 h-16 flex items-center justify-center rounded-full bg-[var(--bg-surface)] border-2 border-[var(--color-primary)] shadow-lg transition-opacity duration-200
-						{scrollState.value === 'bottom' && isScrollable.value && current < quizData.length - 1 && !isHeld
-			? 'opacity-100'
-			: 'opacity-0 pointer-events-none'}"
-		aria-label="Go to next card"
-		onclick={goToNextCard}
-	>
-		<ArrowDown class="w-8 h-8 text-[var(--color-primary)]" />
-	</button>
-
 	<!-- Desktop: Text-based navigation buttons above FAB area -->
 	{#if scrollState.value === 'top' && current > 0}
 		<button
@@ -547,3 +577,4 @@
 		</button>
 	{/if}
 {/if}
+</div>

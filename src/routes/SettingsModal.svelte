@@ -48,7 +48,7 @@
 
 {#if uiState.showSettingsModal}
 	<div
-		class="fixed inset-0 z-[1001] bg-black/50 backdrop-opacity-60 flex items-center justify-center p-4"
+		class="modal-backdrop-responsive"
 		onclick={handleBackdropClick}
 		onkeydown={handleKeydown}
 		tabindex="-1"
@@ -57,8 +57,10 @@
 		aria-labelledby="settings-title"
 	>
 		<div
-			class="bg-[var(--bg-surface)] p-5 md:p-6 rounded-xl w-full max-w-sm shadow-xl border border-[var(--border)] text-[var(--text-primary)]"
+			class="modal-sheet-responsive"
 		>
+			<!-- Drag handle for mobile bottom sheet -->
+			<div class="modal-drag-handle"></div>
 			<div class="flex items-center gap-2 mb-6">
 				<Settings size={22} class="text-[var(--color-primary)]" />
 				<h3 id="settings-title" class="text-[var(--color-primary)] text-lg font-semibold">

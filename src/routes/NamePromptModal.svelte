@@ -11,11 +11,20 @@
 	}
 </script>
 
-<div class="fixed inset-0 z-[3000] flex items-center justify-center bg-black/60 p-4 transition-opacity">
+<div 
+	class="modal-backdrop-responsive" 
+	style="z-index: 3000;"
+	onclick={(e) => {
+		if (e.target === e.currentTarget) {
+			dismiss();
+		}
+	}}
+>
 	<div 
-		class="bg-[var(--bg-surface)] rounded-2xl p-6 w-full shadow-2xl border border-[var(--border)] relative overflow-hidden animate-in fade-in zoom-in-95 duration-200"
-		style="max-width: 360px;"
+		class="modal-sheet-responsive relative"
 	>
+		<!-- Drag handle for mobile bottom sheet -->
+		<div class="modal-drag-handle"></div>
 		<button class="absolute top-4 right-4 text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors cursor-pointer" onclick={dismiss} aria-label="Đóng">
 			<X size={20} />
 		</button>

@@ -24,37 +24,41 @@
 
 {#if show}
 	<div
-		class="fixed inset-0 z-[900] bg-black/50 backdrop-opacity-60 flex items-center justify-center"
+		class="modal-backdrop-responsive"
+		style="z-index: 2000;"
 	>
 		<div
-			class="fav-id-modal bg-white p-6 rounded-xl w-[358px] shadow-xl border border-[#e0e0f0] text-[#23223a] flex flex-col gap-5"
+			class="modal-sheet-responsive text-[var(--text-primary)] flex flex-col gap-5"
 		>
-			<div class="text-2xl font-bold text-gray-900 text-center">New Version Available</div>
-			<div class="text-center text-base text-gray-800">
+			<!-- Drag handle for mobile bottom sheet -->
+			<div class="modal-drag-handle"></div>
+
+			<div class="text-2xl font-bold text-[var(--text-primary)] text-center">New Version Available</div>
+			<div class="text-center text-base text-[var(--text-primary)]">
 				<span class="flex items-center justify-center gap-2">
-					<span class="text-red-600">{oldVersion ?? 'Unknown'}</span>
-					<span class="text-gray-500 text-lg">→</span>
-					<span class="text-green-600">{APP_VERSION}</span>
+					<span class="text-[var(--color-error)] font-semibold">{oldVersion ?? 'Unknown'}</span>
+					<span class="text-[var(--text-secondary)] text-lg">→</span>
+					<span class="text-[var(--color-success)] font-semibold">{APP_VERSION}</span>
 				</span>
 			</div>
 			{#if stage.value === 'info'}
-				<div class="text-gray-700 text-center">
+				<div class="text-[var(--text-secondary)] text-center text-sm">
 					The app has been updated. Local data will be cleared after reload.<br />
 					To copy your favorite IDs, click the star icon at the bottom right to open the favorites modal.
 				</div>
 				<div class="flex flex-col gap-3">
 					<button
 						type="button"
-						class="cursor-pointer w-full py-2 px-4 rounded-lg bg-blue-600 text-white font-semibold hover:bg-blue-700 transition-colors duration-200"
+						class="cursor-pointer w-full py-2.5 px-4 rounded-xl bg-[var(--color-primary)] text-[var(--bg-primary)] font-bold hover:opacity-90 transition-opacity duration-200"
 						onclick={handleChangelogs}
 					>
 						Changelogs
 					</button>
 				</div>
 			{:else}
-				<div class="text-gray-700 text-left bg-gray-50 rounded p-3 border border-gray-200">
-					<div class="font-semibold mb-1">Thay đổi mới nhất</div>
-					<ul class="list-disc list-inside space-y-1 text-sm">
+				<div class="text-[var(--text-secondary)] text-left bg-[var(--bg-hover)] rounded-xl p-4 border border-[var(--border)]">
+					<div class="font-bold text-[var(--text-primary)] mb-2">Thay đổi mới nhất</div>
+					<ul class="list-disc list-inside space-y-1.5 text-sm">
 						<li>Giao diện câu hỏi toàn màn hình (bỏ kiểu thẻ)</li>
 						<li>Chuyển cài đặt Giao diện và Font vào modal Cài đặt</li>
 						<li>Hiển thị song ngữ xếp chồng (Tiếng Anh trên, Tiếng Việt dưới)</li>
@@ -63,7 +67,7 @@
 				<div class="flex flex-col gap-3">
 					<button
 						type="button"
-						class="cursor-pointer w-full py-2 px-4 rounded-lg bg-red-600 text-white font-semibold hover:bg-red-700 transition-colors duration-200"
+						class="cursor-pointer w-full py-2.5 px-4 rounded-xl bg-[var(--color-success)] text-[var(--bg-primary)] font-bold hover:opacity-90 transition-opacity duration-200"
 						onclick={handleReload}
 					>
 						Reload

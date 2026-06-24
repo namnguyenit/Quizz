@@ -56,13 +56,13 @@
 						<tr class="border-b border-[var(--border)]">
 							<td class="py-2 text-[var(--text-secondary)]">Next question</td>
 							<td class="py-2 text-right">
-								<span class="gesture">Swipe up</span>
+								<span class="gesture">Swipe up (at bottom)</span>
 							</td>
 						</tr>
 						<tr class="border-b border-[var(--border)]">
 							<td class="py-2 text-[var(--text-secondary)]">Previous question</td>
 							<td class="py-2 text-right">
-								<span class="gesture">Swipe down</span>
+								<span class="gesture">Swipe down (at top)</span>
 							</td>
 						</tr>
 						<tr class="border-b border-[var(--border)]">

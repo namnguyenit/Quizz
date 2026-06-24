@@ -440,13 +440,23 @@
 		</div>
 	</div>
 	<!-- Floating Favorites ID Button and Modal -->
-	<button
-		id="fav-id-fab"
-		class="cursor-pointer fav-id-fab fixed bottom-6 right-6 z-[1000] bg-[var(--color-primary)] text-[var(--bg-primary)] rounded-full w-14 h-14 shadow-lg text-2xl flex items-center justify-center hover:opacity-80"
-		onclick={() => (uiState.showFavModal = true)}
-	>
-		★
-	</button>
+	{#if pageState.quizData.length === 0 && pageState.flashcardData.length === 0}
+		<button
+			id="fav-id-fab"
+			class="cursor-pointer fav-id-fab fixed bottom-6 right-6 z-[1000] bg-[var(--color-primary)] text-[var(--bg-primary)] rounded-full w-14 h-14 shadow-lg text-2xl flex items-center justify-center hover:opacity-80"
+			onclick={() => (uiState.showFavModal = true)}
+		>
+			★
+		</button>
+	{:else}
+		<button
+			id="fav-id-fab"
+			class="hidden md:flex cursor-pointer fav-id-fab fixed bottom-6 right-6 z-[1000] bg-[var(--color-primary)] text-[var(--bg-primary)] rounded-full w-14 h-14 shadow-lg text-2xl items-center justify-center hover:opacity-80"
+			onclick={() => (uiState.showFavModal = true)}
+		>
+			★
+		</button>
+	{/if}
 	<FavoritesModal />
 	<ShortcutsModal />
 	<SettingsModal />

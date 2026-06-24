@@ -37,6 +37,30 @@
 			flipCard();
 		}
 	}
+
+	let touchStartY = 0;
+	let touchEndY = 0;
+	let touchStartTime = 0;
+
+	function handleTouchStart(e: TouchEvent) {
+		touchStartY = e.touches[0].clientY;
+		touchStartTime = Date.now();
+	}
+
+	function handleTouchEnd(e: TouchEvent) {
+		touchEndY = e.changedTouches[0].clientY;
+		const deltaY = touchEndY - touchStartY;
+		const deltaTime = Date.now() - touchStartTime;
+
+		// Vertical swipe gesture detection (swipe up for Next, swipe down for Prev)
+		if (deltaTime < 300 && Math.abs(deltaY) > 50) {
+			if (deltaY < 0) {
+				nextCard();
+			} else {
+				prevCard();
+			}
+		}
+	}
 </script>
 
 <svelte:window onkeydown={onKeyDown} />
@@ -53,6 +77,8 @@
 		<div 
 			class="relative w-full max-w-xl aspect-[4/3] md:aspect-[3/2] cursor-pointer perspective-1000"
 			onclick={flipCard}
+			ontouchstart={handleTouchStart}
+			ontouchend={handleTouchEnd}
 		>
 			<div 
 				class="w-full h-full duration-500 preserve-3d relative"

@@ -12,11 +12,18 @@
 
 {#if uiState.showFavModal}
 	<div
-		class="fav-id-modal-backdrop fixed inset-0 z-[1001] bg-black/50 backdrop-opacity-60 flex items-center justify-center"
+		class="modal-backdrop-responsive"
+		onclick={(e) => {
+			if (e.target === e.currentTarget) {
+				uiState.showFavModal = false;
+			}
+		}}
 	>
 		<div
-			class="fav-id-modal bg-[var(--bg-surface)] p-6 rounded-xl min-w-[320px] max-w-[95vw] shadow-xl border border-[var(--border)] text-[var(--text-primary)]"
+			class="modal-sheet-responsive"
 		>
+			<!-- Drag handle for mobile bottom sheet -->
+			<div class="modal-drag-handle"></div>
 			<h3 class="text-[var(--color-primary)] text-lg font-semibold mb-3">Favorite Questions</h3>
 			<textarea
 				id="fav-id-list"

@@ -1,6 +1,6 @@
 <script lang="ts">
 	import BilingualText from '$lib/components/BilingualText.svelte';
-	import { Check, Circle, CircleDot, Square, SquareCheck, Star, X } from '@lucide/svelte';
+	import { Check, Circle, CircleDot, Square, SquareCheck, Star, X, ChevronLeft, ChevronRight } from '@lucide/svelte';
 
 	import Prism from 'prismjs';
 	import 'prismjs/themes/prism-tomorrow.css';
@@ -141,7 +141,7 @@
 
 		<!-- Question Code Block -->
 		{#if currentQuestion?.code}
-			<div class="question-code mb-4 overflow-hidden rounded-lg border border-[#2d2d2d] bg-[#1e1e1e] shadow-lg">
+			<div class="question-code shrink-0 mb-4 overflow-hidden rounded-lg border border-[#2d2d2d] bg-[#1e1e1e] shadow-lg">
 				<div class="flex items-center justify-between px-4 py-2 border-b border-[#2d2d2d] bg-[#252526] text-xs text-[#858585] font-mono select-none">
 					<div class="flex items-center gap-2">
 						<span class="w-3 h-3 rounded-full bg-[#ff5f56]"></span>
@@ -214,22 +214,51 @@
 		{/if}
 	</div>
 
-	<div class="flex items-center justify-between gap-3 p-3 border-t border-[var(--border)] bg-[var(--bg-surface)]">
+	<div class="flex items-center justify-between gap-3 px-4 py-3.5 border-t border-[var(--border)] bg-[var(--bg-surface)] z-10 w-full flex-shrink-0">
+		<!-- Prev Button -->
 		<button
 			type="button"
-			class="px-4 py-2 rounded-lg border border-[var(--border)] text-[var(--text-primary)] disabled:opacity-40"
+			class="flex-1 max-w-[85px] md:max-w-[100px] flex items-center justify-center gap-1 py-2 rounded-xl border border-[var(--border)] bg-[var(--bg-hover)] text-sm font-semibold text-[var(--text-primary)] hover:bg-[var(--border)] active:scale-95 transition-all disabled:opacity-30 disabled:pointer-events-none cursor-pointer"
 			onclick={goToPreviousCard}
 			disabled={current <= 0}
 		>
-			Previous
+			<ChevronLeft size={16} />
+			<span>Prev</span>
 		</button>
-		<button
-			type="button"
-			class="px-4 py-2 rounded-lg bg-[var(--color-primary)] text-[var(--bg-primary)] disabled:opacity-40"
-			onclick={goToNextCard}
-			disabled={current >= quizData.length - 1}
-		>
-			Next
-		</button>
+
+		<!-- Progress Indicator -->
+		<div class="flex-1 flex flex-col items-center">
+			<span class="text-[10px] text-[var(--text-secondary)] font-bold tracking-wider uppercase">
+				Question {current + 1} of {quizData.length}
+			</span>
+			<div class="w-full max-w-[120px] md:max-w-[160px] bg-[var(--border)] h-2 rounded-full mt-1 overflow-hidden shadow-inner">
+				<div class="bg-[var(--color-primary)] h-full transition-all duration-300 rounded-full" style="width: {((current + 1) / quizData.length) * 100}%"></div>
+			</div>
+		</div>
+
+		<!-- Primary Action Button (Check or Next) -->
+		{#if isMultipleChoice() && !questionLocked}
+			<button
+				type="button"
+				class="flex-1 max-w-[110px] md:max-w-[130px] py-2 rounded-xl font-bold text-sm transition-all text-center cursor-pointer
+				{selectedAnswers.length > 0
+					? 'bg-[var(--color-primary)] text-[var(--bg-primary)] shadow-md active:scale-95'
+					: 'bg-[var(--bg-hover)] text-[var(--text-secondary)] opacity-50 cursor-not-allowed'}"
+				onclick={checkAnswers}
+				disabled={selectedAnswers.length === 0}
+			>
+				Check
+			</button>
+		{:else}
+			<button
+				type="button"
+				class="flex-1 max-w-[110px] md:max-w-[130px] flex items-center justify-center gap-1 py-2 rounded-xl bg-[var(--color-primary)] text-[var(--bg-primary)] text-sm font-bold hover:opacity-90 active:scale-95 transition-all disabled:opacity-30 disabled:pointer-events-none cursor-pointer"
+				onclick={goToNextCard}
+				disabled={current >= quizData.length - 1}
+			>
+				<span>Next</span>
+				<ChevronRight size={16} />
+			</button>
+		{/if}
 	</div>
 </div>
