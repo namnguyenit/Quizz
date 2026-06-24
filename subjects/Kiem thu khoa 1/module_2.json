@@ -6,27 +6,27 @@
     "question_type": "single_answer_question",
     "answers": [
       {
-        "answer_text": "1,2,3 (1,2,3)",
+        "answer_text": "1,2,3",
         "is_correct": false
       },
       {
-        "answer_text": "1,3,2 (1,3,2)",
+        "answer_text": "1,3,2",
         "is_correct": false
       },
       {
-        "answer_text": "2,1,3 (2,1,3)",
+        "answer_text": "2,1,3",
         "is_correct": true
       },
       {
-        "answer_text": "2,3,1 (2,3,1)",
+        "answer_text": "2,3,1",
         "is_correct": false
       },
       {
-        "answer_text": "3,1,2 (3,1,2)",
+        "answer_text": "3,1,2",
         "is_correct": false
       },
       {
-        "answer_text": "3,2,1 (3,2,1)",
+        "answer_text": "3,2,1",
         "is_correct": false
       }
     ],
@@ -39,19 +39,19 @@
     "question_type": "single_answer_question",
     "answers": [
       {
-        "answer_text": "fault avoidance (fault avoidance)",
+        "answer_text": "fault avoidance (Phòng ngừa lỗi)",
         "is_correct": false
       },
       {
-        "answer_text": "fault tolerance (fault tolerance)",
+        "answer_text": "fault tolerance (Chịu lỗi)",
         "is_correct": false
       },
       {
-        "answer_text": "error removal (error removal)",
+        "answer_text": "error removal (Loại bỏ sai sót)",
         "is_correct": true
       },
       {
-        "answer_text": "fault forecasting (fault forecasting)",
+        "answer_text": "fault forecasting (Dự báo lỗi)",
         "is_correct": false
       }
     ],
@@ -149,11 +149,11 @@
     "question_type": "multiple_answer_question",
     "answers": [
       {
-        "answer_text": "Arithmetic on floating point numbers is often approximate, so it can introduce errors (errors)",
+        "answer_text": "Arithmetic on floating point numbers is often approximate, so it can introduce errors (Các phép toán số dấu phẩy động thường là gần đúng, nên có thể dẫn đến sai số (errors))",
         "is_correct": true
       },
       {
-        "answer_text": "Floating point numbers have values that are not actually numbers, such as infinity and NaN (Số dấu phẩy động có các giá trị không thực sự là số, chẳng hạn như infinity (không phải là số)",
+        "answer_text": "Floating point numbers have values that are not actually numbers, such as infinity and NaN (Số dấu phẩy động có các giá trị không thực sự là số, chẳng hạn như infinity (không phải là số))",
         "is_correct": true
       },
       {
@@ -174,11 +174,11 @@
     "question_type": "multiple_answer_question",
     "answers": [
       {
-        "answer_text": "Programmers often make 'off-by-one' errors (off-by-one errors)",
+        "answer_text": "Programmers often make 'off-by-one' errors (Các lập trình viên thường mắc lỗi lệch một đơn vị (off-by-one errors))",
         "is_correct": true
       },
       {
-        "answer_text": "Determining strict limits on ranges is difficult in requirements engineering (requirements engineering)",
+        "answer_text": "Determining strict limits on ranges is difficult in requirements engineering (Việc xác định giới hạn nghiêm ngặt cho các phạm vi là khó khăn trong kỹ nghệ yêu cầu (requirements engineering))",
         "is_correct": true
       },
       {
@@ -207,7 +207,7 @@
         "is_correct": false
       },
       {
-        "answer_text": "When converting from signed to unsigned types (Khi chuyển đổi từ kiểu có dấu (unsigned)",
+        "answer_text": "When converting from signed to unsigned types (Khi chuyển đổi từ kiểu có dấu sang không dấu (unsigned))",
         "is_correct": true
       },
       {
@@ -328,7 +328,7 @@
         "is_correct": false
       },
       {
-        "answer_text": "If a program error is transient (transient)",
+        "answer_text": "If a program error is transient (Nếu lỗi chương trình là tạm thời)",
         "is_correct": true
       },
       {
@@ -349,7 +349,7 @@
         "is_correct": false
       },
       {
-        "answer_text": "A software development model that pairs different stages of software development with the appropriate testing procedure. These tests are later used when checking the verification of each phase of the software. (Một mô hình phát triển phần mềm kết hợp các giai đoạn phát triển phần mềm khác nhau với quy trình kiểm thử tương ứng. Các bài kiểm thử này sau đó được sử dụng để xác minh (verification) từng giai đoạn của phần mềm.)",
+        "answer_text": "A software development model that pairs different stages of software development with the appropriate testing procedure. These tests are later used when checking the verification of each phase of the software. (Một mô hình phát triển phần mềm kết hợp các giai đoạn phát triển phần mềm khác nhau với quy trình kiểm thử tương ứng. Các bài kiểm thử này sau đó được sử dụng để xác minh từng giai đoạn của phần mềm.)",
         "is_correct": true
       },
       {
@@ -366,7 +366,7 @@
     "question_type": "single_answer_question",
     "answers": [
       {
-        "answer_text": "Unit Testing. (kiểm thử đơn vị (unit test).)",
+        "answer_text": "Unit Testing. (kiểm thử đơn vị.)",
         "is_correct": false
       },
       {
@@ -374,11 +374,11 @@
         "is_correct": true
       },
       {
-        "answer_text": "Validation Testing. (Kiểm thử thẩm định (validation testing).)",
+        "answer_text": "Validation Testing. (Kiểm thử thẩm định.)",
         "is_correct": false
       },
       {
-        "answer_text": "Verification Testing. (kiểm thử Xác minh (verification) (verification) (verification testing).)",
+        "answer_text": "Verification Testing. (kiểm thử Xác minh.)",
         "is_correct": false
       }
     ],
@@ -391,19 +391,19 @@
     "question_type": "single_answer_question",
     "answers": [
       {
-        "answer_text": "Unit Testing (unit test)",
-        "is_correct": false
-      },
-      {
-        "answer_text": "Validation Testing. (Kiểm thử thẩm định (validation testing).)",
-        "is_correct": false
-      },
-      {
-        "answer_text": "Verification Testing. (kiểm thử Xác minh (verification) (verification) (verification testing).)",
+        "answer_text": "Unit Testing (Kiểm thử đơn vị)",
         "is_correct": true
       },
       {
-        "answer_text": "System Integration Testing. (Kiểm thử tích hợp (integration testing) hệ thống.)",
+        "answer_text": "Validation Testing. (Kiểm thử thẩm định.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Verification Testing. (Kiểm thử Xác minh.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "System Integration Testing. (Kiểm thử tích hợp hệ thống.)",
         "is_correct": false
       }
     ],
@@ -416,11 +416,11 @@
     "question_type": "single_answer_question",
     "answers": [
       {
-        "answer_text": "Validation confirms that we are building the right product while verification confirms that we are building the product right. (Thẩm định (validation) xác nhận xem chúng ta có đang xây dựng đúng sản phẩm cần thiết hay không, còn xác minh (verification) xác nhận xem chúng ta có đang xây dựng sản phẩm đúng cách hay không.)",
+        "answer_text": "Validation confirms that we are building the right product while verification confirms that we are building the product right. (Thẩm định xác nhận xem chúng ta có đang xây dựng đúng sản phẩm cần thiết hay không, còn xác minh xác nhận xem chúng ta có đang xây dựng sản phẩm đúng cách hay không.)",
         "is_correct": false
       },
       {
-        "answer_text": "Validation is planned during the user requirement stage in the V-model while verification is planned during the user specification stage. (Thẩm định được lên kế hoạch trong giai đoạn yêu cầu của người dùng (user requirements) trong mô hình chữ V, còn xác minh được lên kế hoạch trong giai đoạn đặc tả hệ thống (system specification).)",
+        "answer_text": "Validation is planned during the user requirement stage in the V-model while verification is planned during the user specification stage. (Thẩm định được lên kế hoạch trong giai đoạn yêu cầu của người dùng trong mô hình chữ V, còn xác minh được lên kế hoạch trong giai đoạn đặc tả hệ thống.)",
         "is_correct": false
       },
       {
@@ -445,11 +445,11 @@
         "is_correct": false
       },
       {
-        "answer_text": "The system has passed all tests from unit testing through verification testing and is now ready for validation testing. (Hệ thống đã vượt qua tất cả các bài kiểm thử từ kiểm thử đơn vị đến kiểm thử xác minh và hiện đã sẵn sàng cho kiểm thử thẩm định (validation testing).)",
+        "answer_text": "The system has passed all tests from unit testing through verification testing and is now ready for validation testing. (Hệ thống đã vượt qua tất cả các bài kiểm thử từ kiểm thử đơn vị đến kiểm thử xác minh và hiện đã sẵn sàng cho kiểm thử thẩm định.)",
         "is_correct": true
       },
       {
-        "answer_text": "The system needs to be tested all the way from unit testing up through verification testing, before being claimed correct. (Hệ thống cần được kiểm thử xuyên suốt từ kiểm thử đơn vị lên đến kiểm thử xác minh trước khi có thể tuyên bố là chạy đúng (correct).)",
+        "answer_text": "The system needs to be tested all the way from unit testing up through verification testing, before being claimed correct. (Hệ thống cần được kiểm thử xuyên suốt từ kiểm thử đơn vị lên đến kiểm thử xác minh trước khi có thể tuyên bố là chạy đúng.)",
         "is_correct": false
       }
     ],
@@ -458,7 +458,7 @@
   {
     "question_id": "module-2-validation-and-verification-in-the-v-model-quiz-q3",
     "module": "Testing Foundations",
-    "question_text": "With respect to the V-model, a valid system implies a verified system:\nVN: Trong mô hình chữ V, một hệ thống đã thẩm định (validated system) đồng nghĩa với việc nó đã được xác minh (verified system):",
+    "question_text": "With respect to the V-model, a valid system implies a verified system:\nVN: Trong mô hình chữ V, một hệ thống đã thẩm định đồng nghĩa với việc nó đã được xác minh:",
     "question_type": "single_answer_question",
     "answers": [
       {
@@ -529,11 +529,11 @@
         "is_correct": true
       },
       {
-        "answer_text": "The mutation adequacy score tells you the quality of tests; the higher the score, the better the quality of test cases. (Điểm phủ đột biến (mutation adequacy score) cho biết chất lượng của các bài kiểm thử; điểm càng cao thì chất lượng của các test case càng tốt.)",
+        "answer_text": "The mutation adequacy score tells you the quality of tests; the higher the score, the better the quality of test cases. (Điểm phủ đột biến cho biết chất lượng của các bài kiểm thử; điểm càng cao thì chất lượng của các test case càng tốt.)",
         "is_correct": false
       },
       {
-        "answer_text": "A mutant is killed when there exists one or more tests that can differentiate between the output of the mutant and the output of the original program. (Một đột biến (mutant) được coi là bị tiêu diệt (killed) khi tồn tại một hoặc nhiều bài kiểm thử có thể phân biệt được đầu ra của đột biến đó với đầu ra của chương trình gốc.)",
+        "answer_text": "A mutant is killed when there exists one or more tests that can differentiate between the output of the mutant and the output of the original program. (Một đột biến được coi là bị tiêu diệt khi tồn tại một hoặc nhiều bài kiểm thử có thể phân biệt được đầu ra của đột biến đó với đầu ra của chương trình gốc.)",
         "is_correct": false
       }
     ],
@@ -546,15 +546,15 @@
     "question_type": "multiple_answer_question",
     "answers": [
       {
-        "answer_text": "You only create one mutant for mutation testing. (Bạn chỉ tạo ra một đột biến (mutant) duy nhất khi kiểm thử đột biến.)",
+        "answer_text": "You only create one mutant for mutation testing. (Bạn chỉ tạo ra một đột biến duy nhất khi kiểm thử đột biến.)",
         "is_correct": true
       },
       {
-        "answer_text": "A mutant and the original program are syntactically different. (Một đột biến (mutant) và chương trình gốc khác biệt nhau về mặt cú pháp.)",
+        "answer_text": "A mutant and the original program are syntactically different. (Một đột biến và chương trình gốc khác biệt nhau về mặt cú pháp.)",
         "is_correct": false
       },
       {
-        "answer_text": "The mutation operator introduces a syntactic change to the program so that the mutant cannot be compiled. (Toán tử đột biến (mutation operator) đưa vào một thay đổi cú pháp trong chương trình khiến đột biến đó không thể biên dịch được.)",
+        "answer_text": "The mutation operator introduces a syntactic change to the program so that the mutant cannot be compiled. (Toán tử đột biến đưa vào một thay đổi cú pháp trong chương trình khiến đột biến đó không thể biên dịch được.)",
         "is_correct": true
       }
     ],
@@ -563,11 +563,11 @@
   {
     "question_id": "module-2-mutation-testing-q3",
     "module": "Testing Foundations",
-    "question_text": "Jenny wrote a program and created 10 test cases. She also created 50 mutants from the original program to measure the adequacy of her test inputs using mutation testing. After running all of the test cases against each of the mutants, Jenny found that all of the test cases had passed on all of the mutants. In this situation, what is the most appropriate step she should take next?\nVN: Jenny viết một chương trình và tạo ra 10 test case. Cô ấy cũng tạo ra 50 đột biến (mutants) từ chương trình gốc để đo lường tính đầy đủ của dữ liệu kiểm thử đầu vào bằng phương pháp kiểm thử đột biến. Sau khi chạy tất cả test case với từng đột biến, Jenny thấy rằng tất cả test case đều vượt qua (passed) trên tất cả các đột biến (tức là không diệt được đột biến nào). Trong trường hợp này, bước đi tiếp theo phù hợp nhất cô ấy nên làm là gì?",
+    "question_text": "Jenny wrote a program and created 10 test cases. She also created 50 mutants from the original program to measure the adequacy of her test inputs using mutation testing. After running all of the test cases against each of the mutants, Jenny found that all of the test cases had passed on all of the mutants. In this situation, what is the most appropriate step she should take next?\nVN: Jenny viết một chương trình và tạo ra 10 test case. Cô ấy cũng tạo ra 50 đột biến từ chương trình gốc để đo lường tính đầy đủ của dữ liệu kiểm thử đầu vào bằng phương pháp kiểm thử đột biến. Sau khi chạy tất cả test case với từng đột biến, Jenny thấy rằng tất cả test case đều vượt qua trên tất cả các đột biến (tức là không diệt được đột biến nào). Trong trường hợp này, bước đi tiếp theo phù hợp nhất cô ấy nên làm là gì?",
     "question_type": "single_answer_question",
     "answers": [
       {
-        "answer_text": "She should write more test cases. (Cô ấy nên viết nhiều test case (trường hợp kiểm thử) hơn.)",
+        "answer_text": "She should write more test cases. (Cô ấy nên viết nhiều test case hơn.)",
         "is_correct": true
       },
       {
@@ -575,7 +575,7 @@
         "is_correct": false
       },
       {
-        "answer_text": "She should create more mutants. (Cô ấy nên tạo ra nhiều đột biến (mutant) hơn.)",
+        "answer_text": "She should create more mutants. (Cô ấy nên tạo ra nhiều đột biến hơn.)",
         "is_correct": false
       }
     ],
@@ -596,7 +596,7 @@
         "is_correct": false
       },
       {
-        "answer_text": "The tests may all pass but the program may still be incorrect (incorrect)",
+        "answer_text": "The tests may all pass but the program may still be incorrect (Các kiểm thử có thể đều vượt qua nhưng chương trình vẫn có thể sai)",
         "is_correct": true
       },
       {
@@ -659,11 +659,11 @@
         "is_correct": false
       },
       {
-        "answer_text": "Implementation of the software. (Mã nguồn triển khai của phần mềm (implementation).)",
+        "answer_text": "Implementation of the software. (Mã nguồn triển khai của phần mềm.)",
         "is_correct": true
       },
       {
-        "answer_text": "Design of the software. (Thiết kế của phần mềm (design).)",
+        "answer_text": "Design of the software. (Thiết kế của phần mềm.)",
         "is_correct": false
       }
     ],
@@ -681,7 +681,7 @@
       },
       {
         "answer_text": "True (Đúng)",
-        "is_correct": false
+        "is_correct": true
       }
     ],
     "code": ""
@@ -768,15 +768,15 @@
     "question_type": "single_answer_question",
     "answers": [
       {
-        "answer_text": "black-box (black-box)",
+        "answer_text": "black-box (Hộp đen)",
         "is_correct": false
       },
       {
-        "answer_text": "gray-box (gray-box)",
+        "answer_text": "gray-box (Hộp xám)",
         "is_correct": false
       },
       {
-        "answer_text": "white-box (white-box)",
+        "answer_text": "white-box (Hộp trắng)",
         "is_correct": true
       }
     ],

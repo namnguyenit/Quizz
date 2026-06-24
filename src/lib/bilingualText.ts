@@ -81,7 +81,9 @@ function parseWithParentheses(text: string): BilingualParts | null {
 	if (!english || !vietnamese) return null;
 
 	// Verify the parentheses content looks like Vietnamese
-	if (hasVietnameseChars(vietnamese)) {
+	const lowerViet = vietnamese.toLowerCase();
+	const cleanViet = lowerViet.replace(/[.,?!]/g, '').trim();
+	if (hasVietnameseChars(vietnamese) || cleanViet === 'sai' || cleanViet === 'đúng') {
 		return { english, vietnamese };
 	}
 
