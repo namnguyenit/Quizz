@@ -304,7 +304,7 @@
       },
       {
         "answer_text": "Given the same inputs, sometimes the program fails a test and other times it does not. (Với cùng một đầu vào, đôi khi chương trình trượt bài kiểm thử, nhưng lúc khác lại không.)",
-        "is_correct": false
+        "is_correct": true
       },
       {
         "answer_text": "Sometimes the program ends up in different internal states for the same input. (Đôi khi chương trình rơi vào các trạng thái nội bộ khác nhau cho cùng một đầu vào.)",
@@ -328,7 +328,7 @@
         "is_correct": false
       },
       {
-        "answer_text": "If a program error is transient (Nếu lỗi chương trình là tạm thời)",
+        "answer_text": "If a program error is transient (Nếu lỗi chương trình là tạm thời (transient))",
         "is_correct": true
       },
       {
@@ -391,7 +391,7 @@
     "question_type": "single_answer_question",
     "answers": [
       {
-        "answer_text": "Unit Testing (Kiểm thử đơn vị)",
+        "answer_text": "Unit Testing (Kiểm thử đơn vị (unit test))",
         "is_correct": true
       },
       {
@@ -596,7 +596,7 @@
         "is_correct": false
       },
       {
-        "answer_text": "The tests may all pass but the program may still be incorrect (Các kiểm thử có thể đều vượt qua nhưng chương trình vẫn có thể sai)",
+        "answer_text": "The tests may all pass but the program may still be incorrect (Các kiểm thử có thể đều vượt qua nhưng chương trình vẫn có thể sai (incorrect))",
         "is_correct": true
       },
       {
@@ -736,27 +736,27 @@
     "question_id": "module-2-on-basic-testing-terminology-dependability-and-testing-principles-q8",
     "module": "Testing Foundations",
     "question_text": "Adaptive cruise control software that continues to run in the presence of multiple hardware and service failures but regularly misjudges the distance between cars by a substantial amount is an example of a ______ system.\nVN: Một phần mềm kiểm soát hành trình thích ứng (adaptive cruise control) tiếp tục chạy khi có nhiều lỗi phần cứng và dịch vụ xảy ra, nhưng thường xuyên ước lượng sai lệch lớn khoảng cách giữa các xe là một ví dụ về một hệ thống ______.",
-    "question_type": "single_answer_question",
+    "question_type": "multiple_answer_question",
     "answers": [
       {
-        "answer_text": "certainly reliable (reliable)",
+        "answer_text": "certainly reliable (Chắc chắn đáng tin cậy (reliable))",
         "is_correct": false
       },
       {
-        "answer_text": "certainly correct (correct)",
+        "answer_text": "certainly correct (Chắc chắn đúng (correct))",
         "is_correct": false
       },
       {
-        "answer_text": "certainly safe (safe)",
+        "answer_text": "certainly safe (Chắc chắn an toàn (safe))",
         "is_correct": false
       },
       {
-        "answer_text": "certainly incorrect (incorrect)",
+        "answer_text": "certainly incorrect (Chắc chắn sai (incorrect))",
         "is_correct": true
       },
       {
-        "answer_text": "certainly robust (robust)",
-        "is_correct": false
+        "answer_text": "certainly robust (Chắc chắn bền vững (robust))",
+        "is_correct": true
       }
     ],
     "code": ""

@@ -142,7 +142,7 @@
             },
             {
                 "answer_text": "false faults can be raised. (có thể phát sinh các lỗi giả (cảnh báo giả).)",
-                "is_correct": false
+                "is_correct": true
             },
             {
                 "answer_text": "None of the above. Overapproximation is not helpful or related to fault finding. (Không có đáp án nào đúng. Xấp xỉ trên không có ích hoặc không liên quan đến việc tìm kiếm lỗi.)",
