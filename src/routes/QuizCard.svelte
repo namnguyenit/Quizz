@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { DEBUG } from '$lib/config';
 	import BilingualText from '$lib/components/BilingualText.svelte';
+	import { untrack } from 'svelte';
 	let isHeld = $state(false);
 	
 	import Prism from 'prismjs';
@@ -139,6 +140,46 @@
 		};
 	});
 
+	let hasBlockedBottomSwipe = $state(false);
+	let hasBlockedTopSwipe = $state(false);
+
+	let transitionHint = $state<{ show: boolean; text: string; direction: 'next' | 'prev' | null }>({
+		show: false,
+		text: '',
+		direction: null
+	});
+	let hintTimeout: number | null = null;
+
+	function showTransitionHint(direction: 'next' | 'prev') {
+		if (hintTimeout) {
+			clearTimeout(hintTimeout);
+		}
+		transitionHint = {
+			show: true,
+			text: direction === 'next' 
+				? 'Vuốt thêm lần nữa để sang câu tiếp theo' 
+				: 'Vuốt thêm lần nữa để về câu trước',
+			direction
+		};
+		hintTimeout = setTimeout(() => {
+			transitionHint.show = false;
+		}, 1800) as unknown as number;
+	}
+
+	$effect(() => {
+		// Reset block states and hints when question index changes
+		const _ = current;
+		untrack(() => {
+			hasBlockedBottomSwipe = false;
+			hasBlockedTopSwipe = false;
+			transitionHint.show = false;
+			if (hintTimeout) {
+				clearTimeout(hintTimeout);
+				hintTimeout = null;
+			}
+		});
+	});
+
 	$effect(() => {
 		if (!scrollContainer) return;
 
@@ -167,6 +208,14 @@
 				edgeState.topLogged = false;
 				edgeState.bottomLogged = false;
 			}
+
+			// Reset block flags when user scrolls away from edges
+			if (scrollTop + clientHeight < scrollHeight - 15) {
+				hasBlockedBottomSwipe = false;
+			}
+			if (scrollTop > 15) {
+				hasBlockedTopSwipe = false;
+			}
 		};
 
 		// Only set up scroll listener if container is scrollable
@@ -186,10 +235,22 @@
 	let touchStartY = 0;
 	let touchEndY = 0;
 	let touchStartTime = 0;
+	let startedAtTop = false;
+	let startedAtBottom = false;
 
 	function handleTouchStart(e: TouchEvent) {
 		touchStartY = e.touches[0].clientY;
 		touchStartTime = Date.now();
+		
+		if (scrollContainer) {
+			const { scrollTop, scrollHeight, clientHeight } = scrollContainer;
+			// Use a 2px tolerance for subpixel rounding issues
+			startedAtTop = scrollTop <= 2;
+			startedAtBottom = scrollTop + clientHeight >= scrollHeight - 2;
+		} else {
+			startedAtTop = true;
+			startedAtBottom = true;
+		}
 	}
 
 	function handleTouchEnd(e: TouchEvent) {
@@ -201,14 +262,32 @@
 		if (deltaTime < 300 && Math.abs(deltaY) > 50) {
 			if (deltaY < 0) {
 				// Swipe up -> Next question
-				// Only trigger if the card is not scrollable, or the user is already at the bottom
-				if (!isScrollable.value || scrollState.value === 'bottom') {
+				if (isScrollable.value) {
+					if (startedAtBottom) {
+						if (!hasBlockedBottomSwipe) {
+							hasBlockedBottomSwipe = true;
+							showTransitionHint('next');
+						} else {
+							goToNextCard();
+						}
+					}
+				} else {
+					// Non-scrollable: transition immediately
 					goToNextCard();
 				}
 			} else {
 				// Swipe down -> Previous question
-				// Only trigger if the card is not scrollable, or the user is already at the top
-				if (!isScrollable.value || scrollState.value === 'top') {
+				if (isScrollable.value) {
+					if (startedAtTop) {
+						if (!hasBlockedTopSwipe) {
+							hasBlockedTopSwipe = true;
+							showTransitionHint('prev');
+						} else {
+							goToPreviousCard();
+						}
+					}
+				} else {
+					// Non-scrollable: transition immediately
 					goToPreviousCard();
 				}
 			}
@@ -576,5 +655,20 @@
 			<ChevronRight size={20} />
 		</button>
 	{/if}
+{/if}
+
+<!-- Safety transition hint pill on swipe block -->
+{#if transitionHint.show}
+	<div class="fixed left-1/2 -translate-x-1/2 bottom-24 z-50 pointer-events-none transition-all duration-300 transform translate-y-0 opacity-100">
+		<div class="flex items-center gap-2 px-5 py-2.5 rounded-full bg-[var(--color-primary)] text-[var(--bg-primary)] text-sm font-semibold shadow-xl shadow-[var(--color-primary)]/10 backdrop-blur-md border border-[var(--color-primary)]/20 animate-bounce">
+			{#if transitionHint.direction === 'next'}
+				<span>{transitionHint.text}</span>
+				<ChevronRight size={16} />
+			{:else}
+				<ChevronLeft size={16} />
+				<span>{transitionHint.text}</span>
+			{/if}
+		</div>
+	</div>
 {/if}
 </div>
