@@ -140,7 +140,7 @@
     "question_type": "single_answer_question",
     "answers": [
       {
-        "answer_text": "Automatically generate flakey tests (flakey tests)",
+        "answer_text": "Automatically generate flakey tests (Tự động sinh ra các kiểm thử không ổn định (flakey tests))",
         "is_correct": false
       },
       {
@@ -253,7 +253,7 @@
         "is_correct": false
       },
       {
-        "answer_text": "Side effects (Side effects)",
+        "answer_text": "Side effects (Tác dụng phụ (Side effects))",
         "is_correct": false
       },
       {
@@ -291,7 +291,7 @@
         "is_correct": false
       },
       {
-        "answer_text": "Required fill-in values are being created for the system under test (SUT)",
+        "answer_text": "Required fill-in values are being created for the system under test (Các giá trị điền vào bắt buộc được tạo cho hệ thống đang kiểm thử (SUT))",
         "is_correct": true
       },
       {
@@ -312,19 +312,19 @@
     "question_type": "single_answer_question",
     "answers": [
       {
-        "answer_text": "Mock; Dummy (Mock; Dummy)",
+        "answer_text": "Mock; Dummy (Đối tượng giả lập; Đối tượng bù nhìn (Mock; Dummy))",
         "is_correct": false
       },
       {
-        "answer_text": "Spy; Mock (Spy; Mock)",
+        "answer_text": "Spy; Mock (Đối tượng giám sát; Đối tượng giả lập (Spy; Mock))",
         "is_correct": false
       },
       {
-        "answer_text": "Dummy; Mock (Dummy; Mock)",
+        "answer_text": "Dummy; Mock (Đối tượng bù nhìn; Đối tượng giả lập (Dummy; Mock))",
         "is_correct": false
       },
       {
-        "answer_text": "Mock; Spy (Mock; Spy)",
+        "answer_text": "Mock; Spy (Đối tượng giả lập; Đối tượng giám sát (Mock; Spy))",
         "is_correct": true
       }
     ],

@@ -373,11 +373,11 @@
         "answers": [
             {
                 "answer_text": "True (Đúng)",
-                "is_correct": true
+                "is_correct": false
             },
             {
                 "answer_text": "False (Sai)",
-                "is_correct": false
+                "is_correct": true
             }
         ],
         "code": ""

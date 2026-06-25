@@ -365,11 +365,11 @@
     "answers": [
       {
         "answer_text": "A fault that can be triggered when a loop is not executed. (Một lỗi có thể được kích hoạt khi vòng lặp không được thực thi.)",
-        "is_correct": true
+        "is_correct": false
       },
       {
         "answer_text": "A division-by-zero bug in an arithmetic statement. (Lỗi chia cho 0 trong một câu lệnh số học.)",
-        "is_correct": false
+        "is_correct": true
       },
       {
         "answer_text": "A fault that can be triggered when an if-condition is not taken. (Một lỗi có thể được kích hoạt khi điều kiện if không được thực hiện.)",

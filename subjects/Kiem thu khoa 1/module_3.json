@@ -23,19 +23,19 @@
     "question_type": "single_answer_question",
     "answers": [
       {
-        "answer_text": "Unit Test (unit test)",
+        "answer_text": "Unit Test (Kiểm thử đơn vị)",
         "is_correct": false
       },
       {
-        "answer_text": "Customer Acceptance Test (Customer Acceptance Test)",
+        "answer_text": "Customer Acceptance Test (Kiểm thử chấp nhận từ khách hàng)",
         "is_correct": true
       },
       {
-        "answer_text": "Unit Testing Plan (unit test)",
+        "answer_text": "Unit Testing Plan (Kế hoạch kiểm thử đơn vị)",
         "is_correct": false
       },
       {
-        "answer_text": "System Validation Test (System Validation Test)",
+        "answer_text": "System Validation Test (Kiểm thử thẩm định hệ thống)",
         "is_correct": false
       }
     ],
@@ -77,11 +77,11 @@
         "is_correct": false
       },
       {
-        "answer_text": "Reliability (reliability)",
+        "answer_text": "Reliability (Độ tin cậy)",
         "is_correct": true
       },
       {
-        "answer_text": "Entry and Exit Conditions (Entry/Exit Conditions)",
+        "answer_text": "Entry and Exit Conditions (Điều kiện bắt đầu và kết thúc)",
         "is_correct": false
       }
     ],
@@ -94,19 +94,19 @@
     "question_type": "single_answer_question",
     "answers": [
       {
-        "answer_text": "Traceability Report (Traceability Report)",
+        "answer_text": "Traceability Report (Báo cáo truy vết)",
         "is_correct": true
       },
       {
-        "answer_text": "Domain Report (Domain Report)",
+        "answer_text": "Domain Report (Báo cáo nghiệp vụ miền)",
         "is_correct": false
       },
       {
-        "answer_text": "Unit Testing Plan (unit test)",
+        "answer_text": "Unit Testing Plan (Kế hoạch kiểm thử đơn vị)",
         "is_correct": false
       },
       {
-        "answer_text": "Domain Expert (domain expert)",
+        "answer_text": "Domain Expert (Chuyên gia nghiệp vụ)",
         "is_correct": false
       }
     ],
@@ -195,7 +195,7 @@
         "is_correct": false
       },
       {
-        "answer_text": "Domain Expert (domain expert)",
+        "answer_text": "Domain Expert (Chuyên gia nghiệp vụ (domain expert))",
         "is_correct": false
       },
       {
@@ -233,11 +233,11 @@
     "question_type": "single_answer_question",
     "answers": [
       {
-        "answer_text": "Testing array bounds (array bounds)",
+        "answer_text": "Testing array bounds (Kiểm thử giới hạn mảng (array bounds))",
         "is_correct": false
       },
       {
-        "answer_text": "Test loop boundaries for off-by-one errors (off-by-one)",
+        "answer_text": "Test loop boundaries for off-by-one errors (Kiểm thử biên vòng lặp cho lỗi lệch một đơn vị (off-by-one))",
         "is_correct": false
       },
       {
@@ -275,19 +275,19 @@
     "question_type": "single_answer_question",
     "answers": [
       {
-        "answer_text": "Unit Testing (unit test)",
+        "answer_text": "Unit Testing (Kiểm thử đơn vị (unit test))",
         "is_correct": false
       },
       {
-        "answer_text": "Design Verification Testing (Design Verification Testing)",
+        "answer_text": "Design Verification Testing (Kiểm thử xác minh thiết kế (Design Verification Testing))",
         "is_correct": true
       },
       {
-        "answer_text": "System Validation Testing (System Validation Testing)",
+        "answer_text": "System Validation Testing (Kiểm thử thẩm định hệ thống (System Validation Testing))",
         "is_correct": false
       },
       {
-        "answer_text": "Functional Testing (Functional Testing)",
+        "answer_text": "Functional Testing (Kiểm thử chức năng (Functional Testing))",
         "is_correct": false
       }
     ],
@@ -333,7 +333,7 @@
         "is_correct": false
       },
       {
-        "answer_text": "Loop Invariants (Loop Invariants)",
+        "answer_text": "Loop Invariants (Bất biến vòng lặp (Loop Invariants))",
         "is_correct": true
       },
       {
@@ -350,7 +350,7 @@
     "question_type": "single_answer_question",
     "answers": [
       {
-        "answer_text": "Open defects (Open defects)",
+        "answer_text": "Open defects (Các lỗi đang mở (Open defects))",
         "is_correct": false
       },
       {
@@ -434,19 +434,19 @@
     "question_type": "single_answer_question",
     "answers": [
       {
-        "answer_text": "Risk mitigation (Risk mitigation)",
+        "answer_text": "Risk mitigation (Giảm thiểu rủi ro (Risk mitigation))",
         "is_correct": true
       },
       {
-        "answer_text": "Risk analysis (Risk analysis)",
+        "answer_text": "Risk analysis (Phân tích rủi ro (Risk analysis))",
         "is_correct": false
       },
       {
-        "answer_text": "Risk testing (Risk testing)",
+        "answer_text": "Risk testing (Kiểm thử rủi ro (Risk testing))",
         "is_correct": false
       },
       {
-        "answer_text": "Risk equation (Risk equation)",
+        "answer_text": "Risk equation (Phương trình rủi ro (Risk equation))",
         "is_correct": false
       }
     ],
@@ -484,19 +484,19 @@
     "question_type": "single_answer_question",
     "answers": [
       {
-        "answer_text": "Risk mitigation (Risk mitigation)",
+        "answer_text": "Risk mitigation (Giảm thiểu rủi ro (Risk mitigation))",
         "is_correct": false
       },
       {
-        "answer_text": "Risk appetite (Risk appetite)",
+        "answer_text": "Risk appetite (Mức độ chấp nhận rủi ro (Risk appetite))",
         "is_correct": true
       },
       {
-        "answer_text": "Risk impact (Risk impact)",
+        "answer_text": "Risk impact (Tác động rủi ro (Risk impact))",
         "is_correct": false
       },
       {
-        "answer_text": "Risk equation (Risk equation)",
+        "answer_text": "Risk equation (Phương trình rủi ro (Risk equation))",
         "is_correct": false
       }
     ],
@@ -542,7 +542,7 @@
         "is_correct": false
       },
       {
-        "answer_text": "Motivation (Motivation)",
+        "answer_text": "Motivation (Động lực (Motivation))",
         "is_correct": true
       },
       {
@@ -563,11 +563,11 @@
     "question_type": "single_answer_question",
     "answers": [
       {
-        "answer_text": "Risk analysis (Risk analysis)",
+        "answer_text": "Risk analysis (Phân tích rủi ro (Risk analysis))",
         "is_correct": false
       },
       {
-        "answer_text": "Risk testing (Risk testing)",
+        "answer_text": "Risk testing (Kiểm thử rủi ro (Risk testing))",
         "is_correct": false
       },
       {
@@ -575,11 +575,11 @@
         "is_correct": false
       },
       {
-        "answer_text": "Risk mitigation (Risk mitigation)",
+        "answer_text": "Risk mitigation (Giảm thiểu rủi ro (Risk mitigation))",
         "is_correct": true
       },
       {
-        "answer_text": "Risk Appetite (Risk appetite)",
+        "answer_text": "Risk Appetite (Mức độ chấp nhận rủi ro (Risk appetite))",
         "is_correct": false
       }
     ],
@@ -626,23 +626,23 @@
     "question_type": "single_answer_question",
     "answers": [
       {
-        "answer_text": "Analyze (Analyze)",
+        "answer_text": "Analyze (Phân tích (Analyze))",
         "is_correct": false
       },
       {
-        "answer_text": "Report (Report)",
+        "answer_text": "Report (Báo cáo (Report))",
         "is_correct": false
       },
       {
-        "answer_text": "Track status (Track status)",
+        "answer_text": "Track status (Theo dõi trạng thái (Track status))",
         "is_correct": false
       },
       {
-        "answer_text": "Retest bug (Retest bug)",
+        "answer_text": "Retest bug (Kiểm thử lại lỗi (Retest bug))",
         "is_correct": false
       },
       {
-        "answer_text": "Close bug (Close bug)",
+        "answer_text": "Close bug (Đóng lỗi (Close bug))",
         "is_correct": false
       },
       {
@@ -659,7 +659,7 @@
     "question_type": "single_answer_question",
     "answers": [
       {
-        "answer_text": "Test (Test)",
+        "answer_text": "Test (Kiểm thử (Test))",
         "is_correct": false
       },
       {
@@ -667,7 +667,7 @@
         "is_correct": false
       },
       {
-        "answer_text": "Product (Product)",
+        "answer_text": "Product (Sản phẩm (Product))",
         "is_correct": false
       },
       {
@@ -797,7 +797,7 @@
     "question_type": "single_answer_question",
     "answers": [
       {
-        "answer_text": "Identification Information (ID)",
+        "answer_text": "Identification Information (Thông tin nhận dạng (ID))",
         "is_correct": false
       },
       {
@@ -805,7 +805,7 @@
         "is_correct": false
       },
       {
-        "answer_text": "Status Indicator (Status Indicator)",
+        "answer_text": "Status Indicator (Chỉ báo trạng thái (Status Indicator))",
         "is_correct": false
       },
       {
@@ -834,7 +834,7 @@
     "question_type": "single_answer_question",
     "answers": [
       {
-        "answer_text": "Identification Information (ID)",
+        "answer_text": "Identification Information (Thông tin nhận dạng (ID))",
         "is_correct": true
       },
       {
@@ -842,7 +842,7 @@
         "is_correct": false
       },
       {
-        "answer_text": "Status Indicator (Status Indicator)",
+        "answer_text": "Status Indicator (Chỉ báo trạng thái (Status Indicator))",
         "is_correct": false
       },
       {
@@ -867,7 +867,7 @@
     "question_type": "single_answer_question",
     "answers": [
       {
-        "answer_text": "Identification Information (ID)",
+        "answer_text": "Identification Information (Thông tin nhận dạng (ID))",
         "is_correct": false
       },
       {
@@ -875,7 +875,7 @@
         "is_correct": true
       },
       {
-        "answer_text": "Status Indicator (Status Indicator)",
+        "answer_text": "Status Indicator (Chỉ báo trạng thái (Status Indicator))",
         "is_correct": false
       },
       {
@@ -900,7 +900,7 @@
     "question_type": "single_answer_question",
     "answers": [
       {
-        "answer_text": "Identification Information (ID)",
+        "answer_text": "Identification Information (Thông tin nhận dạng (ID))",
         "is_correct": false
       },
       {
@@ -908,7 +908,7 @@
         "is_correct": false
       },
       {
-        "answer_text": "Status Indicator (Status Indicator)",
+        "answer_text": "Status Indicator (Chỉ báo trạng thái (Status Indicator))",
         "is_correct": true
       },
       {
@@ -979,7 +979,7 @@
         "is_correct": true
       },
       {
-        "answer_text": "Trivial (Trivial)",
+        "answer_text": "Trivial (Lỗi nhỏ / Không đáng kể)",
         "is_correct": false
       }
     ],
@@ -1004,7 +1004,7 @@
         "is_correct": false
       },
       {
-        "answer_text": "Trivial (Trivial)",
+        "answer_text": "Trivial (Lỗi nhỏ / Không đáng kể)",
         "is_correct": false
       }
     ],
@@ -1017,23 +1017,23 @@
     "question_type": "single_answer_question",
     "answers": [
       {
-        "answer_text": "Not repeatable (Not repeatable)",
+        "answer_text": "Not repeatable (Không thể tái hiện (Not repeatable))",
         "is_correct": false
       },
       {
-        "answer_text": "Do not fix (Do not fix)",
+        "answer_text": "Do not fix (Không sửa (Do not fix))",
         "is_correct": true
       },
       {
-        "answer_text": "Duplicate (Duplicate)",
+        "answer_text": "Duplicate (Trùng lặp (Duplicate))",
         "is_correct": false
       },
       {
-        "answer_text": "Not a problem (Not a problem)",
+        "answer_text": "Not a problem (Không phải là lỗi (Not a problem))",
         "is_correct": false
       },
       {
-        "answer_text": "Deferred (Deferred)",
+        "answer_text": "Deferred (Trì hoãn (Deferred))",
         "is_correct": false
       }
     ],
@@ -1105,15 +1105,15 @@
     "question_type": "single_answer_question",
     "answers": [
       {
-        "answer_text": "Track (Track)",
+        "answer_text": "Track (Theo dõi (Track))",
         "is_correct": false
       },
       {
-        "answer_text": "Retest (Retest)",
+        "answer_text": "Retest (Kiểm thử lại (Retest))",
         "is_correct": false
       },
       {
-        "answer_text": "Close (Close)",
+        "answer_text": "Close (Đóng (Close))",
         "is_correct": true
       }
     ],
