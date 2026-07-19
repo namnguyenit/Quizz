@@ -1,0 +1,28 @@
+{
+  "exam_id": "eng-listening-demo",
+  "title": "ENGLISH LISTENING TEST DEMO",
+  "parts": {
+    "reading": [
+      {
+        "reading_set_id": "lis-demo-set1",
+        "type": "listening_comprehension",
+        "title": "Conversation about Weekend Plans",
+        "reading_passage": "Listen to the conversation between two friends discussing their plans for the weekend.",
+        "audio": "./audio/weekend_plans.mp3",
+        "questions": [
+          {
+            "question_id": "lis-demo-q1",
+            "question_text": "Where are they planning to go on Saturday morning?",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "To the beach", "is_correct": false },
+              { "answer_text": "To the local library", "is_correct": false },
+              { "answer_text": "To the newly opened art museum", "is_correct": true },
+              { "answer_text": "To the cinema", "is_correct": false }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

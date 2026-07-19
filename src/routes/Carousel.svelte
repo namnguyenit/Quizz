@@ -2,6 +2,7 @@
 	import { DEBUG } from '$lib/config';
 	import QuizCard from './QuizCard.svelte';
 	import ReadingQuestionPanel from './ReadingQuestionPanel.svelte';
+	import AudioPlayer from '$lib/components/AudioPlayer.svelte';
 	import { pageState, favorites, appState } from './global.svelte';
 
 	interface CurrentQuestion {
@@ -44,6 +45,16 @@
 		return (pageState.quizData[idx]?.section as string | undefined) === 'reading';
 	}
 
+	function hasAudio(idx: number): boolean {
+		return !!pageState.quizData[idx]?.audio_url;
+	}
+
+	function isSplitLayout(idx: number): boolean {
+		const q = pageState.quizData[idx];
+		if (!q) return false;
+		return q.section === 'reading' || q.section === 'listening' || !!q.audio_url || !!q.reading_passage;
+	}
+
 	/* Store shuffled answers and mapping for each question index */
 	let shuffledAnswers = $state<{ [idx: number]: { answer_text: string }[] }>({});
 	let shuffledIndices = $state<{ [idx: number]: number[] }>({});
@@ -67,6 +78,20 @@
 		const shuffled = shuffleArray(indices);
 		shuffledAnswers[idx] = shuffled.map((i) => answers[i]);
 		shuffledIndices[idx] = shuffled;
+	});
+
+	// Auto-adjust split height based on current question contents (listening vs reading)
+	$effect(() => {
+		const q = pageState.quizData[pageState.current];
+		if (q) {
+			if (q.audio_url && !q.reading_passage) {
+				// Only audio: make upper panel compact (e.g. 22%)
+				splitPercentage = 22;
+			} else if (q.reading_passage) {
+				// Has reading passage: set to standard split (e.g. 45%)
+				splitPercentage = 45;
+			}
+		}
 	});
 
 	function handleToggleFavorite(idx: number) {
@@ -156,15 +181,15 @@
 	}
 
 	const currentReadingPassage = $derived(
-		isReadingQuestion(pageState.current)
-			? (pageState.quizData[pageState.current]?.reading_passage as string | undefined) || ''
-			: ''
+		(pageState.quizData[pageState.current]?.reading_passage as string | undefined) || ''
 	);
 
 	const currentReadingTitle = $derived(
-		isReadingQuestion(pageState.current)
-			? (pageState.quizData[pageState.current]?.reading_title as string | undefined) || ''
-			: ''
+		(pageState.quizData[pageState.current]?.reading_title as string | undefined) || ''
+	);
+
+	const currentAudioUrl = $derived(
+		(pageState.quizData[pageState.current]?.audio_url as string | undefined) || ''
 	);
 
 	// Resizing logic for reading layout
@@ -189,8 +214,8 @@
 		const rect = containerRef.getBoundingClientRect();
 		// Compute new percentage based on the relative Y position within the parent container
 		let newP = ((clientY - rect.top) / rect.height) * 100;
-		// Constrain between 15% and 85%
-		splitPercentage = Math.max(15, Math.min(newP, 85));
+		// Constrain between 5% and 85%
+		splitPercentage = Math.max(5, Math.min(newP, 85));
 	}
 
 	function stopResize() {
@@ -218,45 +243,57 @@
 
 <!-- Carousel Component -->
 {#if pageState.quizData.length > 0}
-	{#if isReadingQuestion(pageState.current)}
+	{#if isSplitLayout(pageState.current)}
 		<div class="w-full h-full flex flex-col gap-0" bind:this={containerRef} style="user-select: {isResizing ? 'none' : 'auto'};">
-			<div class="bg-[var(--bg-surface)] flex-shrink-0 relative group" style="height: {splitPercentage}%;">
-				<div class="h-full w-full overflow-y-auto main-scrollbar p-4 md:p-6 pb-16">
-					{#if currentReadingTitle}
-						<h3 class="text-[var(--color-primary)] font-semibold mb-3">{currentReadingTitle}</h3>
-					{/if}
-					<div 
-						class="whitespace-pre-wrap leading-relaxed text-[var(--text-primary)] transition-all duration-200"
-						style="font-size: {readingTextSize}px;"
-					>
-						{currentReadingPassage}
+			<div class="bg-[var(--bg-surface)] flex-shrink-0 relative group flex flex-col overflow-hidden" style="height: {splitPercentage}%;">
+				{#if currentAudioUrl}
+					<div class="p-4 border-b border-[var(--border)] bg-[var(--bg-surface)]/50 shrink-0 shadow-sm">
+						<AudioPlayer src={currentAudioUrl} title={currentReadingTitle || "Listening Exercise"} />
 					</div>
-				</div>
+				{/if}
 
-				<!-- Zoom controls -->
-				<div class="absolute bottom-2 right-4 flex items-center gap-1.5 bg-[var(--bg-primary)]/90 backdrop-blur-md p-1.5 rounded-lg border border-[var(--border)] shadow-md opacity-60 hover:opacity-100 group-hover:opacity-100 transition-opacity z-10">
-					<button 
-						type="button"
-						class="w-8 h-8 flex items-center justify-center rounded-md hover:bg-[var(--bg-hover)] text-[var(--text-primary)] hover:text-[var(--color-primary)] transition-colors disabled:opacity-30 disabled:hover:bg-transparent cursor-pointer font-semibold"
-						onclick={decreaseTextSize}
-						disabled={readingTextSize <= 12}
-						aria-label="Decrease text size"
-						title="Decrease text size"
-					>
-						<span class="text-sm">A-</span>
-					</button>
-					<div class="w-px h-4 bg-[var(--border)]"></div>
-					<button 
-						type="button"
-						class="w-8 h-8 flex items-center justify-center rounded-md hover:bg-[var(--bg-hover)] text-[var(--text-primary)] hover:text-[var(--color-primary)] transition-colors disabled:opacity-30 disabled:hover:bg-transparent cursor-pointer font-bold"
-						onclick={increaseTextSize}
-						disabled={readingTextSize >= 36}
-						aria-label="Increase text size"
-						title="Increase text size"
-					>
-						<span class="text-base">A+</span>
-					</button>
-				</div>
+				{#if currentReadingTitle || currentReadingPassage}
+					<div class="flex-1 overflow-y-auto main-scrollbar p-4 md:p-6 pb-16">
+						{#if currentReadingTitle && !currentAudioUrl}
+							<h3 class="text-[var(--color-primary)] font-semibold mb-3">{currentReadingTitle}</h3>
+						{/if}
+						{#if currentReadingPassage}
+							<div 
+								class="whitespace-pre-wrap leading-relaxed text-[var(--text-primary)] transition-all duration-200"
+								style="font-size: {readingTextSize}px;"
+							>
+								{currentReadingPassage}
+							</div>
+						{/if}
+					</div>
+				{/if}
+
+				{#if currentReadingPassage}
+					<!-- Zoom controls -->
+					<div class="absolute bottom-2 right-4 flex items-center gap-1.5 bg-[var(--bg-primary)]/90 backdrop-blur-md p-1.5 rounded-lg border border-[var(--border)] shadow-md opacity-60 hover:opacity-100 group-hover:opacity-100 transition-opacity z-10">
+						<button 
+							type="button"
+							class="w-8 h-8 flex items-center justify-center rounded-md hover:bg-[var(--bg-hover)] text-[var(--text-primary)] hover:text-[var(--color-primary)] transition-colors disabled:opacity-30 disabled:hover:bg-transparent cursor-pointer font-semibold"
+							onclick={decreaseTextSize}
+							disabled={readingTextSize <= 12}
+							aria-label="Decrease text size"
+							title="Decrease text size"
+						>
+							<span class="text-sm">A-</span>
+						</button>
+						<div class="w-px h-4 bg-[var(--border)]"></div>
+						<button 
+							type="button"
+							class="w-8 h-8 flex items-center justify-center rounded-md hover:bg-[var(--bg-hover)] text-[var(--text-primary)] hover:text-[var(--color-primary)] transition-colors disabled:opacity-30 disabled:hover:bg-transparent cursor-pointer font-bold"
+							onclick={increaseTextSize}
+							disabled={readingTextSize >= 36}
+							aria-label="Increase text size"
+							title="Increase text size"
+						>
+							<span class="text-base">A+</span>
+						</button>
+					</div>
+				{/if}
 			</div>
 
 			<!-- Draggable splitter -->

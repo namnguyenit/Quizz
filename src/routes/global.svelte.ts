@@ -30,6 +30,7 @@ export type Quiz = {
 	reading_type?: string | null;
 	reading_title?: string | null;
 	reading_passage?: string | null;
+	audio_url?: string | null;
 	reading_order?: number | null;
 	question_order?: number | null;
 	[key: string]: unknown;

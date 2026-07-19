@@ -1,0 +1,584 @@
+{
+  "exam_id": "eng-mock-canvas-01",
+  "title": "ĐỀ THI TIẾNG ANH CANVAS - 50 CÂU",
+  "parts": {
+    "mcq": [
+      {
+        "question_id": "canvas-mc-011",
+        "question_text": "___ use green as their symbol. Obviously, this color is associated with nature.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "Environmentalists", "is_correct": true },
+          { "answer_text": "Pharmacists", "is_correct": false },
+          { "answer_text": "Receptionists", "is_correct": false },
+          { "answer_text": "Novelists", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "canvas-mc-012",
+        "question_text": "You never get a second chance to make a good first ___ .",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "energy", "is_correct": false },
+          { "answer_text": "impression", "is_correct": true },
+          { "answer_text": "emotion", "is_correct": false },
+          { "answer_text": "affection", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "canvas-mc-013",
+        "question_text": "The Colombian teacher has brought a fresh ___ to the subject.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "statue", "is_correct": false },
+          { "answer_text": "wage", "is_correct": false },
+          { "answer_text": "flow", "is_correct": false },
+          { "answer_text": "perspective", "is_correct": true }
+        ]
+      },
+      {
+        "question_id": "canvas-mc-014",
+        "question_text": "The ______ of taiko is that it’s not about drumming. It’s the unity of the drummers.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "beat", "is_correct": false },
+          { "answer_text": "similarity", "is_correct": false },
+          { "answer_text": "identity", "is_correct": false },
+          { "answer_text": "essence", "is_correct": true }
+        ]
+      },
+      {
+        "question_id": "canvas-mc-015",
+        "question_text": "The eyes are often a person’s most interesting facial __ .",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "feature", "is_correct": true },
+          { "answer_text": "figure", "is_correct": false },
+          { "answer_text": "signal", "is_correct": false },
+          { "answer_text": "character", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "canvas-mc-016",
+        "question_text": "After 30 minutes of swimming, we reached the river bank __ .",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "safely", "is_correct": true },
+          { "answer_text": "suddenly", "is_correct": false },
+          { "answer_text": "politely", "is_correct": false },
+          { "answer_text": "immediately", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "canvas-mc-017",
+        "question_text": "He put the parrot in a cage, but it _ .",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "got out", "is_correct": true },
+          { "answer_text": "took up", "is_correct": false },
+          { "answer_text": "gave away", "is_correct": false },
+          { "answer_text": "came across", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "canvas-mc-018",
+        "question_text": "One per cent of the world’s population owns forty per cent of the world’s ____ .",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "wealth", "is_correct": true },
+          { "answer_text": "poverty", "is_correct": false },
+          { "answer_text": "income", "is_correct": false },
+          { "answer_text": "salary", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "canvas-mc-019",
+        "question_text": "Work that is ___ or involves handling small objects will be at risk of automation.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "fast", "is_correct": false },
+          { "answer_text": "exciting", "is_correct": false },
+          { "answer_text": "lucky", "is_correct": false },
+          { "answer_text": "repetitive", "is_correct": true }
+        ]
+      },
+      {
+        "question_id": "canvas-mc-020",
+        "question_text": "I have been working for the company for a long time as they offered me a generous __ . So I don’t have to worry much about my retirement.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "working hours", "is_correct": false },
+          { "answer_text": "paid holiday", "is_correct": false },
+          { "answer_text": "pension scheme", "is_correct": true },
+          { "answer_text": "promotion opportunities", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "canvas-mc-021",
+        "question_text": "The truth is that the sun always _ in the east.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "rises", "is_correct": true },
+          { "answer_text": "rise", "is_correct": false },
+          { "answer_text": "rose", "is_correct": false },
+          { "answer_text": "rising", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "canvas-mc-022",
+        "question_text": "I_ for my sunglasses – Have you seen it?",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "looks", "is_correct": false },
+          { "answer_text": "am looking", "is_correct": true },
+          { "answer_text": "look", "is_correct": false },
+          { "answer_text": "looked", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "canvas-mc-023",
+        "question_text": "I _ really hard all morning, so I want to watch movies now.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "worked", "is_correct": false },
+          { "answer_text": "am working", "is_correct": false },
+          { "answer_text": "have worked", "is_correct": true },
+          { "answer_text": "work", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "canvas-mc-024",
+        "question_text": "Have you been to the national museum_?",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "already", "is_correct": false },
+          { "answer_text": "just", "is_correct": false },
+          { "answer_text": "yet", "is_correct": true },
+          { "answer_text": "ever", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "canvas-mc-025",
+        "question_text": "“What time _ our sales manager?” - “At ten o’clock yesterday morning.”",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "met", "is_correct": false },
+          { "answer_text": "meets", "is_correct": false },
+          { "answer_text": "do you met", "is_correct": false },
+          { "answer_text": "did you meet", "is_correct": true }
+        ]
+      },
+      {
+        "question_id": "canvas-mc-026",
+        "question_text": "Could you tell me when _?",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "do the shop close", "is_correct": false },
+          { "answer_text": "does the shop close", "is_correct": false },
+          { "answer_text": "the shop closes", "is_correct": true },
+          { "answer_text": "the shop close", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "canvas-mc-027",
+        "question_text": "What _him a few days before he went on a business trip?",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "are the company offering", "is_correct": false },
+          { "answer_text": "had the company offered", "is_correct": true },
+          { "answer_text": "does the company offer", "is_correct": false },
+          { "answer_text": "did the company offer", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "canvas-mc-028",
+        "question_text": "Have you got any plans after graduation? – Yes, I _ some volunteering work.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "might do", "is_correct": false },
+          { "answer_text": "do", "is_correct": false },
+          { "answer_text": "am going to do", "is_correct": true },
+          { "answer_text": "will do", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "canvas-mc-029",
+        "question_text": "The changes of our office’s location are not important. They _ affect our work.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "mightn’t", "is_correct": true },
+          { "answer_text": "needn’t", "is_correct": false },
+          { "answer_text": "will", "is_correct": false },
+          { "answer_text": "would", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "canvas-mc-030",
+        "question_text": "Is it true that Anna is leaving? – Yes, she _married next month.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "got", "is_correct": false },
+          { "answer_text": "will", "is_correct": false },
+          { "answer_text": "gets", "is_correct": false },
+          { "answer_text": "is getting", "is_correct": true }
+        ]
+      },
+      {
+        "question_id": "canvas-mc-041",
+        "question_text": "Peter/always/talk/during/movie/. /It/so/annoying/!",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "Peter always talked during the movie. It is so annoying!", "is_correct": false },
+          { "answer_text": "Peter always is talking during the movie. It is so annoying!", "is_correct": false },
+          { "answer_text": "Peter has always talk during the movie. It is so annoying!", "is_correct": false },
+          { "answer_text": "Peter is always talking during the movie. It is so annyoing!", "is_correct": true }
+        ]
+      },
+      {
+        "question_id": "canvas-mc-042",
+        "question_text": "He/win/local/competition/since/he/learn/ski/?",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "Has he won any local competition since he learned to ski?", "is_correct": true },
+          { "answer_text": "Is he winning many local competitions since he has learned to ski?", "is_correct": false },
+          { "answer_text": "Did he win any local competition since he has learned to ski?", "is_correct": false },
+          { "answer_text": "Does he win many local competitions since he learned to ski?", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "canvas-mc-043",
+        "question_text": "When/first/meet/Mark/,/he/work/international/company/Paris.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "When I first met Mark, he was working for an international company in Paris.", "is_correct": true },
+          { "answer_text": "When I first meet Mark, he has worked for an international company in Paris.", "is_correct": false },
+          { "answer_text": "When I first met Mark, he is working for an international company in Paris.", "is_correct": false },
+          { "answer_text": "When I first meet Mark, he was working for an international company in Paris.", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "canvas-mc-044",
+        "question_text": "We/not/probably/send/letter/old/friend/future.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "We don’t probably send a letter to our old friend in the future.", "is_correct": false },
+          { "answer_text": "We probably won’t send a letter to our old friend in the future.", "is_correct": true },
+          { "answer_text": "We probably might not send a letter to our old friend in the future.", "is_correct": false },
+          { "answer_text": "We were not probably sending a letter to our old friend in the future.", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "canvas-mc-045",
+        "question_text": "I/not/know/she/call/./I/call/her/back/now/.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "I don’t know she called. I will call her back now.", "is_correct": false },
+          { "answer_text": "I don’t know she had called. I call her back now.", "is_correct": false },
+          { "answer_text": "I didn’t know she had called. I will call her back now.", "is_correct": true },
+          { "answer_text": "I didn’t know she has called. I call her back now.", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "canvas-mc-046",
+        "question_text": "The travel company booked everything for us on our family trip to Singapore.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "On our trip to Singapore, everything is booked by the travel company.", "is_correct": false },
+          { "answer_text": "The travel company reserved hotel rooms and flight tickets to Singapore for our family.", "is_correct": false },
+          { "answer_text": "Our family trip to Singapore was completely booked by the travel company.", "is_correct": true },
+          { "answer_text": "The travel company provided me with a package holiday to Singapore.", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "canvas-mc-047",
+        "question_text": "They have had box office success despite being unusual films.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "They have had box office success in spite of unusual films.", "is_correct": false },
+          { "answer_text": "They are unusual films, in contrast, they have box office success.", "is_correct": false },
+          { "answer_text": "Although they have had box office success, they are unusual films.", "is_correct": false },
+          { "answer_text": "They have had box office success although they are unusual films.", "is_correct": true }
+        ]
+      },
+      {
+        "question_id": "canvas-mc-048",
+        "question_text": "I consider myself to be hard-working and organized in my work.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "People agree that I am hard-working and organized in my work.", "is_correct": false },
+          { "answer_text": "I am considered to work hard and organize work with myself.", "is_correct": false },
+          { "answer_text": "In my opinion, I am hard-working and well-organized at work.", "is_correct": true },
+          { "answer_text": "It is said that I am hard-working and organized in my work.", "is_correct": false }
+        ]
+      },
+      {
+        "question_id": "canvas-mc-049",
+        "question_text": "The ship and several others sank in 1671 when they hit rocks.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "The ship and several others sank in 1671 until hitting rocks.", "is_correct": false },
+          { "answer_text": "After they sank in 1671, the ship and several others hit rocks.", "is_correct": false },
+          { "answer_text": "Not until they sank in 1671 did the ship and several others hit rocks.", "is_correct": false },
+          { "answer_text": "The ship and several others sank in 1671 after hitting rocks.", "is_correct": true }
+        ]
+      },
+      {
+        "question_id": "canvas-mc-050",
+        "question_text": "Elizabeth is meeting her new boss on Wednesday.",
+        "question_type": "single_answer_question",
+        "answers": [
+          { "answer_text": "Every Wednesday, Elizabeth hangs out with her boss.", "is_correct": false },
+          { "answer_text": "As usual, Elizabeth sees her new boss on Wednesday.", "is_correct": false },
+          { "answer_text": "Elizabeth has an appointment with her new boss on Wednesday.", "is_correct": true },
+          { "answer_text": "Elizabeth may have a meeting with her new boss on Wednesday.", "is_correct": false }
+        ]
+      }
+    ],
+    "reading": [
+      {
+        "reading_set_id": "canvas-lis-part1",
+        "type": "listening_comprehension",
+        "title": "Part 1: Listening (Jack Williams interview about Swanton)",
+        "reading_passage": "You will hear a radio interview with Jack Williams, who is talking about a town called Swanton.\nListen and choose the correct answer A, B or C. You will hear the recording twice.",
+        "audio": "https://canvas.phenikaa-uni.edu.vn/courses/26643/files/4111058/download",
+        "questions": [
+          {
+            "question_id": "canvas-lis-001",
+            "question_text": "Where is the town of Swanton located?",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "on a hill", "is_correct": false },
+              { "answer_text": "near the sea", "is_correct": true },
+              { "answer_text": "by a lake", "is_correct": false }
+            ]
+          },
+          {
+            "question_id": "canvas-lis-002",
+            "question_text": "What does Jack like most about living in Swanton?",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "There is interesting wildlife near the town.", "is_correct": false },
+              { "answer_text": "There are opportunities for climbing nearby.", "is_correct": true },
+              { "answer_text": "There is plenty of activity in the town.", "is_correct": false }
+            ]
+          },
+          {
+            "question_id": "canvas-lis-003",
+            "question_text": "What does Jack say about entertainment in Swanton?",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "Its football club has done well this year.", "is_correct": false },
+              { "answer_text": "music festival takes place in the town.", "is_correct": false },
+              { "answer_text": "An arts centre has recently opened.", "is_correct": true }
+            ]
+          },
+          {
+            "question_id": "canvas-lis-004",
+            "question_text": "Jack is worried about the environment of Swanton because",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "pollution has destroyed the plants in one area.", "is_correct": false },
+              { "answer_text": "the water in the river is dirty.", "is_correct": false },
+              { "answer_text": "there are few wild birds around today.", "is_correct": true }
+            ]
+          },
+          {
+            "question_id": "canvas-lis-005",
+            "question_text": "What does Jack say about the way Swanton has changed?",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "He is sorry that there are fewer jobs available.", "is_correct": false },
+              { "answer_text": "He preferred the town when it was smaller.", "is_correct": false },
+              { "answer_text": "He thinks it is a more interesting place.", "is_correct": true }
+            ]
+          }
+        ]
+      },
+      {
+        "reading_set_id": "canvas-lis-part2",
+        "type": "listening_comprehension",
+        "title": "Part 2: Listening (Sarah weather forecaster)",
+        "reading_passage": "You will hear a radio interview with an environmentalist called Jane.\nListen and choose the correct answer A, B or C. You will hear the recording twice.",
+        "audio": "https://canvas.phenikaa-uni.edu.vn/courses/26643/files/4111058/download",
+        "questions": [
+          {
+            "question_id": "canvas-lis-006",
+            "question_text": "How long has Sarah worked as a weather forecaster?",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "two years", "is_correct": false },
+              { "answer_text": "seven years", "is_correct": true },
+              { "answer_text": "thirty years", "is_correct": false }
+            ]
+          },
+          {
+            "question_id": "canvas-lis-007",
+            "question_text": "What does Sarah say about her job?",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "She works ten or twelve hours a day.", "is_correct": false },
+              { "answer_text": "She sometimes has to work at night.", "is_correct": true },
+              { "answer_text": "She enjoys getting up early.", "is_correct": false }
+            ]
+          },
+          {
+            "question_id": "canvas-lis-008",
+            "question_text": "When Sarah does the weather forecast,",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "she prepares it in advance.", "is_correct": true },
+              { "answer_text": "she sometimes forgets her words", "is_correct": false },
+              { "answer_text": "she worries about making a mistake.", "is_correct": false }
+            ]
+          },
+          {
+            "question_id": "canvas-lis-009",
+            "question_text": "Sarah’s husband",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "wants to move nearer his work.", "is_correct": false },
+              { "answer_text": "spends a lot of time travelling.", "is_correct": true },
+              { "answer_text": "works on the same days", "is_correct": false }
+            ]
+          },
+          {
+            "question_id": "canvas-lis-010",
+            "question_text": "Sarah is pleased because she",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "took part in a long race.", "is_correct": true },
+              { "answer_text": "has got her pilot’s licence.", "is_correct": false },
+              { "answer_text": "taught her husband to play tennis.", "is_correct": false }
+            ]
+          }
+        ]
+      },
+      {
+        "reading_set_id": "canvas-read-part5",
+        "type": "reading_comprehension",
+        "title": "Part 5: Rachel Martin's Skateboarding Story",
+        "reading_passage": "I've practised skateboarding for 18 months now, and I was the youngest person in a street skateboarding competition last year. I spend my free time at my town's new skatepark- I rarely stay at home and watch TV.\n\nBefore the new skatepark was built this year, the nearest skatepark was in a town 10 km away. Some of my older friends went there, but my mum wouldn't let me go because I wasn't old enough. The only place to skate was on the pavements, but then I fell and injured my arm. I wasn't popular with pedestrians either, so I stopped! Nowadays, though, I can use the new skatepark in the evenings - it's got huge lights, so you can use it even at night.\n\nWe've got a skatepark at our school now, too. It keeps us fit! The school skatepark is dangerous for smaller children like my little brother, though, as the teenage students also use their roller skates or ride their BMX bikes there. I guess they prefer it because the skatepark in town is pretty busy.\n\nI've always found schoolwork easy, but skateboarding is hard! My favourite trick is jumping over boxes. Doing things like that really makes you concentrate, which is a challenge, but it's something I really enjoy. My older sister works as a skateboard instructor, so one day I'd like to be like her. It's unusual for girls to skate around here, so although I love it, it's a bit lonely. I'd like more girls to join in!",
+        "questions": [
+          {
+            "question_id": "canvas-read-031",
+            "question_text": "In this text Rachel Martin",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "persuades young people to enter skateboarding competitions.", "is_correct": false },
+              { "answer_text": "describes the places for skateboarding in her area.", "is_correct": true },
+              { "answer_text": "compares skateboarding with other sports.", "is_correct": false },
+              { "answer_text": "explains what equipment is needed for skateboarding.", "is_correct": false }
+            ]
+          },
+          {
+            "question_id": "canvas-read-032",
+            "question_text": "Why was it hard for Rachel to go skateboarding last year?",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "She wasn’t allowed to go out in the evenings.", "is_correct": false },
+              { "answer_text": "None of her friends were able to go with her.", "is_correct": false },
+              { "answer_text": "She was worried she would hurt herself.", "is_correct": false },
+              { "answer_text": "There wasn’t a skatepark near enough to her house.", "is_correct": true }
+            ]
+          },
+          {
+            "question_id": "canvas-read-033",
+            "question_text": "What does Rachel say about the skatepark at her school?",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "It takes too many people away from other sports.", "is_correct": false },
+              { "answer_text": "It is more crowded than the skatepark in town.", "is_correct": false },
+              { "answer_text": "It is used for several different activities.", "is_correct": true },
+              { "answer_text": "It allows younger children to practise their skating.", "is_correct": false }
+            ]
+          },
+          {
+            "question_id": "canvas-read-034",
+            "question_text": "What does Rachel like about skateboarding?",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "getting the chance to be good at something", "is_correct": false },
+              { "answer_text": "learning new skills from her sister", "is_correct": false },
+              { "answer_text": "having to think carefully", "is_correct": true },
+              { "answer_text": "doing an activity with girls of her own age", "is_correct": false }
+            ]
+          },
+          {
+            "question_id": "canvas-read-035",
+            "question_text": "Which of the following might Rachel write in her diary?",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "Was skating on the pavement today when I fell and hurt my ankle. I’ve done that three times now.", "is_correct": false },
+              { "answer_text": "Couldn’t use school skatepark today - there were too many bikers. My little brother wanted to play there but it wasn’t safe for him.", "is_correct": true },
+              { "answer_text": "Didn’t feel like practising tonight, so stayed in and watched TV instead. That’s the fourth time this week!", "is_correct": false },
+              { "answer_text": "Did another competition today -I won, although I was the youngest. But then I have got two years’ experience.", "is_correct": false }
+            ]
+          }
+        ]
+      },
+      {
+        "reading_set_id": "canvas-read-part6",
+        "type": "reading_comprehension",
+        "title": "Part 6: Orbis organization story",
+        "reading_passage": "Orbis\nAn organisation which helps blind people\n\nOrbis is an organisation which helps blind people everywhere. It has built an eye hospital inside an aeroplane and flown it all over the world with an international medical team. Samantha Graham, a fourteen-year-old schoolgirl from England, went with the plane to Mongolia. Samantha tells the story of Eukhtuul, a young Mongolian girl.\n\n'Last year, when Eukhtuul was walking home from school, she was attacked by boys with sticks and her eyes were badly damaged. Dr Duffey, an Orbis doctor, said that without an operation she would never see again. I thought about all the everyday things I do that she couldn't, things like reading schoolbooks, watching television, seeing friends, and I realised how lucky I am.'\n\n'The Orbis team agreed to operate on Eukhtuul and I was allowed to watch, together with some Mongolian medical students. I prayed the operation would be successful. The next day I waited nervously with Eukhtuul while Dr Duffey removed her bandages. \"In six months your sight will be back to normal,\" he said. Eukhtuul smiled, her mother cried, and I had to wipe away some tears, too!'\n\n'Now Eukhtuul wants to study hard to become a doctor. Her whole future has changed, thanks to a simple operation. We should all think more about how much our sight means to us.'",
+        "questions": [
+          {
+            "question_id": "canvas-read-036",
+            "question_text": "What is the writer’s main purpose in writing this text?",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "to explain how sight can be lost", "is_correct": false },
+              { "answer_text": "to describe a dangerous trip", "is_correct": false },
+              { "answer_text": "to report a patient’s cure", "is_correct": true },
+              { "answer_text": "to warn against playing with sticks", "is_correct": false }
+            ]
+          },
+          {
+            "question_id": "canvas-read-037",
+            "question_text": "What can a reader learn about in this text?",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "the life of schoolchildren in Mongolia", "is_correct": false },
+              { "answer_text": "the difficulties for blind travellers", "is_correct": false },
+              { "answer_text": "the best way of studying medicine", "is_correct": false },
+              { "answer_text": "the international work of some eye doctors", "is_correct": true }
+            ]
+          },
+          {
+            "question_id": "canvas-read-038",
+            "question_text": "After meeting Eukhtuul, Samantha felt",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "proud of the doctor’s skill.", "is_correct": false },
+              { "answer_text": "angry about Eukhtuul’s experience.", "is_correct": false },
+              { "answer_text": "surprised by Eukhtuul’s courage.", "is_correct": false },
+              { "answer_text": "grateful for her own sight.", "is_correct": true }
+            ]
+          },
+          {
+            "question_id": "canvas-read-039",
+            "question_text": "What is the result of Eukhtuul’s operation?",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "Before she recovers, she will need another operation.", "is_correct": false },
+              { "answer_text": "She can see better but will never have normal eyes.", "is_correct": false },
+              { "answer_text": "She can already see perfectly again.", "is_correct": false },
+              { "answer_text": "After some time she will see as well as before.", "is_correct": true }
+            ]
+          },
+          {
+            "question_id": "canvas-read-040",
+            "question_text": "Which is the postcard Samantha wrote to an English friend?",
+            "question_type": "single_answer_question",
+            "answers": [
+              { "answer_text": "Make sure you take care of your eyes because they’re more valuable than you realise!", "is_correct": true },
+              { "answer_text": "I’ve visited a Mongolian hospital and watched local doctors do an operation.", "is_correct": false },
+              { "answer_text": "I’m staying with my friend Eukhtuul, while I’m sightseeing in Mongolia.", "is_correct": false },
+              { "answer_text": "You may have to fly a long way to have the operation you need, but the journey will be worth it.", "is_correct": false }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

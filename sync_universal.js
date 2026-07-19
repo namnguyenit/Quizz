@@ -1,7 +1,8 @@
-import { readdirSync, readFileSync, statSync } from 'fs';
-import { join, basename, extname } from 'path';
+import { readdirSync, readFileSync, statSync, writeFileSync, existsSync } from 'fs';
+import { join, basename, extname, dirname } from 'path';
 import { createClient } from '@libsql/client';
 import { config } from 'dotenv';
+import { v2 as cloudinary } from 'cloudinary';
 
 config();
 
@@ -19,6 +20,21 @@ const db = createClient({
 	url: process.env.TURSO_URL,
 	authToken: process.env.TURSO_AUTH_TOKEN
 });
+
+// --- Cloudinary Client ---
+let isCloudinaryConfigured = false;
+if (process.env.CLOUDINARY_CLOUD_NAME && process.env.CLOUDINARY_API_KEY && process.env.CLOUDINARY_API_SECRET) {
+	cloudinary.config({
+		cloud_name: process.env.CLOUDINARY_CLOUD_NAME,
+		api_key: process.env.CLOUDINARY_API_KEY,
+		api_secret: process.env.CLOUDINARY_API_SECRET,
+		secure: true
+	});
+	isCloudinaryConfigured = true;
+	console.log('☁️ Cloudinary is configured and ready.');
+} else {
+	console.log('⚠️ Cloudinary is not configured. Local audio files will not be uploaded.');
+}
 
 // --- Helpers ---
 function log(message, level = 'info') {
@@ -81,6 +97,7 @@ function parseQuizContent(filePath) {
 		const setType = set.type || 'reading_comprehension';
 		const setTitle = set.title || null;
 		const setPassage = set.passage || set.reading_passage || '';
+		const setAudio = set.audio_url || set.audio || null;
 		const questions = Array.isArray(set.questions) ? set.questions : [];
 
 		for (const [questionOrder, q] of questions.entries()) {
@@ -91,6 +108,7 @@ function parseQuizContent(filePath) {
 				reading_type: q.reading_type || setType,
 				reading_title: q.reading_title || setTitle,
 				reading_passage: q.reading_passage || setPassage,
+				audio_url: q.audio_url || q.audio || setAudio || null,
 				reading_order: readingOrder,
 				question_order: questionOrder
 			});
@@ -150,6 +168,7 @@ async function ensureTables() {
 			reading_type TEXT,
 			reading_title TEXT,
 			reading_passage TEXT,
+			audio_url TEXT,
 			reading_order INTEGER,
 			question_order INTEGER,
 			status TEXT DEFAULT 'active',
@@ -181,6 +200,7 @@ async function ensureTables() {
 		['reading_type', 'TEXT'],
 		['reading_title', 'TEXT'],
 		['reading_passage', 'TEXT'],
+		['audio_url', 'TEXT'],
 		['reading_order', 'INTEGER'],
 		['question_order', 'INTEGER'],
 		['code', 'TEXT']
@@ -228,7 +248,7 @@ async function getExistingCollections() {
 
 async function getExistingQuestions() {
 	const result = await db.execute(
-		'SELECT question_id, collection_id, question_text, question_type, answers, image_url, code, section, reading_set_id, reading_type, reading_title, reading_passage, reading_order, question_order FROM questions'
+		'SELECT question_id, collection_id, question_text, question_type, answers, image_url, code, section, reading_set_id, reading_type, reading_title, reading_passage, audio_url, reading_order, question_order FROM questions'
 	);
 	return new Map(result.rows.map((row) => [row.question_id, row]));
 }
@@ -259,7 +279,7 @@ async function upsertCollection(id, subjectId, name, displayOrder, type = 'quiz'
 async function upsertQuestion(q, collectionId) {
 	if (FLAGS.dryRun) return;
 	await db.execute({
-		sql: `INSERT OR REPLACE INTO questions (question_id, collection_id, question_text, question_type, answers, image_url, code, section, reading_set_id, reading_type, reading_title, reading_passage, reading_order, question_order, status) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`,
+		sql: `INSERT OR REPLACE INTO questions (question_id, collection_id, question_text, question_type, answers, image_url, code, section, reading_set_id, reading_type, reading_title, reading_passage, audio_url, reading_order, question_order, status) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`,
 		args: [
 			q.question_id,
 			collectionId,
@@ -273,6 +293,7 @@ async function upsertQuestion(q, collectionId) {
 			q.reading_type || null,
 			q.reading_title || null,
 			q.reading_passage || null,
+			q.audio_url || null,
 			q.reading_order ?? null,
 			q.question_order ?? null,
 			'active'
@@ -320,8 +341,29 @@ async function deleteFlashcard(id) {
 	await db.execute({ sql: 'DELETE FROM flashcards WHERE id = ?', args: [id] });
 }
 
+async function uploadToCloudinary(filePath, publicId) {
+	if (!isCloudinaryConfigured) {
+		log(`  [WARN] Cloudinary is not configured. Skipping upload for: ${filePath}`);
+		return null;
+	}
+	try {
+		log(`  [CLOUD] Uploading ${filePath} as publicId: ${publicId}...`);
+		const result = await cloudinary.uploader.upload(filePath, {
+			resource_type: 'video', // Audio is video type in Cloudinary
+			folder: 'quiz_audio',
+			public_id: publicId,
+			overwrite: true
+		});
+		log(`  [CLOUD] Uploaded successfully: ${result.secure_url}`);
+		return result.secure_url;
+	} catch (err) {
+		console.error(`  [CLOUD ERROR] Failed to upload ${filePath}:`, err.message);
+		return null;
+	}
+}
+
 // --- File Scanning ---
-function scanSubjectsDirectory() {
+async function scanSubjectsDirectory() {
 	const subjectsDir = 'subjects';
 	const result = {
 		subjects: new Map(),
@@ -363,6 +405,101 @@ function scanSubjectsDirectory() {
 			const displayOrder = match ? parseInt(match[1], 10) : 0;
 			const quizName = match ? match[2].replace(/-/g, ' ') : fileName.replace(/-/g, ' ');
 			const collectionId = `${subjectId}-${fileName}`;
+
+			// Process and upload local audio files to Cloudinary
+			const content = readFileSync(quizPath, 'utf8');
+			let raw;
+			try {
+				raw = JSON.parse(content);
+			} catch (e) {
+				console.error(`\n❌ LỖI NGHIÊM TRỌNG: File JSON bị hỏng hoặc sai định dạng!`);
+				console.error(`   👉 Đường dẫn file: ${quizPath}`);
+				console.error(`   👉 Ngoại lệ: ${e.message}\n`);
+				throw e;
+			}
+			let isModified = false;
+
+			const checkAndUpload = async (audioVal, refId) => {
+				if (!audioVal || typeof audioVal !== 'string') return null;
+				if (audioVal.startsWith('http://') || audioVal.startsWith('https://')) {
+					return audioVal;
+				}
+				const relativeDir = dirname(quizPath);
+				let resolvedPath = join(relativeDir, audioVal);
+				if (!existsSync(resolvedPath)) {
+					resolvedPath = join(process.cwd(), audioVal);
+				}
+				if (existsSync(resolvedPath)) {
+					const publicId = `${collectionId}_${refId}`.replace(/[^a-zA-Z0-9_-]/g, '_');
+					const onlineUrl = await uploadToCloudinary(resolvedPath, publicId);
+					if (onlineUrl) {
+						isModified = true;
+						return onlineUrl;
+					}
+				} else {
+					log(`  [WARN] Local audio file not found: ${audioVal} (resolved to: ${resolvedPath})`);
+				}
+				return audioVal;
+			};
+
+			// MCQ section audio
+			if (raw.parts?.mcq && Array.isArray(raw.parts.mcq)) {
+				for (const q of raw.parts.mcq) {
+					if (q.audio || q.audio_url) {
+						const localAudio = q.audio || q.audio_url;
+						const onlineUrl = await checkAndUpload(localAudio, q.question_id || 'q');
+						if (onlineUrl) {
+							if (q.audio) delete q.audio;
+							q.audio_url = onlineUrl;
+						}
+					}
+				}
+			} else if (Array.isArray(raw) && !raw.some(i => i.front_text && i.back_text)) {
+				// Legacy quiz array format
+				for (const [qIndex, q] of raw.entries()) {
+					if (q.audio || q.audio_url) {
+						const localAudio = q.audio || q.audio_url;
+						const qId = q.question_id || `q${qIndex + 1}`;
+						const onlineUrl = await checkAndUpload(localAudio, qId);
+						if (onlineUrl) {
+							if (q.audio) delete q.audio;
+							q.audio_url = onlineUrl;
+						}
+					}
+				}
+			}
+
+			// Reading sets audio
+			if (raw.parts?.reading && Array.isArray(raw.parts.reading)) {
+				for (const [setIdx, set] of raw.parts.reading.entries()) {
+					const setId = set.reading_set_id || set.id || `set-${setIdx + 1}`;
+					if (set.audio || set.audio_url) {
+						const localAudio = set.audio || set.audio_url;
+						const onlineUrl = await checkAndUpload(localAudio, setId);
+						if (onlineUrl) {
+							if (set.audio) delete set.audio;
+							set.audio_url = onlineUrl;
+						}
+					}
+					if (set.questions && Array.isArray(set.questions)) {
+						for (const q of set.questions) {
+							if (q.audio || q.audio_url) {
+								const localAudio = q.audio || q.audio_url;
+								const onlineUrl = await checkAndUpload(localAudio, q.question_id || 'q');
+								if (onlineUrl) {
+									if (q.audio) delete q.audio;
+									q.audio_url = onlineUrl;
+								}
+							}
+						}
+					}
+				}
+			}
+
+			if (isModified && !FLAGS.dryRun) {
+				log(`  [FILE] Writing updated URLs back to: ${quizPath}`);
+				writeFileSync(quizPath, JSON.stringify(raw, null, 2), 'utf8');
+			}
 
 			const parsed = parseQuizContent(quizPath);
 			const collectionType = parsed.type;
@@ -468,6 +605,7 @@ function questionChanged(existing, local) {
 		(existing.reading_type || null) !== (local.reading_type || null) ||
 		(existing.reading_title || null) !== (local.reading_title || null) ||
 		(existing.reading_passage || null) !== (local.reading_passage || null) ||
+		(existing.audio_url || null) !== (local.audio_url || null) ||
 		(existing.reading_order ?? null) !== (local.reading_order ?? null) ||
 		(existing.question_order ?? null) !== (local.question_order ?? null) ||
 		(existing.code || null) !== (local.code || null)
@@ -509,7 +647,7 @@ async function run() {
 
 		// Scan local files
 		log('Scanning subjects/ directory...\n');
-		const local = scanSubjectsDirectory();
+		const local = await scanSubjectsDirectory();
 
 		// Get existing data from database
 		let existingSubjects = new Map();
