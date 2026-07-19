@@ -1,0 +1,466 @@
+[
+  {
+    "question_id": "pm-ot3-m2-q1",
+    "question_text": "What item can be used to track the number of tasks completed against time and see how many tasks are remaining on a project?\nVN: Mục nào có thể được sử dụng để theo dõi số lượng nhiệm vụ đã hoàn thành so với thời gian và xem còn bao nhiêu nhiệm vụ còn lại trong một dự án?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Point estimation (Ước tính điểm)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Burndown chart (Biểu đồ Burndown)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Task list (Danh sách nhiệm vụ)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Stakeholder analysis (Phân tích các bên liên quan)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-ot3-m2-q2",
+    "question_text": "Focus is one of the values of Scrum methodology. Which of the following items can help determine whether a team is being assigned more work than required to focus effectively?\nVN: Tập trung là một trong những giá trị của phương pháp Scrum. Mục nào sau đây có thể giúp xác định liệu một nhóm có đang được giao nhiều công việc hơn mức cần thiết để tập trung hiệu quả hay không?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "The work-in-progress (WIP) limit (Giới hạn công việc đang thực hiện)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "The Product Owner’s performance (Hiệu suất của Chủ sản phẩm)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "The stakeholder comments (Nhận xét của các bên liên quan)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "The client’s feedback (Phản hồi của khách hàng)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-ot3-m2-q3",
+    "question_text": "How can tools like Jira and Asana help teams who are practicing Scrum methodologies?\nVN: Các công cụ như Jira và Asana có thể giúp các nhóm thực hành phương pháp Scrum như thế nào?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Team members can use them to present slides. (Các thành viên nhóm có thể sử dụng chúng để trình chiếu.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Team members can use them to adjust the project budget. (Các thành viên nhóm có thể sử dụng chúng để điều chỉnh ngân sách dự án.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "They can help store feedback from team retrospectives. (Chúng có thể giúp lưu trữ phản hồi từ các buổi hồi cứu của nhóm.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "They can help track work items in Product Backlog. (Chúng có thể giúp theo dõi các mục công việc trong Product Backlog.)",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-ot3-m2-q4",
+    "question_text": "What is the difference between managing and coaching?\nVN: Sự khác biệt giữa quản lý và huấn luyện là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Managing is used in Agile; coaching is used in Waterfall.(Quản lý được sử dụng trong Agile; huấn luyện được sử dụng trong Waterfall.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Managing is about giving direction; coaching is about teaching. (Quản lý là về việc chỉ đạo; huấn luyện là về việc giảng dạy)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Managing is about encouraging the team; coaching is about delegating tasks. (Quản lý là về việc khuyến khích đội; huấn luyện là về việc phân công nhiệm vụ.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Managing is about listening; coaching is about asserting. (Quản lý là về việc lắng nghe; huấn luyện là về việc khẳng định.)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-ot3-m2-q5",
+    "question_text": "Which of the following responsibilities are part of your role as an Agile coach? Select all that apply.\nVN: Những trách nhiệm nào sau đây là một phần của vai trò huấn luyện viên Agile của bạn? Chọn tất cả những gì đúng.",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "Provide feedback to the team. (Cung cấp phản hồi cho đội.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Celebrate and learn with the team. (Ăn mừng và học hỏi cùng đội.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Solve problems for the team. (Giải quyết các vấn đề cho đội.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Design the plays (detail how work gets done) with the team. (Thiết kế các phương thức làm việc cùng với đội.)",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-ot3-m2-q6",
+    "question_text": "What part of your role as an Agile coach involves reviewing your team’s performance to find patterns that work or need improvement?\nVN: Phần nào trong vai trò huấn luyện viên Agile của bạn liên quan đến việc xem xét hiệu suất của đội để tìm ra những mô hình hoạt động hiệu quả hoặc cần cải thiện?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Provide feedback to the team. (Cung cấp phản hồi cho đội.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Design the plays (detail how work gets done) with the team. (Thiết kế các phương thức làm việc cùng với đội.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Celebrate and learn with the team. (Ăn mừng và học hỏi cùng đội)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-ot3-m2-q7",
+    "question_text": "How can you help your team build confidence and capabilities through coaching? Select all that apply.\nVN: Bạn có thể giúp đội của mình xây dựng sự tự tin và năng lực thông qua việc huấn luyện như thế nào? Chọn tất cả những gì đúng.",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "Encourage and appreciate them by expressing confidence in their efforts (Khuyến khích và đánh giá cao họ bằng cách bày tỏ sự tự tin vào nỗ lực của họ.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Assist them by stepping in to solve difficult problems (Hỗ trợ họ bằng cách can thiệp giải quyết các vấn đề khó khăn.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Motivate them by pointing out the value in their work (Khuyến khích họ bằng cách chỉ ra giá trị trong công việc của họ.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Support them by acting as an accessible resource (Hỗ trợ họ bằng cách trở thành một nguồn tài nguyên sẵn có.)",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-ot3-m2-q8",
+    "question_text": "Which scaled Agile framework coordinates multiple Scrum Teams and integrates their work to create one larger, cohesive deliverable?\nVN: Khung Agile mở rộng nào phối hợp nhiều Nhóm Scrum và tích hợp công việc của họ để tạo ra một sản phẩm lớn hơn, đồng bộ?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Large-Scale Scrum (LeSS)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Scrum of Scrums",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Disciplined Agile Delivery (DAD)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Scaled Agile Framework (SAFe)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-ot3-m2-q9",
+    "question_text": "What is the benefit of business agility?\nVN: Lợi ích của năng lực kinh doanh là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "It helps organizations thrive in high-VUCA environments (Nó giúp các tổ chức phát triển mạnh trong môi trường VUCA cao.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "It combines software development with IT operations (Nó kết hợp phát triển phần mềm với hoạt động CNTT.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "I t helps teams rapidly evolve large-scale software systems (Nó giúp các đội phát triển nhanh chóng các hệ thống phần mềm quy mô lớn.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "It serves as a strict instruction manual for scaling Agile, rather than a general framework (Nó phục vụ như một tài liệu hướng dẫn nghiêm ngặt để mở rộng Agile, chứ không phải là một khung chung.)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-ot3-m2-q10",
+    "question_text": "Imagine you are a project manager at a video game company. Your last large-scale software release contained so many technical issues that they upset your customers and overwhelmed your Developers. To ensure that your next rollout is secure and reliable, you recruit new team members with information technology (IT) expertise. Which of the following approaches is best for your new project?\nVN: Giả sử bạn là một quản lý dự án tại một công ty trò chơi điện tử. Lần phát hành phần mềm quy mô lớn gần đây của bạn có quá nhiều vấn đề kỹ thuật khiến khách hàng của bạn không hài lòng và làm cho các nhà phát triển của bạn quá tải. Để đảm bảo rằng lần phát hành tiếp theo của bạn an toàn và đáng tin cậy, bạn tuyển dụng các thành viên mới trong nhóm có chuyên môn công nghệ thông tin (IT). Cách tiếp cận nào sau đây là tốt nhất cho dự án mới của bạn? Business Agility Năng lực kinh doanh",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "DevOps",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Scaled Agile Framework (SAFe)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Large-Scale Scrum (LeSS)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-ot3-m2-q11",
+    "question_text": "As a project manager or Scrum Master, what can you do to ensure your team is focused on value- driven delivery? Select all that apply.\nVN: Là một quản lý dự án hoặc Scrum Master, bạn có thể làm gì để đảm bảo đội ngũ của bạn tập trung vào việc cung cấp giá trị? Chọn tất cả các lựa chọn áp dụng. Run it right Thực hiện đúng",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "Run it fast (Thực hiện nhanh)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Build the thing right (Xây dựng sản phẩm đúng)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Build the right thing (Xây dựng sản phẩm đúng đắn)",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-ot3-m2-q12",
+    "question_text": "What is the purpose of the product roadmap in a value roadmap? Select all that apply.\nVN: Mục đích của lộ trình sản phẩm trong một lộ trình giá trị là gì? Chọn tất cả các lựa chọn áp dụng.",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "It provides a high-level view of requirements (Nó cung cấp cái nhìn tổng quan về các yêu cầu.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "It defines how the product will support customers’ business strategies (Nó xác định cách mà sản phẩm sẽ hỗ trợ chiến lược kinh doanh của khách hàng.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "It identifies the end users of the product (Nó xác định người dùng cuối của sản phẩm.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "It outlines a tentative schedule for reaching milestones (Nó phác thảo một lịch trình dự kiến để đạt được các cột mốc.)",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-ot3-m2-q13",
+    "question_text": "Fill in the blank: In a release plan, product releases happen when _____.\nVN: Điền vào chỗ trống: Trong một kế hoạch phát hành, các sản phẩm được phát hành khi _____.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "The project is complete and the team has delivered the final product (dự án đã hoàn thành và đội ngũ đã giao sản phẩm cuối cùng)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "The team has developed a working version of a given feature or requirement (đội ngũ đã phát triển một phiên bản hoạt động của một tính năng hoặc yêu cầu nhất định)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "The customer has asked for the release of a given feature or requirement (khách hàng đã yêu cầu phát hành một tính năng hoặc yêu cầu nhất định)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "The feature or requirement is in development and is being iterated upon (tính năng hoặc yêu cầu đang trong quá trình phát triển và được lặp lại)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-ot3-m2-q14",
+    "question_text": "You create a new project roadmap that is visually appealing and contains all the information for the stakeholders to reference. However, this document took a lot of time to create and has caused some delays in the timeline. Which of the following roadmap pitfalls does this scenario represent?\nVN: Bạn tạo một lộ trình dự án mới có tính thẩm mỹ và chứa tất cả thông tin để các bên liên quan tham khảo. Tuy nhiên, tài liệu này đã mất rất nhiều thời gian để tạo ra và gây ra một số trì hoãn trong thời gian biểu. Tình huống này đại diện cho cạm bẫy nào trong lộ trình?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Putting less work into it than the deliverables (Đặt ít công sức hơn vào nó so với các sản phẩm giao)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Pressuring teams to improve deadlines (Gây áp lực cho các đội để cải thiện thời hạn)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Pressuring teams to achieve deadlines no matter what (Gây áp lực cho các đội để đạt được thời hạn bất kể điều gì)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Putting more work into it than the deliverables (Đặt nhiều công sức hơn vào nó so với các sản phẩm giao)",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-ot3-m2-q15",
+    "question_text": "Imagine you’re a project manager creating a project roadmap. You meet with the Product Owner to estimate the team’s capacity and velocity—their ability to complete work at a certain pace. Which Agile principle does this scenario represent?\nVN: Hãy tưởng tượng bạn là một quản lý dự án tạo ra một lộ trình dự án. Bạn gặp gỡ Chủ sở hữu sản phẩm để ước lượng năng lực và tốc độ của đội ngũ—khả năng hoàn thành công việc ở một tốc độ nhất định. Nguyên tắc Agile nào được thể hiện trong tình huống này?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Deliver working software frequently, with a preference to the shorter timescale. Cung (cấp phần mềm hoạt động thường xuyên, với ưu tiên cho thời gian ngắn hơn.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Agile processes promote sustainable development—the team developers should be able to maintain a constant workload (Các quy trình Agile thúc đẩy phát triển bền vững—các nhà phát triển trong đội ngũ nên có khả năng duy trì khối lượng công việc ổn định.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Stakeholders and the team developers must work together daily throughout the project (Các bên liên quan và các nhà phát triển trong đội ngũ phải làm việc cùng nhau hàng ngày trong suốt dự án.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "At regular intervals, the development team meets to reflect on how to become more effective (Ở các khoảng thời gian đều đặn, đội phát triển gặp nhau để suy ngẫm cách trở nên hiệu quả hơn.)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-ot3-m2-q16",
+    "question_text": "As a project manager, your organization makes a shift to Agile. To create a sense of ownership, what actions should you take? Select all that apply.\nVN: Là một quản lý dự án, tổ chức của bạn chuyển sang Agile. Để tạo ra cảm giác sở hữu, bạn nên thực hiện các hành động nào? Chọn tất cả các lựa chọn áp dụng.",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "Schedule regular meetings to discuss the change (Lên lịch các cuộc họp thường xuyên để thảo luận về sự thay đổi)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Align your company’s mission with the change (Điều chỉnh sứ mệnh của công ty với sự thay đổi)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Have buy-in from an executive on the change (Có sự ủng hộ từ một giám đốc điều hành về sự thay đổi)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Create a feedback loop for the change (Tạo một vòng phản hồi cho sự thay đổi)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-ot3-m2-q17",
+    "question_text": "Imagine you are a project manager overseeing the adoption of Agile at your organization. When setting goals for the project, you consider the timeline, specific results, and reason for the change. You put this information in a document the whole team can access. Which of the three keys to influence does this scenario demonstrate?\nVN: Hãy tưởng tượng bạn là một quản lý dự án giám sát việc áp dụng Agile tại tổ chức của bạn. Khi đặt mục tiêu cho dự án, bạn xem xét thời gian, kết quả cụ thể và lý do cho sự thay đổi. Bạn đưa thông tin này vào một tài liệu mà toàn bộ đội ngũ có thể truy cập. Tình huống này thể hiện chìa khóa ảnh hưởng nào trong ba chìa khóa?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Leverage the six sources of influence (Tận dụng sáu nguồn ảnh hưởng)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Clarify measurable results (Làm rõ các kết quả có thể đo lường)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Find vital behaviors (Tìm ra những hành vi quan trọng)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-ot3-m2-q18",
+    "question_text": "As a project manager, you need to rebuild trust and collaboration between the development team and the business team. What actions can you take to accomplish this? Select all that apply.\nVN: Là một quản lý dự án, bạn cần khôi phục niềm tin và sự hợp tác giữa đội ngũ phát triển và đội ngũ kinh doanh. Bạn có thể thực hiện những hành động nào để đạt được điều này? Chọn tất cả các lựa chọn áp dụng.",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "Conduct a Solution Design sprint (Tiến hành một sprint thiết kế giải pháp)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Focus on fewer user stories per sprint (Tập trung vào ít câu chuyện người dùng hơn mỗi sprint)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Address critical feedback with more demos (Giải quyết phản hồi quan trọng với nhiều bản demo hơn)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Add changes to backlog only in between sprints (Chỉ thêm thay đổi vào backlog giữa các sprint)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-ot3-m2-q19",
+    "question_text": "What two problems commonly arise when you fail to implement Scrum completely? Select all that apply.\nVN: Hai vấn đề nào thường phát sinh khi bạn không thực hiện Scrum hoàn toàn? Chọn tất cả các lựa chọn áp dụng.",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "An increase in interpersonal conflict (Tăng cường xung đột giữa các cá nhân)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "A decrease in customer satisfaction (Giảm sự hài lòng của khách hàng)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "A loss of clear roles and responsibilities (Mất đi các vai trò và trách nhiệm rõ ràng)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "A temptation to skip events or blend them to save time (Sự cám dỗ để bỏ qua các sự kiện hoặc kết hợp chúng để tiết kiệm thời gian)",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-ot3-m2-q20",
+    "question_text": "Which scaling method is not a true Agile framework, but can help organizations overcome the challenges of scaling?\nVN: Phương pháp mở rộng nào không phải là một khung Agile thực sự, nhưng có thể giúp các tổ chức vượt qua các thách thức trong việc mở rộng?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "The Spotify Model (Mô hình Spotify)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Scaled Agile Framework (SAFe) / Khung Agile Mở rộng (SAFe)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Large-Scale Scrum (LeSS) / Scrum Quy mô Lớn (LeSS)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Disciplined Agile Delivery (DAD) / Giao hàng Agile Có kỷ luật (DAD)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  }
+]

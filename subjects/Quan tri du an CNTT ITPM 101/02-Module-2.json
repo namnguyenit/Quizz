@@ -1,0 +1,666 @@
+[
+  {
+    "question_id": "pm-itpm101-q26",
+    "question_text": "nh\nVN: nh",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "Requirements uncertainty (Yêu cầu không chắc chắn)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Technical degree of uncertainty (Mức độ không chắc chắn về mặt kỹ thuật)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Personnel capacity (Năng lực nhân sự)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Risk exposure (Rủi ro tiếp xúc)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q27",
+    "question_text": "A project sponsor wants to establish a project management framework with a flexible approach to delivering a given number of projects. Which of the following two key roles are necessary for the success of this initiative? unmarketable\nVN: Nhà tài trợ dự án muốn thiết lập một khuôn khổ quản lý dự án với cách tiếp cận linh hoạt để thực hiện một số dự án nhất định. Hai vai trò chính nào sau đây là cần thiết cho sự thành công của sáng kiến ​​này? không thể bán được",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "Program manager (Người quản lý chương trình)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Scrum master (Bậc thầy về scrum)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Project manager (Người quản lý dự án)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Product owner (Chủ sở hữu sản phẩm)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "A customer who regularly requires handover system upgrade projects often requires inventory management. Possible (Một khách hàng thường xuyên yêu cầu các dự án nâng cấp hệ thống bàn giao thường yêu cầu quản lý hàng tồn kho. Khả thi)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q28",
+    "question_text": "i n d\nVN: tôi và tôi",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Agile (Nhanh nhẹn)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Predictive (Dự đoán)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Iterative (Lặp đi lặp lại)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Incremental (Tăng dần)",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q29",
+    "question_text": "The customer of another project requires high handover requirements. However, the group has high expectations. Predicting the level of change will also choose which of the following life cycles is optimal for this situation? oh\nVN: Khách hàng của dự án khác yêu cầu yêu cầu bàn giao cao. Tuy nhiên, nhóm có kỳ vọng cao. Dự đoán mức độ thay đổi cũng sẽ chọn vòng đời nào sau đây là tối ưu cho tình huống này? Ồ",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Agile (Nhanh nhẹn)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Predictive (Dự đoán)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Iterative (Lặp đi lặp lại)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Predictive (Dự đoán)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q30",
+    "question_text": "A project management and regulatory framework uses the Model: Identify, monitor, and control a given project. Manage i which of the following projects?\nVN: Khung pháp lý và quản lý dự án sử dụng Mô hình: Xác định, giám sát và kiểm soát một dự án nhất định. Quản lý dự án nào sau đây?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Six Sigma (6 Sigma)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Agile (Nhanh nhẹn)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Waterfall (thác nước)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Lean (Độ nghiêng)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q31",
+    "question_text": "Management groups have different organizational structures. In two of the projects under consideration, project management requirements depend on the type of structure that follows, which will affect which group is chosen? Ugh\nVN: Các nhóm quản lý có cơ cấu tổ chức khác nhau. Trong hai dự án đang được xem xét, yêu cầu quản lý dự án phụ thuộc vào loại cấu trúc tiếp theo, điều này sẽ ảnh hưởng đến việc chọn nhóm nào? Ờ",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "Risk password (Mật khẩu rủi ro)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Project management authority (Cơ quan quản lý dự án)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "It is possible that there is a strong capacity available (Có thể có sẵn năng lực mạnh mẽ)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Reserve fund (Quỹ dự trữ)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q32",
+    "question_text": "A project manager works in a centralized organization sometimes called a “silo.” In this model, support is minimal and management may be the main manager to avoid project implementation. Success in this model r c. Which model is suitable for the difficult to achieve situation in this situation? oh\nVN: Người quản lý dự án làm việc trong một tổ chức tập trung, đôi khi được gọi là “silo”. Trong mô hình này, sự hỗ trợ là tối thiểu và cấp quản lý có thể là người quản lý chính để tránh việc thực hiện dự án. Thành công trong mô hình này r c. Mô hình nào phù hợp với tình huống khó đạt được trong tình huống này? Ồ",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Strong matrix (Ma trận mạnh)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Organic or functional (Hữu cơ hoặc chức năng)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Weak matrix (Ma trận yếu)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Project oriented (Định hướng dự án)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q33",
+    "question_text": "PMO\nVN: PMO",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Informational (Thông tin)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Directive (chỉ thị)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Controlling (Kiểm soát)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Supportive (hỗ trợ)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "A significant step forward is that in terms of the infrastructure projects that have twice reached the third target, the group has moved to respond. On the second try, adjust the approach c (Bước tiến đáng kể là đối với các dự án hạ tầng đã 2 lần đạt chỉ tiêu thứ 3, tập đoàn đã có động thái đáp ứng. Ở lần thử thứ hai, hãy điều chỉnh cách tiếp cận c)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q34",
+    "question_text": "ng nhu\nVN: ng nhu",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Tailoring (May đo)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Revising (Sửa đổi)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Modifying (sửa đổi)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Updating (Đang cập nhật)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q35",
+    "question_text": "PMI\nVN: PMI",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Resiliency (khả năng phục hồi)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Adaptability (Khả năng thích ứng)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Strength (Sức mạnh)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Flexibility (Tính linh hoạt)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q36",
+    "question_text": "A team is trying to understand how all the process groups work together. They also need to develop and implement an integrated improvement process. What area of ​​knowledge are you analyzing in change control?\nVN: Một nhóm đang cố gắng hiểu cách tất cả các nhóm quy trình làm việc cùng nhau. Họ cũng cần phát triển và thực hiện một quy trình cải tiến tích hợp. Bạn đang phân tích lĩnh vực kiến ​​​​thức nào trong kiểm soát thay đổi?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Integrated project management (Quản lý dự án tích hợp)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Space management at project level (Quản lý không gian ở cấp độ dự án)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Manage project planning (Quản lý kế hoạch dự án)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Project scope management (Quản lý phạm vi dự án)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q37",
+    "question_text": "There are several management meetings with success when managing a suitable project. Which of the following two meetings for each group is appropriate for the project?\nVN: Có một số cuộc họp quản lý thành công khi quản lý một dự án phù hợp. Cuộc họp nào trong hai cuộc họp sau đây của mỗi nhóm là phù hợp với dự án?",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "Daily standup meeting (Cuộc họp thường trực hàng ngày)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Kick-off meetings to gain stakeholder acceptance (Các cuộc họp khởi động để đạt được sự chấp nhận của các bên liên quan)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Pre-baseline and baseline presentations (Trình bày trước đường cơ sở và đường cơ sở)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Product backlog refinement (Tinh chỉnh tồn đọng sản phẩm)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "One of the 12 Principles of Project Management describes each project as unique, recommending that people manage the project (Một trong 12 Nguyên tắc Quản lý Dự án mô tả mỗi dự án là duy nhất và khuyến nghị mọi người nên quản lý dự án.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "The project avoids “stereotyping” methods and instructs managers to adapt their methods (Dự án tránh các phương pháp “khuôn mẫu” và hướng dẫn các nhà quản lý điều chỉnh phương pháp của họ.)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q38",
+    "question_text": "ng nhu c\nVN: ng như c",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Customize the skin on the device (Tùy chỉnh skin trên thiết bị)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Navigate complexity (Điều hướng phức tạp)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Optimize risk responses (Tối ưu hóa phản ứng rủi ro)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Recognize, evaluate, and react to system interactions (Nhận biết, đánh giá và phản ứng với các tương tác của hệ thống)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q39",
+    "question_text": "The Model Understands project management through the construction process 7 Steps lead to a group of effective and efficient results 1-4 of this model divided into high-level batches. Steps 5-7 share the framework and stages of group creation. Steps and actions to maintain project team performance. Who developed this phenomenon? 7 Butterflies\nVN: Mô hình Hiểu được quản lý dự án thông qua quá trình xây dựng 7 bước dẫn đến một nhóm kết quả hiệu quả và hiệu quả 1-4 của mô hình này được chia thành các đợt cấp cao. Các bước 5-7 chia sẻ khuôn khổ và các giai đoạn tạo nhóm. Các bước và hành động để duy trì hiệu suất của nhóm dự án. Ai đã phát triển hiện tượng này? 7 con bướm",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "Drexler (Drexler)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "David McClelland (David McClelland)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Abraham Maslow (Abraham Maslow)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Douglas McGregor (Douglas McGregor)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Qu nh (Qu nh)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Theory (Lý thuyết)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Theoretical D e (Lý thuyết D)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Theory of Z (Lý thuyết về Z)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Theory of Health (Lý thuyết sức khỏe)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q40",
+    "question_text": "Trong s\nVN: Trong s",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "SIPOC (SIPOC)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Mind map (Bản đồ tư duy)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Logical data model (Mô hình dữ liệu logic)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Designed for X (Được thiết kế cho X)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Group using marble (Nhóm sử dụng đá cẩm thạch)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q41",
+    "question_text": "th\nVN: th",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Histogram (biểu đồ)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Scatter diagram (Sơ đồ phân tán)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Affinity chart (Biểu đồ mối quan hệ)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Design for X (Thiết kế cho X)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q42",
+    "question_text": "William Bridges\nVN: cầu William",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "The New Beginning (Sự khởi đầu mới)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Ending, Losing, and Letting Go (Kết thúc, đánh mất và buông bỏ)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Unfreezing (rã đông)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "The Neutral Zone (Khu trung lập)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q43",
+    "question_text": "Hai trong s\nVN: Hải trong s",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "The room is quiet (Căn phòng yên tĩnh)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Use the engine checker (Sử dụng công cụ kiểm tra động cơ)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Using economics to measure quality (Sử dụng kinh tế để đo lường chất lượng)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Edit text (Chỉnh sửa văn bản)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q44",
+    "question_text": "The key responsibilities of a project support team include engaging a stakeholder to help ensure that the project team produces timely products. Which of the following is a project management role and response that should be noted on the project management stakeholder list in this situation? oh\nVN: Trách nhiệm chính của nhóm hỗ trợ dự án bao gồm thu hút các bên liên quan để giúp đảm bảo rằng nhóm dự án tạo ra các sản phẩm kịp thời. Điều nào sau đây là vai trò và phản ứng của quản lý dự án cần được ghi chú trong danh sách các bên liên quan quản lý dự án trong tình huống này? Ồ",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "R (R)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "A (MỘT)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "I (TÔI)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "C (C)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "project charter (điều lệ dự án)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "nh (nh)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Stakeholder dictionary (Từ điển các bên liên quan)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Ma tr n (Mã tr n)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Danh (Danh)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Stakeholder log (Nhật ký các bên liên quan)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q45",
+    "question_text": "Trong s ng s c a vi c ra\nVN: Trong cuộc sống s c a vi c ra",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Nomenclature group technique (Kỹ thuật nhóm danh pháp)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Delphi r ng (Delphi tìm kiếm)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Multi-criteria decision analysis (Phân tích quyết định đa tiêu chí)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "OARP (ORP)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q46",
+    "question_text": "A non-member project group uses the voting method in which more than 50% of votes are cast as a result of the voting process that determines the decision. Which of the following criteria describes this stain?\nVN: Một nhóm dự án không phải là thành viên sử dụng phương thức bỏ phiếu trong đó có hơn 50% số phiếu được bỏ do quá trình bỏ phiếu quyết định quyết định. Tiêu chí nào sau đây mô tả vết bẩn này?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Plurality (số nhiều)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Unanimity (Sự nhất trí)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Unilateral (Đơn phương)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Majority (Số đông)",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q47",
+    "question_text": "Xem\nVN: Xem",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "UNRSL analysis tool (Công cụ phân tích UNRSL)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Ma tr (Mã tr)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Turnover development table (Bảng phát triển doanh thu)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Ma tr n m c cam k t (Ma tr n m c cam k t)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "There are two projects. Project A has a value of $60,000. Project B has a value of $40,000. You can only choose one project, and you decide to choose Project B. By choosing Project B, you can choose Project B (Có hai dự án. Dự án A có giá trị là 60.000 USD. Dự án B có giá trị 40.000 USD. Bạn chỉ có thể chọn một dự án và bạn quyết định chọn Dự án B. Bằng cách chọn Dự án B, bạn có thể chọn Dự án B.)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q48",
+    "question_text": "c\nVN: c",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Time value of money (Giá trị thời gian của tiền)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Chi (Chí)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Hao (Hảo)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Straight road (Đường thẳng)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "A project manager discovers that cash flows can often be increased by utilizing the revenue benefits obtained from asset depreciation. The project manager bought the grave (Người quản lý dự án phát hiện ra rằng dòng tiền thường có thể tăng lên bằng cách tận dụng lợi ích doanh thu thu được từ khấu hao tài sản. Người quản lý dự án đã mua mộ)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q49",
+    "question_text": "The asset is worth $20,000 and has a depreciation life of 4 years. How many boxes can you request each year? To use the linear depreciation method\nVN: Tài sản này trị giá 20.000 USD và có thời gian khấu hao là 4 năm. Bạn có thể yêu cầu bao nhiêu hộp mỗi năm? Sử dụng phương pháp khấu hao tuyến tính",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "$5,000 $20,000 $10,000 $7,500 ($5,000 $20,000 $10,000 $7,500)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "BCR (BCR)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q50",
+    "question_text": "Trong s\nVN: Trong s",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Parametric (tham số)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Bottom-up (Từ dưới lên)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Top-down (Từ trên xuống)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Expert (Chuyên gia)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  }
+]

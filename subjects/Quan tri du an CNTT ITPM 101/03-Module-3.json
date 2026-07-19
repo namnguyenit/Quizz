@@ -1,0 +1,614 @@
+[
+  {
+    "question_id": "pm-itpm101-q51",
+    "question_text": "project charter\nVN: điều lệ dự án",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "-25%/+75% -5%/+10% -25%/+25% -10%/+10% (-25%/+75% -5%/+10% -25%/+25% -10%/+10%)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Who will the project manager work with to recruit new staff or contractors? (Người quản lý dự án sẽ làm việc với ai để tuyển dụng nhân viên hoặc nhà thầu mới?)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q52",
+    "question_text": "to meet resource needs?\nVN: để đáp ứng nhu cầu nguồn lực?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Human resources (Nguồn nhân lực)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Legal (Hợp pháp)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Information technology (Công nghệ thông tin)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Sales and Marketing (Bán hàng và tiếp thị)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q53",
+    "question_text": "Which of the following terms describes a set of rules, best practices, and management processes for effective project management of costs and projects to be more effective within scope and time constraints? uh\nVN: Thuật ngữ nào sau đây mô tả một bộ quy tắc, phương pháp hay nhất và quy trình quản lý để quản lý chi phí và dự án hiệu quả hơn trong phạm vi và thời gian hạn chế? ừ",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Project Management Body of Knowledge (Quản lý dự án Khối kiến ​​thức)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Project Management Institute (Viện quản lý dự án)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Project Management Professional (Quản lý dự án chuyên nghiệp)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Project Management Professional Certificate (Chứng chỉ chuyên môn quản lý dự án)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q54",
+    "question_text": "Which of the following terms best describes the rationale for a project methodology that addresses complexity by having rapid development sprints? The principle of the waterfall method\nVN: Thuật ngữ nào sau đây mô tả đúng nhất cơ sở lý luận cho một phương pháp dự án nhằm giải quyết sự phức tạp bằng cách thực hiện các giai đoạn nước rút phát triển nhanh chóng? Nguyên lý của phương pháp thác nước",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Agile (Nhanh nhẹn)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Critical Path (Đường dẫn quan trọng)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Lean (Độ nghiêng)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Six Sigma (6 Sigma)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q55",
+    "question_text": "Which project management method focuses on minimizing waste of resources and time? uh\nVN: Phương pháp quản lý dự án nào tập trung vào việc giảm thiểu lãng phí nguồn lực và thời gian? ừ",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Agile (Nhanh nhẹn)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Critical Path (Đường dẫn quan trọng)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Lean (Độ nghiêng)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Six Sigma (6 Sigma)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "What project management software is d (Phần mềm quản lý dự án là gì d)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q56",
+    "question_text": "Cloud-based and automate administrative work?\nVN: Công việc quản trị dựa trên đám mây và tự động hóa?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Asana (Asana)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "IBM Cognos (IBM Cognos)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Tableau (hoạt cảnh)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Google Data Studio (Phòng dữ liệu của Google)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q57",
+    "question_text": "Trong s\nVN: Trong s",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Slack (chùng xuống)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Google Data Studio (Phòng dữ liệu của Google)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "IBM Cognos (IBM Cognos)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Tableau (hoạt cảnh)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q58",
+    "question_text": "Which of the following is a common term that describes a project management trend that includes characteristics such as conflict intelligence, negotiation and emotional direction, problem solving, and communication?\nVN: Điều nào sau đây là thuật ngữ phổ biến mô tả xu hướng quản lý dự án bao gồm các đặc điểm như trí tuệ xung đột, đàm phán và định hướng cảm xúc, giải quyết vấn đề và giao tiếp?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Soft skills (Kỹ năng mềm)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Groups of friends (Nhóm bạn bè)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Intellectual practice, sir (Tu tập trí tuệ thưa ngài)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Groups work remotely (Nhóm làm việc từ xa)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q59",
+    "question_text": "Which of the following terms describes traditional project management?\nVN: Thuật ngữ nào sau đây mô tả quản lý dự án truyền thống?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Sequential (tuần tự)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Teams work remotely and remotely (Các nhóm làm việc từ xa và từ xa)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Flexible (Linh hoạt)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Automatic management (Quản lý tự động)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q60",
+    "question_text": "As a project manager, you are responsible for preparing reports, meeting with stakeholders, reporting projects to stakeholders and making presentations. Which one best describes these responsibilities?\nVN: Với tư cách là người quản lý dự án, bạn chịu trách nhiệm chuẩn bị báo cáo, gặp gỡ các bên liên quan, báo cáo dự án cho các bên liên quan và thuyết trình. Cái nào mô tả đúng nhất những trách nhiệm này?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Giao ti p (Giao tip)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Negotiate (Thương lượng)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Time management (Quản lý thời gian)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Solve the problem (Giải quyết vấn đề)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q61",
+    "question_text": "A project manager creates a chat for team members to share feedback and feedback to maintain high morale. What techniques are project management communication skills using when sharing resources? This channel is used to transmit high-quality messages\nVN: Người quản lý dự án tạo cuộc trò chuyện để các thành viên trong nhóm chia sẻ phản hồi và phản hồi nhằm duy trì tinh thần cao. Kỹ năng giao tiếp quản lý dự án sử dụng những kỹ thuật nào khi chia sẻ tài nguyên? Kênh này được sử dụng để truyền tải tin nhắn chất lượng cao",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Mobilize (Huy động)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Giao ti p (Giao tip)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Conflict management (Quản lý xung đột)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Build a place of trust (Xây dựng nơi tin cậy)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q62",
+    "question_text": "Trong giai\nVN: Trong giai đoạn",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Project implementation (Thực hiện dự án)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Make a project plan (Lập kế hoạch dự án)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Post-project evaluation (Đánh giá sau dự án)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Project monitoring and reporting (Giám sát và báo cáo dự án)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q63",
+    "question_text": "What type of project meeting includes team members reporting on the tasks they did yesterday, the tasks they will do today, and any challenges or problems they are facing?\nVN: Loại cuộc họp dự án nào bao gồm các thành viên trong nhóm báo cáo về nhiệm vụ họ đã làm ngày hôm qua, nhiệm vụ họ sẽ làm hôm nay và bất kỳ thách thức hoặc vấn đề nào họ đang gặp phải?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Stand-up (đứng lên)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Project status meeting (Cuộc họp tình trạng dự án)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Sprint Review (Đánh giá nước rút)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Sprint summary (Tóm tắt nước rút)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "As a project manager, you will have the time that your tasks should take (Với tư cách là người quản lý dự án, bạn sẽ có thời gian để thực hiện các nhiệm vụ của mình)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q64",
+    "question_text": "You will need to make estimates to create project plans and help team members manage deadlines. Which technical skill best describes this project management skill?\nVN: Bạn sẽ cần lập ước tính để lập kế hoạch dự án và giúp các thành viên trong nhóm quản lý thời hạn. Kỹ năng kỹ thuật nào mô tả đúng nhất kỹ năng quản lý dự án này?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Time management (Quản lý thời gian)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Negotiate (Thương lượng)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Build relationships (Xây dựng mối quan hệ)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Giao ti p (Giao tip)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q65",
+    "question_text": "As a project manager, you will have to keep track of various project components, such as spreadsheets, project tracking software, and detailed planning. What is the most important characteristic of being able to monitor all of these elements in a project?\nVN: Là người quản lý dự án, bạn sẽ phải theo dõi các thành phần khác nhau của dự án, chẳng hạn như bảng tính, phần mềm theo dõi dự án và lập kế hoạch chi tiết. Đặc điểm quan trọng nhất của việc có thể giám sát tất cả các yếu tố này trong một dự án là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Focus on details (Tập trung vào chi tiết)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Solve the problem (Giải quyết vấn đề)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Create motivation (Tạo động lực)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Curious (Tò mò)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q66",
+    "question_text": "As a project manager, you will assign tasks to team members based on capabilities and optimize which of the following technical skills, productivity skillsets. Technically describe this aspect of project management? ah ah ah ah ah ah ah ah\nVN: Với tư cách là người quản lý dự án, bạn sẽ phân công nhiệm vụ cho các thành viên trong nhóm dựa trên khả năng và tối ưu hóa các kỹ năng kỹ thuật, kỹ năng năng suất sau đây. Mô tả kỹ thuật khía cạnh này của quản lý dự án? à à à à à à à à à à à",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Allocate drive resources (Phân bổ tài nguyên ổ đĩa)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Software and technology skills (Kỹ năng về phần mềm và công nghệ)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Improving business processes (Cải thiện quy trình kinh doanh)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Change management (Quản lý thay đổi)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Trong s (Trong s)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q67",
+    "question_text": "sung\nVN: hát",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Distribution of raw materials (Phân phối nguyên liệu)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Data management (Quản lý dữ liệu)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Programming language (Ngôn ngữ lập trình)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Data analysis (Phân tích dữ liệu)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "What skills does a project manager use when they ask clarifying questions to better understand how to solve a problem? (Người quản lý dự án sử dụng những kỹ năng nào khi đặt câu hỏi làm rõ để hiểu rõ hơn cách giải quyết vấn đề?)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q68",
+    "question_text": "ng\nVN: ng",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Create motivation (Tạo động lực)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Leader (Lãnh đạo)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Giao ti p (Giao tip)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Build a place of trust (Xây dựng nơi tin cậy)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q69",
+    "question_text": "What functional management technique does a project team use when solving a problem between two groups so that the project stays on budget?\nVN: Nhóm dự án sử dụng kỹ thuật quản lý chức năng nào khi giải quyết vấn đề giữa hai nhóm để dự án vẫn nằm trong ngân sách?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Create inspiration (Tạo cảm hứng)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Leader (Lãnh đạo)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Build a place of trust (Xây dựng nơi tin cậy)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Conflict management (Quản lý xung đột)",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q70",
+    "question_text": "A project manager uses a management software to track project risks and issues to address issues and provide feedback when tracking project status with all stakeholders. Which software does the project manager use for this software during the project management lifecycle phase?\nVN: Người quản lý dự án sử dụng phần mềm quản lý để theo dõi các rủi ro và vấn đề của dự án nhằm giải quyết các vấn đề cũng như cung cấp phản hồi khi theo dõi trạng thái dự án với tất cả các bên liên quan. Người quản lý dự án sử dụng phần mềm nào cho phần mềm này trong giai đoạn vòng đời quản lý dự án?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Make a project plan (Lập kế hoạch dự án)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Project monitoring and reporting (Giám sát và báo cáo dự án)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Post-project evaluation (Đánh giá sau dự án)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "End of project (Kết thúc dự án)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q71",
+    "question_text": "The project manager organizes a gathering meeting to gather feedback from team members on the performance of the previous project and to see whether the project has clearly achieved the goals set out in the given phase. Which part of the project management life cycle will this process be used for?\nVN: Người quản lý dự án tổ chức một cuộc họp tập hợp để thu thập phản hồi từ các thành viên trong nhóm về hiệu suất của dự án trước đó và để xem liệu dự án có đạt được rõ ràng các mục tiêu đề ra trong giai đoạn nhất định hay không. Quá trình này sẽ được sử dụng cho phần nào của vòng đời quản lý dự án?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Post-project evaluation (Đánh giá sau dự án)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Project monitoring and reporting (Giám sát và báo cáo dự án)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Let's plan the project (Hãy lên kế hoạch cho dự án)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Close the project (Đóng dự án)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q72",
+    "question_text": "The project manager meets with the development team, product owners, and stakeholders to review the work completed during the sprint. What type of group is this?\nVN: Người quản lý dự án gặp nhóm phát triển, chủ sở hữu sản phẩm và các bên liên quan để xem xét công việc đã hoàn thành trong sprint. Đây là loại nhóm gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Sprint review (Đánh giá nước rút)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Sprint retrospective (Hồi tưởng nước rút)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Report on project status (Báo cáo tình trạng dự án)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Stand-up (đứng lên)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q73",
+    "question_text": "A project manager engages with stakeholders to share information and feedback on the project to reach all types of stakeholders? that the parties involved have. This is a bug\nVN: Người quản lý dự án tương tác với các bên liên quan để chia sẻ thông tin và phản hồi về dự án nhằm tiếp cận tất cả các bên liên quan? mà các bên liên quan có. Đây là một lỗi",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Meeting to discuss project status (Cuộc họp thảo luận về tình hình dự án)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Sprint review (Đánh giá nước rút)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Sprint retrospective (Hồi tưởng nước rút)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Stand-up (đứng lên)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Trong (Trọng)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q74",
+    "question_text": "c coi\nVN: c coi",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Project management director (Giám đốc quản lý dự án)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Scrum master (Bậc thầy về scrum)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Senior project management (Quản lý dự án cấp cao)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Project team leader (Trưởng nhóm dự án)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q75",
+    "question_text": "Trong\nVN: Trọng",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Financial analysis, accounting and forecasting (Phân tích, kế toán và dự báo tài chính)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Developing web applications and information portals (Phát triển ứng dụng web và cổng thông tin)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Risk management, process integration, security, and virtual purchasing are all great (Quản lý rủi ro, tích hợp quy trình, bảo mật và mua hàng ảo đều tuyệt vời)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Technical knowledge and business understanding to understand project plans and feasibility (Kiến thức kỹ thuật và hiểu biết kinh doanh để hiểu kế hoạch dự án và tính khả thi)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  }
+]

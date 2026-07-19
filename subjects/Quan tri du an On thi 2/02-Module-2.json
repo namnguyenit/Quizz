@@ -1,0 +1,382 @@
+[
+  {
+    "question_id": "pm-ot2-m2-q1",
+    "question_text": "Why would an Agile approach be more successful than a Waterfall approach in a VUCA environment? Select all that apply.\nVN: Tại sao phương pháp Agile lại thành công hơn phương pháp Waterfall trong môi trường VUCA? Chọn tất cả những đáp án đúng.",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "The Waterfall method is too flexible and lacks proper planning. (Phương pháp Waterfall quá linh hoạt và thiếu lập kế hoạch phù hợp.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "The Agile method is only suited for when there is certainty. (Phương pháp Agile chỉ phù hợp khi có sự chắc chắn.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "The Waterfall method requires proper planning and less flexibility. (Phương pháp Waterfall yêu cầu lập kế hoạch phù hợp và ít linh hoạt hơn.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "The Agile method is better at adapting and reacting to change. (Phương pháp Agile phù hợp hơn hơn trong việc thích ứng và phản ứng với thay đổi.)",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-ot2-m2-q2",
+    "question_text": "As a project manager, what are some reasons you might choose to follow a Scrum methodology? Select all that apply.\nVN: Với vai trò là một quản lý dự án, những lý do nào khiến bạn có thể chọn phương pháp Scrum? Chọn tất cả những đáp án đúng.",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "It offers a regular and predictable meeting and delivery schedule, with predefined agendas and outcomes for the meetings. (Nó cung cấp lịch trình cuộc họp và giao hàng đều đặn, dễ dự đoán với các kế hoạch và kết quả đã được xác định trước cho các cuộc họp.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "It supports and reinforces the Waterfall model. (Nó hỗ trợ và củng cố mô hình Waterfall.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "It has clear roles and responsibilities for your team, but emphasizes the power of the team as a whole. (Nó có các vai trò và trách nhiệm rõ ràng cho nhóm của bạn, nhưng nhấn mạnh sức mạnh của cả nhóm.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "It’s free and open for everyone. (Nó miễn phí và mở cho tất cả mọi người.)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-ot2-m2-q3",
+    "question_text": "As a project manager, you're leading a project that has an initial set of requirements at kick off, but you know this list will grow and change. Your team will work with stakeholders to prioritize requirements as the project moves forward. What approach is the best choice for your project?\nVN: Là một quản lý dự án, bạn đang dẫn dắt một dự án với tập hợp các yêu cầu ban đầu, nhưng bạn biết danh sách này sẽ phát triển và thay đổi. Nhóm của bạn sẽ làm việc với các bên liên quan để ưu tiên các yêu cầu khi dự án tiến triển. Phương pháp nào là lựa chọn tốt nhất cho dự án của bạn?",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "Linear (Tuyến tính)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Agile (Agile)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Scrum (Scrum)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Waterfall (Waterfall)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "What is the primary role of the Development Team, also known as Developers? Vai (trò chính của Nhóm Phát triển, còn được gọi là các nhà phát triển, là gì?)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Help the team understand why their work matters (Giúp nhóm hiểu lý do công việc của họ quan trọng.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Build the product (Xây dựng sản phẩm.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Ensure the team is building the right product (Đảm bảo nhóm đang xây dựng sản phẩm đúng.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Maximize the value of the product delivered by the team (Tối đa hóa giá trị của sản phẩm mà nhóm cung cấp.)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-ot2-m2-q4",
+    "question_text": "What is the primary role of the Scrum Master?\nVN: Vai trò chính của Scrum Master là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "They ensure the team is building the right product. (Họ đảm bảo rằng nhóm đang xây dựng sản phẩm đúng.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "They do the work to build the product. (Họ thực hiện công việc xây dựng sản phẩm.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "They work to continuously maximize the value of the product delivered by the Scrum Team. (Họ làm việc để liên tục tối đa hóa giá trị của sản phẩm do Nhóm Scrum cung cấp.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "They promote and support the Scrum process by helping everyone understand and implement Scrum. (Họ thúc đẩy và hỗ trợ quy trình Scrum bằng cách giúp mọi người hiểu và thực hiện Scrum.)",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-ot2-m2-q5",
+    "question_text": "Imagine you are a Scrum Master coaching Developers to embrace the traits of an effective Development Team: being cross-functional, self- organizing, and supportive. Which additional trait should effective Development Teams display?\nVN: Hãy tưởng tượng bạn là một Scrum Master, đang đào tạo các nhà phát triển để chấp nhận những đặc điểm của một Nhóm Phát triển hiệu quả: đa chức năng, tự tổ chức và hỗ trợ. Đặc điểm nào khác mà Nhóm Phát triển hiệu quả nên thể hiện?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "They should operate independently, without direct oversight from the Product Owner. (Họ nên hoạt động độc lập, không cần giám sát trực tiếp từ Product Owner)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "They should work as individuals rather than as a team. (Họ nên làm việc như những cá nhân thay vì là một nhóm.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "They should be customer-oriented. (Họ nên hướng tới khách hàng.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "They should share expertise in the same discipline. (Họ nên chia sẻ chuyên môn trong cùng một lĩnh vực.)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-ot2-m2-q6",
+    "question_text": "You create a Scrum team with five members. This small size helps avoid mixed signals, a breakdown of communication, and unnecessary project complications. Which pillar of Scrum does this describe?\nVN: Bạn tạo một nhóm Scrum với năm thành viên. Kích thước nhỏ này giúp tránh tín hiệu lẫn lộn, sự cố gắng giao tiếp và những phức tạp không cần thiết trong dự án. Trụ cột nào của Scrum được mô tả ở đây?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Flexibility (Tính linh hoạt)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "• Inspection (Kiểm tra)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "• Transparency (Tính minh bạch)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "• Adaptation (Sự thích ứng)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-ot2-m2-q7",
+    "question_text": "Which of the following statements regarding a product vision are correct? Select all that apply.\nVN: Những phát biểu nào sau đây về tầm nhìn sản phẩm là đúng? Chọn tất cả các đáp án đúng.",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "A product vision helps your team imagine what the work will be like when they’re done. (Tầm nhìn sản phẩm giúp nhóm bạn hình dung công việc sẽ như thế nào khi họ hoàn thành.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "A product vision tells your team the specific tasks they need to complete. (Tầm nhìn sản phẩm cho nhóm bạn biết các nhiệm vụ cụ thể mà họ cần hoàn thành.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "A  product vision makes it clear where your team’s boundaries are. (Tầm nhìn sản phẩm làm rõ ràng giới hạn của nhóm bạn.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "A product vision is a short statement that stays constant throughout the project. (Tầm nhìn sản phẩm là một tuyên bố ngắn gọn không thay đổi trong suốt dự án.)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-ot2-m2-q8",
+    "question_text": "Scrum Masters should have which of the following skills? Select all that apply.\nVN: Scrum Masters nên có những kỹ năng nào sau đây? Chọn tất cả các đáp án đúng.",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "Facilitation (Tạo điều kiện)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Programming knowledge (Kiến thức lập trình)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Organization (Tổ chức)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Leadership (Lãnh đạo)",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-ot2-m2-q9",
+    "question_text": "What are a Product Owner’s responsibilities? Select all that apply.\nVN: Những trách nhiệm của một Product Owner là gì? Chọn tất cả các đáp án đúng.",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "Make sure the product fulfills the customers’ needs (Đảm bảo sản phẩm đáp ứng nhu cầu của khách hàng.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Facilitate Scrum events such as the Sprint Planning and Retrospective (Tạo điều kiện cho các sự kiện Scrum như Lập kế hoạch Sprint và Tổng kết.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Clearly communicate and prioritize the Product Backlog (Giao tiếp rõ ràng và ưu tiên Product Backlog.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Help the team understand the overall goal and mission of the project (Giúp nhóm hiểu mục tiêu và sứ mệnh tổng thể của dự án.)",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-ot2-m2-q10",
+    "question_text": "What are some of the main responsibilities of a Scrum Master? Select all that apply.\nVN: Một số trách nhiệm chính của Scrum Master là gì? Chọn tất cả các đáp án đúng.",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "Coaches team members to use Agile and Scrum practices (Huấn luyện các thành viên trong nhóm sử dụng các thực hành Agile và Scrum.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Minimizes unhelpful interactions or interruptions coming from outside of the team (Giảm thiểu các tương tác hoặc gián đoạn không hữu ích từ bên ngoài nhóm.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Acts as the voice of the customer (Đại diện cho tiếng nói của khách hàng.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Facilitates scrum events such as Sprint Retrospectives (Tạo điều kiện cho các sự kiện Scrum như Tổng kết Sprint.)",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-ot2-m2-q11",
+    "question_text": "In Scrum, the Development Team should operate in what way?\nVN: Trong Scrum, Nhóm Phát triển nên hoạt động theo cách nào?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "As self-sufficient individuals (Như những cá nhân tự cung tự cấp.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "As hierarchical group (Như một nhóm có cấu trúc phân cấp.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "As an independent group (Như một nhóm độc lập.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "As a self-organizing group (Như một nhóm tự tổ chức.)",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-ot2-m2-q12",
+    "question_text": "What are the key characteristics of successful Product Owners? Select all that apply.\nVN: Những đặc điểm chính của Product Owners thành công là gì? Chọn tất cả các đáp án đúng.",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "Optimistic (Lạc quan)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Customer-focused (Tập trung vào khách hàng.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Independent (Độc lập.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Collaborative (Hợp tác.)",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-ot2-m2-q13",
+    "question_text": "Which Scrum value most closely resonates with the following: Treat others as you would like to be treated.\nVN: Giá trị Scrum nào phù hợp nhất với câu sau: Đối xử với người khác như bạn muốn được đối xử?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Dissension (Mâu thuẫn)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Focus (Tập trung)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Respect (Tôn trọng.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Commitment (Cam kết)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-ot2-m2-q14",
+    "question_text": "As a project manager organizing a Development Team, you want to make sure the team has the skills necessary to build the product or carry out the service. Which trait does this represent?\nVN: Như một quản lý dự án tổ chức Nhóm Phát triển, bạn muốn đảm bảo rằng nhóm có những kỹ năng cần thiết để xây dựng sản phẩm hoặc thực hiện dịch vụ. Đặc điểm nào điều này thể hiện?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "self-managing (tự quản lý)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "supportive (hỗ trợ)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "cross functional (đa chức năng.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "customer-oriented (hướng tới khách hàng)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-ot2-m2-q15",
+    "question_text": "In Scrum, which role is responsible for the team’s performance and overseeing tasks and progress?\nVN: Trong Scrum, vai trò nào chịu trách nhiệm về hiệu suất của nhóm và giám sát các nhiệm vụ và tiến độ?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Project manager (Quản lý dự án)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Product Owner (Product Owner)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Development Team (Nhóm Phát triển)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Scrum Master (Scrum Master)",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  }
+]

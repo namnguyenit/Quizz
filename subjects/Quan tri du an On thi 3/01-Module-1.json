@@ -1,0 +1,482 @@
+[
+  {
+    "question_id": "pm-ot3-m1-q1",
+    "question_text": "Which Scrum Role is primarily responsible for owning and updating the Product Backlog?\nVN: Vai trò nào trong Scrum chịu trách nhiệm chính trong việc sở hữu và cập nhật Product Backlog?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "High-Influence Stakeholder (Cổ đông có ảnh hưởng cao)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Product Owner (Chủ sản phẩm)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Development Team (Đội phát triển)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Scrum Master (Người quản lý Scrum)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-ot3-m1-q2",
+    "question_text": "Which of the following are key characteristics of a Product Backlog? Select all that apply.\nVN: Đặc điểm chính nào sau đây của Product Backlog? Chọn tất cả các đáp án đúng.",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "It is rarely updated. (Nó hiếm khi được cập nhật.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "It is owned and adjusted by the entire team. (Nó được sở hữu và điều chỉnh bởi cả đội.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "It is a living artifact. (Nó là một tài liệu đang thực hiện.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "It is a prioritized list of features. (Nó là danh sách các tính năng được ưu tiên.)",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-ot3-m1-q3",
+    "question_text": "What long-term objective for the Scrum Team is included in the Product Backlog?\nVN: Mục tiêu dài hạn nào cho đội Scrum thuộc Product Backlog?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Product Owner (Chủ sản phẩm)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Product Goal (Mục tiêu sản phẩm)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Product requirements document (Tài liệu yêu cầu sản phẩm)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Sprint Goal (Mục tiêu Sprint)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-ot3-m1-q4",
+    "question_text": "When building a Product Backlog, you include how much effort the Developers state it will take to finish an item. You should capture this information in which Backlog item attribute?\nVN: Khi xây dựng Product Backlog, bạn cần có những mức độ công sức mà các nhà phát triển đánh giá là cần thiết để hoàn thành một mục. Bạn nên lưu trữ thông tin này trong thuộc tính nào của mục Backlog?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Item order (Thứ tự mục)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Item description (Mô tả mục)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Item effort estimate (Ước tính công sức của mục)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Item value (Giá trị của mục)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-ot3-m1-q5",
+    "question_text": "When building a Product Backlog, you compare the importance of each Backlog item to the other Backlog items. This helps you rank and organize the Backlog items from highest to lowest priority. You should capture this information in which Backlog item attribute?\nVN: Khi xây dựng Product Backlog, bạn so sánh tầm quan trọng của từng mục Backlog với các mục khác. Điều này giúp bạn xếp hạng và sắp xếp các mục Backlog từ ưu tiên cao nhất đến thấp nhất. Bạn nên ghi nhận thông tin này trong thuộc tính nào của mục Backlog?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Item order (Thứ tự mục)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Item description (Mô tả mục)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Item effort estimate (Ước tính công sức của mục)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Item value (Giá trị của mục)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-ot3-m1-q6",
+    "question_text": "Select the value that best completes the following user story:” As a plant owner, I want to find it a place with the right amount of sunlight so that _____.”\nVN: Chọn giá trị hoàn thành tốt nhất cho User Stories sau: \"Là một người trồng cây, tôi muốn tìm một vị trí có lượng ánh sáng mặt trời phù hợp để _____.\"",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "My cat doesn't eat it (Con mèo của tôi không ăn nó)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "I can water it regularly (Tôi có thể tưới nước cho nó thường xuyên)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "My family can enjoy it more (Gia đình tôi có thể thưởng thức nó nhiều hơn)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "I can maximize its growth (Tôi có thể tối đa hóa sự phát triển của cây)",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-ot3-m1-q7",
+    "question_text": "Consider the following user story: “As a plant owner, I want to learn from other, more experienced plant owners so that I can better care for my plant.” Which of the following pieces of acceptance criteria are appropriate for this story? Select all that apply.\nVN: Xem xét user story sau: \"Là một người trồng cây, tôi muốn học hỏi từ những người trồng cây có kinh nghiệm hơn để tôi có thể chăm sóc cây của mình tốt hơn.\" Những tiêu chí nào sau đây là phù hợp cho story này? Chọn tất cả các đáp án đúng.",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "Ability to join an online discussion group for trading plant care tips (Khả năng tham gia một nhóm thảo luận trực tuyến để trao đổi các mẹo chăm sóc cây)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Ability to access an “Expert Advice” section on the website (Khả năng truy cập phần \"Lời khuyên từ chuyên gia\" trên trang web)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Ability to join a mailing list (Khả năng tham gia danh sách gửi mail)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Ability to sign up for Q&A sessions with plant experts (Khả năng đăng ký các buổi hỏi đáp với chuyên gia trồng cây)",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-ot3-m1-q8",
+    "question_text": "Which of the following user stories is complete and follows the correct structure?\nVN: User stories nào sau đây là hoàn chỉnh và tuân theo cấu trúc đúng?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "“As a plant owner, I want to remember when to water my plants so that I don’t under- or overwater them.” (Là một người trồng cây, tôi muốn nhớ khi nào tưới nước cho cây để không tưới thiếu hoặc quá nhiều.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "“As a plant owner, I want to make sure my plant gets enough sunlight and nutrients.” (Là một người trồng cây, tôi muốn đảm bảo cây của tôi nhận đủ ánh sáng và dinh dưỡng.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "“As a plant expert, I want to expand and display my plant collection publicly.” (Là một chuyên gia về cây trồng, tôi muốn mở rộng và trưng bày bộ sưu tập cây của mình trước công chúng.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "“As a customer, I want to get my plant as quickly and keep it healthy as long as possible.” (Là một khách hàng, tôi muốn nhận cây của mình nhanh nhất có thể và giữ nó khỏe mạnh càng lâu càng tốt.)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-ot3-m1-q9",
+    "question_text": "Which of the following user stories could lead to an option to bundle a plant care kit with purchase? Select all that apply.\nVN: User stories nào sau đây có thể dẫn đến tùy chọn mua kèm bộ dụng cụ chăm sóc cây? Chọn tất cả các đáp án đúng.",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "“As a plant owner, I want to have the right tools to care for my plant so that I can keep it healthy and beautiful.” (Là một người trồng cây, tôi muốn có các công cụ phù hợp để chăm sóc cây của mình để tôi có thể giữ nó khỏe mạnh và đẹp.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "“As a plant owner, I wish there were more options on the website.” (Là một người trồng cây, tôi ước có nhiều tùy chọn hơn trên trang web.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "“As a plant owner, I want to purchase stylish accessories so that I can show off my plants.” (Là một người trồng cây, tôi muốn mua phụ kiện thời trang để khoe cây của mình.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "“As a plant owner, I want to trim and prune my plant so that it grows the right way.” (Là một người trồng cây, tôi muốn cắt tỉa cây để nó phát triển theo cách đúng.)",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-ot3-m1-q10",
+    "question_text": "Which of the following are included in a Sprint’s set of events? Select all that apply.\nVN: Những sự kiện nào sau đây bao gồm trong tập hợp các sự kiện của một Sprint? Chọn tất cả các đáp án đúng.",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "Sprint Retrospective (Cải tiến Sprint)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Sprint Closing (Kết thúc Sprint)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Sprint Review (Đánh giá Sprint)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Sprint Planning (Lập kế hoạch Sprint)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Daily Scrum (Cuộc họp Scrum hàng ngày)",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-ot3-m1-q11",
+    "question_text": "What are the benefits of timeboxes? Select all that apply.\nVN: Lợi ích của giới hạn thời gian (timeboxes) là gì? Chọn tất cả các đáp án đúng.",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "They provide a window of focus to improve productivity. (Chúng cung cấp một khoảng thời gian tập trung để cải thiện năng suất.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "They enable the team to visually understand the work. (Chúng giúp nhóm có thể nhìn nhận công việc một cách trực quan.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "They create a sense of urgency to drive prioritization. (Chúng tạo ra cảm giác khẩn cấp để thúc đẩy việc ưu tiên.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "They help the team develop a predictable rhythm to their work. (Chúng giúp nhóm phát triển nhịp điệu làm việc có thể dự đoán được.)",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-ot3-m1-q12",
+    "question_text": "How long is a typical Sprint’s timebox?\nVN: Giới hạn thời gian (timebox) điển hình của một Sprint là bao lâu?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Between one and four weeks (Từ một đến bốn tuần)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Between one and three days (Từ một đến ba ngày)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Between two and three months (Từ hai đến ba tháng)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-ot3-m1-q13",
+    "question_text": "Which of the following factors should you consider when setting the length of a Sprint’s timebox? Select all that apply.\nVN: Yếu tố nào sau đây bạn nên xem xét khi đặt thời gian giới hạn (timebox) cho một Sprint? Chọn tất cả các đáp án đúng.",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "The expected frequency of changes (Tần suất thay đổi dự kiến)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "How much focused time the solution Developers need to build a Backlog item (Thời gian tập trung mà các nhà phát triển cần để xây dựng một mục trong Backlog)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "How much overhead—such as testing and review—goes into the delivery of the product (Lượng công việc bổ sung — như kiểm thử và đánh giá — cần để hoàn thành việc giao sản phẩm)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "The likelihood that the project will go over budget (Khả năng dự án vượt ngân sách)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-ot3-m1-q14",
+    "question_text": "How do Product Owners typically organize items in the Backlog?\nVN: Chủ sản phẩm (Product Owners) thường sắp xếp các mục trong Backlog như thế nào?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "From easiest to most difficult (Từ dễ nhất đến khó nhất)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "From most to least time-consuming (Từ mất nhiều thời gian nhất đến ít thời gian nhất)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "From highest to lowest priority (Từ ưu tiên cao nhất đến thấp nhất)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "From simplest to most complex (Từ đơn giản nhất đến phức tạp nhất)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-ot3-m1-q15",
+    "question_text": "A Product Owner writes a user story for an item in a Sprint. They ensure all the parts of the user story are complete and ready to hand off to the quality analysis team. Which of the I.N.V.E.S.T. story writing criteria is the Product Owner trying to fulfill?\nVN: Chủ sản phẩm viết một câu user story cho một mục trong Sprint. Họ đảm bảo tất cả các phần của user story được hoàn thành và sẵn sàng chuyển giao cho đội phân tích chất lượng. Tiêu chí viết story nào trong I.N.V.E.S.T mà Product Owner đang cố gắng đáp ứng?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Testable (Có thể kiểm thử)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Independent (Độc lập)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Valuable (Có giá trị)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Negotiable (Có thể thương lượng)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-ot3-m1-q16",
+    "question_text": "As a Product Owner, you need to add estimates to your Backlog for a small number of items. You’d like your team to reach a consensus on the number of items, and you would also like to incorporate the Fibonacci sequence. Which effort estimation technique should you use?\nVN: Là một Product Owner, bạn cần thêm ước tính vào Backlog cho một số lượng nhỏ các mục. Bạn muốn nhóm của mình đạt được sự đồng thuận về số lượng các mục, và bạn cũng muốn kết hợp dãy số Fibonacci. Bạn nên sử dụng kỹ thuật ước tính công sức nào?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Dot Voting (Bỏ phiếu chấm điểm)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "The Bucket System (Hệ thống phân loại)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Affinity Mapping (Bản đồ phân nhóm)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Planning Poker (Lập kế hoạch Poker)",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-ot3-m1-q17",
+    "question_text": "Which of the following typically happens during a Sprint? Select all that apply.\nVN: Điều nào sau đây thường xảy ra trong một Sprint? Chọn tất cả các đáp án đúng.",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "The project scope is clarified with the Product Owner as more is learned. (Phạm vi dự án được làm rõ với Product Owner khi có thêm thông tin.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "The work quality improves—or at least stays the same—when compared to the last Sprint. (Chất lượng công việc được cải thiện — hoặc ít nhất là duy trì so với Sprint trước.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "The Product Backlog is refined by the Product Owner as needed. (Product Backlog được Product Owner tinh chỉnh khi cần.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "The Sprint Goal is changed by the Product Owner as needed. (Mục tiêu Sprint được Product Owner thay đổi khi cần.)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-ot3-m1-q18",
+    "question_text": "Which of the following indicates that a product meets the Definition of Done? Select all that apply.\nVN: Điều nào sau đây cho thấy một sản phẩm đã đáp ứng Định nghĩa Hoàn thành (Definition of Done)? Chọn tất cả các đáp án đúng.",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "The product meets half of the acceptance criteria. (Sản phẩm đáp ứng một nửa tiêu chí chấp nhận.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "The Product Owner accepts the story. (Chủ sản phẩm chấp nhận câu chuyện.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "The product passes all testing requirements. (Sản phẩm vượt qua tất cả các yêu cầu kiểm thử.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "An independent peer group reviews the product. (Một nhóm đồng nghiệp độc lập đánh giá sản phẩm.)",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-ot3-m1-q19",
+    "question_text": "What is a key goal of completing a Sprint review with the team?\nVN: Mục tiêu chính của việc hoàn thành buổi đánh giá Sprint với nhóm là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "To determine which items in the Sprint backlog have met the definition of done. (Xác định các mục nào trong Sprint backlog đã đáp ứng Định nghĩa Hoàn thành.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "To prioritize the next Sprint items to work on and team availability. (Ưu tiên các mục Sprint tiếp theo để làm việc và xác định khả năng sẵn sàng của nhóm.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "To discuss stakeholder comments with the Product Manager. (Thảo luận về các ý kiến của các bên liên quan với Quản lý Sản phẩm.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "To discuss how to better work as a team to get work done. (Thảo luận về cách làm việc tốt hơn như một đội để hoàn thành công việc.)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-ot3-m1-q20",
+    "question_text": "When conducting a successful Sprint Retrospective, what type of questions should the Scrum Master ask the team?\nVN: Khi tiến hành buổi cải tiến Sprint thành công, Scrum Master nên đặt những câu hỏi nào cho nhóm?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Questions that highlight an individual's performance (Câu hỏi làm nổi bật hiệu suất của cá nhân.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Open-ended questions that promote discussions (Các câu hỏi mở khuyến khích thảo luận.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Questions that identify the team’s biases and opinions (Câu hỏi xác định thành kiến và ý kiến của nhóm.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Quick questions that require a yes or no answer (Câu hỏi nhanh chỉ yêu cầu câu trả lời có hoặc không.)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  }
+]

@@ -1,0 +1,678 @@
+[
+  {
+    "question_id": "pm-itpm101-q101",
+    "question_text": "When building a Product Backlog, you include how much effort the Developers state it will take to finish an item. You should capture this information in which Backlog item attribute?\nVN: Khi xây dựng Product Backlog, bạn bao gồm cả mức độ nỗ lực mà Nhà phát triển nêu rõ sẽ cần bao nhiêu để hoàn thành một hạng mục. Bạn nên nắm bắt thông tin này ở thuộc tính hạng mục Backlog nào?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Khi (Khí)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Th t m c (Tht m c)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Item description  ả ụ (Mô tả sản phẩm hình ảnh)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Item effort estimate (Ước tính nỗ lực của mục)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Item value  ịủ ụ (Giá trị mục ụ)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q102",
+    "question_text": "When building a Product Backlog, you compare the importance of each Backlog item to the other Backlog items. This helps you rank and organize the Backlog items from highest to lowest priority. You should capture this information in which Backlog item attribute? Khi\nVN: Khi xây dựng Product Backlog, bạn so sánh tầm quan trọng của từng hạng mục Backlog với các hạng mục Backlog khác. Điều này giúp bạn xếp hạng và sắp xếp các mục Backlog từ mức độ ưu tiên cao nhất đến thấp nhất. Bạn nên nắm bắt thông tin này ở thuộc tính hạng mục Backlog nào? Khí",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "Th t m c (Tht m c)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Item description  ả ụ (Mô tả sản phẩm hình ảnh)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Item effort estimate (Ước tính nỗ lực của mục)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Item value  ịủ ụ (Giá trị mục ụ)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Select the value that best completes the following user story: As a plant owner, I ” want to find it a place with the right amount of sunlight so that _____. ” (Chọn giá trị phù hợp nhất để hoàn thành câu chuyện sau của người dùng: Với tư cách là chủ sở hữu nhà máy, tôi ” muốn tìm một nơi có lượng ánh sáng mặt trời phù hợp để _____.”)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "My cat doesn't eat it (Con mèo của tôi không ăn nó)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "I can water it regularly  ểtưới nước cho nó thườ (Tôi có thể tưới nước thường xuyên để tưới nước cho nó thư cờ)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "My family can enjoy it more  thưởng thức nó nhi (Gia đình tôi có thể thưởng thức nó nhiều hơn nữa, thưởng thức nó nhi)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "I can maximize its growth  ểối đa hóa sự ể ủ (Tôi có thể tối đa hóa sự phát triển của nó để tối đa hóa sự phát triển của nó)",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q103",
+    "question_text": "Consider the following user story: “As a plant owner, I want to learn from other, more experienced plant owners so that I can better care for my plant.” Which of the following pieces of acceptance criteria are appropriate for this story? Select all that apply. Xem\nVN: Hãy xem xét câu chuyện của người dùng sau: “Là chủ sở hữu nhà máy, tôi muốn học hỏi từ những chủ nhà máy khác, có kinh nghiệm hơn để tôi có thể chăm sóc nhà máy của mình tốt hơn”. Phần tiêu chí chấp nhận nào sau đây phù hợp với câu chuyện này? Chọn tất cả những gì áp dụng. Xem",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "Which of the following criteria is suitable for correct answers? p for this story? Select all (Tiêu chí nào sau đây phù hợp với câu trả lời đúng? p cho câu chuyện này? Chọn tất cả)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Ability to join an online discussion group for trading plant care tips (Kh (Khả năng tham gia nhóm thảo luận trực tuyến để trao đổi các mẹo chăm sóc cây trồng (Kh)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Come here to share tips on tree care) (Vào đây chia sẻ bí quyết chăm sóc cây))",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Ability to access an “Expert Advice” section on the website (Khả năng truy cập phần “Lời khuyên của Chuyên gia” trên trang web)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "p (P)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Kh i mail (Khi tôi gửi thư)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Ability to sign up for Q&A sessions with plant experts (Khả năng đăng ký các buổi hỏi đáp với các chuyên gia thực vật)",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q104",
+    "question_text": "Which of the following user stories is complete and follows the correct structure? User stories\nVN: Câu chuyện nào sau đây của người dùng là hoàn chỉnh và tuân theo cấu trúc đúng? Câu chuyện của người dùng",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "“As a plant owner, I want to remember when to water my plants so that I don’t under- (“Là chủ sở hữu cây trồng, tôi muốn nhớ thời điểm tưới cây để không bị thiếu nước.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "or overwater them.” (hoặc tưới nước quá nhiều.”)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "i (Tôi)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "“As a plant owner, I want to make sure my plant gets enough sunlight and nutrients.” (“Là chủ sở hữu cây trồng, tôi muốn đảm bảo cây trồng của mình nhận đủ ánh sáng mặt trời và chất dinh dưỡng.”)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "“As a plant expert, I want to expand and display my plant collection publicly.” (“Là một chuyên gia về thực vật, tôi muốn mở rộng và trưng bày bộ sưu tập thực vật của mình một cách công khai.”)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "p (P)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "“As a customer, I want to get my plant as quickly and keep it healthy as long as possible.” (“Là một khách hàng, tôi muốn cây của mình có được càng nhanh càng tốt và giữ cho nó khỏe mạnh lâu nhất có thể.”)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q105",
+    "question_text": "Which of the following user stories could lead to an option to bundle a plant care kit with purchase? Select all that apply. User stories\nVN: Câu chuyện nào sau đây của người dùng có thể dẫn đến lựa chọn tặng kèm bộ dụng cụ chăm sóc cây trồng khi mua hàng? Chọn tất cả những gì áp dụng. Câu chuyện của người dùng",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "“As a plant owner, I want to have the right tools to care for my plant so that I can keep it healthy and beautiful.” (“Là chủ sở hữu cây trồng, tôi muốn có những công cụ phù hợp để chăm sóc cây trồng của mình để có thể giữ cho nó khỏe và đẹp.”)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "a (Một)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "“As a plant owner, I wish there were more options on the website.” (“Là chủ sở hữu nhà máy, tôi ước có nhiều lựa chọn hơn trên trang web.”)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "As a tree person, I prefer more information on the website.) (Là một người yêu cây, tôi thích có thêm thông tin trên trang web.))",
+        "is_correct": false
+      },
+      {
+        "answer_text": "“As a plant owner, I want to purchase stylish accessories so that I can show off my plants.”  ột ngườ ồ ố ụ ệ ời trang để ủ (“Là chủ sở hữu cây trồng, tôi muốn mua những phụ kiện thời trang để có thể khoe cây của mình”.  ôi ngườ ố ụ ệ ời trang để ủ)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "“As a plant owner, I want to trim and prune my plant so that it grows the right way.” (“Là chủ sở hữu cây trồng, tôi muốn cắt tỉa cây của mình để nó phát triển đúng hướng.”)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "A person who defecates a tree to eat in the right way.) (Người đại tiện cho cây ăn uống đúng cách.))",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q106",
+    "question_text": "Which of the following are included in a Sprint’s set of events? Select all that apply.\nVN: Điều nào sau đây được bao gồm trong tập hợp các sự kiện của Sprint? Chọn tất cả những gì áp dụng.",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "C i ti n Sprint (C i ti n Sprint)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Sprint Closing  ế (Sprint Kết thúc)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Sprint Review (Đánh giá nước rút)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "L p k ho ch Sprint (L p k ho ch Sprint)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Daily Scrum  ộ ọ (Scrum hàng ngày ọ)",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q107",
+    "question_text": "timeboxes\nVN: hộp thời gian",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "They provide a window of focus to improve productivity.  ấ ộ ả ờ ập trung đểả ện năng suấ (Chúng cung cấp một khoảng thời gian tập trung để cải thiện năng suất.  `````````````````````` Ð````````)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "They enable the team to visually understand the work.  ể ậ ệ ộ ự (Chúng cho phép nhóm hiểu được công việc một cách trực quan.  for file auto)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "They create a sense of urgency to drive prioritization (Chúng tạo ra cảm giác cấp bách để thúc đẩy sự ưu tiên.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "She is incubating to promote priority.) (Cô ấy đang ấp ủ để phát huy ưu tiên.))",
+        "is_correct": false
+      },
+      {
+        "answer_text": "They help the team develop a predictable rhythm to their work.  ể ịp điệ ệ ểựđoán đượ (Họ giúp nhóm phát triển nhịp điệu có thể dự đoán được trong công việc của họ.  for ịp diệc ểựđoán)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "How long is a (một cái dài bao lâu)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q108",
+    "question_text": "timebox\nVN: hộp thời gian",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "T m n b n tu n (T m n b n tu n)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Between one and three days  ừ ột đế (Từ một đến ba ngày ừ Óc)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Between two and three months  ừhai đế (Từ hai đến ba tháng ừhai đế)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q109",
+    "question_text": "timebox\nVN: hộp thời gian",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "T n su i d ki n (T n su i d ki n)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "How much focused time the solution Developers need to build a Backlog item (Giải pháp cần tập trung bao nhiêu thời gian để xây dựng hạng mục Backlog)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "How much overhead such as testing and review goes into the delivery of the — — product  ệ ả ẩ (Bao nhiêu chi phí như kiểm tra và đánh giá sẽ được sử dụng để phân phối — — sản phẩm ệ nhập)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "The likelihood that the project will go over budget (Khả năng dự án sẽ vượt quá ngân sách)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q110",
+    "question_text": "Product Owners\nVN: Chủ sở hữu sản phẩm",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "From easiest to most difficult  ừễ ất đế ấ (Từ dễ đến khó nhất ừm ất đế ê)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "From most to least time-consuming (Từ tốn nhiều thời gian nhất đến ít nhất)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "T n th p nh t (T n th p nh t)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "T n nh n ph c t p nh t (T n nh n ph c t p nh t)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q111",
+    "question_text": "A Product Owner writes a user story for an item in a Sprint. They ensure all the parts of the user story are complete and ready to hand off to the quality analysis team. Which of the I.N.V.E.S.T. story writing criteria is the Product Owner trying to fulfill?\nVN: Chủ sở hữu sản phẩm viết câu chuyện của người dùng cho một hạng mục trong Sprint. Họ đảm bảo tất cả các phần của câu chuyện người dùng đều hoàn chỉnh và sẵn sàng giao cho nhóm phân tích chất lượng. I.N.V.E.S.T. tiêu chí viết câu chuyện mà Chủ sản phẩm đang cố gắng đáp ứng?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "The product owner writes a user story for a project during the Sprint. They ensure all parts of the user story are complete and ready for analysis to be delivered to the quality team in question. What story writing criteria in I.N.V.E.S.T does the Product Owner try to meet? (Chủ sở hữu sản phẩm viết câu chuyện của người dùng cho một dự án trong Sprint. Họ đảm bảo tất cả các phần của câu chuyện của người dùng đều hoàn chỉnh và sẵn sàng để phân tích và chuyển cho nhóm chất lượng được đề cập. Tiêu chí viết câu chuyện nào trong I.N.V.E.S.T mà Chủ sản phẩm cố gắng đáp ứng?)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Testable  ể ể ử (Testable for ử dụng)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Independent (Độc lập)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Valuable  ị (Có giá trị)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Negotiable  ểthương lượ (Có thể thương lượng)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q112",
+    "question_text": "As a Product Owner, you need to add estimates to your Backlog for a small number of items. You’d like your team to reach a consensus on the number of items, and you would also like to incorporate the Fibonacci sequence. Which effort estimation technique should you use?\nVN: Với tư cách là Chủ sở hữu sản phẩm, bạn cần thêm các ước tính vào Backlog của mình cho một số lượng nhỏ các hạng mục. Bạn muốn nhóm của mình đạt được sự đồng thuận về số lượng mục và bạn cũng muốn kết hợp chuỗi Fibonacci. Bạn nên sử dụng kỹ thuật ước lượng nỗ lực nào?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "B phi u ch m (B phi u ch m)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "The Bucket System  ệ ố ạ (The Bucket System ố ạ)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Affinity Mapping  ản đồ (Bản đồ mối quan hệ)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "L p k ho ch Poker (Lp k hồ ch Poker)",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q113",
+    "question_text": "Which of the following typically happens during a Sprint? Select all that apply.\nVN: Điều nào sau đây thường xảy ra trong Sprint? Chọn tất cả những gì áp dụng.",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "The project scope is clarified with the Product Owner as more is learned.  án đượ ớ (Phạm vi dự án sẽ được làm rõ với Chủ sở hữu sản phẩm khi tìm hiểu được nhiều hơn.  phương án di chuyển)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "The work quality improves or at least stays the same when compared to the last — — Sprint (Chất lượng công việc được cải thiện hoặc ít nhất là giữ nguyên khi so sánh với lần trước — — Sprint.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "The Product Backlog is refined by the Product Owner as needed (Product Backlog được Chủ sản phẩm tinh chỉnh khi cần thiết.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "The Sprint Goal is changed by the Product Owner as needed (Mục tiêu Sprint được Chủ sở hữu sản phẩm thay đổi nếu cần.)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q114",
+    "question_text": "Definition of Done\nVN: Định nghĩa xong",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "The product meets half of the acceptance criteria (Sản phẩm đáp ứng được một nửa tiêu chí chấp nhận.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "The Product Owner accepts the story (Chủ sản phẩm chấp nhận câu chuyện.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "The product passes all testing requirements (Sản phẩm vượt qua tất cả các yêu cầu thử nghiệm.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "An independent peer group reviews the product (Một nhóm ngang hàng độc lập đánh giá sản phẩm.)",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q115",
+    "question_text": "What is a key goal of completing a Sprint review with the team?\nVN: Mục tiêu chính của việc hoàn thành buổi đánh giá Sprint với nhóm là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "To determine which items in the Sprint backlog have met the definition of done.  nh các m (Để xác định những mục nào trong Sprint backlog đã đáp ứng được định nghĩa là đã hoàn thành.  NHM)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "To prioritize the next Sprint items to work on and team availability (Để ưu tiên các hạng mục Sprint tiếp theo cần thực hiện và tính khả dụng của nhóm.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "To discuss stakeholder comments with the Product Manager (Để thảo luận về ý kiến ​​của các bên liên quan với Giám đốc sản phẩm.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "To discuss how to better work as a team to get work done (Để thảo luận về cách làm việc nhóm tốt hơn để hoàn thành công việc.)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q116",
+    "question_text": "When conducting a successful Sprint Retrospective, what type of questions should the Scrum Master ask the team? Khi ti n\nVN: Khi tiến hành một buổi Cải tiến Sprint thành công, Scrum Master nên hỏi nhóm những loại câu hỏi nào? Khi ti n",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Questions that highlight an individual's performance  ỏ ổ ậ ệ ấ ủ (Những câu hỏi nêu bật hiệu suất làm việc của một cá nhân ỏ ổ đĩa đệm)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Open-ended questions that promote discussions  ỏ ở ế ả ậ (Câu hỏi mở thúc đẩy thảo luận ỏ ở ế ảnh)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Questions that identify the team’s biases and opinions  ỏi xác đị ế ế ủ (Các câu hỏi xác định những thành kiến ​​và ý kiến ​​của nhóm một cách cụ thể ế ế)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Quick questions that require a yes or no answer  ỏ ỉ ầ ảờ ặ (Những câu hỏi nhanh yêu cầu trả lời có hoặc không ỏ ỉ ầu ảnh ặ)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q117",
+    "question_text": "What item can be used to track the number of tasks completed against time and see how many tasks are remaining on a project?\nVN: Mục nào có thể được sử dụng để theo dõi số lượng nhiệm vụ đã hoàn thành theo thời gian và xem có bao nhiêu nhiệm vụ còn lại trong một dự án?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Point estimation (Ước tính điểm)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Bi Burndown (Bi Burndown)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Task list  ệ ụ (Danh sách nhiệm vụ ụ)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Stakeholder analysis (Phân tích các bên liên quan)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q118",
+    "question_text": "Focus is one of the values of Scrum methodology. Which of the following items can help determine whether a team is being assigned more work than required to focus effectively?\nVN: Tập trung là một trong những giá trị của phương pháp Scrum. Mục nào sau đây có thể giúp xác định liệu một nhóm có được giao nhiều công việc hơn mức cần thiết để tập trung hiệu quả hay không?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "The work-in-progress (WIP) limit  ớ ạ ệc đang thự ệ (Giới hạn công việc đang thực hiện (WIP) ớ ạc đang làm việc tại thư viện)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "The Product Owner’s performance (Hiệu suất của Chủ sở hữu sản phẩm)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "The stakeholder comments  ậ ủ (Các bên liên quan đang thu thập ý kiến)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "The client’s feedback (Phản hồi của khách hàng)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q119",
+    "question_text": "How can tools like Jira and Asana help teams who are practicing Scrum methodologies?\nVN: Các công cụ như Jira và Asana có thể giúp các nhóm đang thực hành phương pháp Scrum như thế nào?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Team members can use them to present slides.  ểửụng chúng để ế (Các thành viên trong nhóm có thể sử dụng chúng để trình bày slide.  sử dụng chúng để ế)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Team members can use them to adjust the project budget (Các thành viên trong nhóm có thể sử dụng chúng để điều chỉnh ngân sách dự án.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "u ch nh (bạn biết đấy)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "They can help store feedback from team retrospectives.  ểgiúp lưu trữ ả ồ ừ ổ ồ ứ ủ (Họ có thể giúp lưu trữ phản hồi từ các buổi cải tiến của nhóm.  thểgiúp lưu trữ hình ảnh ừ ổ ứ)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "They can help track work items in Product Backlog.  ể ụ ệ (Họ có thể giúp theo dõi các hạng mục công việc trong Product Backlog.  for ụ)",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q120",
+    "question_text": "What is the difference between managing and coaching?\nVN: Sự khác biệt giữa quản lý và huấn luyện là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Managing is used in Agile; coaching is used in Waterfall. ấ ện đượ ửụ (Quản lý được sử dụng trong Agile; huấn luyện được sử dụng trong Waterfall. ân sử dụng)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Managing is about giving direction; coaching is about teaching (Quản lý là đưa ra phương hướng; huấn luyện là về giảng dạy.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Managing is about encouraging the team; coaching is about delegating tasks (Quản lý là khuyến khích nhóm; huấn luyện là về việc giao nhiệm vụ.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Managing is about listening; coaching is about asserting.  ấ ệ ề ệ ẳng đị (Quản lý là lắng nghe; huấn luyện là về sự khẳng định.  ep ệc đẳng cấp)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q121",
+    "question_text": "Which of the following responsibilities are part of your role as an Agile coach? Select all that apply.\nVN: Trách nhiệm nào sau đây là một phần trong vai trò của bạn với tư cách là huấn luyện viên Agile? Chọn tất cả những gì áp dụng.",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "Cung c p ph n h i (Cung c p ph n h i.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Celebrate and learn with the team.  Ăn mừ ọ ỏi cùng độ (Ăn mừng và học hỏi cùng đội.  Ăn từ cùng một mức độ)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Solve problems for the team.  ả ế ấn đềcho độ (Giải quyết vấn đề cho nhóm.  ả ế ấn đề độ)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Design the plays (detail how work gets done) with the team.  ới độ (Thiết kế các vở kịch (chi tiết cách thực hiện công việc) với nhóm.  new mode)",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q122",
+    "question_text": "What part of your role as an Agile coach involves reviewing your team’s performance to find patterns that work or need improvement?\nVN: Phần nào trong vai trò huấn luyện viên Agile của bạn liên quan đến việc xem xét hiệu suất của nhóm bạn để tìm ra các mô hình hoạt động hoặc cần cải thiện?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Cung c p ph n h i (Cung c p ph n h i.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Design the plays (detail how work gets done) with the team.  ới độ (Thiết kế các vở kịch (chi tiết cách thực hiện công việc) với nhóm.  new mode)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Celebrate and learn with the team.  Ăn mừ ọ ỏi cùng độ (Ăn mừng và học hỏi cùng đội.  Ăn từ cùng một mức độ)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q123",
+    "question_text": "How can you help your team build confidence and capabilities through coaching? Select all that apply.\nVN: Bạn có thể giúp nhóm của mình xây dựng sự tự tin và năng lực thông qua huấn luyện bằng cách nào? Chọn tất cả những gì áp dụng.",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "You can build your stamina through training to help your confidence level and training ability do the right thing. any? Select all (Bạn có thể xây dựng sức chịu đựng của mình thông qua luyện tập để giúp mức độ tự tin và khả năng luyện tập của bạn làm được điều đúng đắn. bất kì? Chọn tất cả)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Encourage and appreciate them by expressing confidence in their efforts (Khuyến khích và đánh giá cao họ bằng cách bày tỏ sự tin tưởng vào nỗ lực của họ.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Assist them by stepping in to solve difficult problems (Hỗ trợ họ bằng cách can thiệp để giải quyết các vấn đề khó khăn.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Motivate them by pointing out the value in their work (Động viên họ bằng cách chỉ ra giá trị trong công việc của họ.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Support them by acting as an accessible resource (Hỗ trợ họ bằng cách hoạt động như một nguồn tài nguyên có thể truy cập được.)",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q124",
+    "question_text": "Which scaled Agile framework coordinates multiple Scrum Teams and integrates their work to create one larger, cohesive deliverable? Khung Agile m r ng\nVN: Khung Agile có quy mô lớn nào điều phối nhiều Nhóm Scrum và tích hợp công việc của họ để tạo ra một sản phẩm lớn hơn, gắn kết hơn? Khung Agile m r ng",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Large-Scale Scrum (LeSS) (Scrum quy mô lớn (LeSS))",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Scrum of Scrums (Scrum của Scrum)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Disciplined Agile Delivery (DAD) (Giao hàng linh hoạt có kỷ luật (DAD))",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Scaled Agile Framework (SAFe) (Khung Agile có quy mô (SAFe))",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q125",
+    "question_text": "What is the benefit of business agility?\nVN: Lợi ích của sự linh hoạt trong kinh doanh là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "It helps organizations thrive in high-VUCA environments (Nó giúp các tổ chức phát triển mạnh trong môi trường VUCA cao.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "It combines software development with IT operations (Nó kết hợp phát triển phần mềm với các hoạt động CNTT.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "I t helps teams rapidly evolve large-scale software systems (Nó giúp các nhóm phát triển nhanh chóng các hệ thống phần mềm quy mô lớn.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "It serves as a strict instruction manual for scaling Agile, rather than a general framework (Nó đóng vai trò như một sổ tay hướng dẫn nghiêm ngặt để mở rộng quy mô Agile chứ không phải là một khuôn khổ chung.)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  }
+]

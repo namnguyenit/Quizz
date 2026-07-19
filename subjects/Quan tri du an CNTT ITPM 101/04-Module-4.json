@@ -1,0 +1,686 @@
+[
+  {
+    "question_id": "pm-itpm101-q76",
+    "question_text": "Trong\nVN: Trọng",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Developing web applications and information portals, supporting the construction of new buildings/utilities, deploying and integrating new equipment within the network. to burp at a base (Phát triển các ứng dụng web và cổng thông tin, hỗ trợ xây dựng các tòa nhà/tiện ích mới, triển khai và tích hợp các thiết bị mới trong mạng. ợ ở một căn cứ)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Managing network infrastructure, equipment and network security (Quản lý hạ tầng mạng, thiết bị và an ninh mạng)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Risk management, process integration, security, and virtual purchasing are all great (Quản lý rủi ro, tích hợp quy trình, bảo mật và mua hàng ảo đều tuyệt vời)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Technical knowledge and business understanding to understand project plans, costs and feasibility (Kiến thức kỹ thuật và hiểu biết kinh doanh để hiểu kế hoạch dự án, chi phí và tính khả thi)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q77",
+    "question_text": "Trong\nVN: Trọng",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Optimize gaps, adhere to the team's project management structure, and streamline project and project processes (Tối ưu hóa các khoảng trống, tuân thủ cơ cấu quản lý dự án của nhóm và hợp lý hóa các quy trình dự án và dự án.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Understand the concept of API integration (Hiểu khái niệm tích hợp API)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Assist in the establishment of security practices and pipeline configurations to prevent unwanted access or destruction of information systems (Hỗ trợ thiết lập các biện pháp bảo mật và cấu hình quy trình để ngăn chặn việc truy cập hoặc phá hủy hệ thống thông tin không mong muốn.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Understanding of object-oriented analysis and design (Hiểu biết về phân tích và thiết kế hướng đối tượng)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q78",
+    "question_text": "Imagine you are working on an IT project first as a project manager. Of the following additional responsibilities, which one can you most likely ask of an IT project manager? To be treated like her grave\nVN: Hãy tưởng tượng trước tiên bạn đang làm việc trong một dự án CNTT với tư cách là người quản lý dự án. Trong số những trách nhiệm bổ sung sau đây, bạn có thể hỏi người quản lý dự án CNTT về trách nhiệm nào nhất? Được đối xử như nấm mồ của cô ấy",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Assist in the establishment of security practices and pipeline configurations to prevent unwanted access or destruction of information systems (Hỗ trợ thiết lập các biện pháp bảo mật và cấu hình quy trình để ngăn chặn việc truy cập hoặc phá hủy hệ thống thông tin không mong muốn.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Manage resources for computer projects and project staff, such as equipment (Quản lý tài nguyên cho các dự án máy tính và nhân viên dự án, chẳng hạn như thiết bị)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Work within time frames and budgets, track progress, organize meetings and create status reports (Làm việc trong khung thời gian và ngân sách, theo dõi tiến độ, tổ chức các cuộc họp và tạo báo cáo trạng thái.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Optimize gaps, adhere to the team's project management structure, and streamline projects and processes. Ugh (Tối ưu hóa các khoảng trống, tuân thủ cơ cấu quản lý dự án của nhóm và hợp lý hóa các dự án và quy trình. Ờ)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q79",
+    "question_text": "Trong\nVN: Trọng",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Leadership skills (Kỹ năng lãnh đạo)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Technical skills acquisition (Tiếp thu kỹ năng kỹ thuật)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Business skills (Kỹ năng kinh doanh)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Performance skills (Kỹ năng biểu diễn)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Imagine you are working as a project manager on a project to migrate a company's process optimization to their new software system. During meetings with stakeholders, you provide updates explaining each step to improve implementation along with the value it brings (Hãy tưởng tượng bạn đang làm việc với tư cách là người quản lý dự án trong một dự án nhằm chuyển tối ưu hóa quy trình của công ty sang hệ thống phần mềm mới của họ. Trong các cuộc họp với các bên liên quan, bạn cung cấp thông tin cập nhật giải thích từng bước để cải thiện việc triển khai cùng với giá trị mà nó mang lại.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "u (bạn)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q80",
+    "question_text": "What is the function that this project is using?\nVN: Dự án này đang sử dụng chức năng gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Business skills (Kỹ năng kinh doanh)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Leadership skills (Kỹ năng lãnh đạo)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Performance skills (Kỹ năng biểu diễn)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Technical skills acquisition (Tiếp thu kỹ năng kỹ thuật)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q81",
+    "question_text": "Trong\nVN: Trọng",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Program management (Quản lý chương trình)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Manage tool lists (Quản lý danh sách công cụ)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "High chairman of the hamlet (Chủ tịch cấp cao của thôn)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Project coordinator (Điều phối viên dự án)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q82",
+    "question_text": "Vai\nVN: Vai",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Deputy Head of Operations (Phó Giám đốc Điều hành)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Manage tool lists (Quản lý danh sách công cụ)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Project management director (Giám đốc quản lý dự án)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Program management (Quản lý chương trình)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q83",
+    "question_text": "As a project manager, you organize meetings with your project team so that you can discuss what will be completed during the week, and the production team can ask any questions about the development of the property. Which option best describes the benefits of project management for this situation?\nVN: Với tư cách là người quản lý dự án, bạn tổ chức các cuộc họp với nhóm dự án của mình để có thể thảo luận về những gì sẽ hoàn thành trong tuần và nhóm sản xuất có thể hỏi bất kỳ câu hỏi nào về quá trình phát triển tài sản. Lựa chọn nào mô tả đúng nhất lợi ích của việc quản lý dự án trong tình huống này?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Project management improves communication between teams (Quản lý dự án cải thiện giao tiếp giữa các nhóm.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Project management responds proactively to external project risks (Quản lý dự án chủ động ứng phó với các rủi ro dự án bên ngoài.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Project satisfaction management increases customer satisfaction by planning projects (Quản lý sự hài lòng của dự án làm tăng sự hài lòng của khách hàng bằng cách lập kế hoạch dự án.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Project management completes budget management tasks to deliver the project within the planned budget (Quản lý dự án hoàn thành các nhiệm vụ quản lý ngân sách để thực hiện dự án trong phạm vi ngân sách dự kiến.)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q84",
+    "question_text": "You have been tasked with creating a social media campaign on a social media channel for a new product that a company launches in about two months. Which one best describes this initiative? Uh oh o ê ê ê ê\nVN: Bạn được giao nhiệm vụ tạo một chiến dịch truyền thông xã hội trên một kênh truyền thông xã hội cho một sản phẩm mới mà công ty sẽ ra mắt trong khoảng hai tháng. Cái nào mô tả đúng nhất sáng kiến ​​này? Ờ ồ ê ê ê ê",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "A project (một dự án)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "A program (Một chương trình)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "A list of tools (Một danh sách các công cụ)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "A part of the story (Một phần của câu chuyện)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q85",
+    "question_text": "A company is launching a new company and has assigned you a software product to help them launch the product as a product manager. For this project, you will oversee the social media campaign for the product. Which stakeholders will you work with on a daily basis?\nVN: Một công ty sắp ra mắt một công ty mới và đã giao cho bạn một sản phẩm phần mềm để giúp họ ra mắt sản phẩm với tư cách là người quản lý sản phẩm. Đối với dự án này, bạn sẽ giám sát chiến dịch truyền thông xã hội cho sản phẩm. Bạn sẽ làm việc với những bên liên quan nào hàng ngày?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Sales and Tips (Bán hàng và Mẹo)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Ban (Cấm)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Operating temperature (Nhiệt độ hoạt động)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Legal (Hợp pháp)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q86",
+    "question_text": "Trong\nVN: Trọng",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Six Sigma (6 Sigma)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Agile (Nhanh nhẹn)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Lean (Độ nghiêng)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Critical Path (Đường dẫn quan trọng)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q87",
+    "question_text": "Which project management tool can integrate project data and resources with other data from the development organization to create a comprehensive picture of key performance indicators and project gaps? hesitating\nVN: Công cụ quản lý dự án nào có thể tích hợp dữ liệu và tài nguyên dự án với dữ liệu khác từ tổ chức phát triển để tạo ra một bức tranh toàn diện về các chỉ số hiệu suất chính và những khoảng trống của dự án? do dự",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "IBM Cognos (IBM Cognos)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Jira (Jira)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Microsoft Teams (Nhóm Microsoft)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Slack (chùng xuống)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q88",
+    "question_text": "Trong\nVN: Trọng",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Flexible (Linh hoạt)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Predictable cycles (Chu kỳ có thể dự đoán được)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Linear planning (Quy hoạch tuyến tính)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Sequential (tuần tự)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q89",
+    "question_text": "As a project manager, you must communicate with your local groups and stakeholders in a respectful manner to manage this project. kind and tolerant. What is the description of the result?\nVN: Với tư cách là người quản lý dự án, bạn phải liên lạc với các nhóm địa phương và các bên liên quan của mình một cách tôn trọng để quản lý dự án này. tốt bụng và khoan dung. Mô tả kết quả là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Build new relationships (Xây dựng mối quan hệ mới)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Time management (Quản lý thời gian)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Negotiate (Thương lượng)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Ra quy nh (Ra quy nh)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q90",
+    "question_text": "A project manager meets with a team at the end of a process review, including a sprint to plan, communicate, and collaborate in what sequence? eh eh sluggish sprint. This is the story\nVN: Người quản lý dự án gặp nhóm khi kết thúc quá trình đánh giá quy trình, bao gồm cả giai đoạn chạy nước rút để lập kế hoạch, giao tiếp và cộng tác theo trình tự nào? eh eh chạy nước rút chậm chạp. Đây là câu chuyện",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Sprint retrospective (Hồi tưởng nước rút)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Sprint review (Đánh giá nước rút)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Project status meeting (Cuộc họp tình trạng dự án)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Stand-up (đứng lên)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q91",
+    "question_text": "A project manager organizes meetings with stakeholders, maintains milestones on a detailed schedule, and shares reports with the team and notes to let the team know what management status is needed for the project. During the project life cycle, what will be the control phase?\nVN: Người quản lý dự án tổ chức các cuộc họp với các bên liên quan, duy trì các mốc quan trọng trong lịch trình chi tiết và chia sẻ báo cáo với nhóm cũng như các ghi chú để cho nhóm biết trạng thái quản lý cần thiết cho dự án. Trong vòng đời dự án, giai đoạn kiểm soát sẽ là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Project monitoring and reporting (Giám sát và báo cáo dự án)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Close the project (Đóng dự án)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Make a project plan (Lập kế hoạch dự án)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Post-project evaluation (Đánh giá sau dự án)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q92",
+    "question_text": "EN: Which type of risk involves the possibility that a project will not produce the results outlined in the project goals?\nVN: VN: Loại rủi ro nào liên quan đến khả năng dự án sẽ không tạo ra kết quả như đã nêu trong mục tiêu của dự án?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "R i ro v th i gian (R i ro v th i gian)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Budget risk  ủ ề (Rủi ro ngân sách)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "R i ro v ng (R i ro v ng)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "R i ro v ph m vi (R i ro v ph m vi)",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q93",
+    "question_text": "EN: Imagine you’re a project manager overseeing the development and launch of a new app. Which of the following problems could be a single point of failure risk in the app’s development?\nVN: VN: Hãy tưởng tượng bạn là người quản lý dự án giám sát việc phát triển và ra mắt một ứng dụng mới. Vấn đề nào sau đây có thể là một điểm có nguy cơ thất bại trong quá trình phát triển ứng dụng?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "The board is a project manager who oversees the development and launch of a new application platform. Among the following, which problem can be identified as the single greatest risk of failure in the application development process? (Hội đồng quản trị là người quản lý dự án, người giám sát việc phát triển và ra mắt nền tảng ứng dụng mới. Trong số những vấn đề sau đây, vấn đề nào có thể được xác định là có nguy cơ thất bại lớn nhất trong quá trình phát triển ứng dụng?)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Lack of communication between the designers and the project lead, which may lead to tension among team members (Thiếu sự giao tiếp giữa các nhà thiết kế và trưởng dự án, điều này có thể dẫn đến căng thẳng giữa các thành viên trong nhóm.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Completing a project milestone behind schedule, which may delay the project timeline.  ộ ộ ố ự ễạn, điề ể ậ ến độự (Hoàn thành một cột mốc quan trọng của dự án chậm tiến độ, điều này có thể làm chậm tiến độ của dự án.  ộ ố ự dễ dàng, điề ể ến tự động)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Receiving negative feedback from user testing, which may lead to more work for the developers (Nhận được phản hồi tiêu cực từ quá trình thử nghiệm của người dùng, điều này có thể dẫn đến nhiều công việc hơn cho các nhà phát triển.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Failing to back up key project documentation, which may result in a complete loss of essential data (Không sao lưu tài liệu quan trọng của dự án, điều này có thể dẫn đến mất hoàn toàn dữ liệu cần thiết.)",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q94",
+    "question_text": "Imagine you’re a project manager overseeing the development and launch of a new app. Which three of the following task relationships demonstrate an internal dependency?\nVN: Hãy tưởng tượng bạn là người quản lý dự án giám sát việc phát triển và ra mắt một ứng dụng mới. Ba mối quan hệ nhiệm vụ nào sau đây thể hiện sự phụ thuộc nội tại?",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "Designers must complete wireframes before they begin prototyping.  ế ế ải hoàn thành khung trướ ọắt đầ ạ ẫ (Các nhà thiết kế phải hoàn thành wireframe trước khi bắt đầu tạo mẫu.  ế ế hoàn thành khung trướ ọắt đầu ạ mẫu)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Partner agencies must deliver image assets before the app is complete (Các đại lý đối tác phải cung cấp nội dung hình ảnh trước khi ứng dụng hoàn tất.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Researchers must conduct usability tests before the team can improve the design.  ểả ệ ế ế (Các nhà nghiên cứu phải tiến hành kiểm tra khả năng sử dụng trước khi nhóm có thể cải tiến thiết kế.  ế ệ)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Clients must sign off on the design before the official launch.  ả ệ ế ếtrướ ắ ứ (Khách hàng phải ký xác nhận thiết kế trước khi ra mắt chính thức.  image ế ướu)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Developers must fix bugs before the Quality Assurance team begins testing. (Các nhà phát tri n ph i s a l i i Ki m tra Ch ng (Nhà phát triển phải sửa lỗi trước khi nhóm Đảm bảo chất lượng bắt đầu thử nghiệm. ( Các nhà phát tri n ph i s a l i Kim m tra Ch ng)",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q95",
+    "question_text": "Continuing with the app-development project scenario from the previous question, you need to secure funding to develop the app. You want to write a grant proposal to an investment firm. Which of the following is an external dependency for this task?\nVN: Tiếp tục với kịch bản dự án phát triển ứng dụng từ câu hỏi trước, bạn cần đảm bảo nguồn tài trợ để phát triển ứng dụng. Bạn muốn viết một đề xuất tài trợ cho một công ty đầu tư. Điều nào sau đây là sự phụ thuộc bên ngoài cho nhiệm vụ này?",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "Identify team members to write the sections of the proposal that align with their expertise.  ủ ọ (Xác định các thành viên trong nhóm để viết các phần của đề xuất phù hợp với chuyên môn của họ.  o o)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Appoint a team member to assemble the proposal (Chỉ định một thành viên trong nhóm để tập hợp đề xuất.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Outline your project milestones in the proposal.  ả ộ ố ựán trong đề ấ (Phác thảo các mốc quan trọng của dự án trong đề xuất.  hình ảnh cố định trong đề tài)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Get feedback from the investment firm about the types of projects they are interested in funding.  ợ (Nhận phản hồi từ công ty đầu tư về các loại dự án mà họ quan tâm tài trợ.  ợ)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Define a risk as it relates to project management (Xác định rủi ro liên quan đến quản lý dự án.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "A risk is a measurement that estimates the potential impact of events that could occur in the future (Rủi ro là thước đo ước tính tác động tiềm ẩn của các sự kiện có thể xảy ra trong tương lai.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "A risk is a measurement that estimates the impact of known problems (Rủi ro là thước đo ước tính tác động của các vấn đề đã biết.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "t.) (t.))",
+        "is_correct": false
+      },
+      {
+        "answer_text": "A risk is a known problem that has already impacted a project (Rủi ro là một vấn đề đã biết và đã ảnh hưởng đến dự án.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "n d (n d)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "A risk is an event that might occur and could impact a project in the future (Rủi ro là một sự kiện có thể xảy ra và có thể ảnh hưởng đến dự án trong tương lai.)",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q96",
+    "question_text": "What is the difference between a risk and an issue in project management?\nVN: Sự khác biệt giữa rủi ro và vấn đề trong quản lý dự án là gì?",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "Risks and issues are both known problems, but they affect projects to different degrees (Rủi ro và vấn đề đều là những vấn đề đã biết nhưng chúng ảnh hưởng đến dự án ở những mức độ khác nhau.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "n d (n d)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "An issue is a known problem; a risk is an event that might happen in the future (Một vấn đề là một vấn đề đã biết; rủi ro là một sự kiện có thể xảy ra trong tương lai)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "t; r (t; r)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "A risk is a known problem; an issue is an event that might happen in the future (Rủi ro là một vấn đề đã biết; một vấn đề là một sự kiện có thể xảy ra trong tương lai)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "t; v (t; v)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Risks and issues are both events that might happen in the future, but they could affect projects to different degrees (Rủi ro và vấn đề đều là những sự kiện có thể xảy ra trong tương lai nhưng chúng có thể ảnh hưởng đến dự án ở những mức độ khác nhau.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Issues are all events that can happen in the future, but they can affect projects at different levels (Vấn đề là tất cả các sự kiện có thể xảy ra trong tương lai nhưng chúng có thể ảnh hưởng đến dự án ở các cấp độ khác nhau.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Fill in the blank: Risk management is the process of _____ (Điền vào chỗ trống: Quản lý rủi ro là quá trình _____.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "identifying and initiating projects that have a low potential for risk (xác định và bắt đầu các dự án có tiềm năng rủi ro thấp)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "identifying and avoiding projects that have a high potential for risk (xác định và tránh các dự án có tiềm năng rủi ro cao)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Identify risk potential and avoid high-risk projects (Xác định rủi ro tiềm ẩn và tránh các dự án có rủi ro cao)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "identifying and evaluating potential risks and issues that could impact a project (xác định và đánh giá các rủi ro và vấn đề tiềm ẩn có thể ảnh hưởng đến dự án)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "identifying and mitigating risks and issues that are already impacting a project (xác định và giảm thiểu rủi ro cũng như các vấn đề đang ảnh hưởng đến dự án)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q97",
+    "question_text": "Which of the following are true of risk management? Select all that apply.\nVN: Điều nào sau đây đúng về quản lý rủi ro? Chọn tất cả những gì áp dụng.",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "It helps determine how to mitigate potential risks (Nó giúp xác định cách giảm thiểu rủi ro tiềm ẩn.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "It helps identify who a project manager should h i ý ki n about a potential risk. ỏ ế (Nó giúp xác định người quản lý dự án nên hỏi ý kiến ​​ai về một rủi ro tiềm ẩn. o ế)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "It is a one-time exercise at the start of a project.  ộ ạt độ ự ệ ộ ầ ắt đầ ự (Đây là bài tập một lần khi bắt đầu một dự án.  ộ độ tự động ồ ắt đầu tự)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "It reveals what could go wrong with a project.  ấ ữ ểả ớ ộ ự (Nó tiết lộ những gì có thể xảy ra với một dự án.  Ấu dữ liệu ou ự)",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q98",
+    "question_text": "Which Scrum Role is primarily responsible for owning and updating the Product Backlog? Vai\nVN: Vai trò Scrum nào chịu trách nhiệm chính trong việc sở hữu và cập nhật Product Backlog? Vai",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "C ng cao (Cng cao)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Ch s n ph m (Ch s n ph m)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Development Team (Nhóm phát triển)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Scrum Master (Bậc thầy Scrum)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q99",
+    "question_text": "Which of the following are key characteristics of a Product Backlog? Select all that apply.\nVN: Đặc điểm nào sau đây là đặc điểm chính của Product Backlog? Chọn tất cả những gì áp dụng.",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "It is rarely updated.  ếm khi đượ ậ ậ (Nó hiếm khi được cập nhật.  ếm khi di chuyển tập tin)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "It is owned and adjusted by the entire team (Nó được sở hữu và điều chỉnh bởi toàn bộ đội ngũ.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "It is a living artifact.  ộ ệđang thự ệ (Nó là một hiện vật sống.  out of valval)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "It is a prioritized list of features (Đây là danh sách các tính năng được ưu tiên.)",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q100",
+    "question_text": "What long-term objective for the Scrum Team is included in the Product Backlog?\nVN: Mục tiêu dài hạn nào của Nhóm Scrum được đưa vào Product Backlog?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Ch s n ph m (Ch s n ph m)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Product Goal  ụ ả ẩ (Mục tiêu sản phẩm ụ hình ảnh)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Product requirements document  ệ ầ ả ẩ (Tài liệu yêu cầu sản phẩm ep eu)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Sprint Goal  ụ (Mục tiêu nước rút)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  }
+]

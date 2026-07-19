@@ -1,0 +1,366 @@
+[
+  {
+    "question_id": "pm-ot2-m1-q1",
+    "question_text": "What is a deliverable?\nVN: Deliverable là gì",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "The tasks produced during a project (Các nhiệm vụ được tạo ra trong quá trình dự án)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "A tangible outcome from a project that provides customer value (Một kết quả hữu hình từ dự án mang lại giá trị cho khách hàng)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "The team feedback gathered during a project (Phản hồi của nhóm được thu thập trong suốt dự án)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Any communications sent from one party to another during a project (Bất kỳ thông tin liên lạc nào được gửi từ một bên đến bên khác trong suốt dự án)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-ot2-m1-q2",
+    "question_text": "What is the difference between Agile and Waterfall project management approaches? Select all that apply.\nVN: Sự khác biệt giữa phương pháp quản lý dự án Agile và Waterfall là gì? Hãy chọn tất cả các đáp án đúng",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "Waterfall is more flexible than Agile, as it accounts for changes in stakeholders’ needs as the project progresses. (Waterfall linh hoạt hơn Agile vì nó tính đến sự thay đổi trong nhu cầu của các bên liên quan khi dự án tiến triển.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Agile and Waterfall approaches are the same. There are no major differences between the two. (Agile và Waterfall là giống nhau. Không có sự khác biệt lớn giữa hai phương pháp này.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Agile is a less linear approach than Waterfall. (Agile là một phương pháp ít tuyến tính hơn so với Waterfall.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Waterfall aims for predictability and tries to avoid change, while Agile embraces the reality that the world is uncertain and unpredictable. (Waterfall hướng đến tính dự đoán và cố gắng tránh thay đổi, trong khi Agile chấp nhận thực tế rằng thế giới không chắc chắn và khó lường)",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-ot2-m1-q3",
+    "question_text": "When it comes to deliverables, what are the differences between Waterfall and Agile? Select all that apply.\nVN: Khi nói đến deliverable, sự khác biệt giữa Waterfall và Agile là gì? Hãy chọn tất cả các đáp án đúng",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "Agile project deliverable releases are smaller and more frequent throughout the project. (Các lần phát hành deliverable của dự án Agile nhỏ hơn và thường xuyên hơn trong suốt dự án.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Waterfall project deliverable releases are often at the end of the project. (Các lần phát hành deliverable của dự án Waterfall thường diễn ra vào cuối dự án.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Agile and Waterfall project deliverable releases follow a comparable schedule. (Các lần phát hành deliverable của dự án Agile và Waterfall theo lịch trình tương tự nhau.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Agile projects have one major release, at the end of the project. (Dự án Agile chỉ có một lần phát hành chính vào cuối dự án.)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-ot2-m1-q4",
+    "question_text": "What are the benefits of Agile projects? Select all that apply.\nVN: Lợi ích của các dự án Agile là gì? Hãy chọn tất cả các đáp án đúng.",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "They seek out ways to work more efficiently by streamlining processes without losing value. (Họ tìm cách làm việc hiệu quả hơn bằng cách tinh giản quy trình mà không mất đi giá trị.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "They embrace the reality that the world, markets, and users are uncertain and unpredictable. (Họ chấp nhận thực tế rằng thế giới, thị trường và người dùng không chắc chắn và khó lường.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "They help the customer realize—and receive—the product they really wanted. (Họ giúp khách hàng nhận ra và nhận được sản phẩm mà họ thực sự mong muốn.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "They deliver one product release at the end of the project, which helps save time and energy. (Họ phát hành một sản phẩm duy nhất vào cuối dự án, giúp tiết kiệm thời gian và năng lượng.)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-ot2-m1-q5",
+    "question_text": "Which of the following statements best describe the Agile Manifesto? Select all that apply.\nVN: Câu nào sau đây mô tả chính xác nhất về Tuyên ngôn Agile? Chọn tất cả các đáp án đúng.",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "The Manifesto captures Agile’s values and reinforcing principles to support Agile project management planning and processes. (Tuyên ngôn Agile nắm bắt các giá trị và nguyên tắc củng cố để hỗ trợ lập kế hoạch và quy trình quản lý dự án Agile.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "The Manifesto lays out a software development process that is flexible and focuses on people. (Tuyên ngôn Agile trình bày một quy trình phát triển phần mềm linh hoạt và tập trung vào con người.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "The Manifesto helps project managers and stakeholders focus on end products and deliverables rather than on users. (Tuyên ngôn Agile giúp người quản lý dự án và các bên liên quan tập trung vào sản phẩm cuối cùng và deliverable hơn là người dùng.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "The Manifesto establishes a new approach that proves the Waterfall model wrong. (Tuyên ngôn Agile thiết lập một phương pháp mới để chứng minh rằng mô hình Waterfall là sai.)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-ot2-m1-q6",
+    "question_text": "Fill in the blank: The Agile Manifesto emphasizes _____ over processes and tools.\nVN: Điền vào chỗ trống: Tuyên ngôn Agile nhấn mạnh _____ hơn các quy trình và công cụ.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "feedback and procedures (phản hồi và quy trình)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "communication and feedback (giao tiếp và phản hồi)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "flexibility and communication (linh hoạt và giao tiếp)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "individuals and interactions (cá nhân và sự tương tác)",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-ot2-m1-q7",
+    "question_text": "How many values and principles make up the Agile Manifesto?\nVN: Có bao nhiêu giá trị và nguyên tắc tạo nên Tuyên ngôn Agile?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "14 values, 10 principles (14 giá trị, 10 nguyên tắc)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "4 values, 12 principles (4 giá trị, 12 nguyên tắc)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "4 values, 14 principles (4 giá trị, 14 nguyên tắc)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "5 values, 14 principles (5 giá trị, 14 nguyên tắc)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-ot2-m1-q8",
+    "question_text": "Which of the following projects are best suited to an Agile approach? Select all that apply.\nVN: Dự án nào sau đây phù hợp nhất với phương pháp Agile? Chọn tất cả các đáp án đúng.",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "Projects that are susceptible to change or uncertainty (Dự án dễ bị thay đổi hoặc không chắc chắn)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Projects that are complex and fast-paced (Dự án phức tạp và diễn ra nhanh chóng)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Projects with clear client expectations that face minimal uncertainty (Dự án có kỳ vọng khách hàng rõ ràng và ít không chắc chắn)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Projects with a set design and goals that are unlikely to change (Dự án có thiết kế và mục tiêu cố định, không có khả năng thay đổi)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-ot2-m1-q9",
+    "question_text": "Fill in the blank: VUCA is an acronym that stands for volatility, uncertainty, complexity, and _____.\nVN: Điền vào chỗ trống: VUCA là viết tắt của volatility (biến động), uncertainty (không chắc chắn), complexity (phức tạp), và _____.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "ambiguity (sự mơ hồ)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "adaptability (khả năng thích nghi)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "assumptions (giả định)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "alternatives (các lựa chọn thay thế)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-ot2-m1-q10",
+    "question_text": "Which of the following statements about Scrum are true? Select all that apply.\nVN: Câu nào sau đây về Scrum là đúng? Chọn tất cả các đáp án đúng.",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "Scrum gets its name from a formation in rugby where all of the players lean forward, lock their heads together, and get possession of the ball so they can gain precious yards and score. (Scrum lấy tên từ một đội hình trong môn bóng bầu dục, nơi tất cả các cầu thủ cúi đầu, khoá đầu vào nhau và giành quyền sở hữu bóng để ghi điểm.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Scrum refers to a football team’s protective equipment. (Scrum đề cập đến các thiết bị bảo hộ của đội bóng đá.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Scrum is an acronym for the processes that make up the Agile methodology. (Scrum là từ viết tắt của các quy trình trong phương pháp Agile.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Scrum refers to a specific Agile framework that features teams working closely together to get the project across the finish line, like players in a rugby match. (Scrum là một khuôn khổ Agile cụ thể, nơi các đội làm việc cùng nhau để hoàn thành dự án, giống như các cầu thủ trong trận đấu bóng bầu dục.)",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-ot2-m1-q11",
+    "question_text": "Which Agile methodology provides transparent visual feedback to everyone who might be interested in the status of work in progress?\nVN: Phương pháp Agile nào cung cấp phản hồi trực quan minh bạch cho tất cả những ai quan tâm đến tình trạng công việc đang tiến hành?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Extreme Programming (XP) / Lập trình cực đoan (XP)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Lean (Lean)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Scrum (Scrum)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Kanban (Kanban)",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-ot2-m1-q12",
+    "question_text": "Within the Agile model, a team operates on many short blocks of time which is in contrast to the Waterfall model. What are these short blocks of time referred to as?\nVN: Trong mô hình Agile, nhóm làm việc theo các khối thời gian ngắn liên tục, khác với mô hình Waterfall. Các khối thời gian ngắn này được gọi là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Repetitions (Lặp lại)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Iterations (Vòng lặp)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Shorts (Thời gian ngắn)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Dashes (Giai đoạn ngắn)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-ot2-m1-q13",
+    "question_text": "Which one of the following describes one of the main reasons that led to the creation of Agile?\nVN: Lý do chính nào dưới đây dẫn đến việc tạo ra Agile?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "It is difficult to accommodate change using the Waterfall model when a client wants to modify a feature. (Khó khăn trong việc thích ứng với thay đổi khi khách hàng muốn thay đổi một tính năng sử dụng mô hình Waterfall.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "The Waterfall model was not strict enough, so Agile was created as a more linear and strict approach. (Mô hình Waterfall không đủ nghiêm ngặt, do đó Agile được tạo ra như một phương pháp tuyến tính và nghiêm ngặt hơn.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "The Waterfall model was often not executed correctly, so a new methodology was needed to correct this. (Mô hình Waterfall thường không được thực hiện đúng, nên cần một phương pháp mới để khắc phục.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Agile was created to enhance and work alongside the already existing Waterfall model. (Agile được tạo ra để cải thiện và làm việc song song với mô hình Waterfall đã tồn tại.)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-ot2-m1-q14",
+    "question_text": "One of the values of the Agile Manifesto emphasizes working software over comprehensive documentation. Which example best describes what this means?\nVN: Một trong những giá trị của Tuyên ngôn Agile nhấn mạnh phần mềm hoạt động quan trọng hơn tài liệu chi tiết. Ví dụ nào mô tả chính xác nhất điều này?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "A team debates the documentation process before delivering a legal brief. (Một nhóm thảo luận về quy trình lập tài liệu trước khi đưa ra bản tóm tắt pháp lý.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "A team delays a conference to complete the pre- launch process documentation. (Một nhóm trì hoãn hội nghị để hoàn thành tài liệu quy trình trước khi khởi chạy.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "A team delivers a beta version of a website for testing while still finishing the documentation. (Một nhóm giao phiên bản beta của một trang web để thử nghiệm trong khi vẫn hoàn thiện tài liệu.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "A team keeps a detailed log of development as they work on a late sales presentation. (Một nhóm giữ)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "lại nhật ký chi tiết về quá trình phát triển trong khi đang làm một bài thuyết trình bán hàng bị trễ.",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-ot2-m1-q15",
+    "question_text": "In the acronym VUCA, the “A” stands for “Ambiguity”. Which one of the following is an example of this in the context of project management?\nVN: Trong từ viết tắt VUCA, “A” đại diện cho “Ambiguity” (Sự mơ hồ). Ví dụ nào sau đây là sự mơ hồ trong bối cảnh quản lý dự án?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Lack of ability to determine or control future changes (Thiếu khả năng xác định hoặc kiểm soát những thay đổi trong tương lai)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Minor changes to project plans (Những thay đổi nhỏ trong kế hoạch dự án)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Major changes to project plans (Những thay đổi lớn trong kế hoạch dự án)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Disruption to the business supply chain (Gián đoạn chuỗi cung ứng kinh doanh)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  }
+]

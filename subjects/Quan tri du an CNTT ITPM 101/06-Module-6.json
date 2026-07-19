@@ -1,0 +1,718 @@
+[
+  {
+    "question_id": "pm-itpm101-q126",
+    "question_text": "IT\nVN: NÓ",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Business Agility (Sự linh hoạt trong kinh doanh)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "DevOps (DevOps)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Scaled Agile Framework (SAFe) (Khung Agile có quy mô (SAFe))",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Large-Scale Scrum (LeSS) (Scrum quy mô lớn (LeSS))",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q127",
+    "question_text": "As a project manager or Scrum Master, what can you do to ensure your team is focused on value-driven delivery? Select all that apply.\nVN: Với tư cách là người quản lý dự án hoặc Scrum Master, bạn có thể làm gì để đảm bảo nhóm của mình tập trung vào việc phân phối theo hướng giá trị? Chọn tất cả những gì áp dụng.",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "Run it right (Chạy đúng)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Run it fast (Chạy nhanh lên)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Build the thing right (Xây dựng điều đúng đắn)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Build the right thing (Xây dựng điều đúng đắn)",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q128",
+    "question_text": "What is the purpose of the product roadmap in a value roadmap? Select all that apply.\nVN: Mục đích của lộ trình sản phẩm trong lộ trình giá trị là gì? Chọn tất cả những gì áp dụng.",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "It provides a high-level view of requirements (Nó cung cấp một cái nhìn cấp cao về các yêu cầu.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "It defines how the product will support customers’ business strategies (Nó xác định cách sản phẩm sẽ hỗ trợ chiến lược kinh doanh của khách hàng.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "It identifies the end users of the product (Nó xác định người dùng cuối của sản phẩm.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "It outlines a tentative schedule for reaching milestones (Nó vạch ra một lịch trình dự kiến ​​để đạt được các cột mốc quan trọng.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "c (c)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Fill in the blank: In a release plan, product releases happen when _____ (Điền vào chỗ trống: Trong kế hoạch phát hành, việc phát hành sản phẩm xảy ra khi _____.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "The project is complete and the team has delivered the final product (Dự án đã hoàn thành và nhóm đã bàn giao sản phẩm cuối cùng)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "The team has developed a working version of a given feature or requirement (Nhóm đã phát triển một phiên bản hoạt động của một tính năng hoặc yêu cầu nhất định)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "The customer has asked for the release of a given feature or requirement (Khách hàng đã yêu cầu phát hành một tính năng hoặc yêu cầu nhất định)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "The feature or requirement is in development and is being iterated upon (Tính năng hoặc yêu cầu đang được phát triển và đang được lặp lại)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q129",
+    "question_text": "You create a new project roadmap that is visually appealing and contains all the information for the stakeholders to reference. However, this document took a lot of time to create and has caused some delays in the timeline. Which of the following roadmap pitfalls does this scenario represent?\nVN: Bạn tạo một lộ trình dự án mới hấp dẫn về mặt hình ảnh và chứa tất cả thông tin để các bên liên quan tham khảo. Tuy nhiên, tài liệu này mất rất nhiều thời gian để tạo và gây ra một số chậm trễ về mặt tiến độ. Kịch bản này thể hiện những cạm bẫy lộ trình nào sau đây?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Putting less work into it than the deliverables (Đặt ít công việc vào đó hơn so với sản phẩm được giao)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "t (t)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Pressuring teams to improve deadlines (Gây áp lực cho các nhóm để cải thiện thời hạn)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Pressuring teams to achieve deadlines no matter what (Gây áp lực cho các nhóm để đạt được thời hạn bất kể điều gì)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "c th i h n b t k u (c th i h n b t k u)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Putting more work into it than the deliverables (Đặt nhiều công việc vào đó hơn là sản phẩm được giao)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "t nhi u (t nhi u)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q130",
+    "question_text": "Imagine you’re a project manager creating a project roadmap. You meet with the Product Owner to estimate the team’s capacity and velocity—their ability to complete work at a certain pace. Which Agile principle does this scenario represent?\nVN: Hãy tưởng tượng bạn là người quản lý dự án đang tạo lộ trình dự án. Bạn gặp Chủ sở hữu sản phẩm để ước tính năng lực và tốc độ của nhóm — khả năng hoàn thành công việc của họ ở một tốc độ nhất định. Kịch bản này thể hiện nguyên tắc Agile nào?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Deliver working software frequently, with a preference to the shorter timescale. Cung c p ph n m m ho ng (Cung cấp phần mềm hoạt động thường xuyên, ưu tiên khoảng thời gian ngắn hơn. Cung c p ph n m m ho ng)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "There is a lot of movement with priority given to worship (Có rất nhiều phong trào ưu tiên cho việc thờ phượng.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Agile processes promote sustainable development the team developers should be — able to maintain a constant workload (Các quy trình linh hoạt thúc đẩy sự phát triển bền vững mà các nhà phát triển nhóm phải có - có thể duy trì khối lượng công việc liên tục.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "y (y)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Stakeholders and the team developers must work together daily throughout the project (Các bên liên quan và các nhà phát triển nhóm phải làm việc cùng nhau hàng ngày trong suốt dự án.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "At regular intervals, the development team meets to reflect on how to become more effective (Định kỳ, nhóm phát triển họp để suy nghĩ về cách trở nên hiệu quả hơn.)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q131",
+    "question_text": "As a project manager, your organization makes a shift to Agile. To create a sense of ownership, what actions should you take? Select all that apply.\nVN: Với tư cách là người quản lý dự án, tổ chức của bạn sẽ chuyển sang Agile. Để tạo cảm giác làm chủ, bạn nên thực hiện những hành động nào? Chọn tất cả những gì áp dụng.",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "Schedule regular meetings to discuss the change (Lên lịch các cuộc họp thường xuyên để thảo luận về sự thay đổi)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Align your company’s mission with the change (Điều chỉnh sứ mệnh của công ty bạn với sự thay đổi)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Have buy-in from an executive on the change (Có được sự ủng hộ từ một giám đốc điều hành về sự thay đổi)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Create a feedback loop for the change (Tạo vòng phản hồi cho sự thay đổi)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q132",
+    "question_text": "Imagine you are a project manager overseeing the adoption of Agile at your organization. When setting goals for the project, you consider the timeline, specific results, and reason for the change. You put this information in a document the whole team can access. Which of the three keys to influence does this scenario demonstrate?\nVN: Hãy tưởng tượng bạn là người quản lý dự án giám sát việc áp dụng Agile tại tổ chức của bạn. Khi đặt mục tiêu cho dự án, bạn hãy xem xét tiến độ, kết quả cụ thể và lý do thay đổi. Bạn đưa thông tin này vào một tài liệu mà cả nhóm có thể truy cập. Kịch bản này thể hiện yếu tố nào trong ba yếu tố ảnh hưởng?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Leverage the six sources of influence (Tận dụng sáu nguồn ảnh hưởng)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Clarify measurable results (Làm rõ kết quả có thể đo lường được)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Find vital behaviors (Tìm những hành vi quan trọng)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q133",
+    "question_text": "As a project manager, you need to rebuild trust and collaboration between the development team and the business team. What actions can you take to accomplish this? Select all that apply.\nVN: Với tư cách là người quản lý dự án, bạn cần xây dựng lại niềm tin và sự hợp tác giữa nhóm phát triển và nhóm kinh doanh. Bạn có thể thực hiện những hành động nào để thực hiện điều này? Chọn tất cả những gì áp dụng.",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "Conduct a Solution Design sprint Ti n (Tiến hành chạy nước rút Thiết kế giải pháp)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Focus on fewer user stories per sprint T p trung (Tập trung vào ít câu chuyện của người dùng hơn trên mỗi lần chạy nước rút T p trung)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Address critical feedback with more demos Gi i quy t ph n h i quan tr ng v i nhi u b (Giải quyết các phản hồi quan trọng với nhiều bản demo hơn Gi i quy t ph n h i quan tr ng v i nhi u b)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Add changes to backlog only in between sprints Ch i (Chỉ thêm các thay đổi vào phần tồn đọng giữa các lần chạy nước rút Chi i)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q134",
+    "question_text": "What two problems commonly arise when you fail to implement Scrum completely? Select all that apply. Hai v ng\nVN: Hai vấn đề nào thường phát sinh khi bạn không triển khai hoàn toàn Scrum? Chọn tất cả những gì áp dụng. Hải v ng",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "An increase in interpersonal conflict (Sự gia tăng xung đột giữa các cá nhân)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "t gi a (t gi a)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "A decrease in customer satisfaction Gi m s (Mức độ hài lòng của khách hàng giảm Gi m s)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "A loss of clear roles and responsibilities M m (Mất vai trò và trách nhiệm rõ ràng M m)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "A temptation to skip events or blend them to save time (Sự cám dỗ bỏ qua các sự kiện hoặc kết hợp chúng để tiết kiệm thời gian)",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q135",
+    "question_text": "Which scaling method is not a true Agile framework, but can help organizations overcome the challenges of scaling?\nVN: Phương pháp mở rộng quy mô nào không phải là khuôn khổ Agile thực sự nhưng có thể giúp các tổ chức vượt qua những thách thức khi mở rộng quy mô?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "The Spotify Model (Mô hình Spotify)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "SAFe (An toàn)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "LeSS (Ít hơn)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "DAD (BỐ)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q136",
+    "question_text": "What is a deliverable?\nVN: Sản phẩm có thể giao được là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "The tasks produced during a project (Các nhiệm vụ được thực hiện trong một dự án)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "A tangible outcome from a project that provides customer value (Một kết quả hữu hình từ một dự án mang lại giá trị cho khách hàng)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "The team feedback gathered during a project (Phản hồi của nhóm được thu thập trong một dự án)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Any communications sent from one party to another during a project (Bất kỳ thông tin liên lạc nào được gửi từ bên này sang bên khác trong một dự án)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q137",
+    "question_text": "What is the difference between Agile and Waterfall project management approaches? Select all that apply.\nVN: Sự khác biệt giữa phương pháp quản lý dự án Agile và Waterfall là gì? Chọn tất cả những gì áp dụng.",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "Waterfall is more flexible than Agile, as it accounts for changes in stakeholders’ needs as the project progresses (Waterfall linh hoạt hơn Agile vì nó tính đến những thay đổi về nhu cầu của các bên liên quan khi dự án tiến triển.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Agile and Waterfall approaches are the same. There are no major differences between the two (Cách tiếp cận Agile và Waterfall giống nhau. Không có sự khác biệt lớn giữa hai.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Agile is a less linear approach than Waterfall (Agile là một cách tiếp cận ít tuyến tính hơn Waterfall.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Waterfall aims for predictability and tries to avoid change, while Agile embraces the reality that the world is uncertain and unpredictable (Waterfall hướng đến khả năng dự đoán và cố gắng tránh sự thay đổi, trong khi Agile chấp nhận thực tế rằng thế giới không chắc chắn và không thể đoán trước.)",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q138",
+    "question_text": "When it comes to deliverables, what are the differences between Waterfall and Agile? Select all that apply.\nVN: Khi nói đến sản phẩm bàn giao, sự khác biệt giữa Waterfall và Agile là gì? Chọn tất cả những gì áp dụng.",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "Agile project deliverable releases are smaller and more frequent throughout the project (Các bản phát hành có thể phân phối của dự án Agile nhỏ hơn và thường xuyên hơn trong suốt dự án.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Waterfall project deliverable releases are often at the end of the project (Các bản phát hành có thể phân phối của dự án thác nước thường ở cuối dự án.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Agile and Waterfall project deliverable releases follow a comparable schedule (Các bản phát hành có thể phân phối của dự án Agile và Waterfall tuân theo một lịch trình tương đương.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Agile projects have one major release, at the end of the project (Các dự án Agile có một bản phát hành chính vào cuối dự án.)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q139",
+    "question_text": "What are the benefits of Agile projects? Select all that apply.\nVN: Lợi ích của các dự án Agile là gì? Chọn tất cả những gì áp dụng.",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "They seek out ways to work more efficiently by streamlining processes without losing value (Họ tìm cách làm việc hiệu quả hơn bằng cách hợp lý hóa các quy trình mà không làm mất đi giá trị.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "They embrace the reality that the world, markets, and users are uncertain and unpredictable (Họ chấp nhận thực tế rằng thế giới, thị trường và người dùng không chắc chắn và khó đoán.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "They help the customer realize and receive the product they really wanted. — — (Họ giúp khách hàng nhận ra và nhận được sản phẩm họ thực sự mong muốn. — —)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "They deliver one product release at the end of the project, which helps save time and energy (Họ cung cấp một bản phát hành sản phẩm khi kết thúc dự án, giúp tiết kiệm thời gian và năng lượng.)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q140",
+    "question_text": "Which of the following statements best describe the Agile Manifesto? Select all that apply.\nVN: Câu nào sau đây mô tả đúng nhất Tuyên ngôn Agile? Chọn tất cả những gì áp dụng.",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "The Manifesto captures Agile’s values and reinforcing principles to support Agile project management planning and processes (Tuyên ngôn nắm bắt các giá trị của Agile và các nguyên tắc củng cố để hỗ trợ các quy trình và lập kế hoạch quản lý dự án Agile.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "The Manifesto lays out a software development process that is flexible and focuses on people (Tuyên ngôn đưa ra một quy trình phát triển phần mềm linh hoạt và tập trung vào con người.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "The Manifesto helps project managers and stakeholders focus on end products and deliverables rather than on users (Tuyên ngôn giúp các nhà quản lý dự án và các bên liên quan tập trung vào sản phẩm cuối cùng và sản phẩm bàn giao hơn là vào người dùng.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "The Manifesto establishes a new approach that proves the Waterfall model wrong (Tuyên ngôn thiết lập một cách tiếp cận mới chứng tỏ mô hình Thác nước là sai.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Fill in the blank: The Agile Manifesto emphasizes _____ over processes and tools (Điền vào chỗ trống: Tuyên ngôn Agile nhấn mạnh _____ về các quy trình và công cụ.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "feedback and procedures (phản hồi và thủ tục)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "communication and feedback (giao tiếp và phản hồi)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "flexibility and communication (tính linh hoạt và giao tiếp)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "individuals and interactions (cá nhân và sự tương tác)",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q141",
+    "question_text": "How many values and principles make up the Agile Manifesto?\nVN: Có bao nhiêu giá trị và nguyên tắc tạo nên Tuyên ngôn Agile?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "14 values, 10 principles (14 giá trị, 10 nguyên tắc)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "4 values, 12 principles (4 giá trị, 12 nguyên tắc)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "4 values, 14 principles (4 giá trị, 14 nguyên tắc)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "5 values, 14 principles (5 giá trị, 14 nguyên tắc)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q142",
+    "question_text": "Which of the following projects are best suited to an Agile approach? Select all that apply.\nVN: Dự án nào sau đây phù hợp nhất với cách tiếp cận Agile? Chọn tất cả những gì áp dụng.",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "Projects that are susceptible to change or uncertainty (Các dự án dễ bị thay đổi hoặc không chắc chắn)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Projects that are complex and fast-paced (Các dự án phức tạp và có nhịp độ nhanh)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Projects with clear client expectations that face minimal uncertainty (Các dự án có kỳ vọng rõ ràng của khách hàng và ít phải đối mặt với sự không chắc chắn nhất)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Projects with a set design and goals that are unlikely to change (Các dự án có thiết kế và mục tiêu cố định khó có thể thay đổi)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "ph c t p (ph c t p)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "adaptability (khả năng thích ứng)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "alternatives (lựa chọn thay thế)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q143",
+    "question_text": "Which of the following statements about Scrum are true? Select all that apply.\nVN: Câu nào sau đây về Scrum là đúng? Chọn tất cả những gì áp dụng.",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "Which of the following statements about Scrum is true? Choose the correct answers (Câu nào sau đây về Scrum là đúng? Chọn các câu trả lời đúng.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Scrum gets its name from a formation in rugby where all of the players lean forward, lock their heads together, and get possession of the ball so they can gain precious yards and score (Scrum lấy tên từ một đội hình trong môn bóng bầu dục, nơi tất cả các cầu thủ nghiêng người về phía trước, khóa đầu vào nhau và sở hữu bóng để họ có thể giành được khoảng cách quý giá và ghi bàn.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Scrum refers to a football team’s protective equipment (Scrum đề cập đến thiết bị bảo vệ của một đội bóng đá.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Scrum is an acronym for the processes that make up the Agile methodology (Scrum là từ viết tắt của các quy trình tạo nên phương pháp Agile.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "The basics of the processes in the Agile method (Những điều cơ bản của các quy trình trong phương pháp Agile.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Scrum refers to a specific Agile framework that features teams working closely together to get the project across the finish line, like players in a rugby match (Scrum đề cập đến một khuôn khổ Agile cụ thể trong đó các nhóm làm việc chặt chẽ với nhau để đưa dự án về đích, giống như những người chơi trong một trận bóng bầu dục.)",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q144",
+    "question_text": "Which Agile methodology provides transparent visual feedback to everyone who might be interested in the status of work in progress?\nVN: Phương pháp Agile nào cung cấp phản hồi trực quan minh bạch cho tất cả những người có thể quan tâm đến trạng thái công việc đang tiến hành?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "XP (XP)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Lean (Độ nghiêng)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Scrum (Scrum)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Kanban (Kanban)",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q145",
+    "question_text": "Within the Agile model, a team operates on many short blocks of time which is in contrast to the Waterfall model. What are these short blocks of time referred to as? Trong\nVN: Trong mô hình Agile, một nhóm hoạt động trong nhiều khoảng thời gian ngắn, trái ngược với mô hình Thác nước. Những khoảng thời gian ngắn ngủi này được gọi là gì? Trọng",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Repetitions (Sự lặp lại)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Iterations (Lặp lại)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Shorts (quần short)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Dashes (Dấu gạch ngang)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q146",
+    "question_text": "Which one of the following describes one of the main reasons that led to the creation of Agile?\nVN: Điều nào sau đây mô tả một trong những lý do chính dẫn đến việc tạo ra Agile?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "It is difficult to accommodate change using the Waterfall model when a client wants to modify a feature (Rất khó để điều chỉnh sự thay đổi bằng cách sử dụng mô hình Thác nước khi khách hàng muốn sửa đổi một tính năng.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "The Waterfall model was not strict enough, so Agile was created as a more linear and strict approach (Mô hình Thác nước không đủ nghiêm ngặt nên Agile được tạo ra như một cách tiếp cận tuyến tính và chặt chẽ hơn.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "The Waterfall model was often not executed correctly, so a new methodology was needed to correct this (Mô hình Thác nước thường không được thực thi chính xác, vì vậy cần có một phương pháp mới để khắc phục điều này.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Agile was created to enhance and work alongside the already existing Waterfall model (Agile được tạo ra để nâng cao và hoạt động cùng với mô hình Thác nước hiện có.)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q147",
+    "question_text": "One of the values of the Agile Manifesto emphasizes working software over comprehensive documentation. Which example best describes what this means?\nVN: Một trong những giá trị của Tuyên ngôn Agile nhấn mạnh đến phần mềm hoạt động được hơn là tài liệu toàn diện. Ví dụ nào mô tả đúng nhất điều này có nghĩa là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "A team debates the documentation process before delivering a legal brief (Một nhóm tranh luận về quy trình lập hồ sơ trước khi đưa ra bản tóm tắt pháp lý.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "A team delays a conference to complete the pre-launch process documentation (Một nhóm trì hoãn cuộc họp để hoàn thành tài liệu về quy trình trước khi ra mắt.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "A team delivers a beta version of a website for testing while still finishing the documentation (Một nhóm cung cấp phiên bản beta của trang web để thử nghiệm trong khi vẫn hoàn thiện tài liệu.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "A team keeps a detailed log of development as they work on a late sales presentation (Một nhóm lưu giữ nhật ký chi tiết về quá trình phát triển khi họ thực hiện bài thuyết trình bán hàng muộn.)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q148",
+    "question_text": "In the acronym VUCA, the “A” stands for “Ambiguity”. Which one of the following is an example of this in the context of project management? Trong t vi t t i di\nVN: Trong từ viết tắt VUCA, chữ “A” là viết tắt của “Sự mơ hồ”. Điều nào sau đây là một ví dụ về điều này trong bối cảnh quản lý dự án? Trọng t vì t tôi di",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": ") ().)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Lack of ability to determine or control future changes (Thiếu khả năng xác định hoặc kiểm soát những thay đổi trong tương lai)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Minor changes to project plans (Những thay đổi nhỏ trong kế hoạch dự án)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Major changes to project plans (Những thay đổi lớn trong kế hoạch dự án)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Disruption to the business supply chain (Sự gián đoạn chuỗi cung ứng kinh doanh)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q149",
+    "question_text": "Why would an Agile approach be more successful than a Waterfall approach in a VUCA environment? Select all that apply.\nVN: Tại sao cách tiếp cận Agile sẽ thành công hơn cách tiếp cận Thác nước trong môi trường VUCA? Chọn tất cả những gì áp dụng.",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "The Waterfall method is too flexible and lacks proper planning (Phương pháp Thác nước quá linh hoạt và thiếu kế hoạch phù hợp.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "The Agile method is only suited for when there is certainty (Phương pháp Agile chỉ phù hợp khi có sự chắc chắn.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "The Waterfall method requires proper planning and less flexibility (Phương pháp Thác nước đòi hỏi phải lập kế hoạch phù hợp và kém linh hoạt hơn.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "The Agile method is better at adapting and reacting to change (Phương pháp Agile tốt hơn trong việc thích ứng và phản ứng với sự thay đổi.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "c (c)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q150",
+    "question_text": "As a project manager, what are some reasons you might choose to follow a Scrum methodology? Select all that apply.\nVN: Với tư cách là người quản lý dự án, một số lý do khiến bạn có thể chọn áp dụng phương pháp Scrum là gì? Chọn tất cả những gì áp dụng.",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "It offers a regular and predictable meeting and delivery schedule, with predefined agendas and outcomes for the meetings (Nó cung cấp một lịch trình họp và phân phối thường xuyên và có thể dự đoán được, với các chương trình nghị sự và kết quả được xác định trước cho các cuộc họp.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "It supports and reinforces the Waterfall model (Nó hỗ trợ và củng cố mô hình Thác nước.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "It has clear roles and responsibilities for your team, but emphasizes the power of the team as a whole (Nó có vai trò và trách nhiệm rõ ràng đối với nhóm của bạn, nhưng nhấn mạnh sức mạnh của toàn nhóm.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "It’s free and open for everyone (Nó miễn phí và mở cho tất cả mọi người.)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q151",
+    "question_text": "As a project manager, you're leading a project that has an initial set of requirements at kick off, but you know this list will grow and change. Your team will work with stakeholders to prioritize requirements as the project moves forward. What approach is the best choice for your project?\nVN: Với tư cách là người quản lý dự án, bạn đang lãnh đạo một dự án có bộ yêu cầu ban đầu khi bắt đầu, nhưng bạn biết danh sách này sẽ phát triển và thay đổi. Nhóm của bạn sẽ làm việc với các bên liên quan để ưu tiên các yêu cầu khi dự án tiến triển. Cách tiếp cận nào là sự lựa chọn tốt nhất cho dự án của bạn?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Linear (tuyến tính)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Agile (Nhanh nhẹn)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Scrum (Scrum)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Waterfall (thác nước)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  }
+]

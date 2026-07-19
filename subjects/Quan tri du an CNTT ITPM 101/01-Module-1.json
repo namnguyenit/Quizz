@@ -1,0 +1,610 @@
+[
+  {
+    "question_id": "pm-itpm101-q1",
+    "question_text": "Many project managers worry about managing the triple constraints. The Project Management Institute (PMI) refers to this as the project manager’s triangle. Which of the following two constraints apply to this description?\nVN: Nhiều nhà quản lý dự án lo lắng về việc quản lý ba ràng buộc này. Viện Quản lý Dự án (PMI) gọi đây là tam giác của người quản lý dự án. Hai ràng buộc nào sau đây áp dụng cho mô tả này?",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "Communications (Truyền thông)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Scope (Phạm vi)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Cost (Trị giá)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Risk (Rủi ro)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q2",
+    "question_text": "The project management framework is divided into five distinct phases: initiate, plan, execute, monitor, control, and close. How does the PMI refer to these phases?\nVN: Khung quản lý dự án được chia thành năm giai đoạn riêng biệt: bắt đầu, lập kế hoạch, thực hiện, giám sát, kiểm soát và kết thúc. PMI đề cập đến các giai đoạn này như thế nào?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Project process groups (Nhóm quy trình dự án)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Project lifecycles (Vòng đời dự án)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Project steps (Các bước dự án)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Project phase gates (Cổng giai đoạn dự án)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q3",
+    "question_text": "The project management framework developed by the PMI lists forty-nine specific processes. Where do the majority of these processes fall within the framework?\nVN: Khung quản lý dự án do PMI phát triển liệt kê 49 quy trình cụ thể. Phần lớn các quy trình này nằm trong khuôn khổ ở đâu?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Monitor and Control (Giám sát và kiểm soát)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Execute (Thực hiện)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Plan (Kế hoạch)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Initiate (Bắt đầu)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q4",
+    "question_text": "The ABC Company recently implemented a Project Management Office (PMO). The initial plan is for this PMO to provide information, standard templates, and guidance to the firm’s project managers. What type of PMO does this scenario describe?\nVN: Công ty ABC gần đây đã triển khai Văn phòng Quản lý Dự án (PMO). Kế hoạch ban đầu là PMO này sẽ cung cấp thông tin, các mẫu tiêu chuẩn và hướng dẫn cho các nhà quản lý dự án của công ty. Kịch bản này mô tả loại PMO nào?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Informational (Thông tin)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Directive (chỉ thị)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Supportive (hỗ trợ)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Controlling (Kiểm soát)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q5",
+    "question_text": "The PMI breaks project management lifecycles into adaptive and predictive categories. Which two project management models fall under the predictive category?\nVN: PMI chia vòng đời quản lý dự án thành các hạng mục thích ứng và dự đoán. Hai mô hình quản lý dự án nào thuộc loại dự đoán?",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "Agile (Nhanh nhẹn)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Six Sigma (6 Sigma)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Waterfall (thác nước)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Scrum (Scrum)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q6",
+    "question_text": "A team plans to implement an agile model to support certain projects in an organization. Where will the team maintain and document all requirements?\nVN: Một nhóm lên kế hoạch triển khai một mô hình linh hoạt để hỗ trợ các dự án nhất định trong tổ chức. Nhóm sẽ duy trì và ghi lại tất cả các yêu cầu ở đâu?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "In the product backlog (Trong sản phẩm tồn đọng)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "In the scope statement (Trong tuyên bố phạm vi)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "In the scope backlog (Trong phạm vi tồn đọng)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "In the scope management plan (Trong kế hoạch quản lý phạm vi)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q7",
+    "question_text": "Ralph Stacey developed an analysis matrix to determine the optimal lifecycle to choose to implement a project. What are the two criteria Stacey recommends to make this decision?\nVN: Ralph Stacey đã phát triển ma trận phân tích để xác định vòng đời tối ưu để lựa chọn thực hiện một dự án. Hai tiêu chí mà Stacey khuyến nghị để đưa ra quyết định này là gì?",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "Requirements uncertainty (Yêu cầu không chắc chắn)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Technical degree of uncertainty (Mức độ không chắc chắn về mặt kỹ thuật)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Overall risk exposure and score (Mức độ rủi ro tổng thể và điểm số)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Scheduling volatility (Lập kế hoạch biến động)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q8",
+    "question_text": "A project sponsor reviewed a list of key roles supporting an agile project. He notices that the list includes more than one role. What role is not included on the agile supporting role list?\nVN: Một nhà tài trợ dự án đã xem xét danh sách các vai trò chính hỗ trợ một dự án linh hoạt. Anh ấy nhận thấy rằng danh sách này bao gồm nhiều hơn một vai trò. Vai trò nào không có trong danh sách vai trò hỗ trợ linh hoạt?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Product owner (Chủ sở hữu sản phẩm)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Scrum master (Bậc thầy về scrum)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Project manager (Người quản lý dự án)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Development team (Đội ngũ phát triển)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q9",
+    "question_text": "Which two of the following options are formal phases in the PMI project management lifecycle?\nVN: Hai lựa chọn nào sau đây là các giai đoạn chính thức trong vòng đời quản lý dự án PMI?",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "Initiate (Bắt đầu)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Implement (Thực hiện)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Execute (Thực hiện)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Manage (Quản lý)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q10",
+    "question_text": "The PMI stresses the impact that organization models can have on a project and the team. They define three distinct matrix models. In one of the models, the project manager enjoys power more than the functional manager, can make decisions on the allocation of resources, has a great deal of control, and can utilize their project management skills on the projects. Which matrix model does this describe?\nVN: PMI nhấn mạnh tác động mà các mô hình tổ chức có thể tạo ra đối với một dự án và nhóm. Họ xác định ba mô hình ma trận riêng biệt. Trong một trong các mô hình, người quản lý dự án có nhiều quyền lực hơn người quản lý chức năng, có thể đưa ra quyết định về phân bổ nguồn lực, có nhiều quyền kiểm soát và có thể sử dụng các kỹ năng quản lý dự án của họ cho các dự án. Mô hình ma trận nào mô tả điều này?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Weak Matrix Model (Mô hình ma trận yếu)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Balanced Matrix Model (Mô hình ma trận cân bằng)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Strong Matrix Model (Mô hình ma trận mạnh)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Standard Matrix Model (Mô hình ma trận chuẩn)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q11",
+    "question_text": "A team is performing a cost of quality study and analyzing costs of non- compliance against costs of compliance. Which two costs are non-compliance?\nVN: Một nhóm đang thực hiện nghiên cứu chi phí về chất lượng và phân tích chi phí của việc không tuân thủ so với chi phí tuân thủ. Hai chi phí nào là không tuân thủ?",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "Warranty claims costs (Chi phí yêu cầu bảo hành)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Reworks costs (Chi phí làm lại)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Verification costs (Chi phí xác minh)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Training costs (Chi phí đào tạo)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "A product owner is analyzing the transition model for change due to changes happening on the project. Some people’s productivity is dropping due to (Chủ sở hữu sản phẩm đang phân tích mô hình chuyển đổi để tìm những thay đổi do những thay đổi xảy ra trong dự án. Năng suất của một số người đang giảm sút do)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q12",
+    "question_text": "frustration or confusion. Others seem to be motivated, creative, and passionate. What stage of the transition model is the team in?\nVN: sự thất vọng hoặc bối rối. Những người khác dường như có động lực, sáng tạo và đam mê. Nhóm đang ở giai đoạn nào của mô hình chuyển đổi?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Transition (Chuyển tiếp)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "The Neutral Zone (Khu trung lập)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Ending, Losing, and Letting Go (Kết thúc, đánh mất và buông bỏ)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "The New Beginning (Sự khởi đầu mới)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q13",
+    "question_text": "Current ABC Company management assumes employees are motivated from within. They use a more personal coaching style to influence the team. What is this management style?\nVN: Ban quản lý Công ty ABC hiện tại cho rằng nhân viên được thúc đẩy từ bên trong. Họ sử dụng phong cách huấn luyện cá nhân hơn để gây ảnh hưởng đến đội. Phong cách quản lý này là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Theory Y (Lý thuyết Y)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Theory X (Lý thuyết X)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Theory Z (Lý thuyết Z)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Theory W (Lý thuyết W)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q14",
+    "question_text": "When managing the virtual team, which skill is most critical to success?\nVN: Khi quản lý nhóm ảo, kỹ năng nào quan trọng nhất để thành công?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Communications (Truyền thông)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Coaching (Huấn luyện)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Motivation (Động lực)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Influencing (Ảnh hưởng)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q15",
+    "question_text": "A project manager wants to create a learning environment where the team can attain new skills and grow, provide continual performance feedback, and communicate effectively to manage issues as they occur. Which knowledge area should the project manager consult for guidance?\nVN: Người quản lý dự án muốn tạo ra một môi trường học tập nơi nhóm có thể đạt được các kỹ năng mới và phát triển, cung cấp phản hồi liên tục về hiệu suất và giao tiếp hiệu quả để quản lý các vấn đề khi chúng xảy ra. Người quản lý dự án nên tham khảo lĩnh vực kiến ​​thức nào để được hướng dẫn?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Resource management (Quản lý tài nguyên)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Communications management (Quản lý truyền thông)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Integration management (Quản lý tích hợp)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Quality management (Quản lý chất lượng)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q16",
+    "question_text": "A project manager reviews critical financial metrics. Which two of the following metrics are not impacted by the time value of money?\nVN: Người quản lý dự án xem xét các số liệu tài chính quan trọng. Hai số liệu nào sau đây không bị ảnh hưởng bởi giá trị thời gian của tiền?",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "Payback (Hoàn vốn)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "ROI (ROI)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "NPV (NPV)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "IRR (IRR)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q17",
+    "question_text": "A project manager will need to acquire some key materials which the project will fund. How should the project manager categorize these costs?\nVN: Người quản lý dự án sẽ cần có được một số vật liệu chính mà dự án sẽ tài trợ. Người quản lý dự án nên phân loại các chi phí này như thế nào?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Direct costs (Chi phí trực tiếp)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Reimbursable costs (Chi phí hoàn trả)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Contingency costs (Chi phí dự phòng)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Indirect costs (Chi phí gián tiếp)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q18",
+    "question_text": "A project manager analyzes key project stakeholders and develops strategies to ensure desired commitment levels are met. What plan did the project manager develop?\nVN: Người quản lý dự án phân tích các bên liên quan chính của dự án và phát triển các chiến lược để đảm bảo đáp ứng được mức độ cam kết mong muốn. Người quản lý dự án đã phát triển kế hoạch gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Stakeholder engagement plan (Kế hoạch tham gia của các bên liên quan)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "RACI chart (biểu đồ RACI)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Stakeholder register (Đăng ký các bên liên quan)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Resource register (Đăng ký tài nguyên)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q19",
+    "question_text": "Which of the following is true regarding the stakeholder register?\nVN: Điều nào sau đây là đúng về sổ đăng ký các bên liên quan?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "The project manager updates the stakeholder register throughout the project (Người quản lý dự án cập nhật sổ đăng ký các bên liên quan trong suốt dự án.)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "The project manager uses the stakeholder engagement plan to fill out the stakeholder register (Người quản lý dự án sử dụng kế hoạch tham gia của các bên liên quan để điền vào sổ đăng ký các bên liên quan.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "The project manager accomplishes the stakeholder register in the planning process group (Người quản lý dự án hoàn thành việc đăng ký các bên liên quan trong nhóm quy trình lập kế hoạch.)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "The project manager completes the stakeholder register before publishing a project charter (Người quản lý dự án hoàn thành việc đăng ký các bên liên quan trước khi xuất bản điều lệ dự án.)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q20",
+    "question_text": "A project sponsor uses a fast-decision-making method where an individual makes all the decisions. However, there are risks associated with this method. Which decision-making method is the sponsor using?\nVN: Nhà tài trợ dự án sử dụng phương pháp ra quyết định nhanh trong đó một cá nhân đưa ra tất cả các quyết định. Tuy nhiên, có những rủi ro liên quan đến phương pháp này. Nhà tài trợ đang sử dụng phương pháp ra quyết định nào?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Autocratic (chuyên quyền)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Unanimity (Sự nhất trí)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Plurality (số nhiều)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "OARP (ORP)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q21",
+    "question_text": "Bethany schedules a project kick-off meeting. What are the two primary purposes of this meeting?\nVN: Bethany lên lịch cho cuộc họp khởi động dự án. Hai mục đích chính của cuộc họp này là gì?",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "To formally enter the executing phase (Chính thức bước vào giai đoạn thực thi)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "To introduce the project charter (Giới thiệu điều lệ dự án)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "To gain sponsor approval (Để có được sự chấp thuận của nhà tài trợ)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "To gain stakeholder acceptance (Để có được sự chấp nhận của các bên liên quan)",
+        "is_correct": true
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q22",
+    "question_text": "A team recently completed Earned Value analysis of a project. The CPI was .91. The SPI was 1.06. What is the status of this project?\nVN: Một nhóm gần đây đã hoàn thành phân tích Giá trị thu được của một dự án. CPI là 0,91. SPI là 1,06. Tình trạng của dự án này là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Ahead of schedule but behind budget (Vượt tiến độ nhưng chậm dự toán)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Behind on schedule but ahead of budget (Chậm tiến độ nhưng vượt ngân sách)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Behind on schedule and behind on budget (Chậm tiến độ và chậm ngân sách)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Ahead of schedule and ahead of budget (Trước tiến độ và vượt ngân sách)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q23",
+    "question_text": "A project manager develops a simple “how to” plan that provides process and - direction to the team on how to define, develop, monitor, control, and validate the project schedule. Which of the following plans is being described?\nVN: Người quản lý dự án phát triển một kế hoạch “làm thế nào” đơn giản để cung cấp quy trình và định hướng cho nhóm về cách xác định, phát triển, giám sát, kiểm soát và xác nhận lịch trình dự án. Kế hoạch nào sau đây đang được mô tả?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Schedule management plan (Kế hoạch quản lý lịch trình)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Schedule critical path analysis (Lên lịch phân tích đường dẫn quan trọng)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Schedule model (Mô hình lịch trình)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Schedule process plan (Lập kế hoạch quy trình)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q24",
+    "question_text": "A project manager and team are currently developing support plans for the overall project management plan. Which two of the following plans should the manager place in the support planning folder?\nVN: Một người quản lý dự án và một nhóm hiện đang phát triển các kế hoạch hỗ trợ cho kế hoạch quản lý dự án tổng thể. Người quản lý nên đặt hai kế hoạch nào sau đây vào thư mục lập kế hoạch hỗ trợ?",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "Quality management plan (Kế hoạch quản lý chất lượng)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Communications management plan (Kế hoạch quản lý truyền thông)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Cost management plan (Kế hoạch quản lý chi phí)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Scope management plan (Kế hoạch quản lý phạm vi)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  },
+  {
+    "question_id": "pm-itpm101-q25",
+    "question_text": "adaptive\nVN: thích nghi",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Kanban (Kanban)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Critical chain (Chuỗi quan trọng)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Critical path (Đường dẫn quan trọng)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Waterfall (thác nước)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Ralph Stacey (Ralph Stacey)",
+        "is_correct": false
+      }
+    ],
+    "code": ""
+  }
+]
