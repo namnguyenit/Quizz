@@ -1,0 +1,1184 @@
+{
+    "exam_id": "eng-mock-canvas-b1b2-02",
+    "title": "ĐỀ THI MÔ PHỎNG CANVAS 02 - B1+/B2 (IT & TECH CONTEXT)",
+    "parts": {
+        "mcq": [
+            {
+                "question_id": "mock02-mc-001",
+                "question_text": "The development team ___ on the new machine learning model since early January, and they are finally seeing positive results.",
+                "question_type": "single_answer_question",
+                "answers": [
+                    {
+                        "answer_text": "is working",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "worked",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "has been working",
+                        "is_correct": true
+                    },
+                    {
+                        "answer_text": "had worked",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_id": "mock02-mc-002",
+                "question_text": "The system administrator demanded that all user credentials ___ immediately after the data breach was detected.",
+                "question_type": "single_answer_question",
+                "answers": [
+                    {
+                        "answer_text": "are reset",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "were reset",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "have been reset",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "be reset",
+                        "is_correct": true
+                    }
+                ]
+            },
+            {
+                "question_id": "mock02-mc-003",
+                "question_text": "If the DevOps engineer ___ the server configuration properly yesterday, the deployment ___ smoothly right now.",
+                "question_type": "single_answer_question",
+                "answers": [
+                    {
+                        "answer_text": "set / would go",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "had set / would be going",
+                        "is_correct": true
+                    },
+                    {
+                        "answer_text": "has set / will go",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "had set / would have gone",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_id": "mock02-mc-004",
+                "question_text": "No sooner ___ the new software update than the application crashed due to high traffic.",
+                "question_type": "single_answer_question",
+                "answers": [
+                    {
+                        "answer_text": "we had launched",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "had we launched",
+                        "is_correct": true
+                    },
+                    {
+                        "answer_text": "we launched",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "did we launched",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_id": "mock02-mc-005",
+                "question_text": "The tech startup, ___ CEO is a former Google executive, just raised $50 million in its Series B funding round.",
+                "question_type": "single_answer_question",
+                "answers": [
+                    {
+                        "answer_text": "who",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "whom",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "whose",
+                        "is_correct": true
+                    },
+                    {
+                        "answer_text": "which",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_id": "mock02-mc-006",
+                "question_text": "The server downtime was primarily caused by a critical ___ in the legacy authentication code.",
+                "question_type": "single_answer_question",
+                "answers": [
+                    {
+                        "answer_text": "vulnerability",
+                        "is_correct": true
+                    },
+                    {
+                        "answer_text": "durability",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "probability",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "liability",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_id": "mock02-mc-007",
+                "question_text": "Developers are strongly advised to ___ their code frequently to the main branch to avoid complex merge conflicts.",
+                "question_type": "single_answer_question",
+                "answers": [
+                    {
+                        "answer_text": "omit",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "commit",
+                        "is_correct": true
+                    },
+                    {
+                        "answer_text": "permit",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "admit",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_id": "mock02-mc-008",
+                "question_text": "___ artificial intelligence algorithms, we can process millions of data points in a matter of seconds.",
+                "question_type": "single_answer_question",
+                "answers": [
+                    {
+                        "answer_text": "By utilize",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "To utilizing",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "By utilizing",
+                        "is_correct": true
+                    },
+                    {
+                        "answer_text": "Utilize",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_id": "mock02-mc-009",
+                "question_text": "The junior programmer didn't know how to fix the memory leak, ___ did her senior manager.",
+                "question_type": "single_answer_question",
+                "answers": [
+                    {
+                        "answer_text": "either",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "neither",
+                        "is_correct": true
+                    },
+                    {
+                        "answer_text": "so",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "too",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_id": "mock02-mc-010",
+                "question_text": "Our newly designed smartwatch is fully capable ___ tracking your sleep patterns and heart rate 24/7.",
+                "question_type": "single_answer_question",
+                "answers": [
+                    {
+                        "answer_text": "for",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "in",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "of",
+                        "is_correct": true
+                    },
+                    {
+                        "answer_text": "on",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_id": "mock02-mc-011",
+                "question_text": "Instead of restoring the system manually, they had the database administrator ___ the backup files via a script.",
+                "question_type": "single_answer_question",
+                "answers": [
+                    {
+                        "answer_text": "to restore",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "restoring",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "restored",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "restore",
+                        "is_correct": true
+                    }
+                ]
+            },
+            {
+                "question_id": "mock02-mc-012",
+                "question_text": "You ___ have forgotten to lock your workstation; anyone could have accessed the confidential source code.",
+                "question_type": "single_answer_question",
+                "answers": [
+                    {
+                        "answer_text": "couldn't",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "shouldn't",
+                        "is_correct": true
+                    },
+                    {
+                        "answer_text": "mightn't",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "needn't",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_id": "mock02-mc-013",
+                "question_text": "Not until the corporate network was hacked ___ the true importance of end-to-end encryption.",
+                "question_type": "single_answer_question",
+                "answers": [
+                    {
+                        "answer_text": "they realized",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "they did realize",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "did they realize",
+                        "is_correct": true
+                    },
+                    {
+                        "answer_text": "had they realized",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_id": "mock02-mc-014",
+                "question_text": "The mandatory security patch ___ automatically overnight, so you won't need to restart your computer manually.",
+                "question_type": "single_answer_question",
+                "answers": [
+                    {
+                        "answer_text": "will install",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "will be installed",
+                        "is_correct": true
+                    },
+                    {
+                        "answer_text": "is installing",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "installed",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_id": "mock02-mc-015",
+                "question_text": "Our software agency is currently looking for a full-stack developer who is highly proficient ___ Python and React.",
+                "question_type": "single_answer_question",
+                "answers": [
+                    {
+                        "answer_text": "with",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "at",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "in",
+                        "is_correct": true
+                    },
+                    {
+                        "answer_text": "about",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_id": "mock02-mc-016",
+                "question_text": "The internet bandwidth was ___ low that we couldn't complete the video conference with the overseas client.",
+                "question_type": "single_answer_question",
+                "answers": [
+                    {
+                        "answer_text": "such",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "too",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "so",
+                        "is_correct": true
+                    },
+                    {
+                        "answer_text": "enough",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_id": "mock02-mc-017",
+                "question_text": "Instead of writing the entire logic from scratch, the team decided to utilize an open-source .",
+                "question_type": "single_answer_question",
+                "answers": [
+                    {
+                        "answer_text": "framework",
+                        "is_correct": true
+                    },
+                    {
+                        "answer_text": "network",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "guesswork",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "patchwork",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_id": "mock02-mc-018",
+                "question_text": " having limited server capacity, the web application successfully handled the sudden surge in traffic.",
+                "question_type": "single_answer_question",
+                "answers": [
+                    {
+                        "answer_text": "Although",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "Because of",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "Despite",
+                        "is_correct": true
+                    },
+                    {
+                        "answer_text": "Even though",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_id": "mock02-mc-019",
+                "question_text": "He spent over five hours ___ the complex bug in the user authentication module yesterday.",
+                "question_type": "single_answer_question",
+                "answers": [
+                    {
+                        "answer_text": "to debug",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "debugging",
+                        "is_correct": true
+                    },
+                    {
+                        "answer_text": "debugged",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "debug",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_id": "mock02-mc-020",
+                "question_text": "The tech company's quarterly revenue increased significantly ___ the successful deployment of their AI tool.",
+                "question_type": "single_answer_question",
+                "answers": [
+                    {
+                        "answer_text": "due to",
+                        "is_correct": true
+                    },
+                    {
+                        "answer_text": "since",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "because",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "in spite of",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_id": "mock02-mc-021",
+                "question_text": "By the year 2030, many IT experts believe that quantum computing ___ mainstream in global industries.",
+                "question_type": "single_answer_question",
+                "answers": [
+                    {
+                        "answer_text": "will become",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "will have become",
+                        "is_correct": true
+                    },
+                    {
+                        "answer_text": "has become",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "is becoming",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_id": "mock02-mc-022",
+                "question_text": "The lead UX designer suggested ___ the main navigation menu to significantly improve user retention rates.",
+                "question_type": "single_answer_question",
+                "answers": [
+                    {
+                        "answer_text": "redesigning",
+                        "is_correct": true
+                    },
+                    {
+                        "answer_text": "to redesign",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "redesign",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "should redesign",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_id": "mock02-mc-023",
+                "question_text": "A network firewall essentially acts as a secure ___ between a trusted internal network and untrusted external ones.",
+                "question_type": "single_answer_question",
+                "answers": [
+                    {
+                        "answer_text": "carrier",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "barrier",
+                        "is_correct": true
+                    },
+                    {
+                        "answer_text": "courier",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "warrior",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_id": "mock02-mc-024",
+                "question_text": "The ___ data you feed into the neural network, the ___ the AI's predictions will eventually become.",
+                "question_type": "single_answer_question",
+                "answers": [
+                    {
+                        "answer_text": "more / most accurate",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "much / more accurate",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "more / more accurate",
+                        "is_correct": true
+                    },
+                    {
+                        "answer_text": "most / most accurate",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_id": "mock02-mc-025",
+                "question_text": "___ having checked the code multiple times, the programmer still missed a fatal syntax error.",
+                "question_type": "single_answer_question",
+                "answers": [
+                    {
+                        "answer_text": "Despite",
+                        "is_correct": true
+                    },
+                    {
+                        "answer_text": "Although",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "Because of",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "In case",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_id": "mock02-mc-041",
+                "question_text": "The / manager / suggest / rewrite / entire / codebase / avoid / future / bugs / .",
+                "question_type": "single_answer_question",
+                "answers": [
+                    {
+                        "answer_text": "The manager suggested rewriting the entire codebase to avoid future bugs.",
+                        "is_correct": true
+                    },
+                    {
+                        "answer_text": "The manager suggested to rewrite the entire codebase to avoid future bugs.",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "The manager suggests rewriting the entire codebase avoiding future bugs.",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "The manager suggested rewriting the entire codebase to avoiding future bugs.",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_id": "mock02-mc-042",
+                "question_text": "Scarcely / the / new / feature / be / deploy / when / system / crash / .",
+                "question_type": "single_answer_question",
+                "answers": [
+                    {
+                        "answer_text": "Scarcely the new feature was deployed when the system crashed.",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "Scarcely had the new feature been deployed when the system crashed.",
+                        "is_correct": true
+                    },
+                    {
+                        "answer_text": "Scarcely did the new feature deploy when the system had crashed.",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "Scarcely had the new feature deployed when the system crashes.",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_id": "mock02-mc-043",
+                "question_text": "It / take / team / three / week / integrate / API / platform / .",
+                "question_type": "single_answer_question",
+                "answers": [
+                    {
+                        "answer_text": "It took the team three weeks integrating the API into the platform.",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "It takes the team three weeks to integrate the API into the platform.",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "It took the team three weeks to integrate the API into the platform.",
+                        "is_correct": true
+                    },
+                    {
+                        "answer_text": "It had taken the team three weeks integrate the API to the platform.",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_id": "mock02-mc-044",
+                "question_text": "If / you / update / software / yesterday / you / not / experience / issues / now / .",
+                "question_type": "single_answer_question",
+                "answers": [
+                    {
+                        "answer_text": "If you updated the software yesterday, you wouldn't experience issues now.",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "If you had updated the software yesterday, you wouldn't have experienced issues now.",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "If you had updated the software yesterday, you wouldn't be experiencing issues now.",
+                        "is_correct": true
+                    },
+                    {
+                        "answer_text": "If you updated the software yesterday, you won't experience issues now.",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_id": "mock02-mc-045",
+                "question_text": "No / matter / how / hard / algorithm / be / he / solve / it / quickly / .",
+                "question_type": "single_answer_question",
+                "answers": [
+                    {
+                        "answer_text": "No matter how hard was the algorithm, he solved it quickly.",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "No matter how hard the algorithm was, he solved it quickly.",
+                        "is_correct": true
+                    },
+                    {
+                        "answer_text": "No matter how the algorithm was hard, he solved it quickly.",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "No matter how hard the algorithm be, he solved it quickly.",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_id": "mock02-mc-046",
+                "question_text": "\"They are migrating the legacy database to a cloud server tomorrow\", the IT director said.",
+                "question_type": "single_answer_question",
+                "answers": [
+                    {
+                        "answer_text": "The IT director said that the legacy database is being migrated to a cloud server the next day.",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "The IT director said that the legacy database was migrating to a cloud server tomorrow.",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "The IT director said that the legacy database was being migrated to a cloud server the following day.",
+                        "is_correct": true
+                    },
+                    {
+                        "answer_text": "The IT director said that they are migrating the legacy database to a cloud server the next day.",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_id": "mock02-mc-047",
+                "question_text": "\"I didn't back up my files to the drive, and now I have lost everything\", she said.",
+                "question_type": "single_answer_question",
+                "answers": [
+                    {
+                        "answer_text": "She regretted not having backed up her files because she had lost everything.",
+                        "is_correct": true
+                    },
+                    {
+                        "answer_text": "She denied backing up her files and now she has lost everything.",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "She admitted to not back up her files because she lost everything.",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "She apologized for not backing up her files as she loses everything.",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_id": "mock02-mc-048",
+                "question_text": "I have never seen such a poorly written source code before.",
+                "question_type": "single_answer_question",
+                "answers": [
+                    {
+                        "answer_text": "This is the poorly written source code I have never seen before.",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "This is the most poorly written source code I have ever seen.",
+                        "is_correct": true
+                    },
+                    {
+                        "answer_text": "Never before I have seen such a poorly written source code.",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "This is such a poorly written source code that I have ever seen.",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_id": "mock02-mc-049",
+                "question_text": "The internet connection was too unstable for us to push the update to the server.",
+                "question_type": "single_answer_question",
+                "answers": [
+                    {
+                        "answer_text": "The internet connection was so unstable that we couldn't push the update to the server.",
+                        "is_correct": true
+                    },
+                    {
+                        "answer_text": "The internet connection was such unstable that we couldn't push the update to the server.",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "The internet connection was not unstable enough for us to push the update to the server.",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "It was too unstable internet connection for us to push the update to the server.",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_id": "mock02-mc-050",
+                "question_text": "Although the software application was very expensive, it lacked many essential features.",
+                "question_type": "single_answer_question",
+                "answers": [
+                    {
+                        "answer_text": "Despite of being expensive, the software application lacked many essential features.",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "Because the software application was expensive, it lacked many essential features.",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "In spite of being expensive, the software application lacked many essential features.",
+                        "is_correct": true
+                    },
+                    {
+                        "answer_text": "The software application lacked many essential features even it was very expensive.",
+                        "is_correct": false
+                    }
+                ]
+            }
+        ],
+        "reading": [
+            {
+                "reading_set_id": "mock02-read-part1",
+                "type": "reading_comprehension",
+                "title": "Part 1: Reading - The Evolution of Cloud Computing",
+                "reading_passage": "A decade ago, most companies hosted their digital infrastructure on physical servers located in their own office buildings. This approach, known as 'on-premises' hosting, required massive upfront investments in hardware and dedicated IT staff to maintain the machines. Today, however, the corporate landscape has been transformed by cloud computing. By utilizing cloud providers like Amazon Web Services (AWS) or Microsoft Azure, businesses can rent computing power and storage space over the internet on a pay-as-you-go basis.\n\nThe primary advantage of cloud computing is its unparalleled scalability. If an e-commerce website experiences a sudden surge in traffic during a holiday sale, the cloud infrastructure can automatically allocate more resources to keep the site running smoothly. Once the sale ends, the resources scale back down, ensuring the company only pays for what it uses. Furthermore, cloud computing facilitates remote work by allowing employees to access company data and applications from anywhere in the world. Despite concerns regarding data sovereignty and reliance on third-party vendors, the flexibility and cost-efficiency of the cloud make it an indispensable tool for modern enterprises.",
+                "questions": [
+                    {
+                        "question_id": "mock02-rd-026",
+                        "question_text": "What is the main topic of the passage?",
+                        "question_type": "single_answer_question",
+                        "answers": [
+                            {
+                                "answer_text": "The dangers of working remotely.",
+                                "is_correct": false
+                            },
+                            {
+                                "answer_text": "How to buy physical servers for small businesses.",
+                                "is_correct": false
+                            },
+                            {
+                                "answer_text": "The shift from on-premises servers to cloud computing and its benefits.",
+                                "is_correct": true
+                            },
+                            {
+                                "answer_text": "The history of Amazon Web Services.",
+                                "is_correct": false
+                            }
+                        ]
+                    },
+                    {
+                        "question_id": "mock02-rd-027",
+                        "question_text": "According to the text, what was a major drawback of 'on-premises' hosting?",
+                        "question_type": "single_answer_question",
+                        "answers": [
+                            {
+                                "answer_text": "It was completely illegal in most countries.",
+                                "is_correct": false
+                            },
+                            {
+                                "answer_text": "It required large upfront investments in hardware.",
+                                "is_correct": true
+                            },
+                            {
+                                "answer_text": "It forced employees to work from home.",
+                                "is_correct": false
+                            },
+                            {
+                                "answer_text": "It was controlled by third-party vendors.",
+                                "is_correct": false
+                            }
+                        ]
+                    },
+                    {
+                        "question_id": "mock02-rd-028",
+                        "question_text": "The word 'scalability' in the second paragraph refers to the ability to:",
+                        "question_type": "single_answer_question",
+                        "answers": [
+                            {
+                                "answer_text": "Adjust resources automatically based on demand.",
+                                "is_correct": true
+                            },
+                            {
+                                "answer_text": "Encrypt data to prevent hacking.",
+                                "is_correct": false
+                            },
+                            {
+                                "answer_text": "Permanently delete old files to save space.",
+                                "is_correct": false
+                            },
+                            {
+                                "answer_text": "Purchase physical hardware at a discount.",
+                                "is_correct": false
+                            }
+                        ]
+                    },
+                    {
+                        "question_id": "mock02-rd-029",
+                        "question_text": "How does cloud computing benefit an e-commerce site during a holiday sale?",
+                        "question_type": "single_answer_question",
+                        "answers": [
+                            {
+                                "answer_text": "By shutting down the website to save money.",
+                                "is_correct": false
+                            },
+                            {
+                                "answer_text": "By forcing customers to pay extra for access.",
+                                "is_correct": false
+                            },
+                            {
+                                "answer_text": "By automatically providing more resources to handle high traffic.",
+                                "is_correct": true
+                            },
+                            {
+                                "answer_text": "By moving all data back to on-premises servers.",
+                                "is_correct": false
+                            }
+                        ]
+                    },
+                    {
+                        "question_id": "mock02-rd-030",
+                        "question_text": "What is mentioned as a potential concern regarding cloud computing?",
+                        "question_type": "single_answer_question",
+                        "answers": [
+                            {
+                                "answer_text": "The high cost of maintaining physical servers.",
+                                "is_correct": false
+                            },
+                            {
+                                "answer_text": "Data sovereignty and relying on external vendors.",
+                                "is_correct": true
+                            },
+                            {
+                                "answer_text": "The inability of employees to work from home.",
+                                "is_correct": false
+                            },
+                            {
+                                "answer_text": "The fact that it is too slow for modern enterprises.",
+                                "is_correct": false
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "reading_set_id": "mock02-read-part2",
+                "type": "reading_comprehension",
+                "title": "Part 2: Reading - AI in Cybersecurity",
+                "reading_passage": "As cyber threats become increasingly sophisticated, human security analysts are struggling to keep pace. Hackers are now using automated scripts to launch thousands of attacks simultaneously, probing networks for vulnerabilities. In response, cybersecurity firms are turning to Artificial Intelligence (AI) and Machine Learning (ML) to bolster their defenses. Unlike traditional antivirus software, which relies on known signatures of malicious files, AI systems are designed to recognize abnormal behavior.\n\nFor example, if an employee's account suddenly begins downloading gigabytes of sensitive data at 3:00 AM from an unrecognized IP address, the AI system will immediately flag this as anomalous behavior and lock the account. This proactive approach allows organizations to stop data breaches before they inflict severe damage. However, AI is a double-edged sword. Cybercriminals are also leveraging machine learning to craft highly convincing phishing emails and to develop malware that can adapt its code to evade detection. Therefore, the future of digital security will likely be a perpetual arms race between defensive AI and offensive AI.",
+                "questions": [
+                    {
+                        "question_id": "mock02-rd-031",
+                        "question_text": "Why are human security analysts struggling, according to the passage?",
+                        "question_type": "single_answer_question",
+                        "answers": [
+                            {
+                                "answer_text": "They do not know how to use computers.",
+                                "is_correct": false
+                            },
+                            {
+                                "answer_text": "Hackers are using automated scripts to launch massive, simultaneous attacks.",
+                                "is_correct": true
+                            },
+                            {
+                                "answer_text": "They refuse to work at night.",
+                                "is_correct": false
+                            },
+                            {
+                                "answer_text": "Traditional antivirus software has been completely banned.",
+                                "is_correct": false
+                            }
+                        ]
+                    },
+                    {
+                        "question_id": "mock02-rd-032",
+                        "question_text": "How does AI differ from traditional antivirus software?",
+                        "question_type": "single_answer_question",
+                        "answers": [
+                            {
+                                "answer_text": "AI relies solely on a list of known malicious files.",
+                                "is_correct": false
+                            },
+                            {
+                                "answer_text": "AI focuses on recognizing abnormal patterns of behavior.",
+                                "is_correct": true
+                            },
+                            {
+                                "answer_text": "AI requires a human to manually approve every action.",
+                                "is_correct": false
+                            },
+                            {
+                                "answer_text": "AI only works on physical, on-premises servers.",
+                                "is_correct": false
+                            }
+                        ]
+                    },
+                    {
+                        "question_id": "mock02-rd-033",
+                        "question_text": "What action would the AI take if it detected unusual downloading activity at 3:00 AM?",
+                        "question_type": "single_answer_question",
+                        "answers": [
+                            {
+                                "answer_text": "It would send an email to the hacker.",
+                                "is_correct": false
+                            },
+                            {
+                                "answer_text": "It would delete all the data on the server.",
+                                "is_correct": false
+                            },
+                            {
+                                "answer_text": "It would flag the behavior and lock the account.",
+                                "is_correct": true
+                            },
+                            {
+                                "answer_text": "It would automatically increase the download speed.",
+                                "is_correct": false
+                            }
+                        ]
+                    },
+                    {
+                        "question_id": "mock02-rd-034",
+                        "question_text": "What does the author mean by calling AI a 'double-edged sword'?",
+                        "question_type": "single_answer_question",
+                        "answers": [
+                            {
+                                "answer_text": "It is extremely expensive to implement.",
+                                "is_correct": false
+                            },
+                            {
+                                "answer_text": "It can be used for both protective and malicious purposes.",
+                                "is_correct": true
+                            },
+                            {
+                                "answer_text": "It is a physical weapon used by security guards.",
+                                "is_correct": false
+                            },
+                            {
+                                "answer_text": "It frequently cuts off internet connections by mistake.",
+                                "is_correct": false
+                            }
+                        ]
+                    },
+                    {
+                        "question_id": "mock02-rd-035",
+                        "question_text": "What is the author's prediction for the future of digital security?",
+                        "question_type": "single_answer_question",
+                        "answers": [
+                            {
+                                "answer_text": "Hackers will eventually give up and stop attacking.",
+                                "is_correct": false
+                            },
+                            {
+                                "answer_text": "Human analysts will completely replace AI systems.",
+                                "is_correct": false
+                            },
+                            {
+                                "answer_text": "There will be a continuous battle between defensive and offensive AI.",
+                                "is_correct": true
+                            },
+                            {
+                                "answer_text": "All data will be moved back to paper files to ensure safety.",
+                                "is_correct": false
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "reading_set_id": "mock02-read-part3",
+                "type": "reading_comprehension",
+                "title": "Part 3: Reading - Agile Methodology in Software Engineering",
+                "reading_passage": "In the early days of software engineering, teams predominantly used the 'Waterfall' methodology. This linear approach required developers to complete one phase of a project entirely—such as design, coding, or testing—before moving on to the next. While structured, Waterfall was rigid; if a client requested a fundamental change late in the development cycle, it often led to disastrous delays and budget overruns.\n\nTo address these flaws, the tech industry widely adopted 'Agile' methodology. Agile breaks projects down into smaller, manageable iterations known as 'sprints', typically lasting two to four weeks. At the end of each sprint, the team delivers a functional piece of the software to the client for immediate feedback. This iterative process allows developers to pivot quickly if the project's requirements change. Furthermore, Agile promotes daily communication within cross-functional teams, breaking down silos between developers, testers, and operations. Ultimately, while Agile demands a high degree of collaboration and adaptability, it results in software that better aligns with the end-user's actual needs.",
+                "questions": [
+                    {
+                        "question_id": "mock02-rd-036",
+                        "question_text": "What was the main problem with the 'Waterfall' methodology?",
+                        "question_type": "single_answer_question",
+                        "answers": [
+                            {
+                                "answer_text": "It was too fast and confused the developers.",
+                                "is_correct": false
+                            },
+                            {
+                                "answer_text": "It was rigid and made late changes very difficult and costly.",
+                                "is_correct": true
+                            },
+                            {
+                                "answer_text": "It required too much communication with the clients.",
+                                "is_correct": false
+                            },
+                            {
+                                "answer_text": "It broke projects down into pieces that were too small.",
+                                "is_correct": false
+                            }
+                        ]
+                    },
+                    {
+                        "question_id": "mock02-rd-037",
+                        "question_text": "In Agile methodology, what is a 'sprint'?",
+                        "question_type": "single_answer_question",
+                        "answers": [
+                            {
+                                "answer_text": "A physical race between software developers.",
+                                "is_correct": false
+                            },
+                            {
+                                "answer_text": "The final stage of testing before releasing the software.",
+                                "is_correct": false
+                            },
+                            {
+                                "answer_text": "A short, manageable iteration of development work.",
+                                "is_correct": true
+                            },
+                            {
+                                "answer_text": "A type of programming language used for speed.",
+                                "is_correct": false
+                            }
+                        ]
+                    },
+                    {
+                        "question_id": "mock02-rd-038",
+                        "question_text": "What happens at the end of an Agile sprint?",
+                        "question_type": "single_answer_question",
+                        "answers": [
+                            {
+                                "answer_text": "The team delivers a functional piece of software for feedback.",
+                                "is_correct": true
+                            },
+                            {
+                                "answer_text": "The team completely restarts the project from scratch.",
+                                "is_correct": false
+                            },
+                            {
+                                "answer_text": "The client pays the full budget for the entire project.",
+                                "is_correct": false
+                            },
+                            {
+                                "answer_text": "The developers are no longer allowed to communicate.",
+                                "is_correct": false
+                            }
+                        ]
+                    },
+                    {
+                        "question_id": "mock02-rd-039",
+                        "question_text": "The word 'pivot' in the second paragraph is closest in meaning to:",
+                        "question_type": "single_answer_question",
+                        "answers": [
+                            {
+                                "answer_text": "Complain",
+                                "is_correct": false
+                            },
+                            {
+                                "answer_text": "Change direction",
+                                "is_correct": true
+                            },
+                            {
+                                "answer_text": "Stop working",
+                                "is_correct": false
+                            },
+                            {
+                                "answer_text": "Demand more money",
+                                "is_correct": false
+                            }
+                        ]
+                    },
+                    {
+                        "question_id": "mock02-rd-040",
+                        "question_text": "According to the passage, what is the ultimate benefit of using Agile?",
+                        "question_type": "single_answer_question",
+                        "answers": [
+                            {
+                                "answer_text": "It eliminates the need for software testers.",
+                                "is_correct": false
+                            },
+                            {
+                                "answer_text": "It guarantees that a project will never go over budget.",
+                                "is_correct": false
+                            },
+                            {
+                                "answer_text": "It requires less collaboration than other methods.",
+                                "is_correct": false
+                            },
+                            {
+                                "answer_text": "It creates software that better meets the user's real needs.",
+                                "is_correct": true
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,1184 @@
+{
+    "exam_id": "eng-mock-canvas-b1b2-01",
+    "title": "ĐỀ THI MÔ PHỎNG CANVAS 01 - B1+/B2 (IT & TECH CONTEXT)",
+    "parts": {
+        "mcq": [
+            {
+                "question_id": "mock01-mc-001",
+                "question_text": "By the time we launch the new mobile application next month, our backend team ___ on the server optimization for over half a year.",
+                "question_type": "single_answer_question",
+                "answers": [
+                    {
+                        "answer_text": "will work",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "will have been working",
+                        "is_correct": true
+                    },
+                    {
+                        "answer_text": "has worked",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "are working",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_id": "mock01-mc-002",
+                "question_text": "If the QA engineers ___ the boundary values more thoroughly yesterday, the system ___ so many critical bugs right now.",
+                "question_type": "single_answer_question",
+                "answers": [
+                    {
+                        "answer_text": "checked / wouldn't have",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "had checked / wouldn't have had",
+                        "is_correct": true
+                    },
+                    {
+                        "answer_text": "had checked / wouldn't have",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "checks / won't have",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_id": "mock01-mc-003",
+                "question_text": "The new ESP32 microcontroller, ___ is widely implemented in modern IoT ecosystems, offers built-in Wi-Fi capabilities.",
+                "question_type": "single_answer_question",
+                "answers": [
+                    {
+                        "answer_text": "that",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "which",
+                        "is_correct": true
+                    },
+                    {
+                        "answer_text": "who",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "whose",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_id": "mock01-mc-004",
+                "question_text": "The junior programmer admitted ___ a fatal mistake in the source code which led to the server crash.",
+                "question_type": "single_answer_question",
+                "answers": [
+                    {
+                        "answer_text": "to make",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "make",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "making",
+                        "is_correct": true
+                    },
+                    {
+                        "answer_text": "having make",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_id": "mock01-mc-005",
+                "question_text": "Our tech firm is highly dedicated to the ___ of renewable energy through smart grid technologies.",
+                "question_type": "single_answer_question",
+                "answers": [
+                    {
+                        "answer_text": "destruction",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "observation",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "pollution",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "conservation",
+                        "is_correct": true
+                    }
+                ]
+            },
+            {
+                "question_id": "mock01-mc-006",
+                "question_text": "Professionals who work in ___ need a solid understanding of both mechanical hardware and software algorithms.",
+                "question_type": "single_answer_question",
+                "answers": [
+                    {
+                        "answer_text": "agriculture",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "hospitality",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "automation",
+                        "is_correct": true
+                    },
+                    {
+                        "answer_text": "journalism",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_id": "mock01-mc-007",
+                "question_text": "The new dental clinic management software is highly ___, allowing staff to navigate menus without any prior training.",
+                "question_type": "single_answer_question",
+                "answers": [
+                    {
+                        "answer_text": "intuitive",
+                        "is_correct": true
+                    },
+                    {
+                        "answer_text": "repetitive",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "intention",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "intuitively",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_id": "mock01-mc-008",
+                "question_text": "I vaguely remember ___ the backup button before leaving the office, but the data is completely missing.",
+                "question_type": "single_answer_question",
+                "answers": [
+                    {
+                        "answer_text": "to press",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "pressing",
+                        "is_correct": true
+                    },
+                    {
+                        "answer_text": "press",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "having press",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_id": "mock01-mc-009",
+                "question_text": "Despite ___ several unexpected hardware obstacles during the beta phase, the team successfully launched the platform.",
+                "question_type": "single_answer_question",
+                "answers": [
+                    {
+                        "answer_text": "to face",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "faced",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "facing",
+                        "is_correct": true
+                    },
+                    {
+                        "answer_text": "they face",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_id": "mock01-mc-010",
+                "question_text": "It is crucial for UI/UX designers to ___ close attention to user feedback to improve application retention rates.",
+                "question_type": "single_answer_question",
+                "answers": [
+                    {
+                        "answer_text": "make",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "pay",
+                        "is_correct": true
+                    },
+                    {
+                        "answer_text": "take",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "draw",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_id": "mock01-mc-011",
+                "question_text": "The primary database servers ___ down; the monitoring dashboard is showing completely offline statuses.",
+                "question_type": "single_answer_question",
+                "answers": [
+                    {
+                        "answer_text": "must have crashed",
+                        "is_correct": true
+                    },
+                    {
+                        "answer_text": "should have crashed",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "could crash",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "ought to crash",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_id": "mock01-mc-012",
+                "question_text": "Artificial Intelligence is widely predicted to ___ the way we process large sets of user data in the next decade.",
+                "question_type": "single_answer_question",
+                "answers": [
+                    {
+                        "answer_text": "revolution",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "revolutionize",
+                        "is_correct": true
+                    },
+                    {
+                        "answer_text": "revolutionary",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "revolting",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_id": "mock01-mc-013",
+                "question_text": "Not only ___ the frontend interface, but they also maintain the complex backend server architecture.",
+                "question_type": "single_answer_question",
+                "answers": [
+                    {
+                        "answer_text": "the developers code",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "do the developers code",
+                        "is_correct": true
+                    },
+                    {
+                        "answer_text": "the developers do code",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "are the developers code",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_id": "mock01-mc-014",
+                "question_text": "The project manager insisted that the newly developed payment feature ___ tested rigorously before deployment.",
+                "question_type": "single_answer_question",
+                "answers": [
+                    {
+                        "answer_text": "is",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "was",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "be",
+                        "is_correct": true
+                    },
+                    {
+                        "answer_text": "has been",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_id": "mock01-mc-015",
+                "question_text": "Had the cybersecurity team known about the zero-day vulnerability, they ___ the network administrators immediately.",
+                "question_type": "single_answer_question",
+                "answers": [
+                    {
+                        "answer_text": "would warn",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "will warn",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "warned",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "would have warned",
+                        "is_correct": true
+                    }
+                ]
+            },
+            {
+                "question_id": "mock01-mc-016",
+                "question_text": "The new end-to-end encryption algorithm is designed to ___ the risk of cyber attacks and data breaches.",
+                "question_type": "single_answer_question",
+                "answers": [
+                    {
+                        "answer_text": "mitigate",
+                        "is_correct": true
+                    },
+                    {
+                        "answer_text": "aggravate",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "initiate",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "navigate",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_id": "mock01-mc-017",
+                "question_text": "Could you please tell me exactly what time ___?",
+                "question_type": "single_answer_question",
+                "answers": [
+                    {
+                        "answer_text": "does the system update",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "the system updates",
+                        "is_correct": true
+                    },
+                    {
+                        "answer_text": "the system update",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "do the system updates",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_id": "mock01-mc-018",
+                "question_text": "The senior developer hasn't pushed the final commit to the main repository ___.",
+                "question_type": "single_answer_question",
+                "answers": [
+                    {
+                        "answer_text": "already",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "just",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "ever",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "yet",
+                        "is_correct": true
+                    }
+                ]
+            },
+            {
+                "question_id": "mock01-mc-019",
+                "question_text": "The whole IT department is looking forward to ___ the new cloud computing infrastructure next quarter.",
+                "question_type": "single_answer_question",
+                "answers": [
+                    {
+                        "answer_text": "implement",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "implementing",
+                        "is_correct": true
+                    },
+                    {
+                        "answer_text": "be implemented",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "have implemented",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_id": "mock01-mc-020",
+                "question_text": "The developers, ___ are currently working remotely from Vietnam, have delivered exceptional codebase quality.",
+                "question_type": "single_answer_question",
+                "answers": [
+                    {
+                        "answer_text": "that",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "which",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "who",
+                        "is_correct": true
+                    },
+                    {
+                        "answer_text": "whom",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_id": "mock01-mc-021",
+                "question_text": "He spent a massive amount of time ___ the legacy program yesterday because it kept crashing.",
+                "question_type": "single_answer_question",
+                "answers": [
+                    {
+                        "answer_text": "to debug",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "debugged",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "debugging",
+                        "is_correct": true
+                    },
+                    {
+                        "answer_text": "debug",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_id": "mock01-mc-022",
+                "question_text": "The tech giant ___ a revolutionary augmented reality headset at the conference next Monday.",
+                "question_type": "single_answer_question",
+                "answers": [
+                    {
+                        "answer_text": "launch",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "is going to launch",
+                        "is_correct": true
+                    },
+                    {
+                        "answer_text": "launched",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "has launched",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_id": "mock01-mc-023",
+                "question_text": "You ___ forget to save your code to the remote server before logging off, or you might lose everything.",
+                "question_type": "single_answer_question",
+                "answers": [
+                    {
+                        "answer_text": "needn't",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "don't have to",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "mustn't",
+                        "is_correct": true
+                    },
+                    {
+                        "answer_text": "shouldn't have",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_id": "mock01-mc-024",
+                "question_text": "A well-designed software architecture will ___ the workload of maintaining the application in the future.",
+                "question_type": "single_answer_question",
+                "answers": [
+                    {
+                        "answer_text": "lessen",
+                        "is_correct": true
+                    },
+                    {
+                        "answer_text": "worsen",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "threaten",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "broaden",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_id": "mock01-mc-025",
+                "question_text": "We need to encourage ___ technology to protect the planet's ecosystems and avoid electronic waste.",
+                "question_type": "single_answer_question",
+                "answers": [
+                    {
+                        "answer_text": "generous",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "sustainable",
+                        "is_correct": true
+                    },
+                    {
+                        "answer_text": "repetitive",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "automated",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_id": "mock01-mc-041",
+                "question_text": "The / tech company / currently / develop / new / artificial intelligence / system /.",
+                "question_type": "single_answer_question",
+                "answers": [
+                    {
+                        "answer_text": "The tech company is currently developing a new artificial intelligence system.",
+                        "is_correct": true
+                    },
+                    {
+                        "answer_text": "The tech company currently develops a new artificial intelligence system.",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "The tech company has currently develop a new artificial intelligence system.",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "The tech company is currently develop a new artificial intelligence system.",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_id": "mock01-mc-042",
+                "question_text": "If / developers / test / app / properly / it / not / crash / yesterday /.",
+                "question_type": "single_answer_question",
+                "answers": [
+                    {
+                        "answer_text": "If the developers tested the app properly, it wouldn't crash yesterday.",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "If the developers had tested the app properly, it wouldn't have crashed yesterday.",
+                        "is_correct": true
+                    },
+                    {
+                        "answer_text": "If the developers test the app properly, it won't crash yesterday.",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "If the developers had tested the app properly, it didn't crash yesterday.",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_id": "mock01-mc-043",
+                "question_text": "It / be / essential / that / all / user data / be / encrypt / before / transmission /.",
+                "question_type": "single_answer_question",
+                "answers": [
+                    {
+                        "answer_text": "It is essential that all user data is encrypting before transmission.",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "It was essential that all user data encrypted before transmission.",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "It is essential that all user data be encrypted before transmission.",
+                        "is_correct": true
+                    },
+                    {
+                        "answer_text": "It is essential that all user data being encrypted before transmission.",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_id": "mock01-mc-044",
+                "question_text": "Not / until / programmer / fix / database bug / system / run / smoothly /.",
+                "question_type": "single_answer_question",
+                "answers": [
+                    {
+                        "answer_text": "Not until the programmer fixed the database bug did the system run smoothly.",
+                        "is_correct": true
+                    },
+                    {
+                        "answer_text": "Not until the programmer fixed the database bug the system ran smoothly.",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "Not until the programmer fixes the database bug does the system ran smoothly.",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "Not until the programmer had fixed the database bug the system did run smoothly.",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_id": "mock01-mc-045",
+                "question_text": "The / expense management software / which / release / last week / receive / positive / reviews /.",
+                "question_type": "single_answer_question",
+                "answers": [
+                    {
+                        "answer_text": "The expense management software which releases last week receives positive reviews.",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "The expense management software, which was released last week, received positive reviews.",
+                        "is_correct": true
+                    },
+                    {
+                        "answer_text": "The expense management software which was released last week, received positive reviews.",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "The expense management software, which released last week, received positive reviews.",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_id": "mock01-mc-046",
+                "question_text": "“Why don't we integrate a secure payment gateway into the app?” the manager said.",
+                "question_type": "single_answer_question",
+                "answers": [
+                    {
+                        "answer_text": "The manager advised to integrate a secure payment gateway into the app.",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "The manager suggested integrating a secure payment gateway into the app.",
+                        "is_correct": true
+                    },
+                    {
+                        "answer_text": "The manager asked why not to integrate a secure payment gateway into the app.",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "The manager offered integrating a secure payment gateway into the app.",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_id": "mock01-mc-047",
+                "question_text": "Although the application's source code was incredibly complex, she managed to debug it quickly.",
+                "question_type": "single_answer_question",
+                "answers": [
+                    {
+                        "answer_text": "In spite of the complex source code, she managed to debug it quickly.",
+                        "is_correct": true
+                    },
+                    {
+                        "answer_text": "Despite of the complex source code, she managed to debug it quickly.",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "In spite being complex source code, she managed to debug it quickly.",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "Because the source code was complex, she managed to debug it quickly.",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_id": "mock01-mc-048",
+                "question_text": "People believe that the first automated smart cities were designed in the early 2000s.",
+                "question_type": "single_answer_question",
+                "answers": [
+                    {
+                        "answer_text": "The first automated smart cities are believed to be designed in the early 2000s.",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "The first automated smart cities were believed to have been designed in the early 2000s.",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "The first automated smart cities are believed to have been designed in the early 2000s.",
+                        "is_correct": true
+                    },
+                    {
+                        "answer_text": "It is believed that the first automated smart cities to be designed in the early 2000s.",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_id": "mock01-mc-049",
+                "question_text": "The development team started building the e-commerce platform six months ago.",
+                "question_type": "single_answer_question",
+                "answers": [
+                    {
+                        "answer_text": "The development team have been building the e-commerce platform since six months.",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "The development team has been building the e-commerce platform for six months.",
+                        "is_correct": true
+                    },
+                    {
+                        "answer_text": "The development team is building the e-commerce platform six months ago.",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "The development team builds the e-commerce platform for six months.",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_id": "mock01-mc-050",
+                "question_text": "The software update was so buggy that the operations team had to roll it back immediately.",
+                "question_type": "single_answer_question",
+                "answers": [
+                    {
+                        "answer_text": "It was such a buggy software update that the operations team had to roll it back immediately.",
+                        "is_correct": true
+                    },
+                    {
+                        "answer_text": "It was so a buggy software update that the operations team had to roll it back immediately.",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "The software update was too buggy for the operations team to roll it back immediately.",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "Such buggy was the software update that the operations team had to roll it back immediately.",
+                        "is_correct": false
+                    }
+                ]
+            }
+        ],
+        "reading": [
+            {
+                "reading_set_id": "mock01-read-part1",
+                "type": "reading_comprehension",
+                "title": "Part 1: Reading - The Future of Smart Homes and IoT",
+                "reading_passage": "The concept of the 'smart home' has evolved rapidly from a futuristic dream to a modern reality. Driven by the Internet of Things (IoT), appliances and systems within a house can now communicate with each other and be controlled remotely via smartphone applications. For example, smart thermostats can learn your daily schedule and autonomously adjust the temperature to save energy when you are away. \n\nProponents of smart homes emphasize the unprecedented convenience and energy efficiency they provide. By optimizing electricity and water usage, these automated systems not only lower utility bills but also contribute to a more sustainable environment. However, critics raise significant concerns regarding cybersecurity and privacy. Since IoT devices are continuously connected to the internet and collect vast amounts of personal data, they are vulnerable to hacking. If a cybercriminal gains access to a smart home network, they could potentially unlock doors, control cameras, and steal sensitive information. Therefore, integrating robust encryption and secure software is essential for the future of residential automation.",
+                "questions": [
+                    {
+                        "question_id": "mock01-rd-026",
+                        "question_text": "What is the primary focus of the passage?",
+                        "question_type": "single_answer_question",
+                        "answers": [
+                            {
+                                "answer_text": "How to hack into smart home systems.",
+                                "is_correct": false
+                            },
+                            {
+                                "answer_text": "The evolution, benefits, and risks of smart homes.",
+                                "is_correct": true
+                            },
+                            {
+                                "answer_text": "The cost of installing a smart thermostat.",
+                                "is_correct": false
+                            },
+                            {
+                                "answer_text": "Why smartphones are essential for modern living.",
+                                "is_correct": false
+                            }
+                        ]
+                    },
+                    {
+                        "question_id": "mock01-rd-027",
+                        "question_text": "According to the passage, how do smart thermostats save energy?",
+                        "question_type": "single_answer_question",
+                        "answers": [
+                            {
+                                "answer_text": "By completely shutting down the house's power supply.",
+                                "is_correct": false
+                            },
+                            {
+                                "answer_text": "By requiring users to manually input temperatures every hour.",
+                                "is_correct": false
+                            },
+                            {
+                                "answer_text": "By learning schedules and adjusting the temperature automatically.",
+                                "is_correct": true
+                            },
+                            {
+                                "answer_text": "By disconnecting from the internet when not in use.",
+                                "is_correct": false
+                            }
+                        ]
+                    },
+                    {
+                        "question_id": "mock01-rd-028",
+                        "question_text": "The word 'autonomously' in the first paragraph is closest in meaning to:",
+                        "question_type": "single_answer_question",
+                        "answers": [
+                            {
+                                "answer_text": "Independently",
+                                "is_correct": true
+                            },
+                            {
+                                "answer_text": "Reluctantly",
+                                "is_correct": false
+                            },
+                            {
+                                "answer_text": "Manually",
+                                "is_correct": false
+                            },
+                            {
+                                "answer_text": "Randomly",
+                                "is_correct": false
+                            }
+                        ]
+                    },
+                    {
+                        "question_id": "mock01-rd-029",
+                        "question_text": "What is mentioned as a significant drawback of smart homes?",
+                        "question_type": "single_answer_question",
+                        "answers": [
+                            {
+                                "answer_text": "They consume more electricity than traditional homes.",
+                                "is_correct": false
+                            },
+                            {
+                                "answer_text": "They are vulnerable to cyber attacks and privacy breaches.",
+                                "is_correct": true
+                            },
+                            {
+                                "answer_text": "They make it harder to control the temperature.",
+                                "is_correct": false
+                            },
+                            {
+                                "answer_text": "They cannot be connected to modern smartphones.",
+                                "is_correct": false
+                            }
+                        ]
+                    },
+                    {
+                        "question_id": "mock01-rd-030",
+                        "question_text": "What does the author suggest is necessary for the future of residential automation?",
+                        "question_type": "single_answer_question",
+                        "answers": [
+                            {
+                                "answer_text": "Removing all cameras from homes.",
+                                "is_correct": false
+                            },
+                            {
+                                "answer_text": "Using older, non-internet connected devices.",
+                                "is_correct": false
+                            },
+                            {
+                                "answer_text": "Stopping the use of smart thermostats.",
+                                "is_correct": false
+                            },
+                            {
+                                "answer_text": "Integrating robust encryption and secure software.",
+                                "is_correct": true
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "reading_set_id": "mock01-read-part2",
+                "type": "reading_comprehension",
+                "title": "Part 2: Reading - Sustainable Technology in Urban Planning",
+                "reading_passage": "As global populations swell, cities are increasingly turning to sustainable technologies to mitigate their environmental footprint. The concept of a 'green city' goes beyond simply planting more trees; it involves integrating advanced technology into the very infrastructure of urban environments. One significant advancement is the implementation of smart grids. Unlike traditional power grids, smart grids use digital communication technology to detect and react to local changes in electricity usage.\n\nThis two-way dialogue between utility companies and consumers ensures that energy is distributed more efficiently, reducing waste and lowering carbon emissions. Furthermore, many modern cities are investing heavily in automated public transportation systems powered by renewable energy sources, such as solar and wind. These systems utilize complex algorithms to optimize routes and schedules based on real-time traffic data, thereby minimizing delays and decreasing the reliance on personal, gas-powered vehicles. Ultimately, the fusion of software engineering and environmental science is proving to be critical in building the sustainable cities of tomorrow.",
+                "questions": [
+                    {
+                        "question_id": "mock01-rd-031",
+                        "question_text": "What is the main topic of the text?",
+                        "question_type": "single_answer_question",
+                        "answers": [
+                            {
+                                "answer_text": "The history of traditional power grids.",
+                                "is_correct": false
+                            },
+                            {
+                                "answer_text": "The role of technology in creating sustainable urban environments.",
+                                "is_correct": true
+                            },
+                            {
+                                "answer_text": "The decline of public transportation in modern cities.",
+                                "is_correct": false
+                            },
+                            {
+                                "answer_text": "How to plant more trees in urban areas.",
+                                "is_correct": false
+                            }
+                        ]
+                    },
+                    {
+                        "question_id": "mock01-rd-032",
+                        "question_text": "How do smart grids differ from traditional power grids?",
+                        "question_type": "single_answer_question",
+                        "answers": [
+                            {
+                                "answer_text": "They only provide power to public transportation.",
+                                "is_correct": false
+                            },
+                            {
+                                "answer_text": "They use digital communication to respond to usage changes.",
+                                "is_correct": true
+                            },
+                            {
+                                "answer_text": "They consume more energy and create more waste.",
+                                "is_correct": false
+                            },
+                            {
+                                "answer_text": "They are completely disconnected from the internet.",
+                                "is_correct": false
+                            }
+                        ]
+                    },
+                    {
+                        "question_id": "mock01-rd-033",
+                        "question_text": "The word 'mitigate' in the first paragraph is closest in meaning to:",
+                        "question_type": "single_answer_question",
+                        "answers": [
+                            {
+                                "answer_text": "Increase",
+                                "is_correct": false
+                            },
+                            {
+                                "answer_text": "Reduce",
+                                "is_correct": true
+                            },
+                            {
+                                "answer_text": "Complicate",
+                                "is_correct": false
+                            },
+                            {
+                                "answer_text": "Ignore",
+                                "is_correct": false
+                            }
+                        ]
+                    },
+                    {
+                        "question_id": "mock01-rd-034",
+                        "question_text": "What drives the automated public transportation systems mentioned in the text?",
+                        "question_type": "single_answer_question",
+                        "answers": [
+                            {
+                                "answer_text": "Gas-powered engines.",
+                                "is_correct": false
+                            },
+                            {
+                                "answer_text": "Complex algorithms and renewable energy.",
+                                "is_correct": true
+                            },
+                            {
+                                "answer_text": "Traditional grid electricity.",
+                                "is_correct": false
+                            },
+                            {
+                                "answer_text": "Manual drivers relying on paper maps.",
+                                "is_correct": false
+                            }
+                        ]
+                    },
+                    {
+                        "question_id": "mock01-rd-035",
+                        "question_text": "What conclusion can be drawn from the passage regarding the future of cities?",
+                        "question_type": "single_answer_question",
+                        "answers": [
+                            {
+                                "answer_text": "Software engineering is essential for environmental sustainability.",
+                                "is_correct": true
+                            },
+                            {
+                                "answer_text": "Cities will eventually abandon all forms of digital technology.",
+                                "is_correct": false
+                            },
+                            {
+                                "answer_text": "Personal vehicles will become the only mode of transportation.",
+                                "is_correct": false
+                            },
+                            {
+                                "answer_text": "Environmental science is no longer relevant in urban planning.",
+                                "is_correct": false
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "reading_set_id": "mock01-read-part3",
+                "type": "reading_comprehension",
+                "title": "Part 3: Reading - The Psychology of App Development",
+                "reading_passage": "When developing a new mobile application, software engineers must consider more than just functional code; they must deeply understand user psychology. User Interface (UI) and User Experience (UX) design are heavily influenced by behavioral science. For instance, color theory plays a vital role in how users perceive an app. Banking and financial applications predominantly use blue in their interfaces because psychological studies have shown that blue instills a sense of trust, security, and stability in users.\n\nFurthermore, the concept of 'cognitive load'—the amount of mental effort required to use an application—is crucial. If an app's navigation is too complex or cluttered, users will experience a high cognitive load, leading to frustration and application abandonment. To combat this, successful apps employ minimalist designs, using ample white space and intuitive icons. By reducing the mental strain on the user, developers can significantly increase engagement and long-term user retention. Ultimately, the best code in the world cannot save an app if its psychological design is flawed.",
+                "questions": [
+                    {
+                        "question_id": "mock01-rd-036",
+                        "question_text": "What is the primary message of this passage?",
+                        "question_type": "single_answer_question",
+                        "answers": [
+                            {
+                                "answer_text": "Code optimization is the only important factor in app development.",
+                                "is_correct": false
+                            },
+                            {
+                                "answer_text": "Understanding user psychology is essential for successful app design.",
+                                "is_correct": true
+                            },
+                            {
+                                "answer_text": "Blue is the only color that should be used in mobile apps.",
+                                "is_correct": false
+                            },
+                            {
+                                "answer_text": "Complex navigation features demonstrate developer skill.",
+                                "is_correct": false
+                            }
+                        ]
+                    },
+                    {
+                        "question_id": "mock01-rd-037",
+                        "question_text": "Why do banking apps often use the color blue?",
+                        "question_type": "single_answer_question",
+                        "answers": [
+                            {
+                                "answer_text": "Because it makes the text easier to read in the dark.",
+                                "is_correct": false
+                            },
+                            {
+                                "answer_text": "Because it is the cheapest color to render on screens.",
+                                "is_correct": false
+                            },
+                            {
+                                "answer_text": "Because it psychologically promotes trust and security.",
+                                "is_correct": true
+                            },
+                            {
+                                "answer_text": "Because users usually request it in feedback forms.",
+                                "is_correct": false
+                            }
+                        ]
+                    },
+                    {
+                        "question_id": "mock01-rd-038",
+                        "question_text": "What happens when an application has a high 'cognitive load'?",
+                        "question_type": "single_answer_question",
+                        "answers": [
+                            {
+                                "answer_text": "Users navigate through the app much faster.",
+                                "is_correct": false
+                            },
+                            {
+                                "answer_text": "The app uses too much memory on the smartphone.",
+                                "is_correct": false
+                            },
+                            {
+                                "answer_text": "Users become frustrated and are likely to abandon the app.",
+                                "is_correct": true
+                            },
+                            {
+                                "answer_text": "The developers get paid more for their complex work.",
+                                "is_correct": false
+                            }
+                        ]
+                    },
+                    {
+                        "question_id": "mock01-rd-039",
+                        "question_text": "How do developers combat high cognitive load in apps?",
+                        "question_type": "single_answer_question",
+                        "answers": [
+                            {
+                                "answer_text": "By using minimalist designs and intuitive icons.",
+                                "is_correct": true
+                            },
+                            {
+                                "answer_text": "By adding more text and detailed instructions.",
+                                "is_correct": false
+                            },
+                            {
+                                "answer_text": "By forcing users to take a tutorial before using the app.",
+                                "is_correct": false
+                            },
+                            {
+                                "answer_text": "By using bright red colors to keep users alert.",
+                                "is_correct": false
+                            }
+                        ]
+                    },
+                    {
+                        "question_id": "mock01-rd-040",
+                        "question_text": "What does the author conclude about 'the best code in the world'?",
+                        "question_type": "single_answer_question",
+                        "answers": [
+                            {
+                                "answer_text": "It can overcome any bad design choices.",
+                                "is_correct": false
+                            },
+                            {
+                                "answer_text": "It guarantees that millions of users will download the app.",
+                                "is_correct": false
+                            },
+                            {
+                                "answer_text": "It is useless if the app's psychological design is flawed.",
+                                "is_correct": true
+                            },
+                            {
+                                "answer_text": "It automatically reduces cognitive load.",
+                                "is_correct": false
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

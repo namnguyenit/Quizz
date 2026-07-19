@@ -1,0 +1,1184 @@
+{
+    "exam_id": "eng-mock-canvas-b1b2-03",
+    "title": "ĐỀ THI MÔ PHỎNG CANVAS 03 - B1+/B2 (IT & TECH CONTEXT)",
+    "parts": {
+        "mcq": [
+            {
+                "question_id": "mock03-mc-001",
+                "question_text": "By the end of this current sprint, the development team ___ the new payment gateway API.",
+                "question_type": "single_answer_question",
+                "answers": [
+                    {
+                        "answer_text": "will complete",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "will have completed",
+                        "is_correct": true
+                    },
+                    {
+                        "answer_text": "has completed",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "is completing",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_id": "mock03-mc-002",
+                "question_text": "If the legacy system ___ fully updated last year, the company ___ these severe data breaches right now.",
+                "question_type": "single_answer_question",
+                "answers": [
+                    {
+                        "answer_text": "was / wouldn't face",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "had been / wouldn't be facing",
+                        "is_correct": true
+                    },
+                    {
+                        "answer_text": "had been / wouldn't have faced",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "were / won't face",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_id": "mock03-mc-003",
+                "question_text": "The IT support team had to ___ a lot of complaints from frustrated users when the main server went offline.",
+                "question_type": "single_answer_question",
+                "answers": [
+                    {
+                        "answer_text": "put up with",
+                        "is_correct": true
+                    },
+                    {
+                        "answer_text": "come up with",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "get away with",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "look forward to",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_id": "mock03-mc-004",
+                "question_text": "It is widely ___ that quantum computers will eventually break traditional encryption methods.",
+                "question_type": "single_answer_question",
+                "answers": [
+                    {
+                        "answer_text": "predicting",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "predicted",
+                        "is_correct": true
+                    },
+                    {
+                        "answer_text": "to predict",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "predict",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_id": "mock03-mc-005",
+                "question_text": "The microchips ___ in the latest generation of smartphones are primarily manufactured in Taiwan.",
+                "question_type": "single_answer_question",
+                "answers": [
+                    {
+                        "answer_text": "using",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "which use",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "are used",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "used",
+                        "is_correct": true
+                    }
+                ]
+            },
+            {
+                "question_id": "mock03-mc-006",
+                "question_text": "You ___ left your laptop unlocked in the coffee shop; it's a massive security risk.",
+                "question_type": "single_answer_question",
+                "answers": [
+                    {
+                        "answer_text": "mustn't have",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "can't have",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "shouldn't have",
+                        "is_correct": true
+                    },
+                    {
+                        "answer_text": "needn't have",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_id": "mock03-mc-007",
+                "question_text": "The software engineer came up with a highly ___ solution to fix the database bottleneck.",
+                "question_type": "single_answer_question",
+                "answers": [
+                    {
+                        "answer_text": "repetitive",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "cutting-edge",
+                        "is_correct": true
+                    },
+                    {
+                        "answer_text": "generous",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "obsolete",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_id": "mock03-mc-008",
+                "question_text": "The chief security officer strongly recommended ___ all employee passwords every 90 days.",
+                "question_type": "single_answer_question",
+                "answers": [
+                    {
+                        "answer_text": "to change",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "change",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "changed",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "changing",
+                        "is_correct": true
+                    }
+                ]
+            },
+            {
+                "question_id": "mock03-mc-009",
+                "question_text": "Only after the cloud storage system crashed completely ___ how crucial daily backups were.",
+                "question_type": "single_answer_question",
+                "answers": [
+                    {
+                        "answer_text": "the developers realized",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "did the developers realize",
+                        "is_correct": true
+                    },
+                    {
+                        "answer_text": "the developers did realize",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "had the developers realized",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_id": "mock03-mc-010",
+                "question_text": "Blockchain technology essentially provides a decentralized ___ for recording transactions securely and transparently.",
+                "question_type": "single_answer_question",
+                "answers": [
+                    {
+                        "answer_text": "ledger",
+                        "is_correct": true
+                    },
+                    {
+                        "answer_text": "gadget",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "browser",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "folder",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_id": "mock03-mc-011",
+                "question_text": "The UX designer conducted extensive user research to ensure the mobile application was highly ___ to elderly people.",
+                "question_type": "single_answer_question",
+                "answers": [
+                    {
+                        "answer_text": "accessible",
+                        "is_correct": true
+                    },
+                    {
+                        "answer_text": "vulnerable",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "sustainable",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "profitable",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_id": "mock03-mc-012",
+                "question_text": "___ the high cost of the enterprise license, the startup decided to switch to an open-source alternative.",
+                "question_type": "single_answer_question",
+                "answers": [
+                    {
+                        "answer_text": "Because",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "Although",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "Due to",
+                        "is_correct": true
+                    },
+                    {
+                        "answer_text": "Despite",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_id": "mock03-mc-013",
+                "question_text": "___ complex algorithms without adding proper documentation is considered a terrible coding practice.",
+                "question_type": "single_answer_question",
+                "answers": [
+                    {
+                        "answer_text": "Write",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "Written",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "Writing",
+                        "is_correct": true
+                    },
+                    {
+                        "answer_text": "To writing",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_id": "mock03-mc-014",
+                "question_text": "The tech startup, ___ founders are recent MIT graduates, just got acquired by Microsoft for $100 million.",
+                "question_type": "single_answer_question",
+                "answers": [
+                    {
+                        "answer_text": "who",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "whose",
+                        "is_correct": true
+                    },
+                    {
+                        "answer_text": "whom",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "which",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_id": "mock03-mc-015",
+                "question_text": "To prevent unauthorized access to sensitive company data, you must use two-factor .",
+                "question_type": "single_answer_question",
+                "answers": [
+                    {
+                        "answer_text": "automation",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "communication",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "authentication",
+                        "is_correct": true
+                    },
+                    {
+                        "answer_text": "navigation",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_id": "mock03-mc-016",
+                "question_text": "The machine learning algorithm processes big data so ___ that the analytical results are delivered in milliseconds.",
+                "question_type": "single_answer_question",
+                "answers": [
+                    {
+                        "answer_text": "rapid",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "rapidly",
+                        "is_correct": true
+                    },
+                    {
+                        "answer_text": "sluggishly",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "slow",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_id": "mock03-mc-017",
+                "question_text": "Because the developers encountered several unexpected bugs, the project is currently falling ___ schedule.",
+                "question_type": "single_answer_question",
+                "answers": [
+                    {
+                        "answer_text": "behind",
+                        "is_correct": true
+                    },
+                    {
+                        "answer_text": "under",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "below",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "after",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_id": "mock03-mc-018",
+                "question_text": "The project manager demanded that the critical bug ___ fixed immediately before the application's official release.",
+                "question_type": "single_answer_question",
+                "answers": [
+                    {
+                        "answer_text": "is",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "was",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "be",
+                        "is_correct": true
+                    },
+                    {
+                        "answer_text": "has been",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_id": "mock03-mc-019",
+                "question_text": "According to the new privacy policy, all sensitive user data must ___ before being transferred to the cloud server.",
+                "question_type": "single_answer_question",
+                "answers": [
+                    {
+                        "answer_text": "encrypt",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "be encrypted",
+                        "is_correct": true
+                    },
+                    {
+                        "answer_text": "encrypting",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "have encrypted",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_id": "mock03-mc-020",
+                "question_text": "Modern wearable devices are equipped with tiny biometric ___ that can constantly monitor your heart rate and sleep patterns.",
+                "question_type": "single_answer_question",
+                "answers": [
+                    {
+                        "answer_text": "sensors",
+                        "is_correct": true
+                    },
+                    {
+                        "answer_text": "censors",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "sponsors",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "cursors",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_id": "mock03-mc-021",
+                "question_text": "It is absolutely vital that every software engineer ___ a strict non-disclosure agreement before joining the project.",
+                "question_type": "single_answer_question",
+                "answers": [
+                    {
+                        "answer_text": "signs",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "signed",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "sign",
+                        "is_correct": true
+                    },
+                    {
+                        "answer_text": "is signing",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_id": "mock03-mc-022",
+                "question_text": "Software ___ involves repeatedly running and testing the code to identify and eliminate logic errors.",
+                "question_type": "single_answer_question",
+                "answers": [
+                    {
+                        "answer_text": "debugging",
+                        "is_correct": true
+                    },
+                    {
+                        "answer_text": "deploying",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "compiling",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "hosting",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_id": "mock03-mc-023",
+                "question_text": " known about the software compatibility issue, I would never have updated my operating system.",
+                "question_type": "single_answer_question",
+                "answers": [
+                    {
+                        "answer_text": "If I had",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "Had I",
+                        "is_correct": true
+                    },
+                    {
+                        "answer_text": "If I have",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "Have I",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_id": "mock03-mc-024",
+                "question_text": "While the front-end developers ___ the user interface, the back-end team was setting up the database structures.",
+                "question_type": "single_answer_question",
+                "answers": [
+                    {
+                        "answer_text": "designed",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "have designed",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "were designing",
+                        "is_correct": true
+                    },
+                    {
+                        "answer_text": "had designed",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_id": "mock03-mc-025",
+                "question_text": "Using a Virtual Private Network (VPN) helps to maintain your ___ when browsing on unsecured public Wi-Fi networks.",
+                "question_type": "single_answer_question",
+                "answers": [
+                    {
+                        "answer_text": "anonymity",
+                        "is_correct": true
+                    },
+                    {
+                        "answer_text": "proximity",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "complexity",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "capability",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_id": "mock03-mc-041",
+                "question_text": "The / lead developer / ask / team / focus / optimize / application's / speed / today /.",
+                "question_type": "single_answer_question",
+                "answers": [
+                    {
+                        "answer_text": "The lead developer asked the team to focus on optimizing the application's speed today.",
+                        "is_correct": true
+                    },
+                    {
+                        "answer_text": "The lead developer asked the team focus on optimizing the application's speed today.",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "The lead developer asked the team to focus to optimize the application's speed today.",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "The lead developer asked the team focusing on optimizing the application's speed today.",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_id": "mock03-mc-042",
+                "question_text": "He / be / consider / be / one / most / talented / software engineers / our company /.",
+                "question_type": "single_answer_question",
+                "answers": [
+                    {
+                        "answer_text": "He considers to be one of the most talented software engineers in our company.",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "He is considered to be one of the most talented software engineers in our company.",
+                        "is_correct": true
+                    },
+                    {
+                        "answer_text": "He is considered being one of the most talented software engineers in our company.",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "He is considered to be one of most talented software engineer in our company.",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_id": "mock03-mc-043",
+                "question_text": "\"I will deploy the web application to the live server tomorrow\", she said.",
+                "question_type": "single_answer_question",
+                "answers": [
+                    {
+                        "answer_text": "She said that she will deploy the web application to the live server tomorrow.",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "She said that she would deploy the web application to the live server the next day.",
+                        "is_correct": true
+                    },
+                    {
+                        "answer_text": "She said that she deploys the web application to the live server the next day.",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "She said that I would deploy the web application to the live server tomorrow.",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_id": "mock03-mc-044",
+                "question_text": "The machine learning task was so difficult that the junior programmer couldn't complete it.",
+                "question_type": "single_answer_question",
+                "answers": [
+                    {
+                        "answer_text": "It was such a difficult machine learning task that the junior programmer couldn't complete it.",
+                        "is_correct": true
+                    },
+                    {
+                        "answer_text": "The machine learning task was too difficult that the junior programmer couldn't complete it.",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "It was so difficult machine learning task that the junior programmer couldn't complete it.",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "The machine learning task was difficult enough for the junior programmer to complete it.",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_id": "mock03-mc-045",
+                "question_text": "The tech giant is currently developing a new artificial intelligence model.",
+                "question_type": "single_answer_question",
+                "answers": [
+                    {
+                        "answer_text": "A new artificial intelligence model is currently developed by the tech giant.",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "A new artificial intelligence model currently developed by the tech giant.",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "A new artificial intelligence model is currently being developed by the tech giant.",
+                        "is_correct": true
+                    },
+                    {
+                        "answer_text": "A new artificial intelligence model has been currently developing by the tech giant.",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_id": "mock03-mc-046",
+                "question_text": "Although the main server was down, the internal network remained fully operational.",
+                "question_type": "single_answer_question",
+                "answers": [
+                    {
+                        "answer_text": "Despite the main server was down, the internal network remained fully operational.",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "In spite of the main server being down, the internal network remained fully operational.",
+                        "is_correct": true
+                    },
+                    {
+                        "answer_text": "Because the main server was down, the internal network remained fully operational.",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "Despite of the main server being down, the internal network remained fully operational.",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_id": "mock03-mc-047",
+                "question_text": "I didn't back up the SQL database, so I lost all the customer records yesterday.",
+                "question_type": "single_answer_question",
+                "answers": [
+                    {
+                        "answer_text": "If I backed up the SQL database, I wouldn't lose all the customer records yesterday.",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "If I had backed up the SQL database, I wouldn't have lost all the customer records yesterday.",
+                        "is_correct": true
+                    },
+                    {
+                        "answer_text": "If I have backed up the SQL database, I won't lose all the customer records yesterday.",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "Unless I backed up the SQL database, I would have lost all the customer records yesterday.",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_id": "mock03-mc-048",
+                "question_text": "Security experts believe that hackers stole the encrypted user data last week.",
+                "question_type": "single_answer_question",
+                "answers": [
+                    {
+                        "answer_text": "Hackers are believed to have stolen the encrypted user data last week.",
+                        "is_correct": true
+                    },
+                    {
+                        "answer_text": "Hackers are believed to steal the encrypted user data last week.",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "It is believed that hackers to steal the encrypted user data last week.",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "Hackers were believed to have stolen the encrypted user data last week.",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_id": "mock03-mc-049",
+                "question_text": "As soon as the security patch was released, millions of users downloaded it.",
+                "question_type": "single_answer_question",
+                "answers": [
+                    {
+                        "answer_text": "Hardly the security patch was released when millions of users downloaded it.",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "No sooner had the security patch been released when millions of users downloaded it.",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "Hardly had the security patch been released when millions of users downloaded it.",
+                        "is_correct": true
+                    },
+                    {
+                        "answer_text": "Scarcely had the security patch been released than millions of users downloaded it.",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_id": "mock03-mc-050",
+                "question_text": "I haven't written any code in Java for three years.",
+                "question_type": "single_answer_question",
+                "answers": [
+                    {
+                        "answer_text": "The last time I wrote any code in Java was three years ago.",
+                        "is_correct": true
+                    },
+                    {
+                        "answer_text": "I last write any code in Java three years ago.",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "It is three years when I have written any code in Java.",
+                        "is_correct": false
+                    },
+                    {
+                        "answer_text": "I didn't write any code in Java for three years ago.",
+                        "is_correct": false
+                    }
+                ]
+            }
+        ],
+        "reading": [
+            {
+                "reading_set_id": "mock03-read-part1",
+                "type": "reading_comprehension",
+                "title": "Part 1: Reading - Blockchain Beyond Cryptocurrency",
+                "reading_passage": "When most people hear the word 'blockchain', they immediately think of cryptocurrencies like Bitcoin. However, the underlying technology has potential applications that extend far beyond digital money. At its core, a blockchain is a distributed, immutable ledger. This means that data is recorded across a vast network of computers, and once entered, it cannot be altered or deleted. This unique structure ensures unparalleled transparency and security.\n\nOne of the most promising applications of blockchain is in supply chain management. Currently, tracking a product from its origin to the consumer is a complex process plagued by fraud and lost paperwork. By using a blockchain, every step of the journey is recorded transparently, allowing consumers to verify the authenticity of their goods. Furthermore, developers are utilizing 'smart contracts'—self-executing programs stored on a blockchain that automatically run when predetermined conditions are met. These could revolutionize industries like real estate and insurance by removing the need for expensive middlemen.",
+                "questions": [
+                    {
+                        "question_id": "mock03-rd-026",
+                        "question_text": "What is the main idea of the passage?",
+                        "question_type": "single_answer_question",
+                        "answers": [
+                            {
+                                "answer_text": "How to invest and make money in Bitcoin.",
+                                "is_correct": false
+                            },
+                            {
+                                "answer_text": "Blockchain's practical uses outside of digital currency.",
+                                "is_correct": true
+                            },
+                            {
+                                "answer_text": "The reasons why supply chains always fail.",
+                                "is_correct": false
+                            },
+                            {
+                                "answer_text": "How real estate agents use smart computers.",
+                                "is_correct": false
+                            }
+                        ]
+                    },
+                    {
+                        "question_id": "mock03-rd-027",
+                        "question_text": "The word 'immutable' in the first paragraph is closest in meaning to:",
+                        "question_type": "single_answer_question",
+                        "answers": [
+                            {
+                                "answer_text": "Inexpensive",
+                                "is_correct": false
+                            },
+                            {
+                                "answer_text": "Unchangeable",
+                                "is_correct": true
+                            },
+                            {
+                                "answer_text": "Invisible",
+                                "is_correct": false
+                            },
+                            {
+                                "answer_text": "Complicated",
+                                "is_correct": false
+                            }
+                        ]
+                    },
+                    {
+                        "question_id": "mock03-rd-028",
+                        "question_text": "How does blockchain improve supply chain management?",
+                        "question_type": "single_answer_question",
+                        "answers": [
+                            {
+                                "answer_text": "By increasing the amount of paperwork needed.",
+                                "is_correct": false
+                            },
+                            {
+                                "answer_text": "By hiding the product's origin from competitors.",
+                                "is_correct": false
+                            },
+                            {
+                                "answer_text": "By providing transparent and verifiable tracking of goods.",
+                                "is_correct": true
+                            },
+                            {
+                                "answer_text": "By making transportation faster using automated trucks.",
+                                "is_correct": false
+                            }
+                        ]
+                    },
+                    {
+                        "question_id": "mock03-rd-029",
+                        "question_text": "What are 'smart contracts'?",
+                        "question_type": "single_answer_question",
+                        "answers": [
+                            {
+                                "answer_text": "Lawyers who specialize in technology cases.",
+                                "is_correct": false
+                            },
+                            {
+                                "answer_text": "Digital money used specifically in real estate.",
+                                "is_correct": false
+                            },
+                            {
+                                "answer_text": "Self-executing programs that run when conditions are met.",
+                                "is_correct": true
+                            },
+                            {
+                                "answer_text": "Paper contracts that are signed digitally.",
+                                "is_correct": false
+                            }
+                        ]
+                    },
+                    {
+                        "question_id": "mock03-rd-030",
+                        "question_text": "Why is blockchain considered highly secure?",
+                        "question_type": "single_answer_question",
+                        "answers": [
+                            {
+                                "answer_text": "Because the data is distributed and cannot be easily altered.",
+                                "is_correct": true
+                            },
+                            {
+                                "answer_text": "Because it is completely disconnected from the internet.",
+                                "is_correct": false
+                            },
+                            {
+                                "answer_text": "Because it relies on physical vaults to store information.",
+                                "is_correct": false
+                            },
+                            {
+                                "answer_text": "Because only government officials can access it.",
+                                "is_correct": false
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "reading_set_id": "mock03-read-part2",
+                "type": "reading_comprehension",
+                "title": "Part 2: Reading - Virtual and Augmented Reality in Training",
+                "reading_passage": "Virtual Reality (VR) and Augmented Reality (AR) were once confined to the realm of video games and entertainment. Today, these immersive technologies are transforming professional training across high-stakes industries. While VR completely replaces the user's real-world environment with a simulated one, AR overlays digital information and graphics onto the physical world.\n\nIn medical education, VR allows surgical residents to practice complex procedures in a risk-free, simulated operating room. They can make mistakes and learn from them without endangering human lives. Similarly, in the aviation and manufacturing sectors, AR headsets provide technicians with hands-free, real-time instructions projected directly onto the machinery they are repairing. Despite the undeniable benefits, widespread adoption is currently hindered by the high cost of initial hardware and the complexity of developing custom software for these platforms. However, as the hardware becomes more affordable, immersive training is expected to become the industry standard.",
+                "questions": [
+                    {
+                        "question_id": "mock03-rd-031",
+                        "question_text": "What is the primary purpose of this text?",
+                        "question_type": "single_answer_question",
+                        "answers": [
+                            {
+                                "answer_text": "To sell VR headsets for video games.",
+                                "is_correct": false
+                            },
+                            {
+                                "answer_text": "To explain the difference between aviation and medicine.",
+                                "is_correct": false
+                            },
+                            {
+                                "answer_text": "To discuss the application of VR and AR in professional training.",
+                                "is_correct": true
+                            },
+                            {
+                                "answer_text": "To discourage the use of AR in manufacturing.",
+                                "is_correct": false
+                            }
+                        ]
+                    },
+                    {
+                        "question_id": "mock03-rd-032",
+                        "question_text": "How does Augmented Reality (AR) differ from Virtual Reality (VR)?",
+                        "question_type": "single_answer_question",
+                        "answers": [
+                            {
+                                "answer_text": "AR completely replaces the real world, while VR does not.",
+                                "is_correct": false
+                            },
+                            {
+                                "answer_text": "AR adds digital elements to the real physical world.",
+                                "is_correct": true
+                            },
+                            {
+                                "answer_text": "AR is only used for entertainment and video games.",
+                                "is_correct": false
+                            },
+                            {
+                                "answer_text": "AR is significantly cheaper to develop than VR.",
+                                "is_correct": false
+                            }
+                        ]
+                    },
+                    {
+                        "question_id": "mock03-rd-033",
+                        "question_text": "What is a major benefit of using VR in medical education?",
+                        "question_type": "single_answer_question",
+                        "answers": [
+                            {
+                                "answer_text": "It allows students to practice surgery without risking patient safety.",
+                                "is_correct": true
+                            },
+                            {
+                                "answer_text": "It completely replaces the need for human doctors.",
+                                "is_correct": false
+                            },
+                            {
+                                "answer_text": "It makes surgical procedures physically faster in real life.",
+                                "is_correct": false
+                            },
+                            {
+                                "answer_text": "It lowers the cost of actual hospital equipment.",
+                                "is_correct": false
+                            }
+                        ]
+                    },
+                    {
+                        "question_id": "mock03-rd-034",
+                        "question_text": "According to the passage, what currently hinders the widespread adoption of VR/AR?",
+                        "question_type": "single_answer_question",
+                        "answers": [
+                            {
+                                "answer_text": "A lack of interest from medical professionals.",
+                                "is_correct": false
+                            },
+                            {
+                                "answer_text": "The high hardware costs and complex software development.",
+                                "is_correct": true
+                            },
+                            {
+                                "answer_text": "The fact that VR causes physical harm to technicians.",
+                                "is_correct": false
+                            },
+                            {
+                                "answer_text": "The slow internet speeds in manufacturing plants.",
+                                "is_correct": false
+                            }
+                        ]
+                    },
+                    {
+                        "question_id": "mock03-rd-035",
+                        "question_text": "The word 'immersive' in the first paragraph is closest in meaning to:",
+                        "question_type": "single_answer_question",
+                        "answers": [
+                            {
+                                "answer_text": "Boring",
+                                "is_correct": false
+                            },
+                            {
+                                "answer_text": "Expensive",
+                                "is_correct": false
+                            },
+                            {
+                                "answer_text": "Completely involving or surrounding",
+                                "is_correct": true
+                            },
+                            {
+                                "answer_text": "Difficult to understand",
+                                "is_correct": false
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "reading_set_id": "mock03-read-part3",
+                "type": "reading_comprehension",
+                "title": "Part 3: Reading - The Rise of Edge Computing",
+                "reading_passage": "For the past decade, cloud computing has dominated the IT industry. Data generated by user devices is sent to centralized cloud servers for processing, and the results are sent back. However, as the Internet of Things (IoT) expands, sending massive amounts of data back and forth creates a problem known as 'latency'—a slight delay in data transmission. For a smart thermostat, a one-second delay is unnoticeable. But for an autonomous self-driving car processing obstacle data, a delay of milliseconds can be fatal.\n\nTo solve this, engineers have introduced 'Edge Computing'. Instead of sending all data to a distant cloud server, edge computing processes critical data locally, right at the 'edge' of the network where the device is located. By doing so, devices can react instantaneously. While edge computing will not replace cloud computing, the two will work in tandem. The edge will handle immediate, time-sensitive tasks, while the cloud will be reserved for complex, long-term data analysis and storage.",
+                "questions": [
+                    {
+                        "question_id": "mock03-rd-036",
+                        "question_text": "What problem does traditional cloud computing face with the growth of IoT?",
+                        "question_type": "single_answer_question",
+                        "answers": [
+                            {
+                                "answer_text": "It completely destroys the user's local devices.",
+                                "is_correct": false
+                            },
+                            {
+                                "answer_text": "It creates 'latency' or delays in data transmission.",
+                                "is_correct": true
+                            },
+                            {
+                                "answer_text": "It costs too much money to build smart thermostats.",
+                                "is_correct": false
+                            },
+                            {
+                                "answer_text": "It prevents autonomous cars from turning on.",
+                                "is_correct": false
+                            }
+                        ]
+                    },
+                    {
+                        "question_id": "mock03-rd-037",
+                        "question_text": "What does the term 'latency' refer to in the text?",
+                        "question_type": "single_answer_question",
+                        "answers": [
+                            {
+                                "answer_text": "The physical distance between a car and a server.",
+                                "is_correct": false
+                            },
+                            {
+                                "answer_text": "The amount of data a device can store.",
+                                "is_correct": false
+                            },
+                            {
+                                "answer_text": "A slight delay in the transmission of data.",
+                                "is_correct": true
+                            },
+                            {
+                                "answer_text": "A virus that infects smart thermostats.",
+                                "is_correct": false
+                            }
+                        ]
+                    },
+                    {
+                        "question_id": "mock03-rd-038",
+                        "question_text": "How does Edge Computing solve the latency problem?",
+                        "question_type": "single_answer_question",
+                        "answers": [
+                            {
+                                "answer_text": "By stopping devices from generating any data.",
+                                "is_correct": false
+                            },
+                            {
+                                "answer_text": "By processing critical data locally near the device.",
+                                "is_correct": true
+                            },
+                            {
+                                "answer_text": "By making cloud servers physically larger.",
+                                "is_correct": false
+                            },
+                            {
+                                "answer_text": "By replacing all IoT devices with traditional computers.",
+                                "is_correct": false
+                            }
+                        ]
+                    },
+                    {
+                        "question_id": "mock03-rd-039",
+                        "question_text": "Why is Edge Computing crucial for autonomous vehicles?",
+                        "question_type": "single_answer_question",
+                        "answers": [
+                            {
+                                "answer_text": "Because they need instant data processing to avoid accidents.",
+                                "is_correct": true
+                            },
+                            {
+                                "answer_text": "Because they don't have enough battery power to connect to the cloud.",
+                                "is_correct": false
+                            },
+                            {
+                                "answer_text": "Because they are entirely controlled by human drivers.",
+                                "is_correct": false
+                            },
+                            {
+                                "answer_text": "Because they need to store long-term data on local hard drives.",
+                                "is_correct": false
+                            }
+                        ]
+                    },
+                    {
+                        "question_id": "mock03-rd-040",
+                        "question_text": "What is the relationship between Edge and Cloud computing in the future?",
+                        "question_type": "single_answer_question",
+                        "answers": [
+                            {
+                                "answer_text": "Edge computing will completely destroy and replace cloud computing.",
+                                "is_correct": false
+                            },
+                            {
+                                "answer_text": "They will work together, handling different types of tasks.",
+                                "is_correct": true
+                            },
+                            {
+                                "answer_text": "Cloud computing will be banned for security reasons.",
+                                "is_correct": false
+                            },
+                            {
+                                "answer_text": "They will merge into a single physical server.",
+                                "is_correct": false
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
